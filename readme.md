@@ -34,6 +34,11 @@ auditoría a `pending`, recalcula lo derivado, rechaza duplicados por id, nombre
 nuevos; nunca sobreescribe. `?dryRun=1` valida sin escribir. Variables: `VITE_INGEST_TOKEN` (obligatoria) y
 `VITE_APP_URL` (opcional; en Vercel se toma de `VERCEL_PROJECT_PRODUCTION_URL`).
 
+En desarrollo, `npm run dev` también sirve `/api/investors` con el mismo handler (plugin `localApi` en
+`vite.config.ts`), así que se puede probar con `curl` contra `http://localhost:5173/api/investors`. El endpoint que va
+en el prompt es `VITE_APP_URL` si está definida y, si no, el origen de la página: un chat externo no puede llegar a
+`localhost`, así que en local conviene definir `VITE_APP_URL` con la URL del deploy.
+
 ## Recupero ante desastres
 
 `snapshot/investors/` es una copia versionada de la colección, no una fuente de verdad. Antes de una tarea riesgosa:

@@ -63,7 +63,7 @@
     "Su formación es de arquitectura y diseño (USC + Harvard), no de ingeniería de software: la diligencia técnica profunda dependerá de asesores externos."
   ],
   "como_llegar": [
-    "1) Email directo a partners@mendoza-ventures.com; el formulario de contacto (https://mendoza-ventures.com/contact/) pide identificarse como fundador y el fondo publica también teléfono (617-505-6070) y dirección. Es de los fondos más accesibles de la lista sin intro.",
+    "1) Email directo a partners@mendoza-ventures.com; el formulario de contacto (https://mendoza-ventures.com/contact/) pide identificarse como fundador y el fondo publica también teléfono (617-505-6070) y dirección. Es un fondo accesible sin intro.",
     "2) X/Twitter @AdrianMendozaVC y LinkedIn in/adrianmendozavc, ambos activos.",
     "3) Vía Senofer Mendoza, cofundadora y General Partner, miembro del National Advisory Committee of Innovation and Entrepreneurship: es la otra mitad decisora.",
     "4) Vía Mendoza Impact, su 501(c)(3) para fundadores y gestores diversos: puerta natural para un equipo hispanohablante.",
@@ -117,6 +117,7 @@
       "espanol": 3,
       "acceso": 12,
       "ajuste": -3,
+      "ajuste_motivo": "Escepticismo público declarado sobre el hype de la IA ('AI Hype 2.0', CNBC 2025).",
       "bruto": 46,
       "topes": [],
       "total": 46

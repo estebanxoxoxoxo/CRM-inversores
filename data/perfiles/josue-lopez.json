@@ -123,6 +123,7 @@
       "espanol": 2,
       "acceso": 8,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 42,
       "topes": [],
       "total": 42

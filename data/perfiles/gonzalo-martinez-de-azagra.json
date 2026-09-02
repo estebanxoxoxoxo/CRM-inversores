@@ -117,11 +117,12 @@
       "espanol": 15,
       "acceso": 10,
       "ajuste": -3,
+      "ajuste_motivo": "Deal flow mayoritariamente israelí; el texto del fondo espera validación de mercado y de-risking tecnológico.",
       "bruto": 80,
       "topes": [],
       "total": 80
     },
-    "motivo": "Único GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
+    "motivo": "GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
     "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",

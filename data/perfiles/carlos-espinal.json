@@ -119,6 +119,7 @@
       "espanol": 15,
       "acceso": 11,
       "ajuste": -6,
+      "ajuste_motivo": "Fuera de región (Londres) y filtro geográfico Europa/Israel que obliga a construir el ángulo europeo.",
       "bruto": 80,
       "topes": [],
       "total": 80

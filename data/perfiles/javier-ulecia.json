@@ -141,11 +141,12 @@
       "espanol": 15,
       "acceso": 14,
       "ajuste": -8,
+      "ajuste_motivo": "Restricción legal: sólo sociedades domiciliadas en España; fondo IV en fase final de inversión.",
       "bruto": 75,
       "topes": [],
       "total": 75
     },
-    "motivo": "Único inversor español con un exit consumado en dev tools puros (Códice/Plastic SCM a Unity, único accionista institucional desde 2009) y con LeanXcale sostenida una década; Bullnet entra con prototipo y sin ingresos, email verificado. Reservas duras: sólo puede invertir en sociedades domiciliadas en España y el fondo IV está en fase final.",
+    "motivo": "Exit consumado en dev tools puros (Códice/Plastic SCM a Unity, único accionista institucional desde 2009) y con LeanXcale sostenida una década; Bullnet entra con prototipo y sin ingresos, email verificado. Reservas duras: sólo puede invertir en sociedades domiciliadas en España y el fondo IV está en fase final.",
     "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "alta",

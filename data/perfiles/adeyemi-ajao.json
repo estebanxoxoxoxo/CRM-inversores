@@ -20,7 +20,7 @@
   "email": "partners@base10.vc",
   "email_estado": "buzón general del fondo (público)",
   "por_que_es_interesante": [
-    "Español de origen (Madrid, Tuenti, Cabify, Jobandtalent) y entrevistado en español en 2026: el vínculo hispanohablante más verificable de la lista.",
+    "Español de origen (Madrid, Tuenti, Cabify, Jobandtalent) y entrevistado en español en 2026: vínculo hispanohablante plenamente verificable.",
     "Lideró la Serie B de 44M USD de HappyRobot (agentes de IA para logística, fundadores españoles): respalda a técnicos españoles en agentes.",
     "Capital fresco: 850M USD cerrados en junio de 2026 en dos vehículos; objetivo de 10-15 semillas al año.",
     "Ángulo: no vender infraestructura horizontal (no es su tesis) sino el coste laboral que elimina el stack en un sector concreto, con el harness como maquinaria."
@@ -111,6 +111,7 @@
       "espanol": 15,
       "acceso": 13,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 71,
       "topes": [],
       "total": 71

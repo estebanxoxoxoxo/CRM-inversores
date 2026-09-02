@@ -1,6 +1,13 @@
 {
  "diana-hu": {
-  "puntuacion": {"tesis": 20, "etapa": 20, "decision": 16, "espanol": 9, "acceso": 9, "ajuste": -3},
+  "puntuacion": {
+   "tesis": 20,
+   "etapa": 20,
+   "decision": 16,
+   "espanol": 9,
+   "acceso": 9,
+   "ajuste": -3
+  },
   "motivo": "YC invierte 500k USD sin condicionarlo a métricas y ella es la socia que más empuja 'make something agents want'; YC incluso publicó QM, un harness multiagente open source. Reservas: sólo vía batch (7% + SAFE, constitución en EE.UU. y presencia en la Bahía), no elige el grupo que te toca, fluidez en español no documentada.",
   "por_que": [
    "YC publicó en 2026 QM, 'a multiplayer agent harness for work' (MIT): construyen internamente lo que el cliente vende.",
@@ -21,8 +28,15 @@
   ]
  },
  "diego-oppenheimer": {
-  "puntuacion": {"tesis": 25, "etapa": 19, "decision": 15, "espanol": 15, "acceso": 15, "ajuste": 0},
-  "motivo": "El mejor encaje del conjunto: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
+  "puntuacion": {
+   "tesis": 25,
+   "etapa": 19,
+   "decision": 15,
+   "espanol": 15,
+   "acceso": 15,
+   "ajuste": 0
+  },
+  "motivo": "Encaje completo en todas las dimensiones: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
   "por_que": [
    "Dos vehículos en pre-seed y seed de infra de IA y dev tools: AI Tinkerers Fund (decide él) y Work-Bench (2-5M USD, lidera).",
    "No pide usuarios: el AI Tinkerers Fund selecciona por demo funcionando; lema 'working code beats hype, demos over slides'.",
@@ -42,7 +56,14 @@
   ]
  },
  "enrique-penichet": {
-  "puntuacion": {"tesis": 12, "etapa": 17, "decision": 18, "espanol": 15, "acceso": 10, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 12,
+   "etapa": 17,
+   "decision": 18,
+   "espanol": 15,
+   "acceso": 10,
+   "ajuste": 0
+  },
   "motivo": "Fondo Frontier Tech recién cerrado (>20M€, dic-2025, respaldado por FondICO, IVF y Tim Draper) con mandato de IA, cuántica y ciberseguridad en pre-seed y sólo nueve inversiones hechas; pero sin ningún precedente de dev tools o infra de software en 60+ participadas, escéptico con las valoraciones de IA y con dudas sobre si lidera.",
   "por_que": [
    "Dinero fresco y mandato escrito con IA y ciberseguridad: Frontier Tech, >20M€, cerrado el 2-dic-2025, nueve inversiones hechas.",
@@ -63,7 +84,14 @@
   ]
  },
  "enrique-salem": {
-  "puntuacion": {"tesis": 24, "etapa": 14, "decision": 20, "espanol": 15, "acceso": 13, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 24,
+   "etapa": 14,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 13,
+   "ajuste": 0
+  },
   "motivo": "Mandato literal 'early-stage infrastructure software', cartera exacta (Modal, Astronomer, Cogent, Straiker), invirtió en Cogent 'pre-founding', creció hablando español y publica su email. Reservas: especialización en ciberseguridad y punto dulce de cheque alto; BCV lidera seeds, pero su cheque natural es Serie A.",
   "por_que": [
    "Mandato literal 'early-stage infrastructure software'; cartera en la capa del cliente: Modal (cómputo serverless para IA), Astronomer, Cogent (agentes), Straiker.",
@@ -84,7 +112,14 @@
   ]
  },
  "eric-perez-grovas": {
-  "puntuacion": {"tesis": 4, "etapa": 17, "decision": 20, "espanol": 15, "acceso": 7, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 4,
+   "etapa": 17,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 7,
+   "ajuste": 0
+  },
   "motivo": "Etapa y cheque encajan (pre-seed y seed, primer institucional, 250k-3M USD) y lideró Kleva (voz IA), pero ni él ni Wollef tienen tesis, cartera ni discurso en deep tech, infraestructura o dev tools; sesgo fintech y e-commerce. Coinversor de segunda ronda, no líder deep tech.",
   "por_que": [
    "Pre-seed y seed, 'comfortable being first institutional investors', ticket 250k-3M USD con punto dulce 1,6M.",
@@ -105,7 +140,14 @@
   ]
  },
  "federico-molina": {
-  "puntuacion": {"tesis": 18, "etapa": 16, "decision": 14, "espanol": 15, "acceso": 10, "ajuste": -4},
+  "puntuacion": {
+   "tesis": 18,
+   "etapa": 16,
+   "decision": 14,
+   "espanol": 15,
+   "acceso": 10,
+   "ajuste": -4
+  },
   "motivo": "Hispanohablante nativo, equipo fundador de Auth0 y socio con decisión en NXTP, fondo con especialización en Developer Tools & Infrastructure (Auth0, Vercel) que entra pre-seed desde 500k USD; pero el Fund III es de 2023 con capacidad no confirmada, es Partner desde 2025 sin deals liderados, perfil de marketing y está fuera de región (Buenos Aires).",
   "por_que": [
    "Construyó desde dentro una compañía de dev tools de éxito global (Auth0, growth y analítica): entiende producto y comprador desarrollador sin traducción.",
@@ -126,7 +168,14 @@
   ]
  },
  "francisco-ruiz-izaguirre": {
-  "puntuacion": {"tesis": 24, "etapa": 20, "decision": 15, "espanol": 15, "acceso": 12, "ajuste": -2},
+  "puntuacion": {
+   "tesis": 24,
+   "etapa": 20,
+   "decision": 15,
+   "espanol": 15,
+   "acceso": 12,
+   "ajuste": -2
+  },
   "motivo": "La tesis de Carabela está escrita como una descripción del cliente: pre-seed deep tech B2B para 'engineers, developers, scientists', distribuido vía SDK, repo de GitHub o API, liderando con hasta 500k USD; seis años en AWS y escribe contra los 'AI wrappers'. Reservas: Fund II (20M) sin cierre confirmado, exige fundadores latinoamericanos y no invierte en solo founders.",
   "por_que": [
    "Tesis literal: producto para 'technical end-users' desplegado con documentación técnica; bienvenida explícita a 'SDK, GitHub Repo or API'.",
@@ -147,7 +196,14 @@
   ]
  },
  "gabriel-vasquez": {
-  "puntuacion": {"tesis": 10, "etapa": 18, "decision": 20, "espanol": 1, "acceso": 10, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 10,
+   "etapa": 18,
+   "decision": 20,
+   "espanol": 1,
+   "acceso": 10,
+   "ajuste": 0
+  },
   "motivo": "Escribe cheques de pre-seed reales desde a16z (Dentio 2,3M, Carecode 4M) y dirige Borderless Founders, una invitación abierta a fundadores internacionales; pero su vertical es IA aplicada (salud, fintech, ventas), no infraestructura ni dev tools, y no hay ninguna fuente sobre su origen ni su español.",
   "por_que": [
    "Su trabajo es encontrar equipos técnicos fuera de Silicon Valley y meterlos en a16z; escribe pre-seeds de verdad (Dentio, Carecode).",
@@ -168,8 +224,15 @@
   ]
  },
  "gonzalo-martinez-de-azagra": {
-  "puntuacion": {"tesis": 22, "etapa": 16, "decision": 20, "espanol": 15, "acceso": 10, "ajuste": -3},
-  "motivo": "Único GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
+  "puntuacion": {
+   "tesis": 22,
+   "etapa": 16,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 10,
+   "ajuste": -3
+  },
+  "motivo": "GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
   "por_que": [
    "Cardumen declara 'Developer Tools' como área de inversión e invierte en pre-seed y seed, no sólo Serie A.",
    "Lideró la seed de illumex (capa semántica para que la IA entienda datos de empresa), vendida a NVIDIA por ~60M USD: infraestructura profunda para IA, liderada en seed, con comprador estratégico.",
@@ -189,8 +252,15 @@
   ]
  },
  "guillermo-rauch": {
-  "puntuacion": {"tesis": 25, "etapa": 18, "decision": 10, "espanol": 15, "acceso": 7, "ajuste": -5},
-  "motivo": "El inversor hispanohablante con mejor encaje temático del mundo (Supabase, Resend, Browserbase, Chroma, Railway; tesis 'do it for the agents', 'The AI Cloud'), argentino con vínculo activo con Argentina. Pero es capital simbólico (5-50k USD), nunca lidera, acceso muy difícil como CEO de Vercel y posible solapamiento con la AI Cloud de Vercel: vale como señal.",
+  "puntuacion": {
+   "tesis": 25,
+   "etapa": 18,
+   "decision": 10,
+   "espanol": 15,
+   "acceso": 7,
+   "ajuste": -5
+  },
+  "motivo": "Encaje temático máximo (Supabase, Resend, Browserbase, Chroma, Railway; tesis 'do it for the agents', 'The AI Cloud'), argentino con vínculo activo con Argentina. Pero es capital simbólico (5-50k USD), nunca lidera, acceso muy difícil como CEO de Vercel y posible solapamiento con la AI Cloud de Vercel: vale como señal.",
   "por_que": [
    "Escribe y construye sobre 'agentic engineering', sandboxes de agentes y separación modelo/agente: la tesis del cliente en sus propias palabras.",
    "Cartera confirmada de infraestructura de desarrollador sin usuarios en el momento del cheque: Railway, Tinybird, Upstash, Chroma, Browserbase, Composio, Resend.",
@@ -210,7 +280,14 @@
   ]
  },
  "igor-de-la-sota": {
-  "puntuacion": {"tesis": 21, "etapa": 15, "decision": 20, "espanol": 15, "acceso": 9, "ajuste": -4},
+  "puntuacion": {
+   "tesis": 21,
+   "etapa": 15,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 9,
+   "ajuste": -4
+  },
   "motivo": "Cofundador de Cardumen, con categoría Developer Tools en cartera (Configu en pre-seed) y el exit de illumex a NVIDIA desde una seed que lideró; pero el deal flow es casi íntegramente israelí, los cheques de 1-3M exigen más señal, sólo hay buzón general y Azagra es el contacto primario del fondo.",
   "por_que": [
    "Uno de los pocos GP españoles que ha llevado una inversión pre-seed/seed de infraestructura de datos hasta un exit a NVIDIA (illumex).",
@@ -231,7 +308,14 @@
   ]
  },
  "inaki-berenguer": {
-  "puntuacion": {"tesis": 9, "etapa": 15, "decision": 12, "espanol": 15, "acceso": 12, "ajuste": -3},
+  "puntuacion": {
+   "tesis": 9,
+   "etapa": 15,
+   "decision": 12,
+   "espanol": 15,
+   "acceso": 12,
+   "ajuste": -3
+  },
   "motivo": "PhD en ingeniería por Cambridge, invierte pre-tracción en ciencia y LifeX participó en Zylon/PrivateGPT (infra de IA open source, equipo español); pero el mandato del fondo es longevidad, salud y clima, y declara evitar riesgo técnico y de mercado a la vez. La vía es su cheque ángel y sus intros, no LifeX.",
   "por_que": [
    "Entiende estructuralmente la apuesta pre-tracción: financia biología computacional y hardware fotónico sin clientes; cofundó una spin-off de fotónica (iPronics).",

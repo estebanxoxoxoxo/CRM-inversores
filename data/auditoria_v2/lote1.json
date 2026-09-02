@@ -1,9 +1,16 @@
 {
  "adeyemi-ajao": {
-  "puntuacion": {"tesis": 10, "etapa": 13, "decision": 20, "espanol": 15, "acceso": 13, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 10,
+   "etapa": 13,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 13,
+   "ajuste": 0
+  },
   "motivo": "Español nativo, GP con 850M USD frescos y 10-15 semillas al año, pero su tesis es automatización de la economía real (logística, nóminas), no infraestructura horizontal ni dev tools; su deal de agentes (HappyRobot) fue Serie B.",
   "por_que": [
-   "Español de origen (Madrid, Tuenti, Cabify, Jobandtalent) y entrevistado en español en 2026: el vínculo hispanohablante más verificable de la lista.",
+   "Español de origen (Madrid, Tuenti, Cabify, Jobandtalent) y entrevistado en español en 2026: vínculo hispanohablante plenamente verificable.",
    "Lideró la Serie B de 44M USD de HappyRobot (agentes de IA para logística, fundadores españoles): respalda a técnicos españoles en agentes.",
    "Capital fresco: 850M USD cerrados en junio de 2026 en dos vehículos; objetivo de 10-15 semillas al año.",
    "Ángulo: no vender infraestructura horizontal (no es su tesis) sino el coste laboral que elimina el stack en un sector concreto, con el harness como maquinaria."
@@ -15,7 +22,14 @@
   ]
  },
  "adrian-mendoza": {
-  "puntuacion": {"tesis": 7, "etapa": 15, "decision": 12, "espanol": 3, "acceso": 12, "ajuste": -3},
+  "puntuacion": {
+   "tesis": 7,
+   "etapa": 15,
+   "decision": 12,
+   "espanol": 3,
+   "acceso": 12,
+   "ajuste": -3
+  },
   "motivo": "Lidera desde pre-seed y tiene un precedente dev-adjacent (Wabbi), pero su tesis es modernizar sectores regulados, es escéptico público del hype de IA, el Fund III va por debajo de objetivo y no hay evidencia de español.",
   "por_que": [
    "GP latino que lidera rondas desde pre-seed con IA y ciberseguridad como verticales declaradas.",
@@ -31,7 +45,14 @@
   ]
  },
  "adriana-tortajada": {
-  "puntuacion": {"tesis": 17, "etapa": 10, "decision": 9, "espanol": 15, "acceso": 9, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 17,
+   "etapa": 10,
+   "decision": 9,
+   "espanol": 15,
+   "acceso": 9,
+   "ajuste": 0
+  },
   "motivo": "Mandato deep tech explícito e inversión directa en infraestructura para la economía de agentes (101obex), pero cheques reportados de 2-10M, estructura híbrida fondo de fondos, cierre del vehículo no confirmado y sin vía de contacto publicada.",
   "por_que": [
    "Tesis 'Productivity & Infrastructure': software, hardware e infraestructura como 'la capa donde la nueva tecnología cobra ingresos reales'.",
@@ -47,7 +68,14 @@
   ]
  },
  "alberto-gomez": {
-  "puntuacion": {"tesis": 24, "etapa": 17, "decision": 20, "espanol": 15, "acceso": 12, "ajuste": -2},
+  "puntuacion": {
+   "tesis": 24,
+   "etapa": 17,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 12,
+   "ajuste": -2
+  },
   "motivo": "Ha invertido tres veces en la tesis exacta del cliente (Airflows, TuringDream, TandemTrace) en seed y pre-seed desde Madrid, con criterio publicado de 'pioneer before market validation'. Reservas: sólo buzón general, y posible solapamiento con Airflows/TuringDream.",
   "por_que": [
    "Firmó personalmente la entrada de Adara en Airflows (2M€, 2026): 'IA convertida en software determinista y auditable', la tesis del stack IA-nativo.",
@@ -63,7 +91,14 @@
   ]
  },
  "alberto-yepez": {
-  "puntuacion": {"tesis": 12, "etapa": 7, "decision": 20, "espanol": 15, "acceso": 11, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 12,
+   "etapa": 7,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 11,
+   "ajuste": 0
+  },
   "motivo": "Español nativo con apetito por deep tech hispanohablante (Sherpa.ai, Multiverse, Maisa), pero mandato central de ciberseguridad y cheque típico de 5-10M USD en Serie A: demasiado tarde y demasiado grande para un pre-seed.",
   "por_que": [
    "Tesis que incluye 'infrastructure software' y IA, no sólo ciberseguridad.",
@@ -78,7 +113,14 @@
   ]
  },
  "alejandro-guerrero": {
-  "puntuacion": {"tesis": 17, "etapa": 19, "decision": 20, "espanol": 8, "acceso": 14, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 17,
+   "etapa": 19,
+   "decision": 20,
+   "espanol": 8,
+   "acceso": 14,
+   "ajuste": 0
+  },
   "motivo": "Lidera pre-seed de 1-3M USD y ya co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción) con la tesis 'la IA es un nuevo paradigma de computación'. Reservas: no es fondo deep tech, pide un wedge comercial claro y su fluidez en español no está documentada.",
   "por_que": [
    "Tesis del fondo casi literal al discurso del cliente: 'AI is a new computing paradigm' que obliga a reconstruir los sistemas centrales.",
@@ -93,7 +135,14 @@
   ]
  },
  "alex-rubalcava": {
-  "puntuacion": {"tesis": 17, "etapa": 18, "decision": 14, "espanol": 2, "acceso": 10, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 17,
+   "etapa": 18,
+   "decision": 14,
+   "espanol": 2,
+   "acceso": 10,
+   "ajuste": 0
+  },
   "motivo": "Tesis pre-seed deep tech B2B con filtro de eficiencia de ingeniería, lidera y es primer cheque institucional; pero español y origen sin evidencia, cheque de 300-750k y fusión con Amplify.LA (fondo generalista de LA, no Amplify Partners).",
   "por_que": [
    "Tesis publicada: pre-seed, B2B, deep tech, riesgo técnico alto y riesgo competitivo bajo.",
@@ -108,8 +157,15 @@
   ]
  },
  "alfonso-subiotto-marques": {
-  "puntuacion": {"tesis": 22, "etapa": 16, "decision": 6, "espanol": 15, "acceso": 13, "ajuste": 0},
-  "motivo": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y el evaluador técnico más cualificado del lote; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
+  "puntuacion": {
+   "tesis": 22,
+   "etapa": 16,
+   "decision": 6,
+   "espanol": 15,
+   "acceso": 13,
+   "ajuste": 0
+  },
+  "motivo": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y un evaluador técnico de primer nivel; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
   "por_que": [
    "Mandato declarado por él mismo: 'invest in developer tools and data infrastructure'; Lorimer tiene 14 compañías en esa categoría y entra 'pre-consensus at pre-seed and seed'.",
    "Ingeniero de sistemas real: motor vectorizado en CockroachDB, perfiles continuos con eBPF (Polar Signals, hoy Dash0), kernels CUDA, deterministic simulation testing.",
@@ -123,7 +179,14 @@
   ]
  },
  "ana-carolina-mexia-ponce": {
-  "puntuacion": {"tesis": 8, "etapa": 19, "decision": 12, "espanol": 15, "acceso": 13, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 8,
+   "etapa": 19,
+   "decision": 12,
+   "espanol": 15,
+   "acceso": 13,
+   "ajuste": 0
+  },
   "motivo": "Ingeniera de software (Stanford, LinkedIn) que invierte en la primera ronda institucional y exige fundador técnico, con email público; pero fondo de 7M USD sin Fondo II confirmado, tesis de industrias tradicionales del corredor EE.UU.-México y cero dev tools en cartera.",
   "por_que": [
    "Perfil técnico directo: BS Computer Science Stanford, ingeniera de software en LinkedIn; el fondo se define 'led by engineers' y exige al menos un fundador técnico.",
@@ -138,7 +201,14 @@
   ]
  },
  "andres-saborido": {
-  "puntuacion": {"tesis": 9, "etapa": 0, "decision": 14, "espanol": 15, "acceso": 10, "ajuste": -12},
+  "puntuacion": {
+   "tesis": 9,
+   "etapa": 0,
+   "decision": 14,
+   "espanol": 15,
+   "acceso": 10,
+   "ajuste": -12
+  },
   "motivo": "Wayra exige producto funcionando, tracción inicial y sinergia con Telefónica, y su modelo 2026 es 'venture client': el arquetipo que el cliente quiere evitar. Sólo tiene sentido como conversación de cliente o piloto a futuro.",
   "por_que": [
    "Hispanohablante nativo, 15 años en el ecosistema y 20M€ para desplegar en 2026 con IA y ciberseguridad entre sus prioridades.",
@@ -153,7 +223,14 @@
   ]
  },
  "andres-torrubia": {
-  "puntuacion": {"tesis": 20, "etapa": 0, "decision": 0, "espanol": 15, "acceso": 12, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 20,
+   "etapa": 0,
+   "decision": 0,
+   "espanol": 15,
+   "acceso": 12,
+   "ajuste": 0
+  },
   "motivo": "Construyó y publicó en abierto 'dual-agent', un harness multi-modelo con MCP, y es de los técnicos de IA más sólidos de España; pero no hay ni una inversión ángel documentada, así que su valor es de validador y advisor, no de capital.",
   "por_que": [
    "Ha construido con sus manos una versión reducida del segundo producto del cliente: dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP, MIT, en GitHub).",
@@ -167,7 +244,14 @@
   ]
  },
  "anna-cachadina-abello": {
-  "puntuacion": {"tesis": 23, "etapa": 17, "decision": 5, "espanol": 15, "acceso": 11, "ajuste": -3},
+  "puntuacion": {
+   "tesis": 23,
+   "etapa": 17,
+   "decision": 5,
+   "espanol": 15,
+   "acceso": 11,
+   "ajuste": -3
+  },
   "motivo": "Crane invierte desde 'inception' en infraestructura fundacional y dev tools (Qovery, Encord, Laminar) y ella es ingeniera barcelonesa que ya escribe sobre gobernanza y observabilidad de agentes; pero su título es 'Investor', no decide, el Fondo III no está confirmado y está fuera de región.",
   "por_que": [
    "Ingeniera de software (Goldman Sachs), catalana y castellanohablante nativa, en un fondo cuyo mandato es infraestructura fundacional, dev tools y open source desde 'inception'.",

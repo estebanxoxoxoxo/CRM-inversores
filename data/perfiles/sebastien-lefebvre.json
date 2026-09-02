@@ -124,11 +124,12 @@
       "espanol": 2,
       "acceso": 8,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 68,
       "topes": [],
       "total": 68
     },
-    "motivo": "La cartera de Elaia es probablemente la más parecida de Europa al producto del cliente (Tabnine, Giskard, dottxt, Vertesia, Traefik, FlexAI, Qbeast, Nuclia) y DTS3 (134M€, mar-2026) invierte 1-13M€ en pre-seed y seed 'at the earliest'; fundador dos veces con exit. Pero es francés sin español documentado, base en Barcelona no confirmada, huella pública nula y sólo buzón de inversiones.",
+    "motivo": "La cartera de Elaia es muy parecida al producto del cliente (Tabnine, Giskard, dottxt, Vertesia, Traefik, FlexAI, Qbeast, Nuclia) y DTS3 (134M€, mar-2026) invierte 1-13M€ en pre-seed y seed 'at the earliest'; fundador dos veces con exit. Pero es francés sin español documentado, base en Barcelona no confirmada, huella pública nula y sólo buzón de inversiones.",
     "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "media",

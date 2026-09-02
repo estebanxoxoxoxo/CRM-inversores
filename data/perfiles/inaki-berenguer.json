@@ -113,6 +113,7 @@
       "espanol": 15,
       "acceso": 12,
       "ajuste": -3,
+      "ajuste_motivo": "Declara evitar asumir a la vez riesgo tecnológico, de ingeniería y de mercado.",
       "bruto": 60,
       "topes": [
         "tesis < 10 → máx. 55"

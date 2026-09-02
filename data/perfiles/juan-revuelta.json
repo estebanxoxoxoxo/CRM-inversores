@@ -20,7 +20,7 @@
   "email": "info@swanlaab.com",
   "email_estado": "buzón general del fondo (público)",
   "por_que_es_interesante": [
-    "Codee (análisis y optimización de código C/C++/Fortran) en Swanlaab II: precedente casi inédito en el VC español; también Sax AI (agentes de KYC), IriusRisk, Nymiz.",
+    "Codee (análisis y optimización de código C/C++/Fortran) en Swanlaab II: precedente poco frecuente en el VC español; también Sax AI (agentes de KYC), IriusRisk, Nymiz.",
     "Criterio escrito: 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'.",
     "Lidera rondas con 500k-3M€; madrileño, castellanohablante nativo.",
     "Ángulo: barreras de entrada y propiedad del stack, no crecimiento; contactar cuando exista la demo para inversores."
@@ -33,7 +33,7 @@
   ],
   "antecedentes": "Ingeniero de formación y de primera carrera: trabajó como ingeniero en LSI Logic (Alemania) y en Texas Instruments (Francia), dos compañías de semiconductores, antes de pasar al mundo financiero como analista de equity research. Su etapa de capital riesgo empezó en iNova Capital y Tagua Capital, donde acumuló cerca de catorce años, y desde 2013 está en Swanlaab Venture Factory, firma fundada por el neerlandés Mark Kavelaars (más de 28 años entre tecnología, banca y VC, antiguo propietario de International Venture Consultants). Hoy suma más de 17 años de experiencia en capital riesgo en España. Fue pieza clave en la construcción del primer fondo de venture capital hispano-israelí de España: en 2014 Swanlaab firmó el acuerdo con Giza Venture Capital —firma israelí líder desde 1992— y en 2016 se materializó el Swanlaab Giza Innvierte Innovation Fund con respaldo de Innvierte (CDTI). También ha diseñado vehículos de inversión agrotech con foco en transferencia de tecnología. Es miembro del Comité de Inversiones de los fondos Tech y Search de la casa desde su creación. Sus socios actuales son Mark Kavelaars (Founder & Managing Partner), Verónica Trapa (Partner), Ángel Santos (Partner) y Mariluz Santos (COO).",
   "inversiones_relevantes": [
-    "Codee (Swanlaab II; herramientas para desarrolladores: análisis de código y optimización de rendimiento para C/C++/Fortran) — la inversión más relevante de todo el lote español en dev tools puros de alto rendimiento",
+    "Codee (Swanlaab II; herramientas para desarrolladores: análisis de código y optimización de rendimiento para C/C++/Fortran) — una inversión en dev tools puros de alto rendimiento, poco frecuente en el VC español",
     "Sax AI (Swanlaab II, Reino Unido; agentes de IA para sistemas de KYC bancario) — agentes de IA desplegados en un entorno regulado; demuestra apetito por infraestructura agéntica",
     "IriusRisk (Swanlaab I, 2017; plataforma automatizada de threat modeling, Huesca) — deep tech de ciberseguridad convertido en referente mundial; es la inversión que Juan Revuelta cita como su favorita",
     "Nymiz (Swanlaab II; enmascarado y anonimización de datos personales con IA) — infraestructura de datos y privacidad",
@@ -130,6 +130,7 @@
       "espanol": 15,
       "acceso": 10,
       "ajuste": -8,
+      "ajuste_motivo": "Incluye 'market traction' entre los requisitos de su vertical deep tech y B2B.",
       "bruto": 59,
       "topes": [],
       "total": 59

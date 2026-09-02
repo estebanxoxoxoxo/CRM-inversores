@@ -64,7 +64,7 @@
     "Premisa del brief a corregir: su foco NO es sólo hardware/robótica ni American Dynamism; en a16z era IA e infraestructura de software. Esto juega a favor, no en contra."
   ],
   "como_llegar": [
-    "1) Email directo y verificado: m@mascobot.com, publicado por él mismo en mascobot.com para que le escriban fundadores. Es la vía más limpia del lote y admite escribir en español.",
+    "1) Email directo y verificado: m@mascobot.com, publicado por él mismo en mascobot.com para que le escriban fundadores. Es una vía limpia y admite escribir en español.",
     "2) X/Twitter: @Mascobot, cuenta activa y muy técnica; responder o citar su post de marzo de 2026 sobre integración de Harbor con OSWorld para evaluación de computer-use agents es el gancho más específico posible.",
     "3) LinkedIn: https://www.linkedin.com/in/marcomascorro/.",
     "4) Red del Tecnológico de Monterrey y comunidades de fundadores mexicanos en Silicon Valley (Innovadores menores de 35 LatAm de MIT Technology Review, medios como Tec Review, El Financiero, Whitepaper.mx).",
@@ -123,6 +123,7 @@
       "espanol": 15,
       "acceso": 13,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 78,
       "topes": [],
       "total": 78

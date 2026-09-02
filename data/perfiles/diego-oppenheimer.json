@@ -112,11 +112,12 @@
       "espanol": 15,
       "acceso": 15,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 89,
       "topes": [],
       "total": 89
     },
-    "motivo": "El mejor encaje del conjunto: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
+    "motivo": "Encaje completo en todas las dimensiones: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
     "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",

@@ -107,11 +107,12 @@
       "espanol": 15,
       "acceso": 8,
       "ajuste": -3,
+      "ajuste_motivo": "HyperGrowth no despliega capital: cobra en equity por asesoría a compañías post-PMF.",
       "bruto": 43,
       "topes": [],
       "total": 43
     },
-    "motivo": "La persona hispanohablante mejor conectada del mundo dev tools (Vercel, Neon, Clerk, Together AI, Braintrust, Supabase), pero HyperGrowth no despliega capital (sweat equity en Series A-E post-PMF), su cheque ángel es de 5-25k con una sola inversión documentada y su especialidad es exactamente lo que el cliente aún no tiene: crecimiento y usuarios.",
+    "motivo": "Muy bien conectado en el ecosistema dev tools (Vercel, Neon, Clerk, Together AI, Braintrust, Supabase), pero HyperGrowth no despliega capital (sweat equity en Series A-E post-PMF), su cheque ángel es de 5-25k con una sola inversión documentada y su especialidad es exactamente lo que el cliente aún no tiene: crecimiento y usuarios.",
     "nivel_v1": "x",
     "prioridad_agente": "C",
     "confianza_agente": "alta",

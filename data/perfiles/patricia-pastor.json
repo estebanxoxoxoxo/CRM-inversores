@@ -129,11 +129,12 @@
       "espanol": 15,
       "acceso": 13,
       "ajuste": -3,
+      "ajuste_motivo": "Posible solapamiento de cartera con BrainGrid (harness de desarrollo IA-nativo).",
       "bruto": 87,
       "topes": [],
       "total": 87
     },
-    "motivo": "El encaje más literal de España: único fondo 100% IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), y criterio publicado de 'Architectural Empathy' y moat que no dependa de una API ajena. Reservas: fondo joven de 50M€ que coinvierte más que lidera, email inferido y posible solapamiento con BrainGrid.",
+    "motivo": "Encaje literal: fondo español dedicado 100% a IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), y criterio publicado de 'Architectural Empathy' y moat que no dependa de una API ajena. Reservas: fondo joven de 50M€ que coinvierte más que lidera, email inferido y posible solapamiento con BrainGrid.",
     "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",

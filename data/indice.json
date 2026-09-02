@@ -19,7 +19,7 @@
    "email": "diego.oppenheimer+site@gmail.com",
    "email_estado": "público verificado",
    "etapa_resumen": "AI Tinkerers Fund: pre-seed para builders de la comunidad; tamaño no publicado (ej. KinoSec, 1M USD a 15M de valoración).",
-   "motivo_nivel": "El mejor encaje del conjunto: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
+   "motivo_nivel": "Encaje completo en todas las dimensiones: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
    "puntuacion": {
     "tesis": 25,
     "etapa": 19,
@@ -27,6 +27,7 @@
     "espanol": 15,
     "acceso": 15,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 89,
     "topes": [],
     "total": 89
@@ -48,7 +49,7 @@
    "email": "patricia.pastor@nexttier.vc",
    "email_estado": "patrón inferido (no verificado)",
    "etapa_resumen": "Pre-seed y seed como núcleo, con capacidad hasta Serie A.",
-   "motivo_nivel": "El encaje más literal de España: único fondo 100% IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), y criterio publicado de 'Architectural Empathy' y moat que no dependa de una API ajena. Reservas: fondo joven de 50M€ que coinvierte más que lidera, email inferido y posible solapamiento con BrainGrid.",
+   "motivo_nivel": "Encaje literal: fondo español dedicado 100% a IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), y criterio publicado de 'Architectural Empathy' y moat que no dependa de una API ajena. Reservas: fondo joven de 50M€ que coinvierte más que lidera, email inferido y posible solapamiento con BrainGrid.",
    "puntuacion": {
     "tesis": 25,
     "etapa": 20,
@@ -56,6 +57,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": -3,
+    "ajuste_motivo": "Posible solapamiento de cartera con BrainGrid (harness de desarrollo IA-nativo).",
     "bruto": 87,
     "topes": [],
     "total": 87
@@ -85,6 +87,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 86,
     "topes": [],
     "total": 86
@@ -114,6 +117,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": -2,
+    "ajuste_motivo": "Posible solapamiento de cartera con Airflows y TuringDream; parte de las operaciones 2026 las firma Ross Strachan.",
     "bruto": 86,
     "topes": [],
     "total": 86
@@ -143,6 +147,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -2,
+    "ajuste_motivo": "PearX exige 12 semanas en el Área de la Bahía.",
     "bruto": 85,
     "topes": [],
     "total": 85
@@ -164,7 +169,7 @@
    "email": "nombre@500.co",
    "email_estado": "público (ver fuente)",
    "etapa_resumen": "Pre-seed, seed y Serie A; lidera rondas; cheques 100k-5M USD (VC Sheet).",
-   "motivo_nivel": "Programador en activo cuya conversación pública es la más cercana al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
+   "motivo_nivel": "Programador en activo cuya conversación pública está pegada al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
    "puntuacion": {
     "tesis": 22,
     "etapa": 19,
@@ -172,6 +177,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": -2,
+    "ajuste_motivo": "Vía estándar por programa de cohortes (300k USD) y foco geográfico en LatAm.",
     "bruto": 85,
     "topes": [],
     "total": 85
@@ -201,6 +207,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": -2,
+    "ajuste_motivo": "Fondo pequeño y en captación (Form D 20,2M frente a 75M objetivo); riesgo de confusión con el Manny Medina de Outreach.",
     "bruto": 84,
     "topes": [],
     "total": 84
@@ -230,6 +237,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": -2,
+    "ajuste_motivo": "Exige fundadores latinoamericanos y no invierte en solo founders.",
     "bruto": 84,
     "topes": [],
     "total": 84
@@ -259,6 +267,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": -2,
+    "ajuste_motivo": "Exige fundadores latinoamericanos y no invierte en solo founders.",
     "bruto": 84,
     "topes": [],
     "total": 84
@@ -288,6 +297,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -4,
+    "ajuste_motivo": "Posible solapamiento de cartera con Airflows y TuringDream; no lidera personalmente esos deals.",
     "bruto": 83,
     "topes": [],
     "total": 83
@@ -317,6 +327,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -6,
+    "ajuste_motivo": "Conflicto de cartera con Altan; su afirmación de que la velocidad importa más que el moat.",
     "bruto": 81,
     "topes": [],
     "total": 81
@@ -338,7 +349,7 @@
    "email": "info@cardumencapital.com",
    "email_estado": "buzón general del fondo (público)",
    "etapa_resumen": "Pre-seed, seed y ocasionalmente Serie A ('esperando validación de mercado y de-risking tecnológico').",
-   "motivo_nivel": "Único GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
+   "motivo_nivel": "GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
    "puntuacion": {
     "tesis": 22,
     "etapa": 16,
@@ -346,6 +357,7 @@
     "espanol": 15,
     "acceso": 10,
     "ajuste": -3,
+    "ajuste_motivo": "Deal flow mayoritariamente israelí; el texto del fondo espera validación de mercado y de-risking tecnológico.",
     "bruto": 80,
     "topes": [],
     "total": 80
@@ -375,6 +387,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -6,
+    "ajuste_motivo": "Fuera de región (Londres) y filtro geográfico Europa/Israel que obliga a construir el ángulo europeo.",
     "bruto": 80,
     "topes": [],
     "total": 80
@@ -404,6 +417,7 @@
     "espanol": 8,
     "acceso": 14,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 78,
     "topes": [],
     "total": 78
@@ -433,6 +447,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 78,
     "topes": [],
     "total": 78
@@ -462,6 +477,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": -2,
+    "ajuste_motivo": "El socio natural de infraestructura de IA en Foundation es Ashu Garg.",
     "bruto": 77,
     "topes": [],
     "total": 77
@@ -491,6 +507,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -3,
+    "ajuste_motivo": "Su cita de 2020 contra las apuestas de infraestructura ('no hacemos apuestas porque son muy arriesgadas').",
     "bruto": 77,
     "topes": [],
     "total": 77
@@ -520,6 +537,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": -4,
+    "ajuste_motivo": "Deal flow casi íntegramente israelí; Azagra es el contacto primario del mismo fondo.",
     "bruto": 76,
     "topes": [],
     "total": 76
@@ -541,7 +559,7 @@
    "email": "julecia@bullnetcapital.com",
    "email_estado": "público verificado",
    "etapa_resumen": "Pre-seed, seed y Serie A, siempre en España.",
-   "motivo_nivel": "Único inversor español con un exit consumado en dev tools puros (Códice/Plastic SCM a Unity, único accionista institucional desde 2009) y con LeanXcale sostenida una década; Bullnet entra con prototipo y sin ingresos, email verificado. Reservas duras: sólo puede invertir en sociedades domiciliadas en España y el fondo IV está en fase final.",
+   "motivo_nivel": "Exit consumado en dev tools puros (Códice/Plastic SCM a Unity, único accionista institucional desde 2009) y con LeanXcale sostenida una década; Bullnet entra con prototipo y sin ingresos, email verificado. Reservas duras: sólo puede invertir en sociedades domiciliadas en España y el fondo IV está en fase final.",
    "puntuacion": {
     "tesis": 20,
     "etapa": 17,
@@ -549,6 +567,7 @@
     "espanol": 15,
     "acceso": 14,
     "ajuste": -8,
+    "ajuste_motivo": "Restricción legal: sólo sociedades domiciliadas en España; fondo IV en fase final de inversión.",
     "bruto": 75,
     "topes": [],
     "total": 75
@@ -570,7 +589,7 @@
    "email": "kfounders@kfund.vc",
    "email_estado": "buzón general del fondo (público)",
    "etapa_resumen": "Pre-seed puro, incluso pre-producto; empresas de menos de 6 meses.",
-   "motivo_nivel": "La puerta pre-seed más institucional de España para una startup sin tracción: K Founders Preseed II (20M€) existe para empresas de menos de seis meses, sin DD técnica, con decisión en tres semanas, y ya respaldó 2501 y Causa Prima. Reservas: ticket ~300k, co-invierte sin liderar, fondo generalista y su foco personal es logística, foodtech y fintech.",
+   "motivo_nivel": "Una puerta pre-seed institucional en España para una startup sin tracción: K Founders Preseed II (20M€) existe para empresas de menos de seis meses, sin DD técnica, con decisión en tres semanas, y ya respaldó 2501 y Causa Prima. Reservas: ticket ~300k, co-invierte sin liderar, fondo generalista y su foco personal es logística, foodtech y fintech.",
    "puntuacion": {
     "tesis": 12,
     "etapa": 20,
@@ -578,6 +597,7 @@
     "espanol": 15,
     "acceso": 14,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 75,
     "topes": [],
     "total": 75
@@ -607,6 +627,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": -4,
+    "ajuste_motivo": "Fuera de región (Londres).",
     "bruto": 75,
     "topes": [],
     "total": 75
@@ -636,6 +657,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -8,
+    "ajuste_motivo": "Ulu rechaza automáticamente empresas no constituidas en EE.UU.",
     "bruto": 74,
     "topes": [],
     "total": 74
@@ -665,6 +687,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 74,
     "topes": [],
     "total": 74
@@ -686,7 +709,7 @@
    "email": "dealflowK@kfund.vc",
    "email_estado": "buzón general del fondo (público)",
    "etapa_resumen": "K Fund: pre-seed a Serie B, tickets 100.000-10.000.000 €.",
-   "motivo_nivel": "El único de la lista que ha construido y sigue construyendo la categoría del cliente (Tinybird, infraestructura de datos en tiempo real para desarrolladores; CARTO; Vizzuality) y firma memos de K Fund con el marco de 'infraestructura fundacional' (MITO, pre-seed); K Fund entra desde 100k€ y ya coinvirtió en Causa Prima y 2501. Reservas: su cargo de GP no está confirmado (web: 'Product & Technology'), sigue como COO de Tinybird y posible conflicto si el stack toca datos en tiempo real.",
+   "motivo_nivel": "Ha construido y sigue construyendo la categoría del cliente (Tinybird, infraestructura de datos en tiempo real para desarrolladores; CARTO; Vizzuality) y firma memos de K Fund con el marco de 'infraestructura fundacional' (MITO, pre-seed); K Fund entra desde 100k€ y ya coinvirtió en Causa Prima y 2501. Reservas: su cargo de GP no está confirmado (web: 'Product & Technology'), sigue como COO de Tinybird y posible conflicto si el stack toca datos en tiempo real.",
    "puntuacion": {
     "tesis": 23,
     "etapa": 17,
@@ -694,6 +717,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": -4,
+    "ajuste_motivo": "Posible conflicto con Tinybird si el stack toca datos en tiempo real; cargo de GP no confirmado.",
     "bruto": 74,
     "topes": [],
     "total": 74
@@ -723,6 +747,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -4,
+    "ajuste_motivo": "Fuera de región (Buenos Aires); rol operativo en 2026 por confirmar.",
     "bruto": 74,
     "topes": [],
     "total": 74
@@ -752,6 +777,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 73,
     "topes": [],
     "total": 73
@@ -781,6 +807,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": -6,
+    "ajuste_motivo": "Redundancia: Adara ya cubierta por Gómez y Pillado; el socio con menor huella en IA.",
     "bruto": 73,
     "topes": [],
     "total": 73
@@ -810,6 +837,7 @@
     "espanol": 15,
     "acceso": 10,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 72,
     "topes": [],
     "total": 72
@@ -839,6 +867,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 71,
     "topes": [],
     "total": 71
@@ -868,6 +897,7 @@
     "espanol": 9,
     "acceso": 9,
     "ajuste": -3,
+    "ajuste_motivo": "Condiciones del batch de YC: 7% + SAFE, constitución en EE.UU./Canadá/Caimán/Singapur y presencia en la Bahía.",
     "bruto": 71,
     "topes": [],
     "total": 71
@@ -897,6 +927,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 71,
     "topes": [],
     "total": 71
@@ -918,7 +949,7 @@
    "email": "",
    "email_estado": "no encontrado",
    "etapa_resumen": "Pre-seed y seed, ocasionalmente Serie A; entra como ángel en rondas lideradas por fondos.",
-   "motivo_nivel": "El inversor hispanohablante con mejor encaje temático del mundo (Supabase, Resend, Browserbase, Chroma, Railway; tesis 'do it for the agents', 'The AI Cloud'), argentino con vínculo activo con Argentina. Pero es capital simbólico (5-50k USD), nunca lidera, acceso muy difícil como CEO de Vercel y posible solapamiento con la AI Cloud de Vercel: vale como señal.",
+   "motivo_nivel": "Encaje temático máximo (Supabase, Resend, Browserbase, Chroma, Railway; tesis 'do it for the agents', 'The AI Cloud'), argentino con vínculo activo con Argentina. Pero es capital simbólico (5-50k USD), nunca lidera, acceso muy difícil como CEO de Vercel y posible solapamiento con la AI Cloud de Vercel: vale como señal.",
    "puntuacion": {
     "tesis": 25,
     "etapa": 18,
@@ -926,6 +957,7 @@
     "espanol": 15,
     "acceso": 7,
     "ajuste": -5,
+    "ajuste_motivo": "Posible solapamiento competitivo con la AI Cloud de Vercel (sandboxes, agentes de código, AI SDK).",
     "bruto": 70,
     "topes": [],
     "total": 70
@@ -955,6 +987,7 @@
     "espanol": 8,
     "acceso": 10,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 70,
     "topes": [],
     "total": 70
@@ -984,6 +1017,7 @@
     "espanol": 5,
     "acceso": 9,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 70,
     "topes": [],
     "total": 70
@@ -1013,6 +1047,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": -6,
+    "ajuste_motivo": "Associate: origina y escribe la tesis interna, pero no decide.",
     "bruto": 69,
     "topes": [],
     "total": 69
@@ -1034,7 +1069,7 @@
    "email": "alfonsojssm+website@gmail.com",
    "email_estado": "público verificado",
    "etapa_resumen": "Lorimer: pre-seed y seed, 'the first check', pre-consenso.",
-   "motivo_nivel": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y el evaluador técnico más cualificado del lote; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
+   "motivo_nivel": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y un evaluador técnico de primer nivel; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
    "puntuacion": {
     "tesis": 22,
     "etapa": 16,
@@ -1042,6 +1077,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 72,
     "topes": [
      "no firma cheque → máx. 69"
@@ -1073,6 +1109,7 @@
     "espanol": 15,
     "acceso": 10,
     "ajuste": -4,
+    "ajuste_motivo": "Fuera de región (Buenos Aires).",
     "bruto": 69,
     "topes": [],
     "total": 69
@@ -1102,6 +1139,7 @@
     "espanol": 8,
     "acceso": 8,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 68,
     "topes": [],
     "total": 68
@@ -1131,6 +1169,7 @@
     "espanol": 15,
     "acceso": 14,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 68,
     "topes": [],
     "total": 68
@@ -1152,7 +1191,7 @@
    "email": "investor@elaia.com",
    "email_estado": "buzón general del fondo (público)",
    "etapa_resumen": "DTS3: pre-seed y seed B2B en toda Europa, 1.000.000-13.000.000 €, 'partnering with founders at the earliest'.",
-   "motivo_nivel": "La cartera de Elaia es probablemente la más parecida de Europa al producto del cliente (Tabnine, Giskard, dottxt, Vertesia, Traefik, FlexAI, Qbeast, Nuclia) y DTS3 (134M€, mar-2026) invierte 1-13M€ en pre-seed y seed 'at the earliest'; fundador dos veces con exit. Pero es francés sin español documentado, base en Barcelona no confirmada, huella pública nula y sólo buzón de inversiones.",
+   "motivo_nivel": "La cartera de Elaia es muy parecida al producto del cliente (Tabnine, Giskard, dottxt, Vertesia, Traefik, FlexAI, Qbeast, Nuclia) y DTS3 (134M€, mar-2026) invierte 1-13M€ en pre-seed y seed 'at the earliest'; fundador dos veces con exit. Pero es francés sin español documentado, base en Barcelona no confirmada, huella pública nula y sólo buzón de inversiones.",
    "puntuacion": {
     "tesis": 22,
     "etapa": 18,
@@ -1160,6 +1199,7 @@
     "espanol": 2,
     "acceso": 8,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 68,
     "topes": [],
     "total": 68
@@ -1189,6 +1229,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -3,
+    "ajuste_motivo": "Fuera de región (Londres).",
     "bruto": 68,
     "topes": [],
     "total": 68
@@ -1210,7 +1251,7 @@
    "email": "",
    "email_estado": "no encontrado",
    "etapa_resumen": "Etapa temprana: convertibles 'proof of concept' <500k€ y Serie A típica ~2M€; hasta 6-7M€ acumulados.",
-   "motivo_nivel": "La doctrina escrita de Bullnet es la más cercana a lo que busca el cliente (innovación científica por encima de tracción, entrada con prototipo, pilotos bienvenidos pero no exigidos) y tiene exits en dev tools (Códice, LeanXcale); físico y fotónico que lee arquitectura. Pero sólo invierte en sociedades domiciliadas en España, el fondo IV está en fase final, no tiene LinkedIn ni huella pública y la atribución de deals es inferida.",
+   "motivo_nivel": "La doctrina escrita de Bullnet coincide con lo que busca el cliente (innovación científica por encima de tracción, entrada con prototipo, pilotos bienvenidos pero no exigidos) y tiene exits en dev tools (Códice, LeanXcale); físico y fotónico que lee arquitectura. Pero sólo invierte en sociedades domiciliadas en España, el fondo IV está en fase final, no tiene LinkedIn ni huella pública y la atribución de deals es inferida.",
    "puntuacion": {
     "tesis": 20,
     "etapa": 17,
@@ -1218,6 +1259,7 @@
     "espanol": 15,
     "acceso": 6,
     "ajuste": -8,
+    "ajuste_motivo": "Restricción legal: sólo sociedades domiciliadas en España; fondo IV en fase final.",
     "bruto": 67,
     "topes": [],
     "total": 67
@@ -1247,6 +1289,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 66,
     "topes": [],
     "total": 66
@@ -1268,7 +1311,7 @@
    "email": "info@consello.com",
    "email_estado": "buzón general del fondo (público)",
    "etapa_resumen": "Pre-seed y seed como ángel en rondas de 1,5-3M USD lideradas por fondos europeos o latinoamericanos.",
-   "motivo_nivel": "La evidencia más limpia de apuesta deep tech pre-tracción del lote: puso su nombre en Qbeast (spin-off del BSC, indexación open source) y Giskard (testing open source de modelos) cuando no había categoría; arquitecto original de Uber, mexicano. Pero cuatro o cinco operaciones en cinco años (última 2024), sin vehículo, ticket desconocido, sin LinkedIn ni email, y dedicación a Consello.",
+   "motivo_nivel": "Evidencia limpia de apuesta deep tech pre-tracción: puso su nombre en Qbeast (spin-off del BSC, indexación open source) y Giskard (testing open source de modelos) cuando no había categoría; arquitecto original de Uber, mexicano. Pero cuatro o cinco operaciones en cinco años (última 2024), sin vehículo, ticket desconocido, sin LinkedIn ni email, y dedicación a Consello.",
    "puntuacion": {
     "tesis": 22,
     "etapa": 17,
@@ -1276,6 +1319,7 @@
     "espanol": 15,
     "acceso": 6,
     "ajuste": -3,
+    "ajuste_motivo": "Cadencia baja: última inversión confirmada en junio de 2024.",
     "bruto": 65,
     "topes": [],
     "total": 65
@@ -1305,6 +1349,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 65,
     "topes": [
      "Serie A o exige tracción → máx. 64"
@@ -1328,7 +1373,7 @@
    "email": "javier@scalevp.com",
    "email_estado": "público verificado",
    "etapa_resumen": "Series A y B; Scale lidera el 80% de las rondas en las que entra.",
-   "motivo_nivel": "Nadie en la lista entiende mejor el producto: gestionó Ray en Anyscale y Kafka en Confluent y publicó las tesis 'MCP is the new WWW' y de sistemas de build; español nativo con email público. Pero Scale declara que no invierte en seed, lidera Series A/B con cheques de 5-50M y pide clientes firmados y 0,5-5M ARR. Reservar para la Serie A.",
+   "motivo_nivel": "Entiende el producto desde dentro: gestionó Ray en Anyscale y Kafka en Confluent y publicó las tesis 'MCP is the new WWW' y de sistemas de build; español nativo con email público. Pero Scale declara que no invierte en seed, lidera Series A/B con cheques de 5-50M y pide clientes firmados y 0,5-5M ARR. Reservar para la Serie A.",
    "puntuacion": {
     "tesis": 24,
     "etapa": 3,
@@ -1336,6 +1381,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": -10,
+    "ajuste_motivo": "Política explícita de Scale de no invertir en seed y exigir clientes firmados y 0,5-5M USD de ARR.",
     "bruto": 65,
     "topes": [
      "Serie A o exige tracción → máx. 64"
@@ -1367,6 +1413,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": -3,
+    "ajuste_motivo": "Vehículo bancario con comité; proceso menos discrecional que un fondo independiente.",
     "bruto": 64,
     "topes": [],
     "total": 64
@@ -1396,6 +1443,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": -8,
+    "ajuste_motivo": "Redundancia: Adara ya cubierta por Gómez, Pillado y Goulet; una sola vía de entrada al fondo.",
     "bruto": 62,
     "topes": [],
     "total": 62
@@ -1425,6 +1473,7 @@
     "espanol": 2,
     "acceso": 10,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 61,
     "topes": [],
     "total": 61
@@ -1446,7 +1495,7 @@
    "email": "",
    "email_estado": "no encontrado",
    "etapa_resumen": "Seed, Serie A y B+; él personalmente lidera Series A/B con asiento en el consejo.",
-   "motivo_nivel": "La cartera más solapada con el cliente (consejero de Cursor, Convex, Braintrust, Distributional, Fivetran) y el precedente intelectual perfecto ('The Cost of Cloud'); fundador técnico que valora benchmarks y arquitectura. Pero nacido en España sin español documentado, entra en Series A/B, acceso en frío casi imposible y conflicto potencial por el consejo de Cursor.",
+   "motivo_nivel": "Cartera muy solapada con el cliente (consejero de Cursor, Convex, Braintrust, Distributional, Fivetran) y el precedente intelectual perfecto ('The Cost of Cloud'); fundador técnico que valora benchmarks y arquitectura. Pero nacido en España sin español documentado, entra en Series A/B, acceso en frío casi imposible y conflicto potencial por el consejo de Cursor.",
    "puntuacion": {
     "tesis": 25,
     "etapa": 10,
@@ -1454,6 +1503,7 @@
     "espanol": 6,
     "acceso": 5,
     "ajuste": -6,
+    "ajuste_motivo": "Conflicto potencial por su asiento en el consejo de Cursor.",
     "bruto": 60,
     "topes": [],
     "total": 60
@@ -1483,6 +1533,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 60,
     "topes": [],
     "total": 60
@@ -1512,6 +1563,7 @@
     "espanol": 1,
     "acceso": 10,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 59,
     "topes": [],
     "total": 59
@@ -1541,6 +1593,7 @@
     "espanol": 1,
     "acceso": 7,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 59,
     "topes": [],
     "total": 59
@@ -1570,6 +1623,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": -10,
+    "ajuste_motivo": "Su criterio central es el momentum comercial (deploys semanales y clientes), incompatible con un pitch pre-tracción; dedicación parcial (VP en ElevenLabs).",
     "bruto": 59,
     "topes": [],
     "total": 59
@@ -1599,6 +1653,7 @@
     "espanol": 15,
     "acceso": 10,
     "ajuste": -8,
+    "ajuste_motivo": "Incluye 'market traction' entre los requisitos de su vertical deep tech y B2B.",
     "bruto": 59,
     "topes": [],
     "total": 59
@@ -1628,6 +1683,7 @@
     "espanol": 15,
     "acceso": 6,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 58,
     "topes": [],
     "total": 58
@@ -1649,7 +1705,7 @@
    "email": "info@invivo.partners",
    "email_estado": "buzón general del fondo (público)",
    "etapa_resumen": "Pre-seed, seed y Serie A; tickets iniciales 2-4M€ con follow-on hasta 10M€ (web del gestor).",
-   "motivo_nivel": "El inversor español con más credenciales para auditar un claim de rendimiento (dirigió MareNostrum 5 y los primeros cuánticos españoles; escribe cada semana sobre agentes autónomos y cómputo); pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es IA + ciencia avanzada (biotech, cuántica, fotónica), no dev tools. Reactivar cuando cierre.",
+   "motivo_nivel": "Credenciales sobradas para auditar un claim de rendimiento (dirigió MareNostrum 5 y los primeros cuánticos españoles; escribe cada semana sobre agentes autónomos y cómputo); pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es IA + ciencia avanzada (biotech, cuántica, fotónica), no dev tools. Reactivar cuando cierre.",
    "puntuacion": {
     "tesis": 12,
     "etapa": 14,
@@ -1657,6 +1713,7 @@
     "espanol": 15,
     "acceso": 11,
     "ajuste": -4,
+    "ajuste_motivo": "El fondo Invivo AI no tiene cierre confirmado ni operaciones.",
     "bruto": 57,
     "topes": [],
     "total": 57
@@ -1686,6 +1743,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 56,
     "topes": [],
     "total": 56
@@ -1715,6 +1773,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": -3,
+    "ajuste_motivo": "Declara evitar asumir a la vez riesgo tecnológico, de ingeniería y de mercado.",
     "bruto": 60,
     "topes": [
      "tesis < 10 → máx. 55"
@@ -1746,6 +1805,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": -6,
+    "ajuste_motivo": "Las seis áreas del fondo son hardware o ciencia; sin ninguna empresa de software en cartera.",
     "bruto": 65,
     "topes": [
      "tesis < 10 → máx. 55"
@@ -1777,6 +1837,7 @@
     "espanol": 15,
     "acceso": 6,
     "ajuste": -4,
+    "ajuste_motivo": "Una sola inversión nueva por socio al año; sin canal frío.",
     "bruto": 55,
     "topes": [],
     "total": 55
@@ -1806,6 +1867,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 67,
     "topes": [
      "tesis < 10 → máx. 55"
@@ -1837,6 +1899,7 @@
     "espanol": 15,
     "acceso": 13,
     "ajuste": -8,
+    "ajuste_motivo": "Redundancia: Mexia es el contacto primario de Nido.",
     "bruto": 59,
     "topes": [
      "tesis < 10 → máx. 55"
@@ -1860,7 +1923,7 @@
    "email": "info@cometa.vc",
    "email_estado": "buzón general del fondo (público)",
    "etapa_resumen": "Pre-seed, seed, Serie A y B declarados; ticket 100k-5M USD (directorios), 500k-4M (prensa).",
-   "motivo_nivel": "Único fondo mexicano con la frase 'Cometa invests in AI readiness enablers' y precedentes tempranos en IA industrial (Kuona, Pulsar) y seguridad (Hackmetrix); pero su tesis identifica industrias listas para la IA, no financia su infraestructura, 16 de ~40 posiciones son fintech, no hay dev tools y sus rondas personales son semillas de 4-6M.",
+   "motivo_nivel": "Fondo mexicano con la frase 'Cometa invests in AI readiness enablers' y precedentes tempranos en IA industrial (Kuona, Pulsar) y seguridad (Hackmetrix); pero su tesis identifica industrias listas para la IA, no financia su infraestructura, 16 de ~40 posiciones son fintech, no hay dev tools y sus rondas personales son semillas de 4-6M.",
    "puntuacion": {
     "tesis": 9,
     "etapa": 12,
@@ -1868,6 +1931,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": -3,
+    "ajuste_motivo": "Sus operaciones personales son semillas de 4-6M USD, no primeros cheques.",
     "bruto": 62,
     "topes": [
      "tesis < 10 → máx. 55"
@@ -1899,6 +1963,7 @@
     "espanol": 15,
     "acceso": 7,
     "ajuste": -9,
+    "ajuste_motivo": "Sin ninguna semilla documentada y sólo cuatro operaciones desde 2021.",
     "bruto": 53,
     "topes": [],
     "total": 53
@@ -1928,6 +1993,7 @@
     "espanol": 3,
     "acceso": 12,
     "ajuste": -5,
+    "ajuste_motivo": "Su tesis escrita exige CAC bajo e 'instant-payback'.",
     "bruto": 53,
     "topes": [],
     "total": 53
@@ -1957,6 +2023,7 @@
     "espanol": 15,
     "acceso": 5,
     "ajuste": -5,
+    "ajuste_motivo": "Sin canal frío y lectura de la IA como adopción corporativa, no infraestructura.",
     "bruto": 52,
     "topes": [],
     "total": 52
@@ -1986,6 +2053,7 @@
     "espanol": 3,
     "acceso": 6,
     "ajuste": -10,
+    "ajuste_motivo": "M12 ya invirtió en Entire, competidor directo del harness; fondo alineado con Azure.",
     "bruto": 51,
     "topes": [],
     "total": 51
@@ -2015,6 +2083,7 @@
     "espanol": 15,
     "acceso": 7,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 51,
     "topes": [],
     "total": 51
@@ -2044,6 +2113,7 @@
     "espanol": 15,
     "acceso": 5,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 47,
     "topes": [],
     "total": 47
@@ -2073,6 +2143,7 @@
     "espanol": 3,
     "acceso": 7,
     "ajuste": -3,
+    "ajuste_motivo": "El fondo exige MVP completo y tracción inicial.",
     "bruto": 47,
     "topes": [],
     "total": 47
@@ -2102,6 +2173,7 @@
     "espanol": 15,
     "acceso": 12,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 47,
     "topes": [],
     "total": 47
@@ -2131,6 +2203,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": -8,
+    "ajuste_motivo": "Construye su propio proyecto de infraestructura de IA: riesgo de solapamiento; ya sin capital institucional.",
     "bruto": 47,
     "topes": [],
     "total": 47
@@ -2160,6 +2233,7 @@
     "espanol": 3,
     "acceso": 12,
     "ajuste": -3,
+    "ajuste_motivo": "Escepticismo público declarado sobre el hype de la IA ('AI Hype 2.0', CNBC 2025).",
     "bruto": 46,
     "topes": [],
     "total": 46
@@ -2189,6 +2263,7 @@
     "espanol": 3,
     "acceso": 7,
     "ajuste": -6,
+    "ajuste_motivo": "Genesis Fund exige vínculo con Nuevo México y su foco es hardware cuántico.",
     "bruto": 46,
     "topes": [],
     "total": 46
@@ -2218,6 +2293,7 @@
     "espanol": 15,
     "acceso": 8,
     "ajuste": -8,
+    "ajuste_motivo": "Briefing original erróneo (no ex-VMware ni ingeniero); sin huella en IA ni dev tools; Nauta ya cubierta por Borja Breña.",
     "bruto": 45,
     "topes": [],
     "total": 45
@@ -2247,6 +2323,7 @@
     "espanol": 15,
     "acceso": 7,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 63,
     "topes": [
      "tesis < 6 → máx. 45"
@@ -2278,6 +2355,7 @@
     "espanol": 8,
     "acceso": 6,
     "ajuste": -3,
+    "ajuste_motivo": "Cartera ángel cripto-céntrica y ritmo de inversión bajo (última operación personal enero 2025).",
     "bruto": 44,
     "topes": [],
     "total": 44
@@ -2307,6 +2385,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 44,
     "topes": [],
     "total": 44
@@ -2328,7 +2407,7 @@
    "email": "",
    "email_estado": "no encontrado",
    "etapa_resumen": "Ángel: pre-seed a Serie A, 5.000-25.000 USD (punto dulce 15k); única inversión documentada: Upstash (seed, 2022).",
-   "motivo_nivel": "La persona hispanohablante mejor conectada del mundo dev tools (Vercel, Neon, Clerk, Together AI, Braintrust, Supabase), pero HyperGrowth no despliega capital (sweat equity en Series A-E post-PMF), su cheque ángel es de 5-25k con una sola inversión documentada y su especialidad es exactamente lo que el cliente aún no tiene: crecimiento y usuarios.",
+   "motivo_nivel": "Muy bien conectado en el ecosistema dev tools (Vercel, Neon, Clerk, Together AI, Braintrust, Supabase), pero HyperGrowth no despliega capital (sweat equity en Series A-E post-PMF), su cheque ángel es de 5-25k con una sola inversión documentada y su especialidad es exactamente lo que el cliente aún no tiene: crecimiento y usuarios.",
    "puntuacion": {
     "tesis": 10,
     "etapa": 10,
@@ -2336,6 +2415,7 @@
     "espanol": 15,
     "acceso": 8,
     "ajuste": -3,
+    "ajuste_motivo": "HyperGrowth no despliega capital: cobra en equity por asesoría a compañías post-PMF.",
     "bruto": 43,
     "topes": [],
     "total": 43
@@ -2365,6 +2445,7 @@
     "espanol": 2,
     "acceso": 8,
     "ajuste": 0,
+    "ajuste_motivo": "",
     "bruto": 42,
     "topes": [],
     "total": 42
@@ -2394,6 +2475,7 @@
     "espanol": 15,
     "acceso": 10,
     "ajuste": -5,
+    "ajuste_motivo": "Posible solapamiento con Pensero AI, su empresa actual, que opera en la misma capa que el harness.",
     "bruto": 38,
     "topes": [],
     "total": 38
@@ -2423,6 +2505,7 @@
     "espanol": 15,
     "acceso": 10,
     "ajuste": -12,
+    "ajuste_motivo": "Modelo venture client: exige producto funcionando, tracción inicial y sinergia con Telefónica.",
     "bruto": 36,
     "topes": [],
     "total": 36
@@ -2452,6 +2535,7 @@
     "espanol": 15,
     "acceso": 9,
     "ajuste": -5,
+    "ajuste_motivo": "Su ensayo 'Value Accrues to the Extremes' argumenta que las herramientas intermedias pierden valor: tesis pública contraria al producto.",
     "bruto": 29,
     "topes": [],
     "total": 29

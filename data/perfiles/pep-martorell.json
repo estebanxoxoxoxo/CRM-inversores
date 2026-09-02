@@ -121,11 +121,12 @@
       "espanol": 15,
       "acceso": 11,
       "ajuste": -4,
+      "ajuste_motivo": "El fondo Invivo AI no tiene cierre confirmado ni operaciones.",
       "bruto": 57,
       "topes": [],
       "total": 57
     },
-    "motivo": "El inversor español con más credenciales para auditar un claim de rendimiento (dirigió MareNostrum 5 y los primeros cuánticos españoles; escribe cada semana sobre agentes autónomos y cómputo); pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es IA + ciencia avanzada (biotech, cuántica, fotónica), no dev tools. Reactivar cuando cierre.",
+    "motivo": "Credenciales sobradas para auditar un claim de rendimiento (dirigió MareNostrum 5 y los primeros cuánticos españoles; escribe cada semana sobre agentes autónomos y cómputo); pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es IA + ciencia avanzada (biotech, cuántica, fotónica), no dev tools. Reactivar cuando cierre.",
     "nivel_v1": "r",
     "prioridad_agente": "B",
     "confianza_agente": "alta",

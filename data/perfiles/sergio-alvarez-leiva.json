@@ -122,11 +122,12 @@
       "espanol": 15,
       "acceso": 12,
       "ajuste": -4,
+      "ajuste_motivo": "Posible conflicto con Tinybird si el stack toca datos en tiempo real; cargo de GP no confirmado.",
       "bruto": 74,
       "topes": [],
       "total": 74
     },
-    "motivo": "El único de la lista que ha construido y sigue construyendo la categoría del cliente (Tinybird, infraestructura de datos en tiempo real para desarrolladores; CARTO; Vizzuality) y firma memos de K Fund con el marco de 'infraestructura fundacional' (MITO, pre-seed); K Fund entra desde 100k€ y ya coinvirtió en Causa Prima y 2501. Reservas: su cargo de GP no está confirmado (web: 'Product & Technology'), sigue como COO de Tinybird y posible conflicto si el stack toca datos en tiempo real.",
+    "motivo": "Ha construido y sigue construyendo la categoría del cliente (Tinybird, infraestructura de datos en tiempo real para desarrolladores; CARTO; Vizzuality) y firma memos de K Fund con el marco de 'infraestructura fundacional' (MITO, pre-seed); K Fund entra desde 100k€ y ya coinvirtió en Causa Prima y 2501. Reservas: su cargo de GP no está confirmado (web: 'Product & Technology'), sigue como COO de Tinybird y posible conflicto si el stack toca datos en tiempo real.",
     "nivel_v1": "2",
     "prioridad_agente": "A",
     "confianza_agente": "media",

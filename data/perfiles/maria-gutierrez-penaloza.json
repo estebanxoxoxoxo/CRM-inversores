@@ -111,6 +111,7 @@
       "espanol": 15,
       "acceso": 13,
       "ajuste": -8,
+      "ajuste_motivo": "Redundancia: Mexia es el contacto primario de Nido.",
       "bruto": 59,
       "topes": [
         "tesis < 10 → máx. 55"

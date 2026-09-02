@@ -464,3 +464,12 @@ h2 {
   letter-spacing: 0.04em;
   color: var(--tenue);
 }
+
+.dim-ajuste-texto {
+  height: auto;
+  background: none;
+  border-radius: 0;
+  font-size: 12px;
+  color: var(--tenue);
+  line-height: 1.3;
+}

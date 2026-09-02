@@ -1,6 +1,13 @@
 {
  "javier-de-la-torre": {
-  "puntuacion": {"tesis": 20, "etapa": 0, "decision": 0, "espanol": 15, "acceso": 9, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 20,
+   "etapa": 0,
+   "decision": 0,
+   "espanol": 15,
+   "acceso": 9,
+   "ajuste": 0
+  },
   "motivo": "Su tesis tecnológica (la UI de SaaS se convierte en CLI, API o herramienta MCP; soberanía es poder elegir proveedor de modelo) es el argumento de moat de un stack IA-nativo, y construyó CARTO durante catorce años; pero no hay ninguna inversión ángel documentada ni etapa ni ticket. Validador y puente, no capital.",
   "por_que": [
    "Reorientó CARTO hacia la 'Agentic Enterprise' con servidor MCP propio; impulsó GeoParquet y geometría en Apache Iceberg: construye la capa que el cliente vende.",
@@ -20,8 +27,15 @@
   ]
  },
  "javier-redondo": {
-  "puntuacion": {"tesis": 24, "etapa": 3, "decision": 20, "espanol": 15, "acceso": 13, "ajuste": -10},
-  "motivo": "Nadie en la lista entiende mejor el producto: gestionó Ray en Anyscale y Kafka en Confluent y publicó las tesis 'MCP is the new WWW' y de sistemas de build; español nativo con email público. Pero Scale declara que no invierte en seed, lidera Series A/B con cheques de 5-50M y pide clientes firmados y 0,5-5M ARR. Reservar para la Serie A.",
+  "puntuacion": {
+   "tesis": 24,
+   "etapa": 3,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 13,
+   "ajuste": -10
+  },
+  "motivo": "Entiende el producto desde dentro: gestionó Ray en Anyscale y Kafka en Confluent y publicó las tesis 'MCP is the new WWW' y de sistemas de build; español nativo con email público. Pero Scale declara que no invierte en seed, lidera Series A/B con cheques de 5-50M y pide clientes firmados y 0,5-5M ARR. Reservar para la Serie A.",
   "por_que": [
    "Ha gestionado producto de infraestructura distribuida para IA (Ray, Kafka) y escribe las dos mitades del harness: protocolos de agentes (MCP) y sistemas de build.",
    "Español nativo (ICAI, Madrid) y email público: cero fricción de idioma ni de intro.",
@@ -41,7 +55,14 @@
   ]
  },
  "javier-sanchez-aldana": {
-  "puntuacion": {"tesis": 24, "etapa": 20, "decision": 15, "espanol": 15, "acceso": 12, "ajuste": -2},
+  "puntuacion": {
+   "tesis": 24,
+   "etapa": 20,
+   "decision": 15,
+   "espanol": 15,
+   "acceso": 12,
+   "ajuste": -2
+  },
   "motivo": "'Pre seed for deep-tech founders': lidera pre-seeds con tickets hasta 500k USD, nombra dev tools como vertical y busca usuarios técnicos, SDK/API y 'anomalías' fuera del hype; en ningún punto pide tracción. Reservas: Fund II (20M) sin cierre confirmado, tesis deep tech nueva en 2025, excluye solo founders.",
   "por_que": [
    "Su tesis busca exactamente el perfil del cliente: middleware técnico, usuarios ingenieros, distribución por API/SDK, repo en GitHub como señal positiva, software-first.",
@@ -62,7 +83,14 @@
   ]
  },
  "javier-soltero": {
-  "puntuacion": {"tesis": 20, "etapa": 12, "decision": 5, "espanol": 15, "acceso": 6, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 20,
+   "etapa": 12,
+   "decision": 5,
+   "espanol": 15,
+   "acceso": 6,
+   "ajuste": 0
+  },
   "motivo": "Perfil técnico ideal (Hyperic, Outlook, Google Workspace, Metaplane) con foco declarado en dev tools e infraestructura y puertorriqueño; pero ya no figura en el equipo de Felicis, opera en Datadog, como Senior Venture Partner no tenía presupuesto propio y sus cheques ángel son escasos. Vínculo inversor no confirmado en 2026.",
   "por_que": [
    "Construyó las tres capas que un fondo no sabe evaluar: infraestructura open source (Hyperic), herramientas de desarrollador y productividad a escala (Outlook, Workspace).",
@@ -83,8 +111,15 @@
   ]
  },
  "javier-ulecia": {
-  "puntuacion": {"tesis": 20, "etapa": 17, "decision": 17, "espanol": 15, "acceso": 14, "ajuste": -8},
-  "motivo": "Único inversor español con un exit consumado en dev tools puros (Códice/Plastic SCM a Unity, único accionista institucional desde 2009) y con LeanXcale sostenida una década; Bullnet entra con prototipo y sin ingresos, email verificado. Reservas duras: sólo puede invertir en sociedades domiciliadas en España y el fondo IV está en fase final.",
+  "puntuacion": {
+   "tesis": 20,
+   "etapa": 17,
+   "decision": 17,
+   "espanol": 15,
+   "acceso": 14,
+   "ajuste": -8
+  },
+  "motivo": "Exit consumado en dev tools puros (Códice/Plastic SCM a Unity, único accionista institucional desde 2009) y con LeanXcale sostenida una década; Bullnet entra con prototipo y sin ingresos, email verificado. Reservas duras: sólo puede invertir en sociedades domiciliadas en España y el fondo IV está en fase final.",
   "por_que": [
    "Exit en dev tools: Códice Software / Plastic SCM (control de versiones distribuido) vendida a Unity en 2020; también LeanXcale (base de datos distribuida) y MLCode desde su fundación.",
    "Entra 'when there is a tangible prototype or proof of concept', antes de ingresos; sectores declarados incluyen IA y plataformas de software empresarial.",
@@ -104,7 +139,14 @@
   ]
  },
  "joaquin-quinonero-candela": {
-  "puntuacion": {"tesis": 18, "etapa": 6, "decision": 3, "espanol": 15, "acceso": 5, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 18,
+   "etapa": 6,
+   "decision": 3,
+   "espanol": 15,
+   "acceso": 5,
+   "ajuste": 0
+  },
   "motivo": "Máxima autoridad en seguridad y evaluación de sistemas agénticos (Responsible AI en Meta, Preparedness en OpenAI) y su única inversión conocida es seguridad multi-agente pre-tracción (Trent AI, 2026); pero una sola operación, sin vehículo, rol 2026 no confirmado y sin email. Señal alta, probabilidad baja: advisor, no capital.",
   "por_que": [
    "Entiende el riesgo operativo real de muchos agentes ejecutando código de forma autónoma y puede evaluar el moat sin pedir usuarios.",
@@ -123,7 +165,14 @@
   ]
  },
  "jorge-baron": {
-  "puntuacion": {"tesis": 22, "etapa": 17, "decision": 7, "espanol": 15, "acceso": 9, "ajuste": -8},
+  "puntuacion": {
+   "tesis": 22,
+   "etapa": 17,
+   "decision": 7,
+   "espanol": 15,
+   "acceso": 9,
+   "ajuste": -8
+  },
   "motivo": "Tesis personal de infraestructura ('la capa debajo de la tecnología visible', 'critical software') en Adara, con 42Crunch, Bigle y TandemTrace trabajados; ingeniero español en Madrid. Pero es Principal sin decisión final y solapa con Gómez, Pillado y Goulet: una sola vía de entrada a Adara.",
   "por_que": [
    "Puerta operativa a Adara: único Principal, origina y evalúa en etapa temprana; tesis personal literal de infraestructura de software.",
@@ -144,7 +193,14 @@
   ]
  },
  "jose-miguel-herrero": {
-  "puntuacion": {"tesis": 16, "etapa": 18, "decision": 20, "espanol": 15, "acceso": 11, "ajuste": -3},
+  "puntuacion": {
+   "tesis": 16,
+   "etapa": 18,
+   "decision": 20,
+   "espanol": 15,
+   "acceso": 11,
+   "ajuste": -3
+  },
   "motivo": "Big Sur nombra 'AI-native software' y sistemas expertos en su tesis, invirtió en Axiomatic AI (infraestructura de inteligencia verificada) y lidera pre-seed y seed en deep tech con un fondo nuevo (BSV IV Ariadne, 100M€ objetivo, 40M€ de la SETT); pero su cartera deep tech es sobre todo hardware y física, sin dev tools, y en 2020 dijo que no hacían apuestas de infraestructura.",
   "por_que": [
    "Tesis 'Internet Power' con 'AI-native software' y 'expert systems'; Axiomatic AI en cartera ('the intelligence infrastructure for verified science & engineering').",
@@ -165,7 +221,14 @@
   ]
  },
  "josue-lopez": {
-  "puntuacion": {"tesis": 13, "etapa": 12, "decision": 7, "espanol": 2, "acceso": 8, "ajuste": 0},
+  "puntuacion": {
+   "tesis": 13,
+   "etapa": 12,
+   "decision": 7,
+   "espanol": 2,
+   "acceso": 8,
+   "ajuste": 0
+  },
   "motivo": "PhD del MIT, fundador de hardware financiado por DARPA y Principal en el mayor fondo deep tech del mundo, cómodo con equipos sin producto; pero su foco es cómputo de próxima generación y physical AI, no dev tools, es Principal sin firma, los cheques de DCVC son de 5-25M y su español no está documentado.",
   "por_que": [
    "Relación más limpia con el riesgo técnico puro: DCVC existe para financiar ciencia antes de que haya mercado.",
@@ -186,7 +249,14 @@
   ]
  },
  "juan-benet": {
-  "puntuacion": {"tesis": 12, "etapa": 13, "decision": 8, "espanol": 8, "acceso": 6, "ajuste": -3},
+  "puntuacion": {
+   "tesis": 12,
+   "etapa": 13,
+   "decision": 8,
+   "espanol": 8,
+   "acceso": 6,
+   "ajuste": -3
+  },
   "motivo": "Arquetipo del inversor de infraestructura profunda con horizonte de décadas (Prime Intellect, Zama), nacido en Ciudad de México; pero su vehículo con decisión es neurotecnología, en PLC Rails sólo es Research Partner, la cartera ángel es cripto-céntrica, la última operación personal es de enero de 2025 y no hay español documentado.",
   "por_que": [
    "Financia ciencia aplicada sin producto comercial: Prime Intellect (entrenamiento descentralizado) y Zama (criptografía homomórfica).",
@@ -207,10 +277,17 @@
   ]
  },
  "juan-revuelta": {
-  "puntuacion": {"tesis": 17, "etapa": 7, "decision": 18, "espanol": 15, "acceso": 10, "ajuste": -8},
+  "puntuacion": {
+   "tesis": 17,
+   "etapa": 7,
+   "decision": 18,
+   "espanol": 15,
+   "acceso": 10,
+   "ajuste": -8
+  },
   "motivo": "Ingeniero de semiconductores (LSI Logic, TI) cuyo fondo tiene una inversión real en dev tools de alto rendimiento (Codee) y un criterio explícito de barreras de entrada y know-how propietario; pero su etapa es late-seed y Serie A y el fondo lista 'market traction' entre sus requisitos. Posponer hasta tener la demo.",
   "por_que": [
-   "Codee (análisis y optimización de código C/C++/Fortran) en Swanlaab II: precedente casi inédito en el VC español; también Sax AI (agentes de KYC), IriusRisk, Nymiz.",
+   "Codee (análisis y optimización de código C/C++/Fortran) en Swanlaab II: precedente poco frecuente en el VC español; también Sax AI (agentes de KYC), IriusRisk, Nymiz.",
    "Criterio escrito: 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'.",
    "Lidera rondas con 500k-3M€; madrileño, castellanohablante nativo.",
    "Ángulo: barreras de entrada y propiedad del stack, no crecimiento; contactar cuando exista la demo para inversores."
@@ -228,7 +305,14 @@
   ]
  },
  "leo-casusol": {
-  "puntuacion": {"tesis": 18, "etapa": 4, "decision": 18, "espanol": 15, "acceso": 7, "ajuste": -9},
+  "puntuacion": {
+   "tesis": 18,
+   "etapa": 4,
+   "decision": 18,
+   "espanol": 15,
+   "acceso": 7,
+   "ajuste": -9
+  },
   "motivo": "Focos declarados (cloud infrastructure, DevSecOps, Kubernetes, AI/ML) y preferencia por plataformas sobre point solutions, peruano nativo y en el mismo fondo que Yépez; pero cheques de 5-30M USD en Series A/B, ninguna semilla documentada, sólo cuatro operaciones desde 2021 y sin email. Contacto de segunda ronda.",
   "por_que": [
    "Sus focos son exactamente la capa del cliente; prefiere 'platform plays than point solutions'.",

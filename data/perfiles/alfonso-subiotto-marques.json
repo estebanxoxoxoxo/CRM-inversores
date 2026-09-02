@@ -116,19 +116,20 @@
       "espanol": 15,
       "acceso": 13,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 72,
       "topes": [
         "no firma cheque → máx. 69"
       ],
       "total": 69
     },
-    "motivo": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y el evaluador técnico más cualificado del lote; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
+    "motivo": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y un evaluador técnico de primer nivel; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
     "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "media",
     "prioridad_v1": "B",
     "confianza_final": "media",
-    "motivo_v1": "Mandato literal 'developer tools and data infrastructure' en un fondo de primer cheque (Lorimer); es Venture Partner sin firma propia: se trata como puerta al fondo, único contacto de Lorimer en la lista."
+    "motivo_v1": "Mandato literal 'developer tools and data infrastructure' en un fondo de primer cheque (Lorimer); es Venture Partner sin firma propia: se trata como puerta al fondo."
   },
   "nombre_original": "Alfonso Subiotto Marqués",
   "textos_v1": {

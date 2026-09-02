@@ -40,7 +40,7 @@
     "Advisor de más de 20 startups y de YC Continuity; miembro del CIO Advisory Council de Splunk — su valor histórico ha sido de asesoría técnica, no de capital"
   ],
   "senales_de_encaje": [
-    "Es el único perfil de este lote que ha construido y vendido un producto de efectividad de ingeniería (Okay → Stripe, 2023): entiende el dominio exacto del cliente desde dentro",
+    "Ha construido y vendido un producto de efectividad de ingeniería (Okay → Stripe, 2023): entiende el dominio exacto del cliente desde dentro",
     "Signal NFX sitúa Developer Tools como su primer sector por afinidad como ángel",
     "Fluidez en español confirmada en fuente primaria: la ficha oficial de Kleiner Perkins declara «Languages spoken: English and Spanish» y lista Caracas entre las ciudades donde ha vivido",
     "Su trabajo actual en KP consiste en mejorar la velocidad de ingeniería de las compañías de la cartera: un harness de agentes que funcione es directamente útil para su función, lo que abre la vía de design partner",
@@ -116,6 +116,7 @@
       "espanol": 15,
       "acceso": 7,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 51,
       "topes": [],
       "total": 51

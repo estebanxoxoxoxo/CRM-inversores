@@ -113,6 +113,7 @@
       "espanol": 15,
       "acceso": 7,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 63,
       "topes": [
         "tesis < 6 → máx. 45"

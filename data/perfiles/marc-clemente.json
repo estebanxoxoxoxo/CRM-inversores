@@ -137,11 +137,12 @@
       "espanol": 15,
       "acceso": 14,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 75,
       "topes": [],
       "total": 75
     },
-    "motivo": "La puerta pre-seed más institucional de España para una startup sin tracción: K Founders Preseed II (20M€) existe para empresas de menos de seis meses, sin DD técnica, con decisión en tres semanas, y ya respaldó 2501 y Causa Prima. Reservas: ticket ~300k, co-invierte sin liderar, fondo generalista y su foco personal es logística, foodtech y fintech.",
+    "motivo": "Una puerta pre-seed institucional en España para una startup sin tracción: K Founders Preseed II (20M€) existe para empresas de menos de seis meses, sin DD técnica, con decisión en tres semanas, y ya respaldó 2501 y Causa Prima. Reservas: ticket ~300k, co-invierte sin liderar, fondo generalista y su foco personal es logística, foodtech y fintech.",
     "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "media",

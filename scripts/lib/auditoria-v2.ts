@@ -16,7 +16,7 @@ export const CRITERIO =
   "Origen y español sólo con autoidentificación pública o hechos biográficos documentados.";
 
 export interface DecisionV2 {
-  puntuacion: { tesis: number; etapa: number; decision: number; espanol: number; acceso: number; ajuste: number };
+  puntuacion: { tesis: number; etapa: number; decision: number; espanol: number; acceso: number; ajuste: number; ajuste_motivo?: string };
   motivo: string;
   por_que: string[];
   etapa_y_ticket: string[];
@@ -26,15 +26,26 @@ export interface DecisionV2 {
 export function cargarDecisiones(raiz: string): Record<string, DecisionV2> {
   const carpeta = path.join(raiz, "data", "auditoria_v2");
   const out: Record<string, Partial<DecisionV2>> = {};
-  for (const f of fs.readdirSync(carpeta).filter((f) => f.endsWith(".json")).sort()) {
+  for (const f of fs.readdirSync(carpeta).filter((f) => /^lote.*\.json$/.test(f)).sort()) {
     const lote = JSON.parse(fs.readFileSync(path.join(carpeta, f), "utf8")) as Record<string, Partial<DecisionV2>>;
-    for (const [id, d] of Object.entries(lote)) out[id] = { ...(out[id] ?? {}), ...d };
+    for (const [id, d] of Object.entries(lote)) {
+      if (id.startsWith("_")) continue;
+      out[id] = { ...(out[id] ?? {}), ...d };
+    }
   }
+  // Motivos de los ajustes (data/auditoria_v2/ajustes.json): obligatorios cuando el ajuste es distinto de cero.
+  const rutaAjustes = path.join(carpeta, "ajustes.json");
+  const ajustes = fs.existsSync(rutaAjustes)
+    ? (JSON.parse(fs.readFileSync(rutaAjustes, "utf8")) as Record<string, string>)
+    : {};
   const completas: Record<string, DecisionV2> = {};
   const incompletas: string[] = [];
   for (const [id, d] of Object.entries(out)) {
-    if (d.puntuacion && d.motivo && d.por_que && d.etapa_y_ticket && d.tesis) completas[id] = d as DecisionV2;
-    else incompletas.push(`${id} (faltan: ${["puntuacion", "motivo", "por_que", "etapa_y_ticket", "tesis"].filter((k) => !(k in d)).join(", ")})`);
+    if (d.puntuacion && d.motivo && d.por_que && d.etapa_y_ticket && d.tesis) {
+      const motivoAjuste = ajustes[id] ?? "";
+      if (d.puntuacion.ajuste !== 0 && !motivoAjuste) incompletas.push(`${id} (ajuste ${d.puntuacion.ajuste} sin motivo en ajustes.json)`);
+      completas[id] = { ...(d as DecisionV2), puntuacion: { ...d.puntuacion, ajuste_motivo: d.puntuacion.ajuste === 0 ? "" : motivoAjuste } };
+    } else incompletas.push(`${id} (faltan: ${["puntuacion", "motivo", "por_que", "etapa_y_ticket", "tesis"].filter((k) => !(k in d)).join(", ")})`);
   }
   if (incompletas.length) throw new Error(`Decisiones incompletas en data/auditoria_v2:\n - ${incompletas.join("\n - ")}`);
   return completas;
@@ -55,7 +66,7 @@ export function calcularPuntuacion(p: DecisionV2["puntuacion"]): Puntuacion {
   tope(p.decision <= 8, 69, "no firma cheque → máx. 69");
   tope(p.etapa <= 7, 64, "Serie A o exige tracción → máx. 64");
   total = Math.max(0, Math.min(100, Math.round(total)));
-  return { ...p, bruto, topes, total };
+  return { ...p, ajuste_motivo: p.ajuste_motivo ?? "", bruto, topes, total };
 }
 
 const aLista = (v: unknown): string[] => (Array.isArray(v) ? v.map(String) : String(v ?? "").split(/\r?\n+/).map((s) => s.trim()).filter(Boolean));

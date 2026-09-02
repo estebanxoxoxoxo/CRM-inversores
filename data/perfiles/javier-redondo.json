@@ -60,7 +60,7 @@
     "En Permit.io, el asiento de consejo lo tomó Eric Anderson, otro socio; su rol exacto como lead en operaciones concretas no está confirmado en fuentes públicas",
     "No tiene cuenta de X/Twitter verificada; las que aparecen en buscadores son homónimos. Su canal público real es el blog del fondo y The New Stack",
     "Su web personal javierredondo.com está desactualizada (todavía lo presenta como «Product at Anyscale») y bloquea el acceso automatizado",
-    "Sin newsletter propia ni presencia documentada en podcasts: menos superficie de contacto informal que otros perfiles de la lista"
+    "Sin newsletter propia ni presencia documentada en podcasts: poca superficie de contacto informal"
   ],
   "como_llegar": [
     "Email directo publicado por el fondo: javier@scalevp.com (https://www.scalevp.com/team/javier-redondo). La FAQ de Scale invita explícitamente a ir directo al socio del área y dice que la intro ayuda pero no es obligatoria",
@@ -117,13 +117,14 @@
       "espanol": 15,
       "acceso": 13,
       "ajuste": -10,
+      "ajuste_motivo": "Política explícita de Scale de no invertir en seed y exigir clientes firmados y 0,5-5M USD de ARR.",
       "bruto": 65,
       "topes": [
         "Serie A o exige tracción → máx. 64"
       ],
       "total": 64
     },
-    "motivo": "Nadie en la lista entiende mejor el producto: gestionó Ray en Anyscale y Kafka en Confluent y publicó las tesis 'MCP is the new WWW' y de sistemas de build; español nativo con email público. Pero Scale declara que no invierte en seed, lidera Series A/B con cheques de 5-50M y pide clientes firmados y 0,5-5M ARR. Reservar para la Serie A.",
+    "motivo": "Entiende el producto desde dentro: gestionó Ray en Anyscale y Kafka en Confluent y publicó las tesis 'MCP is the new WWW' y de sistemas de build; español nativo con email público. Pero Scale declara que no invierte en seed, lidera Series A/B con cheques de 5-50M y pide clientes firmados y 0,5-5M ARR. Reservar para la Serie A.",
     "nivel_v1": "r",
     "prioridad_agente": "B",
     "confianza_agente": "alta",

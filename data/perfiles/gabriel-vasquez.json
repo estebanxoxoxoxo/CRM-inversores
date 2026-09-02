@@ -61,7 +61,7 @@
     "El interlocutor natural para infraestructura en a16z es otro equipo; existe riesgo real de que la conversación muera en el traspaso interno."
   ],
   "como_llegar": [
-    "1) Vía Borderless Founders: es la puerta explícita y diseñada para este caso. Su ensayo cierra con “If you’re a Borderless Founder, we’d love to meet you”; escribirle citando el ensayo y su marco de tres ventajas (clientes, marca, talento) es el mejor gancho documentado de toda la lista.",
+    "1) Vía Borderless Founders: es la puerta explícita y diseñada para este caso. Su ensayo cierra con “If you’re a Borderless Founder, we’d love to meet you”; escribirle citando el ensayo y su marco de tres ventajas (clientes, marca, talento) es un gancho documentado y explícito.",
     "2) X/Twitter @GEVS94 y LinkedIn (in/gabriel-vasquez-49392580), sus dos canales públicos activos.",
     "3) Cenas de la red Borderless Founders: se celebran en varias ciudades del mundo y ya han pasado más de 600 fundadores; pedir invitación a través de un fundador de la red es la vía cálida más eficaz.",
     "4) Intro vía coinversores latinoamericanos de su cartera: David Vélez (Nubank), Simón Borrero (Rappi), Nicolás Abad (Telepatia).",
@@ -107,6 +107,7 @@
       "espanol": 1,
       "acceso": 10,
       "ajuste": 0,
+      "ajuste_motivo": "",
       "bruto": 59,
       "topes": [],
       "total": 59

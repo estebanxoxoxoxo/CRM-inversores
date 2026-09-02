@@ -56,6 +56,7 @@ export const PuntuacionSchema = z.object({
   espanol: z.number().int().min(0).max(15),
   acceso: z.number().int().min(0).max(15),
   ajuste: z.number().int().min(-15).max(5),
+  ajuste_motivo: z.string(),
   bruto: z.number().int(),
   topes: z.array(z.string()),
   total: z.number().int().min(0).max(100),

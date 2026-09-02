@@ -115,6 +115,7 @@
       "espanol": 15,
       "acceso": 8,
       "ajuste": -8,
+      "ajuste_motivo": "Briefing original erróneo (no ex-VMware ni ingeniero); sin huella en IA ni dev tools; Nauta ya cubierta por Borja Breña.",
       "bruto": 45,
       "topes": [],
       "total": 45

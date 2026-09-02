@@ -44,7 +44,7 @@
     "AXG Tecnonexo (su propia empresa, SaaS de e-learning en LatAm) y Puente Labs — origen operador y vínculo con el ecosistema latinoamericano"
   ],
   "senales_de_encaje": [
-    "Historial de invertir en fundadores antes de que exista evidencia de mercado: el caso Zoom es el argumento más fuerte de todo el lote frente a inversores que piden tracción",
+    "Historial de invertir en fundadores antes de que exista evidencia de mercado: el caso Zoom es un argumento fuerte frente a inversores que piden tracción",
     "Método declarado people-first: construye relación con fundadores durante años antes de la ronda, lo que permite empezar la conversación hoy sin pedir nada",
     "Fondo vigente de 1.000M USD (Emergence VII, marzo de 2025) dedicado explícitamente a IA y B2B",
     "Tesis del fondo que incluye infraestructura de IA e IA del mundo físico, con Together AI y Physical Intelligence en cartera",
@@ -115,6 +115,7 @@
       "espanol": 15,
       "acceso": 6,
       "ajuste": -4,
+      "ajuste_motivo": "Una sola inversión nueva por socio al año; sin canal frío.",
       "bruto": 55,
       "topes": [],
       "total": 55

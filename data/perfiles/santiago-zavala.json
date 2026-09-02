@@ -123,11 +123,12 @@
       "espanol": 15,
       "acceso": 12,
       "ajuste": -2,
+      "ajuste_motivo": "Vía estándar por programa de cohortes (300k USD) y foco geográfico en LatAm.",
       "bruto": 85,
       "topes": [],
       "total": 85
     },
-    "motivo": "Programador en activo cuya conversación pública es la más cercana al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
+    "motivo": "Programador en activo cuya conversación pública está pegada al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
     "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",

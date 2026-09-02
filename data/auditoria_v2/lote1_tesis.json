@@ -1,74 +1,98 @@
 {
- "adeyemi-ajao": {"tesis": [
-  "'Automation for the Real Economy' desde 2018: tecnología para logística, transporte, construcción, nóminas, seguros, retail, finanzas y sanidad, no productos puramente digitales.",
-  "Formulación 2026: 'la IA compite por nómina, no por software'; el valor está en sustituir coste laboral.",
-  "Método intensivo en investigación: rastrean 15.000+ empresas, el 90% de las inversiones nace de investigación propia; sistema interno Base11.",
-  "Áreas 2026: logística, nóminas, construcción, modelos de visión, world models e inteligencia de fabricación."
- ]},
- "adrian-mendoza": {"tesis": [
-  "Innovación y modernización en servicios financieros, seguros, manufactura y dual-use; verticales: IA, ciberseguridad, fintech.",
-  "Fundadores con experiencia de dominio en esos sectores y diversidad.",
-  "Cartera concentrada de 12-15 empresas por fondo con implicación semanal; ayuda en go-to-market y riesgo regulatorio de IA.",
-  "Postura pública: 'AI Hype 2.0' (CNBC, nov-2025) y 'data is the new currency'."
- ]},
- "adriana-tortajada": {"tesis": [
-  "'Invest at the convergence where technologies accelerate and compound together'; tecnologías fundacionales antes de que el mercado las valide.",
-  "Tres bloques: Sustainable Future (energía, materiales, cómputo), Productivity & Infrastructure (software, hardware e infraestructura que hacen medible la productividad) y Demographic Opportunity.",
-  "Híbrido: 'fund-of-funds radar' con inversiones directas concentradas; LP en Quantonation y Cantos (pre-seed deep tech).",
-  "Alcance binacional México-EE.UU.; ESG integrado."
- ]},
- "alberto-gomez": {"tesis": [
-  "Deep tech B2B europeo temprano con tesis 'post-IA': cuando la IA comoditiza la superficie del software, el valor baja a datos propietarios, confianza, profundidad de dominio y sistemas físicos.",
-  "Cuatro dominios: Capture (datos y sensórica), Secure (infra de IA fiable), Compute (cómputo de dominio profundo), Connect (sistemas del mundo real).",
-  "Criterios de equipo publicados: Big Vision, Execution, Technical Conviction (arquitectura deliberada que crea ventaja) y Courage ('pioneer before market validation').",
-  "2026: 'prototypes are easy; production systems are not'; le interesa IA que se comporta como software real: determinista, auditable, gobernable."
- ]},
- "alberto-yepez": {"tesis": [
-  "Forgepoint: ciberseguridad, IA e infrastructure software 'from first call to exit'.",
-  "Vectores: securing AI, IA para seguridad, identidad, gestión proactiva del riesgo, seguridad de la infraestructura.",
-  "'If software has eaten the world, the world must now be secure by design'; asegurar la IA es reto técnico y organizativo.",
-  "Franquicia global: hub europeo en Londres con presencia en Madrid; alianza con Banco Santander; consejo asesor de 80-100 CISOs como canal de validación."
- ]},
- "alejandro-guerrero": {"tesis": [
-  "'AI isn't just another wave of software, it's a new computing paradigm' que reconstruye desde cero los sistemas centrales de las empresas.",
-  "Fund III: plataformas empresariales AI-native con data leverage, automatización profunda y 'a clear wedge into critical workflows' (fintech y pagos, comercio y logística, compliance y riesgo).",
-  "'Fewer bets, deeper relationships': ~7 inversiones al año, liderando pre-seed y seed, con operating partners técnicos (ex-arquitecto jefe de Pinterest).",
-  "Autor del Diversity Rider; ~70% de la cartera liderada por fundadores infrarrepresentados."
- ]},
- "alex-rubalcava": {"tesis": [
-  "Value investing aplicado al pre-seed: riesgo técnico alto y riesgo competitivo bajo; la pregunta es si la tecnología se puede construir, no cuántos competidores habrá.",
-  "Filtro de eficiencia extrema de capital en ingeniería ('$25-60k builds'); rechaza equipos que subcontratan el desarrollo.",
-  "Tres preguntas sobre el equipo: ¿sabes shippear, vender y contratar?",
-  "Sectores: IA aplicada, visión, NLP, data warehouses especializados, robótica industrial, espacio, defensa; preferencia por entornos regulados."
- ]},
- "alfonso-subiotto-marques": {"tesis": [
-  "Mandato personal literal: 'invest in developer tools and data infrastructure' (Venture Partner en Lorimer).",
-  "Lorimer invierte 'pre-consensus at pre-seed and seed', ethos 'Be Genuinely Useful', 100+ LPs operadores.",
-  "Tesis 2026 del fondo: fase de despliegue de la IA (infra, world models, IA determinista industrial); 'el coste por token cayó 100x y la adopción empresarial es <5%'.",
-  "Franja que cubre él: dev tools, datos e infraestructura, donde el fondo tiene 14 compañías (Hex, Polar Signals, Instant, Golioth...)."
- ]},
- "ana-carolina-mexia-ponce": {"tesis": [
-  "Pre-seed puro en fundadores que transforman industrias tradicionales en el corredor EE.UU.-México; primera ronda institucional.",
-  "Prefieren al menos un fundador técnico; fondo 'led by engineers'.",
-  "Macro de nearshoring: México como palanca para transformar manufactura, logística, cadena de suministro, salud y seguros en EE.UU.",
-  "Cartera desde 2023: IA aplicada vertical (Aloi, Arkham, Desteia, Nodal, Mi Chamba), no infraestructura ni dev tools."
- ]},
- "andres-saborido": {"tesis": [
-  "Wayra como corporate VC industrial alineado con 'Transform & Grow' de Telefónica; prioridades 2026: ciberseguridad, IA, redes y experiencia de usuario.",
-  "Modelo 'venture client': el valor está en contratos reales con Telefónica, no en la valoración post-money.",
-  "IA aplicada con casos de uso corporativos integrables en el stack del grupo; no investigación teórica.",
-  "Discurso público a favor de más infraestructura digital y acceso a megaclusters de computación en Europa."
- ]},
- "andres-torrubia": {"tesis": [
-  "No publica tesis de inversión; opera como constructor y divulgador, no como inversor formal.",
-  "'Sale muy caro apostar contra la IA'; la ventaja no está en tener la herramienta sino en aplicar la IA al problema propio.",
-  "Practica lo que predica: mantiene en abierto dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP) para 'velocidad de desarrollo con controles de calidad rigurosos'.",
-  "Crítico con el riesgo regulatorio europeo; compara ecosistemas de IA de UE, EE.UU. y China."
- ]},
- "anna-cachadina-abello": {"tesis": [
-  "Crane: de la concepción a la semilla en 'foundational technologies': SaaS empresarial, open source, datos, ML, infraestructura y developer tools; extensiones a ciberseguridad y post-cuántica.",
-  "Lema 'First to believe. Last to leave.': apetito por riesgo técnico temprano.",
-  "Su artículo 'The AI Wild West': la empresa carece de un responsable único de IA; frenos en seguridad y cumplimiento (42%), calidad del dato (47%) e integración con el stack (38%).",
-  "Tesis de capa de control, observabilidad e integración de la IA empresarial: el terreno de un harness de agentes."
- ]}
+ "adeyemi-ajao": {
+  "tesis": [
+   "'Automation for the Real Economy' desde 2018: tecnología para logística, transporte, construcción, nóminas, seguros, retail, finanzas y sanidad, no productos puramente digitales.",
+   "Formulación 2026: 'la IA compite por nómina, no por software'; el valor está en sustituir coste laboral.",
+   "Método intensivo en investigación: rastrean 15.000+ empresas, el 90% de las inversiones nace de investigación propia; sistema interno Base11.",
+   "Áreas 2026: logística, nóminas, construcción, modelos de visión, world models e inteligencia de fabricación."
+  ]
+ },
+ "adrian-mendoza": {
+  "tesis": [
+   "Innovación y modernización en servicios financieros, seguros, manufactura y dual-use; verticales: IA, ciberseguridad, fintech.",
+   "Fundadores con experiencia de dominio en esos sectores y diversidad.",
+   "Cartera concentrada de 12-15 empresas por fondo con implicación semanal; ayuda en go-to-market y riesgo regulatorio de IA.",
+   "Postura pública: 'AI Hype 2.0' (CNBC, nov-2025) y 'data is the new currency'."
+  ]
+ },
+ "adriana-tortajada": {
+  "tesis": [
+   "'Invest at the convergence where technologies accelerate and compound together'; tecnologías fundacionales antes de que el mercado las valide.",
+   "Tres bloques: Sustainable Future (energía, materiales, cómputo), Productivity & Infrastructure (software, hardware e infraestructura que hacen medible la productividad) y Demographic Opportunity.",
+   "Híbrido: 'fund-of-funds radar' con inversiones directas concentradas; LP en Quantonation y Cantos (pre-seed deep tech).",
+   "Alcance binacional México-EE.UU.; ESG integrado."
+  ]
+ },
+ "alberto-gomez": {
+  "tesis": [
+   "Deep tech B2B europeo temprano con tesis 'post-IA': cuando la IA comoditiza la superficie del software, el valor baja a datos propietarios, confianza, profundidad de dominio y sistemas físicos.",
+   "Cuatro dominios: Capture (datos y sensórica), Secure (infra de IA fiable), Compute (cómputo de dominio profundo), Connect (sistemas del mundo real).",
+   "Criterios de equipo publicados: Big Vision, Execution, Technical Conviction (arquitectura deliberada que crea ventaja) y Courage ('pioneer before market validation').",
+   "2026: 'prototypes are easy; production systems are not'; le interesa IA que se comporta como software real: determinista, auditable, gobernable."
+  ]
+ },
+ "alberto-yepez": {
+  "tesis": [
+   "Forgepoint: ciberseguridad, IA e infrastructure software 'from first call to exit'.",
+   "Vectores: securing AI, IA para seguridad, identidad, gestión proactiva del riesgo, seguridad de la infraestructura.",
+   "'If software has eaten the world, the world must now be secure by design'; asegurar la IA es reto técnico y organizativo.",
+   "Franquicia global: hub europeo en Londres con presencia en Madrid; alianza con Banco Santander; consejo asesor de 80-100 CISOs como canal de validación."
+  ]
+ },
+ "alejandro-guerrero": {
+  "tesis": [
+   "'AI isn't just another wave of software, it's a new computing paradigm' que reconstruye desde cero los sistemas centrales de las empresas.",
+   "Fund III: plataformas empresariales AI-native con data leverage, automatización profunda y 'a clear wedge into critical workflows' (fintech y pagos, comercio y logística, compliance y riesgo).",
+   "'Fewer bets, deeper relationships': ~7 inversiones al año, liderando pre-seed y seed, con operating partners técnicos (ex-arquitecto jefe de Pinterest).",
+   "Autor del Diversity Rider; ~70% de la cartera liderada por fundadores infrarrepresentados."
+  ]
+ },
+ "alex-rubalcava": {
+  "tesis": [
+   "Value investing aplicado al pre-seed: riesgo técnico alto y riesgo competitivo bajo; la pregunta es si la tecnología se puede construir, no cuántos competidores habrá.",
+   "Filtro de eficiencia extrema de capital en ingeniería ('$25-60k builds'); rechaza equipos que subcontratan el desarrollo.",
+   "Tres preguntas sobre el equipo: ¿sabes shippear, vender y contratar?",
+   "Sectores: IA aplicada, visión, NLP, data warehouses especializados, robótica industrial, espacio, defensa; preferencia por entornos regulados."
+  ]
+ },
+ "alfonso-subiotto-marques": {
+  "tesis": [
+   "Mandato personal literal: 'invest in developer tools and data infrastructure' (Venture Partner en Lorimer).",
+   "Lorimer invierte 'pre-consensus at pre-seed and seed', ethos 'Be Genuinely Useful', 100+ LPs operadores.",
+   "Tesis 2026 del fondo: fase de despliegue de la IA (infra, world models, IA determinista industrial); 'el coste por token cayó 100x y la adopción empresarial es <5%'.",
+   "Franja que cubre él: dev tools, datos e infraestructura, donde el fondo tiene 14 compañías (Hex, Polar Signals, Instant, Golioth...)."
+  ]
+ },
+ "ana-carolina-mexia-ponce": {
+  "tesis": [
+   "Pre-seed puro en fundadores que transforman industrias tradicionales en el corredor EE.UU.-México; primera ronda institucional.",
+   "Prefieren al menos un fundador técnico; fondo 'led by engineers'.",
+   "Macro de nearshoring: México como palanca para transformar manufactura, logística, cadena de suministro, salud y seguros en EE.UU.",
+   "Cartera desde 2023: IA aplicada vertical (Aloi, Arkham, Desteia, Nodal, Mi Chamba), no infraestructura ni dev tools."
+  ]
+ },
+ "andres-saborido": {
+  "tesis": [
+   "Wayra como corporate VC industrial alineado con 'Transform & Grow' de Telefónica; prioridades 2026: ciberseguridad, IA, redes y experiencia de usuario.",
+   "Modelo 'venture client': el valor está en contratos reales con Telefónica, no en la valoración post-money.",
+   "IA aplicada con casos de uso corporativos integrables en el stack del grupo; no investigación teórica.",
+   "Discurso público a favor de más infraestructura digital y acceso a megaclusters de computación en Europa."
+  ]
+ },
+ "andres-torrubia": {
+  "tesis": [
+   "No publica tesis de inversión; opera como constructor y divulgador, no como inversor formal.",
+   "'Sale muy caro apostar contra la IA'; la ventaja no está en tener la herramienta sino en aplicar la IA al problema propio.",
+   "Practica lo que predica: mantiene en abierto dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP) para 'velocidad de desarrollo con controles de calidad rigurosos'.",
+   "Crítico con el riesgo regulatorio europeo; compara ecosistemas de IA de UE, EE.UU. y China."
+  ]
+ },
+ "anna-cachadina-abello": {
+  "tesis": [
+   "Crane: de la concepción a la semilla en 'foundational technologies': SaaS empresarial, open source, datos, ML, infraestructura y developer tools; extensiones a ciberseguridad y post-cuántica.",
+   "Lema 'First to believe. Last to leave.': apetito por riesgo técnico temprano.",
+   "Su artículo 'The AI Wild West': la empresa carece de un responsable único de IA; frenos en seguridad y cumplimiento (42%), calidad del dato (47%) e integración con el stack (38%).",
+   "Tesis de capa de control, observabilidad e integración de la IA empresarial: el terreno de un harness de agentes."
+  ]
+ }
 }

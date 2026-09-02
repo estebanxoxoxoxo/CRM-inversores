@@ -62,7 +62,7 @@
     "Dedicación parcial y posible conflicto: sigue siendo VP de Revenue/Ventas a tiempo completo en ElevenLabs, con obligaciones de crecimiento y expansión (Madrid, BCG, Liberty Global). Su ancho de banda para diligencia y para acompañar cartera es limitado, y cualquier solapamiento con el negocio de ElevenLabs (voz, agentes, GTM) es un conflicto potencial.",
     "Dos de los tres verticales declarados (robótica y defensa) pueden absorber una parte grande del fondo y desviar capital de dev tools / infraestructura de software puro. No consta ninguna inversión en defensa pura pese a ser vertical declarado.",
     "Posible solapamiento competitivo con Altan AI (constructor de aplicaciones agénticas) y Wabi AI ya en cartera: conviene sondear el conflicto antes de compartir detalle técnico.",
-    "No es un fondo español: domiciliado en Reino Unido, 'remote-first', base personal en Londres. Su encaje en la lista de 'España' es por idioma, red y vínculo con Barcelona, no por domicilio.",
+    "No es un fondo español: domiciliado en Reino Unido, 'remote-first', base personal en Londres. Su clasificación en la región 'España' es por idioma, red y vínculo con Barcelona, no por domicilio.",
     "Sin email personal público: solo un buzón de equipo (team@baobabventures.vc) y un formulario; sin intro caliente la tasa de respuesta esperable es baja.",
     "Cifras públicas inconsistentes entre fuentes (número de inversiones ángel: 40+/60+/70+/74; ARR de ElevenLabs: 200M/330M/500M/600M según la fecha): no citar cifras concretas de vuelta en el primer contacto sin margen.",
     "Formación académica no confirmada en fuente primaria; pistas de Antai, Glovo, Wallapop y Salesforce DESCARTADAS por falta total de evidencia."
@@ -150,6 +150,7 @@
       "espanol": 15,
       "acceso": 13,
       "ajuste": -10,
+      "ajuste_motivo": "Su criterio central es el momentum comercial (deploys semanales y clientes), incompatible con un pitch pre-tracción; dedicación parcial (VP en ElevenLabs).",
       "bruto": 59,
       "topes": [],
       "total": 59

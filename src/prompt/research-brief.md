@@ -1,6 +1,6 @@
 # Búsqueda de nuevos inversores deep tech / dev tools hispanohablantes
 
-Sos un analista de investigación de inversores. Tu objetivo es encontrar, investigar y enviar {{COUNT}} perfiles nuevos de inversores que superen el criterio de pureza descrito abajo. Este documento contiene, en este orden: el pedido original, la metodología completa de descubrimiento e investigación, la rúbrica de auditoría, el tipo exacto de cada perfil, el endpoint donde enviar los perfiles nuevos, la lista de perfiles que ya existen (no los repitas) y perfiles de ejemplo con nivel superior a 80. Leelo entero antes de empezar. Todo el contenido que produzcas va en español; los nombres de empresas, fondos y citas textuales pueden ir en su idioma original.
+Sos un analista de investigación de inversores. Tu objetivo es encontrar, investigar y enviar {{COUNT}} perfiles de inversores indiscutibles en su pureza y {{COUNT}} perfiles con muchísimo potencial, todos nuevos y que superen el criterio de pureza descrito abajo. Este documento contiene, en este orden: el pedido original, la metodología completa de descubrimiento e investigación, la rúbrica de auditoría, el tipo exacto de cada perfil, el endpoint donde enviar los perfiles nuevos, la lista de perfiles que ya existen (no los repitas) y perfiles de ejemplo con nivel superior a 80. Leelo entero antes de empezar. Todo el contenido que produzcas va en español; los nombres de empresas, fondos y citas textuales pueden ir en su idioma original.
 
 ## 1. Pedido original (textual)
 
@@ -14,7 +14,7 @@ Sos un analista de investigación de inversores. Tu objetivo es encontrar, inves
 >
 > Quiero que el output sea uns csv con nombre, linkedin, mail, tesis de inversio, antecedentes, por que es interesante, investigacion larga sobre su historia (no importa que desborde la celda). Pensa excelenetemente bien y mucho, cuando ya encuentres las tareas rutinarias lanza agentes de opus 5 para cuidar tu contexto.
 >
-> Me olvide de decirte. Quiero 30 que sean indiscutibles en su pureaza y 30 que tenga muchisimo potencial.
+> Me olvide de decirte. Quiero {{COUNT}} que sean indiscutibles en su pureaza y {{COUNT}} que tenga muchisimo potencial.
 
 El formato de salida tiene que respetar el tipo de la sección 6 y enviarse a la base a través del endpoint de la sección 7.
 
@@ -30,7 +30,7 @@ Regiones, en orden de prioridad:
 - México: inversores radicados en México o que invierten activamente en México.
 - "Fuera de región (excepcional)": sólo para encajes excepcionales (por ejemplo un inversor hispanohablante en Londres con tesis exacta), diciéndolo explícitamente.
 
-Objetivo: {{COUNT}} perfiles nuevos. Cada perfil enviado tiene que superar el criterio de pureza; si no llegás a {{COUNT}} con ese estándar, entregá menos y decilo. Es preferible entregar menos perfiles indiscutibles que completar la cantidad con perfiles mediocres. Si dudás, no lo envíes o dejalo claro en riesgos.
+Objetivo: {{COUNT}} perfiles indiscutibles y {{COUNT}} con muchísimo potencial, todos nuevos. Cada perfil enviado tiene que superar el criterio de pureza; si no llegás a esas cantidades con ese estándar, entregá menos y decilo. Es preferible entregar menos perfiles indiscutibles que completar la cantidad con perfiles mediocres. Si dudás, no lo envíes o dejalo claro en riesgos.
 
 ## 3. Descubrimiento de candidatos
 
@@ -94,7 +94,7 @@ Content-Type: application/json
 { "investors": [ { ...perfil 1... }, { ...perfil 2... } ] }
 ```
 
-- Hasta 20 perfiles por petición; para enviar los {{COUNT}} hacé varias peticiones si hace falta. Agregá `?dryRun=1` a la URL para validar sin escribir; hacelo siempre primero y corregí lo que rechace.
+- Hasta 20 perfiles por petición; hacé varias peticiones para enviarlos todos. Agregá `?dryRun=1` a la URL para validar sin escribir; hacelo siempre primero y corregí lo que rechace.
 - Respuesta: `{ "dryRun": boolean, "created": [ { "id", "name" } ], "rejected": [ { "id", "name", "reason" } ] }`. Un perfil se rechaza si no valida contra el tipo (el motivo dice qué campo) o si ya existe uno con el mismo id, nombre, LinkedIn o email. Los perfiles creados quedan con auditoría pendiente hasta que un humano los revise; nunca se sobreescribe un perfil existente.
 - Ejemplo:
 

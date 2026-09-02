@@ -27,7 +27,7 @@ export default function FindMoreButton() {
     if (await copyText(prompt.text)) {
       setFeedback({
         text: prompt.hasToken
-          ? `Prompt copiado para ${requested} perfiles: ${size}, ${prompt.examples} ejemplos, ${prompt.excluded} excluidos.`
+          ? `Prompt copiado para ${requested} indiscutibles y ${requested} con potencial: ${size}, ${prompt.examples} ejemplos, ${prompt.excluded} excluidos.`
           : `Prompt copiado sin token (${size}): definí VITE_INGEST_TOKEN.`,
         error: !prompt.hasToken,
       });
@@ -48,9 +48,11 @@ export default function FindMoreButton() {
           <h3 id="find-more-title">Buscar más perfiles</h3>
           <p className="muted small">Se copia al portapapeles un prompt para pegar en un chat de IA, con los perfiles existentes como exclusiones y los mejores como ejemplos.</p>
           <label>
-            Cantidad de perfiles nuevos a buscar
+            Cantidad de perfiles a buscar
             <input ref={inputRef} type="number" min={1} max={MAX_COUNT} step={1} placeholder={String(DEFAULT_COUNT)} value={count} onChange={(e) => setCount(e.target.value)} />
-            <span className="muted small">Vacío: {DEFAULT_COUNT}.</span>
+            <span className="muted small">
+              Se piden esa cantidad de indiscutibles y esa cantidad con muchísimo potencial. Vacío: {DEFAULT_COUNT}.
+            </span>
           </label>
           <div className="dialog-actions">
             <button type="button" className="link-button" onClick={() => dialogRef.current?.close()}>

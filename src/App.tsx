@@ -1,58 +1,68 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import DetalleInversor from "./components/DetalleInversor";
-import PanelFiltros from "./components/Filtros";
-import ListaInversores from "./components/ListaInversores";
-import { ErrorDatos, cargarIndice } from "./lib/datos";
-import { aplicarFiltros, filtrosAUrl, filtrosDesdeUrl, type Filtros } from "./lib/filtros";
-import type { Indice } from "./types/inversor";
+import FiltersPanel from "./components/Filters";
+import InvestorDetail from "./components/InvestorDetail";
+import InvestorList from "./components/InvestorList";
+import { useInvestors } from "./context/investors";
+import { applyFilters, filtersFromUrl, filtersToUrl, type Filters } from "./lib/filters";
+
+function selectedIdFromHash(): string | null {
+  return new URLSearchParams(window.location.hash.slice(1)).get("id");
+}
 
 export default function App() {
-  const [indice, setIndice] = useState<Indice | null>(null);
-  const [error, setError] = useState<ErrorDatos | null>(null);
-  const [filtros, setFiltros] = useState<Filtros>(() => filtrosDesdeUrl());
-  const [seleccionado, setSeleccionado] = useState<string | null>(() => new URLSearchParams(window.location.hash.slice(1)).get("id"));
+  const { status, investors, invalid, error } = useInvestors();
+  const [filters, setFilters] = useState<Filters>(() => filtersFromUrl());
+  const [selectedId, setSelectedId] = useState<string | null>(() => selectedIdFromHash());
 
+  useEffect(() => filtersToUrl(filters), [filters]);
   useEffect(() => {
-    cargarIndice()
-      .then(setIndice)
-      .catch((e: unknown) => setError(e instanceof ErrorDatos ? e : new ErrorDatos(e instanceof Error ? e.message : String(e), "")));
-  }, []);
-  useEffect(() => filtrosAUrl(filtros), [filtros]);
-  useEffect(() => {
-    window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}${seleccionado ? `#id=${seleccionado}` : ""}`);
-  }, [seleccionado]);
+    window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}${selectedId ? `#id=${selectedId}` : ""}`);
+  }, [selectedId]);
 
-  const visibles = useMemo(() => (indice ? aplicarFiltros(indice.perfiles, filtros) : []), [indice, filtros]);
-  const cerrar = useCallback(() => setSeleccionado(null), []);
+  const visible = useMemo(() => applyFilters(investors, filters), [investors, filters]);
+  const selected = useMemo(() => investors.find((investor) => investor.id === selectedId) ?? null, [investors, selectedId]);
+  const close = useCallback(() => setSelectedId(null), []);
 
   return (
     <div className="app">
-      <header className="cabecera">
+      <header className="header">
         <h1>CRM inversores</h1>
-        <p className="cabecera-info">
-          {indice ? (
+        <p className="header-info">
+          {status === "ready" ? (
             <>
-              <strong>{visibles.length}</strong> de {indice.total} perfiles · índice del {indice.generado} · Firestore
+              <strong>{visible.length}</strong> de {investors.length} perfiles · Firestore
             </>
-          ) : error ? (
-            <span className="error">{error.message}</span>
+          ) : status === "error" ? (
+            <span className="error">{error?.message}</span>
           ) : (
             "Cargando desde Firestore…"
           )}
         </p>
       </header>
       {error && (
-        <div className="aviso-error">
+        <div className="error-notice">
           <strong>{error.message}</strong>
-          {error.ayuda && <p>{error.ayuda}</p>}
+          {error.help && <p>{error.help}</p>}
         </div>
       )}
-      <div className="cuerpo">
-        <PanelFiltros filtros={filtros} onChange={setFiltros} perfiles={indice?.perfiles ?? []} />
-        <main className="resultados">
-          <ListaInversores perfiles={visibles} seleccionado={seleccionado} onSeleccionar={setSeleccionado} />
+      {invalid.length > 0 && (
+        <div className="error-notice">
+          <strong>
+            {invalid.length} {invalid.length === 1 ? "documento no valida y no se muestra" : "documentos no validan y no se muestran"}.
+          </strong>
+          {invalid.map((doc) => (
+            <p key={doc.id}>
+              {doc.id}: {doc.error}
+            </p>
+          ))}
+        </div>
+      )}
+      <div className="layout">
+        <FiltersPanel filters={filters} onChange={setFilters} investors={investors} />
+        <main className="results">
+          <InvestorList investors={visible} selectedId={selectedId} onSelect={setSelectedId} />
         </main>
-        <DetalleInversor id={seleccionado} onCerrar={cerrar} />
+        <InvestorDetail investor={selected} selectedId={status === "ready" ? selectedId : null} onClose={close} />
       </div>
     </div>
   );

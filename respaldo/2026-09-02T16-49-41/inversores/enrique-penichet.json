@@ -1,0 +1,140 @@
+{
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "Fondo Frontier Tech recién cerrado (>20M€, dic-2025, respaldado por FondICO, IVF y Tim Draper) con mandato de IA, cuántica y ciberseguridad en pre-seed y sólo nueve inversiones hechas; pero sin ningún precedente de dev tools o infra de software en 60+ participadas, escéptico con las valoraciones de IA y con dudas sobre si lidera.",
+    "puntuacion": {
+      "tesis": 12,
+      "etapa": 17,
+      "decision": 18,
+      "espanol": 15,
+      "acceso": 10,
+      "otros_aspectos": 0,
+      "otros_aspectos_motivo": "",
+      "bruto": 72,
+      "topes": [],
+      "total": 72
+    }
+  },
+  "ciudad_base": "Valencia, España",
+  "fuentes": [
+    "https://draperb1.vc",
+    "https://draperb1.vc/team",
+    "https://draperb1.vc/portfolio",
+    "https://capital.es/economia/mercados-de-inversion/draper-b1-logra-mas-de-20-millones-en-su-nuevo-fondo-centrado-en-inteligencia-artificial-y-ciberseguridad/156154/",
+    "https://www.elespanol.com/invertia/disruptores/ecosistema-startup/inversores/20251202/draper-b1-acelera-romper-fronteras-tecnologia-supera-millones-euros-cierre-nuevo-fondo/1003744036768_0.html",
+    "https://www.elespanol.com/invertia/disruptores/ecosistema-startup/inversores/20260621/enrique-penichet-arquitecto-suenos-cambio-ladrillo-capital-riesgo-humano-disruptivo/1003744279065_0.html",
+    "https://www.expansion.com/expansion-empleo/emprendedores/2025/12/02/692e8e41468aeb2e748b4573.html",
+    "https://elreferente.es/venture-capital/draper-b1-supera-los-20-millones-en-el-cierre-de-su-nuevo-fondo-frontier-tech/",
+    "https://castellonplaza.com/castellonplaza/emprendedores1538/la-gestora-valenciana-draper-b1-cierra-su-nuevo-fondo-frontier-tech-con-mas-de-20-millones",
+    "https://capital-riesgo.es/en/articles/draper-b1-surpasses-20-million-at-the-closing-of-its-new-frontier-tech-fund/",
+    "https://www.vcsheet.com/who/enrique-penichet",
+    "https://mintround.com/investors/enrique-penichet",
+    "https://startupintros.com/people/enrique-penichet",
+    "https://www.crunchbase.com/person/enrique-penichet",
+    "https://es.linkedin.com/in/enriquepenichet",
+    "https://ceeivalencia.emprenemjunts.es/?op=8&n=25462",
+    "https://ediciones.b-venture.com/teams/enrique-penichet/",
+    "https://elreferente.es/emprendedores/enrique-penichet/",
+    "https://www.unir.net/profesores/enrique-penichet-garcia/"
+  ],
+  "confianza": "alta",
+  "rol": "Founding Partner / Managing Partner y cofundador. También profesor en UNIR y consejero en varias participadas.",
+  "id": "enrique-penichet",
+  "inversiones_relevantes": [
+    "Sycai Medical (participada del fondo Frontier Tech, anunciada con el cierre en dic 2025; detección precoz de patologías abdominales con IA sobre imagen médica) — deep tech de IA invertido antes de tener tracción comercial",
+    "8layers (una de las nueve primeras inversiones del fondo Frontier Tech) — deep tech en fase inicial",
+    "Collimate Space (fondo Frontier Tech) — tecnología espacial pre-ingresos",
+    "Arkadia Space (propulsión espacial, Castellón) — apuesta hardware de horizonte muy largo, prueba de tolerancia a ciclos de desarrollo lentos",
+    "Splight (seed de ~12 M$ en 2024; IA aplicada a redes eléctricas) — la operación de IA de mayor tamaño de su historial",
+    "Dost.ai (Serie A de ~8 M$ en 2025; automatización documental con IA) — acompañamiento desde etapas tempranas hasta Serie A",
+    "NeoCheck e IrisTrace (verificación de identidad y seguridad biométrica) — precedentes en ciberseguridad, uno de los verticales del fondo",
+    "Signaturit (firma digital, EXIT) y Traventia (EXIT con 9x) y Skitude y Billage (EXITs) — track record de salidas reales, no solo de marcado a mercado",
+    "Zapiens.ai, Gravl.ai, Keytrends.ai, HR Bot Factory, Kuik.io — bloque de IA en cartera, todo de aplicación vertical (nótese: ninguna de infraestructura ni dev tools)"
+  ],
+  "linkedin": "https://es.linkedin.com/in/enriquepenichet",
+  "como_llegar": [
+    "Formulario oficial 'Send us your deck': https://share.hsforms.com/1MsG5yb6KSTCINwcc53CnuA3cx7k (es el canal declarado del fondo)",
+    "LinkedIn: https://es.linkedin.com/in/enriquepenichet | X/Twitter: @enriquepenichet",
+    "Vía el equipo técnico del fondo en paralelo: Victor Donet (venture partner de tecnología) y Juan Leal (venture partner de producto); para el proceso de inversión, Raquel Bernal (Managing Partner e Investment Director) y los principals Jon Etxeberria y Ana Álvaro",
+    "B-Venture (Bilbao): es ponente y jurado recurrente en varias ediciones",
+    "Ecosistema valenciano: CEEI Valencia / Emprenem Junts, Startup Valencia y VDS — comparte plaza con Patricia Pastor (Next Tier), que también está en esta lista",
+    "UNIR: es profesor; los foros académicos son una vía de contacto de bajo coste",
+    "Draper Venture Network y Draper Summit (San Francisco): el evento donde él mismo consiguió su alianza con Tim Draper",
+    "Intro vía fundadores de portfolio: Fourvenues (Alberto Centeno), Sycai Medical, Arkadia Space, Criptan",
+    "Coinversores citados en prensa: Octopus Ventures, Bessemer y Draper Associates"
+  ],
+  "email": "enrique@draperb1.vc",
+  "banda": "Alto potencial",
+  "nivel": 72,
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "investigacion_larga": "Cronología. Enrique Penichet García nació en Valencia y su origen profesional no tiene nada que ver con la tecnología: es arquitecto por la Universitat Politècnica de València, hizo prácticas en el estudio del Pritzker portugués Souto de Moura y su proyecto final de carrera en París. Entre 2002 y 2008 trabajó en el ladrillo: empezó como tasador inmobiliario, pasó por Cohispania gestionando pedidos masivos y acabó en promoción delegada dentro de promotoras-constructoras, buscando solares, desarrollando proyectos y colocando compradores finales. Justo antes del estallido de la burbuja fundó con socios su propia constructora; sobrevivió porque, a diferencia de la competencia, no arrastraba agujeros financieros previos, y se especializaron en construir supermercados. Durante la crisis hizo un Executive MBA en el IESE y más tarde un doctorado sobre modelos de negocio basados en internet.\n\nEl giro llegó en 2010, cuando cofundó Bbooster Ventures: la primera aceleradora de startups de España y la tercera de Europa, con un programa de cuatro meses. Los comienzos fueron literalmente de garaje —él mismo cuenta que arrancaron con '3.000 euros de capital social para contratar al electricista que instalara los enchufes'—. Bbooster fue durante una década el vehículo de referencia del ecosistema valenciano.\n\nLa alianza con Tim Draper. En el Draper Summit de 2016 en San Francisco, con la mediación del inversor coreano John Nahm (hoy venture partner del fondo), conoció a Tim Draper. El acuerdo se formalizó en noviembre de 2017 y transformó Bbooster en un fondo de tipo 'super angel' integrado en la Draper Venture Network; el rebranding a Draper B1 se completó en 2020. La red da acceso a más de 25 firmas de VC independientes y más de 1.000 compañías en cartera, y es el principal argumento diferencial del fondo: originar en España, escalar en Estados Unidos. En 2022 abrieron además un vertical Web3. En 2023 fue nombrado Inversor del Año en España. Entre sus retornos citados destaca un 9x en Traventia.\n\nEl fondo vigente: Draper B1 Frontier Tech. Es el dato central. Tuvo un primer cierre en 2024 y cerró definitivamente el 2 de diciembre de 2025 por encima de los 20 M€. Sus partícipes institucionales son FondICO Global (ICO) y el Institut Valencià de Finances (IVF), a los que se suman inversores privados —más del 70% repiten desde el vehículo anterior— e inversores de Silicon Valley encabezados por Tim Draper. Los sectores declarados son inteligencia artificial, computación cuántica, ciberseguridad, espacio y salud, en etapa early stage / deep tech. El fondo anterior, de 2020, devolvió el 100% del capital en menos de cinco años, lo que explica la alta tasa de repetición de LPs. En el momento del cierre final llevaba nueve inversiones: entre las conocidas, Sycai Medical (detección precoz de patologías abdominales con IA, Barcelona), 8layers, Collimate Space, Stowlog y Açai Travel; las otras cuatro no se han hecho públicas. Otras participadas del fondo mencionadas en el anuncio son Fourvenues y Arkadia Space. Sus coinversores habituales citados en prensa son Octopus, Bessemer y Draper Associates.\n\nEl portfolio histórico. La web del fondo declara más de 60 compañías respaldadas. En deep tech y espacio: Arkadia Space (propulsión espacial), IMS Drones, Collimate Space y 8Layers. En IA: Zapiens.ai, Gravl.ai (Gains AI), Dost.ai, HR Bot Factory, Splight, Keytrends.ai y Kuik.io. En ciberseguridad e identidad: NeoCheck, IrisTrace y Signaturit (firma digital, exit). En fintech: Criptan, Bankflip, Bcount y Billage (exit). En salud: Sycai Medical y Maire Health. En sostenibilidad: Newe, Dcycle y APlanet. Otros exits: Traventia (9x) y Skitude. La lectura honesta de este portfolio para el caso del cliente es doble. Positiva: hay deep tech real, hay ciberseguridad, hay compañías que no tenían tracción cuando entraron y hay exits demostrados. Negativa: no hay ni una sola inversión en herramientas para desarrolladores, infraestructura de software, open source o plataformas de agentes. Su bloque de IA es de aplicaciones verticales (RRHH, analítica de contenidos, comercio, energía), no de infraestructura. Y su bloque 'frontier' más profundo es de hardware o de imagen médica, no de software de base.\n\nDeclaraciones sobre IA. En las entrevistas del cierre del fondo (2 de diciembre de 2025) dejó tres frases que conviene conocer antes de una reunión. La primera es de tesis: 'Estamos ante una nueva ola de innovación... La IA permite ahora desarrollos muy rápidos y baja los costes de lanzamiento'. La segunda es de disciplina, y es la que más importa: 'La ola de la IA está calentando el ecosistema y las valoraciones, pero no se justifica en muchas propuestas'. La tercera es política y europea: reclama un marco jurídico estandarizado al estilo del de Delaware para Europa, porque 'sin ese apoyo no habrá grandes winners digitales europeos'. Insiste también en la centralidad del mercado estadounidense, que 'concentra más del 60% del mercado global de software'. En otra formulación de su tesis general: 'invertir en startups representa una creación de valor fiable con responsabilidad social'.\n\nEstilo con fundadores. El perfil largo que le dedicó El Español el 21 de junio de 2026 lo retrata como un inversor deliberadamente humanista: no se ve como proveedor de capital sino como 'copiloto que advierte curvas y predice problemas', con una implicación 'muy directa y cercana', y dice priorizar las personas y las relaciones humanas por encima de métricas y KPIs. Valora el impacto social: de Fourvenues destaca que pasó de dos socios a 170 empleados; de Cronoshare, que tres programadores valencianos vendan en Brasil, Italia y México; y de Efimarket, que cerró por cambios regulatorios, rescata que la fundadora se llevó herramientas para liderar otros proyectos. Su propia filosofía: 'el éxito reside en proporcionar herramientas y conocimientos que sean llave para liderar proyectos futuros'. Se describe como un 'tímido reconvertido'. Hay una tensión aparente entre este discurso de personas por encima de métricas y la descripción que hace vcsheet de su enfoque como 'metric-driven founder guidance' y de fundadores con 'resiliencia extrema'; probablemente ambas cosas sean ciertas: cercanía humana con exigencia operativa.\n\nEquipo y acceso. El equipo publicado en draperb1.vc/team lo forman, además de él, Raquel Bernal (Managing Partner e Investment Director), Luz Adell (Managing Partner y CFO), Jon Etxeberria y Ana Álvaro (Principals), Luis Treviño (Associate), Elena Company (Legal), Teresa Ramos (PR) y Cecilia Ullmann (back office). Como venture partners figuran Tim Draper, John Nahm (business), Juan Leal (producto), Victor Donet (tecnología), Jaime Cavero (mentor early stage) y Wesley Worth (finanzas). Para un pitch técnico, Victor Donet (tecnología) y Juan Leal (producto) son los perfiles a los que conviene llegar en paralelo. El canal oficial de entrada es el formulario 'Send us your deck' alojado en HubSpot. Penichet es además profesor en UNIR y ponente habitual en B-Venture y en el ecosistema valenciano (CEEI Valencia, Emprenem Junts). No se le conocen controversias. Fluidez en español: nativa, es valenciano y toda su comunicación pública es en castellano.",
+  "prioridad": "B",
+  "email_estado": "patrón inferido (no verificado)",
+  "etapa_y_ticket": [
+    "Pre-seed y seed en deep tech.",
+    "Fondo Frontier Tech: >20M€ (cierre 2-dic-2025), nueve inversiones iniciales.",
+    "Ticket con fuentes en conflicto: 1-2M€ en seed sin liderar (VC Sheet) o 138k-1,4M€ (Mintround); lo razonable, varios cientos de miles con follow-on. Confirmar."
+  ],
+  "senales_de_encaje": [
+    "Fondo vigente y recién cerrado (2 dic 2025, >20 M€) con solo nueve inversiones hechas: hay munición y hay hueco en cartera",
+    "Mandato escrito que incluye explícitamente inteligencia artificial, computación cuántica y ciberseguridad en etapa early stage / deep tech",
+    "Respaldo de FondICO Global y del Institut Valencià de Finances: capital público-institucional con horizonte largo y vocación de arraigo en España",
+    "Invierte por definición antes de la tracción: sus participadas de espacio, salud y deep tech no tenían usuarios ni ingresos al entrar",
+    "Track record demostrado: el fondo anterior devolvió el 100% en menos de cinco años y más del 70% de los LP privados repitieron",
+    "Estilo de acompañamiento cercano declarado: 'copiloto que advierte curvas y predice problemas', personas por encima de KPIs",
+    "Draper Venture Network: acceso a más de 25 firmas de VC y más de 1.000 participadas para la siguiente ronda y para el salto a EE.UU.",
+    "Valenciano, castellanoparlante nativo, quince años originando operaciones en España",
+    "Reconocido como Inversor del Año en España en 2023"
+  ],
+  "tipo_inversor": "VC institucional",
+  "tipo_inversor_detalle": "VC institucional",
+  "nombre": "Enrique Penichet",
+  "riesgos_o_alertas": [
+    "RESERVA PRINCIPAL: no hay ni una sola inversión en su portfolio de más de 60 compañías en developer tools, infraestructura de software, open source o plataformas de agentes. Su bloque de IA es de aplicaciones verticales y su 'frontier tech' más profundo es hardware (espacio, drones) e imagen médica",
+    "Es explícitamente escéptico con las valoraciones del sector: 'la ola de la IA está calentando el ecosistema y las valoraciones, pero no se justifica en muchas propuestas'. Hay que llegar con la valoración muy justificada",
+    "vcsheet.com afirma que NO lidera rondas ('Lead: No'): si es cierto, el cliente necesitaría otro fondo que lidere. Confirmar en la primera llamada",
+    "Fuentes en conflicto sobre el ticket: 1-2 M€ según vcsheet frente a 138.000-1,4 M€ según mintround. Dato no cerrado",
+    "Fondo pequeño (>20 M€) repartido entre cinco verticales muy distintos (IA, cuántica, ciber, espacio, salud): la porción real disponible para software de IA es limitada",
+    "Presión declarada hacia el mercado estadounidense ('más del 60% del mercado global de software'): puede exigir plan de aterrizaje en EE.UU. y estructura societaria adaptada",
+    "Su formación y su primera carrera son de arquitectura e inmobiliario, no de ingeniería de software: el juicio técnico profundo recaerá en su equipo (Victor Donet, tecnología; Juan Leal, producto), no en él",
+    "Email personal no verificado: solo está confirmado el dominio @draperb1.vc",
+    "Dinero público (FondICO, IVF) implica requisitos de domicilio y actividad en España que conviene verificar antes de invertir tiempo"
+  ],
+  "tesis_de_inversion": [
+    "'Frontier tech': IA, computación cuántica, ciberseguridad, espacio y salud; 'local sourcing for global scaling' hacia EE.UU. vía Draper Venture Network.",
+    "Entusiasta y disciplinado con la IA: 'baja los costes de lanzamiento' pero 'calienta las valoraciones sin justificarlas en muchas propuestas'.",
+    "Reclama un marco jurídico europeo tipo Delaware.",
+    "Estilo 'copiloto que advierte curvas'; prioriza personas y relaciones sobre KPIs."
+  ],
+  "por_que_es_interesante": [
+    "Dinero fresco y mandato escrito con IA y ciberseguridad: Frontier Tech, >20M€, cerrado el 2-dic-2025, nueve inversiones hechas.",
+    "Invierte pre-seed y seed en deep tech por definición pre-tracción (Sycai, Collimate Space, 8layers).",
+    "Puerta a EE.UU. vía Draper Venture Network (25+ firmas, 1.000+ participadas); valenciano, castellanohablante nativo.",
+    "Ángulo: enfatizar 'frontier' y moat técnico, justificar muy bien la valoración y presentar el salto a EE.UU. desde el día uno."
+  ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Mintround (https://mintround.com/investors/enrique-penichet) confirma que su correo está en el dominio @draperb1.vc pero oculta la parte local. La web del fondo no publica ningún email individual: canaliza todo por el formulario 'Send us your deck' (https://share.hsforms.com/1MsG5yb6KSTCINwcc53CnuA3cx7k). No hay ningún correo de otro socio publicado que permita fijar el patrón (podría ser enrique@, epenichet@ o e.penichet@). Usar el formulario como vía principal y el correo solo como respaldo.",
+      "Patrón inferido, NO verificado: solo está confirmado el dominio, no la parte local"
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/enriquepenichet",
+      "Web del fondo: https://draperb1.vc",
+      "Equipo: https://draperb1.vc/team",
+      "Portfolio: https://draperb1.vc/portfolio",
+      "Medium del fondo: https://medium.com/@draperb1",
+      "X del fondo: @draperb1_vc",
+      "Crunchbase: https://www.crunchbase.com/person/enrique-penichet",
+      "Ficha docente en UNIR: https://www.unir.net/profesores/enrique-penichet-garcia/",
+      "Ficha en El Referente: https://elreferente.es/emprendedores/enrique-penichet/",
+      "Ponente en B-Venture: https://ediciones.b-venture.com/teams/enrique-penichet/",
+      "Perfil largo en El Español (21 jun 2026): https://www.elespanol.com/invertia/disruptores/ecosistema-startup/inversores/20260621/enrique-penichet-arquitecto-suenos-cambio-ladrillo-capital-riesgo-humano-disruptivo/1003744279065_0.html"
+    ]
+  },
+  "region": "España",
+  "firma": "Draper B1 (antes Bbooster Ventures), miembro de la Draper Venture Network. Fondo vigente: Draper B1 Frontier Tech.",
+  "web_personal": "",
+  "antecedentes": "Nacido en Valencia, segundo de cuatro hermanos, hijo de un director de banco; pasó por seis colegios distintos entre Torrent, Foyos y Valencia y cursó COU en Oregón (EE.UU.). Es arquitecto por la Universitat Politècnica de València, con prácticas en el estudio de Souto de Moura (Portugal) y proyecto final de carrera realizado en París; después hizo un Executive MBA en el IESE durante la crisis de 2008 y un doctorado sobre modelos de negocio basados en internet. Entre 2002 y 2008 trabajó en el sector inmobiliario: tasador, gestión de pedidos masivos en Cohispania y promoción delegada en promotoras-constructoras; llegó a fundar su propia constructora, especializada en supermercados, que sobrevivió al pinchazo porque no arrastraba agujeros financieros previos. En 2010 dio el salto y cofundó Bbooster Ventures, la primera aceleradora de startups de España y tercera de Europa, con un modelo de cuatro meses y unos comienzos austeros ('3.000 euros de capital social para contratar al electricista que instalara los enchufes'). Tras conocer a Tim Draper en el Draper Summit de 2016 en San Francisco —presentación mediada por el inversor coreano John Nahm— formalizó en noviembre de 2017 la alianza que convirtió Bbooster en Draper B1, con rebranding completo en 2020. En 2022 abrió un vertical Web3. Fue nombrado Inversor del Año en España en 2023. Ha cofundado empresas propias, entre ellas Bquate (distribución digital de música)."
+}

@@ -1,20 +1,21 @@
 {
-  "name": "crm-inversores",
+  "name": "investor-crm",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "recalcular": "tsx scripts/recalcular.ts",
-    "importar": "tsx scripts/importar-perfiles.ts",
-    "exportar": "tsx scripts/exportar.ts",
     "build": "tsc -b && vite build",
+    "preview": "vite preview",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "typecheck": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.scripts.json --noEmit",
+    "recalculate": "tsx scripts/recalculate.ts",
+    "import": "tsx scripts/import-profiles.ts",
+    "export": "tsx scripts/export.ts",
+    "migrate": "tsx scripts/migrate-to-english.ts"
   },
   "dependencies": {
     "firebase": "^12.18.0",
-    "firebase-admin": "^14.3.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "zod": "^4.5.4"

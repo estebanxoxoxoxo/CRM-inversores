@@ -1,0 +1,127 @@
+{
+  "inversiones_relevantes": [
+    "illumex (junio 2024, seed de 13 M$ LIDERADA por Cardumen; 'Generative Semantic Fabric' para datos estructurados de empresa) — adquirida por NVIDIA en febrero de 2026 por ~60 M$: es la prueba de que lidera seed en infraestructura profunda para IA",
+    "Configu (dev tools; plataforma de gestión de configuración para equipos de desarrollo) — evidencia directa de inversión en developer tools",
+    "DoControl (ciberseguridad para SaaS, Israel) — seguridad de datos en entornos cloud",
+    "CoreTigo (IO-Link Wireless, Industria 4.0) — deep tech de hardware/conectividad, ciclos largos",
+    "Reshufle (adquirida por X) — exit adicional en la cartera",
+    "BrandLight, Ivix, Nagish, SecondNature (mencionadas por Gonzalo en enero de 2026) — cartera activa de IA aplicada",
+    "Kahoona, Convrt, Peech, Munch, Alison, Axo, Blee, Lendai, Bananaz, Incapto — resto de cartera visible (deep tech + agrifood)",
+    "Cardumen DeepTech Fund I (60 M$, 2020) y Fund II (>105 M€ / ~120 M$, cierre diciembre 2023) — dos fondos deep tech levantados con LPs institucionales y corporates"
+  ],
+  "nombre": "Gonzalo Martínez de Azagra",
+  "etapa_y_ticket": [
+    "Pre-seed, seed y ocasionalmente Serie A ('esperando validación de mercado y de-risking tecnológico').",
+    "Ticket inicial 750.000-4.000.000 USD según ronda.",
+    "Proceso: dos socios deben acordar abrir due diligence."
+  ],
+  "tipo_inversor": "VC institucional",
+  "email": "info@cardumencapital.com",
+  "banda": "Indiscutible",
+  "prioridad": "A",
+  "region": "España",
+  "tipo_inversor_detalle": "VC institucional",
+  "tesis_de_inversion": [
+    "Deep tech B2B/B2B2C muy temprano con puente Israel-España-EE.UU.: 'the backbone of a future where data-driven intelligence and security are fundamental'.",
+    "Áreas núcleo: IA, Big Data, Ciberseguridad; adicionales: Developer Tools, IoT, Industria 4.0, Future of Work.",
+    "'The most active investor on your cap table'; fuerza en product-led growth.",
+    "2026: las compañías AI-native logran más output por empleado; estructuras de capital con hitos y plazos largos para lo intensivo en capital."
+  ],
+  "riesgos_o_alertas": [
+    "El deal flow real de la cartera es mayoritariamente israelí y estadounidense; hay poca evidencia de inversión en startups españolas de software puro",
+    "El propio texto del fondo dice esperar 'strong market validation and technology de-risking': puede pedir más señal de la que el cliente tendrá",
+    "Proceso interno: hacen falta dos socios de acuerdo para abrir due diligence, lo que alarga el ciclo",
+    "Cardumen invierte también en AgriFoodTech y Fund of Funds: no toda la capacidad del equipo está en software/IA",
+    "No tiene cuenta personal de X ni newsletter; menos superficie para un contacto en frío calibrado",
+    "Email personal no encontrado; solo buzón general y Typeform",
+    "El fondo vigente (Fund II) cerró en diciembre de 2023: a 2026 puede estar en fase avanzada de despliegue; no se ha confirmado públicamente un Fund III"
+  ],
+  "senales_de_encaje": [
+    "El fondo declara por escrito que invierte en pre-seed y seed: 'Early-stage investments in Pre-seed, Seed, and occasionally Series A rounds'",
+    "'Developer Tools' figura explícitamente entre las áreas de inversión del DeepTech Fund",
+    "Ticket inicial 750 k$–4 M$: cheque de ronda seed real, no de acompañamiento",
+    "Lideró la seed de illumex (infraestructura semántica para IA generativa) que acabó comprando NVIDIA: apuesta pre-tracción en infraestructura profunda con exit estratégico",
+    "Discurso público de 2026 sobre compañías AI-native, output por empleado y eficiencia como métrica: encaja con la promesa de un stack radicalmente más eficiente",
+    "Defiende estructuras de capital con reducción de riesgo por hitos y plazos largos para deep tech intensivo en capital",
+    "Perfil técnico real (Imperial + ENST París, ingeniero de diseño) y experiencia corporate en Samsung Ventures Israel: entiende el detalle de arquitectura",
+    "Español nativo, base en Madrid, entrevistas y podcasts en español (Disruptivo ep. 37), ponente en MWC Barcelona"
+  ],
+  "rol": "Fundador y General Partner (Managing General Partner)",
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.cardumencapital.com/contact — solo publica info@cardumencapital.com, teléfonos de Madrid (+34 911 98 66 98) y Tel Aviv (+972 54 330 7141) y un formulario Typeform para fundadores.",
+      "Buzón general, publicado en cardumencapital.com/contact. Email personal directo: no encontrado. Private Equity List indica que los emails individuales del equipo solo están tras un muro de pago, y no hay ninguna dirección nombre@cardumencapital.com publicada en fuentes abiertas de la que inferir patrón con seguridad"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha en el fondo: https://www.cardumencapital.com/investors/gonzalo-martinez-de-azagra",
+      "Web del fondo: https://www.cardumencapital.com",
+      "Fondo DeepTech: https://www.cardumencapital.com/fund/deeptech",
+      "Vídeos del fondo con sus 'tips' a emprendedores: https://www.cardumencapital.com/videos",
+      "Kauffman Fellows (clase KF23): https://www.kauffmanfellows.org/fellows/gonzalo-martinez-de-azagra",
+      "Ponente en MWC Barcelona: https://www.mwcbarcelona.com/agenda/speakers",
+      "Entrevistas en CTech/Calcalist: https://www.calcalistech.com/tags/Cardumen_Capital",
+      "Podcast 'Disruptivo' ep. 37 en español (Spotify)",
+      "Crunchbase: https://www.crunchbase.com/person/gonzalo-martinez-de-azagra",
+      "Cuenta personal de X: no encontrada (el fondo sí tiene Twitter/Instagram/Facebook/LinkedIn)."
+    ]
+  },
+  "id": "gonzalo-martinez-de-azagra",
+  "nivel": 80,
+  "ciudad_base": "Madrid, España (con oficina y actividad permanente en Tel Aviv, Israel)",
+  "antecedentes": "Ingeniero de formación con perfil internacional poco habitual en el VC español: máster en Ingeniería Eléctrica y Electrónica por Imperial College y la École Nationale Supérieure des Télécommunications de París, licenciatura en Economía por la London School of Economics y MBA por la Haas School of Business de UC Berkeley. Empezó como ingeniero de diseño (trabajó en la Atomic Energy Authority del Reino Unido) y como consultor estratégico. Pasó por la oficina del presidente del Grupo Samsung en Corea y después fundó y dirigió la oficina de Samsung Ventures en Israel, que es el origen directo de su red israelí. En 2017 cofundó Cardumen Capital con Igor de la Sota, con oficinas en Tel Aviv (Herzl St 16) y Madrid (Velázquez 100). Cardumen levantó su primer fondo deep tech de 60 M$ (anunciado en marzo de 2020) y cerró el Cardumen DeepTech Fund II en diciembre de 2023 superando en más de un 30% su objetivo: >105 M€ / ~120 M$. La firma declara hoy más de 300 M$ (Gonzalo citó ~320 M$ en enero de 2026; Kauffman Fellows recoge 250 M€) y más de 40 compañías en cartera, con tres estrategias: DeepTech, AgriFoodTech y Fund of Funds. Es Kauffman Fellow (clase KF23), miembro de Young Presidents' Organization y fue incluido entre los 'top 10 Spanish Economic Leaders for Tomorrow' del Choiseul Institute. Su mentor en el fellowship fue Gil Gidron, presidente de Cardumen.",
+  "web_personal": "",
+  "linkedin": "https://es.linkedin.com/in/gonzalomartinezdeazagra",
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
+    "puntuacion": {
+      "tesis": 22,
+      "etapa": 16,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 10,
+      "otros_aspectos": -3,
+      "otros_aspectos_motivo": "Deal flow mayoritariamente israelí; el texto del fondo espera validación de mercado y de-risking tecnológico.",
+      "bruto": 80,
+      "topes": [],
+      "total": 80
+    }
+  },
+  "email_estado": "buzón general del fondo (público)",
+  "confianza": "alta",
+  "investigacion_larga": "Gonzalo Martínez de Azagra es fundador y General Partner de Cardumen Capital, la gestora hispano-israelí de deep tech con oficinas en Madrid y Tel Aviv. Su perfil es atípico dentro del capital riesgo español: es ingeniero de verdad y su carrera se construyó fuera de España. Estudió un máster en Ingeniería Eléctrica y Electrónica en Imperial College y en la École Nationale Supérieure des Télécommunications de París, una licenciatura en Economía en la London School of Economics y un MBA en la Haas School of Business de UC Berkeley. Empezó trabajando como ingeniero de diseño —su ficha de Kauffman Fellows menciona la Atomic Energy Authority del Reino Unido— y después como consultor de estrategia. El giro decisivo llegó con Samsung: trabajó en la oficina del presidente del Grupo Samsung en Corea y posteriormente fundó y dirigió la oficina de Samsung Ventures en Israel. Esa etapa es la raíz de todo lo que vino después: la red israelí, la disciplina corporate de inversión y el criterio sobre hardware, semiconductores y seguridad.\\n\\nEn 2017 cofundó Cardumen Capital junto a Igor de la Sota (Visible Connect y Tracxn fechan la fundación en 2017; el fondo se hizo visible públicamente en 2018). El nombre explica la filosofía: un cardumen es un banco de peces de especies distintas pero de tamaño similar que nadan juntos. El primer fondo deep tech, de 60 M$, se anunció en marzo de 2020 (cubierto por CTech/Calcalist y Globes, que lo describieron como fondo israelo-europeo fundado por antiguos empleados de Samsung Ventures). El segundo, Cardumen DeepTech Fund II, cerró en diciembre de 2023 superando en más de un 30% su objetivo, con más de 105 M€ según El Economista, Expansión, Servimedia y webcapitalriesgo; vcwire lo reportó como 120 M$ en enero de 2024. En enero de 2026, en su entrevista con CTech, Gonzalo situó los activos bajo gestión de la firma en torno a 320 M$; la web habla de '+$300M' y '+40 portfolio companies' y '+15 years' de experiencia inversora. Kauffman Fellows recoge 250 M€ y tres estrategias diferenciadas: DeepTech, AgriFoodTech y Fund of Funds.\\n\\nLos términos operativos del DeepTech Fund están publicados y son muy relevantes: invierten en pre-seed, seed y ocasionalmente Serie A; el ticket inicial va de 750.000 $ a 4 M$ 'depending on the round and opportunity'; y el proceso interno exige que dos socios se pongan de acuerdo para abrir una due diligence. Las áreas núcleo son IA, Big Data y Ciberseguridad, y las áreas adicionales listadas incluyen literalmente Developer Tools, además de Creator Economy, IoT, Industria 4.0 y Future of Work. Los LPs son mayoritariamente institucionales y corporates de energía, infraestructuras, banca, logística y seguros distribuidos entre Europa, Latinoamérica y Asia.\\n\\nLa operación que mejor explica por qué merece estar en una lista de deep tech pre-tracción es illumex. En junio de 2024, Cardumen lideró una ronda seed de 13 M$ en illumex, una compañía con sede en Nueva York y raíces israelíes que construía una 'Generative Semantic Fabric' para datos estructurados de empresa: automatizaba la creación del contexto de negocio que la IA generativa necesita para consultar datos corporativos sin alucinar. En febrero de 2026 NVIDIA la adquirió por unos 60 M$ (confirmado por Globes el 23 de febrero de 2026 y cubierto por capital-riesgo.es y El Español el 24-25 de febrero). Es decir: Cardumen lideró la primera ronda institucional de una compañía de infraestructura semántica para IA y la vendió al comprador más relevante del sector. El propio portfolio de Cardumen etiqueta otras salidas, entre ellas Reshufle (adquirida por X). Otras participadas visibles: Configu (gestión de configuración para equipos de desarrollo), DoControl (seguridad SaaS), CoreTigo (IO-Link Wireless para Industria 4.0), BrandLight, Kahoona, Convrt, Peech, Munch, Alison, Axo, Blee, Bananaz, Lendai e Incapto. En su entrevista de enero de 2026 mencionó además Ivix, Nagish, SecondNature y Brandlight como compañías representativas.\\n\\nSu posicionamiento público en 2025-2026 está bien documentado y es útil. En la VC Survey 2026 de CTech ('The real leap in 2026 is not volume, but quality of liquidity', 25 de enero de 2026) sostiene que la liquidez se volverá más 'ingenierizada' —exits estructurados y operaciones de estilo private equity ligadas a fundamentales de negocio, no a crecimiento de titular—; que 'Israel has always been a deep tech country – what's changed is the venture mindset around it', defendiendo rondas mayores, más sindicación, alianzas estratégicas y plazos de desarrollo largos con reducción de riesgo por hitos y estructuras de capital más allá del venture tradicional; y sobre productividad, que las compañías AI-native logran más output por empleado y que la eficiencia es la nueva métrica de éxito, aunque el escalado sostenible siga exigiendo contratación deliberada en go-to-market. Para una startup que reclama un stack ~90% más eficiente, ese marco es un regalo argumental.\\n\\nEn español, su presencia es real pero menos intensa que la de sus pares madrileños: aparece en el podcast 'Disruptivo' (episodio 37, 'Gonzalo Martínez de Azagra. Founder & General Partner'), en entrevistas en YouTube, en la agenda de ponentes de MWC Barcelona, en el Smart Agrifood Summit y en piezas de Expansión ('Quién es quién en Cardumen Capital, la firma que apuesta por alta tecnología', septiembre de 2023, donde se le describe como ingeniero de telecomunicaciones y fundador de la oficina israelí de Samsung Ventures). Cardumen publica también una sección de vídeos con 'tips' suyos para emprendedores. No se le ha localizado cuenta personal de X ni newsletter propia; su canal público principal es LinkedIn (https://es.linkedin.com/in/gonzalomartinezdeazagra), donde publica sobre temas como el 'Company Brain' empresarial y coorganiza eventos con Google Cloud sobre IA.\\n\\nPatrones observables: (1) lidera rondas seed y las lidera en solitario cuando cree en la tesis (illumex); (2) la mayor parte del deal flow es israelí y estadounidense, no español —esto es una alerta seria para una startup hispanohablante que no tenga vínculo con Israel o con EE. UU.—; (3) el ticket declarado (750 k$-4 M$) encaja con una seed de verdad, no con un cheque de acompañamiento; (4) tiene apetito explícito por infraestructura de datos y semántica para IA, que es el vecindario del cliente; (5) su red de coinversión incluye fondos israelíes y corporates, y su relación con NVIDIA quedó demostrada con illumex; (6) es Kauffman Fellow (KF23), lo que le conecta con la red global de fellows —incluido Santiago Zavala, también Kauffman Fellow—, un puente de introducción concreto.\\n\\nRiesgos honestos: el foco geográfico real de la cartera es Israel/EE. UU. mucho más que España, así que hay que demostrar por qué la compañía es competitiva a escala global y no solo local; el proceso interno exige dos socios convencidos, lo que alarga el ciclo; y la firma esperaba 'strong market validation and technology de-risking' en su propio texto del fondo, matiz que conviene anticipar (la respuesta correcta es de-risking técnico, no tracción comercial). Nada de esto invalida el encaje: es probablemente el fondo español con la tesis escrita más cercana a 'infraestructura de IA y dev tools en fase temprana'.",
+  "firma": "Cardumen Capital",
+  "fuentes": [
+    "https://www.cardumencapital.com/investors/gonzalo-martinez-de-azagra",
+    "https://www.cardumencapital.com/",
+    "https://www.cardumencapital.com/fund/deeptech",
+    "https://www.cardumencapital.com/portfolio",
+    "https://www.cardumencapital.com/contact",
+    "https://www.kauffmanfellows.org/fellows/gonzalo-martinez-de-azagra",
+    "https://www.calcalistech.com/ctechnews/article/oybp33n3v",
+    "https://www.eleconomista.es/capital-riesgo/noticias/12545806/11/23/cardumen-levanta-su-segundo-fondo-con-mas-de-105-millones.html",
+    "https://www.finsmes.com/2024/06/illumex-raises-13m-in-seed-funding.html",
+    "https://en.globes.co.il/en/article-nvidia-acquires-israeli-data-co-illumex-1001525000",
+    "https://es.linkedin.com/in/gonzalomartinezdeazagra",
+    "https://www.calcalistech.com/tags/Cardumen_Capital"
+  ],
+  "como_llegar": [
+    "1) Formulario Typeform para fundadores en https://www.cardumencapital.com/contact y buzón info@cardumencapital.com; teléfonos publicados de Madrid (+34 911 98 66",
+    "98) y Tel Aviv (+972 54 330 7141).",
+    "2) Red Kauffman Fellows: es de la clase KF23 y la red es una vía de introducción real y muy usada (Santiago Zavala, de 500 Global, también es Kauffman Fellow).",
+    "3) Eventos donde participa: MWC Barcelona / 4YFN, Smart Agrifood Summit, eventos conjuntos Cardumen + Google Cloud sobre IA, y el circuito de VC israelí (DLD Tel Aviv, Cybertech).",
+    "4) Intro por cartera: fundadores de Configu, illumex (ahora en NVIDIA), DoControl o CoreTigo.",
+    "5) Ecosistema español: SpainCap/ASCRI, y los medios que le cubren con regularidad (capital-riesgo.es, webcapitalriesgo.com, Expansión, El Español-Disruptores, El Referente).",
+    "6) LinkedIn es su canal público principal; comentar con criterio sus posts sobre IA empresarial antes de escribir.",
+    "7) Gancho concreto y verificable: el paralelismo con illumex —capa semántica/contexto para que la IA opere sobre sistemas reales— y su tesis de 'output por empleado'."
+  ],
+  "por_que_es_interesante": [
+    "Cardumen declara 'Developer Tools' como área de inversión e invierte en pre-seed y seed, no sólo Serie A.",
+    "Lideró la seed de illumex (capa semántica para que la IA entienda datos de empresa), vendida a NVIDIA por ~60M USD: infraestructura profunda para IA, liderada en seed, con comprador estratégico.",
+    "Discurso 2026: compañías AI-native y output por empleado; capital con hitos, no con tracción.",
+    "Ángulo: infraestructura para agentes con moat semántico/de datos, paralelismo con illumex, y el puente Israel-España como ventaja."
+  ]
+}

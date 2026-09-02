@@ -1,0 +1,129 @@
+{
+  "inversiones_relevantes": [
+    "Qovery (2021, semilla de 4M USD LIDERADA por Crane; plataforma de despliegue en la nube / automatización de DevOps; levantó 13M USD más en septiembre de 2025) — dev tools puro y con Crane como líder, la prueba más sólida de apetito del fondo por la categoría",
+    "Encord (en cartera antes de su Serie C de 60M USD de febrero de 2026 liderada por Wellington; infraestructura de datos AI-native para IA física, 110M USD acumulados) — infraestructura de datos para IA, con Crane acompañando desde etapas tempranas hasta Serie C",
+    "Laminar (semilla 3M USD, marzo 2026, observabilidad y depuración de agentes de IA de larga ejecución; ronda liderada por Atlantic.vc, NO por Crane, pero Laminar figura en el portfolio de Crane) — la compañía más cercana conceptualmente a un harness de agentes",
+    "Cyberhaven (seguridad y trazabilidad del dato) — coherente con la tesis de gobernanza que ella escribe",
+    "Gable (gestión y contratos de datos para equipos de ingeniería) — dev tools / data infra",
+    "PyannoteAI (modelos de audio / IA open source) — apuesta técnica profunda",
+    "Aseon Labs y Chiral (infraestructura / deep tech) — señales de que el fondo entra en tecnología fundacional temprana"
+  ],
+  "id": "anna-cachadina-abello",
+  "prioridad": "B",
+  "etapa_y_ticket": [
+    "Crane: de 'inception' a seed ('First to believe. Last to leave.').",
+    "Primeros cheques 750.000-3.000.000 USD con reservas hasta Serie B (Fondo II, 140M USD, 2022).",
+    "Fondo III y vehículo vigente en 2026 no confirmados."
+  ],
+  "firma": "Crane Venture Partners",
+  "nombre": "Anna Cachadiña Abelló",
+  "linkedin": "https://uk.linkedin.com/in/anna-cachadina-abello",
+  "region": "Fuera de región (excepcional)",
+  "tipo_inversor_detalle": "VC institucional",
+  "antecedentes": "Nacida y criada en Barcelona, en una familia emprendedora. Se trasladó al Reino Unido para cursar un grado en Ciencias de la Computación (fuentes la vinculan a King's College London). Trabajó varios años como desarrolladora de software en Goldman Sachs — es ingeniera de software en ejercicio, no una analista de perfil financiero — y pasó por Speedinvest y baby vc antes de incorporarse a Crane Venture Partners como Investor en octubre de 2023. En Crane se ocupa de originar y evaluar oportunidades de inversión, con foco declarado en startups impulsadas por IA y software empresarial, y publica análisis sobre gobernanza, infraestructura e innovación en IA. Crane Venture Partners fue fundada en 2015 por Krishna Visvanathan y Scott Sage, tiene sede en Londres con presencia en Singapur e India, levantó un Fondo I de 90M USD (2019) y un Fondo II de 140M USD (mayo 2022), y en julio de 2025 anunció una alianza ampliada con MassMutual Ventures.",
+  "email": "anna@crane.vc",
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "Crane invierte desde 'inception' en infraestructura fundacional y dev tools (Qovery, Encord, Laminar) y ella es ingeniera barcelonesa que ya escribe sobre gobernanza y observabilidad de agentes; pero su título es 'Investor', no decide, el Fondo III no está confirmado y está fuera de región.",
+    "puntuacion": {
+      "tesis": 23,
+      "etapa": 17,
+      "decision": 5,
+      "espanol": 15,
+      "acceso": 11,
+      "otros_aspectos": -3,
+      "otros_aspectos_motivo": "Fuera de región (Londres).",
+      "bruto": 68,
+      "topes": [],
+      "total": 68
+    }
+  },
+  "web_personal": "",
+  "como_llegar": [
+    "1) Formulario abierto del fondo en https://crane.vc/contact/, que Crane presenta explícitamente como abierto a fundadores, partners e inversores.",
+    "2) LinkedIn directo (https://uk.linkedin.com/in/anna-cachadina-abello) con un mensaje en español o catalán: es la vía más natural dado su origen barcelonés y su baja exposición pública.",
+    "3) Ángulo editorial: comentar con criterio su artículo en RTInsights sobre gobernanza de IA empresarial y ofrecerle el harness de agentes como caso concreto del problema que ella describe.",
+    "4) Intro cálida vía fundadores del portfolio de Crane en dev tools/infra: Qovery (Francia), Laminar, Gable o Encord son los más afines.",
+    "5) Vía Speedinvest, donde ella trabajó antes y que coinvirtió con Crane en Qovery.",
+    "6) Circuito Barcelona (4YFN, Tech Spirit Barcelona, Itnig) por afinidad de origen, aunque no consta que participe.",
+    "7) Escalado natural si engancha: Scott Sage y Krishna Visvanathan, cofundadores y decisores."
+  ],
+  "banda": "Alto potencial",
+  "tipo_inversor": "VC institucional",
+  "confianza": "media",
+  "rol": "Investor (título literal en la web del fondo; NO es Partner ni Principal — ver riesgos. Algunas fuentes secundarias la describen como 'analyst', lo que sugiere seniority junior-media)",
+  "nivel": 68,
+  "investigacion_larga": "PERFIL Y TRAYECTORIA. Anna Cachadiña Abelló nació y creció en Barcelona, en una familia emprendedora, y se mudó al Reino Unido para estudiar Ciencias de la Computación. La ficha del propio fondo lo resume así: se trasladó al Reino Unido para cursar un grado en Computer Science y, tras trabajar unos años como desarrolladora de software en Goldman Sachs, se unió a Crane 'to be at the heart of innovation'. Antes de Crane pasó por Speedinvest y baby vc, además de King's College London. Se incorporó a Crane Venture Partners en octubre de 2023 con el título de Investor. Esto último es una corrección importante respecto a la pista de partida: NO es Partner ni Principal. La página de equipo de Crane (https://crane.vc/team) la lista como 'Investor', mientras que Max Chapman, Sidhant Goyal y Dan Jaeck aparecen como 'Investor (Principal)' y Sam Kester como 'Investor (Senior Associate)'. Los Partners son Krishna Visvanathan y Scott Sage (cofundadores), Bonnie Kraus (COO & Partner) y Carlos Jo-Loo, con Anandamoy Roychowdhary como Managing Director para India y APAC. Alguna fuente secundaria la describe directamente como 'analyst'. Conclusión operativa: es una interlocutora técnica excelente y una potencial campeona interna, pero el cheque lo decide el comité con los socios, y el outreach debe contemplar eso.\n\nEL FONDO. Crane Venture Partners fue fundada en 2015 por Krishna Visvanathan y Scott Sage, con sede en Londres y presencia en Singapur e India. Levantó un Fondo I de 90M USD (anunciado en junio de 2019, TechCrunch) y un Fondo II de 140M USD anunciado en mayo de 2022 (https://www.prnewswire.com/news-releases/crane-venture-partners-raises-140-million-for-its-second-fund-to-empower-the-builders-of-the-worlds-digital-infrastructure-301553468.html, tech.eu, FinSMEs). El titular del Fondo II es literalmente 'to empower the builders of the world's digital infrastructure', lo cual es una declaración de tesis muy alineada con el cliente. Su posicionamiento público actual (https://crane.vc/) es: 'Crane backs outlier founders everywhere, from inception to seed, building the foundational technologies and companies that shape the future', con el lema 'First to believe. Last to leave.' Los primeros cheques van de 750.000 a 3.000.000 USD, con reservas significativas para acompañar hasta Serie B. El foco declarado abarca SaaS empresarial, open source, datos, machine learning, developer tools, ciberseguridad y seguridad post-cuántica, con geografía Europa, Israel y EE.UU. En julio de 2025 anunciaron una alianza ampliada con MassMutual Ventures. NO se ha localizado anuncio de un Fondo III ni el tamaño del vehículo vigente en 2026: es un dato no confirmado y conviene preguntarlo o verificarlo antes de asumir capacidad de despliegue.\n\nCARTERA RELEVANTE Y VERIFICACIÓN DE LAS PISTAS. La pista de partida mencionaba Encord, Laminar y Qovery. La verificación da tres resultados distintos y conviene precisarlos. (1) QOVERY: confirmado y fuerte. Crane Venture Partners LIDERÓ la ronda de 4M USD de Qovery en 2021, plataforma que ayuda a los desarrolladores a desplegar aplicaciones en la nube, con Speedinvest coinvirtiendo y business angels del entorno de Datadog (https://www.jonesday.com/en/practices/experience/2021/07/crane-venture-partners-leads-$4-million-financing-round-of-qovery). Qovery levantó después 13M USD en septiembre de 2025 para redefinir la automatización de DevOps (tech.eu). Es dev tools puro y liderado por Crane. (2) ENCORD: confirmado como participada. Encord, infraestructura de datos AI-native para IA física, anunció en febrero de 2026 una Serie C de 60M USD liderada por Wellington Management (total acumulado 110M USD), con participación de los inversores existentes Y Combinator, CRV, N47, CRANE VENTURE PARTNERS y Harpoon Ventures, más los nuevos Bright Pixel Capital e Isomer Capital. Encord trabaja con más de 300 equipos de IA, incluidos Woven by Toyota, Zipline y Skydio. (3) LAMINAR: matiz importante. Laminar (observabilidad y depuración de agentes de IA de larga ejecución) levantó una semilla de 3M USD en marzo de 2026, pero la ronda fue LIDERADA POR ATLANTIC.VC, con Y Combinator, AAL.vc y ángeles como Ben Sigelman (co-creador de OpenTelemetry) y Ant Wilson (CTO de Supabase). Crane no aparece como líder en las notas de la ronda; sin embargo, Laminar SÍ figura entre las compañías del portfolio mostradas en la home de crane.vc. Lo prudente es decir que Laminar está en cartera de Crane pero que Crane no lideró esa semilla. Otras compañías del portfolio visibles en la home: PyannoteAI, Qure.ai, Cyberhaven, Gable, 7bridges, Aseon Labs, Chiral, Nyra Health, Xund, Qritive, Umony y Nopan. El conjunto AI/ML infra + dev tools + ciberseguridad es coherente y activo.\n\nSU PENSAMIENTO PÚBLICO. La pieza más útil para personalizar el contacto es su artículo en RTInsights, 'The AI Wild West: Who's Really in Charge of Enterprise AI?' (https://www.rtinsights.com/the-ai-wild-west-whos-really-in-charge-of-enterprise-ai/). Su tesis central es que las empresas no tienen estructuras de liderazgo unificadas para la IA y que la gobernanza efectiva requiere orquestar colaboración transversal en lugar de centralizar el control en jerarquías tradicionales. Aporta datos de una encuesta: el 70% de las organizaciones no tiene un único responsable con supervisión completa de los proyectos de IA; el 100% cree que la IA transformará significativamente el software empresarial en 3-5 años pero solo el 10% ha integrado plenamente operaciones de IA; el 41,7% cita obstáculos de seguridad y cumplimiento, el 38,3% barreras de colaboración, el 46,7% problemas de calidad del dato y el 38,3% dificultades de integración con el stack de datos empresarial. Recomienda centros de excelencia de IA, comités de ética y marcos transversales. Para el cliente esto es oro: significa que su interlocutora ya tiene formada una opinión sobre por qué la IA empresarial no escala, y que el vocabulario de control, trazabilidad, observabilidad e integración con el stack existente le va a resonar más que cualquier métrica de crecimiento.\n\nIDIOMA Y ECOSISTEMA HISPANOHABLANTE. Nacida y criada en Barcelona: castellano y catalán nativos con altísima probabilidad, aunque no se ha localizado una entrevista suya en español o catalán que lo documente de forma primaria (marcar como muy probable, no verificado documentalmente). No se le ha encontrado participación pública registrada en el circuito español (South Summit, 4YFN, Tech Spirit Barcelona), ni cuenta activa de X/Twitter, blog personal o GitHub. Su huella pública es relativamente pequeña: la ficha del fondo, LinkedIn y el artículo en RTInsights. Eso significa que probablemente recibe menos ruido que un socio senior de un fondo grande, lo que juega a favor de un outreach frío bien escrito.\n\nCÓMO USARLA EN LA PRÁCTICA. El movimiento correcto no es pedirle que lidere una ronda, sino ganarla como campeona técnica interna: un mensaje breve en español o catalán, con una demo del harness y un párrafo que enlace explícitamente con su artículo (quién gobierna y observa a los agentes dentro de la empresa), y una petición concreta de 20 minutos de feedback técnico. Si engancha, ella puede llevarlo a Scott Sage o Krishna Visvanathan, que son quienes deciden. El formulario público de https://crane.vc/contact/ está abierto explícitamente a fundadores.",
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No hay email suyo publicado en ninguna fuente primaria localizada. El patrón se deduce de agregadores de formato de email (RocketReach y AeroLeads sobre el dominio crane.vc: https://rocketreach.co/crane-venture-partners-email-format_b4555231fc963d2a y https://aeroleads.com/company/crane-venture-partners-email-format), que coinciden en que el formato dominante es nombre@crane.vc (indicado como 100% de uso). Al ser un nombre compuesto con apellidos catalanes, la forma exacta no es segura. Vía oficial y preferible: el formulario de https://crane.vc/contact/, que el propio fondo presenta como abierto a fundadores.",
+      "INFERIDO, no verificado"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en el fondo: https://crane.vc/people/anna-cachadina-abello/ (nota: esta URL devolvió 404 en una comprobación; la ficha sí aparece indexada y ella figura en https://crane.vc/team)",
+      "Autora en RTInsights: https://www.rtinsights.com/author/anna-cachadina-abello/",
+      "Canal de YouTube atribuido: https://m.youtube.com/@annacachadina3135/videos",
+      "Web del fondo: https://crane.vc/",
+      "Contacto del fondo: https://crane.vc/contact/",
+      "No se le ha encontrado cuenta pública de X/Twitter, blog personal ni GitHub verificables."
+    ]
+  },
+  "riesgos_o_alertas": [
+    "SENIORITY: su título literal en la web del fondo es 'Investor', no Partner ni Principal (algunos compañeros sí llevan 'Principal' explícito y alguna fuente la describe como 'analyst'). NO firma cheques sola: hay que tratarla como campeona interna, no como decisora final",
+    "La pista de partida la describía como Partner/Principal y le atribuía liderar deals: no confirmado. Tampoco se ha podido confirmar ningún deal que ella haya liderado personalmente",
+    "Su ficha personal en crane.vc/people/anna-cachadina-abello/ devolvió 404 en la comprobación (sí aparece en /team): posible reestructuración de la web o cambio de rol reciente — conviene verificar que sigue en el fondo antes de escribir",
+    "Fondo vigente NO confirmado: el último anuncio localizado es el Fondo II de 140M USD (mayo 2022). No hay evidencia pública de un Fondo III ni de la capacidad de despliegue en 2026",
+    "Laminar en el portfolio de Crane pero la semilla la lideró Atlantic.vc: no atribuir a Crane un liderazgo que no tuvo",
+    "Huella pública muy pequeña (sin X/Twitter activo, sin blog, sin GitHub, sin apariciones registradas en el circuito español): menos superficie para un contacto cálido y menos material para verificar su criterio",
+    "Fluidez en español/catalán muy probable por origen pero NO documentada en una entrevista o publicación primaria",
+    "Crane invierte en Europa, Israel y EE.UU.: si el cliente está en LatAm el encaje geográfico no está claro",
+    "Email personal no verificado, solo patrón inferido de agregadores"
+  ],
+  "ciudad_base": "Londres, Reino Unido (Crane tiene sede en Londres y oficina en Singapur; ella es de Barcelona, España)",
+  "fuentes": [
+    "https://crane.vc/team",
+    "https://crane.vc/",
+    "https://crane.vc/people/anna-cachadina-abello/",
+    "https://uk.linkedin.com/in/anna-cachadina-abello",
+    "https://www.rtinsights.com/the-ai-wild-west-whos-really-in-charge-of-enterprise-ai/",
+    "https://www.rtinsights.com/author/anna-cachadina-abello/",
+    "https://www.jonesday.com/en/practices/experience/2021/07/crane-venture-partners-leads-$4-million-financing-round-of-qovery",
+    "https://www.prnewswire.com/news-releases/crane-venture-partners-raises-140-million-for-its-second-fund-to-empower-the-builders-of-the-worlds-digital-infrastructure-301553468.html",
+    "https://tech.eu/2022/05/24/crane-venture-partners-aims-to-sweep-the-leg-with-new-140-million-fund/",
+    "https://techcrunch.com/2019/06/11/crane-a-new-early-stage-london-vc-focused-on-intelligent-enterprise-startups-raises-90m-fund/",
+    "https://tech.eu/2026/03/17/agent-debugging-startup-laminar-raises-3m-seed-to-tackle-the-observability-gap-in-ai-agents/",
+    "https://finance.yahoo.com/news/encord-secures-60m-series-c-170000866.html",
+    "https://www.eu-startups.com/2026/02/london-based-encord-raises-e50-million-to-support-next-phase-of-physical-ai-deployment/",
+    "https://tech.eu/2025/09/30/qovery-raises-13m-to-redefine-devops-automation/",
+    "https://rocketreach.co/crane-venture-partners-email-format_b4555231fc963d2a",
+    "https://www.openvc.app/fund/Crane%20Venture%20Partners",
+    "https://crane.vc/contact/"
+  ],
+  "email_estado": "patrón inferido (no verificado)",
+  "por_que_es_interesante": [
+    "Ingeniera de software (Goldman Sachs), catalana y castellanohablante nativa, en un fondo cuyo mandato es infraestructura fundacional, dev tools y open source desde 'inception'.",
+    "Crane lideró la seed de Qovery (DevOps) y tiene Encord (datos AI-native) y Laminar (observabilidad de agentes) en cartera.",
+    "Su artículo publicado trata exactamente el problema del cliente desde el comprador: quién controla, gobierna y observa la IA en la empresa.",
+    "Ángulo: mensaje técnico en español o catalán conectando el harness con gobernanza y observabilidad de agentes. Campeona interna, no firmante."
+  ],
+  "senales_de_encaje": [
+    "El fondo se define como inversor 'from inception to seed' en 'foundational technologies': explícitamente antes de tracción",
+    "Lema 'First to believe. Last to leave.' y titular del Fondo II: 'to empower the builders of the world's digital infrastructure'",
+    "Developer tools y open source están en el mandato declarado del fondo, no son oportunismo",
+    "Crane LIDERÓ una ronda semilla de dev tools (Qovery, 4M USD) — hay precedente de cheque líder en la categoría exacta",
+    "Laminar (observabilidad de agentes) en cartera: el fondo ya ha validado internamente la tesis de tooling para agentes",
+    "Anna es ingeniera de software en ejercicio (Goldman Sachs) con grado en Ciencias de la Computación: puede juzgar el producto sin pedir métricas",
+    "Su artículo publicado sobre gobernanza de IA empresarial demuestra pensamiento propio en la capa exacta del producto del cliente",
+    "Nacida y criada en Barcelona: interlocución natural en español/catalán con un equipo hispanohablante",
+    "Primeros cheques de 750K-3M USD con reservas hasta Serie B: tamaño adecuado para una ronda pre-producto ambiciosa"
+  ],
+  "tesis_de_inversion": [
+    "Crane: de la concepción a la semilla en 'foundational technologies': SaaS empresarial, open source, datos, ML, infraestructura y developer tools; extensiones a ciberseguridad y post-cuántica.",
+    "Lema 'First to believe. Last to leave.': apetito por riesgo técnico temprano.",
+    "Su artículo 'The AI Wild West': la empresa carece de un responsable único de IA; frenos en seguridad y cumplimiento (42%), calidad del dato (47%) e integración con el stack (38%).",
+    "Tesis de capa de control, observabilidad e integración de la IA empresarial: el terreno de un harness de agentes."
+  ]
+}

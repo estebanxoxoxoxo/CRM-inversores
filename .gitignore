@@ -1,7 +1,7 @@
 node_modules
 dist
 
-# Secretos / entorno — NUNCA commitear
+# Secrets and environment: never commit
 .env
 .env.*
 *serviceAccount*.json
@@ -14,5 +14,5 @@ dist
 .DS_Store
 *.log
 
-# Respaldos locales de la base (no son fuente de verdad)
-respaldo/
+# Local database backups (not a source of truth)
+backups/

@@ -1,0 +1,131 @@
+{
+  "email_estado": "no encontrado",
+  "ciudad_base": "Buenos Aires, Argentina (con residencia también asociada a Punta del Este, Uruguay)",
+  "tipo_inversor_detalle": "Business angel",
+  "linkedin": "https://www.linkedin.com/in/matiaswoloski/",
+  "tesis_de_inversion": [
+    "Invierte donde ha construido: infraestructura para desarrolladores, identidad y datos.",
+    "Cartera: Vercel (Serie A 2019), Tinybird (2021), Keycard (2025), Luzid (2025), Autonoma AI, NanoCo AI, Veria Labs (2026).",
+    "'Lo que uno aprende durante el tiempo previo a emprender es la única ventaja competitiva que tenemos'.",
+    "Sin tesis escrita; patrón inequívoco de developer infrastructure."
+  ],
+  "firma": "Inversión ángel a título personal; vinculado a Okta Ventures. Cofundador de Auth0 y de Portal Bosque",
+  "inversiones_relevantes": [
+    "Keycard (oct-2025, 38 M USD: seed de 8 M colideradas por a16z y Boldstart + Serie A de 30 M liderada por Acrew; identidad y control de acceso para agentes de IA) — una inversión muy relevante: gobierno de permisos de agentes autónomos, compañía salida de sigilo el día del anuncio. Coángeles: CRO de Groq, presidente de Chainguard, CISO de Datadog y ex-Chief Product Architect de Okta",
+    "Vercel (may-2019, Serie A de 16 M USD; infraestructura de despliegue para desarrolladores) — entró siete años antes de que Vercel valiera 10.400 M USD, cuando era una herramienta de developers sin negocio establecido",
+    "Luzid (sep-2025, herramientas de automatización de desarrollo basadas en IA para implantaciones empresariales) — dev tools con IA en fase muy temprana",
+    "Tinybird (2021, infraestructura de analítica en tiempo real sobre ClickHouse) — su punto de entrada al angel investing según Tracxn; data infra pura",
+    "Honeycomb (observabilidad para sistemas distribuidos) — citada por Tracxn entre sus posiciones más notables",
+    "Veria Labs (feb-2026, seed 3,2 M USD, con Y Combinator y Paul Graham) — coinversión con Paul Graham en fase seed",
+    "Autonoma AI (ene-2025) y NanoCo AI — infraestructura y automatización con IA en fase temprana",
+    "Upstash y Browserbase (vía Okta Ventures, con la que aparece asociado) — infraestructura serverless para desarrolladores e infraestructura de navegador para agentes",
+    "Rintin (2026, ronda de 6,2 M USD liderada por Cometa; marketplace B2B con IA en LatAm) — coinvirtió con Guillermo Rauch, Guibert Englebienne (Globant), Adolfo Babatz (Clip) y Josh Silverman (Etsy)",
+    "Nuqlea (feb-2024, seed 750 k USD, construcción; también Tech Advisor), Num Finance (may-2023), Outdid (jun-2023, con Jump Crypto), Mendel, Latitud, Shorta, BoulderTech, Reown, Exactly, Strike — resto de cartera, mayoritariamente LatAm y fintech"
+  ],
+  "riesgos_o_alertas": [
+    "Fuera de la región objetivo del cliente: opera desde Buenos Aires / Punta del Este, no desde EE.UU., España ni México",
+    "Cheque pequeño (5-50 k USD, punto dulce 25 k): no lidera rondas ni fija términos",
+    "Rol operativo en 2026 NO CONFIRMADO: LinkedIn lo muestra como cofundador de Portal Bosque tras salir de Okta en 2023, mientras varias fichas de inversor lo siguen listando como CTO de Auth0 Lab en Okta. Verificar antes de contactar",
+    "Buena parte de su cartera reciente es fintech y marketplace latinoamericano (Nuqlea, Num Finance, Rintin, Mendel), no infraestructura profunda: la tesis dev infra convive con inversión oportunista en su red local",
+    "Dedica tiempo a Portal Bosque, un proyecto educativo sin ánimo de lucro, lo que sugiere que su prioridad personal no es hoy el venture",
+    "No publica tesis de inversión escrita, ni proceso de entrada, ni email de contacto",
+    "Los agregadores discrepan sobre el tamaño de su cartera (Signal: 20; Tracxn: 13-15; Private Market View: 11): las cifras exactas no son fiables"
+  ],
+  "id": "matias-woloski",
+  "etapa_y_ticket": [
+    "Pre-seed, seed y Serie A como ángel dentro de rondas lideradas por fondos, a menudo con Okta Ventures.",
+    "Ticket 5.000-50.000 USD, punto dulce 25.000 USD.",
+    "11-20 posiciones registradas según la fuente."
+  ],
+  "como_llegar": [
+    "X/Twitter @woloski — su canal público más directo y activo; mensaje corto y técnico en español",
+    "LinkedIn https://www.linkedin.com/in/matiaswoloski/",
+    "Vía Martín Gontovnikas ('Gonto', también en esta lista) o Eugenio Pace, cofundador de Auth0: la red Auth0 es la ruta de intro más corta y creíble",
+    "Vía Guillermo Rauch (Vercel), con quien ha coinvertido al menos en Rintin y en cuya compañía es inversor desde 2019",
+    "Vía Okta Ventures, con la que aparece asociado en varias rondas",
+    "Ecosistema argentino: Endeavor Argentina (tiene ficha propia), ITBA Escuela de Innovación (donde ha enseñado), comunidad de founders argentinos",
+    "Comunidad Latitud (participó en su podcast, ep. 93) y Startupeable (ep. 96, en español): dos puertas naturales del ecosistema hispanohablante",
+    "Vía fundadores de su cartera: Tinybird (equipo español), Keycard, Luzid, Nuqlea"
+  ],
+  "prioridad": "B",
+  "web_personal": "",
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "antecedentes": "Argentino. Ingeniero en Informática por la Universidad de Buenos Aires (2000-2008). Trabajó como arquitecto de software y consultor, y fue cofundador de Southworks, la consultora desde la que hacían proyectos de autenticación para clientes empresariales. En 2013 cofundó Auth0 con Eugenio Pace, convirtiendo esos proyectos de consultoría en un producto: una plataforma de identidad orientada a desarrolladores. Auth0 llegó a servir a más de 40 millones de usuarios diarios, se convirtió en el quinto unicornio argentino en 2019 y fue adquirida por Okta en mayo de 2021 por 6.500 M USD. Woloski fue CTO y, tras la adquisición, VP de I+D de la unidad Customer Identity Cloud de Okta y CTO de Auth0 Lab, el equipo de investigación que exploraba autorización de grano fino, web3 e identidad para agentes de IA. Escribió libros técnicos (publicados en Amazon), fue autor habitual de los blogs de Auth0 y Okta, y enseñó Cloud Computing en la Escuela de Innovación del ITBA. Cofundó Portal Bosque, una fundación sin ánimo de lucro en Punta del Este que combina 'naturaleza, arte y tecnología' para repensar la educación. Su rol operativo exacto en 2026 no está confirmado: LinkedIn lo muestra como cofundador de Portal Bosque tras salir de Okta en 2023, mientras que fichas de inversor lo siguen listando como 'CTO / Auth0 Lab at Okta' con Okta Ventures.",
+  "senales_de_encaje": [
+    "Cheque real y recurrente de 5.000-50.000 USD con punto dulce en 25.000, en pre-seed, seed y Serie A (Signal NFX), a lo largo de ~13-20 compañías desde 2019",
+    "Invirtió en Keycard (identidad y permisos para agentes de IA) en su salida de sigilo, en octubre de 2025: la categoría exacta del control de agentes",
+    "Invirtió en la Serie A de Vercel en 2019, siete años antes de su valoración actual: horizonte largo demostrado en infraestructura de desarrollo",
+    "Cofundó y escaló Auth0 desde cero como plataforma para desarrolladores con estrategia bottom-up: entiende que la métrica temprana es adopción de developers, no ingresos",
+    "Dirigió Auth0 Lab en Okta, el laboratorio que investigaba autorización de grano fino e identidad para agentes de IA: el tema ya estaba en su agenda antes de invertir en él",
+    "Coinversores habituales de altísima calidad técnica: Paul Graham, Guillermo Rauch, Gokul Rajaram, Zane Lackey, Wences Casares",
+    "Vinculación con Okta Ventures: puede abrir una vía a capital corporativo mayor además de su cheque personal",
+    "Argentino, hablante nativo de español, con entrevistas en La Nación, Forbes Argentina y podcasts en español (Startupeable, Latitud): comunicación sin fricción",
+    "Frase suya utilizable como criterio: 'Innovar es obsesionarse con un problema y resolverlo' (La Nación)"
+  ],
+  "rol": "Business angel; cofundador y ex-CTO de Auth0 (adquirida por Okta por 6.500 M USD). Rol operativo actual en 2026 no confirmado (Auth0 Lab/Okta y/o Portal Bosque)",
+  "nivel": 74,
+  "banda": "Alto potencial",
+  "email": "",
+  "nombre": "Matías Woloski",
+  "por_que_es_interesante": [
+    "Ha construido una plataforma para desarrolladores desde cero y sin tracción (Auth0, 6.500M USD): sabe que la métrica temprana correcta es adopción de developers, no ingresos.",
+    "Keycard (identidad y permisos para agentes de IA, 2025): financia el problema de control de agentes que ejecutan código.",
+    "Coinversores recurrentes: Paul Graham, Guillermo Rauch, Gokul Rajaram, Wences Casares.",
+    "Ángulo: X (@woloski), mensaje técnico y corto sobre identidad, permisos y control de agentes."
+  ],
+  "investigacion_larga": "Matías Woloski encarna la tesis 'developer infrastructure pre-tracción' con dinero propio y de forma continuada. El único motivo por el que el cliente lo clasifica como 'fuera de región' es geográfico: opera desde Buenos Aires, no desde EE.UU., España o México. Temáticamente es un encaje de primer orden.\n\nOrigen y formación. Argentino, ingeniero en informática por la Universidad de Buenos Aires (2000-2008). Antes de Auth0 fue arquitecto de software y consultor, cofundador de Southworks, la consultora desde la que él y su equipo resolvían proyectos de autenticación para clientes empresariales. Escribió libros técnicos (tiene ficha de autor en Amazon) y ha enseñado Cloud Computing en la Escuela de Innovación del ITBA.\n\nAuth0. En 2013 cofundó Auth0 con Eugenio Pace. La idea nació de identificar el patrón común entre cientos de proyectos de autenticación de la consultora y productizarlo. Auth0 se construyó como una plataforma de identidad orientada a desarrolladores, con estrategia bottom-up: uso gratuito para developers, adopción empresarial después. Llegó a servir más de 40 millones de usuarios diarios, se convirtió en el quinto unicornio argentino en 2019 al levantar 103 M USD, y fue adquirida por Okta en mayo de 2021 por 6.500 M USD. Woloski explicó todo el arco en el episodio 96 del podcast Startupeable, en español, titulado 'Cómo Productizar un Servicio y Vender $100M's con Product-Led Growth' (https://startupeable.com/auth0/), donde dejó una frase que resume su filosofía: 'lo que uno aprende durante el tiempo previo a emprender es la única ventaja competitiva que tenemos'. También estuvo en el episodio 50 de EnterpriseReady de Heavybit, 'Giving Value to Developers' (https://www.enterpriseready.io/podcast/50-matias-woloski-auth0/), y en el episodio 93 del podcast de Latitud, 'Why share what you know'. En CSO Online tiene una pieza específica sobre priorizar la experiencia del desarrollador (https://www.csoonline.com/article/572997/).\n\nEste punto es crítico para el cliente: Auth0 es el caso de estudio de una compañía de infraestructura que durante años no tuvo métricas de negocio convencionales, sino adopción de desarrolladores. Woloski vivió esa fase por dentro y no necesita que se la expliquen.\n\nPost-Auth0. Tras la adquisición fue VP de I+D de la unidad Customer Identity Cloud de Okta y CTO de Auth0 Lab, el laboratorio de investigación que exploraba autorización de grano fino, web3 e identidad para agentes de IA. Su LinkedIn indica que salió de Okta en 2023 tras doce años en el proyecto y que actualmente figura como cofundador de Portal Bosque, una fundación sin ánimo de lucro en Punta del Este (Uruguay) que combina naturaleza, arte y tecnología para repensar la educación. Varias fichas de inversor, sin embargo, lo siguen listando como 'CTO / Auth0 Lab at Okta' asociado a Okta Ventures. Su rol operativo exacto en 2026 debe considerarse NO CONFIRMADO; lo que sí está confirmado es su actividad inversora continuada. En prensa argentina (La Nación, Forbes Argentina, Endeavor) ha hablado de la vida después de vender un unicornio y de su tránsito de programar a invertir: 'Hay un potencial enorme de empresas que tienen un valor real y cambian el mundo, pero acá no lo estamos aprovechando' (La Nación) y 'Innovar es obsesionarse con un problema y resolverlo' (La Nación). Esa última frase es un criterio de inversión utilizable en un primer contacto.\n\nCartera de inversión, en orden cronológico documentado:\n\n— Vercel (mayo de 2019, Serie A de 16 M USD). Es la posición más antigua registrada y la más significativa: entró en la compañía que hoy define la infraestructura de despliegue frontend, valorada en 10.400 M USD, cuando era Zeit y un proyecto de desarrolladores. Fuente: privatemarketview.com/investors/matas-woloski.\n\n— Tinybird (2021). Signal y Tracxn señalan que su recorrido como inversor 'empezó en 2021 a través de Tinybird', infraestructura de analítica en tiempo real sobre ClickHouse. Data infra pura.\n\n— Honeycomb. Citada por Tracxn entre sus posiciones más notables: observabilidad para sistemas distribuidos.\n\n— Num Finance (mayo de 2023, seed de 1,5 M USD, con Reserve y VC3) y Outdid (junio de 2023, seed de 2,5 M USD, con Jump Crypto): fintech y cripto/identidad.\n\n— Nuqlea (febrero de 2024, seed de 750 k USD, con Foundamental y Newtopia; también figura como Tech Advisor). Marketplace y software para construcción en Argentina; coinvirtió con Emanuel Ginóbili.\n\n— Luzid (30 de septiembre de 2025). Herramientas de automatización de desarrollo basadas en IA para procesos de implantación empresarial. Es dev tools con IA en fase muy temprana.\n\n— Keycard (21 de octubre de 2025, 38 M USD entre seed de 8 M colideradas por a16z y Boldstart y Serie A de 30 M liderada por Acrew Capital). Keycard es la plataforma de identidad y acceso para agentes de IA. Los ángeles de la ronda: Ian Andrews (CRO de Groq), Ryan Carlson (presidente de Chainguard), Emilio Escobar (CISO de Datadog), Karl McGuinness (ex-Chief Product Architect de Okta) y Matías Woloski. Es la inversión más directamente relevante para el cliente: identidad, permisos y control de agentes autónomos, en una compañía que salió de sigilo el día del anuncio.\n\n— Veria Labs (9 de febrero de 2026, seed de 3,2 M USD, con Y Combinator y Paul Graham como coinversores).\n\n— Autonoma AI (enero de 2025), NanoCo AI, Shorta, BoulderTech, Reown, Exactly, Mendel, Strike, Latitud.\n\n— Rintin (2026, ronda de 6,2 M USD liderada por Cometa con Newtopia VC, Latin Leap, Amador Holdings y FJ Labs). Marketplace B2B con IA para comercio informal en México y LatAm. Los ángeles: Guillermo Rauch (Vercel), Guibert Englebienne (Globant), Adolfo Babatz (Clip), Josh Silverman (Etsy) y Woloski. Confirma la coinversión con Rauch que el cliente ya había detectado.\n\nParámetros. Signal NFX fija su cheque en 5.000-50.000 USD con punto dulce en 25.000, etapas seed y Serie A con actividad pre-seed, y sectores declarados Analytics, SMB Software, FinTech y LatAm. Coinversores recurrentes: Paul Graham, Guillermo Rauch, Gokul Rajaram, Wences Casares, Zane Lackey y Manu Ginóbili. Aparece también asociado a Okta Ventures en varias rondas (Upstash, Browserbase), lo que sugiere que puede canalizar deals hacia el fondo corporativo de Okta —una vía indirecta de capital mayor.\n\nRelación con el ecosistema hispanohablante. Máxima. Es argentino, vive en el Cono Sur, da entrevistas en español a La Nación, Forbes Argentina, Infobae, El Cronista y Endeavor Argentina, participa en podcasts en español (Startupeable, Latitud), y ha invertido en compañías argentinas y latinoamericanas (Nuqlea, Num Finance, Rintin, Latitud, Mendel). Es una persona con la que un equipo hispanohablante puede tener una conversación técnica sin ninguna barrera.\n\nValoración honesta del encaje. A favor: cheque real y recurrente (5-50 k USD, ~13-20 compañías), tesis de infraestructura para desarrolladores demostrada durante siete años, dos inversiones de 2025-2026 en el corazón exacto del cliente (Keycard para identidad de agentes, Luzid para automatización de desarrollo con IA), fundador técnico de una plataforma de developers que él mismo levantó desde cero sin tracción, y español nativo. En contra: es un cheque pequeño que no lidera ni fija precio; su rol operativo en 2026 no está confirmado; su cartera reciente mezcla mucho fintech y marketplace latinoamericano con la infraestructura pura; y está fuera de la región objetivo del cliente. Aun así, la calidad del encaje temático y la accesibilidad lingüística lo colocan en prioridad A: es el nombre con el que probablemente más rápido se entienda una conversación sobre harness de agentes y stack IA-nativo.\n\nControversias: ninguna encontrada.",
+  "region": "Fuera de región (excepcional)",
+  "tipo_inversor": "Business angel",
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "CTO fundador de Auth0 que invierte cheques de 5-50k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes (Vercel 2019, Tinybird, Keycard 2025, Luzid, Veria Labs con Paul Graham); argentino, español nativo. Reservas: fuera de región (Buenos Aires), cheque pequeño que no lidera, rol operativo 2026 por confirmar.",
+    "puntuacion": {
+      "tesis": 24,
+      "etapa": 18,
+      "decision": 10,
+      "espanol": 15,
+      "acceso": 11,
+      "otros_aspectos": -4,
+      "otros_aspectos_motivo": "Fuera de región (Buenos Aires); rol operativo en 2026 por confirmar.",
+      "bruto": 74,
+      "topes": [],
+      "total": 74
+    }
+  },
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Revisados su LinkedIn público, X, blogs de Auth0 y Okta, y fichas de inversor (Signal NFX, Crunchbase, Tracxn, Dealroom): ninguna publica dirección de correo. No invierte desde un fondo con dominio propio, por lo que no hay patrón deducible. Su canal público directo es X (@woloski)."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/woloski (@woloski)",
+      "Blog en Auth0: https://auth0.com/blog/authors/matias-woloski/",
+      "Blog en Okta: https://www.okta.com/blog/author/matias-woloski/",
+      "Signal NFX: https://signal.nfx.com/investors/matias-woloski",
+      "Crunchbase: https://www.crunchbase.com/person/matias-woloski",
+      "Tracxn: https://tracxn.com/d/people/matias-woloski/",
+      "Dealroom: https://app.dealroom.co/investors/matias_woloski",
+      "Amazon (autor de libros técnicos): https://www.amazon.com/Matias-Woloski/e/B00BJ4WRFM"
+    ]
+  },
+  "fuentes": [
+    "https://signal.nfx.com/investors/matias-woloski",
+    "https://tracxn.com/d/people/matias-woloski/__dC4IgKtODA7lDZlhffDjqtRPgRZZkVAQj4mAjy2B9dg",
+    "https://privatemarketview.com/investors/matas-woloski",
+    "https://startupintros.com/people/matias-woloski",
+    "https://www.globenewswire.com/news-release/2025/10/21/3170297/0/en/Keycard-Launches-to-Solve-the-AI-Agent-Identity-and-Access-Problem-With-38-Million-in-Funding-From-Andreessen-Horowitz-Boldstart-Ventures-and-Acrew-Capital.html",
+    "https://boldstart.vc/news/keycard-solving-the-ai-agent-identity-and-access-problem-welcome-to-boldstart/",
+    "https://startupeable.com/auth0/",
+    "https://www.enterpriseready.io/podcast/50-matias-woloski-auth0/",
+    "https://latitud.com/podcast/93-why-share-what-you-know-matias-woloski-auth0",
+    "https://www.lanacion.com.ar/economia/matias-woloski-hay-un-potencial-enorme-de-empresas-que-tienen-un-valor-real-y-cambian-el-mundo-pero-aca-no-lo-estamos-aprovechando-nid2251792/",
+    "https://www.lanacion.com.ar/economia/matias-woloski-innovar-es-obsesionarse-con-un-problema-y-resolverlo-nid2266049/",
+    "https://www.forbesargentina.com/innovacion/matias-woloski-forbes-studio-vida-despues-crear-vender-unicornio-us-6400-millones-n85538",
+    "https://uy.linkedin.com/in/matiaswoloski",
+    "https://www.csoonline.com/article/572997/auth0s-matias-woloski-on-prioritizing-the-developer-experience.html",
+    "https://innovaciondigital360.com/pago-electronico/rintin-startup-argentina-comercio-informal-latam",
+    "https://www.crunchbase.com/person/matias-woloski"
+  ],
+  "confianza": "alta"
+}

@@ -1,0 +1,136 @@
+{
+  "email_estado": "buzón general del fondo (público)",
+  "ciudad_base": "Madrid, España",
+  "tipo_inversor_detalle": "VC institucional",
+  "linkedin": "https://es.linkedin.com/in/josemiguelherrero",
+  "tesis_de_inversion": [
+    "Dos tesis: 'Internet Power' (software IA-nativo, ciberseguridad, sistemas expertos) y 'Deep Tech' (cuántica, IA, materiales, fotónica, microelectrónica).",
+    "'Nos encanta que una empresa tenga deep tech porque supone una barrera'; 'si crees que por tener patentes tienes la vida resuelta, te van a comer vivo'.",
+    "Equipos ambiciosos, obsesionados con el problema, humildes y de escucha activa; 'la arrogancia es una línea roja'.",
+    "Inversor activo con más horas de socio por participada que la media."
+  ],
+  "firma": "Big Sur Ventures (BSV SGEIC)",
+  "inversiones_relevantes": [
+    "Axiomatic AI (marzo 2026, seed 18 M$ liderada por Engine Ventures con Kleiner Perkins; 'intelligence infrastructure for verified science & engineering': modelos frontera + verificación formal para diseño de hardware) — el precedente más directo de inversión en infraestructura de IA pre-tracción; equipo 60% España.",
+    "Nanopower Semiconductor (septiembre 2025, ronda de 9,4 M€ LIDERADA por Big Sur junto al EIC Fund y Skagerak Capital; semiconductores de bajo consumo) — demuestra que lidera rondas grandes de deep tech puro sin ingresos.",
+    "LuxQuanta (octubre 2025, Serie A de 8 M€ LIDERADA por Big Sur con A&G, GMV, EIC, Corning y GTD; QKD de variable continua, spin-off del ICFO; nueva inversión con CDTI en abril 2026) — ciberseguridad cuántica, horizonte largo por definición.",
+    "Arq Quantum Technologies (julio 2026, pre-seed 1,4 M$ liderada por Ground State Ventures; repetidores cuánticos y memorias cuánticas para el internet cuántico, Barcelona, fundada en 2025) — invierte en compañías de menos de un año y cero producto comercial.",
+    "Jotelulu (diciembre 2024, 6,8 M€ liderada por Kibo Ventures; plataforma cloud/IaaS para proveedores de servicios gestionados) — la prueba de que sí entra en infraestructura de software, no solo en hardware.",
+    "Planckian y Frenetic (cartera histórica; computación cuántica y diseño de magnéticos asistido por software/IA) — continuidad de la tesis deep tech desde antes del fondo actual.",
+    "Smart Protection, Paack, Lingokids, Trucksters, Reveni (cartera 'Internet Power') — pata de software B2B/consumer que financia la parte más paciente de la cartera."
+  ],
+  "riesgos_o_alertas": [
+    "Cita propia de 2020 en contra: «Para nosotros es difícil invertir en tecnologías de infraestructura. No hacemos apuestas porque son muy arriesgadas». Aunque la práctica 2025-2026 la contradice, conviene anticipar la objeción y no vender el proyecto como 'apuesta de infraestructura' sin más.",
+    "El grueso del deep tech de la cartera es hardware/física (semiconductores, fotónica, cuántica, materiales), no software de desarrollo; no se ha encontrado ninguna inversión en dev tools puros ni en herramientas para desarrolladores.",
+    "El ticket típico histórico (100 K€ - 1 M€ en el fondo de 2022; 500 K$ - 3 M$ según Tracxn) puede quedarse corto si el cliente busca una ronda grande, aunque con Ariadne lidera rondas de 8-9 M€.",
+    "Es un fondo con dinero público (SETT, CDTI): eso suele implicar requisitos de arraigo en España, reporting y a veces plazos de decisión más largos.",
+    "No se ha encontrado email individual publicado; solo el buzón general info@bigsurventures.vc, lo que baja la tasa de respuesta en frío.",
+    "Perfil público relativamente escaso: pocas apariciones recientes con cita directa (la entrevista con citas más ricas es de 2020); no escribe newsletter ni ensayos propios localizables.",
+    "La afirmación de '90% mejor que los stacks actuales' choca de frente con su filtro declarado contra la arrogancia; hay que presentarla con evidencia y prudencia.",
+    "No confirmado: una referencia de RocketReach lo asocia a IE Business School como profesor; no hay fuente primaria que lo verifique."
+  ],
+  "etapa_y_ticket": [
+    "Pre-seed, seed y pre-Serie A ('Pre-seed through Series A'); lidera seeds.",
+    "Ticket 500k-3M USD con punto dulce ~2,5M USD; con BSV IV lidera rondas de 8-9,4M€.",
+    "BSV IV Ariadne: objetivo 100M€, primer cierre realizado, 40M€ de la SETT."
+  ],
+  "id": "jose-miguel-herrero",
+  "como_llegar": [
+    "1) Formulario/buzón: info@bigsurventures.vc (web del fondo, https://www.bigsurventures.vc/equipo).",
+    "2) LinkedIn directo: https://es.linkedin.com/in/josemiguelherrero, y en paralelo Sergio Choclán (https://es.linkedin.com/in/sergio-choclan-1139a215) y Diego Cervera (Principal), que suele ser quien filtra dealflow.",
+    "3) Intro caliente vía fundadores de cartera: el mejor puente es el equipo español de Axiomatic AI (Cambridge/España), y en Madrid Jotelulu (cloud/IaaS) o Frenetic.",
+    "4) Ecosistema universitario: actúaupm (UPM) organiza sesiones donde Herrero ha participado; también el ICFO y el entorno de spin-offs catalanas por LuxQuanta y Arq Quantum.",
+    "5) Eventos: South Summit Madrid, Spain Tech Week, foros de Webcapitalriesgo/Capital-Riesgo.es y actos del CDTI y la SETT/Fondo Next Tech, donde el fondo tiene visibilidad por ser participada pública.",
+    "6) Podcasts: 'Investing in Spain' (ep.",
+    "16) y el PodKast de K Fund (ep.",
+    "21) sirven para citar sus propias palabras en el primer correo."
+  ],
+  "web_personal": "",
+  "prioridad": "B",
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "antecedentes": "Formación técnica sólida en California: B.S. en Electrical Engineering & Computer Science y M.S. en Electrical Engineering por Santa Clara University, más MBA en Finanzas y Operaciones Internacionales por la Haas School of Business (UC Berkeley). Es uno de los pioneros del ecosistema tecnológico español: fundó LaNetro en 1996, una de las primeras grandes compañías españolas de internet (luego LaNetro Zed), y vivió de primera mano el boom y el pinchazo puntocom. Después fue presidente y CEO de una compañía cotizada en el Nasdaq (Escala Group), y montó una firma de M&A centrada en tecnología, acumulando experiencia relevante en fusiones y adquisiciones a ambos lados del Atlántico. En 2012 funda Big Sur Ventures en Madrid, donde es Founder & Managing Partner. El fondo suma más de 13 años de actividad y más de 50-70 compañías en etapa temprana. Su socio Sergio Choclán figura como Partner en la web del equipo (confirmado), junto a Carlos Galve e Ismael Almazán (Partners), Diego Cervera (Principal), Joaquín Azpilicueta (Operating Partner), Francisco Berlanga (Venture Partner), Beatriz Triguero (Head of Legal), Eduardo Montes (Board Member) y Valentina Delgado (Investor Relations). Es miembro de Founders Pledge.",
+  "senales_de_encaje": [
+    "La tesis 'Internet Power' del fondo nombra explícitamente 'AI-native software', ciberseguridad y 'expert systems'; la del vehículo BSV IV Ariadne añade 'cloud computing' y 'software avanzado' en la nota oficial del Gobierno.",
+    "Invierte en pre-seed y seed de compañías sin producto comercial ni usuarios: Arq Quantum tenía menos de un año cuando entró; LuxQuanta y Nanopower son hardware profundo pre-ingresos.",
+    "Lidera rondas: lead en Nanopower (9,4 M€) y en LuxQuanta (8 M€ Serie A), no solo co-inversión.",
+    "Fondo vigente con munición y presión de despliegue: BSV IV Ariadne, objetivo 100 M€, primer cierre completado, 40 M€ comprometidos por la SETT en julio de 2025 y respaldo del CDTI.",
+    "Fundador técnico él mismo (ingeniería eléctrica y CS en Santa Clara, LaNetro en 1996, CEO de cotizada en Nasdaq): entiende ciclos largos y aprecia el 'walking the walk'.",
+    "Declara que el deep tech le gusta precisamente por ser barrera competitiva —el lenguaje del moat técnico es el suyo, no hay que traducirlo.",
+    "Español nativo, con sede en Madrid y toda su comunicación pública disponible en español (entrevistas actúaupm, PodKast K Fund, prensa económica española).",
+    "Actividad continuada y creciente en 2025-2026: al menos siete operaciones anunciadas entre diciembre de 2024 y julio de 2026."
+  ],
+  "rol": "Founder & Managing Partner",
+  "nivel": 77,
+  "banda": "Alto potencial",
+  "email": "info@bigsurventures.vc",
+  "nombre": "José Miguel Herrero",
+  "por_que_es_interesante": [
+    "Tesis 'Internet Power' con 'AI-native software' y 'expert systems'; Axiomatic AI en cartera ('the intelligence infrastructure for verified science & engineering').",
+    "Invierte sistemáticamente pre-tracción y lidera: Arq Quantum (pre-seed), Nanopower (9,4M€ liderada), LuxQuanta (8M€ liderada).",
+    "Fondo nuevo que necesita desplegar: BSV IV Ariadne, primer cierre hecho, 40M€ del Estado vía SETT.",
+    "Ángulo: paralelismo con Axiomatic AI (verificación e infraestructura de inteligencia) y su pasado de fundador técnico en LaNetro; anticipar la objeción de su cita de 2020."
+  ],
+  "investigacion_larga": "José Miguel Herrero es, junto con muy pocos nombres, el arquetipo del inversor español que hizo el camino completo de fundador técnico a gestor de fondo deep tech. Su formación es de ingeniería, no de banca: B.S. en Electrical Engineering & Computer Science y M.S. en Electrical Engineering por Santa Clara University (Silicon Valley), y después MBA en Finanzas y Operaciones Internacionales por Haas (UC Berkeley). Ese doble perfil —silicio y finanzas— explica bien la cartera que ha construido después.\n\nCronología. En 1996 funda LaNetro, una de las primeras compañías grandes de internet en España (posteriormente integrada en LaNetro Zed), con lo que pertenece a la primera generación del ecosistema español, la del boom y el crash puntocom. Él mismo lo cuenta en el PodKast de K Fund, episodio 21, titulado 'La historia de José Miguel Herrero: de LaNetro a Big Sur Ventures, pasando por el NASDAQ' (https://medium.com/k-fund/podkast-ep-21-la-9bdce0b3735f). Después fue presidente y CEO de una compañía cotizada en el Nasdaq (Escala Group, con una capitalización que las fuentes sitúan en torno a 3.500 M$ en su pico) y montó una boutique de M&A tecnológico. En 2012 funda Big Sur Ventures en Madrid, con oficina en Orense 33, 3ºB. En una entrevista de 2020 recordaba: «Nunca me había visto trabajando para una gran empresa. Tenía 29 años y desde entonces no he hecho otra cosa».\n\nEl fondo. Big Sur ha levantado varios vehículos. En junio de 2022 anunció un fondo deep tech de 40 M€ objetivo para startups en semilla y pre-Serie A en España y Europa, con tickets de 100 K€ a 1 M€ y foco declarado en «computación cuántica, materiales compuestos, robótica e inteligencia artificial» (El Economista, El Referente, Webcapitalriesgo, jun-2022). En el podcast 'Investing in Spain' (ep. 16, 19-jun-2025, 44 min) se le presenta desplegando el Fondo III, «con concentración en deep tech y consumer internet». El vehículo relevante hoy es BSV IV Ariadne FCRE: objetivo 100 M€, primer cierre ya completado, con compromisos de institucionales privados y respaldo público de la Sociedad Estatal para la Transformación Tecnológica (SETT, Fondo Next Tech) y del CDTI. En julio de 2025 el Consejo de Ministros autorizó 125 M€ en dos fondos, de los cuales 40 M€ van a Big Sur (85 M€ a Axon Innovation Growth II). La estrategia declarada de Ariadne es «Deep Tech y software empresarial, con especial atención a inteligencia artificial, fotónica, nuevos materiales, espacio, tecnologías cuánticas, semiconductores y robótica». La nota del Gobierno amplía: «microelectrónica, fotónica, nanotecnología, nuevos materiales, tecnologías cuánticas, cloud computing, IA, ciberseguridad y software avanzado». Es decir: cloud computing y software avanzado están dentro del mandato explícito del fondo, algo directamente pertinente para un stack IA-nativo.\n\nDespliegue reciente (fuente: Webcapitalriesgo, tag Big Sur Ventures). Diciembre 2024: Jotelulu, 6,8 M€ liderada por Kibo (cloud para MSPs). Mayo 2025: Floatech, 1 M€ (baterías). Septiembre 2025: Nanopower Semiconductor, 9,4 M€ liderada por Big Sur junto al EIC Fund y Skagerak Capital —Big Sur como lead en semiconductores. Octubre 2025: LuxQuanta, Serie A de 8 M€ liderada por Big Sur, con A&G, GMV, EIC, Corning y GTD; LuxQuanta industrializa QKD de variable continua desde Barcelona (spin-off del ICFO). Octubre 2025: Reveni, 7,5 M€ Serie A liderada por 13books (follow-on). Marzo 2026: Axiomatic AI, seed de 18 M$ liderada por Engine Ventures con Kleiner Perkins, Global Vision Capital, Propagator Ventures y Liquid 2; Axiomatic construye una plataforma que combina modelos frontera con verificación formal matemática y física para diseño y verificación de hardware complejo (semiconductores, fotónica), y su equipo es 60% España / 40% EE. UU. Abril 2026: nueva inversión en LuxQuanta junto al CDTI a través de BSV IV Ariadne. Julio 2026: Arq Quantum Technologies, pre-seed de 1,4 M$ liderada por Ground State Ventures, con Big Sur; Arq (Barcelona, fundada en 2025) desarrolla repetidores cuánticos basados en memorias cuánticas para el internet cuántico. La cartera histórica incluye además Paack, Smart Protection, Lingokids, Funidelia, Trucksters, Frenetic, Citibox, Planckian y Cuyna. Bases de datos externas (Tracxn) contabilizan 4 inversiones en 2025 y actividad continua en 2026, con 25 operaciones en seed y tamaño medio de ronda de 2,24 M$.\n\nDiscurso. La fuente más rica de citas es la entrevista con actúaupm (UPM, marzo 2020, http://actuaupm.blogspot.com/2020/03/hablamos-con-jose-miguel-herrero-big.html). Ahí define su filtro: problemas que afecten a mucha gente y con profundidad, potencial internacional, timing y equipo. Sobre deep tech: «En nuestro caso nos encanta que una empresa tenga 'deep tech' porque supone una barrera a la competencia», con la advertencia «Si crees que por tener patentes tienes la vida resuelta, te van a comer vivo». Sobre equipo: «Equipos ambiciosos, obsesionados por resolver un problema, pero no locos; gente optimista, pero con límites y capas de racionalidad. Y gente humilde, de escucha activa», y «La arrogancia es una línea roja». Sobre ser inversor: «Para ser buen inversor, haber emprendido antes es una aportación importante. El talking the talk and walking the walk». Sobre el ecosistema: «Si te da pereza el inglés no puedes ser emprendedor». Y una cita que conviene tener presente por ser contraria al encaje: «Para nosotros es difícil invertir en tecnologías de infraestructura. No hacemos apuestas porque son muy arriesgadas». Esa frase es de 2020 y contrasta frontalmente con lo que el fondo hace en 2025-2026 (semiconductores, QKD, memorias cuánticas, infraestructura de inteligencia en Axiomatic), por lo que parece una posición superada tras el giro a deep tech, pero conviene no ignorarla en la conversación. En declaraciones más recientes sostiene que España «tiene los ingredientes para ser una potencia de la ola Deep Tech en Europa» y que fondos como BSV IV Ariadne serán decisivos para canalizar talento científico hacia proyectos de impacto global.\n\nCo-inversores habituales y red: CDTI, EIC Fund, SETT/Next Tech, GMV, A&G, Kibo Ventures, 13books, Engine Ventures, Ground State Ventures, Skagerak Capital. Relación estrecha con el ecosistema universitario y de spin-offs (actúaupm de la Politécnica de Madrid, ICFO en Barcelona). Es miembro de Founders Pledge. Su socio Sergio Choclán aparece como Partner en la web del equipo (confirmado); Signal NFX registra a Herrero con 11 inversiones a título personal, rango 1-5 M$ y sweet spot 2,5 M$.\n\nPara personalizar un primer contacto: mencionar Axiomatic AI (verificación formal + modelos frontera, equipo mayoritariamente español) como el precedente más cercano a la tesis del cliente; referirse a su etapa de fundador en LaNetro y al episodio del PodKast de K Fund; y traducir el 'stack IA-nativo' al lenguaje del fondo —barrera tecnológica defendible, no patente decorativa— porque es exactamente el marco que él usa.",
+  "region": "España",
+  "tipo_inversor": "VC institucional",
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "Big Sur nombra 'AI-native software' y sistemas expertos en su tesis, invirtió en Axiomatic AI (infraestructura de inteligencia verificada) y lidera pre-seed y seed en deep tech con un fondo nuevo (BSV IV Ariadne, 100M€ objetivo, 40M€ de la SETT); pero su cartera deep tech es sobre todo hardware y física, sin dev tools, y en 2020 dijo que no hacían apuestas de infraestructura.",
+    "puntuacion": {
+      "tesis": 16,
+      "etapa": 18,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 11,
+      "otros_aspectos": -3,
+      "otros_aspectos_motivo": "Su cita de 2020 contra las apuestas de infraestructura ('no hacemos apuestas porque son muy arriesgadas').",
+      "bruto": 77,
+      "topes": [],
+      "total": 77
+    }
+  },
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.bigsurventures.vc/equipo y https://www.bigsurventures.vc/ — el fondo publica info@bigsurventures.vc como contacto único junto con la dirección postal (Orense 33, 3ºB, 28020 Madrid) y teléfono +34 916237731. No publica emails individuales de socios, por lo que no se puede inferir un patrón con evidencia.",
+      "Buzón general publicado en la web. Patrón individual no confirmado; RocketReach y similares apuntan a direcciones nombre@bigsurventures.vc pero están ofuscadas y no son fuente pública verificable"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en la web del fondo: https://www.bigsurventures.vc/equipo",
+      "X/Twitter: https://twitter.com/joemycool (según Signal NFX)",
+      "Signal NFX: https://signal.nfx.com/investors/jose-miguel-herrero",
+      "Crunchbase: https://www.crunchbase.com/person/jos-miguel-herrero",
+      "Founders Pledge: https://www.founderspledge.com/members/206",
+      "Podcast 'Investing in Spain' ep. 16: https://investinginspain.transistor.fm/16",
+      "PodKast de K Fund ep. 21: https://medium.com/k-fund/podkast-ep-21-la-9bdce0b3735f"
+    ]
+  },
+  "confianza": "alta",
+  "fuentes": [
+    "https://www.bigsurventures.vc/",
+    "https://www.bigsurventures.vc/equipo",
+    "https://www.bigsurventures.vc/portfolio",
+    "https://www.bigsurventures.vc/en/bsv-sgeic",
+    "https://investinginspain.transistor.fm/16",
+    "https://signal.nfx.com/investors/jose-miguel-herrero",
+    "https://www.crunchbase.com/person/jos-miguel-herrero",
+    "http://actuaupm.blogspot.com/2020/03/hablamos-con-jose-miguel-herrero-big.html",
+    "https://blogs.upm.es/actuaupm/2020/03/25/hablamos-con-jose-miguel-herrero-big/",
+    "https://www.eleconomista.es/capital-riesgo/noticias/11805042/06/22/Big-Sur-Ventures-lanza-un-fondo-de-40-millones-para-startups-tecnologicas-punteras.html",
+    "https://www.webcapitalriesgo.com/big-sur-ventures-lanza-un-nuevo-fondo-de-e40-millones-para-startups-deep-tech/",
+    "https://elreferente.es/venture-capital/big-sur-ventures-lanza-fondo-40m-para-startups-deep-tech/",
+    "https://www.webcapitalriesgo.com/tag/big-sur-ventures/",
+    "https://www.webcapitalriesgo.com/axiomatic-ai-cierra-una-ronda-de-18m-liderada-por-engine-ventures-en-la-que-participa-big-sur-ventures-kleiner-perkins-y-otros/",
+    "https://forbes.es/economia/887277/big-sur-ventures-participa-en-una-ronda-semilla-de-15-millones-de-euros-de-la-startup-axiomatic-ai/",
+    "https://www.webcapitalriesgo.com/arq-quantum-technologies-cierra-una-ronda-de-14m-liderada-por-ground-state-ventures-participa-big-sur/",
+    "https://www.webcapitalriesgo.com/cdti-y-big-sur-ventures-invierten-en-luxquanta/",
+    "https://capital-riesgo.es/es/articles/big-sur-ventures-lidera-una-ronda-de-9-4-millones-en-nanopower-semiconductor-junto-con-el-eic-y-skagerak-capital/",
+    "https://axonpartnersgroup.com/the-spanish-government-supports-the-development-of-transformative-technology-companies-through-investments-in-axon-and-big-sur-ventures-funds/",
+    "https://planderecuperacion.gob.es/noticias/inversion-fondos-sett-impulsar-startups-tecnologicas-prtr",
+    "https://pitchbook.com/profiles/fund/26252-20F",
+    "https://tracxn.com/d/venture-capital/bigsurventures/__tKi2sETFxL9ZcR03Q2JnKfbuT8ktuGI-HuB8AR3Q_Xw",
+    "https://medium.com/k-fund/podkast-ep-21-la-9bdce0b3735f",
+    "https://www.founderspledge.com/members/206"
+  ]
+}

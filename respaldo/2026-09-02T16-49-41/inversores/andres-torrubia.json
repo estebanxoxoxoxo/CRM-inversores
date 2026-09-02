@@ -1,0 +1,135 @@
+{
+  "tipo_inversor_detalle": "Business angel",
+  "confianza": "media",
+  "email": "info@iia.es",
+  "linkedin": "https://www.linkedin.com/in/andrestorrubia",
+  "banda": "Reserva",
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "Construyó y publicó en abierto 'dual-agent', un harness multi-modelo con MCP, y es de los técnicos de IA más sólidos de España; pero no hay ni una inversión ángel documentada, así que su valor es de validador y advisor, no de capital.",
+    "puntuacion": {
+      "tesis": 20,
+      "etapa": 0,
+      "decision": 0,
+      "espanol": 15,
+      "acceso": 12,
+      "otros_aspectos": 0,
+      "otros_aspectos_motivo": "",
+      "bruto": 47,
+      "topes": [],
+      "total": 47
+    }
+  },
+  "como_llegar": [
+    "GitHub: https://github.com/antorsae — abrir un issue o PR en 'dual-agent' comparando arquitecturas es, con diferencia, la vía más natural y la que mejor le habla",
+    "Email institucional del IIA: info@iia.es | Teléfono: +34 623 068 412",
+    "Podcast 'Software 2.0' (suyo): proponerle un episodio sobre harness de agentes y nube de agentes es una vía de contacto con valor para él",
+    "IIACONF (congreso anual del Instituto de Inteligencia Artificial en Alicante): hay entrevistas suyas publicadas de la edición 2025",
+    "Máster Ejecutivo en IA del IIA: su red de más de 200 alumnos y su claustro son puerta de entrada al ecosistema alicantino",
+    "Cofundadores como puente: Aurelia Bustos (Medbravo, IIA) y Miguel Ángel Román (IIA), ambos doctores en IA",
+    "Podcast de Juan Such (Rankia) y podcast 'Monos Estocásticos': comunidades donde participa y donde se le puede alcanzar",
+    "Vía ecosistema valenciano/alicantino: Patricia Pastor (Next Tier, Valencia) y Enrique Penichet (Draper B1, Valencia) operan en su misma geografía y pueden conocerle",
+    "Tarugo Conference y eventos técnicos españoles donde ha hablado"
+  ],
+  "nivel": 47,
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://iia.es/sobre-nosotros/ publica info@iia.es y +34 623 068 412 como canales de contacto del Instituto que cofundó. Su correo personal no aparece en ninguna fuente pública; su perfil de GitHub (https://github.com/antorsae) tampoco lo expone. No hay patrón de dominio del que inferir un correo personal fiable.",
+      "Email institucional del Instituto de Inteligencia Artificial, que cofundó; NO es su correo personal. Teléfono público del IIA: +34 623 068 412"
+    ],
+    "linkedin": [
+      "Perfil existente; no accesible sin sesión para verificar el contenido exacto"
+    ],
+    "otras": [
+      "GitHub (muy activo y el activo más relevante): https://github.com/antorsae",
+      "Crunchbase: https://www.crunchbase.com/person/andres-torrubia",
+      "F6S: https://www.f6s.com/member/andrestorrubia",
+      "The Org (HowMuch.net): https://theorg.com/org/howmuch-net/org-chart/andres-torrubia",
+      "Instituto de Inteligencia Artificial: https://iia.es/ y https://iia.es/sobre-nosotros/",
+      "Podcast propio 'Software 2.0': https://www.ivoox.com/podcast-software-2-0_sq_f1807016_1.html",
+      "Newsletter del IIA: 'Explicable'",
+      "Canal YouTube del IIA: https://www.youtube.com/@iia",
+      "Podcast 'Monos Estocásticos': https://cuonda.com/monos-estocasticos/sale-muy-caro-apostar-contra-la-ia-con-andres-torrubia-y-miguel-angel-roman",
+      "Entrevista IIACONF2025: https://www.youtube.com/watch?v=8YG_l2bLKrU"
+    ]
+  },
+  "inversiones_relevantes": [
+    "NO CONFIRMADO: no se ha encontrado ninguna inversión ángel concreta de Andrés Torrubia en fuentes públicas. Crunchbase lo lista solo como 'CEO & Co-founder @ Fixr' y F6S como 'Advisor at Medbravo'; no aparece ninguna operación con empresa, año, ronda ni importe",
+    "dual-agent (proyecto propio en abierto, GitHub antorsae/dual-agent, MIT): entorno de desarrollo que orquesta Claude Code + Codex CLI + ChatGPT Pro vía herramientas MCP, tmux y Chrome — no es una inversión, pero es la prueba más fuerte de encaje con el producto del cliente",
+    "Medbravo (cofundador y advisor; aplicación de IA a proyectos biomédicos y ensayos clínicos, con Aurelia Bustos) — deep tech de IA aplicada construido desde cero",
+    "Instituto de Inteligencia Artificial, IIA (cofundador a finales de 2019 en Alicante, con Aurelia Bustos y Miguel Ángel Román; +200 alumnos, 11 ediciones del Máster Ejecutivo) — plataforma de formación y red de la que salen fundadores de IA en España",
+    "Fixr.com y HowMuch.net (fundador y CEO; startups estadounidenses) — construyó y opera compañías en EE.UU., entiende el mercado americano",
+    "Startup de distribución y seguridad de videojuegos por Internet (vendida en 2005) — exit propio",
+    "Soluciones Kaggle publicadas: champs-scalar-coupling (2º puesto en 'Predicting Molecular Properties'), sp-society-camera-model-identification (IEEE), landmark-recognition-challenge (Google); finalista top 4 del desafío Didi-Udacity"
+  ],
+  "tesis_de_inversion": [
+    "No publica tesis de inversión; opera como constructor y divulgador, no como inversor formal.",
+    "'Sale muy caro apostar contra la IA'; la ventaja no está en tener la herramienta sino en aplicar la IA al problema propio.",
+    "Practica lo que predica: mantiene en abierto dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP) para 'velocidad de desarrollo con controles de calidad rigurosos'.",
+    "Crítico con el riesgo regulatorio europeo; compara ecosistemas de IA de UE, EE.UU. y China."
+  ],
+  "ciudad_base": "Alicante, España (con vinculación operativa a EE.UU.: Fixr y HowMuch.net son startups americanas)",
+  "etapa_y_ticket": [
+    "Sin inversiones ángel documentadas en ninguna fuente pública.",
+    "Sin etapa ni ticket conocidos; cualquier cifra sería inventada."
+  ],
+  "email_estado": "buzón general del fondo (público)",
+  "region": "España",
+  "prioridad": "C",
+  "riesgos_o_alertas": [
+    "ALERTA PRINCIPAL: su actividad como business angel NO está confirmada. Ninguna fuente pública documenta una sola inversión suya en una startup",
+    "Sin etapa ni ticket conocidos: no se puede anticipar si escribiría un cheque y de qué tamaño",
+    "Es operador a tiempo completo con al menos tres frentes simultáneos (Fixr, HowMuch.net e Instituto de Inteligencia Artificial): ancho de banda muy limitado",
+    "Su perfil es de constructor y divulgador, no de inversor: el retorno realista del contacto es advisorship y credibilidad, no capital",
+    "Riesgo de percepción de competencia o solapamiento: ya tiene su propio harness de agentes en abierto; hay que posicionar el producto como complementario y de otra escala, no como 'lo mismo pero de pago'",
+    "No hay email personal público; solo el institucional del IIA (info@iia.es), que probablemente gestione un equipo administrativo",
+    "Es muy crítico con el marco regulatorio europeo para startups de IA: conviene tener respuesta preparada sobre por qué construir esto desde España"
+  ],
+  "firma": "Fixr y HowMuch.net (fundador y CEO); Medbravo (cofundador/advisor); Instituto de Inteligencia Artificial - IIA (cofundador). No tiene vehículo de inversión propio.",
+  "senales_de_encaje": [
+    "Ha construido y publicado en abierto 'dual-agent', un harness de desarrollo multi-modelo (Claude Code + Codex CLI + ChatGPT Pro) con herramientas MCP: es usuario y constructor del producto del cliente",
+    "Perfil técnico de élite verificable (CERN, top 0,1% mundial en Kaggle, segundo puesto en CHAMPS, top 4 en el reto Didi-Udacity): juzgará por arquitectura, no por métricas de usuarios",
+    "Argumento propio a favor de la orquestación multi-modelo: 'by combining multiple models, you get rapid development velocity with rigorous quality checks and diverse perspectives'",
+    "Tesis pública de que la ventaja competitiva está en aplicar la IA al problema propio, no en tener la herramienta: encaja con un moat de stack propio frente a alquilar APIs",
+    "Divulgador con altavoz propio (podcast 'Software 2.0', newsletter 'Explicable', IIA): su respaldo tiene efecto multiplicador ante otros inversores españoles",
+    "Emprendedor con exit (2005) y dos compañías americanas en activo: entiende horizontes largos y el mercado de EE.UU.",
+    "Español nativo, base en Alicante, prácticamente toda su producción pública es en castellano",
+    "Sigue programando y publicando código en abierto en 2026: el contacto puede ser técnico y directo, sin intermediarios"
+  ],
+  "tipo_inversor": "Business angel",
+  "rol": "Emprendedor en serie y operador técnico. Fundador y CEO de Fixr.com y HowMuch.net, cofundador de Medbravo y cofundador del Instituto de Inteligencia Artificial (Alicante). Divulgador: podcast 'Software 2.0'. Su condición de business angel es un rol atribuido en la fase de descubrimiento pero NO verificado con ninguna operación pública.",
+  "por_que_es_interesante": [
+    "Ha construido con sus manos una versión reducida del segundo producto del cliente: dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP, MIT, en GitHub).",
+    "Perfil técnico difícil de igualar en España: CERN, top 0,1% de Kaggle, dos startups fundadas en EE.UU.",
+    "Plataforma de divulgación (podcast Software 2.0, Instituto de IA) que multiplica cualquier respaldo.",
+    "Ángulo: técnico y en abierto (issue o PR en dual-agent, comparar harnesses); pedir opinión de arquitectura y, si engancha, advisorship. No pedir dinero."
+  ],
+  "investigacion_larga": "Cronología. Andrés Torrubia es ingeniero de telecomunicaciones y empezó su carrera en el CERN, en Ginebra. Su primera empresa fue una startup de distribución y seguridad de videojuegos por Internet, que vendió en 2005. Después dio el salto a Estados Unidos y fundó dos compañías americanas que aún dirige: Fixr.com, marketplace de reformas y servicios para el hogar con presupuestos y comparativa de precios, y HowMuch.net, proyecto de visualización de datos económicos. En Crunchbase figura como 'CEO & Co-founder @ Fixr' y en The Org como CEO de HowMuch.net.\n\nEl giro a la IA. Alrededor de 2015-2016 redescubrió el machine learning y se volcó en él con una intensidad poco común para un CEO en activo. Compitió en Kaggle hasta situarse, según el Instituto de Inteligencia Artificial, en el 'top 0,1% mundial'. Sus soluciones están publicadas en GitHub bajo el usuario antorsae: 'champs-scalar-coupling' (segundo puesto en la competición 'Predicting Molecular Properties', 62 estrellas), 'sp-society-camera-model-identification' (competición del IEEE Signal Processing Society sobre identificación de modelos de cámara, 70 estrellas), 'landmark-recognition-challenge' (reto de Google) y 'colorizer'. Fue además finalista, entre los cuatro mejores, del desafío Didi-Udacity de conducción autónoma. Este historial importa porque significa que evalúa producto por arquitectura y resultados, no por narrativa.\n\nMedbravo y el Instituto. Cofundó Medbravo, empresa que aplica IA a proyectos biomédicos y ensayos clínicos, con Aurelia Bustos —doctora en IA, oncóloga médica e ingeniera informática, condecorada con la medalla al mérito civil por el Rey de España—. A finales de 2019 los dos, junto con Miguel Ángel Román (doctor en IA, ingeniero de telecomunicaciones, veinte años en empresas tecnológicas y ex director de un centro de I+D de una multinacional alemana), fundaron en Alicante el Instituto de Inteligencia Artificial. Su ambición declarada en una entrevista de Economía 3 (8 de septiembre de 2022) fue 'conseguir que por nuestro máster pase el próximo Amancio Ortega de la IA'. En esa misma entrevista dejó dos frases que definen su marco: 'las empresas que perduran en el tiempo son aquellas que están siempre atentas a los cambios' y 'una característica fundamental de la IA es que es una tecnología de propósito general'; preguntado por si el personal de las empresas está preparado para lo que la IA puede hacer, respondió simplemente 'desgraciadamente no'. El IIA ha formado a más de 200 alumnos, va por la undécima edición de su Máster Ejecutivo (seis meses, 100% online), publica la newsletter gratuita 'Explicable', webinars de veinte minutos y consultoría corporativa, y sus datos de contacto son públicos: info@iia.es y +34 623 068 412. En enero de 2026 el IIA publicó seis predicciones sobre IA recogidas por el diario Información de Alicante.\n\nDivulgación. Produce y presenta 'Software 2.0', podcast en español sobre IA, disponible en iVoox, Apple Podcasts, Spotify y Everand, con episodios de preguntas y respuestas y entrevistas a figuras del sector. Es invitado recurrente de otros programas: el episodio #29 del podcast de Juan Such en Rankia, 'Inteligencia Artificial, inversiones y emprendimiento' (1 de octubre de 2020), donde repasó su trayectoria y —según el índice del episodio— 'su forma de invertir y su cartera actual'; el episodio #89 del mismo podcast, 'El tsunami de la Inteligencia Artificial' (2024); 'Sale muy caro apostar contra la IA' en Monos Estocásticos, con Miguel Ángel Román; el podcast Innoverse de la Fundación Bankinter sobre IA generativa; 'Interfaces de futuro' (T2E15, 'El impacto de la IA en la sociedad'); y charlas en la Tarugo Conference y en universidades (CEU Elche). Un análisis de su charla del 'tsunami' resume su tesis para empresas: la velocidad del cambio es el verdadero reto, la ventaja competitiva está en aplicar la IA al problema específico propio y no en tener la herramienta, y hay un coste real en no actuar mientras la competencia avanza. En su etapa de 2020 usaba una analogía muy suya: 2012 era 'el siglo XII en IA' y 2020 'el siglo XX'.\n\nEl dato decisivo: dual-agent. Lo más relevante de todo el expediente no es una inversión sino un repositorio. En su GitHub mantiene 'antorsae/dual-agent' (licencia MIT, 24 commits en main, 17 estrellas), descrito como 'a collaborative development environment that pairs Claude Code (Anthropic) with Codex CLI'. El sistema orquesta tres modelos con roles distintos: Claude Code para iteración rápida y orquestación, Codex CLI / GPT-5.5 para revisiones profundas y análisis de seguridad, y ChatGPT Pro para razonamiento extendido de cinco a treinta minutos. Ofrece cuatro modos de operación: herramientas MCP integradas directamente en Claude Code (el método recomendado), sesión tmux de doble panel, integración con Chrome para automatización de navegador y un worker de ChatGPT Pro para tareas automatizadas. Un flujo típico documentado: Claude delega la revisión de seguridad a Codex vía MCP, Codex analiza vulnerabilidades y Claude presenta los resultados. Su argumento: 'by combining multiple models, you get rapid development velocity with rigorous quality checks and diverse perspectives'. Requiere tmux, Claude Code, Codex CLI, jq y Node.js. Es, en pequeño, exactamente el problema que el cliente quiere resolver en grande con una nube de agentes: un harness de desarrollo multi-modelo. Que un ingeniero del top 0,1% de Kaggle haya sentido la necesidad de construírselo es la mejor validación de mercado que se puede llevar a una primera reunión.\n\nLímites honestos. No hay ninguna evidencia pública de que Andrés Torrubia invierta en startups. Crunchbase lo tiene como fundador y CEO, no como inversor; F6S lo etiqueta como 'Advisor at Medbravo'; no aparece en listas de business angels españoles activos ni se le atribuye ninguna operación con nombre, año y ronda. Es un operador a tiempo completo con al menos tres proyectos simultáneos (Fixr, HowMuch.net y el IIA). Por tanto: es un candidato excelente a advisor, champion técnico y prescriptor, y un candidato dudoso a inversor principal. Para el cliente, el retorno esperado de contactarlo no es un cheque sino credibilidad técnica y acceso a la red alicantina y madrileña de IA. No se le conocen controversias. Fluidez en español: total, es su lengua materna y prácticamente toda su producción pública —podcast, máster, entrevistas— es en castellano.",
+  "fuentes": [
+    "https://github.com/antorsae",
+    "https://github.com/antorsae/dual-agent",
+    "https://iia.es/",
+    "https://iia.es/sobre-nosotros/",
+    "https://economia3.com/2022/09/08/504373-torrubia-iia-queremos-que-por-aqui-pase-del-proximo-amancio-ortega-de-la-ia/",
+    "https://www.rankia.com/blog/such/4742354-29-inteligencia-artificial-inversiones-emprendimiento-andres-torrubia",
+    "https://www.rankia.com/blog/such/6415080-89-tsunami-inteligencia-artificial-andres-torrubia",
+    "https://www.ciberaula.com/observatorio-ia/mirador/torrubia-tsunami-ia-empresas-que-cambia/",
+    "https://cuonda.com/monos-estocasticos/sale-muy-caro-apostar-contra-la-ia-con-andres-torrubia-y-miguel-angel-roman",
+    "https://www.fundacionbankinter.org/noticias/innoverse-ia-generativa-con-andres-torrubia/",
+    "https://www.crunchbase.com/person/andres-torrubia",
+    "https://www.f6s.com/member/andrestorrubia",
+    "https://theorg.com/org/howmuch-net/org-chart/andres-torrubia",
+    "https://www.ivoox.com/podcast-software-2-0_sq_f1807016_1.html",
+    "https://www.youtube.com/watch?v=8YG_l2bLKrU",
+    "https://www.youtube.com/watch?v=WA1a2YIMoz0",
+    "https://www.informacion.es/economia/2026/01/01/6-predicciones-ia-instituto-inteligencia-artificial-alicante-125294602.html",
+    "https://www.trgcon.com/blog/andres-torrubia-en-la-tarugo3-haciendo-posible-lo-imposible/",
+    "https://medios.uchceu.es/actualidad-ceu/andres-torrubia-inteligencia-artificial-hablando-con-la-empresa-ceu-elche/"
+  ],
+  "id": "andres-torrubia",
+  "nombre": "Andrés Torrubia",
+  "antecedentes": "Ingeniero de Telecomunicaciones. Trabajó en el CERN (Ginebra) al inicio de su carrera. Fundó una startup de distribución y seguridad de videojuegos por Internet que vendió en 2005. Después fundó y dirigió dos compañías estadounidenses: Fixr.com (marketplace de reformas y servicios para el hogar) y HowMuch.net, de las que es CEO. Cofundó Medbravo, aplicación de IA a proyectos biomédicos y ensayos clínicos, junto a Aurelia Bustos (doctora en IA, oncóloga e ingeniera informática, condecorada con la medalla al mérito civil). A finales de 2019 cofundó en Alicante el Instituto de Inteligencia Artificial (IIA) con Aurelia Bustos y Miguel Ángel Román (doctor en IA e ingeniero de telecomunicaciones, ex director de un centro de I+D de una multinacional alemana): el IIA imparte un Máster Ejecutivo en IA que va por su undécima edición, formaciones intensivas en ciberseguridad, desarrollo, compliance y marketing, consultoría y divulgación. Es competidor de élite en Kaggle —el IIA lo sitúa en el 'top 0,1% mundial'— con soluciones públicas como el segundo puesto en 'Predicting Molecular Properties' (CHAMPS) y trabajos en identificación de modelos de cámara (IEEE) y reconocimiento de landmarks de Google; fue además finalista (top 4) del desafío Didi-Udacity de conducción autónoma. Produce y presenta el podcast 'Software 2.0'.",
+  "web_personal": ""
+}

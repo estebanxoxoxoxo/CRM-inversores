@@ -1,16 +1,15 @@
-import { getApps, initializeApp, type FirebaseApp } from "firebase/app";
+import { getApps, initializeApp } from "firebase/app";
 import { getFirestore, type Firestore } from "firebase/firestore";
 
-let app: FirebaseApp | undefined;
 let db: Firestore | undefined;
 
-export function configFirebaseDisponible(): boolean {
+export function isFirebaseConfigured(): boolean {
   return Boolean(import.meta.env.VITE_FIREBASE_API_KEY && import.meta.env.VITE_FIREBASE_PROJECT_ID && import.meta.env.VITE_FIREBASE_APP_ID);
 }
 
-export function firestore(): Firestore {
+export function getDb(): Firestore {
   if (!db) {
-    app =
+    const app =
       getApps()[0] ??
       initializeApp({
         apiKey: import.meta.env.VITE_FIREBASE_API_KEY,

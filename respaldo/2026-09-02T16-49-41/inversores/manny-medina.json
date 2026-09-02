@@ -1,0 +1,131 @@
+{
+  "etapa_y_ticket": [
+    "Seed y Serie A ('commits early — when capital, conviction and operational support compound the most').",
+    "Mínimo ~1M USD por operación; objetivo ~46 startups.",
+    "Fondo: objetivo 75M USD; Form D (sept-2025) declara 20,2M USD vendidos; en captación."
+  ],
+  "firma": "Medina Ventures (medinavc.com) — fondo de deep tech early-stage con sede en Miami. También Founder & Chairman de eMerge Americas y fundador de Medina Capital (vehículo anterior, growth/buyout, 182 M USD)",
+  "tesis_de_inversion": [
+    "'Enabling infrastructure powering the next great technological revolution': deep tech de doble uso, no la aplicación final.",
+    "Tres pilares: AI Infrastructure (datos, despliegue e inferencia, cómputo y redes), Quantum Technologies, Next-Gen Cybersecurity.",
+    "'The picks-and-shovels of dual-use deep technology'; apuesta temprana.",
+    "Puente LatAm-Miami-EE.UU. como plataforma de innovación."
+  ],
+  "antecedentes": "Nacido en 1952 en Matanzas, Cuba. Salió de la isla con su familia a los 13 años (1965) y se instaló en Miami: español nativo, sin ninguna duda. Licenciado en Contabilidad por Florida Atlantic University (1974), pagándose los estudios con varios trabajos; empezó su carrera como CPA en Price Waterhouse. En 1982 fundó Terremark Worldwide, de la que fue Chairman, President y CEO hasta 2010: construyó y operó el NAP of the Americas de Miami, uno de los mayores nodos de telecomunicaciones del mundo, y llevó la compañía al NASDAQ. Verizon la compró en abril de 2011 (precio de compra ~1.400 M USD; valor de empresa ~2.000 M USD). En 2014 lanzó Medina Capital, fondo de ~182 M USD centrado en ciberseguridad y analítica de datos, que desplegó ~180 M USD en ocho compañías. En 2017 combinó activos de Medina Capital con la compra a CenturyLink de su negocio de centros de datos, junto a BC Partners, para crear Cyxtera Technologies, que salió a bolsa vía SPAC en 2021 (NASDAQ: CYXT) con él como Executive Chairman: su segunda compañía cotizada. También en 2014 fundó eMerge Americas, la conferencia B2B que conecta EE.UU., Latinoamérica y Europa, de la que sigue siendo Chairman. Desde agosto de 2023 impulsa Medina Ventures. Premio «Sand in my Shoes» y AACSB Influential Leader 2020.",
+  "rol": "Founder & Executive Managing Partner de Medina Ventures (preside el comité de inversión); Founder & Chairman de eMerge Americas",
+  "web_personal": "",
+  "region": "EE.UU. (hispanohablante)",
+  "ciudad_base": "Miami, Florida, EE.UU. (oficina del fondo: 2750 NW 3rd Avenue, Suite 24, Miami, FL 33127). Nacido en Matanzas, Cuba",
+  "nombre": "Manuel D. \"Manny\" Medina",
+  "email_estado": "buzón general del fondo (público)",
+  "senales_de_encaje": [
+    "Tesis publicada literal de infraestructura de IA: «data and workflow infrastructure, model deployment and inference, and the optimization of compute, networking, and performance for production workloads» (https://medinavc.com/)",
+    "Etapa declarada seed y Series A, con la frase «commits early — when capital, conviction, and operational support compound the most»: entra antes de las métricas, no después",
+    "Autodefinición como inversor en «the picks-and-shovels of dual-use deep technology»: no busca aplicaciones con usuarios, busca la capa habilitadora",
+    "Qunnect (redes cuánticas) demuestra tolerancia a horizontes de una década sin ingresos significativos",
+    "Toda su carrera operativa es infraestructura: NAP of the Americas, Terremark, Cyxtera. No necesita que le expliquen por qué una capa de infraestructura tarda en monetizar",
+    "Español nativo (nacido en Matanzas, Cuba; emigrado a Miami a los 13 años) y cobertura habitual en prensa hispana; el pitch puede ser íntegramente en español",
+    "Vía de acceso física y abierta: eMerge Americas, la conferencia de Miami que él preside, con programa de startups y más de 1.200 alumni",
+    "Fondo activo en 2026 (inversión en Hedgehog el 1/05/2026), no un vehículo dormido",
+    "Email y formulario de pitch públicos en la web del fondo, con filtro explícito para IA, cuántica y ciberseguridad"
+  ],
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "prioridad": "A",
+  "como_llegar": [
+    "Email y formulario de pitch del fondo: info@medinavc.com y el formulario en https://medinavc.com/ (dirigido explícitamente a fundadores de IA, cuántica y ciberseguridad)",
+    "eMerge Americas (Miami, conferencia anual que él preside): https://emergeamericas.com/ — programa de startups y pitch competition; es la vía de acceso física más directa y él está presente",
+    "Tony Jiménez (Managing Partner) y Melissa Medina (Partner y CEO de eMerge Americas) son los interlocutores operativos reales: https://www.medinavc.com/meettheteam y https://www.linkedin.com/in/melissa-medina-6a8267b1/",
+    "LinkedIn del fondo: https://www.linkedin.com/company/medinaventures — y el suyo personal https://www.linkedin.com/in/manny-medina-612b06207/",
+    "Vía portfolio: fundadores de Hedgehog (open networking, el más cercano temáticamente), Tier4AI o Qunnect pueden hacer intro interna",
+    "Red hispana de Miami: Refresh Miami, Knight Foundation (han publicado entrevistas con él), Venture Miami y el ecosistema alrededor de eMerge",
+    "Ángulo de contenido: escribirle en español, encuadrando el harness de agentes como «enabling infrastructure» de despliegue, inferencia y control de agentes en producción, con lenguaje de seguridad y auditoría (doble uso), no de productividad de developers"
+  ],
+  "inversiones_relevantes": [
+    "Hedgehog (última inversión registrada, 1 de mayo de 2026; plataforma de open networking para infraestructura cloud distribuida optimizada para cargas de IA) — el caso más parecido al del cliente: open source, infraestructura, usuario técnico, tesis antes que tracción",
+    "Tier4AI (MDR autónomo y automatización de SOC para pymes y MSPs) — automatización con agentes aplicada a seguridad; demuestra apetito por producto agéntico en producción",
+    "Qunnect (plataforma de redes cuánticas sobre infraestructura de fibra existente) — deep tech de horizonte muy largo, prueba de que aceptan ciclos de maduración de años",
+    "Gemelo.ai / Fluentreach.ai (avatares de IA fotorrealistas multilingües para traducción y localización en tiempo real) — IA aplicada, con componente multilingüe/hispano",
+    "Terremark Worldwide (fundada 1982, vendida a Verizon en abril de 2011 por ~1.400 M USD de precio y ~2.000 M USD de valor de empresa) — su propio historial: infraestructura construida desde cero con casi 30 años de horizonte",
+    "Medina Capital (2014, fondo de 182 M USD; ~180 M USD desplegados en 8 compañías de ciberseguridad y analítica de datos) — vehículo anterior, distinto de Medina Ventures; explica su red en seguridad",
+    "Cyxtera Technologies (2017, creada con BC Partners a partir de los centros de datos de CenturyLink; IPO vía SPAC en 2021; Capítulo 11 en 2023 y venta a Brookfield por 775 M USD) — segunda cotizada; contexto obligatorio para entender el momento actual"
+  ],
+  "fuentes": [
+    "https://medinavc.com/",
+    "https://www.medinavc.com/meettheteam",
+    "https://www.medinavc.com/portfolio",
+    "https://emergeamericas.com/about/our-team/manny-medina/",
+    "https://en.wikipedia.org/wiki/Manuel_D._Medina",
+    "https://www.formds.com/issuers/medina-ventures-fund-lp",
+    "https://www.lapoliticaonline.com/usa/miami/278331/",
+    "https://contxto.com/en/venture-capital/medina-ventures-prepares-investment-fund-for-latin-america/",
+    "https://superscout.co/investor/medin-fund-management",
+    "https://tracxn.com/d/venture-capital/medina-ventures/__UjXPHRDI21k6wuibuWIs3v-CwmVto3prxq6JhA1lbz0",
+    "https://www.aacsb.edu/about-us/advocacy/member-spotlight/influential-leaders/2020/manuel-medina",
+    "https://www.davispolk.com/experience/cyxtera-technologies-emerges-chapter-11",
+    "https://www.datacenterfrontier.com/colocation/article/33006110/colocation-provider-cyxtera-files-for-chapter-11-bankruptcy",
+    "https://techcrunch.com/2025/09/28/paid-the-ai-agent-results-based-billing-startup-from-manny-medina-raises-huge-21m-seed/",
+    "https://www.linkedin.com/in/manny-medina-612b06207/",
+    "https://knightfoundation.org/articles/tech-leader-manny-medina-previews-whats-next-emerge-americas-and-miamis-startup-ecosystem/"
+  ],
+  "investigacion_larga": "AVISO DE DESAMBIGUACIÓN, CRÍTICO PARA EL OUTREACH. Hay DOS «Manny Medina» muy visibles en el mundo tech y las búsquedas los mezclan constantemente. (a) Manuel D. «Manny» Medina, cubano de Matanzas, Miami, fundador de Terremark y eMerge Americas, hoy Executive Managing Partner de Medina Ventures: es EL de este perfil. (b) Manny Medina, fundador y ex-CEO de Outreach (Seattle), que en 2025 lanzó Paid, una startup de facturación por resultados para agentes de IA que levantó 21 M USD de seed con Lightspeed y FUSE (TechCrunch y GeekWire, 25/03/2025 y 28/09/2025), y que presenta el podcast «Get Paid with Manny Medina». Son personas distintas. Confundirlos en un primer email sería letal, sobre todo porque el segundo trabaja precisamente en agentes de IA.\n\nORIGEN Y ESPAÑOL. Nació en 1952 en Matanzas, Cuba. Su familia salió de la isla en 1965, cuando él tenía 13 años, por los cambios políticos, y se instaló en Miami. El español es su lengua materna y hay cobertura hispana abundante: La Política Online lo llamó «el gurú cubano de la tecnología» al cubrir el lanzamiento del fondo (https://www.lapoliticaonline.com/usa/miami/278331/). Este es el punto en el que este perfil supera a casi todos los demás: no hay ninguna duda sobre la fluidez.\n\nCRONOLOGÍA. 1974: licenciado en Contabilidad por Florida Atlantic University, trabajando para pagarse la carrera. Arranca como CPA en Price Waterhouse. 1982: funda Terremark Worldwide. Construye y opera el NAP of the Americas de Miami, uno de los mayores puntos de intercambio de tráfico del mundo, y convierte a Terremark en un proveedor global de centros de datos e infraestructura gestionada para empresa y gobierno; cotiza en NASDAQ. Es Chairman, President y CEO de 1982 a 2010. Abril de 2011: Verizon compra Terremark (≈1.400 M USD de precio de compra; ~2.000 M USD de valor de empresa). 2014: lanza Medina Capital, fondo de 182 M USD en ciberseguridad y analítica de datos, que despliega ~180 M USD en ocho compañías; y funda eMerge Americas, la conferencia anual de Miami que conecta EE.UU., Latinoamérica y Europa. 2017: junto a BC Partners compra a CenturyLink su negocio de centros de datos y lo fusiona con compañías de Medina Capital para crear Cyxtera Technologies. 2021: Cyxtera sale a bolsa vía SPAC (NASDAQ: CYXT); es la segunda compañía que lleva a cotizar. Agosto de 2023: se constituye Medina Ventures.\n\nEL CAPÍTULO CYXTERA (hay que conocerlo, no esconderlo). Cyxtera presentó Capítulo 11 en junio de 2023 en el Distrito de Nueva Jersey. El 17 de noviembre de 2023 el tribunal confirmó el plan de reorganización, con la venta de prácticamente todos los activos a Phoenix Data Center Holdings, filial de Brookfield Infrastructure Partners, por 775 M USD; la operación cerró y la compañía salió del concurso el 12 de enero de 2024. Entre los accionistas figuraban BC Partners, Starboard Value, Medina Capital, Fidelity y Lumen. No es un fraude ni un escándalo personal —fue un negocio de centros de datos muy apalancado en un ciclo de tipos adverso—, pero es un exit fallido reciente y explica por qué el nuevo vehículo es pequeño y por qué el discurso público habla de «revancha».\n\nMEDINA VENTURES: LO QUE ESTÁ VERIFICADO. Es un fondo distinto de Medina Capital, y esa distinción es la que pedía el briefing: Medina Capital fue growth/buyout (182 M USD, ocho compañías, ciberseguridad y datos, y el vehículo que originó Cyxtera); Medina Ventures es early-stage puro. Su web (https://medinavc.com/) declara: etapa seed y Series A; tesis en tres pilares —AI Infrastructure, Quantum Technologies y Next-Gen Cybersecurity—; y una frase de cabecera, «We back exceptional founders building the enabling infrastructure powering the next great technological revolution». El detalle del pilar de IA es el que importa: «software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference, and the optimization of compute, networking, and performance for production workloads». El posicionamiento general es de doble uso y seguridad nacional (la tríada IA + cuántica + ciberseguridad). Equipo publicado en https://www.medinavc.com/meettheteam: Manny Medina (Executive Managing Partner, preside el comité de inversión y aporta gobernanza y visión de largo plazo), Tony Jiménez (Managing Partner; gestiona operaciones del fondo, originación, cartera y relación con inversores), Raúl E. Henríquez (Partner), Melissa Medina (Partner; es la hija de Manny y CEO de eMerge Americas, y Tony Jiménez es su marido), Adam Smith (Partner), Álvaro J. González Rico (Associate) y Jad Lahoud (Venture Partner). Recursos declarados de plataforma: red de más de 2.000 inversores, más de 50 eventos anuales para fundadores, y el apalancamiento en eMerge Americas (más de 1.200 startups graduadas, más de 3.000 M USD levantados por alumni). Socios estratégicos citados: Resonance (inteligencia cuántica), FoundationaLLM (evaluación de infraestructura de IA) y agencias gubernamentales.\n\nTAMAÑO REAL DEL FONDO. Aquí hay que ser preciso porque la cifra del briefing (~75 M USD) es un objetivo, no un cierre. La Política Online (enero de 2024) recogió el objetivo de 75 M USD, un ticket mínimo de 1 M USD y la intención de invertir en unas 46 startups. El Form D presentado ante la SEC el 3 de septiembre de 2025 por MEDINA VENTURES FUND, LP (firmado por Manuel D. Medina y Jose A. Jimenez, domicilio 2750 NW 3rd Avenue, Suite 24, Miami FL 33127) declara 20,2 M USD vendidos. Bases de datos de terceros hablan de ~11 M USD bajo gestión. Es decir: fondo pequeño, en captación, con capacidad para cheques de seed pero no para liderar rondas grandes ni para hacer mucho follow-on.\n\nCARTERA CONOCIDA (4 compañías publicadas). Tier4AI (MDR autónomo y automatización de SOC para pymes y MSPs); Qunnect (plataforma de red cuántica que asegura y escala comunicaciones sobre infraestructura existente); Gemelo.ai, que pasa a llamarse Fluentreach.ai (avatares fotorrealistas multilingües para traducción en tiempo real); y Hedgehog (plataforma de open networking para infraestructura cloud distribuida, optimizada para cargas de IA y de empresa). La inversión más reciente registrada es Hedgehog, el 1 de mayo de 2026, lo que confirma que el fondo está activo. Hedgehog es la operación más parecida a lo que el cliente construye: open source, infraestructura, usuario técnico, sin métricas de consumo maduras.\n\nPATRONES Y ENCAJE. (a) Toda la carrera de Medina es infraestructura habilitadora, no aplicaciones: NAP of the Americas, centros de datos, ciberseguridad, y ahora la capa que hace funcionar la IA en producción. Es un interlocutor que entiende un argumento de moat técnico y horizonte largo porque él tardó 29 años en vender Terremark. (b) El fondo dice explícitamente que entra pronto, «when capital, conviction and operational support compound the most», lo cual es lo contrario del inversor que pide usuarios. (c) La plataforma eMerge Americas es una vía de acceso real: es una conferencia física en Miami, con programa de startups, presidida por él. (d) Hay un sesgo hacia doble uso y seguridad nacional que conviene anticipar: un harness de agentes se vende mejor ahí hablando de control, auditoría, aislamiento y despliegue seguro que de productividad de developers.\n\nDÓNDE ESTÁ EL RIESGO. El fondo es pequeño y todavía no ha cerrado su objetivo; el cheque de ~1 M USD probablemente no lidera; las herramientas para desarrolladores no son un pilar declarado (entran por la puerta de «AI infrastructure», que es amplia pero no idéntica); Manny tiene 74 años y su papel declarado es presidir el comité de inversión y aportar gobernanza, mientras que el día a día lo llevan Tony Jiménez y Melissa Medina, así que el email frío probablemente lo lea el equipo, no él; y el origen del deal flow está fuertemente anclado en Miami y en el puente con Latinoamérica, no en Europa.",
+  "riesgos_o_alertas": [
+    "CONFUSIÓN DE IDENTIDAD: existe otro Manny Medina muy conocido (fundador de Outreach y hoy de Paid, facturación para agentes de IA, 21 M USD de seed en 2025, podcast «Get Paid»). Son personas distintas. Verificar siempre que se escribe al de Medina Ventures / eMerge Americas",
+    "Tamaño del fondo NO confirmado en 75 M USD: eso es el objetivo publicado en enero de 2024. El Form D de la SEC (3/09/2025) declara 20,2 M USD vendidos y hay fuentes que hablan de ~11 M USD bajo gestión. Fondo pequeño y en captación",
+    "Ticket de ~1 M USD: puede coinvertir en un seed, difícilmente lidera una ronda grande y tiene poca capacidad de follow-on",
+    "Las herramientas para desarrolladores NO son un pilar declarado. Los pilares son infraestructura de IA, cuántica y ciberseguridad; un harness de agentes entra por la puerta de «AI infrastructure», que es amplia pero no idéntica al posicionamiento del cliente",
+    "Sesgo fuerte hacia doble uso y seguridad nacional estadounidense: puede haber preferencia por compañías constituidas en EE.UU. y por casos de uso gubernamentales/defensa",
+    "Manny Medina tiene 74 años y su rol declarado es presidir el comité de inversión y aportar gobernanza; el trabajo diario (originación, cartera) lo llevan Tony Jiménez y Melissa Medina. El interlocutor real probablemente no será él",
+    "Cyxtera, su compañía anterior, entró en Capítulo 11 en 2023 y se vendió a Brookfield por 775 M USD; no es un escándalo personal pero es un exit fallido reciente y condiciona el tamaño del nuevo vehículo",
+    "El deal flow está anclado en Miami y en el corredor LatAm–EE.UU.; un equipo europeo puede necesitar justificar por qué Miami",
+    "Solo hay cuatro inversiones publicadas: track record del fondo todavía sin datos de rendimiento",
+    "No se ha encontrado email personal público suyo; solo el buzón genérico info@medinavc.com y el formulario de pitch"
+  ],
+  "email": "info@medinavc.com",
+  "banda": "Indiscutible",
+  "tipo_inversor_detalle": "VC institucional (fondo early-stage de tamaño pequeño, gestionado por una familia de operadores) con una aceleradora/plataforma asociada (eMerge Americas)",
+  "por_que_es_interesante": [
+    "Primera línea de su tesis: 'software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference'.",
+    "Toda su carrera vendió 'picks and shovels' (Terremark, Cyxtera): el moat técnico y el horizonte largo le resultan naturales.",
+    "Seed y Serie A con cheques de ~1M USD; hispanohablante nativo; conversación íntegra en español.",
+    "Ángulo: email del fondo con pitch de infraestructura de despliegue e inferencia de agentes, y eMerge Americas (Miami), que él preside."
+  ],
+  "nivel": 84,
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Email de contacto publicado en la propia web del fondo https://medinavc.com/ (sección de contacto), junto a un formulario específico para que fundadores de IA, cuántica o ciberseguridad envíen su pitch. NO se ha localizado ningún email personal público de Manny Medina; no se propone patrón porque el dominio no publica direcciones individuales de socios."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: https://medinavc.com/",
+      "Equipo: https://www.medinavc.com/meettheteam",
+      "Ficha en eMerge Americas: https://emergeamericas.com/about/our-team/manny-medina/",
+      "LinkedIn del fondo: https://www.linkedin.com/company/medinaventures",
+      "Wikipedia: https://en.wikipedia.org/wiki/Manuel_D._Medina",
+      "Crunchbase: https://www.crunchbase.com/person/manuel-d-medina",
+      "AACSB Influential Leader 2020: https://www.aacsb.edu/about-us/advocacy/member-spotlight/influential-leaders/2020/manuel-medina",
+      "Podcast 'Top of the Game' ep. 030: https://topofthegame-thepod.podbean.com/e/030-manny-medina-anchoring-miamis-ecosystem/",
+      "Vídeo 'Miami Ventures' con Melissa Medina: https://www.youtube.com/watch?v=-wo6tAY7wRM"
+    ]
+  },
+  "linkedin": "https://www.linkedin.com/in/manny-medina-612b06207/",
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "Su tesis es literalmente infraestructura de IA (datos y workflows, despliegue e inferencia, optimización de cómputo y redes) en seed y Serie A, con Hedgehog (open networking para IA) en 2026; cubano de nacimiento, español materno, preside el comité y construyó dos compañías de infraestructura. Reservas: fondo pequeño y en captación (Form D 20,2M frente a 75M objetivo) y no confundir con el Manny Medina de Outreach.",
+    "puntuacion": {
+      "tesis": 25,
+      "etapa": 17,
+      "decision": 16,
+      "espanol": 15,
+      "acceso": 13,
+      "otros_aspectos": -2,
+      "otros_aspectos_motivo": "Fondo pequeño y en captación (Form D 20,2M frente a 75M objetivo); riesgo de confusión con el Manny Medina de Outreach.",
+      "bruto": 84,
+      "topes": [],
+      "total": 84
+    }
+  },
+  "confianza": "alta",
+  "id": "manny-medina",
+  "tipo_inversor": "VC institucional"
+}

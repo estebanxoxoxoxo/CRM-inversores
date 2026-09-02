@@ -1,0 +1,120 @@
+{
+  "nombre": "Diana Hu",
+  "nivel": 71,
+  "banda": "Alto potencial",
+  "fuentes": [
+    "https://www.ycombinator.com/people/diana-hu",
+    "https://www.ycombinator.com/blog/diana-hu-managing-partner",
+    "https://www.ycombinator.com/deal",
+    "https://www.ycombinator.com/library/NK-the-ai-agent-economy-is-here",
+    "https://www.ycombinator.com/library/carousel/Lightcone%20Podcast",
+    "https://github.com/yc-software/qm",
+    "https://www.tbpndigest.com/story/2026-06-16/diana-hu-yc-managing-partner-and-ar-pioneer-says-companies-are-hitting-7-figure-revenue-in-3-months-a-pace-that-was-impossible-when-she-went-through-yc-in-2017",
+    "https://www.youtube.com/playlist?list=PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK",
+    "https://www.youtube.com/watch?v=57lDpTwiW6g",
+    "https://emprendimiento.com.es/2026/06/diana-hu-nueva-socia-gerente-y-combinator/",
+    "https://www.linkedin.com/in/sdianahu",
+    "https://orply.com/leaders/diana-hu",
+    "https://podcasts.apple.com/us/podcast/141-diana-hu/id1236907421?i=1000447994300"
+  ],
+  "por_que_es_interesante": [
+    "YC publicó en 2026 QM, 'a multiplayer agent harness for work' (MIT): construyen internamente lo que el cliente vende.",
+    "El deal de YC (500k USD) es explícitamente 'not contingent on hitting any milestones': responde de frente a la mala experiencia con inversores que piden usuarios.",
+    "Fundadora técnica (visión por computador, CTO de Escher Reality) que acompaña infra de IA: Reducto, Resend, Activeloop.",
+    "Ángulo: aplicar al batch con la demo del harness, contrastarla con QM, Codex y Claude Code, y llevar benchmarks reproducibles."
+  ],
+  "email": "",
+  "tipo_inversor_detalle": "Aceleradora / programa",
+  "email_estado": "no encontrado",
+  "linkedin": "https://www.linkedin.com/in/sdianahu",
+  "rol": "Managing Partner (promovida el 11 de junio de 2026; antes Group Partner desde 2022 y Visiting Group Partner desde 2021)",
+  "web_personal": "",
+  "prioridad": "B",
+  "antecedentes": "Chilena de origen (así lo indica su ficha oficial en Y Combinator). Cursó el grado y el máster en Ingeniería Eléctrica e Informática (ECE) en Carnegie Mellon, especializándose en visión por computador y aprendizaje automático. Hizo investigación de ML en Intel Labs y dirigió ciencia de datos en OnCue TV, vendida a Verizon. En 2017 cofundó y fue CTO de Escher Reality (YC S17), un backend de realidad aumentada adquirido por Niantic en 2018; después dirigió el equipo de plataforma de AR en Niantic, desplegando AR para más de 100 millones de jugadores de Pokémon GO. Se incorporó a YC como Visiting Group Partner en 2021, pasó a Group Partner a tiempo completo en 2022 y fue promovida a Managing Partner el 11 de junio de 2026. En cuatro años ha trabajado con cerca de 230 empresas repartidas en 18 grupos de batch, ha hecho más de 2.100 horas de office hours y las compañías que ha acompañado suman unos 7.000M USD de valoración. Es además co-presentadora del Lightcone Podcast junto a Garry Tan, Harj Taggar y Jared Friedman.",
+  "region": "EE.UU. (hispanohablante)",
+  "tesis_de_inversion": [
+    "Etapa más temprana posible y sin métricas: el deal es incondicional y se cierra antes del batch.",
+    "Discurso 2025-26 centrado en agentes: '¿make something agents want?' y 'los agentes cambian la unidad de producción de la startup del equipo al fundador'.",
+    "Empresas de YC pasan de cero a siete cifras en tres meses gracias a la programación agéntica.",
+    "Avisa del riesgo de plataforma: que la hoja de ruta no colisione con lo que construyen los laboratorios frontera."
+  ],
+  "tipo_inversor": "Aceleradora / programa",
+  "ciudad_base": "San Francisco, California, EE.UU.",
+  "investigacion_larga": "Cronología. Diana Hu es chilena —así consta en su ficha oficial de Y Combinator— y se forma en Estados Unidos: grado y máster en Ingeniería Eléctrica e Informática por Carnegie Mellon, con especialización en visión por computador y machine learning. Trabaja en investigación de ML en Intel Labs y dirige el equipo de ciencia de datos de OnCue TV, empresa de televisión por internet que Verizon compró. En 2017 cofunda Escher Reality junto a Ross Finman y entra en el batch S17 de Y Combinator; Escher construía el backend que faltaba para la realidad aumentada multijugador y persistente (mapas compartidos, estado sincronizado, seguimiento entre sesiones). Niantic la adquiere en 2018 y ella pasa a dirigir el equipo de plataforma de AR de Niantic, desplegando tecnología a más de 100 millones de jugadores de Pokémon GO. En 2021 vuelve a YC como Visiting Group Partner, en 2022 se convierte en Group Partner a tiempo completo y el 11 de junio de 2026 YC anuncia su promoción a Managing Partner. En el anuncio, la dirección de YC resume por qué: “Few people have both built a startup from zero and shipped tech at that scale. Diana has done both”, y añade que su combinación de ML y AR la sitúa bien para asesorar a fundadores que empujan los límites en IA, robótica y hard tech.\n\nSu papel en YC. Según el anuncio oficial, en cuatro años ha trabajado con cerca de 230 empresas repartidas en 18 grupos, ha realizado más de 2.100 horas de office hours y las compañías que ha acompañado suman unos 7.000M USD de valoración conjunta. Su ficha de personas menciona también más de 1.700 office hours en cinco batches y un conjunto de compañías valoradas en 1.700M USD, cifra anterior. Empresas citadas explícitamente como suyas: Avoca, Reducto, David AI, Salient, Stepful, HappyRobot, Activeloop, Tavus y Resend. El perfil temático es muy relevante para el cliente: Reducto es infraestructura de parsing de documentos para pipelines de IA; David AI produce datos de audio para entrenar modelos; Activeloop es una base de datos para IA (Deep Lake); Resend es una API de correo para desarrolladores; Tavus es una API de vídeo generativo; y HappyRobot son agentes de IA para logística (la misma empresa cuya Series B lideró Base10 y fundada por españoles). Es decir, acompaña sobre todo a empresas de infraestructura y herramientas para desarrolladores de IA.\n\nEl deal de YC y la ausencia de exigencia de tracción. Este punto es el que más importa al cliente. El deal estándar publicado en https://www.ycombinator.com/deal es de 500.000 USD por empresa: 125.000 USD en un SAFE post-money por un 7% fijo, más 375.000 USD en un SAFE uncapped con cláusula MFN que convierte al cap más bajo de la siguiente ronda. YC declara literalmente que la inversión “is not contingent on hitting any milestones” y que se desembolsa al aceptar, antes de que empiece el batch, con derechos pro rata para YC. Exige que la sociedad esté constituida en EE.UU., Canadá, Islas Caimán o Singapur, o crear una matriz en una de esas jurisdicciones. Es un vehículo inequívocamente pre-tracción.\n\nDeclaraciones públicas sobre IA, agentes y dev tools. Diana Hu co-presenta el Lightcone Podcast con Garry Tan, Harj Taggar y Jared Friedman, un programa quincenal sobre tecnología emergente. Episodios relevantes: “The AI Agent Economy Is Here” (21-feb-2026), donde discute el crecimiento explosivo de las herramientas de desarrollo con IA y plantea si ha llegado el momento de “make something agents want”; “Tokenmaxxing” (8-may-2026), sobre el auge de los agentes de programación y flujos de trabajo con Claude Code y OpenClaw; y “He Built the World's #1 Open-Source Coding Agent” (7-ago-2026). En prensa (TBPN, 16-jun-2026) afirma: “It has become more common that companies can go from 0 to 7 figures in revenue within just three months”, y lo atribuye a que las herramientas de codificación agéntica permiten a equipos pequeños entregar productos maduros muy rápido, algo imposible en su batch de 2017. En esa misma pieza avisa sobre el riesgo de plataforma: cuenta que Apple lanzó ARKit el primer día de su propio batch, y traslada la lección a los fundadores de IA de hoy, que deben preguntarse si su hoja de ruta choca con lo que los laboratorios frontera ya están construyendo. También ha comentado que los agentes están cambiando la unidad básica de producción de una startup, del equipo al fundador.\n\nEl dato más accionable: QM. Entre el 30 de julio y el 3 de agosto de 2026, YC liberó como open source (licencia MIT) el repositorio https://github.com/yc-software/qm, QM o Quartermaster, descrito como “a multiplayer agent harness for work”, el harness de agentes que usan internamente en YC para contabilidad, legal, eventos e ingeniería. Sus características —scopes personales y compartidos con memoria, ficheros y permisos independientes; sandbox aislado por scope; skills compartidas y promovibles; crons, watches y webhooks para trabajo en segundo plano; integración en Slack y web; núcleo headless en TypeScript/Node con Postgres; y bucles de codificación intercambiables entre Pi, OpenCode, Codex y Claude Code— coinciden casi punto por punto con el producto que el cliente describe como harness de desarrollo con nube de agentes. YC lo enmarca como “an experiment that is early and has bugs”. Diana Hu difundió el lanzamiento desde su cuenta de X. Para el primer contacto esto es oro: permite abrir con una comparación técnica honesta con QM (qué hace igual, qué hace mejor, qué mide el benchmark) en lugar de con un pitch genérico. También es una señal de riesgo competitivo que conviene abordar de frente.\n\nEcosistema hispanohablante. Su ficha oficial de YC dice que es “originally from Chile”, y la prensa hispana se ha hecho eco de su nombramiento (por ejemplo emprendimiento.com.es, 11-jun-2026, “Diana Hu asume el cargo de nueva socia gerente en Y Combinator”). Sin embargo, no hemos localizado ninguna entrevista, charla o publicación suya en español, ni participación en podcasts hispanohablantes. Conclusión honesta: origen chileno confirmado, fluidez en español muy probable pero NO acreditada documentalmente. Conviene abrir en inglés y dejar que ella marque el idioma.\n\nCómo se accede realmente. Diana Hu no invierte fuera de YC: no escribe cheques ángel ni participa en rondas semilla convencionales de forma pública. La única puerta consistente es la solicitud a un batch de YC —cuatro al año, aplicación abierta y gratuita, sin necesidad de intro— con la esperanza de caer en su grupo, o la interacción pública en X (@sdianahu), donde comenta lanzamientos técnicos. Un tercer camino indirecto es a través de fundadores de sus empresas: Reducto, Resend, Activeloop, Tavus o HappyRobot. Nótese que HappyRobot conecta a Diana Hu con Adeyemi Ajao (Base10 lideró su Series B) y con a16z (coinversor), de modo que una sola intro bien elegida puede abrir varias puertas de esta lista a la vez.",
+  "firma": "Y Combinator",
+  "confianza": "alta",
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "riesgos_o_alertas": [
+    "No invierte fuera de Y Combinator: no escribe cheques ángel ni entra en rondas semilla convencionales, así que la única vía es aceptar el batch y sus condiciones (7% + SAFE MFN de 375.000 USD)",
+    "El batch exige constituir la sociedad en EE.UU., Canadá, Islas Caimán o Singapur y presencia en el Área de la Bahía durante el programa",
+    "No hay garantía de caer en su grupo aunque se entre en YC: los fundadores se asignan a un Group Partner",
+    "Fluidez en español NO confirmada: su ficha de YC dice que es chilena, pero no se ha localizado ninguna intervención pública suya en español",
+    "Riesgo competitivo directo: YC ya ha publicado como open source su propio harness multiagente (QM) con licencia MIT, lo que puede leerse como validación de categoría o como competencia gratuita según cómo se plantee",
+    "YC ya ha financiado muchas empresas de agentes y herramientas de codificación; el listón de diferenciación es alto y el riesgo de solapamiento con empresas de su propia cartera es real",
+    "No existe email de contacto público suyo ni de ningún socio de YC",
+    "Como Managing Partner su tiempo se reparte entre gestión de la firma y batches; la interacción individual antes de la aceptación es prácticamente nula"
+  ],
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "YC invierte 500k USD sin condicionarlo a métricas y ella es la socia que más empuja 'make something agents want'; YC incluso publicó QM, un harness multiagente open source. Reservas: sólo vía batch (7% + SAFE, constitución en EE.UU. y presencia en la Bahía), no elige el grupo que te toca, fluidez en español no documentada.",
+    "puntuacion": {
+      "tesis": 20,
+      "etapa": 20,
+      "decision": 16,
+      "espanol": 9,
+      "acceso": 9,
+      "otros_aspectos": -3,
+      "otros_aspectos_motivo": "Condiciones del batch de YC: 7% + SAFE, constitución en EE.UU./Canadá/Caimán/Singapur y presencia en la Bahía.",
+      "bruto": 71,
+      "topes": [],
+      "total": 71
+    }
+  },
+  "inversiones_relevantes": [
+    "Reducto (YC, infraestructura de parsing de documentos para pipelines de IA) — dev infra pura acompañada por ella desde etapa idea",
+    "Resend (YC W23, API de correo para desarrolladores) — herramienta de desarrollador con fuerte componente open source",
+    "Activeloop (Deep Lake, base de datos para datos de IA) — infraestructura de datos deep tech",
+    "David AI (datos de audio para entrenamiento de modelos) — capa de datos del stack de IA",
+    "HappyRobot (agentes de IA para logística; fundadores españoles; Series B de 44M USD liderada por Base10 en 2025) — cruce directo con Adeyemi Ajao y con a16z",
+    "Tavus (API de vídeo generativo) y Avoca, Salient, Stepful — cartera de aplicación de IA con base técnica",
+    "Escher Reality (su propia empresa, YC S17, backend de AR adquirido por Niantic en 2018) — ejemplo de infraestructura invisible vendida a una plataforma",
+    "QM / Quartermaster (github.com/yc-software/qm, MIT, julio-agosto de 2026) — harness multiagente que YC construyó y liberó: no es una inversión, pero es la prueba de que en YC este problema se considera de primer orden"
+  ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No hay email personal público de Diana Hu ni de ningún otro socio de YC. Los únicos buzones públicos del fondo son apply@ycombinator.com y demoday@ycombinator.com. Fuentes de terceros (RocketReach) especulan con un patrón nombre@ycombinator.com, pero NO hay ninguna dirección de socio verificada públicamente, así que no se propone patrón. Vías reales: la solicitud abierta a YC y su cuenta de X (@sdianahu)."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/sdianahu",
+      "Perfil en YC: https://www.ycombinator.com/people/diana-hu",
+      "Anuncio de su nombramiento: https://www.ycombinator.com/blog/diana-hu-managing-partner",
+      "Lightcone Podcast (co-presentadora): https://www.ycombinator.com/library/carousel/Lightcone%20Podcast y https://www.youtube.com/playlist?list=PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK"
+    ]
+  },
+  "etapa_y_ticket": [
+    "Pre-seed / idea: 500.000 USD por empresa (125k por 7% + 375k en SAFE uncapped con MFN), desembolsado al aceptar.",
+    "Cuatro batches al año; exige sociedad en EE.UU., Canadá, Caimán o Singapur y presencia en la Bahía durante el programa.",
+    "No escribe cheques fuera de YC; no hay garantía de caer en su grupo."
+  ],
+  "como_llegar": [
+    "1) Solicitud abierta a un batch de YC (https://www.ycombinator.com/apply): gratuita, sin intro, cuatro convocatorias al año; es el canal diseñado exactamente para equipos pre-tracción.",
+    "2) X/Twitter @sdianahu: comenta lanzamientos técnicos y difundió QM; publicar un benchmark honesto del harness frente a QM, Codex y Claude Code y etiquetarla es la vía pública más plausible.",
+    "3) Contribuir de verdad al repositorio https://github.com/yc-software/qm (aceptan propuestas descriptivas escritas por humanos): es una forma de demostrar competencia técnica delante de la organización.",
+    "4) Intro vía fundadores de su cartera: HappyRobot (fundadores españoles, doble puente hacia Base10), Reducto, Resend, Activeloop, Tavus.",
+    "5) Lightcone Podcast y los eventos públicos de YC (AI Startup School, Demo Day para inversores).",
+    "6) Red chilena y latinoamericana en el Área de la Bahía y ex-alumnos de Carnegie Mellon."
+  ],
+  "senales_de_encaje": [
+    "El deal de YC es de 500.000 USD y explícitamente 'not contingent on hitting any milestones': inversión pre-tracción por diseño",
+    "Fundadora técnica ella misma (visión por computador y ML en CMU; CTO de Escher Reality; plataforma AR de Niantic para 100M+ usuarios)",
+    "Su cartera de acompañamiento está dominada por infraestructura y herramientas para desarrolladores de IA (Reducto, Resend, Activeloop, David AI)",
+    "Discurso público centrado en agentes: 'make something agents want', 'AI agents are changing the basic production unit of a startup from a team to a founder'",
+    "YC ha construido y liberado su propio harness multiagente (QM), lo que demuestra convicción interna en la categoría exacta del cliente",
+    "Aplicación abierta y gratuita cuatro veces al año, sin necesidad de introducción: una barrera de acceso muy baja",
+    "Promovida a Managing Partner en junio de 2026 con mandato explícito de acompañar apuestas en IA, robótica y hard tech",
+    "Habla públicamente de riesgo de plataforma frente a los laboratorios frontera: entiende y sabe evaluar el moat técnico de una herramienta de desarrollo"
+  ],
+  "id": "diana-hu"
+}

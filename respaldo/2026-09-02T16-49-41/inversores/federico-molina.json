@@ -1,0 +1,123 @@
+{
+  "tipo_inversor_detalle": "VC institucional (más actividad paralela como business angel)",
+  "rol": "Partner (se incorporó al fondo en 2025; lidera la evaluación y ejecución de nuevas inversiones en América Latina y globalmente). Además, business angel activo y asesor de startups a título personal",
+  "region": "Fuera de región (excepcional)",
+  "fuentes": [
+    "https://www.nxtp.vc/team",
+    "https://www.nxtp.vc/",
+    "https://www.nxtp.vc/portfolio",
+    "https://www.nxtp.vc/portfolio-company/vercel",
+    "https://www.linkedin.com/in/federicomolina86/",
+    "https://x.com/federicomolina",
+    "https://auth0.com/blog/authors/federico-molina/",
+    "https://medium.com/nxtp/oktas-6-5b-acquisition-of-our-portfolio-company-auth0-nxtp-ventures-b39a704550c",
+    "https://techcrunch.com/2023/11/28/nxtp-98m-b2b-venture-capital-latin-america/",
+    "https://www.finsmes.com/2023/12/nxtp-ventures-completes-nxtp-fund-iii-at-98m.html",
+    "https://superscout.co/investor/nxtp-ventures",
+    "https://f4.fund/firms/nxtp-ventures",
+    "https://www.crunchbase.com/organization/NXTP-Ventures",
+    "https://thefintechtimes.com/nxtp-iii-set-to-partner-with-founders-across-latam-tech-industry/",
+    "https://disclosures.ifc.org/project-detail/SII/46450/nxtp-fund-iii",
+    "https://intro.co/FedeMolina"
+  ],
+  "prioridad": "B",
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No se ha localizado ningún email suyo en fuente pública primaria (ni en la web del fondo, ni en el blog de Auth0, ni en prensa). La web de NXTP no publica emails individuales del equipo, por lo que tampoco hay un patrón de dominio verificable a partir de otro socio: no se propone patrón inferido para no inducir a error. Vías reales de contacto: X/Twitter (@federicomolina, abierto), LinkedIn, y su página en intro.co (que permite reservar una sesión directa con él, aunque es un servicio de pago)."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/federicomolina (@federicomolina)",
+      "Perfil en el fondo: https://www.nxtp.vc/team",
+      "Página de autor en el blog de Auth0: https://auth0.com/blog/authors/federico-molina/",
+      "Perfil de sesiones 1:1 (de pago): https://intro.co/FedeMolina",
+      "Cofundador de Arena Madness (deporte y entretenimiento)",
+      "Web del fondo: https://www.nxtp.vc/"
+    ]
+  },
+  "firma": "NXTP (NXTP Ventures)",
+  "inversiones_relevantes": [
+    "Auth0 (participada histórica de NXTP; identidad y autenticación para desarrolladores; adquirida por Okta por 6.500M USD en 2021) — Molina fue miembro del equipo fundador y Head of Marketing & Analytics: conoce la categoría desde dentro, no como espectador",
+    "Vercel (participada de NXTP con ficha propia en su portfolio; plataforma frontend e infraestructura cloud para desarrolladores) — prueba de que el fondo invierte en dev tools de primer nivel y fuera de LatAm",
+    "Mural (SaaS B2B de colaboración) y Securitize — cartera B2B de software con salidas relevantes",
+    "Nuvemshop, Pomelo, Ripio, Barte, Cobli, Frete (varias etapas) — profundidad en B2B latinoamericano y 6 unicornios en cartera",
+    "Cartera con coinversiones junto a a16z, Greylock, Tiger Global y Greenoaks — señal de que sus mejores posiciones escalan a fondos top de EE.UU."
+  ],
+  "tipo_inversor": "VC institucional",
+  "nombre": "Federico Molina",
+  "id": "federico-molina",
+  "por_que_es_interesante": [
+    "Construyó desde dentro una compañía de dev tools de éxito global (Auth0, growth y analítica): entiende producto y comprador desarrollador sin traducción.",
+    "NXTP tiene Auth0 y Vercel en cartera y 'deep domain expertise in Developer Tools & Infrastructure'; acompaña 'from idea through execution'.",
+    "Pre-seed desde 500k USD: compatible con una ronda pre-producto.",
+    "Ángulo: en español por X o LinkedIn, con el paralelismo 'autenticación como primitiva' y 'harness como primitiva de desarrollo'; si NXTP no encaja por geografía, cheque ángel."
+  ],
+  "web_personal": "",
+  "tesis_de_inversion": [
+    "'Pioneers of early-stage B2B technology investing in Latin America and globally'; 'category-defining founders' desde la idea.",
+    "Verticales: Cloud & SaaS, fintech y pagos, habilitadores de e-commerce, marketplaces B2B, datos e IA; especialización reconocida en Developer Tools & Infrastructure.",
+    "Lente de adopción bottom-up, comunidad de desarrolladores y distribución product-led (Auth0, Decentraland).",
+    "Ángel y asesor activo: vía de cheque personal aunque el fondo no entre."
+  ],
+  "antecedentes": "Argentino. Empezó su carrera en MercadoLibre. Fue miembro del equipo fundador de Auth0, donde ejerció como Head of Marketing & Analytics durante cuatro años hasta la adquisición de la compañía por Okta por 6.500M USD en 2021; es autor en el blog técnico de Auth0. Después fue Head of Marketing & Growth de Decentraland durante cinco años (compañía que fuentes secundarias valoran en el entorno de 1.300M USD). Es cofundador de Arena Madness, proyecto centrado en experiencias de deporte y entretenimiento. Se incorporó a NXTP como Partner en 2025, donde lidera la evaluación y ejecución de nuevas inversiones en América Latina y a nivel global. En paralelo mantiene actividad como business angel y asesor. NXTP, fundada en 2011 en Buenos Aires, es el fondo B2B early-stage de referencia en América Latina: más de 130 startups respaldadas (122-130 inversiones según la fuente), 275 fundadores, 32 salidas, 6 unicornios y más de 2.300M USD levantados posteriormente por su cartera, con coinversiones junto a a16z, Greylock, Tiger Global y Greenoaks. Su equipo lo encabezan Darly Bendo y Alexander Busse (Managing Partners) y Ariel Arrieta, Gonzalo Costa y Marta Cruz (General Partners).",
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "Hispanohablante nativo, equipo fundador de Auth0 y socio con decisión en NXTP, fondo con especialización en Developer Tools & Infrastructure (Auth0, Vercel) que entra pre-seed desde 500k USD; pero el Fund III es de 2023 con capacidad no confirmada, es Partner desde 2025 sin deals liderados, perfil de marketing y está fuera de región (Buenos Aires).",
+    "puntuacion": {
+      "tesis": 18,
+      "etapa": 16,
+      "decision": 14,
+      "espanol": 15,
+      "acceso": 10,
+      "otros_aspectos": -4,
+      "otros_aspectos_motivo": "Fuera de región (Buenos Aires).",
+      "bruto": 69,
+      "topes": [],
+      "total": 69
+    }
+  },
+  "etapa_y_ticket": [
+    "Pre-seed, seed y Serie A; cheques 500k-5M USD, habitualmente 500k-3M.",
+    "NXTP Fund III: 98M USD (nov-2023), casi tres años desplegándose; Fund IV no confirmado.",
+    "Él es Partner desde 2025; además ángel activo."
+  ],
+  "ciudad_base": "Buenos Aires, Argentina (NXTP tiene oficinas en Buenos Aires, São Paulo y Ciudad de México)",
+  "linkedin": "https://www.linkedin.com/in/federicomolina86/",
+  "confianza": "media",
+  "senales_de_encaje": [
+    "NXTP declara acompañar a fundadores 'from idea through execution' y busca 'category-defining founders': lenguaje de idea, no de tracción",
+    "Invierte en pre-seed con cheques desde 500K USD: tamaño compatible con una ronda pre-producto",
+    "Especialización declarada del fondo en Developer Tools & Infrastructure (DevOps, CI/CD, observabilidad) y en datos e IA",
+    "Dos referencias de cartera imbatibles en la categoría del cliente: Auth0 y Vercel",
+    "Molina fue equipo fundador de una compañía de developer tools que salió por 6.500M USD: entiende el ciclo completo de una herramienta técnica",
+    "Español nativo; toda su carrera en el ecosistema hispanohablante (MercadoLibre, Auth0, NXTP)",
+    "Es business angel activo y asesor a título personal: existe una vía de cheque propio aunque el fondo no entre",
+    "El mandato del fondo es 'Latin America and globally' y hay participadas en EE.UU.: no es un fondo estrictamente regional",
+    "Precedente de patrón exacto: Auth0 fue una compañía de fundadores hispanohablantes con estructura internacional"
+  ],
+  "nivel": 69,
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "investigacion_larga": "QUIÉN ES. Federico 'Fede' Molina es argentino y su carrera es la de un operador de crecimiento en productos técnicos, no la de un financiero. Empezó en MercadoLibre, la compañía que ha funcionado como cantera del ecosistema tecnológico latinoamericano. De ahí pasó a Auth0 como miembro del EQUIPO FUNDADOR, donde fue Head of Marketing & Analytics durante cuatro años. Auth0 —plataforma de identidad y autenticación que se convirtió, en palabras de su propio inversor NXTP, en 'the undisputed top choice for developers worldwide to authenticate and authorize their applications with just a few lines of code'— fue adquirida por Okta en 2021 por 6.500M USD. Es autor en el blog técnico de Auth0 (https://auth0.com/blog/authors/federico-molina/). Tras Auth0 fue Head of Marketing & Growth de Decentraland durante cinco años. Es cofundador de Arena Madness, un proyecto de experiencias de deporte y entretenimiento. En 2025 se incorporó a NXTP como Partner, con el mandato de liderar la evaluación y ejecución de nuevas inversiones en América Latina y globalmente. Mantiene actividad paralela como business angel y asesor de startups, y ofrece sesiones individuales a través de intro.co (https://intro.co/FedeMolina).\n\nEL FONDO. NXTP (antes NXTP Labs) fue fundada en 2011 en Buenos Aires y se posiciona como 'Pioneers of early-stage B2B technology investing in Latin America and globally' (https://www.nxtp.vc/). Tiene oficinas en Buenos Aires, São Paulo y Ciudad de México. Sus cifras públicas: más de 130 startups respaldadas (la web habla de 122 inversiones y 275 fundadores), 32 salidas, 6 unicornios y más de 2.300M USD levantados posteriormente por sus participadas, con coinversiones junto a a16z, Greylock, Tiger Global y Greenoaks. El fondo vigente es NXTP Fund III, cuyo cierre final se anunció en noviembre de 2023 por 98M USD, el mayor de la firma y el doble que el Fund II, aunque por debajo del objetivo inicial de 120M USD (https://techcrunch.com/2023/11/28/nxtp-98m-b2b-venture-capital-latin-america/, FinSMEs, IFC Disclosure). El equipo directivo lo forman Darly Bendo y Alexander Busse como Managing Partners, con Ariel Arrieta, Gonzalo Costa y Marta Cruz como General Partners; Molina y Bruno Dalapria figuran como Partners.\n\nVERIFICACIÓN DE LA PISTA SOBRE VERCEL Y AUTH0. Confirmado, y es el dato más valioso del perfil. Auth0 es participada histórica de NXTP: Alexander Busse publicó en Medium la nota 'Okta's $6.5B acquisition of our portfolio company, Auth0' (https://medium.com/nxtp/oktas-6-5b-acquisition-of-our-portfolio-company-auth0-nxtp-ventures-b39a704550c). Vercel aparece con ficha propia en el portfolio del fondo (https://www.nxtp.vc/portfolio-company/vercel), descrita como plataforma para desarrolladores frontend que provee las herramientas y la infraestructura cloud para construir, escalar y asegurar la web. Es decir: el fondo tiene en cartera dos de los nombres más citados del sector developer tools de la última década, y uno de ellos (Auth0) es la compañía que el propio Molina ayudó a construir. Varias fichas de análisis de fondos le atribuyen a NXTP 'deep domain expertise in Developer Tools & Infrastructure', con mención explícita a DevOps, CI/CD y observabilidad, además de una vertical de datos e IA. Las verticales B2B declaradas por el fondo son Cloud & SaaS, FinTech y pagos, habilitadores de e-commerce y marketplaces B2B.\n\nETAPA, TICKET Y APETITO PRE-TRACCIÓN. NXTP invierte en pre-seed, seed y Serie A, con cheques que las fuentes sitúan entre 500.000 y 5.000.000 USD (otras acotan el rango habitual a 500K-3M USD, típicamente pre-seed o seed). El lenguaje del propio fondo es el relevante para el cliente: buscan 'category-defining founders' y dicen asociarse con fundadores excepcionales 'early on, supporting them from idea through execution' — desde la idea. No se ha localizado ninguna declaración pública de NXTP que exija tracción, usuarios o ingresos como requisito, ni un modelo tipo venture client. Dicho esto, tampoco se ha encontrado una tesis escrita y firmada por Molina sobre agentes de IA o herramientas de desarrollo en 2025-2026, ni entrevistas o podcasts suyos como inversor: su huella pública como VC es todavía corta, lógico si se incorporó en 2025. Su historial escrito es como operador (blog de Auth0), no como inversor.\n\nECOSISTEMA HISPANOHABLANTE Y GEOGRAFÍA. El español es su lengua nativa y todo su recorrido profesional está en el ecosistema hispanohablante (MercadoLibre, Auth0 con origen argentino, NXTP). Sobre la pregunta de si invierte en fundadores hispanohablantes basados en EE.UU. o España: el mandato declarado del fondo es 'Latin America and globally', y su descripción de rol dice literalmente que lidera inversiones 'across Latin America and globally'. El portfolio incluye compañías estadounidenses (Vercel), lo que confirma que salen de la región. NO se ha encontrado ninguna inversión de NXTP en España, y no hay evidencia de mandato para el mercado español: el ángulo hispanohablante-EE.UU. es plausible y el LatAm es directo, pero España está sin confirmar. Conviene no dar por hecho que un equipo español entra en su embudo por defecto; sí lo haría un equipo latinoamericano o un equipo hispanohablante constituido en EE.UU. (que es exactamente el patrón Auth0, empresa de origen argentino con estructura estadounidense — un precedente que se puede invocar en el primer mensaje).\n\nPATRONES Y COINVERSORES. NXTP ha coinvertido con a16z, Greylock, Tiger Global y Greenoaks, lo que indica que sus mejores compañías escalan hacia fondos de primer nivel de EE.UU. Su cartera visible mezcla dev tools e infraestructura (Auth0, Vercel), SaaS B2B (Mural, Securitize), fintech y pagos (Pomelo, Barte, Ripio), logística (Cobli, Frete) y e-commerce (Nuvemshop). El fondo tiene 6 unicornios y 32 salidas, un track record sólido para la región.\n\nRIESGOS HONESTOS. Primero, el Fund III cerró en noviembre de 2023 y lleva casi tres años desplegándose: hay que confirmar cuánto capital queda para nuevas posiciones y si hay un Fund IV en camino (no confirmado). Segundo, Molina es un fichaje reciente (2025) sin historial público verificable de deals liderados por él, por lo que su peso real en el comité es una incógnita. Tercero, su perfil es de marketing, analítica y crecimiento, no de ingeniería: entiende perfectamente el mercado de desarrolladores y la distribución, pero la evaluación de la profundidad técnica del stack probablemente recaerá en otro socio, así que el pitch debe incluir tanto la narrativa técnica como una hipótesis clara de adopción bottom-up. Cuarto, no hay email público, lo que obliga a usar canales sociales o una intro. Quinto, el foco geográfico del fondo es LatAm; España no está confirmada como mercado objetivo.\n\nCÓMO PERSONALIZAR EL CONTACTO. El gancho más fuerte es Auth0. Molina vivió desde dentro cómo una primitiva para desarrolladores —autenticación en unas pocas líneas de código— se convirtió en una compañía de 6.500M USD partiendo de un equipo hispanohablante. El paralelismo con un harness de desarrollo con nube de agentes como nueva primitiva es directo y honesto, y además le habla en el idioma de su propia experiencia: adopción bottom-up, comunidad de desarrolladores, distribución product-led. Ofrecerle acceso a la versión para inversores del harness para que la pruebe él mismo es probablemente más persuasivo que cualquier deck, precisamente porque es un producto que un operador de growth puede evaluar en primera persona.",
+  "como_llegar": [
+    "1) X/Twitter: @federicomolina (https://x.com/federicomolina) — canal abierto y probablemente el más directo dado que no publica email.",
+    "2) LinkedIn: https://www.linkedin.com/in/federicomolina86/ con mensaje en español.",
+    "3) Vía red de exalumnos de Auth0: la diáspora de Auth0 (argentina y muy conectada) es la intro más natural y creíble hacia él.",
+    "4) Vía fundadores del portfolio de NXTP, especialmente en el eje dev tools (Vercel) o SaaS B2B.",
+    "5) Contacto institucional a través de la web del fondo (https://www.nxtp.vc/) y de otros socios: Alexander Busse y Darly Bendo (Managing Partners) o Ariel Arrieta y Marta Cruz (General Partners y cofundadores).",
+    "6) Comunidades hispanohablantes de inversión y contenido: Latitud, Startupeable, Contxto y el circuito de eventos B2B latinoamericanos, donde NXTP es un actor de referencia.",
+    "7) intro.co/FedeMolina permite reservar una sesión directa con él, aunque es de pago: opción de último recurso, no de primer contacto."
+  ],
+  "email_estado": "no encontrado",
+  "banda": "Alto potencial",
+  "email": "",
+  "riesgos_o_alertas": [
+    "Fondo vigente con antigüedad: NXTP Fund III cerró en noviembre de 2023 (98M USD, por debajo del objetivo de 120M). Casi tres años desplegándose; capacidad restante para nuevas posiciones NO confirmada y no hay evidencia de Fund IV",
+    "Molina se incorporó como Partner en 2025: NO se ha encontrado ningún deal liderado por él ni tesis escrita suya como inversor. Su peso en el comité de inversión es una incógnita",
+    "Perfil profesional de marketing, analítica y crecimiento, NO de ingeniería: la validación técnica profunda del stack recaerá probablemente en otro socio del fondo",
+    "Sin email público ni patrón de dominio verificable: el contacto depende de X/LinkedIn o de una intro",
+    "Foco geográfico principal en América Latina. NO se ha encontrado ninguna inversión de NXTP en España; el encaje para un equipo español está sin confirmar",
+    "No se han localizado entrevistas, podcasts ni publicaciones suyas sobre IA, agentes o infraestructura en 2025-2026: no hay evidencia directa de apetito personal por esta tesis concreta",
+    "Su página de intro.co es un servicio de pago: no confundirlo con una vía de contacto gratuita para pitch"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "javier-de-la-torre",
+  "tesis_de_inversion": [
+    "Sin tesis de inversión; tesis tecnológica muy articulada.",
+    "'Agents don't go to a browser... They call APIs, invoke MCP tools, and run CLI commands'; lo que era UI de SaaS pasa a ser CLI, API o MCP (CARTO for Agents, 2026).",
+    "Soberanía como elección: formatos abiertos, modelos que puedas ejecutar en tu infraestructura, 'always use standards and platforms that give you provider choice'.",
+    "Ganan las empresas que ponen a humanos y agentes en la misma plataforma, con los mismos datos y gobierno."
+  ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Su perfil de GitHub (https://github.com/jatorre) no expone email; CARTO no publica correos individuales de directivos en carto.com/about-us/ ni en su newsroom, solo formularios corporativos. No hay ningún email de otro directivo de CARTO publicado del que inferir un patrón fiable, así que no se propone ninguno. Vías reales: LinkedIn, GitHub (issues/PRs en sus repos) y los eventos de CARTO.",
+      "No encontrado en fuentes públicas."
+    ],
+    "linkedin": [],
+    "otras": [
+      "GitHub (activo, 85 repos, 114 seguidores): https://github.com/jatorre",
+      "Posts en el blog de CARTO: https://carto.com/authors/javier-de-la-torre/",
+      "Autor invitado en el blog de Snowflake: https://www.snowflake.com/en/blog/authors/javier-de-la-torre-carto/",
+      "Autor en Digital Insurance: https://www.dig-in.com/author/javier-de-la-torre",
+      "Perfil AngelFlow: https://angelflow.com/angels/javier-de-la-torre",
+      "Perfil Dealroom: https://app.dealroom.co/investors/javier_de_la_torre",
+      "Crunchbase: https://www.crunchbase.com/person/javier-de-la-torre",
+      "Entrevista en vídeo: https://www.youtube.com/watch?v=Q391N2Xuu9U",
+      "Charla 'The Agentic Interface: How AI is Rebuilding the Future of Geography': https://www.youtube.com/watch?v=tVPao0EmJTA",
+      "Podcast 'Location Matters': https://open.spotify.com/episode/7dCuF1dNBulmEH3HPXQmQo",
+      "Podcast 'The European Startup Show': https://player.fm/series/the-european-startup-show/location-analytics-carto-cso-javier-de-la-torre-on-building-a-global-brand-managing-privacy-how-and-when-to-build-vs-buy"
+    ]
+  },
+  "email_estado": "no encontrado",
+  "senales_de_encaje": [
+    "Cita textual directamente aplicable al producto del cliente: 'what used to be a SaaS UI for an agent is a CLI command, an API, or an MCP tool'",
+    "Defiende explícitamente arquitecturas que evitan el lock-in de modelo: 'always use standards and platforms that give you provider choice'",
+    "Cree en modelos abiertos ejecutables en infraestructura propia: 'a reliable model you can run securely on your own infrastructure is already more strategically valuable'",
+    "Trayectoria de catorce años construyendo herramientas para desarrolladores (deck.gl, APIs, integraciones cloud) y estándares abiertos (GeoParquet, Iceberg V3 Geometry)",
+    "Sigue escribiendo código en abierto en 2026 (hacienda-cli en TypeScript, iceberg-geo-testbed): evaluará el producto por la arquitectura, no por las métricas",
+    "Director del Open Geospatial Consortium: horizonte de infraestructura a diez años, no de tracción a doce meses",
+    "Español de Madrid, da entrevistas en castellano: cero fricción de idioma",
+    "Puerta hacia un cap table de primer nivel (Accel, Insight Partners, Salesforce Ventures, Kibo Ventures)"
+  ],
+  "riesgos_o_alertas": [
+    "ALERTA PRINCIPAL: su actividad como business angel NO está confirmada. No se ha encontrado ni una sola inversión concreta con empresa, año y ronda en ninguna fuente pública",
+    "Sin etapa ni ticket documentados: no se puede prever si un cheque suyo sería de 5.000 € o de 100.000 €",
+    "Es operador a tiempo completo (CSO de CARTO, compañía respaldada por Insight y Accel): su ancho de banda para invertir y acompañar es limitado",
+    "Su dominio es geoespacial y datos; el stack IA-nativo horizontal del cliente queda fuera de su vertical de expertise directa",
+    "Sus otros roles externos son institucionales y sin ánimo de lucro (OGC, fundaciones), no de inversión: el patrón sugiere alguien que aporta tiempo, no capital",
+    "Sin email público ni patrón inferible",
+    "Al ser CSO de una compañía que está construyendo su propia capa agéntica (CARTO for Agents, servidor MCP), puede haber conflicto de interés o, al menos, sensibilidad competitiva si el cliente toca su terreno",
+    "Recomendación: tratarlo como asesor técnico y fuente de intro, no como inversor principal del round"
+  ],
+  "confianza": "media",
+  "linkedin": "https://es.linkedin.com/in/jatorre",
+  "tipo_inversor": "Business angel",
+  "rol": "Founder & Chief Strategy Officer de CARTO (desde 2019 en el rol de CSO; fundador desde 2012). Director en el Open Geospatial Consortium (2021-presente), patrono de la Tierra Pura Foundation (2020-presente) y miembro asesor de la European Biodiversity Observation Network. Business angel: rol declarado en perfiles de terceros pero NO verificado con inversiones concretas.",
+  "auditoria": {
+    "estado": "revisado",
+    "fecha": "2026-09-02",
+    "motivo": "Su tesis tecnológica (la UI de SaaS se convierte en CLI, API o herramienta MCP; soberanía es poder elegir proveedor de modelo) es el argumento de moat de un stack IA-nativo, y construyó CARTO durante catorce años; pero no hay ninguna inversión ángel documentada ni etapa ni ticket. Validador y puente, no capital.",
+    "puntuacion": {
+      "tesis": 20,
+      "etapa": 0,
+      "decision": 0,
+      "espanol": 15,
+      "acceso": 9,
+      "otros_aspectos": 0,
+      "otros_aspectos_motivo": "",
+      "bruto": 44,
+      "topes": [],
+      "total": 44
+    }
+  },
+  "firma": "CARTO (fundador). Anteriormente fundador de Vizzuality. Aparece listado como business angel en AngelFlow, pero SIN operaciones concretas documentadas públicamente.",
+  "web_personal": "",
+  "inversiones_relevantes": [
+    "NO CONFIRMADO: no se ha encontrado ninguna inversión ángel concreta de Javier de la Torre en fuentes públicas (AngelFlow lo etiqueta como business angel pero no lista ninguna operación; Dealroom y Crunchbase están tras muro de pago/Cloudflare y no se ha podido verificar)",
+    "CARTO (2012, fundador; Location Intelligence sobre BigQuery, Snowflake, Databricks, Redshift y Oracle; inversores Insight Partners, Accel, Salesforce Ventures, Hearst, EIC, Earlybird y Kibo Ventures) — construyó de cero una plataforma de datos con superficie de desarrollador",
+    "Vizzuality (2007-2008, fundador; geoespacial aplicado a ciencia y políticas públicas) — primera compañía, origen del problema técnico que resolvió con CARTO",
+    "GeoParquet (2022, estándar abierto que él lanzó públicamente) y geometría nativa en Apache Iceberg (2025-2026) — 'inversión' en estándares abiertos, no en equity, pero es la mejor prueba de su compromiso con open source e infraestructura",
+    "CARTO for Agents (mayo 2026) y el servidor MCP de CARTO (agosto 2026) — producto agéntico que ha impulsado como CSO; demuestra que ya opera con Claude, Copilot, ChatGPT y Gemini como superficie de consumo"
+  ],
+  "antecedentes": "Formación y trayectoria de científico de datos aplicado a la biodiversidad. En 2007-2008 fundó Vizzuality, consultora y estudio geoespacial dedicado a conectar la ciencia con la formulación de políticas mediante mejor uso de datos (trabajos con GBIF, conservación y biodiversidad). De esa experiencia —la necesidad de herramientas mejores para analizar datos de localización a gran escala— nació CARTO, que fundó en Madrid en 2012 junto a Sergio Álvarez con la visión de 'democratizar el análisis y la visualización de datos'. CARTO empezó como CartoDB, con un fuerte componente open source, y se ha convertido en una de las plataformas de Location Intelligence de referencia mundial, con sede central en Nueva York y oficinas en Madrid y Sevilla. Sus inversores incluyen Insight Partners, Accel, Salesforce Ventures, Hearst, el European Innovation Council (EIC), Earlybird y Kibo Ventures; la financiación acumulada citada habitualmente ronda los 31 M$ (verificar, ha habido rondas posteriores). Desde 2019 ocupa el puesto de Chief Strategy Officer, cediendo la operación del día a día. En paralelo es Director del Open Geospatial Consortium desde 2021, patrono de la Tierra Pura Foundation desde 2020 y asesor de la European Biodiversity Observation Network. Sigue programando: su GitHub tiene 85 repositorios y proyectos personales recientes como hacienda-cli (un CLI en TypeScript para la sede electrónica de la AEAT) e iceberg-geo-testbed.",
+  "como_llegar": [
+    "GitHub: https://github.com/jatorre — abrir un issue o PR relevante en iceberg-geo-testbed o hacienda-cli es el contacto técnico más natural y el que mejor le habla",
+    "LinkedIn: https://es.linkedin.com/in/jatorre",
+    "Spatial Data Science Conference (organizada por CARTO): allí anunció CARTO for Agents en 2026; es el evento donde está accesible",
+    "Open Geospatial Consortium: es Director; sus reuniones y grupos de trabajo son foros abiertos de estándares",
+    "Podcasts en los que participa: 'Location Matters' (https://open.spotify.com/episode/7dCuF1dNBulmEH3HPXQmQo) y 'The European Startup Show'",
+    "Vía inversores de CARTO en España: Kibo Ventures es el nexo español más obvio para una intro cruzada",
+    "Vía Miguel Arias, que fue COO de CARTO y es hoy business angel en Madrid: es el puente humano más directo y ya está en esta misma lista",
+    "Comunidad open source geoespacial en español (FOSS4G, GeoParquet, Apache Iceberg)",
+    "Ecosistema madrileño: South Summit, Spain Tech Week"
+  ],
+  "tipo_inversor_detalle": "Business angel",
+  "por_que_es_interesante": [
+    "Reorientó CARTO hacia la 'Agentic Enterprise' con servidor MCP propio; impulsó GeoParquet y geometría en Apache Iceberg: construye la capa que el cliente vende.",
+    "Su tesis pública sobre agentes, formatos abiertos y elección de proveedor es literalmente el argumento de moat del stack.",
+    "Puerta natural hacia Kibo, Accel, Insight y Salesforce Ventures (inversores de CARTO).",
+    "Ángulo: no pedir dinero; pedir lectura técnica vía GitHub o un ensayo, y su red."
+  ],
+  "nombre": "Javier de la Torre",
+  "actualizado": "2026-09-02T16:49:34.273Z",
+  "nivel": 44,
+  "prioridad": "C",
+  "ciudad_base": "Madrid, España (su perfil de GitHub declara Madrid; CARTO tiene sede central en Nueva York y oficinas en Madrid y Sevilla, y él se mueve entre ambas)",
+  "fuentes": [
+    "https://carto.com/about-us/",
+    "https://carto.com/authors/javier-de-la-torre/",
+    "https://carto.com/blog/introducing-carto-for-agents-gis-for-the-agentic-enterprise",
+    "https://carto.com/blog/what-is-agentic-gis",
+    "https://carto.com/blog/geospatial-sovereignty-in-the-age-of-ai-a-layered-approach",
+    "https://carto.com/blog",
+    "https://github.com/jatorre",
+    "https://angelflow.com/angels/javier-de-la-torre",
+    "https://es.linkedin.com/in/jatorre",
+    "https://www.snowflake.com/en/blog/authors/javier-de-la-torre-carto/",
+    "https://www.dig-in.com/author/javier-de-la-torre",
+    "https://app.dealroom.co/investors/javier_de_la_torre",
+    "https://www.crunchbase.com/person/javier-de-la-torre",
+    "https://www.youtube.com/watch?v=Q391N2Xuu9U",
+    "https://www.youtube.com/watch?v=tVPao0EmJTA",
+    "https://open.spotify.com/episode/7dCuF1dNBulmEH3HPXQmQo",
+    "https://player.fm/series/the-european-startup-show/location-analytics-carto-cso-javier-de-la-torre-on-building-a-global-brand-managing-privacy-how-and-when-to-build-vs-buy",
+    "https://www.theofficialboard.com/biography/javier-de-la-torre-d8920"
+  ],
+  "etapa_y_ticket": [
+    "Sin inversiones ángel documentadas (AngelFlow lo etiqueta como ángel sin listar ninguna operación).",
+    "Sin etapa ni ticket conocidos."
+  ],
+  "region": "España",
+  "banda": "Descartado",
+  "investigacion_larga": "Cronología. Javier de la Torre no viene del capital riesgo sino de la ciencia de datos aplicada a la conservación. Su primer proyecto empresarial fue Vizzuality, fundada en 2007-2008, una compañía geoespacial cuya misión declarada era 'conectar la ciencia con la formulación de políticas mediante el mejor uso de datos': trabajaron para instituciones de biodiversidad (el ecosistema GBIF, observatorios ambientales) construyendo visualizaciones y plataformas de datos. Fue ahí donde detectó el problema que daría lugar a su segunda empresa: no existían herramientas suficientemente buenas para analizar datos de localización a gran escala.\n\nEn 2012 fundó CARTO en Madrid junto a Sergio Álvarez. La compañía —originalmente CartoDB, con raíz open source— partió de la idea de que el análisis espacial era esencial para entender la pérdida de biodiversidad y el cambio climático, pero vio pronto su potencial en seguros, servicios financieros, telecomunicaciones y retail. CARTO trasladó su sede central a Nueva York manteniendo oficinas en Madrid y Sevilla. Sus inversores, según su propia página de About Us, son Insight Partners, Accel, Salesforce Ventures, Hearst, el European Innovation Council (EIC), Earlybird y Kibo Ventures. Desde 2019 Javier ocupa el puesto de Chief Strategy Officer: dejó la operación diaria y se quedó con la estrategia, el producto de más largo plazo y la voz pública de la compañía, que es exactamente el perfil de alguien que hace de ángel o de asesor técnico.\n\nEl eje open source y estándares. Este es su rasgo más definitorio y el más relevante para el cliente. Es Director del Open Geospatial Consortium desde 2021. En marzo de 2022 publicó 'Introducing GeoParquet: Towards geospatial compatibility between Data Clouds', el lanzamiento de una propuesta comunitaria para estandarizar el almacenamiento geoespacial; en mayo de 2025 escribió con Helen McKenzie 'How Iceberg, GeoParquet & CARTO are reshaping geospatial' y en mayo de 2026 'Iceberg V3 Geometry, One Year Later: From Standards to Implementations'. Es decir, ha dedicado años a empujar formatos abiertos dentro de Apache Iceberg y Parquet, y mantiene un repositorio personal, iceberg-geo-testbed, para probarlos. Su GitHub (github.com/jatorre, Madrid, 85 repositorios) sigue vivo con proyectos propios: destaca hacienda-cli, un CLI en TypeScript para interactuar con la sede electrónica de la AEAT, y GastoPublico, una plataforma en Ruby de contratación pública abierta. Un fundador de 2007 que en 2026 sigue publicando CLIs propios es un interlocutor técnico real, no un ejecutivo de PowerPoint.\n\nLa parte de dev tools también está documentada: 'CARTO for deck.gl: The Best Way to Develop Spatial Apps' (14 oct 2020) y la alianza con Mapbox ('Partnering with Mapbox: A New Stack for Location Intelligence'). Y la parte de infraestructura cloud: anunció personalmente la integración de CARTO en BigQuery (12 oct 2021), Snowflake (16 nov 2021), Databricks Lakehouse (9 dic 2021), Amazon Redshift (14 feb 2022) y Oracle (9 oct 2025). Escribe además como autor invitado en el blog de Snowflake. Su tesis es la del 'cloud-native, no cloud-dependent'.\n\nEl giro agéntico (2025-2026). Aquí está el material más aprovechable. El 25 de noviembre de 2025 publicó con Javier Pérez Trufero 'What is Agentic GIS?', donde define los agentes como 'AI systems capable of reasoning, taking actions, and orchestrating tools to solve complex tasks', cita explícitamente 'standards for agent orchestration, such as Model Context Protocol (MCP) and Agent-to-Agent (A2A)' y afirma que 'AI agents are no longer isolated assistants - they can participate in full analytical workflows'. Su formulación del cambio de pregunta es memorable: se pasa de '¿qué mapa debería hacer?' a '¿qué preguntas debería poder responder mi agente geoespacial?'. El 14 de mayo de 2026 anunció 'CARTO for Agents, GIS for the Agentic Enterprise', presentado en la Spatial Data Science Conference 2026, describiéndola como 'la primera plataforma GIS diseñada por completo para la Agentic Enterprise'. Las frases clave: 'Agents don't go to a browser or click through dropdowns. They call APIs, invoke MCP tools, and run CLI commands directly'; y la generalización sectorial: 'across every industry and every category of enterprise software, the same shift is underway: what used to be a SaaS UI for an agent is a CLI command, an API, or an MCP tool'. Y sobre la organización: las que ganen serán las que 'bring humans and AI Agents on the same platform, working from the same data, the same governance'. En agosto de 2026 el equipo de CARTO publicó 'All of CARTO, in Every Agent' sobre su servidor MCP integrado con Claude, Copilot, ChatGPT y Gemini; en julio de 2026, 'Your AI Agents also need spatial semantics' y 'Migrate from Esri to CARTO with your AI Agent'. La compañía ha hecho una apuesta agéntica completa y él es su cara pública. Tiene una charla titulada 'The Agentic Interface: How AI is Rebuilding the Future of Geography' (YouTube).\n\nSoberanía y anti lock-in. Su ensayo del 20 de noviembre de 2025, 'Geospatial Sovereignty in the Age of AI: A Layered Approach', y el del 15 de enero de 2026 con Kevin D. Pomfret, 'Geospatial Sovereignty: Why it requires both Law and Architecture', articulan una posición que el cliente puede usar tal cual: 'Sovereignty doesn't mean building walls or rejecting innovation. True sovereignty is about choice'; 'The first step toward geospatial sovereignty is making your spatial data cloud-native, not cloud-dependent, but cloud-native in format'; 'These formats break the GIS silo. They make geospatial data a first-class citizen in the modern analytics stack'; 'Lock yourself into proprietary schemas or isolated data models, and you've confused isolation with independence'; y, sobre modelos, 'Open models are increasingly competitive... a reliable model you can run securely on your own infrastructure is already more strategically valuable', con la regla general 'always use standards and platforms that give you provider choice'. Alguien que piensa así entiende de inmediato por qué un stack IA-nativo propio puede ser un moat y no una reinvención de la rueda.\n\nEl problema: la actividad inversora. Aquí hay que ser tajante. Tras revisar AngelFlow (que lo lista como business angel pero no documenta ni una operación), Dealroom, Crunchbase y prensa española e inglesa, NO se ha encontrado ninguna inversión ángel concreta atribuible a Javier de la Torre: ni empresa, ni año, ni ronda, ni ticket. Sus roles documentados fuera de CARTO son institucionales y sin ánimo de lucro (Open Geospatial Consortium, Tierra Pura Foundation, European Biodiversity Observation Network), no de inversión. Esto no significa que no invierta —los ángeles españoles muchas veces no aparecen en bases de datos— pero sí significa que, para un outreach real, no puede tratarse como un inversor activo verificado. Su valor demostrable es otro: interlocutor técnico de primer nivel, validador de la tesis, y puerta de entrada hacia el cap table de CARTO (Kibo Ventures en España; Accel, Insight Partners y Salesforce Ventures fuera).\n\nAcceso. Es accesible por vías técnicas: GitHub, sus posts, la Spatial Data Science Conference que organiza CARTO, y podcasts en los que participa ('Location Matters' en Spotify, 'The European Startup Show'). Es español, de Madrid, y da entrevistas en español (p. ej. la entrevista en vídeo 'Entrevista a Javier de la Torre, Founder & CSO at CARTO'), así que la fluidez en castellano está fuera de duda. No hay controversias conocidas.",
+  "email": ""
+}

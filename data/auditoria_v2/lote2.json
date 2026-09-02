@@ -6,7 +6,7 @@
    "decision": 20,
    "espanol": 8,
    "acceso": 8,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Matrix invierte de idea a Serie A, lidera y su filtro ('¿se podría clonar en un fin de semana?') premia el moat técnico; pero su especialidad es frontera creativa y hardware (Oculus, CTRL-labs, Suno, Luma), no dev tools; nacido en Venezuela sin español documentado, sin email ni actividad en España/LatAm.",
   "por_que": [
@@ -34,7 +34,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 9,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Fondo IV (120M€, dic-2025) con mandato literal de deep tech, datos e infraestructura de IA, dinero fresco y criterio del '+10x'; pero primer cheque de ~5M€ en seed/Serie A (no pre-seed de 200-500k), perfil no técnico, historia consumer y sin email público.",
   "por_que": [
@@ -62,7 +62,7 @@
    "decision": 9,
    "espanol": 1,
    "acceso": 7,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Encaje temático máximo: co-lideró el seed de Corridor (seguridad para código generado por IA, clientes como Cursor) en Conviction, fondo de primer cheque AI-native; pero sin evidencia alguna de origen hispano o español, título 'Investor' no confirmado como Partner y sin email.",
   "por_que": [
@@ -90,7 +90,7 @@
    "decision": 4,
    "espanol": 15,
    "acceso": 10,
-   "ajuste": -5
+   "otros_aspectos": -5
   },
   "motivo": "Cartera histórica consumer y marketplaces, sin operaciones documentadas desde agosto de 2023, sin fondo y operador a tiempo completo en Pensero AI, que vive en la misma capa que el harness (posible solapamiento). Puerta al ecosistema español, no capital.",
   "por_que": [
@@ -117,7 +117,7 @@
    "decision": 15,
    "espanol": 15,
    "acceso": 9,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Nauta tiene un vertical real 'DevTools & Infra' (Napptive, NetBird, Nhost, Kubermatic, Xonai) y él cubre España y Portugal; pero exigen producto operativo, doctrina estricta de eficiencia de capital, prefieren GenAI vertical, el último fondo confirmado es de 2021 y sólo hay buzón general.",
   "por_que": [
@@ -145,7 +145,7 @@
    "decision": 13,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": -10
+   "otros_aspectos": -10
   },
   "motivo": "Solo GP con fondo cerrado de 15M USD, pre-seed en IA y Altan en cartera, decide en días; pero su criterio central es 'Momentum' comercial (deploys semanales y clientes), ticket fijo de 300-350k, y dedicación parcial (VP en ElevenLabs). Un pitch pre-tracción choca con su filtro.",
   "por_que": [
@@ -173,7 +173,7 @@
    "decision": 7,
    "espanol": 15,
    "acceso": 14,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Foco ángel declarado en 'B2B SaaS, developer tools' con 'Agents, AI' como primer interés, email de dominio propio y credibilidad técnica máxima (autor de DDD in PHP, 4 veces CTO/CPO); pero no decide en Encomenda, trabaja a tiempo completo en IFCO y su ticket personal es pequeño y no publicado.",
   "por_que": [
@@ -200,7 +200,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": -6
+   "otros_aspectos": -6
   },
   "motivo": "Seedcamp es 'Europe's Original First Check Investor' y declara por escrito invertir pre-producto y pre-tracción; lideró en 2026 la pre-seed de Embedd diciendo que 'el stack de software actual nunca fue diseñado' para la siguiente fase de la IA; hondureño con español fluido. Reservas: Londres (fuera de región), filtro Europa/Israel y mandato 2026 inclinado a physical AI.",
   "por_que": [
@@ -228,7 +228,7 @@
    "decision": 15,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": -4
+   "otros_aspectos": -4
   },
   "motivo": "Foco literal 'AI and Infrastructure/DevOps', lideró la Serie A de 100M USD de Tessl (desarrollo de software IA-nativo) y firmó su ensayo; español nativo con email público. Reservas: Index entra de seed a growth (su deal fue Serie A), ambigüedad Partner vs Venture Partner y base en Londres.",
   "por_que": [
@@ -256,7 +256,7 @@
    "decision": 2,
    "espanol": 15,
    "acceso": 9,
-   "ajuste": -5
+   "otros_aspectos": -5
   },
   "motivo": "Una sola inversión ángel registrada, sin vehículo, CEO de una compañía de 5.300M USD, foco en medios generativos, y su ensayo 'Value Accrues to the Extremes' sostiene que el valor de las herramientas intermedias tiende a cero. No es capital; a lo sumo validación o intros.",
   "por_que": [
@@ -283,7 +283,7 @@
    "decision": 6,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": -6
+   "otros_aspectos": -6
   },
   "motivo": "Áreas oficiales 'AI Enablement, Developer Platforms, Memory & Inference' en un fondo pre-seed (Flybridge VII, 100M USD, 40+ inversiones al año), colombiano confirmado y con podcast propio como vía de entrada; pero es Associate y no decide. Tope aplicado por no firmar cheque.",
   "por_que": [
@@ -311,7 +311,7 @@
    "decision": 8,
    "espanol": 15,
    "acceso": 8,
-   "ajuste": -8
+   "otros_aspectos": -8
   },
   "motivo": "El encaje es de firma (Nauta: DevTools & Infra, Nhost, NetBird), no de persona: hoy es Venture Partner de operaciones y exits, sin huella en IA ni dev tools, y el briefing original era erróneo (no ex-VMware ni ingeniero). Nauta queda cubierta por Borja Breña.",
   "por_que": [

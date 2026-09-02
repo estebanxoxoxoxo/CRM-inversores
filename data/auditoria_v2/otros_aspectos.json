@@ -1,5 +1,5 @@
 {
- "_criterio": "Motivo del ajuste (-15 a +5) aplicado en puntuacion.ajuste. Cubre lo que las cinco dimensiones no capturan: conflicto de cartera con un competidor del cliente, filtros geográficos o legales duros, redundancia con otro contacto del mismo fondo, riesgo de identidad o de estado del fondo, o bonus por un deal directamente comparable.",
+ "_criterio": "Motivo de 'otros aspectos' (-15 a +5) aplicado en puntuacion.otros_aspectos. Cubre lo que las cinco dimensiones no capturan: conflicto de cartera con un competidor del cliente, filtros geográficos o legales duros, redundancia con otro contacto del mismo fondo, riesgo de identidad o de estado del fondo, o bonus por un deal directamente comparable.",
  "adrian-mendoza": "Escepticismo público declarado sobre el hype de la IA ('AI Hype 2.0', CNBC 2025).",
  "alberto-gomez": "Posible solapamiento de cartera con Airflows y TuringDream; parte de las operaciones 2026 las firma Ross Strachan.",
  "andres-saborido": "Modelo venture client: exige producto funcionando, tracción inicial y sinergia con Telefónica.",

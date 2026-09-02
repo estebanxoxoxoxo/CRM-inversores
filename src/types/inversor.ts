@@ -7,7 +7,7 @@
  * Convenciones:
  * - `id` es el slug y el id del documento en Firestore.
  * - `nivel` es una puntuación 0-100 asignada en la auditoría manual con la rúbrica de `auditoria.puntuacion`
- *   (tesis 25, etapa 20, decisión y capital 20, español 15, acceso y actividad 15, ajuste -15/+5, más topes).
+ *   (tesis 25, etapa 20, decisión y capital 20, español 15, acceso y actividad 15, otros aspectos -15/+5, más topes).
  *   `banda` se deriva de `nivel`: Indiscutible >= 78, Alto potencial 60-77, Reserva 45-59, Descartado < 45.
  * - `prioridad` se deriva de `nivel` (A >= 78, B >= 60, C resto); `confianza` califica las fuentes, no el encaje.
  * - Los campos de síntesis (`por_que_es_interesante`, `tesis_de_inversion`, `etapa_y_ticket`) y las listas
@@ -48,15 +48,15 @@ export const EmailEstadoSchema = z.enum([
   "no encontrado",
 ]);
 
-/** Desglose de la puntuación 0-100. Los máximos por dimensión son 25/20/20/15/15; el ajuste va de -15 a +5. */
+/** Desglose de la puntuación 0-100. Los máximos por dimensión son 25/20/20/15/15; 'otros aspectos' va de -15 a +5. */
 export const PuntuacionSchema = z.object({
   tesis: z.number().int().min(0).max(25),
   etapa: z.number().int().min(0).max(20),
   decision: z.number().int().min(0).max(20),
   espanol: z.number().int().min(0).max(15),
   acceso: z.number().int().min(0).max(15),
-  ajuste: z.number().int().min(-15).max(5),
-  ajuste_motivo: z.string(),
+  otros_aspectos: z.number().int().min(-15).max(5),
+  otros_aspectos_motivo: z.string(),
   bruto: z.number().int(),
   topes: z.array(z.string()),
   total: z.number().int().min(0).max(100),

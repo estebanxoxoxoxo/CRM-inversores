@@ -6,7 +6,7 @@
    "decision": 5,
    "espanol": 15,
    "acceso": 9,
-   "ajuste": -8
+   "otros_aspectos": -8
   },
   "motivo": "Operador técnico que dejó Kfund en junio de 2026 para construir infraestructura de IA ('esta ola no pienso vivirla desde la grada'), con historial de 130+ inversiones tempranas en Wayra; pero hoy no dispone de capital institucional, su ticket ángel no es público y su propio proyecto puede solapar con el harness. Puerta de entrada, no capital.",
   "por_que": [
@@ -32,7 +32,7 @@
    "decision": 17,
    "espanol": 15,
    "acceso": 6,
-   "ajuste": -8
+   "otros_aspectos": -8
   },
   "motivo": "La doctrina escrita de Bullnet coincide con lo que busca el cliente (innovación científica por encima de tracción, entrada con prototipo, pilotos bienvenidos pero no exigidos) y tiene exits en dev tools (Códice, LeanXcale); físico y fotónico que lee arquitectura. Pero sólo invierte en sociedades domiciliadas en España, el fondo IV está en fase final, no tiene LinkedIn ni huella pública y la atribución de deals es inferida.",
   "por_que": [
@@ -60,7 +60,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": -8
+   "otros_aspectos": -8
   },
   "motivo": "Su método (decision analysis y market mapping) está diseñado para decir sí sin datos de PMF, lidera pre-seed y seed con ~1M USD y ya invirtió en Okahu (dev tools para agentes), markovML y Hevo; 'Spanish-speaking first'. Bloqueo: Ulu rechaza automáticamente empresas no constituidas en EE.UU.",
   "por_que": [
@@ -88,7 +88,7 @@
    "decision": 10,
    "espanol": 8,
    "acceso": 10,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Ángel con foco literal 'early stage developer & data tools' y cartera en el vecindario exacto (Browserbase, Dosu, Bland, Equals), 50+ cheques de 25-50k en pre-seed; nacido en Córdoba, Argentina. Reservas: emigró de niño y su español no está documentado, no lidera y su valor añadido es GTM.",
   "por_que": [
@@ -116,7 +116,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 5,
-   "ajuste": -5
+   "otros_aspectos": -5
   },
   "motivo": "Co-lideró con General Catalyst la 'semilla' de 12M USD de Primero AI y tiene interlocución con FEMSA, Bimbo y Aeroméxico; pero su punto dulce es 10M USD, Kaszek no tiene tesis ni cartera en dev tools o infraestructura, lee la IA como adopción corporativa y no tiene canal frío. Radar para la ronda siguiente.",
   "por_que": [
@@ -143,7 +143,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 9,
-   "ajuste": -6
+   "otros_aspectos": -6
   },
   "motivo": "Socio 'de ingeniero' de Adara (MIT), con foco declarado en infraestructura software y IA aplicada y la tesis del cliente ya validada en casa (Airflows, TuringDream, AppFactor); pero es el socio con menor huella en IA, tres operaciones recientes, las tesis las firma Gómez, y Adara ya está cubierta por Gómez y Pillado.",
   "por_que": [
@@ -171,7 +171,7 @@
    "decision": 8,
    "espanol": 15,
    "acceso": 6,
-   "ajuste": -3
+   "otros_aspectos": -3
   },
   "motivo": "Evidencia limpia de apuesta deep tech pre-tracción: puso su nombre en Qbeast (spin-off del BSC, indexación open source) y Giskard (testing open source de modelos) cuando no había categoría; arquitecto original de Uber, mexicano. Pero cuatro o cinco operaciones en cinco años (última 2024), sin vehículo, ticket desconocido, sin LinkedIn ni email, y dedicación a Consello.",
   "por_que": [
@@ -198,7 +198,7 @@
    "decision": 17,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": -3
+   "otros_aspectos": -3
   },
   "motivo": "Encaje literal: fondo español dedicado 100% a IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), y criterio publicado de 'Architectural Empathy' y moat que no dependa de una API ajena. Reservas: fondo joven de 50M€ que coinvierte más que lidera, email inferido y posible solapamiento con BrainGrid.",
   "por_que": [
@@ -226,7 +226,7 @@
    "decision": 9,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": -4
+   "otros_aspectos": -4
   },
   "motivo": "Credenciales sobradas para auditar un claim de rendimiento (dirigió MareNostrum 5 y los primeros cuánticos españoles; escribe cada semana sobre agentes autónomos y cómputo); pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es IA + ciencia avanzada (biotech, cuántica, fotónica), no dev tools. Reactivar cuando cierre.",
   "por_que": [
@@ -254,7 +254,7 @@
    "decision": 13,
    "espanol": 15,
    "acceso": 9,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Puerta europea de Pear, fondo que invierte por mandato en pre-seed antes del PMF y lista 'AI tooling e infrastructure' y 'developer tools' entre sus verticales; pasado real en dev tools (3scale, adquirida por Red Hat), castellano y catalán nativos, ángel en pre-seed (Traza). Reservas: rol Partner vs Visiting Partner sin cerrar, especialidad GTM, decisión en la Bahía y sin email.",
   "por_que": [
@@ -282,7 +282,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 9,
-   "ajuste": -3
+   "otros_aspectos": -3
   },
   "motivo": "Fondo mexicano con la frase 'Cometa invests in AI readiness enablers' y precedentes tempranos en IA industrial (Kuona, Pulsar) y seguridad (Hackmetrix); pero su tesis identifica industrias listas para la IA, no financia su infraestructura, 16 de ~40 posiciones son fintech, no hay dev tools y sus rondas personales son semillas de 4-6M.",
   "por_que": [
@@ -310,7 +310,7 @@
    "decision": 19,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": -4
+   "otros_aspectos": -4
   },
   "motivo": "Ingeniera con foco declarado en 'AI infrastructure' y tesis 'AI as the latest platform shift', en un fondo que en doce meses invirtió en AppFactor (dev tool de IA), Airflows (IA determinista) y TuringDream (multiagente) sin métricas de mercado, con el criterio publicado 'operate ahead of market readiness'. Reservas: no lidera personalmente esos deals, posible solapamiento con Airflows/TuringDream, buzón general y LinkedIn no verificado.",
   "por_que": [

@@ -115,15 +115,15 @@
     "version": 2,
     "fecha": "2026-09-02",
     "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
     "puntuacion": {
       "tesis": 24,
       "etapa": 17,
       "decision": 20,
       "espanol": 15,
       "acceso": 12,
-      "ajuste": -2,
-      "ajuste_motivo": "Posible solapamiento de cartera con Airflows y TuringDream; parte de las operaciones 2026 las firma Ross Strachan.",
+      "otros_aspectos": -2,
+      "otros_aspectos_motivo": "Posible solapamiento de cartera con Airflows y TuringDream; parte de las operaciones 2026 las firma Ross Strachan.",
       "bruto": 86,
       "topes": [],
       "total": 86

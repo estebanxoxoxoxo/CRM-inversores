@@ -10,13 +10,13 @@ import { InversorSchema, bandaDe, prioridadDe, type Inversor, type Puntuacion } 
 
 export const CRITERIO =
   "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), " +
-  "español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; " +
+  "español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; " +
   "decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. " +
   "Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. " +
   "Origen y español sólo con autoidentificación pública o hechos biográficos documentados.";
 
 export interface DecisionV2 {
-  puntuacion: { tesis: number; etapa: number; decision: number; espanol: number; acceso: number; ajuste: number; ajuste_motivo?: string };
+  puntuacion: { tesis: number; etapa: number; decision: number; espanol: number; acceso: number; otros_aspectos: number; otros_aspectos_motivo?: string };
   motivo: string;
   por_que: string[];
   etapa_y_ticket: string[];
@@ -33,18 +33,18 @@ export function cargarDecisiones(raiz: string): Record<string, DecisionV2> {
       out[id] = { ...(out[id] ?? {}), ...d };
     }
   }
-  // Motivos de los ajustes (data/auditoria_v2/ajustes.json): obligatorios cuando el ajuste es distinto de cero.
-  const rutaAjustes = path.join(carpeta, "ajustes.json");
-  const ajustes = fs.existsSync(rutaAjustes)
-    ? (JSON.parse(fs.readFileSync(rutaAjustes, "utf8")) as Record<string, string>)
+  // Motivos de 'otros aspectos' (data/auditoria_v2/otros_aspectos.json): obligatorios cuando el valor es distinto de cero.
+  const rutaOtros = path.join(carpeta, "otros_aspectos.json");
+  const otrosAspectos = fs.existsSync(rutaOtros)
+    ? (JSON.parse(fs.readFileSync(rutaOtros, "utf8")) as Record<string, string>)
     : {};
   const completas: Record<string, DecisionV2> = {};
   const incompletas: string[] = [];
   for (const [id, d] of Object.entries(out)) {
     if (d.puntuacion && d.motivo && d.por_que && d.etapa_y_ticket && d.tesis) {
-      const motivoAjuste = ajustes[id] ?? "";
-      if (d.puntuacion.ajuste !== 0 && !motivoAjuste) incompletas.push(`${id} (ajuste ${d.puntuacion.ajuste} sin motivo en ajustes.json)`);
-      completas[id] = { ...(d as DecisionV2), puntuacion: { ...d.puntuacion, ajuste_motivo: d.puntuacion.ajuste === 0 ? "" : motivoAjuste } };
+      const motivoOtros = otrosAspectos[id] ?? "";
+      if (d.puntuacion.otros_aspectos !== 0 && !motivoOtros) incompletas.push(`${id} (otros_aspectos ${d.puntuacion.otros_aspectos} sin motivo en otros_aspectos.json)`);
+      completas[id] = { ...(d as DecisionV2), puntuacion: { ...d.puntuacion, otros_aspectos_motivo: d.puntuacion.otros_aspectos === 0 ? "" : motivoOtros } };
     } else incompletas.push(`${id} (faltan: ${["puntuacion", "motivo", "por_que", "etapa_y_ticket", "tesis"].filter((k) => !(k in d)).join(", ")})`);
   }
   if (incompletas.length) throw new Error(`Decisiones incompletas en data/auditoria_v2:\n - ${incompletas.join("\n - ")}`);
@@ -52,7 +52,7 @@ export function cargarDecisiones(raiz: string): Record<string, DecisionV2> {
 }
 
 export function calcularPuntuacion(p: DecisionV2["puntuacion"]): Puntuacion {
-  const bruto = p.tesis + p.etapa + p.decision + p.espanol + p.acceso + p.ajuste;
+  const bruto = p.tesis + p.etapa + p.decision + p.espanol + p.acceso + p.otros_aspectos;
   const topes: string[] = [];
   let total = bruto;
   const tope = (cond: boolean, max: number, etiqueta: string) => {
@@ -66,7 +66,7 @@ export function calcularPuntuacion(p: DecisionV2["puntuacion"]): Puntuacion {
   tope(p.decision <= 8, 69, "no firma cheque → máx. 69");
   tope(p.etapa <= 7, 64, "Serie A o exige tracción → máx. 64");
   total = Math.max(0, Math.min(100, Math.round(total)));
-  return { ...p, ajuste_motivo: p.ajuste_motivo ?? "", bruto, topes, total };
+  return { ...p, otros_aspectos_motivo: p.otros_aspectos_motivo ?? "", bruto, topes, total };
 }
 
 const aLista = (v: unknown): string[] => (Array.isArray(v) ? v.map(String) : String(v ?? "").split(/\r?\n+/).map((s) => s.trim()).filter(Boolean));

@@ -35,7 +35,7 @@ de `meta/indice` e `inversores/{id}`.
 
 ## Nivel (0-100) y bandas
 
-Cada perfil tiene un `nivel` de 0 a 100 asignado en revisión manual con esta rúbrica (`auditoria.puntuacion`):
+Cada perfil tiene un `nivel` de 0 a 100 asignado en revisión manual con esta rúbrica (`auditoria.puntuacion`). Las cinco dimensiones suman hasta 95; 'otros aspectos' suma o resta hasta llegar a 100:
 
 | Dimensión | Máx. | Qué mide |
 |---|---|---|
@@ -44,7 +44,7 @@ Cada perfil tiene un `nivel` de 0 a 100 asignado en revisión manual con esta r�
 | Capacidad de decidir y capital | 20 | GP con fondo vigente y ticket adecuado; penaliza venture partners, associates y fondos sin cerrar |
 | Español y cercanía | 15 | Documentado nativo 15; origen documentado sin fluidez confirmada 8-10; sólo herencia 3-5; sin evidencia 0-2 |
 | Acceso y actividad | 15 | Activo 2025-26, vía de contacto pública, cadencia |
-| Ajuste | -15 / +5 | Conflictos de cartera, filtros geográficos duros, redundancia con otro contacto del mismo fondo |
+| Otros aspectos | -15 / +5 | Circunstancias concretas que las dimensiones no miden: conflicto de cartera con un competidor, filtros legales o geográficos, redundancia con otro contacto del mismo fondo, estado del fondo, bonus por un deal comparable. El motivo va en `puntuacion.otros_aspectos_motivo` (fuente: `data/auditoria_v2/otros_aspectos.json`) |
 
 Topes que encajan la pureza: tesis < 6 → máximo 45; tesis < 10 → máximo 55; sin capacidad de firmar cheque
 (decisión ≤ 8) → máximo 69; Serie A o exigencia de tracción (etapa ≤ 7) → máximo 64.

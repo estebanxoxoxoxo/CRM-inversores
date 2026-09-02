@@ -6,7 +6,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Español nativo, GP con 850M USD frescos y 10-15 semillas al año, pero su tesis es automatización de la economía real (logística, nóminas), no infraestructura horizontal ni dev tools; su deal de agentes (HappyRobot) fue Serie B.",
   "por_que": [
@@ -28,7 +28,7 @@
    "decision": 12,
    "espanol": 3,
    "acceso": 12,
-   "ajuste": -3
+   "otros_aspectos": -3
   },
   "motivo": "Lidera desde pre-seed y tiene un precedente dev-adjacent (Wabbi), pero su tesis es modernizar sectores regulados, es escéptico público del hype de IA, el Fund III va por debajo de objetivo y no hay evidencia de español.",
   "por_que": [
@@ -51,7 +51,7 @@
    "decision": 9,
    "espanol": 15,
    "acceso": 9,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Mandato deep tech explícito e inversión directa en infraestructura para la economía de agentes (101obex), pero cheques reportados de 2-10M, estructura híbrida fondo de fondos, cierre del vehículo no confirmado y sin vía de contacto publicada.",
   "por_que": [
@@ -74,7 +74,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 12,
-   "ajuste": -2
+   "otros_aspectos": -2
   },
   "motivo": "Ha invertido tres veces en la tesis exacta del cliente (Airflows, TuringDream, TandemTrace) en seed y pre-seed desde Madrid, con criterio publicado de 'pioneer before market validation'. Reservas: sólo buzón general, y posible solapamiento con Airflows/TuringDream.",
   "por_que": [
@@ -97,7 +97,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Español nativo con apetito por deep tech hispanohablante (Sherpa.ai, Multiverse, Maisa), pero mandato central de ciberseguridad y cheque típico de 5-10M USD en Serie A: demasiado tarde y demasiado grande para un pre-seed.",
   "por_que": [
@@ -119,7 +119,7 @@
    "decision": 20,
    "espanol": 8,
    "acceso": 14,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Lidera pre-seed de 1-3M USD y ya co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción) con la tesis 'la IA es un nuevo paradigma de computación'. Reservas: no es fondo deep tech, pide un wedge comercial claro y su fluidez en español no está documentada.",
   "por_que": [
@@ -141,7 +141,7 @@
    "decision": 14,
    "espanol": 2,
    "acceso": 10,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Tesis pre-seed deep tech B2B con filtro de eficiencia de ingeniería, lidera y es primer cheque institucional; pero español y origen sin evidencia, cheque de 300-750k y fusión con Amplify.LA (fondo generalista de LA, no Amplify Partners).",
   "por_que": [
@@ -163,7 +163,7 @@
    "decision": 6,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y un evaluador técnico de primer nivel; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
   "por_que": [
@@ -185,7 +185,7 @@
    "decision": 12,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Ingeniera de software (Stanford, LinkedIn) que invierte en la primera ronda institucional y exige fundador técnico, con email público; pero fondo de 7M USD sin Fondo II confirmado, tesis de industrias tradicionales del corredor EE.UU.-México y cero dev tools en cartera.",
   "por_que": [
@@ -207,7 +207,7 @@
    "decision": 14,
    "espanol": 15,
    "acceso": 10,
-   "ajuste": -12
+   "otros_aspectos": -12
   },
   "motivo": "Wayra exige producto funcionando, tracción inicial y sinergia con Telefónica, y su modelo 2026 es 'venture client': el arquetipo que el cliente quiere evitar. Sólo tiene sentido como conversación de cliente o piloto a futuro.",
   "por_que": [
@@ -229,7 +229,7 @@
    "decision": 0,
    "espanol": 15,
    "acceso": 12,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Construyó y publicó en abierto 'dual-agent', un harness multi-modelo con MCP, y es de los técnicos de IA más sólidos de España; pero no hay ni una inversión ángel documentada, así que su valor es de validador y advisor, no de capital.",
   "por_que": [
@@ -250,7 +250,7 @@
    "decision": 5,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": -3
+   "otros_aspectos": -3
   },
   "motivo": "Crane invierte desde 'inception' en infraestructura fundacional y dev tools (Qovery, Encord, Laminar) y ella es ingeniera barcelonesa que ya escribe sobre gobernanza y observabilidad de agentes; pero su título es 'Investor', no decide, el Fondo III no está confirmado y está fuera de región.",
   "por_que": [

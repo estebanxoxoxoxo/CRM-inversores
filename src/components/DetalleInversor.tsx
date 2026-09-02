@@ -86,10 +86,10 @@ function Desglose({ p }: { p: Puntuacion }) {
           </span>
         </div>
       ))}
-      <div className="dim dim-ajuste" title="Corrección de -15 a +5 por factores que no caben en las cinco dimensiones: conflicto de cartera, filtros geográficos o legales, redundancia con otro contacto del mismo fondo, estado del fondo, o bonus por un deal comparable.">
-        <span className="dim-etiqueta">Ajuste</span>
-        <span className="dim-barra dim-ajuste-texto">{p.ajuste_motivo || "Sin ajuste."}</span>
-        <span className="dim-valor">{p.ajuste > 0 ? `+${p.ajuste}` : p.ajuste}</span>
+      <div className="dim dim-otros" title="Otros aspectos: puntos que se suman o restan (-15 a +5) por circunstancias concretas que las cinco dimensiones no miden: conflicto de cartera con un competidor, filtros legales o geográficos, redundancia con otro contacto del mismo fondo, estado del fondo, o bonus por un deal directamente comparable.">
+        <span className="dim-etiqueta">Otros aspectos</span>
+        <span className="dim-barra dim-otros-texto">{p.otros_aspectos_motivo || "Ninguno."}</span>
+        <span className="dim-valor">{p.otros_aspectos > 0 ? `+${p.otros_aspectos}` : p.otros_aspectos}</span>
       </div>
       {p.topes.length > 0 && <p className="tenue pequeno">Bruto {p.bruto}. Topes aplicados: {p.topes.join("; ")}.</p>}
     </div>

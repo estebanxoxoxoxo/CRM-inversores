@@ -6,7 +6,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": -2
+   "otros_aspectos": -2
   },
   "motivo": "GP de un fondo que declara hacer el 80% de sus inversiones pre-producto ('zero billion-dollar markets'), con apuestas de infraestructura no obvia (Solana desde el inicio, DoubleZero), mexicano nativo y email público. Reserva: su práctica formal es fintech y cripto; el socio natural de infra de IA en Foundation es Ashu Garg.",
   "por_que": [
@@ -34,7 +34,7 @@
    "decision": 18,
    "espanol": 3,
    "acceso": 12,
-   "ajuste": -5
+   "otros_aspectos": -5
   },
   "motivo": "Lidera seed y Serie A (0,5-5M USD) con IA aplicada a dominios técnicos duros (Axion Ray, Doxel) y es vicepresidente de SomosVC con email público; pero su tesis escrita exige CAC bajo e 'instant-payback', no tiene historial en dev tools y su español no está documentado.",
   "por_que": [
@@ -61,7 +61,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": -6
+   "otros_aspectos": -6
   },
   "motivo": "Co-lideró en pre-seed (2,5M USD, sin tracción) Altan, una plataforma agent-native que orquesta agentes para construir y desplegar software de producción, y escribe cada semana sobre la revolución agéntica en Suma Positiva; Fondo IV casi íntegramente IA. Reservas serias: conflicto de cartera con Altan y su afirmación de que la velocidad importa más que el moat.",
   "por_que": [
@@ -89,7 +89,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 6,
-   "ajuste": -4
+   "otros_aspectos": -4
   },
   "motivo": "Argentino, Endeavor, el primero en apostar por Zoom cuando no era nadie, en un fondo con tesis de infraestructura de IA (Together AI, Physical Intelligence); pero cada socio hace una sola inversión nueva al año, su punto dulce es la Serie A con evidencia comercial y no hay canal frío. Relación a 12-24 meses.",
   "por_que": [
@@ -117,7 +117,7 @@
    "decision": 19,
    "espanol": 15,
    "acceso": 12,
-   "ajuste": -2
+   "otros_aspectos": -2
   },
   "motivo": "Programador en activo cuya conversación pública está pegada al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
   "por_que": [
@@ -145,7 +145,7 @@
    "decision": 18,
    "espanol": 2,
    "acceso": 8,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "La cartera de Elaia es muy parecida al producto del cliente (Tabnine, Giskard, dottxt, Vertesia, Traefik, FlexAI, Qbeast, Nuclia) y DTS3 (134M€, mar-2026) invierte 1-13M€ en pre-seed y seed 'at the earliest'; fundador dos veces con exit. Pero es francés sin español documentado, base en Barcelona no confirmada, huella pública nula y sólo buzón de inversiones.",
   "por_que": [
@@ -173,7 +173,7 @@
    "decision": 11,
    "espanol": 15,
    "acceso": 12,
-   "ajuste": -4
+   "otros_aspectos": -4
   },
   "motivo": "Ha construido y sigue construyendo la categoría del cliente (Tinybird, infraestructura de datos en tiempo real para desarrolladores; CARTO; Vizzuality) y firma memos de K Fund con el marco de 'infraestructura fundacional' (MITO, pre-seed); K Fund entra desde 100k€ y ya coinvirtió en Causa Prima y 2501. Reservas: su cargo de GP no está confirmado (web: 'Product & Technology'), sigue como COO de Tinybird y posible conflicto si el stack toca datos en tiempo real.",
   "por_que": [
@@ -201,7 +201,7 @@
    "decision": 16,
    "espanol": 15,
    "acceso": 12,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Criterio escrito contra la tracción ('your journey and vision even more than your results'), lidera seeds de 200k-2M USD, Potato AI (agentes científicos autónomos) en cartera y tesis 'tools that 10x the output of everyone'; nacido en México, buzón público. Reservas: tesis de human enablement (no infraestructura), fondo de ~26M sin Fund II confirmado y sin infra en cartera.",
   "por_que": [
@@ -229,7 +229,7 @@
    "decision": 3,
    "espanol": 15,
    "acceso": 7,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Cofundó y vendió a Stripe Okay, una empresa de efectividad de ingeniería (el problema exacto del harness), y KP confirma que habla español; pero es Operating Partner sin capacidad de invertir, su actividad ángel (10-50k) no consta desde 2023 y no tiene email. Evaluador y campeón interno en Kleiner Perkins, no capital.",
   "por_que": [
@@ -256,7 +256,7 @@
    "decision": 14,
    "espanol": 5,
    "acceso": 9,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Su mandato coincide punto por punto: pre-seed y seed exclusivos, 500k-3M USD, cofundador técnico obligatorio, 'AI-native tools for power users' y 'companies OpenAI won't kill', con un test de rearquitectura de costes que es el marco natural para el '90% mejor'. Reservas: tamaño del fondo y cierre no públicos, sin inversiones verificables aún, herencia colombiana materna pero español no documentado, sin email.",
   "por_que": [
@@ -284,7 +284,7 @@
    "decision": 3,
    "espanol": 15,
    "acceso": 12,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Su ensayo 'The End of Coding?' (mayo 2026) es prácticamente el pitch del cliente (del código a 'intención, restricciones, arquitectura y verificación'; el riesgo pasa a 'specification errors') y respaldó Alinia AI (guardrails) junto a Delangue, Wolf y Vinyals; español de Barcelona con email público. Pero una sola inversión, sin vehículo y C-level en Expedia desde diciembre de 2025: advisor, no capital.",
   "por_que": [
@@ -311,7 +311,7 @@
    "decision": 10,
    "espanol": 15,
    "acceso": 12,
-   "ajuste": -3
+   "otros_aspectos": -3
   },
   "motivo": "BStartup 10 invierte pre-tracción con criterio explícito de 'fuerte base técnica o científica' y lideró con Inveready la primera ronda de Qbeast (spin-off del BSC, infraestructura de datos sin producto comercial); vehículo evergreen sin presión de exit. Reservas: ticket de 100-200k€ (coinversor, no líder), vehículo bancario con comité, y ella dirige el programa más que originar deals.",
   "por_que": [

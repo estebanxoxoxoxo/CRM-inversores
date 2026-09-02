@@ -6,7 +6,7 @@
    "decision": 17,
    "espanol": 3,
    "acceso": 7,
-   "ajuste": -3
+   "otros_aspectos": -3
   },
   "motivo": "Ingeniera (MIT CS) que declara invertir en deep/frontier tech y tiene PLCs.ai (generación de código con IA), MarkeTeam.ai (agentes autónomos) y memQ en cartera; pero el fondo exige MVP completo y tracción inicial, cheques de 200k-2M en seed/Serie A, Fund II de 2021 sin Fund III, sin evidencia de español y sin email.",
   "por_que": [
@@ -34,7 +34,7 @@
    "decision": 16,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": -2
+   "otros_aspectos": -2
   },
   "motivo": "Su tesis es literalmente infraestructura de IA (datos y workflows, despliegue e inferencia, optimización de cómputo y redes) en seed y Serie A, con Hedgehog (open networking para IA) en 2026; cubano de nacimiento, español materno, preside el comité y construyó dos compañías de infraestructura. Reservas: fondo pequeño y en captación (Form D 20,2M frente a 75M objetivo) y no confundir con el Manny Medina de Outreach.",
   "por_que": [
@@ -62,7 +62,7 @@
    "decision": 20,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": -2
+   "otros_aspectos": -2
   },
   "motivo": "Española, doctora en ingeniería eléctrica con 14 patentes y gestora de un fondo cuyo producto principal (PearX) escribe 500k-2M USD a equipos sin tracción; publica 'Investing before the idea' y fue seed de Vals AI (evaluación de modelos). Reservas: fondo generalista, PearX exige 12 semanas en la Bahía, Fondo V no confirmado.",
   "por_que": [
@@ -90,7 +90,7 @@
    "decision": 14,
    "espanol": 15,
    "acceso": 14,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Una puerta pre-seed institucional en España para una startup sin tracción: K Founders Preseed II (20M€) existe para empresas de menos de seis meses, sin DD técnica, con decisión en tres semanas, y ya respaldó 2501 y Causa Prima. Reservas: ticket ~300k, co-invierte sin liderar, fondo generalista y su foco personal es logística, foodtech y fintech.",
   "por_que": [
@@ -118,7 +118,7 @@
    "decision": 10,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": 0
+   "otros_aspectos": 0
   },
   "motivo": "Lideró en a16z la Serie A de Cursor y los seeds de Thinking Machines y Black Forest Labs (equipos sin producto); hoy evalúa agentes de uso de ordenador en sandbox, mexicano confirmado (Tec de Monterrey) con email público. Reserva: ya no está en a16z; es ángel independiente con cheque pequeño y dedicación principal a investigación.",
   "por_que": [
@@ -146,7 +146,7 @@
    "decision": 12,
    "espanol": 15,
    "acceso": 13,
-   "ajuste": -8
+   "otros_aspectos": -8
   },
   "motivo": "Invierte en la primera ronda institucional con preferencia por fundadores técnicos y entiende la cadena del silicio (800M USD de compras en Tesla y Apple), con email público; pero su cartera es IA aplicada vertical sin dev tools, el fondo no publica tamaño ni ticket y Mexia es el contacto primario de Nido.",
   "por_que": [
@@ -173,7 +173,7 @@
    "decision": 11,
    "espanol": 3,
    "acceso": 7,
-   "ajuste": -6
+   "otros_aspectos": -6
   },
   "motivo": "Playground entra pre-formación ('between improbable and impossible') y ella puede auditar el claim del 90% leyendo arquitectura (PhD BAIR, HPC en Oak Ridge y LBNL); pero su mandato es cuántica y cómputo físico con vínculo obligatorio a Nuevo México, es Principal, latina confirmada sin español documentado y sin email.",
   "por_que": [
@@ -201,7 +201,7 @@
    "decision": 20,
    "espanol": 6,
    "acceso": 5,
-   "ajuste": -6
+   "otros_aspectos": -6
   },
   "motivo": "Cartera muy solapada con el cliente (consejero de Cursor, Convex, Braintrust, Distributional, Fivetran) y el precedente intelectual perfecto ('The Cost of Cloud'); fundador técnico que valora benchmarks y arquitectura. Pero nacido en España sin español documentado, entra en Series A/B, acceso en frío casi imposible y conflicto potencial por el consejo de Cursor.",
   "por_que": [
@@ -229,7 +229,7 @@
    "decision": 3,
    "espanol": 15,
    "acceso": 8,
-   "ajuste": -3
+   "otros_aspectos": -3
   },
   "motivo": "Muy bien conectado en el ecosistema dev tools (Vercel, Neon, Clerk, Together AI, Braintrust, Supabase), pero HyperGrowth no despliega capital (sweat equity en Series A-E post-PMF), su cheque ángel es de 5-25k con una sola inversión documentada y su especialidad es exactamente lo que el cliente aún no tiene: crecimiento y usuarios.",
   "por_que": [
@@ -255,7 +255,7 @@
    "decision": 18,
    "espanol": 15,
    "acceso": 12,
-   "ajuste": -6
+   "otros_aspectos": -6
   },
   "motivo": "Capital permanente, 'uncommon patience' y compra de riesgo técnico severo antes de cualquier tracción (Commonwealth Fusion en 2018), argentino en Miami con buzón de pitch público; pero las seis áreas del fondo son hardware o ciencia y la cartera no tiene ninguna empresa de IA ni de software.",
   "por_que": [
@@ -283,7 +283,7 @@
    "decision": 10,
    "espanol": 15,
    "acceso": 11,
-   "ajuste": -4
+   "otros_aspectos": -4
   },
   "motivo": "CTO fundador de Auth0 que invierte cheques de 5-50k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes (Vercel 2019, Tinybird, Keycard 2025, Luzid, Veria Labs con Paul Graham); argentino, español nativo. Reservas: fuera de región (Buenos Aires), cheque pequeño que no lidera, rol operativo 2026 por confirmar.",
   "por_que": [
@@ -311,7 +311,7 @@
    "decision": 20,
    "espanol": 3,
    "acceso": 6,
-   "ajuste": -10
+   "otros_aspectos": -10
   },
   "motivo": "M12 declara 'Deep Tech & Systems' y developer tools, entró en la seed pre-producto de 60M USD de Entire (red git para agentes) y ella modera paneles sobre 'agentic SDLC'; pero eso la hace inversora de un competidor directo del harness, su centro real es Serie A/B, el fondo está alineado con Azure, sin español documentado y sin email.",
   "por_que": [

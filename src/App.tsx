@@ -60,7 +60,7 @@ export default function App() {
       <div className="layout">
         <FiltersPanel filters={filters} onChange={setFilters} investors={investors} />
         <main className="results">
-          <InvestorList investors={visible} selectedId={selectedId} onSelect={setSelectedId} />
+          {status === "loading" ? <p className="empty">Cargando desde Firestore…</p> : <InvestorList investors={visible} selectedId={selectedId} onSelect={setSelectedId} />}
         </main>
         <InvestorDetail investor={selected} selectedId={status === "ready" ? selectedId : null} onClose={close} />
       </div>

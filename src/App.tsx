@@ -1,122 +1,60 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import { useCallback, useEffect, useMemo, useState } from "react";
+import DetalleInversor from "./components/DetalleInversor";
+import PanelFiltros from "./components/Filtros";
+import ListaInversores from "./components/ListaInversores";
+import { cargarIndice, suscribirFuente, type Fuente } from "./lib/datos";
+import { aplicarFiltros, filtrosAUrl, filtrosDesdeUrl, type Filtros } from "./lib/filtros";
+import type { Indice } from "./types/inversor";
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [indice, setIndice] = useState<Indice | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const [fuente, setFuente] = useState<Fuente | null>(null);
+  const [filtros, setFiltros] = useState<Filtros>(() => filtrosDesdeUrl());
+  const [seleccionado, setSeleccionado] = useState<string | null>(() => new URLSearchParams(window.location.hash.slice(1)).get("id"));
+
+  useEffect(() => suscribirFuente(setFuente), []);
+  useEffect(() => {
+    cargarIndice()
+      .then(setIndice)
+      .catch((e: unknown) => setError(e instanceof Error ? e.message : String(e)));
+  }, []);
+  useEffect(() => filtrosAUrl(filtros), [filtros]);
+  useEffect(() => {
+    window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}${seleccionado ? `#id=${seleccionado}` : ""}`);
+  }, [seleccionado]);
+
+  const visibles = useMemo(() => (indice ? aplicarFiltros(indice.perfiles, filtros) : []), [indice, filtros]);
+  const cerrar = useCallback(() => setSeleccionado(null), []);
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+    <div className="app">
+      <header className="cabecera">
+        <h1>CRM inversores</h1>
+        <p className="cabecera-info">
+          {indice ? (
+            <>
+              <strong>{visibles.length}</strong> de {indice.total} perfiles · índice del {indice.generado}
+            </>
+          ) : error ? (
+            <span className="error">{error}</span>
+          ) : (
+            "Cargando…"
+          )}
+          {fuente && (
+            <span className={`fuente fuente-${fuente}`} title={fuente === "local" ? "Leyendo los JSON de /data (Firestore no disponible o no configurado)" : "Leyendo de Firestore"}>
+              {fuente === "firestore" ? "Firestore" : "datos locales"}
+            </span>
+          )}
+        </p>
+      </header>
+      <div className="cuerpo">
+        <PanelFiltros filtros={filtros} onChange={setFiltros} perfiles={indice?.perfiles ?? []} />
+        <main className="resultados">
+          <ListaInversores perfiles={visibles} seleccionado={seleccionado} onSeleccionar={setSeleccionado} />
+        </main>
+        <DetalleInversor id={seleccionado} onCerrar={cerrar} />
+      </div>
+    </div>
+  );
 }
-
-export default App

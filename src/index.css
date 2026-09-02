@@ -85,6 +85,49 @@ h2 {
   opacity: 0.5;
   cursor: default;
 }
+
+/* Dialog */
+.dialog {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  width: min(440px, 90vw);
+  color: var(--text);
+  background: var(--panel);
+}
+.dialog::backdrop {
+  background: rgba(28, 34, 48, 0.35);
+}
+.dialog h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+.dialog p {
+  margin: 0 0 8px;
+}
+.dialog label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 12px 0 16px;
+  font-weight: 600;
+}
+.dialog label .small {
+  font-weight: 400;
+}
+.dialog input {
+  font: inherit;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  width: 140px;
+}
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 14px;
+}
 .error {
   color: #b91c1c;
 }

@@ -8,7 +8,14 @@ import typeSource from "../types/investor.ts?raw";
 import type { Investor } from "../types/investor";
 
 export const EXAMPLE_MIN_LEVEL = 80;
+export const DEFAULT_COUNT = 30;
+export const MAX_COUNT = 500;
 export const MISSING_TOKEN = "<VITE_INGEST_TOKEN no configurado>";
+
+export interface PromptOptions {
+  /** How many new investors the prompt asks for. */
+  count: number;
+}
 
 export interface ResearchPrompt {
   text: string;
@@ -27,7 +34,8 @@ function fill(template: string, values: Record<string, string>): string {
   return Object.entries(values).reduce((text, [key, value]) => text.replaceAll(`{{${key}}}`, () => value), template);
 }
 
-export function buildResearchPrompt(investors: Investor[]): ResearchPrompt {
+export function buildResearchPrompt(investors: Investor[], options: PromptOptions = { count: DEFAULT_COUNT }): ResearchPrompt {
+  const count = Math.min(Math.max(1, Math.trunc(options.count) || DEFAULT_COUNT), MAX_COUNT);
   const token = (import.meta.env.VITE_INGEST_TOKEN as string | undefined) || "";
   const endpoint = ingestEndpoint();
   const excluded = investors.map((i) => `- ${i.name} · ${i.linkedin || "sin LinkedIn"} · ${i.email || "sin email"}`);
@@ -39,6 +47,7 @@ export function buildResearchPrompt(investors: Investor[]): ResearchPrompt {
       return "```json\n" + JSON.stringify(profile, null, 2) + "\n```";
     });
   const text = fill(brief, {
+    COUNT: String(count),
     TYPE_SOURCE: typeSource.trim(),
     ENDPOINT: endpoint,
     TOKEN: token || MISSING_TOKEN,

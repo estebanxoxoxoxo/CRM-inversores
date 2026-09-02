@@ -17,11 +17,8 @@
     "Vehículo evergreen sin tamaño publicado (~50M USD según fuente terciaria)."
   ],
   "linkedin": "https://www.linkedin.com/in/matiasmosse/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web del fondo: https://starlight.vc/ | Contacto: https://starlight.vc/contact-us/ | X/Twitter del fondo: https://x.com/StarlightVC_ | LinkedIn del fondo: https://www.linkedin.com/company/starlightventures | Crunchbase: https://www.crunchbase.com/person/matias-mosse | Signal NFX: https://signal.nfx.com/investors/matias-mosse | PitchBook: https://pitchbook.com/profiles/investor/110009-35 | Bloomberg: https://www.bloomberg.com/profile/person/20993735 | AngelList: https://angel.co/u/matias-mosse",
   "email": "pitch@starlight.vc",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "El email del fondo para pitches, pitch@starlight.vc, aparece en la página de contacto pública https://starlight.vc/contact-us/ y en resultados de búsqueda; es la vía oficial y verificada, pero no es su email personal. El personal mmosse@starlight.vc se deduce del patrón FLast@starlight.vc documentado por el agregador LeadIQ (https://leadiq.com/c/starlight-ventures/5d0c00041f00001301ecdb5f/email-format); es un agregador de datos, NO una fuente primaria, por lo que se marca como inferido y no verificado. Recomendación: usar pitch@starlight.vc y el formulario de fundadores de la web. | email público del fondo para fundadores). Personal probable: mmosse@starlight.vc",
   "por_que_es_interesante": [
     "Estructura única: vehículo evergreen 'permanent by design' que iguala horizonte del capital y del trabajo.",
     "Compra riesgo técnico antes de tracción: fusión, cómputo en ADN (Catalog), fotónica cuántica (Ephos).",
@@ -92,6 +89,24 @@
     "https://leadiq.com/c/starlight-ventures/5d0c00041f00001301ecdb5f/email-format",
     "https://superscout.co/investor/starlight-ventures"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "El email del fondo para pitches, pitch@starlight.vc, aparece en la página de contacto pública https://starlight.vc/contact-us/ y en resultados de búsqueda; es la vía oficial y verificada, pero no es su email personal. El personal mmosse@starlight.vc se deduce del patrón FLast@starlight.vc documentado por el agregador LeadIQ (https://leadiq.com/c/starlight-ventures/5d0c00041f00001301ecdb5f/email-format); es un agregador de datos, NO una fuente primaria, por lo que se marca como inferido y no verificado. Recomendación: usar pitch@starlight.vc y el formulario de fundadores de la web.",
+      "Email público del fondo para fundadores. Personal probable: mmosse@starlight.vc"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: https://starlight.vc/",
+      "Contacto: https://starlight.vc/contact-us/",
+      "X/Twitter del fondo: https://x.com/StarlightVC_",
+      "LinkedIn del fondo: https://www.linkedin.com/company/starlightventures",
+      "Crunchbase: https://www.crunchbase.com/person/matias-mosse",
+      "Signal NFX: https://signal.nfx.com/investors/matias-mosse",
+      "PitchBook: https://pitchbook.com/profiles/investor/110009-35",
+      "Bloomberg: https://www.bloomberg.com/profile/person/20993735",
+      "AngelList: https://angel.co/u/matias-mosse"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -119,7 +134,6 @@
     "motivo_v1": "Capital permanente y tolerancia al riesgo técnico, pero las seis áreas del fondo son hardware o ciencia y la cartera no tiene ninguna empresa de IA ni software."
   },
   "nombre_original": "Matias Mosse",
-  "email_original": "pitch@starlight.vc (email público del fondo para fundadores). Personal probable: mmosse@starlight.vc",
   "textos_v1": {
     "por_que_es_interesante": "Su valor para esta startup no es sectorial sino estructural. Starlight es de los poquísimos vehículos en EE.UU. que declara por escrito capital permanente y “uncommon patience”, y que compra riesgo técnico severo antes de cualquier tracción comercial: entró en Commonwealth Fusion Systems en 2018, cuando no existía ni un reactor ni un cliente. Mosse es argentino, español nativo, opera desde Miami y su red de asesores técnicos es real (evalúan ciencia, no métricas). Si la startup consigue enmarcar su stack IA-nativo como un problema de física del cómputo (energía por token, límites de la arquitectura actual, arquitectura novedosa) y no como software empresarial, el encaje mejora mucho. Ángulo de contacto: escribir en español a pitch@starlight.vc con un memo técnico corto y benchmarks reproducibles; apoyarse en su cartera de computación no convencional (Catalog, almacenamiento de datos en ADN; Ephos, chips fotónicos cuánticos) como precedente de que sí compran arquitecturas de cómputo nuevas.",
     "tesis_de_inversion": "Starlight invierte en “breakthrough science and technology applied to the challenges humanity has no choice but to solve, including the ones we haven’t anticipated yet”. Sus áreas declaradas en la web (2026) son seis y todas de hardware o ciencia: energía de fusión, infraestructura espacial, computación cuántica, materiales críticos, descarbonización industrial y ciencias de la vida. Su marco de riesgo es explícitamente contrario al del venture de software: “Breakthrough innovation often requires meaningful capital risk and uncommon patience”. Buscan “exceptional founders — people with technical rigor, sound judgment, and ability to execute”. La pieza estructural más distintiva es su capital: “permanent by design — free of the structural constraints that force other firms to optimize for timelines rather than outcomes”; el vehículo actual es evergreen, diseñado para que “el horizonte del capital coincida con el horizonte del trabajo”, y se complementa con SPVs de coinversión para seguir a las mejores empresas durante todo el arco. Mosse se ha especializado además en estructurar capital stacks multicapa que combinan venture con project finance, deuda, programas gubernamentales y offtake corporativo, y el fondo se posiciona como líder de opinión sobre cómo financiar deep tech “from lab to scale”.",

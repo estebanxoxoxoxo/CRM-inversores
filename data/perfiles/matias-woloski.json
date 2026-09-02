@@ -17,11 +17,8 @@
     "11-20 posiciones registradas según la fuente."
   ],
   "linkedin": "https://www.linkedin.com/in/matiaswoloski/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/woloski (@woloski) | Blog en Auth0: https://auth0.com/blog/authors/matias-woloski/ | Blog en Okta: https://www.okta.com/blog/author/matias-woloski/ | Signal NFX: https://signal.nfx.com/investors/matias-woloski | Crunchbase: https://www.crunchbase.com/person/matias-woloski | Tracxn: https://tracxn.com/d/people/matias-woloski/ | Dealroom: https://app.dealroom.co/investors/matias_woloski | Amazon (autor de libros técnicos): https://www.amazon.com/Matias-Woloski/e/B00BJ4WRFM",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Revisados su LinkedIn público, X, blogs de Auth0 y Okta, y fichas de inversor (Signal NFX, Crunchbase, Tracxn, Dealroom): ninguna publica dirección de correo. No invierte desde un fondo con dominio propio, por lo que no hay patrón deducible. Su canal público directo es X (@woloski).",
   "por_que_es_interesante": [
     "Ha construido una plataforma para desarrolladores desde cero y sin tracción (Auth0, 6.500M USD): sabe que la métrica temprana correcta es adopción de developers, no ingresos.",
     "Keycard (identidad y permisos para agentes de IA, 2025): financia el problema de control de agentes que ejecutan código.",
@@ -96,6 +93,22 @@
     "https://innovaciondigital360.com/pago-electronico/rintin-startup-argentina-comercio-informal-latam",
     "https://www.crunchbase.com/person/matias-woloski"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Revisados su LinkedIn público, X, blogs de Auth0 y Okta, y fichas de inversor (Signal NFX, Crunchbase, Tracxn, Dealroom): ninguna publica dirección de correo. No invierte desde un fondo con dominio propio, por lo que no hay patrón deducible. Su canal público directo es X (@woloski)."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/woloski (@woloski)",
+      "Blog en Auth0: https://auth0.com/blog/authors/matias-woloski/",
+      "Blog en Okta: https://www.okta.com/blog/author/matias-woloski/",
+      "Signal NFX: https://signal.nfx.com/investors/matias-woloski",
+      "Crunchbase: https://www.crunchbase.com/person/matias-woloski",
+      "Tracxn: https://tracxn.com/d/people/matias-woloski/",
+      "Dealroom: https://app.dealroom.co/investors/matias_woloski",
+      "Amazon (autor de libros técnicos): https://www.amazon.com/Matias-Woloski/e/B00BJ4WRFM"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -121,7 +134,6 @@
     "motivo_v1": "Cofundador y ex-CTO de Auth0; ángel recurrente en developer infrastructure (Vercel 2019, Keycard 2025 identidad para agentes, Tinybird), coinvierte con Rauch; español nativo. Fuera de región (Buenos Aires), cheque 5-50k, rol 2026 por confirmar."
   },
   "nombre_original": "Matías Woloski",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es el mejor encaje temático puro del lote: un CTO fundador de una compañía de infraestructura para desarrolladores de 6.500 M USD, que invierte cheques de 5-50 k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes. Vercel (2019), Tinybird (2021), Keycard (2025, identidad para agentes de IA), Luzid (2025, automatización de desarrollo con IA), Autonoma AI, NanoCo AI, Veria Labs (2026, con Paul Graham). Es alguien que ha vivido en carne propia la construcción de una plataforma para desarrolladores desde cero y sin tracción, y que sabe que la métrica temprana correcta es la adopción de developers, no los ingresos. Es argentino, hablante nativo de español, y opera desde Buenos Aires: la comunicación puede ser íntegramente en español y sin fricción cultural. Ángulo de contacto: X (@woloski), mensaje técnico y corto, enfocado en el problema de infraestructura y en el ángulo de identidad, permisos y control de agentes que ejecutan código —el tema que él mismo está financiando en Keycard.",
     "tesis_de_inversion": "Woloski invierte donde ha construido: infraestructura para desarrolladores, identidad y datos. La lectura de su cartera es inequívoca. En mayo de 2019 entró en la Serie A de Vercel (16 M USD) —la compañía que define hoy la infraestructura de desarrollo frontend. En 2021 empezó a invertir sistemáticamente a través de Tinybird (infraestructura de datos en tiempo real). En octubre de 2025 fue ángel en Keycard, la plataforma de identidad y acceso para agentes de IA que salió de sigilo con 38 M USD (seed de 8 M cliderada por a16z y Boldstart, más Serie A de 30 M liderada por Acrew): la lista de ángeles de esa ronda es un quién es quién de identidad e infraestructura —Ian Andrews (CRO de Groq), Ryan Carlson (presidente de Chainguard), Emilio Escobar (CISO de Datadog), Karl McGuinness (ex-Chief Product Architect de Okta) y él. En septiembre de 2025 entró en Luzid (herramientas de automatización de desarrollo basadas en IA para implantaciones empresariales) y en 2025-2026 en Autonoma AI, NanoCo AI y Veria Labs (seed de 3,2 M USD en febrero de 2026, con Y Combinator y Paul Graham como coinversores). Sus coinversores recurrentes son Paul Graham, Guillermo Rauch, Gokul Rajaram, Wences Casares, Zane Lackey y Manu Ginóbili. Su ticket es de 5-50 k USD, punto dulce 25 k, en pre-seed, seed y Serie A. No publica tesis escrita, pero su declaración en el podcast Startupeable resume su filosofía: 'lo que uno aprende durante el tiempo previo a emprender es la única ventaja competitiva que tenemos'.",

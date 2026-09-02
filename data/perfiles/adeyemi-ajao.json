@@ -17,11 +17,8 @@
     "Fondos vigentes: Seed & Series A Fund 4 y Series B Fund 2, 850M USD (jun-2026); 2.600M USD bajo gestión."
   ],
   "linkedin": "https://www.linkedin.com/in/adeyemiajao",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web del fondo: https://base10.vc/ | Forbes: https://www.forbes.com/profile/adeyemi-ajao/ | VC Sheet: https://www.vcsheet.com/who/adeyemi-ajao | Podcast en español (Startupeable): https://podcasts.apple.com/us/podcast/la-ia-compite-por-n%C3%B3mina-no-por-software-ade-ajao-base10/id1547337414?i=1000760257335 | Handle de X/Twitter no confirmado en fuentes públicas",
   "email": "partners@base10.vc",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "Es el buzón general y público del fondo, citado como la mejor vía de contacto en VC Sheet (https://www.vcsheet.com/who/adeyemi-ajao y https://www.vcsheet.com/fund/base10-partners) y en Private Equity List. NO es el email personal de Adeyemi Ajao, que no se ha localizado en ninguna fuente pública. Base10 no publica direcciones individuales de socios.",
   "por_que_es_interesante": [
     "Español de origen (Madrid, Tuenti, Cabify, Jobandtalent) y entrevistado en español en 2026: el vínculo hispanohablante más verificable de la lista.",
     "Lideró la Serie B de 44M USD de HappyRobot (agentes de IA para logística, fundadores españoles): respalda a técnicos españoles en agentes.",
@@ -89,6 +86,19 @@
     "https://urbangeekz.com/2026/06/black-led-vc-firm-base10-partners-raises-850m-across-two-funds/",
     "https://afrotech.com/base-10-a-vc-firm-raises-850m-to-invest-in-automation-of-real-economy"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Es el buzón general y público del fondo, citado como la mejor vía de contacto en VC Sheet (https://www.vcsheet.com/who/adeyemi-ajao y https://www.vcsheet.com/fund/base10-partners) y en Private Equity List. NO es el email personal de Adeyemi Ajao, que no se ha localizado en ninguna fuente pública. Base10 no publica direcciones individuales de socios."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: https://base10.vc/",
+      "Forbes: https://www.forbes.com/profile/adeyemi-ajao/",
+      "VC Sheet: https://www.vcsheet.com/who/adeyemi-ajao",
+      "Podcast en español (Startupeable): https://podcasts.apple.com/us/podcast/la-ia-compite-por-n%C3%B3mina-no-por-software-ade-ajao-base10/id1547337414?i=1000760257335",
+      "Handle de X/Twitter no confirmado en fuentes públicas"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -114,7 +124,6 @@
     "motivo_v1": "Español nativo y capital fresco, pero tesis de automatización de la economía real (logística, nóminas), no infra horizontal ni dev tools; su deal de agentes fue Series B. No es indiscutible."
   },
   "nombre_original": "Adeyemi \"Ade\" Ajao",
-  "email_original": "partners@base10.vc",
   "textos_v1": {
     "por_que_es_interesante": "Es el inversor de la lista con el vínculo más fuerte y verificable con el ecosistema hispanohablante: español de origen, formado en Madrid, fundador de Tuenti, inversor fundador de Cabify y Jobandtalent, y entrevistado en español en 2026 en Startupeable. Ha demostrado además que respalda a fundadores técnicos españoles en IA de agentes: Base10 lideró la Series B de 44M USD de HappyRobot en septiembre de 2025, empresa fundada por los españoles Pablo y Javi Palafox y Luis Paarup que vende agentes de IA a la logística. Tiene dinero fresco (850M USD cerrados en junio de 2026) y hace 10-15 semillas al año. El ángulo correcto no es venderle infraestructura horizontal —no es su tesis— sino demostrar con números qué coste laboral elimina el stack IA-nativo en un sector concreto de la economía real, y usar el harness de agentes como la maquinaria que lo hace posible. Escribirle en español, citando Tuenti y HappyRobot, es la vía natural.",
     "tesis_de_inversion": "Su tesis, repetida desde 2018, es “Investing in Automation for the Real Economy”: llevar tecnología a los sectores que mueven el mundo físico —logística, transporte, construcción, nóminas, seguros, retail, servicios financieros y sanidad— en lugar de a productos puramente digitales. Su formulación de 2026 es más agresiva: en el podcast en español Startupeable (8-abr-2026) el episodio se titula “La IA compite por nómina, no por software”, es decir, el valor de la IA está en sustituir coste laboral, no en añadir otra capa de software. En Crunchbase News resume el propósito de la firma como usar “technology to bring capabilities traditionally available to the top 1% to the other 99%”. El método es intensivo en investigación: rastrean más de 15.000 empresas, el 90% de las inversiones nace de investigación sectorial propia y dedican en torno a la mitad del tiempo a empresas que no están levantando ronda; han construido incluso un sistema interno de IA llamado Base11 para clasificar compañías. Aun así, insiste en que “the actual decision-making and winning is more human than ever”. Áreas declaradas para 2026: logística, nóminas, construcción, modelos de visión, world models e inteligencia de fabricación.",

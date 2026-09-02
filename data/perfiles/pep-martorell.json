@@ -17,11 +17,8 @@
     "El gestor sí tiene cerrados Invivo Ventures (60M€, 2024) e Invivo Ventures III en marcha."
   ],
   "linkedin": "https://www.linkedin.com/in/josepmariamartorellrodon/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Newsletter propio (la fuente más valiosa): https://pepmartorell.substack.com — 'DeepTech & Science', en español, más de 4.000 suscriptores, tres análisis semanales y un vídeo los domingos | X/Twitter: https://x.com/pepmartorell | Perfil histórico en el BSC: https://www.bsc.es/martorell-josep-maria | Esade Do Better: https://dobetter.esade.edu/en/author/josep-m-martorell | Web del fondo: https://invivo.partners | Entrevista en vídeo 'Un café con... Pep Martorell': https://www.youtube.com/watch?v=m4Qvuc3Fvtg | Podcast 'Hacia Afuera' con Omar Espejel, ep. 100: https://zeno.fm/podcast/hacia-afuera/episodes/100-pep-martorell-ex-barcelona-supercomputing-center-ciencia-poder-y-desigualdad-en-la-era-de-la-ia/ | Ponente en bizkaIA Summit 2026: https://bizkaiasummit.com/ponentes-2026/pep-martorell/",
   "email": "info@invivo.partners",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://invivo.partners — el gestor publica info@invivo.partners junto con la dirección (Passeig de Gràcia 54, Barcelona). No hay emails individuales de socios publicados, por lo que no se puede inferir un patrón con evidencia. La vía realista es LinkedIn o responder a su Substack. | buzón general publicado por el gestor). Email individual no localizado en fuentes públicas",
   "por_que_es_interesante": [
     "Doctor en Informática que operó MareNostrum 5: puede evaluar 'nuestro stack funciona un 90% mejor' sin benchmarks de terceros.",
     "Su Substack trata el comportamiento autónomo de agentes y sus fallos: no hay que explicarle el harness.",
@@ -95,6 +92,23 @@
     "https://dobetter.esade.edu/en/author/josep-m-martorell",
     "https://www.mtconsulting.es/agencia-conferenciantes/contratar-pep-martorell"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://invivo.partners — el gestor publica info@invivo.partners junto con la dirección (Passeig de Gràcia 54, Barcelona). No hay emails individuales de socios publicados, por lo que no se puede inferir un patrón con evidencia. La vía realista es LinkedIn o responder a su Substack.",
+      "Buzón general publicado por el gestor. Email individual no localizado en fuentes públicas"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Newsletter propio (la fuente más valiosa): https://pepmartorell.substack.com — 'DeepTech & Science', en español, más de 4.000 suscriptores, tres análisis semanales y un vídeo los domingos",
+      "X/Twitter: https://x.com/pepmartorell",
+      "Perfil histórico en el BSC: https://www.bsc.es/martorell-josep-maria",
+      "Esade Do Better: https://dobetter.esade.edu/en/author/josep-m-martorell",
+      "Web del fondo: https://invivo.partners",
+      "Entrevista en vídeo 'Un café con... Pep Martorell': https://www.youtube.com/watch?v=m4Qvuc3Fvtg",
+      "Podcast 'Hacia Afuera' con Omar Espejel, ep. 100: https://zeno.fm/podcast/hacia-afuera/episodes/100-pep-martorell-ex-barcelona-supercomputing-center-ciencia-poder-y-desigualdad-en-la-era-de-la-ia/",
+      "Ponente en bizkaIA Summit 2026: https://bizkaiasummit.com/ponentes-2026/pep-martorell/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -120,7 +134,6 @@
     "motivo_v1": "Físico, ex-BSC, escribe sobre agentes y cómputo, pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es 'IA + ciencia avanzada'. Reactivar cuando cierre el fondo."
   },
   "nombre_original": "Josep Maria 'Pep' Martorell Rodon",
-  "email_original": "info@invivo.partners (buzón general publicado por el gestor). Email individual no localizado en fuentes públicas.",
   "textos_v1": {
     "por_que_es_interesante": "Es, con diferencia, el inversor español con más credenciales técnicas para evaluar una afirmación del tipo «nuestro stack funciona un 90% mejor»: viene de dirigir la operación del MareNostrum 5 y de los primeros ordenadores cuánticos españoles, es doctor en Informática y escribe cada semana sobre modelos, agentes autónomos, cómputo distribuido frente a centralizado y ejecución local de IA. En su Substack trata explícitamente el «comportamiento autónomo de agentes de IA» y sus comportamientos no deseados, así que el concepto de un harness con nube de agentes no hay que explicárselo. Además viene de un mundo —spin-offs del BSC— donde lo normal es invertir sin tracción, con años de I+D por delante. La reserva importante es el mandato: el fondo se anuncia en la intersección de IA y ciencia avanzada (biotech, cuántica, fotónica, materiales), no en dev tools. El ángulo correcto no es «herramienta para desarrolladores» sino «infraestructura de software IA-nativa que hace posible la ingeniería y la ciencia de frontera», que es literalmente su tesis.",
     "tesis_de_inversion": "Martorell lidera Invivo Ventures AI, presentado como «el primer fondo en España totalmente dedicado a acelerar la innovación en la intersección de la inteligencia artificial y la ciencia avanzada»: biotecnología, computación cuántica, fotónica, nuevos materiales, nanotecnología y robótica. La tesis, en palabras del managing partner Luis Pareras, es rotunda: «Our bold thesis is simple: in the near future, no deeptech company will survive without integrating AI». Martorell la formula en español como «la IA es crítica para la supervivencia del deeptech» y «ninguna empresa en la frontera de la ciencia sobrevivirá sin integrar una plataforma de IA», sea cual sea su campo. En su entrevista con Saúl Gordillo lo resume: «la tecnología profunda ya no sobrevivirá sin utilizar la IA como plataforma». Busca fases iniciales «donde la frontera científica se encuentra con la inteligencia artificial», priorizando compañías con una estrategia creíble de IA integrada, y ve un multiplicador en el marco europeo: «el AI Act, el Chips Act y miles de millones de euros públicos». Es escéptico con el hype: anticipa un «punto de crítica y desilusión», señala rendimientos decrecientes en los modelos de lenguaje y demandas de cómputo insostenibles.",

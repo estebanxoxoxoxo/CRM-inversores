@@ -17,11 +17,8 @@
     "Adara lidera y co-lidera seeds."
   ],
   "linkedin": "https://es.linkedin.com/in/ngoulet",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha en el fondo: https://www.adara.vc/team/nico-goulet | Web del fondo: https://www.adara.vc | X del fondo: https://x.com/AdaraVentures | LinkedIn del fondo: https://www.linkedin.com/company/adaravc/ | Signal NFX: https://signal.nfx.com/investors/nicolas-goulet | Crunchbase: https://www.crunchbase.com/person/nicolas-goulet | Bloomberg profile (Adara Venture Partners) | No se le han localizado blog, newsletter ni cuenta personal activa de X; su exposición pública es menor que la de Alberto Gómez.",
   "email": "info@adara.vc",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://www.adara.vc/contact y https://www.adara.vc/team/nico-goulet — ambas páginas solo exponen Info@adara.vc y el typeform https://adaravc.typeform.com/to/HL6FbYAe | buzón general del fondo, público en adara.vc/contact). Email personal directo: no encontrado; Adara no publica emails individuales de socios y no existe ningún nombre@adara.vc publicado del que inferir patrón con fiabilidad",
   "por_que_es_interesante": [
     "Receptivo a arquitectura y horizonte largo: máster experimental en el MIT, fundador que fracasó (CityHop) y gestor que sobrevivió al crash de 2000.",
     "Criterio publicado: visión grande, ejecución rápida y 'the courage to stay the course'; 'founders I backed in 2015 should still be calling me in 2030'.",
@@ -89,6 +86,23 @@
     "https://www.adara.vc/portfolio/turingdream",
     "https://www.fundssociety.com/es/noticias/alternativos/adara-ventures-anuncia-el-primer-cierre-de-su-fondo-av4-en-75-millones-de-euros/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.adara.vc/contact y https://www.adara.vc/team/nico-goulet — ambas páginas solo exponen Info@adara.vc y el typeform https://adaravc.typeform.com/to/HL6FbYAe",
+      "Buzón general del fondo, público en adara.vc/contact. Email personal directo: no encontrado; Adara no publica emails individuales de socios y no existe ningún nombre@adara.vc publicado del que inferir patrón con fiabilidad"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha en el fondo: https://www.adara.vc/team/nico-goulet",
+      "Web del fondo: https://www.adara.vc",
+      "X del fondo: https://x.com/AdaraVentures",
+      "LinkedIn del fondo: https://www.linkedin.com/company/adaravc/",
+      "Signal NFX: https://signal.nfx.com/investors/nicolas-goulet",
+      "Crunchbase: https://www.crunchbase.com/person/nicolas-goulet",
+      "Bloomberg profile (Adara Venture Partners)",
+      "No se le han localizado blog, newsletter ni cuenta personal activa de X; su exposición pública es menor que la de Alberto Gómez."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -114,7 +128,6 @@
     "motivo_v1": "Cofundador de Adara e ingeniero (Centrale, MIT), pero es el socio con menor huella en IA y dev tools, 3 operaciones recientes y las tesis de IA las firma Gómez; 'Baring PE' no confirmado. Adara ya está cubierta por Gómez y Pillado."
   },
   "nombre_original": "Nico Goulet (Nicolas Goulet)",
-  "email_original": "info@adara.vc (buzón general del fondo, público en adara.vc/contact). Email personal directo: no encontrado; Adara no publica emails individuales de socios y no existe ningún nombre@adara.vc publicado del que inferir patrón con fiabilidad.",
   "textos_v1": {
     "por_que_es_interesante": "Es el socio 'de ingeniero' de Adara: máster del MIT en un laboratorio experimental, fundador que ya fracasó una vez (CityHop) y gestor que sobrevivió al crash de 2000. Eso lo hace receptivo a una conversación de arquitectura y de horizonte largo, no de métricas. Su criterio publicado —visión grande, ejecución rápida y 'the courage to stay the course'— y su promesa de que los fundadores de 2015 le sigan llamando en 2030 son exactamente lo contrario del inversor que pide 'todo servido'. Adara, su fondo, acaba de invertir en Airflows (IA determinista para empresa), TuringDream (orquestación multi-agente) y AppFactor (dev tools de IA), así que la tesis del cliente ya está validada dentro de la casa. Ángulo de contacto: Goulet es la puerta buena si el mensaje es de disciplina de ejecución y de por qué el equipo puede sostener una apuesta técnica durante años; conviene emparejarlo con el ángulo de producto que interesa a Gómez. Ojo: verificar la afirmación de 'Baring Private Equity' — no aparece en ninguna fuente pública consultada.",
     "tesis_de_inversion": "Invierte en early stage deep tech B2B donde la ingeniería es la ventaja competitiva: en su propia ficha declara foco en 'categories where engineering provides competitive advantage: cybersecurity, infrastructure software, and applied AI in regulated industries'. Su filtro sobre fundadores es explícito y de tres patas: 'vision big enough for a real outcome, execution — building, selling, hiring and firing fast — and the courage to stay the course'. Y su medida de éxito no es financiera sino relacional: 'my measure of success is simple: founders I backed in 2015 should still be calling me in 2030'. Comparte la tesis de casa de Adara —cuando la IA comoditiza la capa superficial del software, el valor cae hacia los datos propietarios, la confianza, la profundidad de dominio y los sistemas físicos— y los cuatro dominios del fondo (Capture, Secure, Compute, Connect). Startup Intros resume su especialidad como ciberseguridad, IA aplicada e infraestructura cloud vendidas a banca, seguros, retail y sectores tradicionales en transformación digital. Es el socio más orientado a la relación larga con el fundador y a la disciplina de ejecución; el discurso de producto/arquitectura de IA lo lleva más Alberto Gómez.",

@@ -17,11 +17,8 @@
     "Foundation Capital XI: 600M USD (mar-2025)."
   ],
   "linkedin": "https://www.linkedin.com/in/gonzalezrodolfo/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Perfil en el fondo: https://foundationcapital.com/team-members/rodolfo-gonzalez | X/Twitter: https://x.com/fifaifofo | Web personal: https://fifaifo.fo | Crunchbase: https://www.crunchbase.com/person/rodolfo-gonzalez | Signal NFX: https://signal.nfx.com/investors/rodolfo-gonzalez | Bloomberg: https://www.bloomberg.com/profile/person/19695333 | Ponente en Proof of Talk: https://www.proofoftalk.io/speakers/rodolfo-gonzalez | Ponente en Blockchain Expo Global: https://blockchain-expo.com/global/speaker/rodolfo-gonzalez/ | Sus ensayos en la web del fondo: https://foundationcapital.com/ideas/",
   "email": "rgonzalez@foundationcap.com",
   "email_estado": "público verificado",
-  "email_fuente": "Aparece publicado en su propia ficha de equipo en la web del fondo: https://foundationcapital.com/team-members/rodolfo-gonzalez . Ojo al dominio: el email usa foundationcap.com (no foundationcapital.com, que es el dominio web). El patrón del fondo es inicial+apellido@foundationcap.com.",
   "por_que_es_interesante": [
     "Foundation Capital: 80% de inversiones pre-ingresos y pre-producto; doctrina de dimensionar mercados que aún no existen.",
     "Historial de infraestructura profunda no obvia: Solana desde el principio y DoubleZero ('compute and storage scaled exponentially; network performance hasn't').",
@@ -89,6 +86,23 @@
     "https://www.linkedin.com/in/gonzalezrodolfo/",
     "https://en.wikipedia.org/wiki/Foundation_Capital"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Aparece publicado en su propia ficha de equipo en la web del fondo: https://foundationcapital.com/team-members/rodolfo-gonzalez . Ojo al dominio: el email usa foundationcap.com (no foundationcapital.com, que es el dominio web). El patrón del fondo es inicial+apellido@foundationcap.com."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en el fondo: https://foundationcapital.com/team-members/rodolfo-gonzalez",
+      "X/Twitter: https://x.com/fifaifofo",
+      "Web personal: https://fifaifo.fo",
+      "Crunchbase: https://www.crunchbase.com/person/rodolfo-gonzalez",
+      "Signal NFX: https://signal.nfx.com/investors/rodolfo-gonzalez",
+      "Bloomberg: https://www.bloomberg.com/profile/person/19695333",
+      "Ponente en Proof of Talk: https://www.proofoftalk.io/speakers/rodolfo-gonzalez",
+      "Ponente en Blockchain Expo Global: https://blockchain-expo.com/global/speaker/rodolfo-gonzalez/",
+      "Sus ensayos en la web del fondo: https://foundationcapital.com/ideas/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -114,7 +128,6 @@
     "motivo_v1": "GP de Foundation Capital (80% de inversiones pre-producto), firma la tesis de DoubleZero (infraestructura de red pre-comercial), mexicano, email público; pero su práctica formal es fintech y cripto y el socio natural de infra de IA es Ashu Garg."
   },
   "nombre_original": "Rodolfo Gonzalez",
-  "email_original": "rgonzalez@foundationcap.com",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente el mejor cruce disponible entre “fondo que invierte de verdad antes de la tracción” y “socio hispanohablante nativo”. Foundation Capital declara públicamente que el 80% de sus inversiones son pre-ingresos y pre-producto y que su trabajo es dimensionar mercados que aún no existen (“zero billion-dollar markets”): es exactamente el discurso que necesita una startup con un stack IA-nativo y un harness de agentes sin usuarios todavía. Rodolfo, además, tiene un historial de apuestas de infraestructura profunda y no obvia: Solana desde el principio y DoubleZero, una red física de rutas de fibra optimizadas cuyo argumento de inversión es literalmente “el cómputo y el almacenamiento escalaron exponencialmente; el rendimiento de red no”. Ese es el mismo tipo de argumento que sostiene un stack de software reoptimizado para IA. Ángulo de contacto: escribirle en español, presentar el stack como una reoptimización de sistemas (benchmarks, latencia, coste por unidad de trabajo) y no como producto; citar el ensayo de DoubleZero.",
     "tesis_de_inversion": "Invierte en servicios financieros e infraestructura cripto, y desde 2023-2024 en agentes de IA aplicados a flujos de trabajo operativos. Su idea vertebradora, expresada en la práctica fintech del fondo, es que los bancos “no funcionan con software: funcionan con humanos que fingen ser software”, y que los agentes de IA pueden sustituir esos flujos manuales en mercados financieros desatendidos. En cripto su convicción es de infraestructura, no de aplicación: firmó ensayos como “The era of opinionated L1s is here and Solana will win it on mobile”, “A technical history of blockchain design, innovation, and narratives” y, sobre todo, “DoubleZero: Scaling distributed systems through new internet rails”, donde el argumento es puramente de sistemas distribuidos: “Compute and storage have scaled exponentially. Network performance hasn’t”, y el mercado es “any workload where milliseconds matter” (blockchains, CDN, inferencia de IA, bases de datos, gaming). Encaja con la doctrina de la casa de “zero billion-dollar markets”: invertir en mercados que todavía no existen, proyectando dónde podría estar el mercado si la cosa llegara a existir. Foundation Capital declara más de 100 inversiones en IA en infraestructura, infraestructura de datos, developer tools, seguridad y aplicaciones, y evita explícitamente los laboratorios de modelos frontera.",

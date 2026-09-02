@@ -17,11 +17,8 @@
     "50+ startups en cartera."
   ],
   "linkedin": "https://www.linkedin.com/in/nicoaferr",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web personal: https://nicoaferr.com/ | X/Twitter: https://x.com/nicoaferr (@nicoaferr) | Crunchbase: https://www.crunchbase.com/person/nico-ferreyra-bf11 | Wellfound/AngelList: https://wellfound.com/p/nicoaferr y https://angel.co/p/nicoaferr | Ficha de ángel de dev tools: https://devtoolangels.com/ | Medium: https://medium.com/@LTV2CAC | Empresa: https://www.default.com/",
   "email": "nico@default.com",
   "email_estado": "patrón inferido (no verificado)",
-  "email_fuente": "https://www.zoominfo.com/p/Nico-Ferreyra/8250743654 muestra el email enmascarado 'n***@default.com'. No hay email personal publicado en nicoaferr.com ni en default.com. La vía de contacto que él mismo publica es X/Twitter (@nicoaferr) y su ficha en devtoolangels.com. | patrón inferido: ZoomInfo muestra 'n***@default.com' para su ficha de CEO de Default; no verificado directamente en fuente primaria",
   "por_que_es_interesante": [
     "Ficha en devtoolangels.com: 'early stage developer & data tools', cheques de 25-50k USD.",
     "Firma antes de la tracción: Browserbase (infra de navegador para agentes) y Bland eran productos sin usuarios al levantar.",
@@ -93,6 +90,22 @@
     "https://www.demandgenreport.com/industry-news/default-launches-ai-powered-inbound-sales-funnel-reveals-6-6m-seed-funding/8099/",
     "https://startupintros.com/orgs/browserbase"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.zoominfo.com/p/Nico-Ferreyra/8250743654 muestra el email enmascarado 'n***@default.com'. No hay email personal publicado en nicoaferr.com ni en default.com. La vía de contacto que él mismo publica es X/Twitter (@nicoaferr) y su ficha en devtoolangels.com.",
+      "Patrón inferido: ZoomInfo muestra 'n***@default.com' para su ficha de CEO de Default; no verificado directamente en fuente primaria"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web personal: https://nicoaferr.com/",
+      "X/Twitter: https://x.com/nicoaferr (@nicoaferr)",
+      "Crunchbase: https://www.crunchbase.com/person/nico-ferreyra-bf11",
+      "Wellfound/AngelList: https://wellfound.com/p/nicoaferr y https://angel.co/p/nicoaferr",
+      "Ficha de ángel de dev tools: https://devtoolangels.com/",
+      "Medium: https://medium.com/@LTV2CAC",
+      "Empresa: https://www.default.com/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -118,7 +131,6 @@
     "motivo_v1": "Ángel de dev y data tools (Browserbase, Dosu, Bland) con 50+ cheques de 25-50k, nacido en Córdoba; español no confirmado (emigró de niño), no lidera y su valor añadido es GTM."
   },
   "nombre_original": "Nico Ferreyra",
-  "email_original": "nico@default.com (patrón inferido: ZoomInfo muestra 'n***@default.com' para su ficha de CEO de Default; no verificado directamente en fuente primaria)",
   "textos_v1": {
     "por_que_es_interesante": "Es, de los seis perfiles del lote, el ángel con la tesis más literalmente alineada: 'early stage developer & data tools' con cheques de 25-50 k USD en pre-seed. Su cartera contiene exactamente el vecindario del cliente: Browserbase (infraestructura de navegador para agentes), Bland (voz IA), Dosu (agentes sobre repositorios), Runway, Delphi. Eso es evidencia dura de que firma antes de que exista tracción: Browserbase y Bland eran productos de infraestructura sin usuarios cuando levantaron. Además es fundador operativo de una empresa que se ha reposicionado como 'infraestructura para agentes en go-to-market' — habla el idioma de agentes y capa de datos. Ángulo de contacto: acercarse por X (@nicoaferr) o vía su ficha de devtoolangels.com, con un mensaje de una sola idea técnica (qué hace el harness de agentes que hoy no se puede hacer), sin pedir liderazgo de ronda, y aprovechando el vínculo cordobés/argentino como apertura personal, no como argumento.",
     "tesis_de_inversion": "Ferreyra invierte cheques pequeños y muy tempranos en 'personas e ideas no obvias'. En su propia web se define como 'an early believer in non-obvious people and ideas', y dice apoyar a quienes se cruza en el camino con pequeños cheques ángel; declara más de 50 startups en cartera. Su ficha en devtoolangels.com concreta el foco: 'early stage developer & data tools', con capacidad de ayudar en 'customer acquisition, fundraising guidance, and product strategy'. El patrón de cartera confirma la tesis: infraestructura para agentes (Browserbase), voz IA (Bland), datos y analítica (Equals, Integral, Doss), agentes de código y documentación (Dosu), y deep tech dura y de horizonte largo (Anduril, Varda Space, Azura). Es un perfil de ángel operador: aporta distribución y go-to-market, no due diligence técnica pesada, y entra en compañías con producto incipiente y cero o poca tracción. Su formación como inversor es explícita: fue Scout de Andreessen Horowitz (ene-2021 a ene-2023) y pasó por el Angel Track de First Round Capital, dos programas diseñados para desplegar cheques pre-seed en apuestas no consensuadas.",

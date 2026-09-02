@@ -17,11 +17,8 @@
     "Requisitos publicados: producto funcionando, tracción inicial y sinergia con Telefónica."
   ],
   "linkedin": "https://www.linkedin.com/in/andr%C3%A9s-saborido/",
-  "linkedin_nota": "existe también un perfil antiguo como Global Managing Director: https://es.linkedin.com/in/andrés-saborido-16949a8",
-  "otros_perfiles": "Web de Wayra España: https://www.wayra.es/ | Web global: https://wayra.com/ | Sala de prensa de Telefónica: https://www.telefonica.com/es/sala-comunicacion/ | Ficha de Wayra en 4YFN: https://www.4yfn.com/exhibitors/34402-wayra | Entrevista destacada en El Español/Disruptores: https://www.elespanol.com/invertia/disruptores/ecosistema-startup/aceleradoras/20250627/crear-campeones-tecnologicos-europeos-hace-falta-friccion-infraestructura-digital/1003743822225_0.html | No se le ha localizado newsletter, blog personal ni podcast propio.",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "No se ha localizado ningún email suyo en fuente pública primaria. Telefónica y Wayra no publican emails nominales de directivos; los canales oficiales son los formularios de convocatoria de https://www.wayra.es/ y https://wayra.com/ y la sala de prensa corporativa. Como no hay ningún email de otro directivo de Wayra publicado que permita deducir un patrón fiable, NO se propone ningún patrón inferido. Vía real de contacto: LinkedIn o el formulario de convocatoria de Wayra.",
   "por_que_es_interesante": [
     "Hispanohablante nativo, 15 años en el ecosistema y 20M€ para desplegar en 2026 con IA y ciberseguridad entre sus prioridades.",
     "Cheques recientes en deep tech y agentes: LuxQuanta (criptografía cuántica) y Capably (automatización agéntica).",
@@ -92,6 +89,22 @@
     "https://www.infobae.com/america/agencias/2026/06/01/wayra-apuesta-por-convertir-las-grandes-ideas-de-las-startups-en-servicios-para-los-ciudadanos/",
     "https://wayra.com/news/wayra-reune-en-madrid-a-200-inversores-con-una-cartera-de-mas-de-120-billones-de-dolares"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No se ha localizado ningún email suyo en fuente pública primaria. Telefónica y Wayra no publican emails nominales de directivos; los canales oficiales son los formularios de convocatoria de https://www.wayra.es/ y https://wayra.com/ y la sala de prensa corporativa. Como no hay ningún email de otro directivo de Wayra publicado que permita deducir un patrón fiable, NO se propone ningún patrón inferido. Vía real de contacto: LinkedIn o el formulario de convocatoria de Wayra."
+    ],
+    "linkedin": [
+      "Existe también un perfil antiguo como Global Managing Director: https://es.linkedin.com/in/andrés-saborido-16949a8"
+    ],
+    "otras": [
+      "Web de Wayra España: https://www.wayra.es/",
+      "Web global: https://wayra.com/",
+      "Sala de prensa de Telefónica: https://www.telefonica.com/es/sala-comunicacion/",
+      "Ficha de Wayra en 4YFN: https://www.4yfn.com/exhibitors/34402-wayra",
+      "Entrevista destacada en El Español/Disruptores: https://www.elespanol.com/invertia/disruptores/ecosistema-startup/aceleradoras/20250627/crear-campeones-tecnologicos-europeos-hace-falta-friccion-infraestructura-digital/1003743822225_0.html",
+      "No se le ha localizado newsletter, blog personal ni podcast propio."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -117,7 +130,6 @@
     "motivo_v1": "Wayra exige producto funcionando, tracción inicial y sinergia con Telefónica (venture client). Es el arquetipo que el cliente evita."
   },
   "nombre_original": "Andrés Saborido",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "El interés es real pero limitado y hay que ser honesto sobre por qué. A favor: es hispanohablante nativo, lleva quince años en el ecosistema, ha participado en más de 300 acuerdos de inversión, la IA y la ciberseguridad están entre sus cuatro prioridades declaradas para 2026, hay 20 millones de euros para desplegar este año, y su discurso público sobre infraestructura digital y megaclusters de computación conecta con la tesis del cliente. Ha invertido en LuxQuanta (criptografía cuántica, spin-off del ICFO, ronda de 8 millones de euros en octubre de 2025) y en Capably (automatización con agentes de IA, ronda semilla de 3,7 millones de euros en mayo de 2025 liderada por Boost Capital Partners), lo que confirma apetito por deep tech y por IA agéntica. EN CONTRA, y es determinante: los criterios publicados de Wayra exigen producto funcionando, tracción inicial y sinergia con el negocio de Telefónica, y el modelo 2026 es explícitamente 'venture client' — el valor se mide en contratos reales con el grupo. Para una startup pre-producto y sin usuarios, eso es exactamente el tipo de inversor que el cliente ha dicho que quiere evitar. Ángulo realista: no plantearlo como ronda de inversión sino como conversación de cliente/piloto a futuro, y mantenerlo en la lista solo como contacto de segundo orden.",
     "tesis_de_inversion": "Bajo su dirección, Wayra ha abandonado definitivamente el modelo de aceleradora tradicional para consolidarse como un Corporate Venture Capital de enfoque INDUSTRIAL, alineado con la estrategia 'Transform & Grow' de Telefónica. Las prioridades declaradas para 2026 son ciberseguridad, inteligencia artificial, redes y comunicaciones, y experiencia de usuario, concentrando la actividad en los mercados y tecnologías clave del grupo. El giro decisivo para evaluar el encaje es que Wayra prioriza el modelo 'venture client' sobre la valoración financiera: según el análisis de su modelo 2026, 'el valor no está en la valoración post-money, sino en contratos reales con Telefónica', y el acceso a los 380 millones de usuarios del grupo se presenta como potencialmente 'más valioso que cualquier ronda de financiación tradicional'. El foco declarado es IA APLICADA, no investigación teórica, y deep tech con casos de uso corporativos claros e integrables en el stack tecnológico de Telefónica. Saborido mide el éxito por encaje estratégico más que por métricas financieras: más de 400 startups han generado negocio a través de Wayra, vendiendo a clientes de Movistar o implementando soluciones internamente. Su discurso público sobre política tecnológica sí es afín a la infraestructura: sostiene que 'para crear campeones tecnológicos europeos, hace falta menos fricción y más infraestructura digital' y reclama que la UE y los gobiernos eliminen fricciones regulatorias y garanticen acceso a infraestructura crítica de computación como los megaclusters. También afirma que 'el deep tech europeo necesita mayor ambición'.",

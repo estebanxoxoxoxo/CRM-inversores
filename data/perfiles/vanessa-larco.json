@@ -17,11 +17,8 @@
     "Cambio radical respecto a NEA (2-50M USD, Series A/B)."
   ],
   "linkedin": "https://www.linkedin.com/in/vanessalarco/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Fondo: https://premise.vc | Crunchbase: https://www.crunchbase.com/person/vanessa-larco | Signal NFX (datos aún de su etapa NEA): https://signal.nfx.com/investors/vanessa-larco | Perfil de antigua alumna en Georgia Tech: https://www.cc.gatech.edu/people/vanessa-larco-cs-08 | Artículos suyos en Built In: https://builtin.com/authors/vanessa-larco | Perfil de ponente HumanX 2026: https://www.humanx.co/us/speakers/vanessa-larco | Perfil de ponente FinovateFall: https://informaconnect.com/finovatefall/speakers/vanessa-larco/ | Entrevistas: Crunchbase News https://news.crunchbase.com/seed/vanessa-larco-nea-premise-vc-investment-thesis-seed-ai/ , GTMnow https://gtmnow.com/vc-fund-startup-model-vanessa-larco-premise/ , All Raise (Medium) https://medium.com/allraise/vanessa-larco-from-product-guru-to-vc-powerhouse-6751cfa4f4c5 , podcast Women Who Build",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Premise VC no publica emails en su web (premise.vc devuelve contenido no indexable por herramientas automáticas y no se ha podido extraer ninguna dirección). Tampoco se ha localizado ningún email suyo en fuentes públicas (prensa, bios de ponente, Georgia Tech, Built In, GitHub). Al ser un fondo nuevo de dos personas no hay un patrón de dominio verificable a partir del email publicado de otro socio, por lo que NO se propone ninguno. La vía práctica es LinkedIn, el formulario de premise.vc, o una intro cálida vía su cartera de NEA.",
   "por_que_es_interesante": [
     "Mandato entero alineado: pre-seed/seed, 500k-3M USD, fundadores técnicos, herramientas IA-nativas; acaba de levantar y despliega.",
     "'Companies OpenAI won't kill': exige el foso que el cliente quiere discutir; test de si el producto rearquitectura la estructura de costes.",
@@ -94,6 +91,22 @@
     "https://www.vcuncovered.com/p/mercedes-bent-premise-ventures",
     "https://premise.vc"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Premise VC no publica emails en su web (premise.vc devuelve contenido no indexable por herramientas automáticas y no se ha podido extraer ninguna dirección). Tampoco se ha localizado ningún email suyo en fuentes públicas (prensa, bios de ponente, Georgia Tech, Built In, GitHub). Al ser un fondo nuevo de dos personas no hay un patrón de dominio verificable a partir del email publicado de otro socio, por lo que NO se propone ninguno. La vía práctica es LinkedIn, el formulario de premise.vc, o una intro cálida vía su cartera de NEA."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Fondo: https://premise.vc",
+      "Crunchbase: https://www.crunchbase.com/person/vanessa-larco",
+      "Signal NFX (datos aún de su etapa NEA): https://signal.nfx.com/investors/vanessa-larco",
+      "Perfil de antigua alumna en Georgia Tech: https://www.cc.gatech.edu/people/vanessa-larco-cs-08",
+      "Artículos suyos en Built In: https://builtin.com/authors/vanessa-larco",
+      "Perfil de ponente HumanX 2026: https://www.humanx.co/us/speakers/vanessa-larco",
+      "Perfil de ponente FinovateFall: https://informaconnect.com/finovatefall/speakers/vanessa-larco/",
+      "Entrevistas: Crunchbase News https://news.crunchbase.com/seed/vanessa-larco-nea-premise-vc-investment-thesis-seed-ai/ , GTMnow https://gtmnow.com/vc-fund-startup-model-vanessa-larco-premise/ , All Raise (Medium) https://medium.com/allraise/vanessa-larco-from-product-guru-to-vc-powerhouse-6751cfa4f4c5 , podcast Women Who Build"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -119,7 +132,6 @@
     "motivo_v1": "Premise VC: pre-seed/seed exclusivo 500k-3M con tesis de compañías que OpenAI no matará y cofundador técnico obligatorio; pero tamaño del fondo y cierre no públicos, sin inversiones verificables y español no confirmado (madre de Barranquilla)."
   },
   "nombre_original": "Vanessa Larco",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es la única de esta lista cuyo mandato entero —pre-seed y seed, 500K-3M USD, fundadores técnicos, herramientas IA-nativas— coincide punto por punto con lo que necesita el cliente, y además acaba de levantar fondo, así que está desplegando activamente. Su tesis de 'companies OpenAI won't kill' es exactamente la conversación de moat que el cliente quiere tener: no le hay que convencer de que hace falta un foso, ya lo exige. Su test de si el producto rearquitectura la estructura de costes (más rápido, más barato o más fácil, e idealmente dos de tres) es el marco natural para presentar una afirmación de '~90% mejor': si esa cifra se sostiene con metodología, es literalmente su criterio de decisión. Exige al menos un cofundador altamente técnico, lo cual juega a favor. Y su hilo conductor de ejecución es la velocidad de shipping, que es lo que demuestra un harness de agentes. Ángulo de contacto: encuadrar el producto como la infraestructura que permite 'out-shippear' a los laboratorios, con números de coste y latencia, y explicar por qué OpenAI no lo va a matar. Herencia colombiana confirmada por vía materna (Barranquilla), aunque su fluidez en español no está documentada públicamente.",
     "tesis_de_inversion": "Larco invierte en pre-seed y seed en fundadores técnicos que construyen 'AI-native tools for power users' y, en su formulación más citada, 'companies OpenAI won't kill': compañías con foso propio en espacios donde los laboratorios frontera fracasan o desprioritizan. Su requisito de equipo es explícito: 'At least one co-founder needs to be highly technical and accomplished', capaz de mantenerse al día con los frameworks de IA y de rehacer el roadmap cuando cambian las capacidades del modelo. Su test de producto —lo que Crunchbase News llama 'one big AI test'— es si el producto rearquitectura de verdad la estructura de costes: tiene que ser más rápido, más barato o más fácil que la alternativa, e idealmente dos de las tres cosas. Rechaza explícitamente los envoltorios de un solo modelo y prefiere fundadores que entienden la mecánica subyacente y saben optimizar entre varias soluciones. Considera la velocidad de producto como la ventaja crítica temprana, citando que Perplexity y ElevenLabs ganaron por 'out-shipping' a la competencia. Y ha definido siete rasgos de fundador de los que exige al menos dos, con énfasis en el fundador 'urgently dissatisfied', el que empuja al equipo más allá de lo que se creía posible sin confundirlo con ego. Opera el fondo como una startup: 'This is a startup, it's a startup, the product is a fund'.",

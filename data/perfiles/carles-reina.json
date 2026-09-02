@@ -17,11 +17,8 @@
     "Baobab Ventures: 15M USD, cierre único (nov-2025); antes 74 inversiones ángel desde 2017."
   ],
   "linkedin": "https://www.linkedin.com/in/carlesreina/",
-  "linkedin_nota": "versión pública indexada: https://uk.linkedin.com/in/carlesreina — ~50.000 seguidores; idiomas declarados: español, catalán e inglés, todos como 'native or bilingual proficiency'",
-  "otros_perfiles": "Web del fondo: https://baobabventures.vc/ | X/Twitter personal: https://x.com/Carles_Reina | X del fondo: https://x.com/baobab_ventures | Ficha como Venture Partner en Concept Ventures: https://concept.vc/team-members/carles-reina | Autor en el blog corporativo de ElevenLabs: https://elevenlabs.io/blog/authors/carles-reina | Ficha de ponente en Slush 2026: https://slush.org/2026-speakers/carles-reina | Crunchbase: https://www.crunchbase.com/person/carles-reina | Podcast 20VC (dos episodios): https://www.thetwentyminutevc.com/carles-reina y https://www.thetwentyminutevc.com/carles-reina-2 | Entrevista larga sobre moats en IA: https://www.akashbajwa.co/p/ai-moats-and-gtm-carles-reina-elevenlabs | Podcast en español de Startupeable: https://startupeable.com/elevenlabs/ | EU-Startups Podcast ep.123 (jun-2025): https://www.eu-startups.com/2025/06/eu-startups-podcast-episode-123-carles-reina-investor-and-go-to-market-strategist-at-elevenlabs/ | No se le ha localizado newsletter propia ni GitHub.",
   "email": "team@baobabventures.vc",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://baobabventures.vc/ — el email team@baobabventures.vc aparece publicado en la sección de contacto de la home del fondo, junto al formulario de contacto. El email personal individual: no encontrado. | buzón general del fondo, publicado literalmente en la home de https://baobabventures.vc/ junto a la nota 'We are a remote-first fund'. No existe un email personal público de Carles Reina en ninguna de las fuentes consultadas (prensa, web del fondo, Concept Ventures, ElevenLabs, Slush). Como el fondo solo publica un buzón de equipo y ningún nombre@baobabventures.vc individual, no hay un patrón fiable que inferir; un hipotético carles@baobabventures.vc sería especulación y no se propone como válido. La vía formal que la propia web ofrece es su formulario: 'Interested in chatting? Fill out some details and we will be in touch shortly!'",
   "por_que_es_interesante": [
     "Solo GP: decide él, sin comité, en días; fondo íntegramente cerrado (15M USD) con 75-80% por desplegar.",
     "Ya tiene Altan AI ('agentic application builder') y Wabi AI en cartera: la tesis del cliente no le es exótica.",
@@ -118,6 +115,29 @@
     "https://me.sh/profile/carles-reina",
     "https://www.eu-startups.com/2025/06/eu-startups-podcast-episode-123-carles-reina-investor-and-go-to-market-strategist-at-elevenlabs/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://baobabventures.vc/ — el email team@baobabventures.vc aparece publicado en la sección de contacto de la home del fondo, junto al formulario de contacto. El email personal individual: no encontrado.",
+      "Buzón general del fondo, publicado literalmente en la home de https://baobabventures.vc/ junto a la nota 'We are a remote-first fund'. No existe un email personal público de Carles Reina en ninguna de las fuentes consultadas (prensa, web del fondo, Concept Ventures, ElevenLabs, Slush). Como el fondo solo publica un buzón de equipo y ningún nombre@baobabventures.vc individual, no hay un patrón fiable que inferir; un hipotético carles@baobabventures.vc sería especulación y no se propone como válido. La vía formal que la propia web ofrece es su formulario: 'Interested in chatting? Fill out some details and we will be in touch shortly!'"
+    ],
+    "linkedin": [
+      "Versión pública indexada: https://uk.linkedin.com/in/carlesreina — ~50.000 seguidores; idiomas declarados: español, catalán e inglés, todos como 'native or bilingual proficiency'"
+    ],
+    "otras": [
+      "Web del fondo: https://baobabventures.vc/",
+      "X/Twitter personal: https://x.com/Carles_Reina",
+      "X del fondo: https://x.com/baobab_ventures",
+      "Ficha como Venture Partner en Concept Ventures: https://concept.vc/team-members/carles-reina",
+      "Autor en el blog corporativo de ElevenLabs: https://elevenlabs.io/blog/authors/carles-reina",
+      "Ficha de ponente en Slush 2026: https://slush.org/2026-speakers/carles-reina",
+      "Crunchbase: https://www.crunchbase.com/person/carles-reina",
+      "Podcast 20VC (dos episodios): https://www.thetwentyminutevc.com/carles-reina y https://www.thetwentyminutevc.com/carles-reina-2",
+      "Entrevista larga sobre moats en IA: https://www.akashbajwa.co/p/ai-moats-and-gtm-carles-reina-elevenlabs",
+      "Podcast en español de Startupeable: https://startupeable.com/elevenlabs/",
+      "EU-Startups Podcast ep.123 (jun-2025): https://www.eu-startups.com/2025/06/eu-startups-podcast-episode-123-carles-reina-investor-and-go-to-market-strategist-at-elevenlabs/",
+      "No se le ha localizado newsletter propia ni GitHub."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -143,7 +163,6 @@
     "motivo_v1": "Solo GP pre-seed con Altan en cartera, pero su criterio explícito es momentum comercial (deploys semanales y clientes), ticket fijo 300-350k y dedicación parcial (VP en ElevenLabs). Choca con un pitch pre-tracción."
   },
   "nombre_original": "Carles Reina",
-  "email_original": "team@baobabventures.vc — buzón general del fondo, publicado literalmente en la home de https://baobabventures.vc/ junto a la nota 'We are a remote-first fund'. No existe un email personal público de Carles Reina en ninguna de las fuentes consultadas (prensa, web del fondo, Concept Ventures, ElevenLabs, Slush). Como el fondo solo publica un buzón de equipo y ningún nombre@baobabventures.vc individual, no hay un patrón fiable que inferir; un hipotético carles@baobabventures.vc sería especulación y no se propone como válido. La vía formal que la propia web ofrece es su formulario: 'Interested in chatting? Fill out some details and we will be in touch shortly!'.",
   "textos_v1": {
     "por_que_es_interesante": "Es un solo GP: decide él, en días, sin comité — el ciclo más rápido posible para un primer cheque. Su fondo está totalmente cerrado (cierre único, sobresuscrito, levantado en ~3 meses durante el verano de 2025), así que tiene 15 M$ frescos que desplegar en 30-35 compañías de pre-seed/seed de IA, robótica y defensa; a mediados de 2026 solo llevaba unas 7-8 operaciones, o sea que el 75-80% del fondo está por desplegar. Ya tiene en cartera Altan AI, descrito como 'agentic application builder', y Wabi AI: la tesis del cliente (harness de desarrollo con nube de agentes) no le resulta exótica. Habla y escribe en español y catalán nativos, da entrevistas en español (Startupeable, Itnig) y su primer cheque fue a Revolut cuando no había nada. Ángulo de contacto: NO venderle 'tecnología profunda que necesita años'. Reina compra velocidad de distribución. El mensaje ganador es: 'tenemos el moat técnico y, además, un plan de GTM que produce clientes empresariales en 60-90 días; queremos que nos ayudes a construir la máquina comercial'. Mencionar explícitamente ElevenLabs y su modelo de 'land and expand'.",
     "tesis_de_inversion": "Baobab Ventures se define en su propia web como un 'Operator-led VC fund' cuya misión es: 'We empower early stage, deep-tech founders to reach Momentum'. La palabra 'Momentum' es el eje entero de su tesis: 'Enabling the Momentum wheel is the hardest part yet the only thing that startups need to care about in the early days', y 'We are backing global, pre-seed & seed technical teams where we can help them reach Momentum quickly' (https://baobabventures.vc/). Los verticales declarados son inteligencia artificial (modelos e infraestructura y aplicaciones), robótica y defensa/dual-use, en pre-seed y seed, con mandato global (aproximadamente 50% Europa y 50% EE.UU. y otros mercados: India, Japón, Corea, LatAm y Oriente Medio). Lo que busca en un equipo lo ha dicho él mismo: 'Building startups has dramatically changed in the last few years. Sales cycles are faster, there are hundreds of competitors within months' (Silicon Canals, 11/2025) y 'Founders need to move incredibly quickly whilst building a sales and growth motion fit for the AI age' (BusinessCloud, 11/2025). En español lo resumió así: 'Los fundadores tienen que actuar con gran rapidez, tanto en producto como en ventas, y abrir nuevos mercados' (Emprendedores, 11/2025). Sobre defensibilidad, en su entrevista con Akash Bajwa (02/12/2024) describe el moat de una empresa de IA como una acumulación por capas: 'you have the research component (which is fundamentally important today), but then you start accumulating data and having product integrations that are end-to-end', y remata: 'You then move from a single product use case to a product suite scenario. That's how you win and stay embedded within the customer ecosystem'. Es decir: cree en el moat técnico, pero solo como base de un moat de distribución.",

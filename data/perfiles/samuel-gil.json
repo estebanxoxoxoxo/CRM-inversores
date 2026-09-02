@@ -17,11 +17,8 @@
     "JME Ventures IV (CNMV, nov-2024), tamaño no publicado; >120M€ AUM en cuatro fondos."
   ],
   "linkedin": "https://es.linkedin.com/in/samuelgil",
-  "linkedin_nota": "",
-  "otros_perfiles": "Newsletter propia 'Suma Positiva' (la fuente más valiosa para entenderle): https://www.sumapositiva.com — archivo en https://www.sumapositiva.com/archive | X/Twitter: https://x.com/samuelgil (~38,9K posts) | Web del fondo: https://www.jme.vc/ | Crunchbase: https://www.crunchbase.com/person/samuel-gil | Signal NFX: https://signal.nfx.com/investors/samuel-gil | Kauffman Fellows: https://www.kauffmanfellows.org/fellows/samuel-gil | LinkedIn del fondo: https://es.linkedin.com/company/jme-venture-capital | Podcast Product Hackers #147: https://producthackers.com/es/podcast/147-suma-positiva-venture-capital-samuel-gil/ | Entrevista Views by Pol #37: https://www.viewsbypol.com/p/37-samuel-gil-desentranando-la-artesania | Entrevista larga en Jot Down (2021): https://www.jotdown.es/2021/09/samuel-gil/",
   "email": "nombre@jme.vc",
   "email_estado": "público (ver fuente)",
-  "email_fuente": "https://www.jme.vc/ — la única vía de contacto publicada por el fondo es el formulario https://form.typeform.com/to/xewK4oit. Ninguna fuente pública consultada (web del fondo, prensa, CNMV, Crunchbase, podcasts) expone una dirección individual de Samuel Gil. Los agregadores tipo RocketReach/ContactOut aparecen en resultados de búsqueda pero son bases de datos de scraping de pago, no fuentes públicas verificables, y no se han usado. | No encontrado como dirección individual pública. La vía de entrada oficial y explícita que publica el propio fondo es un typeform: https://form.typeform.com/to/xewK4oit . Vía alternativa real y muy usada en el ecosistema: responder directamente a un envío de la newsletter Suma Positiva (Substack entrega la respuesta al autor). No se ha localizado ningún  publicado en fuentes primarias, por lo que NO se propone patrón: hacerlo sería inventar",
   "por_que_es_interesante": [
     "Ya respaldó con dinero la tesis exacta: Altan (pre-seed 2,5M USD co-liderada, sept-2025), agentes que diseñan, construyen y despliegan software de producción.",
     "Escribe cada semana sobre el fin del SaaS CRUD, 'vender trabajo, no software' y copilots que se vuelven autopilots (Suma Positiva #264, #265).",
@@ -102,6 +99,25 @@
     "https://novicap.com/blog/14-samuel-gil/",
     "https://elreferente.es/directorio/jme-venture-capital/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.jme.vc/ — la única vía de contacto publicada por el fondo es el formulario https://form.typeform.com/to/xewK4oit. Ninguna fuente pública consultada (web del fondo, prensa, CNMV, Crunchbase, podcasts) expone una dirección individual de Samuel Gil. Los agregadores tipo RocketReach/ContactOut aparecen en resultados de búsqueda pero son bases de datos de scraping de pago, no fuentes públicas verificables, y no se han usado.",
+      "No encontrado como dirección individual pública. La vía de entrada oficial y explícita que publica el propio fondo es un typeform: https://form.typeform.com/to/xewK4oit . Vía alternativa real y muy usada en el ecosistema: responder directamente a un envío de la newsletter Suma Positiva (Substack entrega la respuesta al autor). No se ha localizado ningún publicado en fuentes primarias, por lo que NO se propone patrón: hacerlo sería inventar"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Newsletter propia 'Suma Positiva' (la fuente más valiosa para entenderle): https://www.sumapositiva.com — archivo en https://www.sumapositiva.com/archive",
+      "X/Twitter: https://x.com/samuelgil (~38,9K posts)",
+      "Web del fondo: https://www.jme.vc/",
+      "Crunchbase: https://www.crunchbase.com/person/samuel-gil",
+      "Signal NFX: https://signal.nfx.com/investors/samuel-gil",
+      "Kauffman Fellows: https://www.kauffmanfellows.org/fellows/samuel-gil",
+      "LinkedIn del fondo: https://es.linkedin.com/company/jme-venture-capital",
+      "Podcast Product Hackers #147: https://producthackers.com/es/podcast/147-suma-positiva-venture-capital-samuel-gil/",
+      "Entrevista Views by Pol #37: https://www.viewsbypol.com/p/37-samuel-gil-desentranando-la-artesania",
+      "Entrevista larga en Jot Down (2021): https://www.jotdown.es/2021/09/samuel-gil/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -127,7 +143,6 @@
     "motivo_v1": "Co-lideró la pre-seed de 2,5M de Altan (agentes que construyen software de producción) sin tracción; Fondo IV casi íntegramente IA; ingeniero que escribe sobre la revolución agéntica. Reservas serias: conflicto de cartera con Altan y su cita de que la velocidad importa más que el moat."
   },
   "nombre_original": "Samuel Gil",
-  "email_original": "No encontrado como dirección individual pública. La vía de entrada oficial y explícita que publica el propio fondo es un typeform: https://form.typeform.com/to/xewK4oit . Vía alternativa real y muy usada en el ecosistema: responder directamente a un envío de la newsletter Suma Positiva (Substack entrega la respuesta al autor). No se ha localizado ningún nombre@jme.vc publicado en fuentes primarias, por lo que NO se propone patrón: hacerlo sería inventar.",
   "textos_v1": {
     "por_que_es_interesante": "Es, probablemente, el inversor español que mejor entiende de forma explícita la tesis exacta del cliente, y ya la ha respaldado con dinero. En septiembre de 2025 JME co-lideró el pre-seed de 2,5 M$ de Altan (Barcelona), una plataforma 'agent-native' que orquesta equipos de agentes de IA —ingenieros full-stack, diseñadores UX, product managers— para diseñar, construir y desplegar software listo para producción que después opera solo. Es literalmente un harness de desarrollo con nube de agentes, financiado en pre-seed, sin tracción de mercado. Además, Samuel escribe cada semana sobre exactamente este problema: la revolución agéntica, el fin del SaaS CRUD, 'vender trabajo, no software', copilots que se convierten en autopilots. El ángulo de contacto es evidente y no admite genéricos: escribirle un correo (o responder a Suma Positiva) que dialogue con una edición concreta —#264 o #265— y le explique en qué se parece y en qué se diferencia el harness del cliente respecto a Altan. Su filtro declarado es el insight y el porqué del equipo, no las métricas: hay que llevar la arquitectura y la historia de por qué estos fundadores, no un dashboard.",
     "tesis_de_inversion": "Invierte en seed (con entradas en pre-seed) en tecnología española o fundada por españoles, con tickets de 100 K€ a 3 M€. Su criterio es explícitamente humano y no métrico: 'Si has hecho los deberes, valoro más la intuición que las decisiones basadas puramente en datos', y lo primero que busca es 'entender de dónde sale el insight. ¿Qué han hecho previamente los founders? ¿Por qué están bien posicionados?' (Views by Pol #37, 19/03/2024). En fundadores busca 'una gran orientación hacia la acción. Ingenio puesto en marcha para resolver problemas concretos' y personas 'capaces de evolucionar con la compañía y construir grandes equipos alrededor suyo'. Su visión de IA es la parte más relevante y está documentada semana a semana en Suma Positiva: sostiene que 'en un mundo de abundancia de agentes, las herramientas de workflow deben cambiar' y que 'si no puedes convertirte en una empresa de agentes, tu negocio tiene futuro reducido' (#264, 07/03/2026). Sobre modelos de negocio en la era agéntica escribe: 'Si vendes la herramienta, compites contra los modelos. Si vendes el trabajo...' y 'Programar es inteligencia. Decidir qué programar es juicio' (#265, 14/03/2026). ATENCIÓN a un matiz que va contra el discurso del cliente: también ha dicho que 'la velocidad de ejecución e ir de prisa es más importante que la ventaja competitiva super defendible'. No es un inversor de moat: es un inversor de velocidad y de insight.",

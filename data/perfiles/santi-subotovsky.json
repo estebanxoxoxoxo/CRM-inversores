@@ -17,11 +17,8 @@
     "Emergence VII: 1.000M USD (mar-2025)."
   ],
   "linkedin": "https://www.linkedin.com/in/santisubotovsky",
-  "linkedin_nota": "",
-  "otros_perfiles": "Perfil en el fondo: https://www.emcap.com/people/santi-subotovsky | Forbes: https://www.forbes.com/profile/santi-subotovsky/ | Kauffman Fellows: https://www.kauffmanfellows.org/fellows/santiago-subotovsky | Autor en TechCrunch: https://techcrunch.com/author/santi-subotovsky/ | Endeavor Argentina: https://www.endeavor.org.ar/tag/santiago-subotovsky/ | Handle de X/Twitter no confirmado en fuentes públicas",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "No se ha localizado ningún email público de Santi Subotovsky ni de ningún otro socio de Emergence Capital. La página /contact de emcap.com devuelve 404 y no hay direcciones publicadas en la web del fondo, prensa ni bios de ponente. No hay evidencia suficiente para proponer un patrón de dominio. Vía recomendada: LinkedIn o intro vía Endeavor / fundadores de cartera.",
   "por_que_es_interesante": [
     "Credibilidad hispanohablante en software empresarial: argentino, Emprendedor Endeavor, entrevistas en español, historia de Zoom.",
     "Emergence tiene tesis declarada de infraestructura de IA y ha entrado en Together AI y Physical Intelligence.",
@@ -92,6 +89,20 @@
     "https://www.highalpha.com/news/audienceplus-r-raises-7m-to-enable-marketing-teams-to-build-meaningful-relationships-with-ai",
     "https://techcrunch.com/author/santi-subotovsky/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No se ha localizado ningún email público de Santi Subotovsky ni de ningún otro socio de Emergence Capital. La página /contact de emcap.com devuelve 404 y no hay direcciones publicadas en la web del fondo, prensa ni bios de ponente. No hay evidencia suficiente para proponer un patrón de dominio. Vía recomendada: LinkedIn o intro vía Endeavor / fundadores de cartera."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en el fondo: https://www.emcap.com/people/santi-subotovsky",
+      "Forbes: https://www.forbes.com/profile/santi-subotovsky/",
+      "Kauffman Fellows: https://www.kauffmanfellows.org/fellows/santiago-subotovsky",
+      "Autor en TechCrunch: https://techcrunch.com/author/santi-subotovsky/",
+      "Endeavor Argentina: https://www.endeavor.org.ar/tag/santiago-subotovsky/",
+      "Handle de X/Twitter no confirmado en fuentes públicas"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -117,7 +128,6 @@
     "motivo_v1": "Una inversión nueva por socio al año y punto dulce en Serie A con evidencia comercial; tesis de servicios AI-native vertical. Relación a 12-24 meses."
   },
   "nombre_original": "Santi Subotovsky (Santiago Subotovsky)",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es el caso más claro de credibilidad hispanohablante en software empresarial: argentino, Emprendedor Endeavor, cofundador de una SaaS en Latinoamérica, con entrevistas en español y una historia —fue el primero en apostar por Eric Yuan cuando Zoom no era nadie— que resuena exactamente con la frustración del cliente ante inversores que exigen tracción. Emergence tiene además tesis declarada de infraestructura de IA y ha entrado recientemente en Together AI y Physical Intelligence, lo que demuestra que el fondo sí toca la capa de infra. El problema es el ajuste de proceso: cada socio hace una sola inversión nueva al año y el punto dulce es la Series A de una empresa B2B con evidencia comercial. La forma correcta de usarlo no es pedirle que lidere la primera ronda, sino empezar la relación ahora —él invierte en personas a lo largo de años— y posicionarlo como candidato a liderar la Series A cuando la demo y los primeros clientes existan. Contactar en español, por Endeavor o por su red argentina.",
     "tesis_de_inversion": "Emergence busca identificar innovaciones de modelo de negocio que una revolución tecnológica desbloquea antes de que el mercado las adopte: apostaron por el SaaS horizontal con Salesforce (2003) y por el SaaS vertical con Veeva (2008). Su tesis actual es la de los modelos de negocio nativos de IA, articulada en tres frentes: infraestructura de IA, IA del mundo físico y sobre todo AI-Native Services, es decir, empresas que “sell outcomes rather than software” en verticales como reclamaciones de seguros, administración de fondos, agencia de aduanas, ciclo de ingresos sanitario, KYC y cadena de suministro. Subotovsky es la cara de la escuela people-first del fondo: su cita más repetida es “Growing a business takes time. So you'd better be doing it with people you like”, y su método consiste en construir relación con el fundador mucho antes de la ronda. El fondo presume de disciplina extrema: menos de 2.500M USD invertidos en total, más de 9.000M USD de retornos realizados, más de 9 de cada 10 inversiones de etapa temprana levantan siguiente ronda, 1 de cada 5 supera los 1.000M USD de valoración y 1 de cada 10 sale a bolsa. La contrapartida es que cada socio hace una sola inversión nueva al año.",

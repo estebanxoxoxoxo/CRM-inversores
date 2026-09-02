@@ -16,11 +16,8 @@
     "Sin etapa ni ticket conocidos; cualquier cifra sería inventada."
   ],
   "linkedin": "https://www.linkedin.com/in/andrestorrubia",
-  "linkedin_nota": "perfil existente; no accesible sin sesión para verificar el contenido exacto",
-  "otros_perfiles": "GitHub (muy activo y el activo más relevante): https://github.com/antorsae | Crunchbase: https://www.crunchbase.com/person/andres-torrubia | F6S: https://www.f6s.com/member/andrestorrubia | The Org (HowMuch.net): https://theorg.com/org/howmuch-net/org-chart/andres-torrubia | Instituto de Inteligencia Artificial: https://iia.es/ y https://iia.es/sobre-nosotros/ | Podcast propio 'Software 2.0': https://www.ivoox.com/podcast-software-2-0_sq_f1807016_1.html | Newsletter del IIA: 'Explicable' | Canal YouTube del IIA: https://www.youtube.com/@iia | Podcast 'Monos Estocásticos': https://cuonda.com/monos-estocasticos/sale-muy-caro-apostar-contra-la-ia-con-andres-torrubia-y-miguel-angel-roman | Entrevista IIACONF2025: https://www.youtube.com/watch?v=8YG_l2bLKrU",
   "email": "info@iia.es",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://iia.es/sobre-nosotros/ publica info@iia.es y +34 623 068 412 como canales de contacto del Instituto que cofundó. Su correo personal no aparece en ninguna fuente pública; su perfil de GitHub (https://github.com/antorsae) tampoco lo expone. No hay patrón de dominio del que inferir un correo personal fiable. | email institucional del Instituto de Inteligencia Artificial, que cofundó; NO es su correo personal). Teléfono público del IIA: +34 623 068 412",
   "por_que_es_interesante": [
     "Ha construido con sus manos una versión reducida del segundo producto del cliente: dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP, MIT, en GitHub).",
     "Perfil técnico difícil de igualar en España: CERN, top 0,1% de Kaggle, dos startups fundadas en EE.UU.",
@@ -95,6 +92,27 @@
     "https://www.trgcon.com/blog/andres-torrubia-en-la-tarugo3-haciendo-posible-lo-imposible/",
     "https://medios.uchceu.es/actualidad-ceu/andres-torrubia-inteligencia-artificial-hablando-con-la-empresa-ceu-elche/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://iia.es/sobre-nosotros/ publica info@iia.es y +34 623 068 412 como canales de contacto del Instituto que cofundó. Su correo personal no aparece en ninguna fuente pública; su perfil de GitHub (https://github.com/antorsae) tampoco lo expone. No hay patrón de dominio del que inferir un correo personal fiable.",
+      "Email institucional del Instituto de Inteligencia Artificial, que cofundó; NO es su correo personal. Teléfono público del IIA: +34 623 068 412"
+    ],
+    "linkedin": [
+      "Perfil existente; no accesible sin sesión para verificar el contenido exacto"
+    ],
+    "otras": [
+      "GitHub (muy activo y el activo más relevante): https://github.com/antorsae",
+      "Crunchbase: https://www.crunchbase.com/person/andres-torrubia",
+      "F6S: https://www.f6s.com/member/andrestorrubia",
+      "The Org (HowMuch.net): https://theorg.com/org/howmuch-net/org-chart/andres-torrubia",
+      "Instituto de Inteligencia Artificial: https://iia.es/ y https://iia.es/sobre-nosotros/",
+      "Podcast propio 'Software 2.0': https://www.ivoox.com/podcast-software-2-0_sq_f1807016_1.html",
+      "Newsletter del IIA: 'Explicable'",
+      "Canal YouTube del IIA: https://www.youtube.com/@iia",
+      "Podcast 'Monos Estocásticos': https://cuonda.com/monos-estocasticos/sale-muy-caro-apostar-contra-la-ia-con-andres-torrubia-y-miguel-angel-roman",
+      "Entrevista IIACONF2025: https://www.youtube.com/watch?v=8YG_l2bLKrU"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -120,7 +138,6 @@
     "motivo_v1": "Perfil técnico de élite y constructor de dual-agent, pero ninguna inversión ángel documentada: valor como advisor o validador, no como capital."
   },
   "nombre_original": "Andrés Torrubia",
-  "email_original": "info@iia.es (email institucional del Instituto de Inteligencia Artificial, que cofundó; NO es su correo personal). Teléfono público del IIA: +34 623 068 412.",
   "textos_v1": {
     "por_que_es_interesante": "Es el mejor validador técnico posible de todo el lote, porque ha construido con sus manos una versión reducida del segundo producto del cliente: 'dual-agent' es un harness de desarrollo que orquesta Claude Code, Codex CLI y ChatGPT Pro mediante herramientas MCP, y está publicado en abierto con licencia MIT en su GitHub. Es decir: no hay que explicarle qué es un harness de agentes ni por qué importa; él ya lo necesitaba y se lo hizo. Suma un perfil técnico difícil de igualar en España (CERN, top 0,1% de Kaggle, dos startups americanas fundadas y una vendida) y una plataforma de divulgación —el podcast 'Software 2.0' y el IIA— que multiplica cualquier cosa que respalde. Ángulo de contacto: puramente técnico y en abierto (un issue o PR en dual-agent, o enseñarle el harness para que lo compare con el suyo). No pedirle dinero en el primer contacto: pedirle su opinión de arquitectura y, si engancha, proponerle advisorship. Puede convertirse en la carta de presentación técnica ante los VC de la lista.",
     "tesis_de_inversion": "No publica tesis de inversión porque no opera como inversor formal. Lo que sí tiene, y es más valioso, es una posición técnica pública muy definida y una práctica personal que coincide con el producto del cliente. Ha mantenido durante años que apostar contra la IA sale caro ('Sale muy caro apostar contra la IA', título de su conversación en el podcast Monos Estocásticos) y que la ventaja competitiva no está en tener la herramienta sino en aplicar la IA al problema propio. Su marco temporal favorito: decía en 2020 que 2012 era 'el siglo XII en IA' y 2020 'el siglo XX', para ilustrar la aceleración. Sobre las empresas: 'las empresas que perduran en el tiempo son aquellas que están siempre atentas a los cambios' y 'una característica fundamental de la IA es que es una tecnología de propósito general'. Es crítico con el riesgo regulatorio europeo para startups y compara con frecuencia los ecosistemas de IA de la UE, EE.UU. y China. Y, sobre todo, practica lo que predica: mantiene en abierto el repositorio 'dual-agent', un entorno de desarrollo colaborativo que empareja Claude Code (Anthropic) con Codex CLI y ChatGPT Pro vía herramientas MCP, tmux de doble panel e integración con Chrome, con el argumento de que 'by combining multiple models, you get rapid development velocity with rigorous quality checks and diverse perspectives'.",

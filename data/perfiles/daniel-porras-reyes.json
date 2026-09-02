@@ -17,11 +17,8 @@
     "Él es Associate: sin cheque propio."
   ],
   "linkedin": "https://www.linkedin.com/in/danielporrasr/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Substack personal 'Forward Feed': https://danielp1.substack.com/ | Medium: https://dpr648.medium.com/ | X/Twitter: https://x.com/dforwardfeed | Podcast que presenta: 'AI Without Borders' https://open.spotify.com/show/64ZoEttcgTNXAC7DQRdTvg | Ficha en la web del fondo: https://www.flybridge.net/daniel-porras-reyes/ y https://www.flybridge.com/team | Flybridge AI Index: https://www.flybridge.com/ai-index | Crunchbase (aparece también como cofundador de 'Rising LatAm VCs'): https://www.crunchbase.com/person/daniel-porras-reyes",
   "email": "daniel@flybridge.com",
   "email_estado": "patrón inferido (no verificado)",
-  "email_fuente": "Patrón nombre_de_pila@flybridge.com deducido de una fuente pública y primaria: Jeff Bussgang, cofundador y General Partner de Flybridge, publicó su propio correo en X escribiendo 'jeff@flybridge.com. Shoot me some info and/or let's talk' (https://x.com/bussgang/status/2943238950). Flybridge no publica el correo de Daniel en su web, por lo que la dirección concreta NO está verificada. Alternativa segura y probablemente mejor: DM en X (@dforwardfeed) o LinkedIn, o el formulario de contacto del podcast.",
   "por_que_es_interesante": [
     "Sus tres áreas declaradas (AI enablement, developer platforms, memory & inference) describen casi exactamente el producto.",
     "Flybridge hace pre-seed hasta 250k USD vía Next Wave y seeds de 1-3M en compañías sin ingresos, 40+ al año: umbral de entrada bajo.",
@@ -96,6 +93,21 @@
     "https://harmonic.ai/case-study/flybridge",
     "https://www.flybridge.net/daniel-porras-reyes/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Patrón nombre_de_pila@flybridge.com deducido de una fuente pública y primaria: Jeff Bussgang, cofundador y General Partner de Flybridge, publicó su propio correo en X escribiendo 'jeff@flybridge.com. Shoot me some info and/or let's talk' (https://x.com/bussgang/status/2943238950). Flybridge no publica el correo de Daniel en su web, por lo que la dirección concreta NO está verificada. Alternativa segura y probablemente mejor: DM en X (@dforwardfeed) o LinkedIn, o el formulario de contacto del podcast."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Substack personal 'Forward Feed': https://danielp1.substack.com/",
+      "Medium: https://dpr648.medium.com/",
+      "X/Twitter: https://x.com/dforwardfeed",
+      "Podcast que presenta: 'AI Without Borders' https://open.spotify.com/show/64ZoEttcgTNXAC7DQRdTvg",
+      "Ficha en la web del fondo: https://www.flybridge.net/daniel-porras-reyes/ y https://www.flybridge.com/team",
+      "Flybridge AI Index: https://www.flybridge.com/ai-index",
+      "Crunchbase (aparece también como cofundador de 'Rising LatAm VCs'): https://www.crunchbase.com/person/daniel-porras-reyes"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -121,7 +133,6 @@
     "motivo_v1": "Áreas oficiales 'AI Enablement, Developer Platforms, Memory & Inference' en un fondo pre-seed (Flybridge VII, 100M USD), colombiano confirmado, podcast propio; es Associate y no decide: puerta al fondo."
   },
   "nombre_original": "Daniel Porras Reyes",
-  "email_original": "daniel@flybridge.com",
   "textos_v1": {
     "por_que_es_interesante": "Es la vía de acceso más practicable del lote y la de origen mejor documentado. Sus tres áreas declaradas —AI enablement, developer platforms, memory & inference— describen casi exactamente el producto del cliente. Flybridge escribe cheques pre-seed de hasta 250 K$ vía Next Wave y seeds de 1-3 M$ en compañías sin ingresos, y hace más de 40 inversiones al año, así que el umbral de entrada es bajo. Y, crucialmente, tiene un canal de entrada público y propio: presenta 'AI Without Borders', un podcast dedicado a emprendedores, investigadores y operadores latinoamericanos que empujan la frontera de la IA, con más de 20 episodios e invitados como Guillermo Rauch (Vercel), Juan Camilo Pinzón (Yutori) o Fernando Neto (Liquid AI). Ángulo: proponerle contenido, no capital. Escribirle sobre su tesis de memoria y sobre la interacción agente-sistema de ficheros, ofreciendo datos propios del harness, y dejar que la conversación de inversión venga después. No decide, pero origina y escribe la tesis interna.",
     "tesis_de_inversion": "Sus áreas declaradas en la web del fondo son 'AI Enablement, Developer Platforms, Memory & Inference': literalmente infraestructura y plataformas para quien construye con IA. En su perfil describe su interés como compañías que desarrollan infraestructura de datos y plataformas para constructores y operadores de aplicaciones de IA. Su ensayo más citado, 'Memex 2.0: Memory The Missing Piece for Real Intelligence' (17 de julio de 2025, coescrito con Vadym Barda, ingeniero ex-LangChain y ex-Kensho), sostiene que la memoria es la capa de infraestructura que falta para que los agentes tengan utilidad a largo plazo, y que ganarán quienes traten la memoria no como almacenamiento sino como arquitectura dinámica para inteligencia compuesta: lock-in por memorias acumuladas, mejora real del rendimiento con el tiempo y eficiencia operativa. Ha escrito además una tesis sobre las carencias en la interacción de los agentes con los sistemas de ficheros y dónde pueden construir fundadores en verticales reguladas (legal, salud, servicios financieros), y coautorizó el informe de Flybridge sobre la revolución de la UI generativa. Encaja con la tesis del fondo: infraestructura de IA, plataformas de desarrollo, aplicaciones de negocio agénticas y software que reorganiza cómo se trabaja.",

@@ -17,11 +17,8 @@
     "Fondo I 101M (2022), Fondo II 230M, tercer vehículo en marcha (~1.000M gestionados)."
   ],
   "linkedin": "https://www.linkedin.com/in/igarciacamargo/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/igarciacamargo (bio observada: 'Bella ✈️ ICML') | Perfil en la web del fondo: https://www.conviction.com/ | Post de inversión firmado por ella: https://www.conviction.com/launches/corridor.html | Perfil académico histórico (Stanford FSI / Internet Observatory): https://fsi.stanford.edu/people/isabella-garcia-camargo | Perfil de autora en The Information: https://www.theinformation.com/u/isabellagarciacamargo | Bloomberg: https://www.bloomberg.com/profile/person/24472116 | Podcast (2021, etapa Stanford): https://podcasts.apple.com/us/podcast/85-isabella-garcia-camargo-information-counterwarfare/id1254196635?i=1000522567133",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Conviction no publica direcciones de correo de su equipo en conviction.com ni en sus posts de anuncio. Los únicos indicios (ZoomInfo, RocketReach) son agregadores de datos con el correo enmascarado ('S***@conviction.com' para Sarah Guo), lo que sugiere un patrón de nombre de pila @conviction.com pero NO permite verificarlo desde una fuente primaria del fondo. Por prudencia no se propone patrón. Vía práctica: DM en X (@igarciacamargo) o LinkedIn, o intro vía founders de Corridor.",
   "por_que_es_interesante": [
     "Su deal firmado, Corridor (seed 5,4M USD, 2025), es infraestructura de seguridad para código generado por IA con clientes como Cursor.",
     "Ingeniera (M.S. CS en IA, sistemas de IA en Bridgewater): evalúa profundidad técnica, no métricas.",
@@ -87,6 +84,21 @@
     "https://www.forbes.com/sites/rashishrivastava/2026/05/27/sarah-guo-bet-everything-on-ai-pre-chatgpt-now-shes-one-of-the-worlds-top-investors/",
     "https://theorg.com/org/conviction/org-chart/isabella-garcia-camargo"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Conviction no publica direcciones de correo de su equipo en conviction.com ni en sus posts de anuncio. Los únicos indicios (ZoomInfo, RocketReach) son agregadores de datos con el correo enmascarado ('S***@conviction.com' para Sarah Guo), lo que sugiere un patrón de nombre de pila @conviction.com pero NO permite verificarlo desde una fuente primaria del fondo. Por prudencia no se propone patrón. Vía práctica: DM en X (@igarciacamargo) o LinkedIn, o intro vía founders de Corridor."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/igarciacamargo (bio observada: 'Bella ✈️ ICML')",
+      "Perfil en la web del fondo: https://www.conviction.com/",
+      "Post de inversión firmado por ella: https://www.conviction.com/launches/corridor.html",
+      "Perfil académico histórico (Stanford FSI / Internet Observatory): https://fsi.stanford.edu/people/isabella-garcia-camargo",
+      "Perfil de autora en The Information: https://www.theinformation.com/u/isabellagarciacamargo",
+      "Bloomberg: https://www.bloomberg.com/profile/person/24472116",
+      "Podcast (2021, etapa Stanford): https://podcasts.apple.com/us/podcast/85-isabella-garcia-camargo-information-counterwarfare/id1254196635?i=1000522567133"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -112,7 +124,6 @@
     "motivo_v1": "Co-lideró el seed de Corridor (seguridad para código generado por IA), encaje temático máximo, pero origen hispano y español sin evidencia y título 'Investor' no confirmado como Partner. Reserva por regla de origen."
   },
   "nombre_original": "Isabella (Bella) Garcia-Camargo",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente la persona de Conviction con la tesis más cercana a un harness de desarrollo con nube de agentes: su deal firmado (Corridor) es exactamente infraestructura de seguridad para código generado por IA, con clientes como Cursor, y su ensayo argumenta que la velocidad del software con IA rompe las herramientas de desarrollo existentes. Es ingeniera de formación (M.S. CS en IA) y viene de construir sistemas de IA en Bridgewater, así que evalúa profundidad técnica, no métricas. Conviction escribe primeros cheques de 1-25 M$ en compañías sin tracción (Mistral, Cognition, Cartesia, Thinking Machines-style bets) y su portfolio está lleno de apuestas pre-producto. Ángulo de contacto: NO vender adopción; enviarle una demo técnica del harness y una nota que conecte con su tesis 'Secure by Design' —qué garantías estructurales impone tu stack cuando el código lo escriben agentes—. Es el gancho más probable para una respuesta.",
     "tesis_de_inversion": "Su tesis es la de Conviction: 'Software 3.0' / compañías AI-native, en la convicción de que estamos muy al principio de la traducción de modelos potentes a productos que transforman industrias. Conviction invierte en toda la pila —chips, infraestructura de datos, dev tools, laboratorios de investigación y aplicaciones— y suele ser el primer cheque. Su ángulo personal, declarado en su anuncio de incorporación (LinkedIn, marzo 2025), es explícito: busca founders de empresas AI-native en ciberseguridad y herramientas financieras. Su ensayo de inversión en Corridor articula una tesis muy útil para el cliente: la seguridad tradicional no escala a la velocidad del desarrollo moderno y la brecha se ensancha a medida que la IA acelera la escritura de software; la respuesta es 'Secure by Design', donde propiedades como el mínimo privilegio y los valores por defecto seguros se imponen estructuralmente, y las herramientas de generación de código con IA son, por fin, el vehículo práctico para integrar prácticas seguras directamente en cómo se escribe el software. Es una tesis de infraestructura de desarrollo, no de aplicación vertical.",

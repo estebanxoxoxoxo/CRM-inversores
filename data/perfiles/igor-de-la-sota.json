@@ -17,11 +17,8 @@
     "DeepTech Fund II: ~105M€ (cierre ene-2024), ~20 compañías objetivo, declarado pre-seed y seed."
   ],
   "linkedin": "https://www.linkedin.com/in/igordelasota/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha en la web del fondo: https://www.cardumencapital.com/investors/igor-de-la-sota | Equipo: https://www.cardumencapital.com/team | Perfil Bloomberg: https://www.bloomberg.com/profile/person/18349751 | The Org: https://theorg.com/org/cardumen-capital/org-chart/igor-de-la-sota | Crunchbase del fondo: https://www.crunchbase.com/organization/cardumen-capital-sgeic-sa | Dealroom: https://app.dealroom.co/companies/cardumen_capital | No se le ha localizado cuenta pública activa de X/Twitter ni blog o newsletter personal; su canal público principal es LinkedIn (8.000+ seguidores) y la prensa económica española.",
   "email": "info@cardumencapital.com",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "El único email público del fondo es info@cardumencapital.com, publicado en https://www.cardumencapital.com/contact junto con las direcciones de Madrid (Calle de Velázquez 100, 3º Izda, +34 911 98 66 98) y Tel Aviv (Herzl St 16, +972 54 330 7141). ZoomInfo muestra un correo enmascarado 'a***@cardumencapital.com' para Arturo Martínez (Financial Controller), lo que confirma el dominio pero no permite deducir con seguridad si el patrón es nombre@ o inicial+apellido@; por eso no se propone patrón inferido. La vía formal de entrada es el Typeform enlazado en /contact. | buzón general del fondo, público y verificado). Email personal directo: no encontrado; patrón corporativo no confirmado",
   "por_que_es_interesante": [
     "Uno de los pocos GP españoles que ha llevado una inversión pre-seed/seed de infraestructura de datos hasta un exit a NVIDIA (illumex).",
     "La categoría 'Developer Tools' existe en el portfolio (Configu, Naboo, Raftt, Reshuffle): saben evaluar producto para desarrolladores sin usuarios.",
@@ -90,6 +87,22 @@
     "https://www.0100conferences.com/news/insights-from-cardumen-capital-leveraging-cross-border-synergies-and-innovation-to-transform-venture-capital",
     "https://superscout.co/investor/cardumen-capital"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "El único email público del fondo es info@cardumencapital.com, publicado en https://www.cardumencapital.com/contact junto con las direcciones de Madrid (Calle de Velázquez 100, 3º Izda, +34 911 98 66 98) y Tel Aviv (Herzl St 16, +972 54 330 7141). ZoomInfo muestra un correo enmascarado 'a***@cardumencapital.com' para Arturo Martínez (Financial Controller), lo que confirma el dominio pero no permite deducir con seguridad si el patrón es nombre@ o inicial+apellido@; por eso no se propone patrón inferido. La vía formal de entrada es el Typeform enlazado en /contact.",
+      "Buzón general del fondo, público y verificado. Email personal directo: no encontrado; patrón corporativo no confirmado"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha en la web del fondo: https://www.cardumencapital.com/investors/igor-de-la-sota",
+      "Equipo: https://www.cardumencapital.com/team",
+      "Perfil Bloomberg: https://www.bloomberg.com/profile/person/18349751",
+      "The Org: https://theorg.com/org/cardumen-capital/org-chart/igor-de-la-sota",
+      "Crunchbase del fondo: https://www.crunchbase.com/organization/cardumen-capital-sgeic-sa",
+      "Dealroom: https://app.dealroom.co/companies/cardumen_capital",
+      "No se le ha localizado cuenta pública activa de X/Twitter ni blog o newsletter personal; su canal público principal es LinkedIn (8.000+ seguidores) y la prensa económica española."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -115,7 +128,6 @@
     "motivo_v1": "Cofundador de Cardumen, categoría Developer Tools con entradas pre-seed (Configu), pero deal flow casi íntegramente israelí y cheques de 1-3M que exigen más señal; Azagra es el contacto primario del fondo."
   },
   "nombre_original": "Igor de la Sota",
-  "email_original": "info@cardumencapital.com (buzón general del fondo, público y verificado). Email personal directo: no encontrado; patrón corporativo no confirmado.",
   "textos_v1": {
     "por_que_es_interesante": "Es uno de los pocos GP españoles que ha invertido en pre-seed/seed en infraestructura de datos y developer tools y lo ha llevado hasta un exit a NVIDIA (illumex, seed liderada en 2021, adquirida en 2026). La categoría 'Developer Tools' existe como tal en el portfolio de Cardumen (Configu en pre-seed, Naboo, Raftt, Reshufle en seed), lo que demuestra que el equipo sabe evaluar producto para desarrolladores sin exigir usuarios. Su discurso público de 2026 gira exactamente sobre 'robust data infrastructure in the age of Generative AI' y sobre identificar 'the core building blocks of the AI era' antes que nadie. Ángulo de contacto recomendado: escribir en español, abrir con illumex y con la analogía entre un catálogo de datos autónomo y un stack de software IA-nativo (ambos son capa de infraestructura invisible que se vuelve indispensable), y enseñar la demo del harness de agentes como prueba de ingeniería, no de tracción. Conviene reconocer de entrada que la startup no es israelí y explicar por qué el corredor España-Israel-Europa juega a favor.",
     "tesis_de_inversion": "Igor invierte en deep tech B2B en fase muy temprana con un fuerte sesgo hacia software de infraestructura: inteligencia artificial, ciberseguridad, big data e infraestructura de datos. Su marco mental es que esas tres áreas son 'los pilares de la digitalización y automatización industrial' (Capital, 31-01-2022). Busca fundadores con ventaja tecnológica real y capacidad de vender fuera de su mercado local; el fondo se describe como 'the most active investor on your cap table', con posiciones minoritarias, asiento o presencia en consejo, apertura de puertas a coinversores internacionales y foco explícito en construir hacia una salida (M&A). Tras la compra de illumex por NVIDIA declaró: 'The success of the Illumex exit underscores the global demand for robust data infrastructure in the age of Generative AI. We are proud to have supported the team from day one in building a platform that now sits at the heart of the world's AI computing network' (PR Newswire, marzo 2026). Su socio Gonzalo Martínez de Azagra resumió la tesis en la misma nota: 'This acquisition validates our DeepTech thesis. By backing visionary founders early, we demonstrate our ability to identify the core building blocks of the AI era'. Es decir: entrar en el 'building block' antes de que haya tracción y sostenerlo hasta el exit.",

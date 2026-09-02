@@ -17,11 +17,8 @@
     "Ticket no publicado; referencia: seed de 4M USD liderada (Photon Queue)."
   ],
   "linkedin": "https://www.linkedin.com/in/marissa-ramirez-de-chanlatte-398702196/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Bio oficial: https://www.playground.vc/people/marissa-ramirez-de-chanlatte | Google Scholar: https://scholar.google.com/citations?user=ByxEbZEAAAAJ&hl=en | Web académica personal: https://marissachanlatte.github.io/ | GitHub: https://github.com/marissachanlatte | Perfil STEM Role Models de UC Berkeley: https://star.berkeley.edu/profiles/marissa-ramirez-de-chanlatte | IEEE Xplore: https://ieeexplore.ieee.org/author/533455906026812 | Crunchbase: https://www.crunchbase.com/person/marissa-ramirez-de-chanlatte (bloqueado a scraping, no verificado directamente) | Canal de YouTube: https://www.youtube.com/channel/UC7DzoMwJDXc4W55PK7kJ7IA (contenido no verificado). Cuenta personal de X/Twitter: no encontrada.",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "No hay dirección personal pública. Se revisaron: su web académica (marissachanlatte.github.io, sin email), su perfil de GitHub (sin email público), su bio en playground.vc (sin email) y la página abstract de arXiv 2207.00182 (no muestra correos en texto plano). Su perfil de Google Scholar indica 'Verified email at berkeley.edu' pero Google NO expone la dirección concreta, y en todo caso sería un correo académico probablemente obsoleto tras su salida de Berkeley en 2024. El único correo público asociado es el buzón general de la firma, info@playground.global, publicado en https://www.playground.vc/ (ojo: el dominio de correo es playground.global aunque la web sea playground.vc). No se infiere ningún patrón personal por falta de evidencia.",
   "por_que_es_interesante": [
     "Capaz de auditar rendimiento, paralelismo y eficiencia de cómputo por sí misma; ex-COO de una startup de IA pre-producto.",
     "Playground invierte pre-formación y lidera (ella lideró la seed de 4M USD de Photon Queue en 2026).",
@@ -94,6 +91,22 @@
     "https://www.marketsgroup.org/news/nmsic-commits-245m-to-vc-targets-deep-tech-within-thestate",
     "https://fundmomentum.vc/blog/playground-global-fund-iv-475m-deep-tech-2026"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No hay dirección personal pública. Se revisaron: su web académica (marissachanlatte.github.io, sin email), su perfil de GitHub (sin email público), su bio en playground.vc (sin email) y la página abstract de arXiv 2207.00182 (no muestra correos en texto plano). Su perfil de Google Scholar indica 'Verified email at berkeley.edu' pero Google NO expone la dirección concreta, y en todo caso sería un correo académico probablemente obsoleto tras su salida de Berkeley en 2024. El único correo público asociado es el buzón general de la firma, info@playground.global, publicado en https://www.playground.vc/ (ojo: el dominio de correo es playground.global aunque la web sea playground.vc). No se infiere ningún patrón personal por falta de evidencia."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Bio oficial: https://www.playground.vc/people/marissa-ramirez-de-chanlatte",
+      "Google Scholar: https://scholar.google.com/citations?user=ByxEbZEAAAAJ&hl=en",
+      "Web académica personal: https://marissachanlatte.github.io/",
+      "GitHub: https://github.com/marissachanlatte",
+      "Perfil STEM Role Models de UC Berkeley: https://star.berkeley.edu/profiles/marissa-ramirez-de-chanlatte",
+      "IEEE Xplore: https://ieeexplore.ieee.org/author/533455906026812",
+      "Crunchbase: https://www.crunchbase.com/person/marissa-ramirez-de-chanlatte (bloqueado a scraping, no verificado directamente)",
+      "Canal de YouTube: https://www.youtube.com/channel/UC7DzoMwJDXc4W55PK7kJ7IA (contenido no verificado). Cuenta personal de X/Twitter: no encontrada."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -119,7 +132,6 @@
     "motivo_v1": "Playground invierte pre-formación y ella lidera el Genesis Fund, pero es cuántica y cómputo físico con vínculo obligatorio a Nuevo México; Principal; español sin confirmar."
   },
   "nombre_original": "Marissa Ramirez de Chanlatte, PhD",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es una de las pocas inversoras capaces de auditar el claim central del cliente — '~90% mejor que los stacks actuales operados con IA' — leyendo la arquitectura en vez de pedir usuarios. Su doctorado en BAIR combina visión por computador y machine learning científico con años de HPC real en Oak Ridge y LBNL: rendimiento, paralelismo y eficiencia de cómputo son su lenguaje nativo, y sus papers son literalmente sobre acelerar y cuantificar incertidumbre en simulaciones numéricas. Además fue COO cofundadora de Prompt AI, una startup de software de IA en fase pre-producto, así que conoce desde dentro la comercialización temprana sin tracción. Playground entra pre-formación y presume de invertir 'entre lo improbable y lo imposible', justo lo contrario del inversor que pide 'todo servido'. Su cartera pública de cómputo (NextSilicon, d-Matrix, Ayar Labs) muestra apetito por stacks alternativos al statu quo. El encaje se juega en el encuadre: hay que presentarlo como un problema de sistemas y eficiencia de cómputo, no como 'otra herramienta de desarrollo'.",
     "tesis_de_inversion": "Invierte desde Playground Global, firma de deep tech que se define por entrar 'en la fase más temprana de formación de la empresa' y por operar donde 'es demasiado pronto para todos los demás'; su lema público es 'We invest somewhere between improbable and impossible'. Los cuatro pilares de la firma son next-gen compute (cuántica, aceleración de IA, arquitecturas nuevas), automatización y robótica, transición energética y biología ingenierizada. Su Fund IV, de $475M (mayo de 2026), articula una tesis deliberadamente física, con citas literales del anuncio: 'Software may be eating the world, but you cannot eat software', 'We don't need data centers in space. We need deep tech investors on Earth' y 'It is time to put the Silicon back into Silicon Valley'. Dentro de esa casa, Marissa cubre cuántica, arquitecturas de cómputo de próxima generación, IA y robótica, y dirige el Playground Genesis Fund ($50M, con apoyo del State Investment Council de Nuevo México) para comercializar tecnología frontera en cuántica y cómputo avanzado. Un rasgo explícito de su enfoque con Genesis: estructuraron el fondo para no obligar a los fundadores a mudarse, sino para apalancar los recursos de Nuevo México (Sandia, Los Álamos, Roadrunner Venture Studios) en vez de robar empresas a otros ecosistemas.",

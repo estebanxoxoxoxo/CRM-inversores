@@ -17,11 +17,8 @@
     "Él es Principal: origina y defiende, no firma; sin actividad ángel documentada."
   ],
   "linkedin": "https://www.linkedin.com/in/jjlopezphd/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha oficial DCVC: https://www.dcvc.com/team/dr-josu%C3%A9-l%C3%B3pez/ | Google Scholar: https://scholar.google.com/citations?user=ITZMNhIAAAAJ&hl=en | Perfil en Activate: https://activate.org/news/meet-josue-lopez-an-activate-success-story y https://www.activate.org/news/one-activate-fellows-journey-from-scientist-to-founder-to-venture-capitalist | GEM Fellowship: https://www.gemfellowship.org/teams/josue-j-lopez/ | MIT Martin Trust Center: https://entrepreneurship.mit.edu/profile/josue-lopez-2/ | Ponente en Deep Tech Week SF 2026: https://www.deep-tech-week.com/sf-2026/speakers | Perfil en prensa hispana (Negocios Now): https://negociosnow.com/dr-josue-lopez-backing-the-future-of-industrial-ai-and-robotics/ | Instagram (probable, no verificado): https://www.instagram.com/josue_lopezg/ | X/Twitter: no encontrado",
   "email": "josue.lopez@dcvc.com",
   "email_estado": "patrón inferido (no verificado)",
-  "email_fuente": "DCVC no publica emails individuales en las fichas de su equipo (https://www.dcvc.com/team/). El único email público y verificado del dominio es press@dcvc.com, en https://www.dcvc.com/media-resources/. Agregadores de contactos (LeadIQ, ZoomInfo) documentan que el patrón dominante del dominio es Nombre.Apellido@dcvc.com (~59% de los casos), de donde se deduce josue.lopez@dcvc.com. NO está verificado; usar LinkedIn como canal principal. | patrón inferido). Alternativa pública verificada para prensa: press@dcvc.com",
   "por_que_es_interesante": [
     "Relación más limpia con el riesgo técnico puro: DCVC existe para financiar ciencia antes de que haya mercado.",
     "Ángulo válido: 'next-generation compute'; si el 90% de eficiencia se demuestra con benchmarks de cómputo, energía o latencia, entra en su tesis (Mythic, SF Compute).",
@@ -96,6 +93,24 @@
     "https://www.agilityrobotics.com/content/agility-robotics-raises-150m-series-b-led-by-dcvc-and-playground-global",
     "https://www.pilambdaphi.org/news/brother-lopez-awarded-mits-2020-mens-et-manus/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "DCVC no publica emails individuales en las fichas de su equipo (https://www.dcvc.com/team/). El único email público y verificado del dominio es press@dcvc.com, en https://www.dcvc.com/media-resources/. Agregadores de contactos (LeadIQ, ZoomInfo) documentan que el patrón dominante del dominio es Nombre.Apellido@dcvc.com (~59% de los casos), de donde se deduce josue.lopez@dcvc.com. NO está verificado; usar LinkedIn como canal principal.",
+      "Patrón inferido. Alternativa pública verificada para prensa: press@dcvc.com"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha oficial DCVC: https://www.dcvc.com/team/dr-josu%C3%A9-l%C3%B3pez/",
+      "Google Scholar: https://scholar.google.com/citations?user=ITZMNhIAAAAJ&hl=en",
+      "Perfil en Activate: https://activate.org/news/meet-josue-lopez-an-activate-success-story y https://www.activate.org/news/one-activate-fellows-journey-from-scientist-to-founder-to-venture-capitalist",
+      "GEM Fellowship: https://www.gemfellowship.org/teams/josue-j-lopez/",
+      "MIT Martin Trust Center: https://entrepreneurship.mit.edu/profile/josue-lopez-2/",
+      "Ponente en Deep Tech Week SF 2026: https://www.deep-tech-week.com/sf-2026/speakers",
+      "Perfil en prensa hispana (Negocios Now): https://negociosnow.com/dr-josue-lopez-backing-the-future-of-industrial-ai-and-robotics/",
+      "Instagram (probable, no verificado): https://www.instagram.com/josue_lopezg/",
+      "X/Twitter: no encontrado"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -121,7 +136,6 @@
     "motivo_v1": "PhD MIT y DCVC asume riesgo científico, pero es Principal, su foco es physical AI y cómputo de próxima generación, cheques de 5-25M y español sin confirmar."
   },
   "nombre_original": "Dr. Josué J. López",
-  "email_original": "josue.lopez@dcvc.com (patrón inferido). Alternativa pública verificada para prensa: press@dcvc.com",
   "textos_v1": {
     "por_que_es_interesante": "Es el perfil de la lista con la relación más limpia con el riesgo técnico puro: fue fundador de una empresa de hardware financiada por DARPA, tiene un doctorado del MIT y trabaja en el fondo que existe precisamente para financiar ciencia antes de que haya mercado. Firmó una carta en Science pidiendo más capital para doctores que fundan empresas profundas; es literalmente su causa. Para el cliente, el ángulo NO es «herramientas para desarrolladores» —eso no es su área— sino «next-generation compute»: si la afirmación de que el stack IA-nativo es ~90% más eficiente que los stacks actuales operados con IA se puede demostrar con benchmarks de cómputo, energía o latencia, entra directamente en su tesis, junto a inversiones de DCVC como Mythic (arquitectura analógica 100x más eficiente que las GPU), Unconventional o SF Compute. Es además un interlocutor que evalúa papers y demos, no métricas de uso. Vía de acceso concreta: es ponente en Deep Tech Week SF 2026, donde figura como «Photonics Guru · DCVC».",
     "tesis_de_inversion": "DCVC aplica lo que llama un «computational approach»: invierte donde la computación moderna —IA, simulación, big data— crea una ventaja estructural en industrias tradicionalmente ajenas al software (manufactura, agricultura, minería, salud, defensa, energía). Es el mayor fondo dedicado exclusivamente a deep tech y su modelo consiste precisamente en asumir riesgo científico y técnico antes de que exista mercado: su cartera de 366 compañías incluye Rocket Lab, Rigetti, D-Wave y MosaicML. Dentro de ese marco, la especialidad declarada de Josué es «companies building the next industrial and technological renaissance — from next-generation compute and AI-accelerated discovery platforms to advanced manufacturing, robotics, and physical AI». Su convicción personal, expresada en Negocios Now, es que «resilience, the audacity to pursue transformative ideas, and access to capital determine who gets to build the future»: una tesis explícita sobre financiar ambición técnica temprana. La ha llevado también a la política científica: firmó en 2025 una carta en Science, «Support PhDs building deep-tech ventures» (Science 387:1157, doi 10.1126/science.adt1709), defendiendo que hay que dar capital y estructura a doctores que fundan empresas profundas. Es, por perfil, un inversor cómodo con equipos técnicos sin producto comercializado.",

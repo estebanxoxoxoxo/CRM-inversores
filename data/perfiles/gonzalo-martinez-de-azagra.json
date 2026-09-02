@@ -17,11 +17,8 @@
     "Proceso: dos socios deben acordar abrir due diligence."
   ],
   "linkedin": "https://es.linkedin.com/in/gonzalomartinezdeazagra",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha en el fondo: https://www.cardumencapital.com/investors/gonzalo-martinez-de-azagra | Web del fondo: https://www.cardumencapital.com | Fondo DeepTech: https://www.cardumencapital.com/fund/deeptech | Vídeos del fondo con sus 'tips' a emprendedores: https://www.cardumencapital.com/videos | Kauffman Fellows (clase KF23): https://www.kauffmanfellows.org/fellows/gonzalo-martinez-de-azagra | Ponente en MWC Barcelona: https://www.mwcbarcelona.com/agenda/speakers | Entrevistas en CTech/Calcalist: https://www.calcalistech.com/tags/Cardumen_Capital | Podcast 'Disruptivo' ep. 37 en español (Spotify) | Crunchbase: https://www.crunchbase.com/person/gonzalo-martinez-de-azagra | Cuenta personal de X: no encontrada (el fondo sí tiene Twitter/Instagram/Facebook/LinkedIn).",
   "email": "info@cardumencapital.com",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://www.cardumencapital.com/contact — solo publica info@cardumencapital.com, teléfonos de Madrid (+34 911 98 66 98) y Tel Aviv (+972 54 330 7141) y un formulario Typeform para fundadores. | buzón general, publicado en cardumencapital.com/contact). Email personal directo: no encontrado. Private Equity List indica que los emails individuales del equipo solo están tras un muro de pago, y no hay ninguna dirección nombre@cardumencapital.com publicada en fuentes abiertas de la que inferir patrón con seguridad",
   "por_que_es_interesante": [
     "Cardumen declara 'Developer Tools' como área de inversión e invierte en pre-seed y seed, no sólo Serie A.",
     "Lideró la seed de illumex (capa semántica para que la IA entienda datos de empresa), vendida a NVIDIA por ~60M USD: infraestructura profunda para IA, liderada en seed, con comprador estratégico.",
@@ -89,6 +86,25 @@
     "https://es.linkedin.com/in/gonzalomartinezdeazagra",
     "https://www.calcalistech.com/tags/Cardumen_Capital"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.cardumencapital.com/contact — solo publica info@cardumencapital.com, teléfonos de Madrid (+34 911 98 66 98) y Tel Aviv (+972 54 330 7141) y un formulario Typeform para fundadores.",
+      "Buzón general, publicado en cardumencapital.com/contact. Email personal directo: no encontrado. Private Equity List indica que los emails individuales del equipo solo están tras un muro de pago, y no hay ninguna dirección nombre@cardumencapital.com publicada en fuentes abiertas de la que inferir patrón con seguridad"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha en el fondo: https://www.cardumencapital.com/investors/gonzalo-martinez-de-azagra",
+      "Web del fondo: https://www.cardumencapital.com",
+      "Fondo DeepTech: https://www.cardumencapital.com/fund/deeptech",
+      "Vídeos del fondo con sus 'tips' a emprendedores: https://www.cardumencapital.com/videos",
+      "Kauffman Fellows (clase KF23): https://www.kauffmanfellows.org/fellows/gonzalo-martinez-de-azagra",
+      "Ponente en MWC Barcelona: https://www.mwcbarcelona.com/agenda/speakers",
+      "Entrevistas en CTech/Calcalist: https://www.calcalistech.com/tags/Cardumen_Capital",
+      "Podcast 'Disruptivo' ep. 37 en español (Spotify)",
+      "Crunchbase: https://www.crunchbase.com/person/gonzalo-martinez-de-azagra",
+      "Cuenta personal de X: no encontrada (el fondo sí tiene Twitter/Instagram/Facebook/LinkedIn)."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -114,7 +130,6 @@
     "motivo_v1": "Cardumen DeepTech Fund: pre-seed/seed con 'Developer Tools' explícito, lideró seed de illumex (adquirida por NVIDIA), ticket 750k-4M, GP español en Madrid. Reservas: deal flow mayoritariamente israelí y texto que espera validación de mercado."
   },
   "nombre_original": "Gonzalo Martínez de Azagra",
-  "email_original": "info@cardumencapital.com (buzón general, publicado en cardumencapital.com/contact). Email personal directo: no encontrado. Private Equity List indica que los emails individuales del equipo solo están tras un muro de pago, y no hay ninguna dirección nombre@cardumencapital.com publicada en fuentes abiertas de la que inferir patrón con seguridad.",
   "textos_v1": {
     "por_que_es_interesante": "Es el único socio español de esta lista cuyo fondo declara 'Developer Tools' por escrito como área de inversión, e invierte formalmente en pre-seed y seed —no solo en Serie A—. Su prueba más potente es illumex: Cardumen lideró la seed de 13 M$ (junio de 2024) de una compañía de 'Generative Semantic Fabric' —capa semántica para que la IA generativa entienda datos estructurados de empresa— y NVIDIA la adquirió en febrero de 2026 por ~60 M$. Es exactamente la clase de apuesta que busca el cliente: infraestructura profunda para IA, liderada en seed, con comprador estratégico de primer nivel. Además su discurso público de 2026 va sobre compañías AI-native y output por empleado, y sobre estructurar capital para lo intensivo en capital con hitos, no con tracción. Ángulo de contacto: presentarse como infraestructura para agentes con un moat semántico/de datos, apoyarse en el paralelismo con illumex, y usar el puente Israel-España (él busca precisamente compañías con ADN técnico profundo fuera del circuito de moda).",
     "tesis_de_inversion": "Invierte en deep tech B2B/B2B2C en fase muy temprana con un puente estructural Israel-España-EE. UU. El DeepTech Fund declara: 'we invest in the backbone of a future where data-driven intelligence and security are fundamental to societal progress', con tres áreas núcleo —Inteligencia Artificial ('software solutions that harness the power of AI to create outstanding products'), Big Data (gestión, procesamiento y compliance del dato) y Ciberseguridad ('device-agnostic across IT, OT and IoT')— y áreas adicionales explícitas donde figura Developer Tools, junto a Creator Economy, IoT, Industria 4.0 y Future of Work. Se definen como 'technology experts in B2B and B2B2C' con fuerza particular en product-led growth, y como el inversor más activo del cap table: 'we are not afraid to get into the weeds and help you resolve big, complicated problems'. En enero de 2026 Gonzalo añadió una lectura muy útil para una startup IA-nativa: sostiene que las compañías AI-native consiguen mayor output por empleado y que la eficiencia es la nueva métrica de éxito, y sobre deep tech afirmó: 'Israel has always been a deep tech country – what's changed is the venture mindset around it', defendiendo estructuras de capital con hitos y plazos largos para lo intensivo en capital.",

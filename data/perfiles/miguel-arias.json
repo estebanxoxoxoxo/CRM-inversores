@@ -16,11 +16,8 @@
     "Ya no gestiona Leadwind (250M USD, Serie A-C) ni ningún vehículo de Kfund."
   ],
   "linkedin": "https://www.linkedin.com/in/miguelarias/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Blog personal (activo, en español): https://emprenderagolpes.com | Sobre mí: https://emprenderagolpes.com/about | X/Twitter: https://x.com/mike_arias | Podcast propio: 'Close & Personal' | Libro: 'El Latido de tu Startup' (manual de eficiencia operativa para startups, publicado en 2026) | Ficha de mentor en SeedRocket: https://www.seedrocket.com/mentores/mentor/miguel-arias/ | Perfil en el European Innovation Council: https://eic.ec.europa.eu/miguel-arias_en | Ponente en 4YFN / MWC Barcelona 2026 | Post de despedida de Kfund: https://www.kfund.vc/post/welcome-miguel-arias-to-the-k-family (entrada) y https://emprenderagolpes.com/nuevos-caminos-en-un-mundo-de-ia/ (salida)",
   "email": "nombre@kfund.vc",
   "email_estado": "público (ver fuente)",
-  "email_fuente": "https://emprenderagolpes.com/about y https://www.seedrocket.com/mentores/mentor/miguel-arias/ — ambas fichas listan únicamente LinkedIn y X como canales de contacto. | No encontrado en fuentes públicas. Su blog personal emprenderagolpes.com y su ficha de SeedRocket solo enlazan LinkedIn y X (@mike_arias); no publica dirección de correo. Al no tener ya fondo, tampoco hay dominio corporativo del que inferir un patrón razonable (usar  sería incorrecto: ya no está allí",
   "por_que_es_interesante": [
     "Entiende sin traducción el stack IA-nativo y el harness: está construyendo 'un proyecto de infraestructura digital para IA'.",
     "Historial pre-tracción: 130+ inversiones tempranas en Wayra/Open Future (ciber, datos, IA) y nFlux AI y Voicemod desde Kfund.",
@@ -90,6 +87,24 @@
     "https://www.linkedin.com/in/miguelarias/",
     "https://x.com/mike_arias"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://emprenderagolpes.com/about y https://www.seedrocket.com/mentores/mentor/miguel-arias/ — ambas fichas listan únicamente LinkedIn y X como canales de contacto.",
+      "No encontrado en fuentes públicas. Su blog personal emprenderagolpes.com y su ficha de SeedRocket solo enlazan LinkedIn y X (@mike_arias); no publica dirección de correo. Al no tener ya fondo, tampoco hay dominio corporativo del que inferir un patrón razonable (usar sería incorrecto: ya no está allí"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Blog personal (activo, en español): https://emprenderagolpes.com",
+      "Sobre mí: https://emprenderagolpes.com/about",
+      "X/Twitter: https://x.com/mike_arias",
+      "Podcast propio: 'Close & Personal'",
+      "Libro: 'El Latido de tu Startup' (manual de eficiencia operativa para startups, publicado en 2026)",
+      "Ficha de mentor en SeedRocket: https://www.seedrocket.com/mentores/mentor/miguel-arias/",
+      "Perfil en el European Innovation Council: https://eic.ec.europa.eu/miguel-arias_en",
+      "Ponente en 4YFN / MWC Barcelona 2026",
+      "Post de despedida de Kfund: https://www.kfund.vc/post/welcome-miguel-arias-to-the-k-family (entrada) y https://emprenderagolpes.com/nuevos-caminos-en-un-mundo-de-ia/ (salida)"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -115,7 +130,6 @@
     "motivo_v1": "Dejó Kfund en junio de 2026; hoy ángel sin ticket público y construyendo su propio proyecto de infraestructura de IA (posible solapamiento). No puede comprometer capital institucional."
   },
   "nombre_original": "Miguel Arias",
-  "email_original": "No encontrado en fuentes públicas. Su blog personal emprenderagolpes.com y su ficha de SeedRocket solo enlazan LinkedIn y X (@mike_arias); no publica dirección de correo. Al no tener ya fondo, tampoco hay dominio corporativo del que inferir un patrón razonable (usar nombre@kfund.vc sería incorrecto: ya no está allí).",
   "textos_v1": {
     "por_que_es_interesante": "Es el perfil de esta lista que más se parece al cliente: un operador técnico español que acaba de dejar un fondo precisamente porque quiere construir infraestructura de IA. Su despedida —'esta ola generacional de la IA no pienso vivirla desde la grada'— y su bio actual ('desarrollando un proyecto de infraestructura digital para inteligencia artificial') significan que entiende sin traducción qué es un stack IA-nativo y un harness de agentes. Tiene historial de apostar por tecnología antes de la tracción: en Telefónica firmó más de 130 inversiones en fase temprana (Wayra/Open Future) en ciberseguridad, datos e IA, y en Kfund entró en nFlux AI y Voicemod en pleno arranque de la IA generativa. Ángulo de contacto: no pedirle un cheque institucional (no lo tiene), sino buscarlo como ángel, asesor o coinversor y, sobre todo, como puerta de entrada a Kfund, Telefónica/Wayra, Endeavor, SeedRocket y Chamberí Valley. Gancho natural: comentar con criterio su post 'Nuevos caminos en un mundo de IA' o su libro. Alerta: al estar construyendo su propio proyecto de infraestructura de IA, hay riesgo real de solapamiento competitivo — conviene sondearlo antes de compartir detalle técnico.",
     "tesis_de_inversion": "Su tesis actual es la de un operador que ha vuelto a construir. En junio de 2026 explicó por qué dejaba el capital riesgo: 'cinco años es mucho tiempo para vivir dentro del riesgo, el error y la niebla permanente', y sobre todo: 'esta ola generacional de la IA no pienso vivirla desde la grada'. Añadió una tesis geográfica explícita: 'este es el momento de Europa, de construir desde aquí proyectos y compañías que definan nuestro futuro'. Como inversor, su criterio siempre ha sido de operador: aporta 'expertise concreta y asesoramiento honesto', con especialización en escalado SaaS y en operaciones (su libro 'El Latido de tu Startup' es literalmente un manual de eficiencia operativa, descrito como 'un sistema operativo para fundadores'). En Telefónica invirtió en más de 130 startups en Europa y LatAm a través de Wayra y Open Future, con foco declarado en ciberseguridad, datos, IA, movilidad, IoT, realidad virtual y fintech. En Kfund lideró Leadwind, cuyas primeras inversiones incluyeron nFlux AI, Digibee, Voicemod y Factorial. Escribe siempre que 'intentó ser el inversor que él habría querido tener como emprendedor'.",

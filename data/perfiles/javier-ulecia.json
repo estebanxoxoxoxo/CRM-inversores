@@ -17,11 +17,8 @@
     "Bullnet Capital IV (81M€, 2022) en fase final: 10 de 17-18 inversiones hechas."
   ],
   "linkedin": "https://www.linkedin.com/in/javierulecia/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter personal: https://x.com/Julecia | X del fondo: https://x.com/bullnetcapital | LinkedIn del fondo: https://es.linkedin.com/company/bullnet-capital | Crunchbase persona: https://www.crunchbase.com/person/javier-ulecia (devuelve 403 a scrapers; solo accesible en navegador) | Crunchbase fondo: https://www.crunchbase.com/organization/bullnet-gestion | Ficha de ponente MWC Barcelona 2026: https://www.mwcbarcelona.com/agenda/speakers/16877-javier-ulecia | Ficha 4YFN Barcelona 2026: https://www.4yfn.com/agenda/speakers/16877-javier-ulecia | Ficha VCIC (jurado European South, IESE): https://www.vcic.org/javier-ulecia-bullnet-gestion/ | Web del fondo: https://bullnetcapital.com | Entrevistas en vídeo: https://www.youtube.com/watch?v=PrcLi_KyDRA y https://www.youtube.com/watch?v=Bz89LYqrFCg | Charla Follow and Connect (Finanziaconnect): https://www.finanziaconnect.com/blog/conversacion-con-javier-ulecia-bullnet-capital/689800055744/ | No se le ha localizado newsletter, blog personal ni GitHub. Nota: existe otro «Javier Ulecia» en LinkedIn asociado a Axon Partners Group; NO es la misma persona, el perfil correcto es /in/javierulecia/.",
   "email": "julecia@bullnetcapital.com",
   "email_estado": "público verificado",
-  "email_fuente": "La ficha pública de BULLNET GESTIÓN, SGEIC, S.A. en webcapitalriesgo.com publica los correos nominales del equipo: julecia@bullnetcapital.com (Javier Ulecia), mcanizo@bullnetcapital.com (Miguel del Cañizo), carenzana@bullnetcapital.com (Carmen Arenzana) y jlgomez@bullnetcapital.com (José Luis Gómez) — https://www.webcapitalriesgo.com/proyectos/bullnet-gestion-sgeic-s-a/. El patrón es inicial del nombre + primer apellido @bullnetcapital.com, confirmado por cuatro direcciones distintas. La web propia del fondo (https://bullnetcapital.com/contact/) NO publica emails: solo teléfono (+34 91 799 72 06), dirección postal y un formulario.",
   "por_que_es_interesante": [
     "Exit en dev tools: Códice Software / Plastic SCM (control de versiones distribuido) vendida a Unity en 2020; también LeanXcale (base de datos distribuida) y MLCode desde su fundación.",
     "Entra 'when there is a tangible prototype or proof of concept', antes de ingresos; sectores declarados incluyen IA y plataformas de software empresarial.",
@@ -112,6 +109,26 @@
     "https://x.com/Julecia",
     "https://www.crunchbase.com/organization/bullnet-gestion"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "La ficha pública de BULLNET GESTIÓN, SGEIC, S.A. en webcapitalriesgo.com publica los correos nominales del equipo: julecia@bullnetcapital.com (Javier Ulecia), mcanizo@bullnetcapital.com (Miguel del Cañizo), carenzana@bullnetcapital.com (Carmen Arenzana) y jlgomez@bullnetcapital.com (José Luis Gómez) — https://www.webcapitalriesgo.com/proyectos/bullnet-gestion-sgeic-s-a/. El patrón es inicial del nombre + primer apellido @bullnetcapital.com, confirmado por cuatro direcciones distintas. La web propia del fondo (https://bullnetcapital.com/contact/) NO publica emails: solo teléfono (+34 91 799 72 06), dirección postal y un formulario."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter personal: https://x.com/Julecia",
+      "X del fondo: https://x.com/bullnetcapital",
+      "LinkedIn del fondo: https://es.linkedin.com/company/bullnet-capital",
+      "Crunchbase persona: https://www.crunchbase.com/person/javier-ulecia (devuelve 403 a scrapers; solo accesible en navegador)",
+      "Crunchbase fondo: https://www.crunchbase.com/organization/bullnet-gestion",
+      "Ficha de ponente MWC Barcelona 2026: https://www.mwcbarcelona.com/agenda/speakers/16877-javier-ulecia",
+      "Ficha 4YFN Barcelona 2026: https://www.4yfn.com/agenda/speakers/16877-javier-ulecia",
+      "Ficha VCIC (jurado European South, IESE): https://www.vcic.org/javier-ulecia-bullnet-gestion/",
+      "Web del fondo: https://bullnetcapital.com",
+      "Entrevistas en vídeo: https://www.youtube.com/watch?v=PrcLi_KyDRA y https://www.youtube.com/watch?v=Bz89LYqrFCg",
+      "Charla Follow and Connect (Finanziaconnect): https://www.finanziaconnect.com/blog/conversacion-con-javier-ulecia-bullnet-capital/689800055744/",
+      "No se le ha localizado newsletter, blog personal ni GitHub. Nota: existe otro «Javier Ulecia» en LinkedIn asociado a Axon Partners Group; NO es la misma persona, el perfil correcto es /in/javierulecia/."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -137,7 +154,6 @@
     "motivo_v1": "Bullnet entra con prototipo sin exigir ingresos y tiene exits en dev tools (Códice/Plastic SCM, LeanXcale), email verificado; pero sólo puede invertir legalmente en sociedades domiciliadas en España y el fondo IV está en fase final."
   },
   "nombre_original": "Javier Ulecia",
-  "email_original": "julecia@bullnetcapital.com",
   "textos_v1": {
     "por_que_es_interesante": "Es el único inversor español con un exit consumado en herramientas de desarrollo puras: Bullnet fue el único accionista institucional de Códice Software (Valladolid), creadora de Plastic SCM —el control de versiones distribuido que competía con Git—, desde su primera ronda en 2009 hasta su venta a Unity Technologies en agosto de 2020; el producto es hoy Unity Version Control. Es decir, ya ha vivido el ciclo completo de un dev tool español vendido a un comprador global. Además, su fondo declara por escrito que entra «when there is a tangible prototype or proof of concept», antes de ingresos, y su cartera lo confirma: entró en MLCode en junio de 2023 con la empresa recién fundada, y en LeanXcale (base de datos distribuida, spin-off de la UPM) en septiembre de 2016, sosteniéndola una década. Sectores declarados incluyen literalmente «inteligencia artificial» y «plataformas de software empresarial». El ángulo de contacto es evidente: escribirle sobre Códice/Plastic SCM y por qué un harness de agentes es la siguiente capa del mismo problema (coordinar trabajo paralelo sobre una base de código), no sobre usuarios.",
     "tesis_de_inversion": "Invierte exclusivamente en deep tech español donde la tecnología es el producto, no la herramienta. Su frase-marca lo resume: «La mayoría de las empresas que se dicen tecnológicas usan tecnología, pero no venden tecnología». Define deep tech como «una empresa con capacidad de innovar y desarrollar productos para la venta... con el grueso del equipo humano compuesto por tecnólogos, y donde la tecnología es en sí misma la propuesta de valor». En su entrevista de septiembre de 2024 en Estrategias de Inversión insiste: «Invertimos en empresas donde la tecnología es la clave del modelo de negocio» y «solamente entramos en proyectos donde de verdad hay una diferenciación tecnológica importante». Busca «alguna pieza diferencial difícilmente replicable» y, muy importante, empresas que «no necesiten decenas y decenas de millones» para llegar a producto. La web del fondo declara el momento exacto de entrada: «We ideally enter when there is a tangible prototype or proof of concept that proves the technology is feasible», es decir, antes de ingresos y antes de mercado. El criterio de defensibilidad es explícito: «breakthrough technology which is the result of a previous R&D effort... difficult to achieve by third parties... sustainable over time and (desirably) legally protectable through patents». Excluye consumer internet, biotecnología farmacéutica pura y proyectos de contenido. Modelo de acompañamiento «mix entre business angel, venture builder y venture capital», con muy pocas participadas por socio y presencia en consejo.",

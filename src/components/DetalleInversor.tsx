@@ -167,7 +167,6 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
         ) : (
           <span className="tenue">Sin LinkedIn público</span>
         )}
-        {p.linkedin_nota && <span className="tenue"> ({p.linkedin_nota})</span>}
         <span className="separador">·</span>
         {p.email ? (
           <>
@@ -181,11 +180,6 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
           <span className="tenue">Email no encontrado</span>
         )}
       </div>
-      {p.email_fuente && (
-        <p className="tenue pequeno">
-          Fuente del email: <ConEnlaces texto={p.email_fuente} />
-        </p>
-      )}
 
       <Seccion titulo={`Nivel ${p.nivel}: motivo y desglose`}>
         <p>{p.auditoria.motivo}</p>
@@ -218,9 +212,6 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
       <Seccion titulo="Investigación larga" abierta={false}>
         <Parrafos texto={p.investigacion_larga} />
       </Seccion>
-      <Seccion titulo="Otros perfiles" abierta={false}>
-        <Parrafos texto={p.otros_perfiles} />
-      </Seccion>
       <Seccion titulo={`Fuentes (${p.fuentes.length})`} abierta={false}>
         <Lista items={p.fuentes} />
       </Seccion>
@@ -230,6 +221,14 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
           {p.auditoria.confianza_agente}. Auditado el {p.auditoria.fecha}.
         </p>
         <p className="tenue">{p.auditoria.motivo_v1}</p>
+      </Seccion>
+      <Seccion titulo="Fuente de vías de contacto" abierta={false}>
+        <h4 className="sub">Email</h4>
+        <Lista items={p.fuente_vias_de_contacto.email} />
+        <h4 className="sub">LinkedIn</h4>
+        <Lista items={p.fuente_vias_de_contacto.linkedin.length ? p.fuente_vias_de_contacto.linkedin : [p.linkedin ? "Perfil localizado y enlazado arriba." : "Sin LinkedIn público localizado."]} />
+        <h4 className="sub">Otras vías y perfiles</h4>
+        <Lista items={p.fuente_vias_de_contacto.otras} />
       </Seccion>
     </section>
   );

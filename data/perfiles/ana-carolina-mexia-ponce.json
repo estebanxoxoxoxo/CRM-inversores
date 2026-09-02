@@ -17,11 +17,8 @@
     "Ticket no publicado; por tamaño del vehículo, seis cifras bajas (~150-400k USD, sin confirmar)."
   ],
   "linkedin": "https://www.linkedin.com/in/anacarolinamexia/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter personal: https://x.com/codebloodedvc | Newsletter personal (Substack): https://codebloodedvc.substack.com | Newsletter del fondo 'ConteNido': https://elcontenido.substack.com (~13.000 suscriptores semanales según descubre.vc) | Perfil en la web del fondo: https://www.desdeelnido.com/team/ana-caro-mexia | Web del fondo: https://www.desdeelnido.com/ | X del fondo: @NidoVentures | LinkedIn del fondo: https://www.linkedin.com/company/nido-ventures | LAVCA: https://www.lavca.org/people/ana-carolina-mexia-ponce/ | Crunchbase: https://www.crunchbase.com/person/ana-carolina-mexia-ponce",
   "email": "caro@nido.ventures",
   "email_estado": "público verificado",
-  "email_fuente": "Publicado en su propia ficha de equipo en la web del fondo: https://www.desdeelnido.com/team/ana-caro-mexia. El patrón del fondo es nombre@nido.ventures, confirmado también por el email de su socia María Gutiérrez Peñaloza (maria@nido.ventures) en https://www.desdeelnido.com/team/maria-gutierrez. Nota: el dominio nido.ventures redirige a desdeelnido.com, pero el correo sigue publicado sobre nido.ventures.",
   "por_que_es_interesante": [
     "Perfil técnico directo: BS Computer Science Stanford, ingeniera de software en LinkedIn; el fondo se define 'led by engineers' y exige al menos un fundador técnico.",
     "Invierte en la primera ronda institucional: antes de tracción por definición.",
@@ -87,6 +84,23 @@
     "https://codebloodedvc.substack.com/p/es-oficial-nido-ventures-fund-i-lp",
     "https://www.elespanol.com/invertia/disruptores-innovadores/america-tech/mexico/20230924/nido-ventures-fondo-apuesta-pequenos-proyectos-gestionado-mujeres-mexicanas/794421028_0.html"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Publicado en su propia ficha de equipo en la web del fondo: https://www.desdeelnido.com/team/ana-caro-mexia. El patrón del fondo es nombre@nido.ventures, confirmado también por el email de su socia María Gutiérrez Peñaloza (maria@nido.ventures) en https://www.desdeelnido.com/team/maria-gutierrez. Nota: el dominio nido.ventures redirige a desdeelnido.com, pero el correo sigue publicado sobre nido.ventures."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter personal: https://x.com/codebloodedvc",
+      "Newsletter personal (Substack): https://codebloodedvc.substack.com",
+      "Newsletter del fondo 'ConteNido': https://elcontenido.substack.com (~13.000 suscriptores semanales según descubre.vc)",
+      "Perfil en la web del fondo: https://www.desdeelnido.com/team/ana-caro-mexia",
+      "Web del fondo: https://www.desdeelnido.com/",
+      "X del fondo: @NidoVentures",
+      "LinkedIn del fondo: https://www.linkedin.com/company/nido-ventures",
+      "LAVCA: https://www.lavca.org/people/ana-carolina-mexia-ponce/",
+      "Crunchbase: https://www.crunchbase.com/person/ana-carolina-mexia-ponce"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -114,7 +128,6 @@
     "motivo_v1": "Ingeniera, primera ronda institucional y exige fundador técnico, pero fondo de 7M USD, sin Fondo II confirmado, tesis de industrias tradicionales y cero dev tools en cartera."
   },
   "nombre_original": "Ana Carolina Mexia Ponce",
-  "email_original": "caro@nido.ventures",
   "textos_v1": {
     "por_que_es_interesante": "Es la inversora de este lote con el perfil técnico más directo: ingeniera de software de Stanford que escribió código en LinkedIn antes de invertir, con un fondo que se presenta como llevado por ingenieras y que exige al menos un fundador técnico. Eso significa que una demo de un harness de desarrollo con agentes se puede enseñar tal cual, sin traducción a métricas de negocio, y que la conversación puede ser sobre arquitectura. Entra en la primera ronda institucional, es decir antes de tracción por definición. El ángulo correcto NO es 'infraestructura de IA para el mundo', sino conectar el stack IA-nativo con su tesis del corredor EE.UU.–México: si el harness permite que equipos de ingeniería en México construyan software a velocidad de Silicon Valley, eso es literalmente su tesis de la 'década dorada'. Su newsletter ConteNido ('decode Silicon Valley for traditional industries') es un buen punto de entrada: leerla y responderle con algo sustantivo sobre agentes y productividad de ingeniería es mejor que un cold pitch.",
     "tesis_de_inversion": "Nido invierte en pre-seed puro: 'We invest in pre-seed stage founders using technology to transform traditional industries in the US/Mexico corridor' y explicita que entra en la primera ronda institucional de la compañía. El criterio de equipo más relevante para el cliente es que prefiere 'at least one technical founder' — el fondo se presenta como llevado por ingenieras (ambas socias son ingenieras formadas en Stanford, una de software y otra de sistemas). La tesis macro es de nearshoring: México como principal socio comercial de EE.UU. y por tanto la palanca para transformar industrias fundacionales estadounidenses (manufactura, logística, cadena de suministro, healthcare, seguros). María Gutiérrez habla de la 'década dorada' de México en tecnología y de una oportunidad de más de US$800.000M por el desplazamiento económico. El sesgo operativo se ve en el portafolio: prácticamente todo lo invertido desde 2023 es IA aplicada vertical (Aloi, Arkham, Desteia, Mekan, Lilo, Telepatía, Nodal, Zenode, Mi Chamba). Es decir: son inversoras de IA, pero de IA aplicada a industrias tradicionales, no de infraestructura de IA ni de dev tools. Complementan el fondo con Nido Labs, un brazo de consultoría tecnológica que ayuda a grandes empresas a acelerar la adopción de tecnología.",

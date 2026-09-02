@@ -17,11 +17,8 @@
     "Fondo ~26M USD (Forbes 2023); Fund II no confirmado."
   ],
   "linkedin": "https://www.linkedin.com/in/sergiomonsalve/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web del fondo: https://www.robleventures.com/team | Pagina personal en Stanford: https://monsalve.people.stanford.edu/ | Programa EIR de Stanford: https://eir.stanford.edu/entrepreneurs/sergio-monsalve/ | Crunchbase: https://www.crunchbase.com/person/sergio-monsalve | Signal NFX: https://signal.nfx.com/investors/sergio-monsalve | Blog del fondo (newsletter 'Friends of Roble'): https://www.robleventures.com/latest | Formulario de pitch: https://www.robleventures.com/pitch-us",
   "email": "info@robleventures.com",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "El buzon general info@robleventures.com aparece publicado en la ficha de OpenVC del fondo (https://www.openvc.app/fund/Roble%20Ventures) y en su pagina de contacto (https://www.robleventures.com/contact). El fondo pide expresamente NO enviar pitches a ese buzon sino usar el formulario https://www.robleventures.com/pitch-us, con compromiso de responder en ~5 dias habiles solo si hay encaje inmediato. El correo personal sergio@robleventures.com es una inferencia del dominio y NO esta verificado. | buzon general del fondo, publico). Personal: sergio@robleventures.com (INFERIDO, no verificado",
   "por_que_es_interesante": [
     "Roble invierte en 'tools that 10x the output of everyone' en la intersección humano-IA; primer vertical: productividad en el trabajo.",
     "Criterio de entrada escrito contra la tracción: 'We want to hear about your journey and vision for the future even more than your results'.",
@@ -97,6 +94,22 @@
     "https://www.openvc.app/fund/Roble%20Ventures",
     "https://www.crunchbase.com/person/sergio-monsalve"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "El buzon general info@robleventures.com aparece publicado en la ficha de OpenVC del fondo (https://www.openvc.app/fund/Roble%20Ventures) y en su pagina de contacto (https://www.robleventures.com/contact). El fondo pide expresamente NO enviar pitches a ese buzon sino usar el formulario https://www.robleventures.com/pitch-us, con compromiso de responder en ~5 dias habiles solo si hay encaje inmediato. El correo personal sergio@robleventures.com es una inferencia del dominio y NO esta verificado.",
+      "Buzon general del fondo, publico. Personal: sergio@robleventures.com (INFERIDO, no verificado"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: https://www.robleventures.com/team",
+      "Pagina personal en Stanford: https://monsalve.people.stanford.edu/",
+      "Programa EIR de Stanford: https://eir.stanford.edu/entrepreneurs/sergio-monsalve/",
+      "Crunchbase: https://www.crunchbase.com/person/sergio-monsalve",
+      "Signal NFX: https://signal.nfx.com/investors/sergio-monsalve",
+      "Blog del fondo (newsletter 'Friends of Roble'): https://www.robleventures.com/latest",
+      "Formulario de pitch: https://www.robleventures.com/pitch-us"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -122,7 +135,6 @@
     "motivo_v1": "Criterio escrito de valorar el viaje y la visión más que los resultados, lidera seed 200k-2M, Potato AI (agentes científicos) en cartera, nacido en México; pero tesis de human enablement, fondo de ~26M sin Fund II confirmado y sin infra en cartera."
   },
   "nombre_original": "Sergio Monsalve",
-  "email_original": "info@robleventures.com (buzon general del fondo, publico). Personal: sergio@robleventures.com (INFERIDO, no verificado).",
   "textos_v1": {
     "por_que_es_interesante": "Es el inversor de la lista cuyo lenguaje publico coincide mas literalmente con el producto del cliente: Roble dice invertir en \"tools that 10x the output of everyone\" en la interseccion humano-IA, y su primer vertical es Workplace Productivity. Un harness de desarrollo con nube de agentes es, en su marco, productividad de los trabajadores mas cualificados que existen. Ademas su criterio de entrada esta escrito en contra de la traccion: 'queremos oir tu recorrido y tu vision del futuro incluso mas que tus resultados', lo que responde directamente a la mala experiencia del cliente con inversores que piden usuarios. Precedente agentico verificado: Roble invirtio en Potato AI (agentes cientificos autonomos que leen literatura, disenan experimentos y los ejecutan; ronda seed de 4,5M USD en abril de 2025 liderada por Draper) y en Hyperbound (entrenamiento de ventas con agentes de IA). Angulo de contacto: escribirle en espanol, enmarcar el harness como 'human enablement para ingenieros' con una metrica de output por desarrollador, y referenciar su tesis de 'augmented intelligence'.",
     "tesis_de_inversion": "Roble Ventures invierte exclusivamente en lo que Monsalve llama 'human enablement technologies': tecnologia que amplifica la capacidad de las personas y los equipos para trabajar, aprender y producir. Lo organiza en tres verticales declarados en https://www.robleventures.com/how-we-invest : (1) Workplace Productivity Solutions, (2) Skills Development Technologies y (3) Employment Creation & Discovery Platforms, todo ello apuntando al 'mercado global del talento' de escala billonaria. Su posicion sobre IA es explicita y contraria al discurso de sustitucion: sostiene que \"'AI' should really stand for 'augmented intelligence,' and such tools should exist primarily to help humans continue to do what we do best - innovate, create, and connect\" (NVCA member spotlight). La web del fondo lo formula como construir \"the intersection where humans and AI come together, with tools that 10x the output of everyone\". Sobre traccion es inusualmente explicito: \"We want to hear about your journey and vision for the future even more than your results\". Busca 'uncommon founders' que desafien el statu quo y 'founders who choose humanity'; mas del 80% de su cartera tiene fundadoras y mas del 50% CEOs mujeres. Invierte en Norteamerica y tambien tiene actividad en LatAm (UBITS, Slang, Cometa).",

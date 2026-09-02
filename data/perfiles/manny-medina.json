@@ -17,11 +17,8 @@
     "Fondo: objetivo 75M USD; Form D (sept-2025) declara 20,2M USD vendidos; en captación."
   ],
   "linkedin": "https://www.linkedin.com/in/manny-medina-612b06207/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web del fondo: https://medinavc.com/ | Equipo: https://www.medinavc.com/meettheteam | Ficha en eMerge Americas: https://emergeamericas.com/about/our-team/manny-medina/ | LinkedIn del fondo: https://www.linkedin.com/company/medinaventures | Wikipedia: https://en.wikipedia.org/wiki/Manuel_D._Medina | Crunchbase: https://www.crunchbase.com/person/manuel-d-medina | AACSB Influential Leader 2020: https://www.aacsb.edu/about-us/advocacy/member-spotlight/influential-leaders/2020/manuel-medina | Podcast 'Top of the Game' ep. 030: https://topofthegame-thepod.podbean.com/e/030-manny-medina-anchoring-miamis-ecosystem/ | Vídeo 'Miami Ventures' con Melissa Medina: https://www.youtube.com/watch?v=-wo6tAY7wRM",
   "email": "info@medinavc.com",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "Email de contacto publicado en la propia web del fondo https://medinavc.com/ (sección de contacto), junto a un formulario específico para que fundadores de IA, cuántica o ciberseguridad envíen su pitch. NO se ha localizado ningún email personal público de Manny Medina; no se propone patrón porque el dominio no publica direcciones individuales de socios.",
   "por_que_es_interesante": [
     "Primera línea de su tesis: 'software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference'.",
     "Toda su carrera vendió 'picks and shovels' (Terremark, Cyxtera): el moat técnico y el horizonte largo le resultan naturales.",
@@ -95,6 +92,23 @@
     "https://www.linkedin.com/in/manny-medina-612b06207/",
     "https://knightfoundation.org/articles/tech-leader-manny-medina-previews-whats-next-emerge-americas-and-miamis-startup-ecosystem/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Email de contacto publicado en la propia web del fondo https://medinavc.com/ (sección de contacto), junto a un formulario específico para que fundadores de IA, cuántica o ciberseguridad envíen su pitch. NO se ha localizado ningún email personal público de Manny Medina; no se propone patrón porque el dominio no publica direcciones individuales de socios."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: https://medinavc.com/",
+      "Equipo: https://www.medinavc.com/meettheteam",
+      "Ficha en eMerge Americas: https://emergeamericas.com/about/our-team/manny-medina/",
+      "LinkedIn del fondo: https://www.linkedin.com/company/medinaventures",
+      "Wikipedia: https://en.wikipedia.org/wiki/Manuel_D._Medina",
+      "Crunchbase: https://www.crunchbase.com/person/manuel-d-medina",
+      "AACSB Influential Leader 2020: https://www.aacsb.edu/about-us/advocacy/member-spotlight/influential-leaders/2020/manuel-medina",
+      "Podcast 'Top of the Game' ep. 030: https://topofthegame-thepod.podbean.com/e/030-manny-medina-anchoring-miamis-ecosystem/",
+      "Vídeo 'Miami Ventures' con Melissa Medina: https://www.youtube.com/watch?v=-wo6tAY7wRM"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -120,7 +134,6 @@
     "motivo_v1": "Medina Ventures publica una tesis literal de infraestructura de IA (datos, despliegue e inferencia, cómputo y redes), seed y Serie A, Hedgehog (open networking para IA) en 2026; cubano, español nativo; preside el comité. Reservas: fondo pequeño y en captación (Form D 20M), no confundir con el Manny Medina de Outreach."
   },
   "nombre_original": "Manuel D. \"Manny\" Medina",
-  "email_original": "info@medinavc.com",
   "textos_v1": {
     "por_que_es_interesante": "Es, sobre el papel, el encaje más limpio de este lote con lo que pide el cliente: un fondo que invierte en seed y Series A, con cheques de ~1 M USD, cuya primera línea de tesis es literalmente «software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference», gestionado por un cubano de nacimiento cuya lengua materna es el español y que construyó dos compañías de infraestructura desde cero. Ha hecho toda su carrera vendiendo «picks and shovels», no aplicaciones, así que el argumento de moat técnico y horizonte largo le resulta natural: Terremark tardó casi 30 años en llegar al exit. El ángulo de contacto es doble: el formulario/email del fondo (info@medinavc.com) con un pitch centrado en infraestructura de despliegue e inferencia de agentes, y eMerge Americas, la conferencia que él preside en Miami, que es una puerta de entrada real y barata para un equipo hispanohablante. La conversación puede hacerse íntegramente en español.",
     "tesis_de_inversion": "Medina Ventures invierte en seed y Series A en «deep tech de doble uso»: la infraestructura habilitadora, no la aplicación final. Su frase de cabecera es «We back exceptional founders building the enabling infrastructure powering the next great technological revolution». Tres pilares declarados: (1) AI Infrastructure — «software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference, and the optimization of compute, networking and performance for production workloads»; (2) Quantum Technologies — computación, sensado, comunicaciones y redes cuánticas; (3) Next-Gen Cybersecurity — prevención, detección y respuesta potenciadas por IA y criptografía resistente a la cuántica. El fondo se presenta explícitamente como apoyo a la tríada AI + cuántica + ciberseguridad que sostiene la seguridad nacional estadounidense, y dice que apuesta «early — when capital, conviction and operational support compound the most», por «the picks-and-shovels of dual-use deep technology». En la versión original de 2023-2024 el discurso tenía además un fuerte componente de puente LatAm–Miami: «Queremos ser actores relevantes para aprovechar las increíbles ideas de innovación que surgen y una plataforma para crear puentes entre la región y Estados Unidos».",

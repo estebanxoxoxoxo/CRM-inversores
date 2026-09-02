@@ -17,11 +17,8 @@
     "Fondos: Forgepoint I (306M), II (450M, 2019), Cybersecurity Fund III (objetivo 750M, tamaño final no confirmado); Forgepoint Capital International en Londres desde 2024."
   ],
   "linkedin": "https://www.linkedin.com/in/albertoyepez",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/alyepez | Perfil en el fondo: https://www.forgepointcap.com/team/alberto-yepez/ | Web: https://forgepointcap.com/ | Podcast en español (Startupeable): https://startupeable.com/forgepointcap/ | LinkedIn en español: https://es.linkedin.com/posts/albertoyepez_forgepointfamily-themissioncontinues-activity-7498251894591713280-5jS1",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "No se ha localizado ningún email público de Alberto Yépez. La única referencia parcial es una dirección enmascarada (j***@forgepointcap.com, correspondiente a otro empleado, en ZoomInfo), insuficiente para deducir un patrón fiable. Las páginas /contact de forgepointcap.com devuelven 404 y la web solo publica el teléfono corporativo +1 650-289-4455. No se propone patrón inferido.",
   "por_que_es_interesante": [
     "Tesis que incluye 'infrastructure software' y IA, no sólo ciberseguridad.",
     "Español nativo verificado (podcast y posts en español); lideró en 2026 la Serie A de 18M USD de Sherpa.ai (Bilbao).",
@@ -91,6 +88,19 @@
     "https://www.vcsheet.com/fund/forgepoint-capital",
     "https://www.youtube.com/watch?v=vrEkaXluUoM"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No se ha localizado ningún email público de Alberto Yépez. La única referencia parcial es una dirección enmascarada (j***@forgepointcap.com, correspondiente a otro empleado, en ZoomInfo), insuficiente para deducir un patrón fiable. Las páginas /contact de forgepointcap.com devuelven 404 y la web solo publica el teléfono corporativo +1 650-289-4455. No se propone patrón inferido."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/alyepez",
+      "Perfil en el fondo: https://www.forgepointcap.com/team/alberto-yepez/",
+      "Web: https://forgepointcap.com/",
+      "Podcast en español (Startupeable): https://startupeable.com/forgepointcap/",
+      "LinkedIn en español: https://es.linkedin.com/posts/albertoyepez_forgepointfamily-themissioncontinues-activity-7498251894591713280-5jS1"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -118,7 +128,6 @@
     "motivo_v1": "Español nativo y apetito por deep tech español (Sherpa.ai, Multiverse), pero mandato central ciberseguridad y cheque típico 5-10M en Serie A. Dos reservas: no indiscutible para pre-seed."
   },
   "nombre_original": "Alberto Yépez",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es el inversor de la lista con mejor combinación de tres cosas: (1) tesis explícita en infrastructure software y no solo en aplicaciones; (2) español nativo verificado, con podcast en español, posts en español y participación en el Perú Venture Capital Conference; y (3) apetito demostrado por deep tech europeo hispanohablante: en julio de 2026 Forgepoint lideró la Series A de 18M USD de Sherpa.ai, empresa de Bilbao de IA con aprendizaje federado y preservación de la privacidad, junto a Mundi Ventures, Ekarpen, Allegra Holdings y SETT. Además tiene un Consejo Asesor de más de 80 CISOs que puede convertirse en canal de validación y de primeros clientes empresariales, exactamente lo que falta a una startup pre-tracción. El ángulo de contacto: presentar el stack IA-nativo y el harness de agentes desde la perspectiva de gobernanza y seguridad —trazabilidad, aislamiento, permisos y auditoría de lo que hacen los agentes— porque es el marco en el que él compra. Contactar en español, citando Sherpa.ai y la expansión a Madrid.",
     "tesis_de_inversion": "Forgepoint se define hoy como “a global early-stage venture capital firm that backs transformative cybersecurity, artificial intelligence, and infrastructure software companies, from first call to exit”. La expresión “from first call to exit” es literal: entran muy pronto y acompañan. Sus vectores declarados son securing AI (asegurar los sistemas de IA) e IA para seguridad, identidad, gestión proactiva del riesgo, la cola larga de la ciberseguridad y la seguridad de la infraestructura. Yépez lleva años defendiendo que “If software has eaten the world, the world must now be secure by design” (Forgepoint, 5-may-2024) y, tras la reunión de su Consejo Asesor de 2025, que “Securing AI is both a technical and organizational challenge. Security, IT, and business teams must align” (8-dic-2025). Su otra idea fuerza es geográfica: quiere construir una franquicia global —“We're seeking to become a global franchise”— y por eso abrieron hub europeo en Londres con presencia en Madrid y París y una alianza estratégica con Banco Santander para invertir en ciberseguridad e IA. Opera con un Consejo Asesor de más de 80-100 CISOs y directivos que actúa como canal de validación y de primeros clientes, un activo muy valioso para una startup sin tracción.",

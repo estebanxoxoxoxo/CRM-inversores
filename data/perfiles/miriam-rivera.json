@@ -17,11 +17,8 @@
     "Ulu Fund IV: 208M USD; 'US-focused only'."
   ],
   "linkedin": "https://www.linkedin.com/in/miriamrivera/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://twitter.com/miriamulu1 | Perfil en el fondo: https://uluventures.com/who-we-are/miriam-rivera/ | Crunchbase: https://www.crunchbase.com/person/miriam-rivera | Signal NFX: https://signal.nfx.com/investors/miriam-rivera | Blog del fondo (escribe como autora): https://uluventures.com/author/miriamuluventures-com/ | Medium 'The Ulu Difference': https://medium.com/ulu-ventures | Twitter del fondo: @uluventures",
   "email": "miriam@uluventures.com",
   "email_estado": "patrón inferido (no verificado)",
-  "email_fuente": "No hay email publicado en https://uluventures.com/contact/ (solo direccion postal: 115 Everett Avenue, Palo Alto, CA 94301) ni en su ficha de equipo. El patron se deduce del slug de autora de WordPress del blog del fondo, https://uluventures.com/author/miriamuluventures-com/ , que WordPress genera a partir del correo 'miriam@uluventures.com'. NO esta verificado. La via oficial y recomendada es el formulario de intake para founders: https://share.hsforms.com/1N8_TLQTuRfa-gin0As67Og4q0f1 (Ulu promete respuesta en 10 dias habiles). | INFERIDO, no verificado",
   "por_que_es_interesante": [
     "El market mapping sustituye las métricas de usuarios por un modelo probabilístico del mercado: evalúa estructura y razonamiento, no MRR.",
     "Precedente directo: Okahu ('dev tools to find & fix issues in AI agents'), markovML, Hevo, AltitudeIQ.",
@@ -99,6 +96,22 @@
     "https://www.okahu.ai/product",
     "https://www.crunchbase.com/person/miriam-rivera"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No hay email publicado en https://uluventures.com/contact/ (solo direccion postal: 115 Everett Avenue, Palo Alto, CA 94301) ni en su ficha de equipo. El patron se deduce del slug de autora de WordPress del blog del fondo, https://uluventures.com/author/miriamuluventures-com/ , que WordPress genera a partir del correo 'miriam@uluventures.com'. NO esta verificado. La via oficial y recomendada es el formulario de intake para founders: https://share.hsforms.com/1N8_TLQTuRfa-gin0As67Og4q0f1 (Ulu promete respuesta en 10 dias habiles).",
+      "INFERIDO, no verificado"
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://twitter.com/miriamulu1",
+      "Perfil en el fondo: https://uluventures.com/who-we-are/miriam-rivera/",
+      "Crunchbase: https://www.crunchbase.com/person/miriam-rivera",
+      "Signal NFX: https://signal.nfx.com/investors/miriam-rivera",
+      "Blog del fondo (escribe como autora): https://uluventures.com/author/miriamuluventures-com/",
+      "Medium 'The Ulu Difference': https://medium.com/ulu-ventures",
+      "Twitter del fondo: @uluventures"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -124,7 +137,6 @@
     "motivo_v1": "Método diseñado para decidir sin PMF, lidera pre-seed/seed, Okahu (observabilidad de agentes) en cartera, 'Spanish-speaking first'; pero Ulu rechaza automáticamente empresas no constituidas en EE.UU. y ticket ~1M."
   },
   "nombre_original": "Miriam Rivera",
-  "email_original": "miriam@uluventures.com (INFERIDO, no verificado)",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente la inversora del mercado estadounidense cuyo metodo esta mejor disenado para decir 'si' sin traccion: el market mapping sustituye las metricas de usuarios por un modelo probabilistico del mercado, asi que un equipo con un stack IA-nativo y un harness de agentes puede ser evaluado por la estructura del mercado de dev tools y por la calidad tecnica del razonamiento, no por MRR. Ademas hay precedente sectorial directo: Ulu invirtio en Okahu (observabilidad de agentes de IA, literalmente 'dev tools to find & fix issues in AI agents'), markovML, Hevo (pipelines de datos), AltitudeIQ (calidad de datos), Banyan Infrastructure y Palantir. Angulo de contacto: pedirle una sesion de market mapping sobre el mercado de harnesses/agent clouds, presentando ya un mapa propio con caminos de entrada y competidores - es exactamente el lenguaje de su proceso. El vinculo hispano es real y personal (castellano como primera lengua), lo que abre la puerta a una intro en espanol.",
     "tesis_de_inversion": "Ulu Ventures invierte en pre-seed y seed de software empresarial y de TI en EE.UU., con foco creciente en B2B software, deep tech y AI/ML. Su rasgo distintivo es metodologico: aplican 'decision analysis' (analisis de decisiones, la disciplina cuantitativa desarrollada en Stanford por Ron Howard, y en la que su cofundador y marido Clint Korver hizo el doctorado) para reducir el sesgo cognitivo en la seleccion. La herramienta central es el 'market mapping': una sesion de trabajo con el equipo fundador en la que se dibuja graficamente el mercado objetivo, los competidores, los caminos de entrada y como evolucionara, y se construye un modelo probabilistico de riesgo/retorno. Esto les permite invertir cuando todavia NO hay datos de product-market fit, porque la evaluacion se hace sobre la estructura del mercado y la calidad del razonamiento del equipo, no sobre metricas de traccion. Miriam lo resume en su ensayo 'Say Bye to Bias: Why Ulu Ventures Relies on Analytics for Better Portfolio Picks' (https://medium.com/ulu-ventures). Su rubrica publica ('Evaluating Seed-Stage Startups') valora mercado grande, equipo fuerte, producto convincente, go-to-market enfocado, viabilidad financiera y valores alineados. Ademas mantiene una tesis explicita de diversidad como fuente de alpha: ~90% de las companias de Ulu tienen al menos un fundador diverso (mujer, minoria o inmigrante).",

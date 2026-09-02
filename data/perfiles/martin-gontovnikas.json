@@ -16,11 +16,8 @@
     "HyperGrowth Partners: sin capital, cobra en equity por asesoría a B2B SaaS de Serie A a E."
   ],
   "linkedin": "https://www.linkedin.com/in/mgonto/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web personal: https://gon.to/ | HyperGrowth Partners: https://www.hypergrowthpartners.com/ | Playbooks: https://playbooks.hypergrowthpartners.com/about | Newsletter: https://hypergrowthpartners.substack.com | X del fondo: https://x.com/HypergrowthP | Crunchbase: https://www.crunchbase.com/person/martin-gontovnikas | Signal NFX: https://signal.nfx.com/investors/martin-gontovnikas | Artículos en LinkedIn: https://www.linkedin.com/today/author/mgonto",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Revisadas https://www.hypergrowthpartners.com/, https://www.hypergrowthpartners.com/contact, https://playbooks.hypergrowthpartners.com/about y https://gon.to/: ninguna publica email. No se propone patrón porque no hay ningún email nominal del fondo publicado que permita deducirlo. | no encontrado. HyperGrowth Partners no publica direcciones nominales: la única vía es el formulario de https://www.hypergrowthpartners.com/contact",
   "por_que_es_interesante": [
     "Red y reconocimiento del terreno: trabaja con Vercel, Neon, Clerk, Together AI, n8n, Braintrust, Ashby, Supabase, Retool.",
     "Argentino con presencia habitual en podcasts en español.",
@@ -81,6 +78,23 @@
     "https://www.cbinsights.com/investor/hypergrowth-partners",
     "https://startupintros.com/orgs/upstash"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Revisadas https://www.hypergrowthpartners.com/, https://www.hypergrowthpartners.com/contact, https://playbooks.hypergrowthpartners.com/about y https://gon.to/: ninguna publica email. No se propone patrón porque no hay ningún email nominal del fondo publicado que permita deducirlo.",
+      "No encontrado. HyperGrowth Partners no publica direcciones nominales: la única vía es el formulario de https://www.hypergrowthpartners.com/contact"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web personal: https://gon.to/",
+      "HyperGrowth Partners: https://www.hypergrowthpartners.com/",
+      "Playbooks: https://playbooks.hypergrowthpartners.com/about",
+      "Newsletter: https://hypergrowthpartners.substack.com",
+      "X del fondo: https://x.com/HypergrowthP",
+      "Crunchbase: https://www.crunchbase.com/person/martin-gontovnikas",
+      "Signal NFX: https://signal.nfx.com/investors/martin-gontovnikas",
+      "Artículos en LinkedIn: https://www.linkedin.com/today/author/mgonto"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -106,7 +120,6 @@
     "motivo_v1": "HyperGrowth no despliega capital (sweat equity, Series A-E post-PMF); como ángel 5-25k con una sola inversión documentada."
   },
   "nombre_original": "Martín Gontovnikas (\"Gonto\")",
-  "email_original": "no encontrado. HyperGrowth Partners no publica direcciones nominales: la única vía es el formulario de https://www.hypergrowthpartners.com/contact",
   "textos_v1": {
     "por_que_es_interesante": "Su valor para el cliente no es el cheque sino la red y el reconocimiento del terreno. Gonto es probablemente la persona hispanohablante mejor conectada del mundo dev tools: trabaja o ha trabajado con Vercel, Neon, Clerk, Together AI, n8n, Braintrust, Ashby, Supabase y Retool, y es argentino, con presencia habitual en podcasts en español (Startupeable). Ahora bien, el encaje con la tesis del cliente es débil: HyperGrowth no invierte capital, trabaja con compañías post-PMF de Serie A a E, y su especialidad es exactamente lo que el cliente NO tiene todavía (motor de crecimiento y usuarios). Su cheque ángel personal es de 5-25 k USD y su foco declarado es MarketingTech/SaaS, no infraestructura de IA. Ángulo realista: no plantearlo como inversor sino como puerta de entrada — pedirle intros a los fondos y ángeles de su órbita (Vercel/Guillermo Rauch, Neon, Clerk, Braintrust) y, si acaso, un cheque simbólico de señal.",
     "tesis_de_inversion": "La tesis de Gonto es de go-to-market, no de tecnología profunda. HyperGrowth Partners, que cofundó en 2020-2021 con Guillaume 'G' Cabane, se define como 'the first startup growth-stage accelerator': un colectivo de 40+ líderes senior de crecimiento que entra en compañías B2B SaaS de Serie A a E ya con product-market fit, se mete en sus datos, diseña experimentos y ejecuta, cobrando principalmente en equity. Su especialización sectorial declarada es 'AI, FinTech, DevTools, MarTech y Ecom Tech', y su cartera de clientes es un catálogo de la infraestructura para desarrolladores de la última década: Ramp, Vercel, Neon, Together AI, n8n, Clerk, Factory, Drata, AirOps, Ashby, Braintrust, Attention, Retool, Reddit, Maze, Supabase. Como ángel personal, Signal NFX registra cheques de 5-25 k USD (punto dulce 15 k) en pre-seed, seed y Serie A, con sectores declarados MarketingTech y SaaS. La única inversión ángel documentada públicamente es Upstash (seed de 2 M USD, marzo de 2022, base de datos serverless Redis/Kafka) — infraestructura para desarrolladores, sí, pero en un cap table lleno de fondos que ya habían validado la compañía. No hay evidencia pública de ninguna tesis sobre moats técnicos, deep tech ni horizontes largos.",

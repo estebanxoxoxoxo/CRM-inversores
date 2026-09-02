@@ -17,11 +17,8 @@
     "Swanlaab Tech Fund II: primer cierre 45M€ (jun-2023), objetivo 60-80M€; ancla Fond-ICO, BBVA corporativo."
   ],
   "linkedin": "https://es.linkedin.com/in/juanrevuelta",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha en el fondo: https://swanlaab.com/team/ | Web y estrategia: https://swanlaab.com/ y https://swanlaab.com/strategy/ | Portfolio: https://swanlaab.com/portfolio/ | Crunchbase: https://www.crunchbase.com/person/juan-revuelta | Signal NFX: https://signal.nfx.com/investors/juan-revuelta | vcsheet: https://www.vcsheet.com/who/juan-revuelta | GRID (NMA): https://grid.nma.vc/vc/swanlaab-venture-factory/juan-revuelta | Entrevista en The Startup Oasis: https://startupsoasis.com/juan-revuelta-swanlaab/ | Podcast 'Especial Inversión en Empresas' (Más Que Una Radio): https://open.spotify.com/episode/0Fwkm7Cg0XAXA3PnUcnWTX | 'Café con emprendedores' de la Fundación Bankinter: https://www.fundacionbankinter.org/noticias/swanlaab-cafe-con-emprendedores/ y https://www.youtube.com/watch?v=DbafpM1LrqE | Portal de inversores: swanlaab.valuat.com",
   "email": "info@swanlaab.com",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://swanlaab.com/ y https://swanlaab.com/team/ publican info@swanlaab.com y +34 919 957 796 como canales de contacto. La página de equipo NO publica correos individuales, y no hay ningún email de otro socio en abierto del que inferir un patrón fiable, así que no se propone ninguno para él. Canal alternativo: el CTA 'Submit Your Project' de la propia web. | email corporativo del fondo, publicado en su web). Teléfono público: +34 919 957 796. Su correo personal no aparece en ninguna fuente pública",
   "por_que_es_interesante": [
     "Codee (análisis y optimización de código C/C++/Fortran) en Swanlaab II: precedente casi inédito en el VC español; también Sax AI (agentes de KYC), IriusRisk, Nymiz.",
     "Criterio escrito: 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'.",
@@ -101,6 +98,26 @@
     "https://www.gizavc.com/",
     "https://pitchbook.com/profiles/fund/23812-75F"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://swanlaab.com/ y https://swanlaab.com/team/ publican info@swanlaab.com y +34 919 957 796 como canales de contacto. La página de equipo NO publica correos individuales, y no hay ningún email de otro socio en abierto del que inferir un patrón fiable, así que no se propone ninguno para él. Canal alternativo: el CTA 'Submit Your Project' de la propia web.",
+      "Email corporativo del fondo, publicado en su web. Teléfono público: +34 919 957 796. Su correo personal no aparece en ninguna fuente pública"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha en el fondo: https://swanlaab.com/team/",
+      "Web y estrategia: https://swanlaab.com/ y https://swanlaab.com/strategy/",
+      "Portfolio: https://swanlaab.com/portfolio/",
+      "Crunchbase: https://www.crunchbase.com/person/juan-revuelta",
+      "Signal NFX: https://signal.nfx.com/investors/juan-revuelta",
+      "Vcsheet: https://www.vcsheet.com/who/juan-revuelta",
+      "GRID (NMA): https://grid.nma.vc/vc/swanlaab-venture-factory/juan-revuelta",
+      "Entrevista en The Startup Oasis: https://startupsoasis.com/juan-revuelta-swanlaab/",
+      "Podcast 'Especial Inversión en Empresas' (Más Que Una Radio): https://open.spotify.com/episode/0Fwkm7Cg0XAXA3PnUcnWTX",
+      "'Café con emprendedores' de la Fundación Bankinter: https://www.fundacionbankinter.org/noticias/swanlaab-cafe-con-emprendedores/ y https://www.youtube.com/watch?v=DbafpM1LrqE",
+      "Portal de inversores: swanlaab.valuat.com"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -126,7 +143,6 @@
     "motivo_v1": "Tiene Codee (dev tools) y criterio de moat, pero etapa late-seed/Serie A y 'market traction' explícito entre sus criterios. Posponer a después de la demo."
   },
   "nombre_original": "Juan Revuelta (Juan Revuelta Colomo)",
-  "email_original": "info@swanlaab.com (email corporativo del fondo, publicado en su web). Teléfono público: +34 919 957 796. Su correo personal no aparece en ninguna fuente pública.",
   "textos_v1": {
     "por_que_es_interesante": "Es el socio de la lista con el perfil de ingeniería de hardware más profundo —LSI Logic y Texas Instruments, semiconductores— y su fondo es de los pocos en España que ha invertido de verdad en herramientas para desarrolladores: Codee, que hace análisis de código y optimización de rendimiento para C/C++/Fortran, está en Swanlaab II. En cartera también hay Sax AI (agentes de IA para KYC bancario, Reino Unido), Dolfin (plataforma AI-native de inteligencia de compensación comercial), Nymiz (enmascarado de datos con IA), IriusRisk (threat modeling automatizado) y Landbot. Su tesis premia exactamente lo que el cliente tiene: barreras de entrada altas y know-how propietario. Es madrileño, castellanoparlante nativo y lidera rondas con cheques de 500.000 € a 3 M€. Ángulo de contacto: hablarle de barreras de entrada y de propiedad del stack, no de crecimiento; y hacerlo cuando exista la demo para inversores, porque su etapa es late-seed, no pre-seed.",
     "tesis_de_inversion": "Invierte en software empresarial B2B con base tecnológica profunda y barreras de entrada reales. La web del fondo lo formula así: buscan compañías con 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'. La firma se define como 'venture factory' y no como inversor pasivo: aportan 'capital, strategic expertise, and hands-on support', y él explica que 'el apellido Venture Factory viene precisamente de esa capacidad de apoyo operativo, principalmente con foco en las áreas de marketing y ventas'. Sobre los sectores que le atraen ha citado explícitamente la ciberseguridad —dice que 'seguirá contando con más apoyo y atención'—, la computación cuántica, Web3/blockchain y la IA entendida como herramienta instrumental. Su criterio de selección es primero de equipo: 'invertir en buenos equipos, ambiciosos, sin miedo, honestos', y después de mercado y de ventaja competitiva, lo que él llama la 'secret sauce'. Sobre el ecosistema español su lectura es optimista: la última década 'es la historia de un caso de éxito' y los emprendedores españoles 'no tienen ningún complejo a la hora de competir a nivel internacional'. El emprendedor que más admira de su cartera es Stephen de Vries, fundador de IriusRisk (ciberseguridad, Huesca; invertida en 2017), por su salto de 'humilde analista' a referente mundial en threat modeling. ATENCIÓN: el propio fondo incluye 'market traction' entre los requisitos de su vertical de deep tech y B2B software, y su etapa declarada es late-seed y Serie A.",

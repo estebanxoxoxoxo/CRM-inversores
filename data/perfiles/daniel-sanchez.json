@@ -17,11 +17,8 @@
     "Como Venture Partner, capacidad de liderar no confirmada."
   ],
   "linkedin": "https://www.linkedin.com/in/daniel-sanchez-942a61/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha en el fondo: https://www.nautacapital.com/team/daniel-sanchez | Web del fondo: https://www.nautacapital.com | Signal NFX: https://signal.nfx.com/investors/daniel-sanchez | Crunchbase: https://www.crunchbase.com/person/daniel-sanchez | The Org: https://theorg.com/org/nauta-capital/org-chart/daniel-sanchez | Presidente de Esade Alumni (desde diciembre de 2022): https://www.esade.edu/en/news/esade-alumni-renews-board-directors | No se le ha localizado cuenta de X/Twitter, blog, newsletter ni GitHub.",
   "email": "info@nautacapital.com",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://www.nautacapital.com/contact — publica info@nautacapital.com para 'otras consultas', teléfonos de Londres (+44 203 553 5757) y Barcelona (+34 93 503 5900) y un formulario para fundadores; ninguna dirección nombre@nautacapital.com aparece publicada. | buzón general del fondo, publicado en nautacapital.com/contact, solo para asuntos que NO sean pitches). Email personal directo: no encontrado. Nauta no publica emails individuales del equipo y la vía oficial para fundadores es el formulario de su web (con alternativa Landbot",
   "por_que_es_interesante": [
     "Nauta lista DevTools & Infra, AI/ML & Data, Security y Deep Tech; lideró la seed de Nhost (open source) y entró en NetBird, Napptive y Xonai.",
     "Su valor es de puerta y avalista interno: preside Esade Alumni y conoce el ecosistema de Barcelona.",
@@ -90,6 +87,22 @@
     "https://www.icf.cat/es/actualitat/noticies",
     "https://theorg.com/org/nauta-capital/org-chart/daniel-sanchez"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.nautacapital.com/contact — publica info@nautacapital.com para 'otras consultas', teléfonos de Londres (+44 203 553 5757) y Barcelona (+34 93 503 5900) y un formulario para fundadores; ninguna dirección nombre@nautacapital.com aparece publicada.",
+      "Buzón general del fondo, publicado en nautacapital.com/contact, solo para asuntos que NO sean pitches. Email personal directo: no encontrado. Nauta no publica emails individuales del equipo y la vía oficial para fundadores es el formulario de su web (con alternativa Landbot"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha en el fondo: https://www.nautacapital.com/team/daniel-sanchez",
+      "Web del fondo: https://www.nautacapital.com",
+      "Signal NFX: https://signal.nfx.com/investors/daniel-sanchez",
+      "Crunchbase: https://www.crunchbase.com/person/daniel-sanchez",
+      "The Org: https://theorg.com/org/nauta-capital/org-chart/daniel-sanchez",
+      "Presidente de Esade Alumni (desde diciembre de 2022): https://www.esade.edu/en/news/esade-alumni-renews-board-directors",
+      "No se le ha localizado cuenta de X/Twitter, blog, newsletter ni GitHub."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -115,7 +128,6 @@
     "motivo_v1": "El briefing era erróneo (no ex-VMware ni ingeniero); hoy Venture Partner sin huella en IA ni dev tools. Nauta queda cubierta por Borja Breña."
   },
   "nombre_original": "Daniel Sánchez",
-  "email_original": "info@nautacapital.com (buzón general del fondo, publicado en nautacapital.com/contact, solo para asuntos que NO sean pitches). Email personal directo: no encontrado. Nauta no publica emails individuales del equipo y la vía oficial para fundadores es el formulario de su web (con alternativa Landbot).",
   "textos_v1": {
     "por_que_es_interesante": "El encaje es sobre todo de firma, no de persona. Nauta lista DevTools & Infra, AI/ML & Data, Security & Privacy y Deep Tech entre sus verticales, invierte con producto operativo aunque sea pre-revenue y tiene precedentes reales: lideró la seed de 3 M$ de Nhost (abril de 2021), la alternativa open source a Firebase; entró en NetBird (red segura open source, Serie A de 10 M$ en enero de 2026); en Napptive (tooling cloud-native, España); en Xonai (computación acelerada para procesamiento de datos); y en Universal Quantum (computación cuántica). Daniel Sánchez, en cambio, es el socio de operaciones y salidas: su valor para el cliente es el de puerta de entrada y avalista interno, especialmente vía la red de ESADE (preside Esade Alumni) y el ecosistema de Barcelona. Ángulo: usarlo como camino hacia Jordi Viñas o Carles Ferrer, y encuadrar el harness de agentes en el lenguaje de Nauta —eficiencia de capital y software de producción fiable frente a automatizaciones internas frágiles—, que es literalmente su predicción número 3.",
     "tesis_de_inversion": "La tesis es de casa más que suya personal: Nauta invierte en 'capital-efficient B2B software' europeo en etapa temprana, con producto operativo aunque sea pre-revenue, y ticket de 1 a 5 M€. Sus verticales publicados incluyen explícitamente DevTools & Infra, AI/ML & Data, Security & Privacy y Deep Tech, junto a RetailTech, RevenueTech, Fintech, Insurtech, Productivity y HealthTech. Su lema es sobrio: 'We invest in early-stage B2B software. We stand by our founders. We talk straight.' En julio de 2026 el equipo publicó siete predicciones sobre 'The AI Future of B2B Software' con una posición clara —'AI will supercharge the software market, not kill it'— y varias tesis directamente pertinentes: que las herramientas internas y las automatizaciones tipo Claude 'son las nuevas hojas de cálculo' y no sustituyen software de producción, porque el coste oculto está en testing, fiabilidad y mantenimiento; que 'building software still requires judgement, taste and product decisions'; que la capa de aplicación capturará la mayor parte del valor; y que el rendimiento del modelo se convierte en el motor de defensibilidad y de pricing. La aportación personal de Daniel Sánchez es de otro registro: operaciones, gobierno corporativo, M&A y preparación de exits.",

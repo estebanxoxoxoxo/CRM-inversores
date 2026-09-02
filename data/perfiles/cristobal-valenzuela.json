@@ -16,11 +16,8 @@
     "Consejo asesor de diio (Chile) sin inversión económica confirmada."
   ],
   "linkedin": "https://www.linkedin.com/in/cvalenzuelab/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web personal y ensayos: https://cvalenzuelab.com | X/Twitter: @c_valenzuelab | GitHub: https://github.com/cvalenzuela | Empresa: https://runwayml.com | Perfil de ponente: https://slush.org/program/cristobal | Wikipedia: https://en.wikipedia.org/wiki/Crist%C3%B3bal_Valenzuela",
   "email": "c@runway.com",
   "email_estado": "público verificado",
-  "email_fuente": "Publicado por él mismo en la sección de contacto de su web personal https://cvalenzuelab.com, escrito como 'c [at] runway.com' para evitar scraping. Es su dirección corporativa directa.",
   "por_que_es_interesante": [
     "Fundador hispanohablante de mayor perfil en IA generativa; construyó Runway desde la investigación sin tracción durante años.",
     "Su idea 'the speed of iteration is the moat' y 'externalizar infraestructura es externalizar la capacidad de entender' es aprovechable para el discurso del stack propio.",
@@ -82,6 +79,20 @@
     "https://slush.org/program/cristobal",
     "https://privatemarketview.com/investors/guillermo-rauch"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Publicado por él mismo en la sección de contacto de su web personal https://cvalenzuelab.com, escrito como 'c [at] runway.com' para evitar scraping. Es su dirección corporativa directa."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web personal y ensayos: https://cvalenzuelab.com",
+      "X/Twitter: @c_valenzuelab",
+      "GitHub: https://github.com/cvalenzuela",
+      "Empresa: https://runwayml.com",
+      "Perfil de ponente: https://slush.org/program/cristobal",
+      "Wikipedia: https://en.wikipedia.org/wiki/Crist%C3%B3bal_Valenzuela"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -107,7 +118,6 @@
     "motivo_v1": "Una sola inversión ángel registrada, sin vehículo, foco en medios generativos y ensayo público que sostiene que el valor de las herramientas intermedias tiende a cero. No es capital."
   },
   "nombre_original": "Cristóbal Valenzuela",
-  "email_original": "c@runway.com",
   "textos_v1": {
     "por_que_es_interesante": "Su interés para el cliente es más como interlocutor y puerta al ecosistema chileno que como fuente de capital. Es el fundador hispanohablante de mayor perfil en IA generativa, construyó Runway desde la investigación pura y sin tracción comercial durante años, y escribe con criterio propio sobre por qué las empresas valiosas construyen su propia infraestructura ('the speed of iteration is the moat'). Ese argumento es aprovechable: un stack IA-nativo propio es, en su marco, precisamente lo que impide 'externalizar la capacidad de entender'. Pero hay que ser tajante en la evaluación: solo tiene una inversión ángel registrada, no tiene vehículo, es CEO de una compañía de 5.300 M USD en plena expansión internacional, y su ensayo más citado argumenta que las herramientas intermedias pierden valor en la era de la IA — es decir, su tesis pública juega en contra del producto del cliente. Contactarle tiene sentido para conseguir validación técnica, un asesor o intros, no una inversión.",
     "tesis_de_inversion": "No tiene tesis de inversión publicada porque no invierte de forma sistemática. Lo que sí tiene, y es muy útil para calibrar el encaje, es un corpus de ensayos propios sobre hacia dónde va el valor en la IA. El más relevante y a la vez más problemático para el cliente es 'Value Accrues to the Extremes' (septiembre de 2025, https://cvalenzuelab.com/extremes): sostiene que en IA el valor económico se concentra en los extremos —fabricantes de chips y laboratorios de modelos— y que 'the middle disappears', porque la economía de las herramientas tiende a cero, a diferencia de internet, que necesitó miles de empresas intermedias. Añade dos ideas de calado: 'Organizational knowledge is the product. The speed of iteration is the moat' y 'When you outsource critical infrastructure, you outsource your ability to understand', ilustradas con la comparación entre SpaceX y Blue Origin. En 'The Age of the Discontents' (febrero de 2026) defiende que la IA solo es herramienta de rebelión si aumenta la varianza en lugar de converger hacia lo promedio: 'The fight is not between artists and machines. It's between rebels and the systems that convert art, media and entertainment into something safe.' Su foco temático es la IA generativa aplicada a medios, vídeo y simulación de mundos ('world models'), no la infraestructura de desarrollo de software.",

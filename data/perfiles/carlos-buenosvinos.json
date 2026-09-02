@@ -16,11 +16,8 @@
     "Como ángel personal: ticket no publicado; previsiblemente 10.000-50.000 € (sin confirmar)."
   ],
   "linkedin": "https://www.linkedin.com/in/carlosbuenosvinos",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web personal: https://carlosbuenosvinos.com/ | Blog: https://blog.carlosbuenosvinos.com (devuelve 403 a peticiones automatizadas) | GitHub: https://github.com/carlosbuenosvinos | X/Twitter: https://x.com/buenosvinos | YouTube: https://www.youtube.com/@carlosbuenosvinos (serie 'Rigor Talks') | Ficha en el fondo: https://encomenda.com/team/ | Repos: https://github.com/ansistrano/deploy y https://github.com/dddshelf",
   "email": "carlos@buenosvinos.com",
   "email_estado": "público verificado",
-  "email_fuente": "Publicado por el mismo en su web personal https://carlosbuenosvinos.com/ , en la seccion de contacto. Es un dominio propio (buenosvinos.com), no corporativo, lo que sugiere que es su canal personal habitual y que esta abierto a contacto directo. Encomenda no publica emails individuales; su via oficial es https://encomenda.com/looking-for-funding/",
   "por_que_es_interesante": [
     "Foco ángel literal: 'B2B SaaS, developer tools, and supply chain'; intereses que empiezan por 'Agents, AI, Automatization'.",
     "Puede validar la arquitectura en una llamada y abrir Encomenda (pre-seed/seed 100-500k€) y la red de Carlos Blanco y Nuclio.",
@@ -91,6 +88,21 @@
     "https://www.linkedin.com/in/carlosbuenosvinos",
     "https://www.youtube.com/@carlosbuenosvinos"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Publicado por el mismo en su web personal https://carlosbuenosvinos.com/ , en la seccion de contacto. Es un dominio propio (buenosvinos.com), no corporativo, lo que sugiere que es su canal personal habitual y que esta abierto a contacto directo. Encomenda no publica emails individuales; su via oficial es https://encomenda.com/looking-for-funding/"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web personal: https://carlosbuenosvinos.com/",
+      "Blog: https://blog.carlosbuenosvinos.com (devuelve 403 a peticiones automatizadas)",
+      "GitHub: https://github.com/carlosbuenosvinos",
+      "X/Twitter: https://x.com/buenosvinos",
+      "YouTube: https://www.youtube.com/@carlosbuenosvinos (serie 'Rigor Talks')",
+      "Ficha en el fondo: https://encomenda.com/team/",
+      "Repos: https://github.com/ansistrano/deploy y https://github.com/dddshelf"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -116,7 +128,6 @@
     "motivo_v1": "Ángel con foco declarado en developer tools y agentes, email público, campeón técnico creíble; no decide en Encomenda, empleo a tiempo completo en IFCO y ticket personal no publicado."
   },
   "nombre_original": "Carlos Buenosvinos",
-  "email_original": "carlos@buenosvinos.com",
   "textos_v1": {
     "por_que_es_interesante": "Es el perfil de la lista con mayor credibilidad tecnica pura ante un equipo de ingenieria: autor de dos libros de arquitectura de software, mantenedor de un proyecto open source usado en produccion por miles de equipos, y CTO/CPO cuatro veces. Su foco angel declarado es literalmente 'B2B SaaS, developer tools and supply chain', y sus intereses declarados empiezan por 'Agents, AI, Automatization'. Para una startup que construye un harness de desarrollo con nube de agentes, es el tipo de inversor que puede validar la arquitectura en una llamada y despues abrir la puerta a Encomenda (pre-seed y seed, 100-500K EUR con seguimiento hasta 2-3M) y a la red de Carlos Blanco y Nuclio en Barcelona. Su email personal esta publicado y es de dominio propio: es contactable en frio sin intro. Angulo de contacto: en espanol, tecnico y sin deck - un writeup de arquitectura, la comparacion con las decisiones de diseno que el defiende (DDD, CQRS, despliegues reproducibles) y una invitacion a probar el harness. Ademas es una via natural para dar una charla en DevOps Barcelona o PHP Barcelona.",
     "tesis_de_inversion": "Su foco como angel esta declarado explicitamente en su web personal: invierte en \"B2B SaaS, developer tools, and supply chain technology\", y asesora a fundadores en estrategia tecnologica, diseno organizativo y escalado de equipos de ingenieria. En Encomenda su area asignada es 'AI & Telecom'. Sus intereses profesionales, tal como los lista el mismo, son \"Agents, AI, Automatization\", organizaciones de alto rendimiento, gestion de datos, arquitectura de software y startups: es decir, ha puesto los agentes de IA en primer lugar de su propia lista de intereses. La tesis de Encomenda, el vehiculo desde el que canaliza parte de sus operaciones, es de alta conviccion en personas: \"Early Stage Venture Capital is about exceptional people. We make high conviction investments in technology-driven pre-seed and seed founders\", con foco en companias de origen espanol y ambicion internacional, gestion liderada por emprendedores y decisiones rapidas. Encomenda es sector-agnostico y su cartera reciente se concentra en IA aplicada (VoiceB.ai, Eleva AI, Metly, Uxia) y SaaS B2B. Su filosofia personal declarada -\"build the right thing right\" y \"strong opinions, loosely held\"- y su obra escrita sobre Domain-Driven Design y CQRS indican que evalua calidad de arquitectura y disciplina de ingenieria antes que metricas comerciales.",

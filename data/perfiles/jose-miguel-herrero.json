@@ -17,11 +17,8 @@
     "BSV IV Ariadne: objetivo 100M€, primer cierre realizado, 40M€ de la SETT."
   ],
   "linkedin": "https://es.linkedin.com/in/josemiguelherrero",
-  "linkedin_nota": "",
-  "otros_perfiles": "Perfil en la web del fondo: https://www.bigsurventures.vc/equipo | X/Twitter: https://twitter.com/joemycool (según Signal NFX) | Signal NFX: https://signal.nfx.com/investors/jose-miguel-herrero | Crunchbase: https://www.crunchbase.com/person/jos-miguel-herrero | Founders Pledge: https://www.founderspledge.com/members/206 | Podcast 'Investing in Spain' ep. 16: https://investinginspain.transistor.fm/16 | PodKast de K Fund ep. 21: https://medium.com/k-fund/podkast-ep-21-la-9bdce0b3735f",
   "email": "info@bigsurventures.vc",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://www.bigsurventures.vc/equipo y https://www.bigsurventures.vc/ — el fondo publica info@bigsurventures.vc como contacto único junto con la dirección postal (Orense 33, 3ºB, 28020 Madrid) y teléfono +34 916237731. No publica emails individuales de socios, por lo que no se puede inferir un patrón con evidencia. | buzón general publicado en la web). Patrón individual no confirmado; RocketReach y similares apuntan a direcciones nombre@bigsurventures.vc pero están ofuscadas y no son fuente pública verificable",
   "por_que_es_interesante": [
     "Tesis 'Internet Power' con 'AI-native software' y 'expert systems'; Axiomatic AI en cartera ('the intelligence infrastructure for verified science & engineering').",
     "Invierte sistemáticamente pre-tracción y lidera: Arq Quantum (pre-seed), Nanopower (9,4M€ liderada), LuxQuanta (8M€ liderada).",
@@ -101,6 +98,22 @@
     "https://medium.com/k-fund/podkast-ep-21-la-9bdce0b3735f",
     "https://www.founderspledge.com/members/206"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.bigsurventures.vc/equipo y https://www.bigsurventures.vc/ — el fondo publica info@bigsurventures.vc como contacto único junto con la dirección postal (Orense 33, 3ºB, 28020 Madrid) y teléfono +34 916237731. No publica emails individuales de socios, por lo que no se puede inferir un patrón con evidencia.",
+      "Buzón general publicado en la web. Patrón individual no confirmado; RocketReach y similares apuntan a direcciones nombre@bigsurventures.vc pero están ofuscadas y no son fuente pública verificable"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en la web del fondo: https://www.bigsurventures.vc/equipo",
+      "X/Twitter: https://twitter.com/joemycool (según Signal NFX)",
+      "Signal NFX: https://signal.nfx.com/investors/jose-miguel-herrero",
+      "Crunchbase: https://www.crunchbase.com/person/jos-miguel-herrero",
+      "Founders Pledge: https://www.founderspledge.com/members/206",
+      "Podcast 'Investing in Spain' ep. 16: https://investinginspain.transistor.fm/16",
+      "PodKast de K Fund ep. 21: https://medium.com/k-fund/podkast-ep-21-la-9bdce0b3735f"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -126,7 +139,6 @@
     "motivo_v1": "BSV IV Ariadne (100M€ objetivo, 40M€ de la SETT) invierte pre-seed en deep tech y participó en Axiomatic AI, pero su cita de 2020 ('es difícil invertir en infraestructura, no hacemos apuestas') y una cartera de hardware/física sin dev tools impiden llamarlo indiscutible."
   },
   "nombre_original": "José Miguel Herrero",
-  "email_original": "info@bigsurventures.vc (buzón general publicado en la web). Patrón individual no confirmado; RocketReach y similares apuntan a direcciones nombre@bigsurventures.vc pero están ofuscadas y no son fuente pública verificable.",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente el inversor seed español con la tesis más cercana a un stack de software IA-nativo con moat técnico: Big Sur nombra 'AI-native software' y 'expert systems' dentro de su tesis 'Internet Power' y ya ha invertido en Axiomatic AI (marzo 2026, seed de 18 M$ liderada por Engine Ventures con Kleiner Perkins), que se define literalmente como 'the intelligence infrastructure for verified science & engineering' —es decir, infraestructura de IA, no aplicación. Además invierte sistemáticamente pre-tracción: cuántica en fase pre-seed (Arq Quantum, 1,4 M$, 2026), semiconductores (Nanopower, 9,4 M€ liderada), fotónica cuántica (LuxQuanta, 8 M€ Serie A liderada). Es español nativo, con la conversación técnica en español y en inglés, y con un fondo nuevo (BSV IV Ariadne, objetivo 100 M€, primer cierre hecho, 40 M€ del Estado vía SETT) que necesita desplegar. Ángulo de contacto: entrar por el paralelismo con Axiomatic AI —verificación e infraestructura de inteligencia— y por su propio pasado de fundador técnico en LaNetro.",
     "tesis_de_inversion": "Big Sur invierte en etapa temprana (pre-seed a Serie A) en empresas con potencial de liderazgo global, articulando su cartera en dos tesis declaradas en su propia web: 'Internet Power' (software, internet y productos habilitados por TI —en descripciones más recientes se detalla como software IA-nativo, ciberseguridad y sistemas expertos) y 'Deep Tech' (cuántica, IA, ciencia de materiales, fotónica, microelectrónica y nanotecnología). Herrero valora explícitamente la tecnología profunda como barrera competitiva: «En nuestro caso nos encanta que una empresa tenga 'deep tech' porque supone una barrera a la competencia», aunque matiza que la patente sola no basta: «Si crees que por tener patentes tienes la vida resuelta, te van a comer vivo» (entrevista actúaupm, 2020). En equipo busca ambición con racionalidad y humildad: «Equipos ambiciosos, obsesionados por resolver un problema, pero no locos... gente humilde, de escucha activa»; y marca un límite claro: «La arrogancia es una línea roja». Se presenta como inversor activo, con más horas de socio por participada que la media del capital riesgo español.",

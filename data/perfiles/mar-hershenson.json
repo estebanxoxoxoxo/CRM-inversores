@@ -17,11 +17,8 @@
     "Pear Fund IV: 432M USD (jun-2023); Fondo V no anunciado."
   ],
   "linkedin": "https://www.linkedin.com/in/mar-hershenson-b21395/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/MarHershenson | Perfil en el fondo: https://pear.vc/team/mar-hershenson/ | Wikipedia: https://en.wikipedia.org/wiki/Mar_Hershenson | Signal NFX: https://signal.nfx.com/investors/mar-hershenson | Forbes: https://www.forbes.com/profile/mar-hershenson/ | Blog del fondo: https://pear.vc/blog/",
   "email": "mar@pear.vc",
   "email_estado": "patrón inferido (no verificado)",
-  "email_fuente": "Pear VC usa el patrón nombre@pear.vc: el email público de Shruti Merchant, socia del fondo, aparece como Shruti@pear.vc en su perfil público de LinkedIn (indexado en resultados de búsqueda). No se ha localizado el email personal de Mar Hershenson en ninguna fuente pública, por lo que mar@pear.vc es una inferencia y debe tratarse como no verificada. Alternativa segura: formulario y aplicación abierta de PearX en https://pear.vc/pearx/",
   "por_que_es_interesante": [
     "PearX: cheques de 500k-2M USD más créditos de nube a equipos sin producto ni tracción; el blog publica 'Investing before the idea'.",
     "Capaz de evaluar una arquitectura en la primera reunión (PhD EE Stanford, fundadora de semiconductores).",
@@ -92,6 +89,20 @@
     "https://cryptobriefing.com/vals-ai-40m-series-a-a16z/",
     "https://podbay.fm/p/seed-to-harvest/e/1690848000"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Pear VC usa el patrón nombre@pear.vc: el email público de Shruti Merchant, socia del fondo, aparece como Shruti@pear.vc en su perfil público de LinkedIn (indexado en resultados de búsqueda). No se ha localizado el email personal de Mar Hershenson en ninguna fuente pública, por lo que mar@pear.vc es una inferencia y debe tratarse como no verificada. Alternativa segura: formulario y aplicación abierta de PearX en https://pear.vc/pearx/"
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/MarHershenson",
+      "Perfil en el fondo: https://pear.vc/team/mar-hershenson/",
+      "Wikipedia: https://en.wikipedia.org/wiki/Mar_Hershenson",
+      "Signal NFX: https://signal.nfx.com/investors/mar-hershenson",
+      "Forbes: https://www.forbes.com/profile/mar-hershenson/",
+      "Blog del fondo: https://pear.vc/blog/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -117,7 +128,6 @@
     "motivo_v1": "PearX invierte 500k-2M en equipos sin producto ni tracción, blog 'Investing before the idea', Vals AI en cartera; nacida en Barcelona, PhD EE Stanford. Reservas: fondo generalista, PearX exige 12 semanas en el Área de la Bahía, Fondo V no confirmado."
   },
   "nombre_original": "Mar Hershenson",
-  "email_original": "mar@pear.vc",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente el mejor encaje global de la lista: española, técnica de verdad (doctorado en ingeniería eléctrica, 14 patentes), y gestora de un fondo cuyo producto principal es una aceleradora pre-seed que escribe cheques de 500K-2M USD a equipos sin tracción. Pear publica abiertamente entradas tituladas “Investing before the idea”, lo que responde de forma directa a la mala experiencia previa del cliente con inversores que exigen usuarios. Además, su cartera ya toca la infraestructura de IA que necesita el cliente: fue inversora semilla de Vals AI (evaluación de modelos), cuya Series A de 40M USD lideró a16z en agosto de 2026, y de Amari AI. El ángulo de contacto: escribir en español, presentarse como equipo técnico con una tesis de arquitectura contrastable, ofrecer el benchmark y la demo del harness, y pedir entrada a PearX en lugar de una ronda tradicional. Su condición de exfundadora de semiconductores hace creíble que valore un moat técnico sin usuarios.",
     "tesis_de_inversion": "Invierte en pre-seed y seed, a menudo antes de que exista producto o incluso idea definitiva, con foco en IA, software empresarial, deep tech, semiconductores, salud y biotecnología. Su criterio explícito es el equipo técnico primero: en su ficha del fondo resume su filosofía como “To make a company succeed, you should think in terms of and, not or” (equipo Y mercado Y ejecución). En la entrevista de La Vanguardia desde Pier01 (Barcelona, 2017) el titular fue precisamente “Nos gusta más invertir en alguien que ya...”, en línea con su método de apostar por personas antes que por métricas. Pear describe su misión como asumir el riesgo de las etapas más tempranas: el propio blog del fondo publicó en 2026 la entrada “Andera: Investing before the idea” y “Maximum: Investing in Randy Fernando, again”, dos casos de inversión anterior al producto. En la ola actual publica tesis como “Sell the outcome, not the AI tool: Why Pear is betting on AI-Native Services”. Como doctora en Ingeniería Eléctrica por Stanford con 14 patentes y profesora consultora de diseño de circuitos analógicos, es de las pocas socias gestoras capaces de evaluar una arquitectura por sí misma en la primera reunión.",

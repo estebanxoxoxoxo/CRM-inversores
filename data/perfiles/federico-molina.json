@@ -17,11 +17,8 @@
     "Él es Partner desde 2025; además ángel activo."
   ],
   "linkedin": "https://www.linkedin.com/in/federicomolina86/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/federicomolina (@federicomolina) | Perfil en el fondo: https://www.nxtp.vc/team | Página de autor en el blog de Auth0: https://auth0.com/blog/authors/federico-molina/ | Perfil de sesiones 1:1 (de pago): https://intro.co/FedeMolina | Cofundador de Arena Madness (deporte y entretenimiento) | Web del fondo: https://www.nxtp.vc/",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "No se ha localizado ningún email suyo en fuente pública primaria (ni en la web del fondo, ni en el blog de Auth0, ni en prensa). La web de NXTP no publica emails individuales del equipo, por lo que tampoco hay un patrón de dominio verificable a partir de otro socio: no se propone patrón inferido para no inducir a error. Vías reales de contacto: X/Twitter (@federicomolina, abierto), LinkedIn, y su página en intro.co (que permite reservar una sesión directa con él, aunque es un servicio de pago).",
   "por_que_es_interesante": [
     "Construyó desde dentro una compañía de dev tools de éxito global (Auth0, growth y analítica): entiende producto y comprador desarrollador sin traducción.",
     "NXTP tiene Auth0 y Vercel en cartera y 'deep domain expertise in Developer Tools & Infrastructure'; acompaña 'from idea through execution'.",
@@ -90,6 +87,20 @@
     "https://disclosures.ifc.org/project-detail/SII/46450/nxtp-fund-iii",
     "https://intro.co/FedeMolina"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No se ha localizado ningún email suyo en fuente pública primaria (ni en la web del fondo, ni en el blog de Auth0, ni en prensa). La web de NXTP no publica emails individuales del equipo, por lo que tampoco hay un patrón de dominio verificable a partir de otro socio: no se propone patrón inferido para no inducir a error. Vías reales de contacto: X/Twitter (@federicomolina, abierto), LinkedIn, y su página en intro.co (que permite reservar una sesión directa con él, aunque es un servicio de pago)."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/federicomolina (@federicomolina)",
+      "Perfil en el fondo: https://www.nxtp.vc/team",
+      "Página de autor en el blog de Auth0: https://auth0.com/blog/authors/federico-molina/",
+      "Perfil de sesiones 1:1 (de pago): https://intro.co/FedeMolina",
+      "Cofundador de Arena Madness (deporte y entretenimiento)",
+      "Web del fondo: https://www.nxtp.vc/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -115,7 +126,6 @@
     "motivo_v1": "NXTP tiene especialización en Developer Tools & Infrastructure (Auth0, Vercel) y entra pre-seed; él fue equipo fundador de Auth0. Reservas: Fund III de 2023 con capacidad no confirmada, Partner desde 2025 sin deals liderados, perfil de marketing; fuera de región."
   },
   "nombre_original": "Federico Molina (usa públicamente 'Fede Molina')",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es el único perfil del lote que combina tres cosas a la vez: hispanohablante nativo, operador que construyó desde dentro una compañía de developer tools de éxito global (Auth0), y socio con capacidad de decisión en un fondo cuya cartera incluye literalmente Auth0 y Vercel. Para una startup hispanohablante que vende un harness de desarrollo y un stack IA-nativo, no hace falta traducir nada: entiende el producto, entiende al comprador desarrollador y ha visto de cerca cómo una herramienta técnica pasa de idea a 6.500M USD. NXTP declara acompañar 'from idea through execution' y hace cheques de pre-seed desde 500K USD, lo que encaja con una ronda pre-producto. Ángulo de contacto: escribirle en español por X o LinkedIn, apoyándose en su etapa de Auth0 (el paralelismo entre 'autenticación como primitiva para desarrolladores' y 'harness de agentes como primitiva de desarrollo' es un gancho legítimo), y ofrecerle la versión para inversores del harness como algo que puede probar él mismo. Si NXTP no encaja por geografía, sigue siendo candidato a cheque de ángel.",
     "tesis_de_inversion": "Molina invierte dentro del mandato de NXTP, que se define como 'Pioneers of early-stage B2B technology investing in Latin America and globally' y busca 'category-defining founders' a los que acompaña 'from idea through execution' — es decir, desde la idea, no desde la tracción. Las verticales declaradas del fondo son Cloud & SaaS, FinTech y pagos, habilitadores de e-commerce, marketplaces B2B y datos e IA, y varias fuentes de análisis de fondos le atribuyen explícitamente 'deep domain expertise in Developer Tools & Infrastructure': plataformas para desarrolladores, DevOps, CI/CD y observabilidad. Esa especialización no es teórica: NXTP fue inversor de Auth0 (identidad para desarrolladores, adquirida por Okta por 6.500M USD en 2021) y de Vercel (plataforma de frontend e infraestructura cloud). Su propio background refuerza el ángulo: viene de haber construido la función de crecimiento de dos productos vendidos a desarrolladores y creadores (Auth0 y Decentraland), por lo que su lente natural es la adopción bottom-up de herramientas técnicas, la comunidad de desarrolladores y la distribución product-led, más que la venta enterprise clásica. Es además business angel activo y asesor de varias startups, lo que abre la vía de un cheque personal aunque el fondo no entre.",

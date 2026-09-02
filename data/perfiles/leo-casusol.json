@@ -17,11 +17,8 @@
     "Forgepoint Cybersecurity Fund III en despliegue; AUM >1.000M USD."
   ],
   "linkedin": "https://www.linkedin.com/in/leonciocasusol/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Perfil en el fondo: https://forgepointcap.com/team/leo-casusol/ | Q&A largo publicado por Forgepoint: https://forgepointcap.com/perspectives/qa-with-leo-casusol-innovating-from-the-mines-to-the-front-lines-a-serial-cio-and-global-architect-now-cyber-vc/ | Signal NFX: https://signal.nfx.com/investors/leo-casusol | VC Sheet: https://www.vcsheet.com/who/leo-casusol | Ficha como board observer de Secure Code Warrior: https://www.securecodewarrior.com/about-us/leo-casusol | Crunchbase: https://www.crunchbase.com/person/leoncio-casusol",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Forgepoint Capital no publica emails individuales de sus socios. Lo único que aparece en la ficha de Leo Casusol (https://forgepointcap.com/team/leo-casusol/) es el teléfono corporativo +1 650 289 4455 y la dirección fraud-alert@forgepointcap.com, que es un buzón de denuncia de suplantaciones y NO un canal de contacto para fundadores; usarlo sería contraproducente. No se ha encontrado ningún email personal de ningún socio de Forgepoint en fuentes abiertas, así que no hay patrón verificable y NO se propone ninguno. La vía real es LinkedIn o intro cálida.",
   "por_que_es_interesante": [
     "Sus focos son exactamente la capa del cliente; prefiere 'platform plays than point solutions'.",
     "CIO de carrera (Cyxtera, Verizon Business, Terremark): entiende integración y despliegue en gran empresa.",
@@ -88,6 +85,20 @@
     "https://pitchbook.com/profiles/fund/22380-67F",
     "https://forgepointcap.com/team/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Forgepoint Capital no publica emails individuales de sus socios. Lo único que aparece en la ficha de Leo Casusol (https://forgepointcap.com/team/leo-casusol/) es el teléfono corporativo +1 650 289 4455 y la dirección fraud-alert@forgepointcap.com, que es un buzón de denuncia de suplantaciones y NO un canal de contacto para fundadores; usarlo sería contraproducente. No se ha encontrado ningún email personal de ningún socio de Forgepoint en fuentes abiertas, así que no hay patrón verificable y NO se propone ninguno. La vía real es LinkedIn o intro cálida."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en el fondo: https://forgepointcap.com/team/leo-casusol/",
+      "Q&A largo publicado por Forgepoint: https://forgepointcap.com/perspectives/qa-with-leo-casusol-innovating-from-the-mines-to-the-front-lines-a-serial-cio-and-global-architect-now-cyber-vc/",
+      "Signal NFX: https://signal.nfx.com/investors/leo-casusol",
+      "VC Sheet: https://www.vcsheet.com/who/leo-casusol",
+      "Ficha como board observer de Secure Code Warrior: https://www.securecodewarrior.com/about-us/leo-casusol",
+      "Crunchbase: https://www.crunchbase.com/person/leoncio-casusol"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -113,7 +124,6 @@
     "motivo_v1": "Tesis de plataformas cloud/DevSecOps, pero cheques de 5-30M USD en Series A/B, sin semilla documentada y sólo 4 operaciones desde 2021."
   },
   "nombre_original": "Leo Casusol (Segundo Leoncio Casusol)",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Su encaje es parcial pero su valor de red es real. A favor: sus focos declarados (cloud infrastructure, DevSecOps, Kubernetes/orquestación, AI/ML) son exactamente la capa del cliente; es hispanohablante nativo peruano, con lo que la conversación puede ser en español desde el primer minuto; y trabaja en el mismo fondo que Alberto Yépez (cofundador de Forgepoint, mexicano), que ya está en la lista, lo que permite una entrada doble. Su cartera incluye Rafay Systems (orquestación de Kubernetes) y Cinchy (autonomía de datos), es decir, plataformas de infraestructura, no aplicaciones. En contra, y es determinante: su ticket documentado es de 5 a 30M USD en Series A/B, tiene solo cuatro operaciones registradas a su nombre y no hay ninguna evidencia pública de que lidere semillas. Ángulo de contacto: no venderle visión sino despliegue —enseñarle cómo un CIO integraría el stack, qué reemplaza, quién lo compra— y usarlo como sparring técnico y puerta de entrada al fondo antes que como primer cheque. Es un contacto de segunda ronda, no de pre-seed.",
     "tesis_de_inversion": "Casusol invierte desde la óptica del comprador: es un CIO de carrera reconvertido en inversor y su tesis gira en torno a si una tecnología se puede realmente comprar, integrar y desplegar en una empresa grande. Sus focos declarados en Forgepoint son cloud infrastructure, DevSecOps, orquestación (Kubernetes), AI/ML y 'frontier security'. En el Q&A publicado por su propio fondo (28-feb-2023) dice valorar 'startups that innovate and break the status quo, challenging how things are done today' y declara una preferencia explícita por 'platform plays than point solutions': le interesan plataformas que resuelvan problemas empresariales complejos, no herramientas de un solo uso, algo directamente aplicable a un stack completo. Su marco de diligencia son cuatro fricciones de venta empresarial: identificar a los stakeholders del cliente, ganar al sponsor técnico, escalar a nivel enterprise y sostener el soporte continuo. También insiste en la orquestación de procesos de negocio como patrón ganador. Es decir: pregunta menos '¿es esto técnicamente asombroso?' y más '¿quién lo compra, quién lo integra y quién lo mantiene?'. Para una startup pre-tracción esto es a la vez su virtud (entiende infraestructura de verdad) y su límite (quiere ver camino a compra empresarial).",

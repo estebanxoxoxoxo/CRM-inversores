@@ -17,11 +17,8 @@
     "No escribe cheques fuera de YC; no hay garantía de caer en su grupo."
   ],
   "linkedin": "https://www.linkedin.com/in/sdianahu",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/sdianahu | Perfil en YC: https://www.ycombinator.com/people/diana-hu | Anuncio de su nombramiento: https://www.ycombinator.com/blog/diana-hu-managing-partner | Lightcone Podcast (co-presentadora): https://www.ycombinator.com/library/carousel/Lightcone%20Podcast y https://www.youtube.com/playlist?list=PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "No hay email personal público de Diana Hu ni de ningún otro socio de YC. Los únicos buzones públicos del fondo son apply@ycombinator.com y demoday@ycombinator.com. Fuentes de terceros (RocketReach) especulan con un patrón nombre@ycombinator.com, pero NO hay ninguna dirección de socio verificada públicamente, así que no se propone patrón. Vías reales: la solicitud abierta a YC y su cuenta de X (@sdianahu).",
   "por_que_es_interesante": [
     "YC publicó en 2026 QM, 'a multiplayer agent harness for work' (MIT): construyen internamente lo que el cliente vende.",
     "El deal de YC (500k USD) es explícitamente 'not contingent on hitting any milestones': responde de frente a la mala experiencia con inversores que piden usuarios.",
@@ -89,6 +86,18 @@
     "https://orply.com/leaders/diana-hu",
     "https://podcasts.apple.com/us/podcast/141-diana-hu/id1236907421?i=1000447994300"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No hay email personal público de Diana Hu ni de ningún otro socio de YC. Los únicos buzones públicos del fondo son apply@ycombinator.com y demoday@ycombinator.com. Fuentes de terceros (RocketReach) especulan con un patrón nombre@ycombinator.com, pero NO hay ninguna dirección de socio verificada públicamente, así que no se propone patrón. Vías reales: la solicitud abierta a YC y su cuenta de X (@sdianahu)."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/sdianahu",
+      "Perfil en YC: https://www.ycombinator.com/people/diana-hu",
+      "Anuncio de su nombramiento: https://www.ycombinator.com/blog/diana-hu-managing-partner",
+      "Lightcone Podcast (co-presentadora): https://www.ycombinator.com/library/carousel/Lightcone%20Podcast y https://www.youtube.com/playlist?list=PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -114,7 +123,6 @@
     "motivo_v1": "YC invierte 500k USD sin condicionarlo a métricas; fundadora técnica (CMU, CTO Escher Reality) que acompaña infra de IA (Reducto, Resend, Activeloop); criada en Chile según YC. Única vía: entrar al batch (7% + SAFE) y constituirse en EE.UU./Canadá/Caimán/Singapur."
   },
   "nombre_original": "Diana Hu",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es la persona de la lista cuyo trabajo diario está más cerca del producto del cliente. En julio-agosto de 2026 YC liberó como open source QM (Quartermaster), descrito literalmente como “a multiplayer agent harness for work”, con sandboxes por scope, skills compartidas, crons y bucles de codificación intercambiables (Pi, OpenCode, Codex, Claude Code) — es decir, YC construye internamente un harness de agentes y lo publica con licencia MIT. Diana Hu es la socia que más ha empujado la narrativa de “make something agents want” y de que la unidad de producción de una startup pasa del equipo al fundador. Además, YC es el único vehículo de la lista que invierte 500.000 USD sin condicionarlo a ninguna métrica, lo que responde de forma frontal a la mala experiencia del cliente con inversores que piden usuarios. El ángulo: aplicar al batch con la demo del harness, contrastarla explícitamente con QM y con Codex/Claude Code, y llevar benchmarks reproducibles. Su origen chileno facilita el trato, aunque su fluidez en español no está documentada.",
     "tesis_de_inversion": "Como socia de YC invierte en la etapa más temprana posible, sin exigir métricas: el deal estándar es incondicional y se cierra antes de que arranque el batch. Su lente es técnica —viene de visión por computador y ML— y su discurso público de 2025-2026 gira alrededor de los agentes. En el episodio de Lightcone “The AI Agent Economy Is Here” (21-feb-2026) plantea el crecimiento explosivo de las herramientas de desarrollo con IA y si ha llegado el momento de “make something agents want”, una reformulación deliberada del lema fundacional de YC. Sostiene que “AI agents are changing the basic production unit of a startup from a team to a founder” y observa que las empresas de YC pasan de cero a siete cifras de ingresos en tres meses, algo imposible en su propio batch de 2017, precisamente por las herramientas de programación agéntica. Avisa también del riesgo de plataforma: compara lo que vivió cuando Apple lanzó ARKit el primer día de su batch con lo que hoy afrontan los fundadores de IA, y pide que la hoja de ruta no colisione con lo que los laboratorios frontera ya están construyendo. Su cartera de acompañamiento está llena de infraestructura y herramientas para desarrolladores.",

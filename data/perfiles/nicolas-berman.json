@@ -17,11 +17,8 @@
     "975M USD levantados en 2023 en dos fondos; 131 compañías."
   ],
   "linkedin": "https://www.linkedin.com/in/nicolasberman/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web del fondo: https://www.kaszek.com/ | Equipo: https://www.kaszek.com/people/ | Portafolio: https://www.kaszek.com/companies/ | LinkedIn del fondo: https://www.linkedin.com/company/2892335 | Instagram: https://www.instagram.com/kaszekventures | Signal NFX: https://signal.nfx.com/investors/nicolas-berman | Entrevista en Diario Financiero (22/11/2024): 'Nicolás Berman, socio de Kaszek: Hay compañías hermosas en Chile' | AVISO: la URL de LinkedIn personal es la forma habitual del perfil pero NO ha podido verificarse por bloqueo de LinkedIn a la consulta automatizada. Kaszek no publica páginas individuales de socios ni biografías.",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Kaszek muestra en su web un único email corporativo ofuscado contra scraping y no publica direcciones individuales de sus socios ni en /people/ ni en ninguna otra página. Sin ningún email público de socio, NO hay base para proponer un patrón inferido.",
   "por_que_es_interesante": [
     "Kaszek pone semillas muy grandes en IA empresarial con poco recorrido comercial (Primero AI, 12M USD, 2026).",
     "Red corporativa (FEMSA, Bimbo, Aeroméxico, Kimberly-Clark): compradores potenciales del stack.",
@@ -84,6 +81,22 @@
     "https://www.forbes.co (Forbes Colombia, 03/04/2023: 'Kaszek recauda US$975 millones con dos nuevos fondos para emprendedores en Latinoamérica')",
     "https://www.elobservador.com.uy (15/09/2021: 'Equipo original de Mercado Libre crea compañía de inversiones para acelerar proyectos de la región')"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Kaszek muestra en su web un único email corporativo ofuscado contra scraping y no publica direcciones individuales de sus socios ni en /people/ ni en ninguna otra página. Sin ningún email público de socio, NO hay base para proponer un patrón inferido."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: https://www.kaszek.com/",
+      "Equipo: https://www.kaszek.com/people/",
+      "Portafolio: https://www.kaszek.com/companies/",
+      "LinkedIn del fondo: https://www.linkedin.com/company/2892335",
+      "Instagram: https://www.instagram.com/kaszekventures",
+      "Signal NFX: https://signal.nfx.com/investors/nicolas-berman",
+      "Entrevista en Diario Financiero (22/11/2024): 'Nicolás Berman, socio de Kaszek: Hay compañías hermosas en Chile'",
+      "AVISO: la URL de LinkedIn personal es la forma habitual del perfil pero NO ha podido verificarse por bloqueo de LinkedIn a la consulta automatizada. Kaszek no publica páginas individuales de socios ni biografías."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -109,7 +122,6 @@
     "motivo_v1": "Co-lideró la seed de 12M de Primero AI, pero punto dulce de 10M, sin dev tools en Kaszek y lectura de IA como adopción corporativa. Radar para ronda posterior."
   },
   "nombre_original": "Nicolás Berman",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es el inversor con más músculo de este lote y el único que ha colocado capital reciente y significativo en una compañía de agentes de IA para empresas: colideró con General Catalyst la semilla de US$12M de Primero AI en agosto de 2026, junto a Definition, Conviction, 8VC y ángeles de FEMSA, Bimbo, Aeroméxico y Kimberly-Clark de México. Esa operación demuestra dos cosas útiles: que Kaszek está dispuesta a poner semillas muy grandes en compañías de IA con poco recorrido comercial, y que Berman tiene interlocución directa con los mayores corporativos de la región —justo los compradores potenciales de un stack IA-nativo—. El problema es de calibre: su cheque típico ronda los US$10M y su etapa efectiva empieza donde una pre-semilla termina. El ángulo realista es no pedirle un primer cheque, sino ponerlo en el radar ahora para la ronda siguiente y usar su red corporativa (FEMSA, Bimbo, Aeroméxico) como vía de validación temprana. Requiere intro caliente: Kaszek no tiene canal frío.",
     "tesis_de_inversion": "Kaszek se define como 'We are tech entrepreneurs partnering with the most extraordinary founders in Latin America' e invierte en industrias donde la tecnología ofrece oportunidades de disrupción significativa. La firma no publica una tesis específica sobre IA, infraestructura ni herramientas para desarrolladores; su criterio declarado es de equipo ('fundadores extraordinarios') y de tamaño de mercado. Los sectores efectivos son servicios financieros, educación, salud, e-commerce, marketplaces, software empresarial y SaaS. El posicionamiento sobre IA que sí se le puede atribuir a Berman viene de la operación de Primero AI (agosto de 2026): Kaszek coliideró con General Catalyst una ronda semilla de US$12M para una plataforma que conecta sistemas fragmentados en grandes empresas latinoamericanas y automatiza procesos corporativos con IA aplicada. En el comunicado, Berman planteó que los CEOs de las mayores empresas de la región están deseosos de adoptar IA. Es decir: su lectura de la IA es de ADOPCIÓN EMPRESARIAL —llevar IA a corporativos grandes de LatAm— y no de construcción de infraestructura fundacional ni de herramientas para desarrolladores.",

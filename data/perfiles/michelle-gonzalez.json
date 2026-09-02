@@ -17,11 +17,8 @@
     "Evergreen del balance de Microsoft: ~150-250M USD desplegados al año; Microsoft único LP."
   ],
   "linkedin": "https://www.linkedin.com/in/michellehgonzalez/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Perfil en la web del fondo: https://m12.vc/team/michelle-gonzalez/ | Página de autora en el blog corporativo de Microsoft: https://blogs.microsoft.com/blog/author/mgonzalez/ | X/Twitter: @michhgonz (handle listado en https://www.vcsheet.com/who/michelle-gonzalez; no pude verificarlo directamente porque x.com devolvió HTTP 402, así que tratarlo como no verificado) | Ficha de ponente HumanX 2026: https://www.humanx.co/us/speakers/michelle-gonzalez | Perfil Crunchbase: https://www.crunchbase.com/person/michelle-gonzalez-36de (devolvió 403 al intentar leerlo)",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Ni m12.vc/team/michelle-gonzalez, ni m12.vc/contact, ni el blog de Microsoft publican direcciones de correo individuales, y M12 no expone ningún patrón de email en su web. Única pista débil: el slug de su página de autora en blogs.microsoft.com es '/author/mgonzalez/', lo que sugeriría un alias tipo mgonzalez@microsoft.com, pero eso es un identificador de CMS, no un email publicado, y no lo doy por bueno. El canal real y público para contacto en frío es el formulario de M12 (https://m12.vc/contact/) y su gestor de envíos Submittable (https://m12vc.submittable.com/submit), donde M12 pide información de la empresa y el deck.",
   "por_que_es_interesante": [
     "M12 invirtió pre-producto en Entire (red git distribuida para agentes de IA): la capa exacta del harness.",
     "Modera paneles sobre 'agentic and AI coding infrastructure' y organiza comidas de fundadores del 'agentic SDLC'.",
@@ -100,6 +97,19 @@
     "https://creators.spotify.com/pod/show/blind-ambition-podcast/episodes/Michelle-Gonzalez--Corporate-Vice-President-and-Global-Head-of-M12-The-Secret-to-Networking-and-Meeting-the-Most-Influential-People-Out-There-e2e9n9s",
     "https://www.linkedin.com/in/michellehgonzalez/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Ni m12.vc/team/michelle-gonzalez, ni m12.vc/contact, ni el blog de Microsoft publican direcciones de correo individuales, y M12 no expone ningún patrón de email en su web. Única pista débil: el slug de su página de autora en blogs.microsoft.com es '/author/mgonzalez/', lo que sugeriría un alias tipo mgonzalez@microsoft.com, pero eso es un identificador de CMS, no un email publicado, y no lo doy por bueno. El canal real y público para contacto en frío es el formulario de M12 (https://m12.vc/contact/) y su gestor de envíos Submittable (https://m12vc.submittable.com/submit), donde M12 pide información de la empresa y el deck."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en la web del fondo: https://m12.vc/team/michelle-gonzalez/",
+      "Página de autora en el blog corporativo de Microsoft: https://blogs.microsoft.com/blog/author/mgonzalez/",
+      "X/Twitter: @michhgonz (handle listado en https://www.vcsheet.com/who/michelle-gonzalez; no pude verificarlo directamente porque x.com devolvió HTTP 402, así que tratarlo como no verificado)",
+      "Ficha de ponente HumanX 2026: https://www.humanx.co/us/speakers/michelle-gonzalez",
+      "Perfil Crunchbase: https://www.crunchbase.com/person/michelle-gonzalez-36de (devolvió 403 al intentar leerlo)"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -125,7 +135,6 @@
     "motivo_v1": "Dirige M12 y participó en la seed pre-producto de Entire, pero eso la convierte en inversora de un competidor directo del harness; centro real Serie A/B, alineamiento con Azure y español sin confirmar."
   },
   "nombre_original": "Michelle Gonzalez",
-  "email_original": "",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente la persona con mejor encaje temático de toda la lista para un harness de agentes de desarrollo. M12 no sólo dice invertir en 'developer tools' y 'Deep Tech & Systems': en febrero de 2026 entró en la seed de 60 M USD de Entire, la empresa del ex-CEO de GitHub Thomas Dohmke, que construye una red git distribuida para agentes de IA — es decir, exactamente la capa donde vive el harness del cliente, y financiada pre-producto (el primer release open source, Checkpoints CLI, salió el mismo día del anuncio). Además Gonzalez modera personalmente paneles sobre 'agentic and AI coding infrastructure' y ha organizado comidas para fundadores e inversores que construyen el 'agentic SDLC'. M12 publica research propio sobre contratos de comportamiento verificables en agentes LLM. Y su discurso sobre corporate VC — acceso a GPUs, a Azure y a clientes empresariales — encaja con una startup deep tech que necesita cómputo antes que usuarios. El riesgo es simétrico: ese mismo interés convierte a Microsoft en competidor potencial.",
     "tesis_de_inversion": "M12 declara cinco áreas de tesis en su web: 'AI Apps', 'Security for AI', 'AI Cloud Infrastructure', 'AI Data Ops & Models' y 'Deep Tech & Systems', en etapas Seed a Series B. Gonzalez reformuló el fondo en enero de 2023: 'we developed a more focused investment strategy tightly aligned to Microsoft' y 'we've leaned into the M of M12, where we tap more into Microsoft and the power of its network', con las áreas núcleo 'AI, cloud infrastructure, cybersecurity, developer tools and vertical SaaS' (https://blogs.microsoft.com/blog/2023/01/05/m12-ventures-down-a-new-path/). Su método es explícitamente temático y profundo, no de dispersión: 'We focused a lot more on a smaller number of areas but going very deep and having a thesis about how we think that the vertical or area will evolve' (https://globalventuring.com/corporate/information-technology/m12-microsoft-startup-investment/). Sobre IA sostiene que el valor diferencial del corporate VC hoy es técnico y comercial, no sólo dinero: 'having a strategic [investor], particularly one that has expertise in AI or access to GPUs or that can help with the go-to-market [process]...is an advantage'. Y al evaluar equipos pre-tracción mira resiliencia y manejo de herramienta: 'Really looking at the founder. Do they have examples of grit?' y 'Are they facile with the new kinds of tools?' (https://globalventuring.com/corporate/information-technology/michelle-gonzalez-m12-interview/).",

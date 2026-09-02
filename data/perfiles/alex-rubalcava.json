@@ -17,11 +17,8 @@
     "Amplify (LA): Fund VI, tamaño no publicado; 'first partner to 80+ companies'."
   ],
   "linkedin": "https://www.linkedin.com/in/alex-rubalcava-10696/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/AlexRubalcava | Amplify (fondo actual): https://amplify.la/ y blog https://blog.amplify.la/ | Anuncio de su incorporación: https://amplify.la/amplify-grows-the-team-welcoming-alex-rubalcava-celebrating-connor-sundberg/ | Stage Venture Partners (histórico): https://www.stagevp.com/team | Signal NFX: https://signal.nfx.com/investors/alex-rubalcava | VC Sheet: https://www.vcsheet.com/who/alex-rubalcava | Perfil en dot.LA: https://dot.la/venture-capital-los-angeles-2649798392/alex-rubalcava-stage-venture-partners | Entrevista larga en MOI Global: https://moiglobal.com/alex-rubalcava-interview/ | Podcasts: LA Venture (TenOneTen) https://www.tenoneten.com/podcast/alex-rubalcava-stage-venture-partners , Daniel Scrivner ep. 98 https://www.danielscrivner.com/98/ , Upside CC033 https://upside.fm/alex-rubalcava-stage-venture-partners/ , The Meb Faber Show (2026, con Paul Bricault, sobre el futuro del SaaS ante la IA)",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Ni Amplify (amplify.la) ni Stage Venture Partners publican emails individuales de sus socios. La página about de Amplify lista al equipo (Paul Bricault, Oded Noy, Alex Rubalcava, Connor Sundberg, Katie Dean) sin ninguna dirección, y su página de contacto (https://amplify.la/contact/) solo ofrece un formulario, sin email visible. No se ha encontrado ningún email de ningún socio de Amplify en fuentes abiertas, así que no hay patrón verificable y NO se propone ninguno. La vía real es X/Twitter (@AlexRubalcava), LinkedIn, el formulario de amplify.la/contact/ o una intro cálida, que es lo que el propio fondo pide: 'The most effective introduction is through a mutual connection. We place a higher priority on those who are referred or endorsed by people we know and trust'.",
   "por_que_es_interesante": [
     "Tesis publicada: pre-seed, B2B, deep tech, riesgo técnico alto y riesgo competitivo bajo.",
     "Filtro explícito que premia construir software exigente con 25.000-60.000 USD: el argumento de eficiencia del cliente.",
@@ -96,6 +93,23 @@
     "https://superscout.co/investor/stage-venture-partners",
     "https://www.crunchbase.com/person/alex-rubalcava"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Ni Amplify (amplify.la) ni Stage Venture Partners publican emails individuales de sus socios. La página about de Amplify lista al equipo (Paul Bricault, Oded Noy, Alex Rubalcava, Connor Sundberg, Katie Dean) sin ninguna dirección, y su página de contacto (https://amplify.la/contact/) solo ofrece un formulario, sin email visible. No se ha encontrado ningún email de ningún socio de Amplify en fuentes abiertas, así que no hay patrón verificable y NO se propone ninguno. La vía real es X/Twitter (@AlexRubalcava), LinkedIn, el formulario de amplify.la/contact/ o una intro cálida, que es lo que el propio fondo pide: 'The most effective introduction is through a mutual connection. We place a higher priority on those who are referred or endorsed by people we know and trust'."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/AlexRubalcava",
+      "Amplify (fondo actual): https://amplify.la/ y blog https://blog.amplify.la/",
+      "Anuncio de su incorporación: https://amplify.la/amplify-grows-the-team-welcoming-alex-rubalcava-celebrating-connor-sundberg/",
+      "Stage Venture Partners (histórico): https://www.stagevp.com/team",
+      "Signal NFX: https://signal.nfx.com/investors/alex-rubalcava",
+      "VC Sheet: https://www.vcsheet.com/who/alex-rubalcava",
+      "Perfil en dot.LA: https://dot.la/venture-capital-los-angeles-2649798392/alex-rubalcava-stage-venture-partners",
+      "Entrevista larga en MOI Global: https://moiglobal.com/alex-rubalcava-interview/",
+      "Podcasts: LA Venture (TenOneTen) https://www.tenoneten.com/podcast/alex-rubalcava-stage-venture-partners , Daniel Scrivner ep. 98 https://www.danielscrivner.com/98/ , Upside CC033 https://upside.fm/alex-rubalcava-stage-venture-partners/ , The Meb Faber Show (2026, con Paul Bricault, sobre el futuro del SaaS ante la IA)"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -121,7 +135,6 @@
     "motivo_v1": "Pre-seed deep tech B2B con filtro de eficiencia de ingeniería, pero español y origen no confirmados, cheque pequeño y fusión con Amplify.LA (no Amplify Partners)."
   },
   "nombre_original": "Alex Rubalcava",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Su tesis publicada es prácticamente un guion escrito para el cliente: pre-seed, B2B, deep tech, riesgo técnico alto y riesgo competitivo bajo, con un filtro que premia explícitamente a los equipos capaces de construir software exigente con 25.000-60.000 USD. Si el cliente puede demostrar que su stack IA-nativo se construyó con una fracción del capital que consumiría un equipo convencional, ese es literalmente el dato que Rubalcava usa para decidir. Sus tres preguntas —¿sabes shippear, vender y contratar?— colocan la capacidad de ingeniería por delante de las métricas de uso. Lidera rondas y es a menudo el primer cheque institucional, así que no espera a que otro valide. Ángulo de contacto: no un pitch narrativo sino una demostración de eficiencia de ingeniería —qué se ha construido, con cuánto dinero, en cuánto tiempo, y por qué el riesgo dominante es técnico— más el harness de agentes como la explicación mecánica de esa eficiencia. CORRECCIÓN IMPORTANTE respecto a la información de partida: el fondo con el que se fusionó Stage VP es Amplify.LA, un fondo pre-seed de Los Ángeles fundado en 2011 (FloQast, Tapcart, Volley, RentSpree), NO Amplify Partners (el fondo de dev tools e infraestructura de IA de Datadog, dbt y Fivetran). Son dos firmas distintas.",
     "tesis_de_inversion": "Es el inversor de esta lista cuyo criterio explícito está mejor alineado con financiar tecnología difícil antes de que haya usuarios. Aplica marcos de value investing al pre-seed: 'being good at value investing can make you good at venture capital, and vice versa' (dot.LA). Busca deliberadamente compañías con riesgo técnico alto y riesgo competitivo bajo: donde la pregunta abierta es si la tecnología se puede construir siquiera, no si habrá diez competidores. Su filtro operativo más citado es la eficiencia de capital extrema en ingeniería: VC Sheet lo resume como 'extreme engineering capital efficiency ($25-60k builds)', y en el podcast de Daniel Scrivner lo ilustra con un contraste que repite mucho: un equipo se gastó 4M USD y no tenía producto terminado mientras un competidor había gastado 40.000 USD y ya tenía clientes de pago, una diferencia de 100x. Rechaza equipos que subcontratan el desarrollo. Su marco de evaluación de equipos son tres preguntas: 'The three questions that matter when evaluating a management team are, can you ship? Can you sell? And can you hire?'. Invierte en applied AI, visión por computador, NLP, data warehouses especializados y sistemas de registro, además de robótica industrial, espacio, defensa y ciencias de la vida, con preferencia por entornos regulados donde los incumbentes son vulnerables.",

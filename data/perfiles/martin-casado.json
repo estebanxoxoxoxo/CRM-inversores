@@ -17,11 +17,8 @@
     "Lidera la práctica de infraestructura (>1.250M USD) y co-lidera el Machine Age Fund (1.100M USD, 2026)."
   ],
   "linkedin": "https://www.linkedin.com/in/martincasado/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/martin_casado (muy activo, es su canal público principal) | Perfil en el fondo: https://a16z.com/martin-casado/ | Todos sus ensayos: https://a16z.com/author/martin-casado/ | Wikipedia: https://en.wikipedia.org/wiki/Martin_Casado | Forbes: https://www.forbes.com/profile/martin-casado/",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "No se ha localizado ningún email público de Martin Casado ni de ningún otro socio de a16z en fuentes abiertas (web del fondo, prensa, bios de ponente, GitHub). a16z no publica direcciones individuales y no hay evidencia suficiente de un patrón de dominio verificable, por lo que NO se propone ninguno. La vía práctica es el DM/mención en X (@martin_casado), donde responde con frecuencia, o una intro cálida de un fundador de portfolio.",
   "por_que_es_interesante": [
     "Consejero de Cursor (harness de programación con IA), Braintrust y Distributional (evals e infra de agentes): el problema exacto del cliente.",
     "'The Cost of Cloud, a Trillion Dollar Paradox': reoptimizar el stack de cómputo libera cientos de miles de millones; encaja con 'stack ~90% mejor'.",
@@ -94,6 +91,19 @@
     "https://www.forbes.com/profile/martin-casado/",
     "https://cryptobriefing.com/vals-ai-40m-series-a-a16z/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No se ha localizado ningún email público de Martin Casado ni de ningún otro socio de a16z en fuentes abiertas (web del fondo, prensa, bios de ponente, GitHub). a16z no publica direcciones individuales y no hay evidencia suficiente de un patrón de dominio verificable, por lo que NO se propone ninguno. La vía práctica es el DM/mención en X (@martin_casado), donde responde con frecuencia, o una intro cálida de un fundador de portfolio."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/martin_casado (muy activo, es su canal público principal)",
+      "Perfil en el fondo: https://a16z.com/martin-casado/",
+      "Todos sus ensayos: https://a16z.com/author/martin-casado/",
+      "Wikipedia: https://en.wikipedia.org/wiki/Martin_Casado",
+      "Forbes: https://www.forbes.com/profile/martin-casado/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -119,7 +129,6 @@
     "motivo_v1": "La cartera más solapada con el cliente (Cursor, Braintrust, Distributional, Convex) y fundador técnico, pero nacido en España sin español confirmado, entra en Series A/B, acceso muy difícil y conflicto potencial por el consejo de Cursor."
   },
   "nombre_original": "Martin Casado",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es, de los seis, el inversor cuya cartera se solapa más literalmente con lo que construye el cliente: está en el consejo de Cursor (harness de programación con IA), Convex, Netlify, Fivetran, Braintrust y Distributional (evals e infraestructura de agentes). Su tesis pública de que el coste del cómputo y del cloud es el gran arbitraje pendiente encaja con la afirmación de “stack ~90% mejor”. Además es un fundador técnico profundo, no un inversor financiero: valora demos, benchmarks y arquitectura por encima de métricas de uso, y su podcast “Benchmarking AI Agents on Full-Stack Coding” muestra que le interesa exactamente el problema de evaluar agentes que escriben software. El ángulo de contacto correcto es técnico y cuantitativo: enseñarle el benchmark del stack frente a alternativas, con metodología de evals reproducible, y encuadrarlo como la secuela práctica de “The Cost of Cloud”. Nacido en España, pero su fluidez en español NO está confirmada.",
     "tesis_de_inversion": "Casado invierte en infraestructura: bases de datos, redes, seguridad, plataformas de datos y, desde 2023, todo el stack de IA (modelos, evals, agentes, herramientas de desarrollo y hardware). Su marco público es que el valor en IA se está repartiendo por capas y que la capa de aplicación puede capturar tanto o más que los laboratorios: sobre Cursor dice que “developed near-SOTA model at fraction of cost, then went down-stack. Shows you can build massive opportunity on app layer while training models” (Latent Space, 19-feb-2026). Cree que estamos en 1996 y no en 1999, que las scaling laws siguen intactas y que el cuello de botella real es la demanda, no la técnica. Es contrario al consenso en dos cosas útiles para una startup deep tech: dice que “boring enterprise software is most underinvested” y que hay que huir del hype de ciclo; y sostiene que “every app company must ask: how do I extract margin on tokens flowing through”. Su ensayo más citado, “The Cost of Cloud, a Trillion Dollar Paradox” (a16z, 2021, con Sarah Wang), defiende exactamente la tesis de que reoptimizar el stack de cómputo libera cientos de miles de millones de valor: es el precedente intelectual perfecto para una startup que afirma un stack IA-nativo mucho más eficiente.",

@@ -17,11 +17,8 @@
     "Fund II de 40M USD (2021); Fund III no público."
   ],
   "linkedin": "https://www.linkedin.com/in/lisettellez/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Crunchbase: https://www.crunchbase.com/person/lisette-tellez | NFX Signal: https://signal.nfx.com/investors/lisette-tellez | vcsheet: https://www.vcsheet.com/who/lisette-herbanek | Bio oficial: https://oceanazulpartners.com/team/team-bios/ | Venture Forward (NVCA): https://ventureforward.org/hhm-lisette-herbanek/ | SomosVC (board alumni): https://www.somos.vc/about/team",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "El sitio de Ocean Azul Partners NO publica ninguna dirección de correo, ni de la firma ni de los socios (verificado en oceanazulpartners.com/contact/, que solo ofrece un formulario de pitch y un formulario general, con promesa de respuesta en dos semanas). Al no existir ningún email publicado por el fondo, no hay patrón observable que se pueda inferir con honestidad. Existen agregadores de pago (RocketReach, Angel Match, intail.ai) que afirman tener su correo, pero no son fuentes públicas verificables y no se han usado.",
   "por_que_es_interesante": [
     "Una de las pocas inversoras latinas con formación real de ingeniería de software que firma deep tech, no SaaS genérico.",
     "Cartera conectada: PLCs.ai (generación de código con IA), Itopia (automatización sobre Google Cloud), MarkeTeam.ai (agentes autónomos, liderada por Ocean Azul), memQ (redes cuánticas, co-liderada 2026).",
@@ -93,6 +90,20 @@
     "https://www.prnewswire.com/news-releases/marketeamai-raises-3-million-in-seed-funding-to-accelerate-transition-to-ai-native-autonomous-agents-in-the-workplace-302360842.html",
     "https://www.prnewswire.com/news-releases/qbiq-ai-raises-16m-series-a-led-by-insight-partners-to-meet-booming-demand-for-its-automated-architectural-solutions-302347354.html"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "El sitio de Ocean Azul Partners NO publica ninguna dirección de correo, ni de la firma ni de los socios (verificado en oceanazulpartners.com/contact/, que solo ofrece un formulario de pitch y un formulario general, con promesa de respuesta en dos semanas). Al no existir ningún email publicado por el fondo, no hay patrón observable que se pueda inferir con honestidad. Existen agregadores de pago (RocketReach, Angel Match, intail.ai) que afirman tener su correo, pero no son fuentes públicas verificables y no se han usado."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Crunchbase: https://www.crunchbase.com/person/lisette-tellez",
+      "NFX Signal: https://signal.nfx.com/investors/lisette-tellez",
+      "Vcsheet: https://www.vcsheet.com/who/lisette-herbanek",
+      "Bio oficial: https://oceanazulpartners.com/team/team-bios/",
+      "Venture Forward (NVCA): https://ventureforward.org/hhm-lisette-herbanek/",
+      "SomosVC (board alumni): https://www.somos.vc/about/team"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -118,7 +129,6 @@
     "motivo_v1": "MIT CS y PLCs.ai en cartera, pero el fondo exige MVP completo y tracción inicial, cheques de 200k-2M en seed/Serie A, Fund II de 2021 sin Fund III, y español sin ninguna evidencia."
   },
   "nombre_original": "Lisette Tellez Herbanek",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es una de las pocas inversoras latinas con formación real de ingeniería de software (MIT CS) que firma cheques de deep tech, no de SaaS vertical genérico. Dos elementos de cartera conectan directamente con el cliente: PLCs.ai, plataforma de generación de código con IA sensible al contexto para controladores lógicos programables ($4M seed, con Ocean Azul dentro), e Itopia, automatización de escritorios, apps y servidores sobre Google Cloud, es decir, infraestructura para desarrolladores. A esto se suma MarkeTeam.ai, descrita como 'autonomous AI marketing team, powered by a proprietary large language model' y liderada por Ocean Azul en enero de 2025: es exactamente la tesis de agentes autónomos aplicados al trabajo. Y en marzo de 2026 el fondo co-lideró la Serie A de $10M de memQ, una compañía de hardware y software de redes cuánticas, prueba de que sí escriben cheques a tecnología profunda sin métricas de uso. El discurso de la firma sobre moat por propiedad intelectual o diferenciación encaja con una startup que apuesta por ventaja técnica antes que por tracción.",
     "tesis_de_inversion": "Ocean Azul Partners invierte en etapa temprana (Seed y Serie A) en software B2B empresarial y deep tech, con la condición de que la compañía apunte a Estados Unidos como mercado principal. La firma se define por ayudar a compañías no estadounidenses —sobre todo israelíes y latinoamericanas— a entrar al mercado de EE.UU., y reserva cubos específicos: ~20% para compañías israelíes y ~5% para empresas del sur de Florida que de otro modo no cumplirían criterios (~27% de la cartera total es del sur de Florida). Sectores declarados: FinTech, AgriTech, IoT, ciberseguridad, automatización cloud, AutoTech, salud digital, EdTech, VR/AR, logística y energía. Evitan explícitamente bienes de consumo empaquetados. En el Q&A de Refresh Miami, el socio David Zinn resume el filtro: 'We invest in people', y buscan defensibilidad o moat competitivo, 'whether through intellectual property or differentiation'. La aportación específica de Lisette es el eje técnico y de frontera: en su perfil de Venture Forward declara invertir en 'deep/frontier tech companies' y en 'areas of the US that have traditionally less access to venture capital, including South Florida'. Refresh Miami señala que la estrategia deep tech del fondo está influida directamente por la formación en el MIT de Alex y Lisette Tellez.",

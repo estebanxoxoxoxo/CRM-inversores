@@ -17,11 +17,8 @@
     "Bullnet IV (28M€ del FEI, 2024) en fase final; Bullnet Opportunity Fund (20-25M€, 2025) para startups recientes."
   ],
   "linkedin": "",
-  "linkedin_nota": "",
-  "otros_perfiles": "No se ha podido verificar ninguna URL de LinkedIn: LinkedIn bloquea el acceso automatizado (HTTP 999) y ni la web del fondo ni ninguna fuente pública consultada enlaza su perfil personal. La web de Bullnet solo enlaza cuentas corporativas de Twitter/X, LinkedIn y Crunchbase de la firma, sin perfiles individuales. Ficha del equipo: https://bullnetcapital.com/about-us/ | Estrategia: https://bullnetcapital.com/investment-strategy/ | Portfolio: https://bullnetcapital.com/portfolio/ | Contacto: https://bullnetcapital.com/contact/ | ADVERTENCIA: el blog del dominio bullnetcapital.com está comprometido con spam SEO (varios cientos de entradas sobre casinos online publicadas entre julio y septiembre de 2026 según su propio sitemap); no es una fuente utilizable y conviene no citarla.\nhttps://www.crunchbase.com/person/miguel-del-ca-izo\nhttps://theorg.com/org/bullnet-capital/org-chart/miguel-del-canizo\nhttps://es.linkedin.com/company/bullnet-capital\nLinkedIn personal no localizado en fuentes públicas (verificado por el orquestador).",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "https://bullnetcapital.com/contact/ — la página de contacto ofrece únicamente formulario, teléfono y dirección postal; no aparece ningún email, ni general ni nominal, en ninguna página del sitio (home, about-us, investment-strategy, portfolio, contact, aviso legal, que son todas las páginas del sitemap). | No encontrado. Bullnet no publica ninguna dirección de correo en su web —solo teléfono (+34 91 799 72 06), dirección postal y un formulario de contacto—, por lo que tampoco existe un patrón de dominio observable a partir del que inferir nada.",
   "por_que_es_interesante": [
     "Bullnet prioriza la innovación científica sobre la tracción comercial y entra cuando la tecnología 'aún no es una versión comercial'.",
     "Historial con exit en dev tools e infraestructura: Códice/Plastic SCM (2009-2020, Unity) y LeanXcale (2017).",
@@ -94,6 +91,24 @@
     "https://www.webcapitalriesgo.com/?s=Bullnet+MIT+M%C3%A1laga+microelectr%C3%B3nica",
     "https://www.crunchbase.com/person/miguel-del-ca-izo"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://bullnetcapital.com/contact/ — la página de contacto ofrece únicamente formulario, teléfono y dirección postal; no aparece ningún email, ni general ni nominal, en ninguna página del sitio (home, about-us, investment-strategy, portfolio, contact, aviso legal, que son todas las páginas del sitemap).",
+      "No encontrado. Bullnet no publica ninguna dirección de correo en su web —solo teléfono (+34 91 799 72 06), dirección postal y un formulario de contacto—, por lo que tampoco existe un patrón de dominio observable a partir del que inferir nada."
+    ],
+    "linkedin": [],
+    "otras": [
+      "No se ha podido verificar ninguna URL de LinkedIn: LinkedIn bloquea el acceso automatizado (HTTP 999) y ni la web del fondo ni ninguna fuente pública consultada enlaza su perfil personal. La web de Bullnet solo enlaza cuentas corporativas de Twitter/X, LinkedIn y Crunchbase de la firma, sin perfiles individuales. Ficha del equipo: https://bullnetcapital.com/about-us/",
+      "Estrategia: https://bullnetcapital.com/investment-strategy/",
+      "Portfolio: https://bullnetcapital.com/portfolio/",
+      "Contacto: https://bullnetcapital.com/contact/",
+      "ADVERTENCIA: el blog del dominio bullnetcapital.com está comprometido con spam SEO (varios cientos de entradas sobre casinos online publicadas entre julio y septiembre de 2026 según su propio sitemap); no es una fuente utilizable y conviene no citarla.",
+      "https://www.crunchbase.com/person/miguel-del-ca-izo",
+      "https://theorg.com/org/bullnet-capital/org-chart/miguel-del-canizo",
+      "https://es.linkedin.com/company/bullnet-capital",
+      "LinkedIn personal no localizado en fuentes públicas (verificado por el orquestador)."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -119,7 +134,6 @@
     "motivo_v1": "Estrategia escrita de Bullnet que prioriza innovación científica sobre tracción y exits en dev tools (Códice, LeanXcale), pero la misma restricción legal que Ulecia (sólo sociedades domiciliadas en España), fondo IV en fase final, sin LinkedIn ni huella pública y atribución de deals inferida."
   },
   "nombre_original": "Miguel del Cañizo",
-  "email_original": "No encontrado. Bullnet no publica ninguna dirección de correo en su web —solo teléfono (+34 91 799 72 06), dirección postal y un formulario de contacto—, por lo que tampoco existe un patrón de dominio observable a partir del que inferir nada.",
   "textos_v1": {
     "por_que_es_interesante": "Es el inversor español cuya doctrina escrita se acerca más literalmente a lo que el cliente busca: Bullnet declara en su página de estrategia que prioriza la innovación científica sobre la tracción comercial y que entra cuando la tecnología aún no es una versión comercial, con pilotos de clientes bienvenidos pero no exigidos. Y no es solo discurso en hardware: tienen historial real y con exit en herramientas para desarrolladores e infraestructura de software. Invirtieron en Códice Software (creadora de Plastic SCM, control de versiones para equipos de desarrollo) en 2009 y salieron en agosto de 2020 cuando la compró Unity Technologies; y en LeanXcale (base de datos SQL completa que escala linealmente cargas transaccionales) en marzo de 2017. Miguel del Cañizo es además un socio con formación de física y fotónica que puede leer un argumento arquitectónico sin intermediarios, y se sienta en los consejos. El ángulo de contacto es el paralelismo explícito con Códice y LeanXcale: software profundo, español, con barrera de conocimiento y sin necesidad de usuarios el día uno.",
     "tesis_de_inversion": "Bullnet invierte en compañías españolas con «proprietary breakthrough technologies» creadas por «technical experts that also have an entrepreneurial spirit». Los sectores declarados son software, sistemas electrónicos, microelectrónica, fotónica y dispositivos médicos; excluyen expresamente biotecnología pura, internet de consumo y negocios de contenido. El criterio central es que el conocimiento sea fruto de un esfuerzo real de I+D y de experiencia profunda de industria: «This know-how is difficult to achieve by third parties... sustainable over time and (desirably) legally protectable through patents». Lo decisivo para el cliente: valoran la innovación científica por encima de la tracción comercial, piden un prototipo o prueba de concepto que demuestre viabilidad técnica, y entran cuando la tecnología «is still relatively immature to be called a commercial version», con pilotos de clientes bienvenidos pero no exigidos. Prefieren producto sobre servicio y diferenciación tecnológica sostenible sobre diversificación pasiva. Su gestión es 'hands on': Miguel del Cañizo, según la ficha del propio fondo, participa en los consejos de las participadas, y la firma acompaña en fundraising, protección de propiedad intelectual, alianzas, reclutamiento y desarrollo comercial.",

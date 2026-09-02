@@ -17,11 +17,8 @@
     "Rango 1-100M USD (Signal); en la práctica sí lidera cheques pequeños de semilla en infra y seguridad."
   ],
   "linkedin": "https://www.linkedin.com/in/enriquesalem",
-  "linkedin_nota": "",
-  "otros_perfiles": "Perfil en el fondo: https://baincapitalventures.com/team/enrique-salem/ | Perfil corporativo: https://www.baincapital.com/people/enrique-salem | X/Twitter: https://x.com/enriquesalem | Wikipedia: https://en.wikipedia.org/wiki/Enrique_Salem | Signal NFX: https://signal.nfx.com/investors/enrique-salem | Sus ensayos en BCV: https://baincapitalventures.com/insight/ai-agents-are-armed-for-battle-adapting-security-infrastructure-and-shipping-new-solutions/ | Perfil biográfico en The Alumni Society: https://thealumnisociety.com/enrique-salem/",
   "email": "esalem@baincapital.com",
   "email_estado": "público verificado",
-  "email_fuente": "Aparece publicado en su propia ficha de la web del fondo: https://baincapitalventures.com/team/enrique-salem/ . BCV publica el email de todos sus socios con el patrón inicial+apellido@baincapital.com; se ha verificado de forma cruzada con la ficha de su compañero Rak Garg (rgarg@baincapital.com, https://baincapitalventures.com/team/rak-garg/), lo que confirma que no es un patrón deducido sino una política de publicación del fondo. Como alternativa institucional, BCV publica ventures@baincapital.com y bcv@baincapitalventures.com.",
   "por_que_es_interesante": [
     "Mandato literal 'early-stage infrastructure software'; cartera en la capa del cliente: Modal (cómputo serverless para IA), Astronomer, Cogent (agentes), Straiker.",
     "Invierte antes de la tracción: 'We've known him from pre-founding the company' (Cogent).",
@@ -94,6 +91,21 @@
     "https://siliconangle.com/2026/05/21/serverless-ai-infrastructure-startup-modal-labs-seals-355m-funding-round/",
     "https://aws.amazon.com/startups/events/sftech-week-cybersecurity-talks-with-aws-startups-enrique-salem-and-bain-capital-ventures"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Aparece publicado en su propia ficha de la web del fondo: https://baincapitalventures.com/team/enrique-salem/ . BCV publica el email de todos sus socios con el patrón inicial+apellido@baincapital.com; se ha verificado de forma cruzada con la ficha de su compañero Rak Garg (rgarg@baincapital.com, https://baincapitalventures.com/team/rak-garg/), lo que confirma que no es un patrón deducido sino una política de publicación del fondo. Como alternativa institucional, BCV publica ventures@baincapital.com y bcv@baincapitalventures.com."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en el fondo: https://baincapitalventures.com/team/enrique-salem/",
+      "Perfil corporativo: https://www.baincapital.com/people/enrique-salem",
+      "X/Twitter: https://x.com/enriquesalem",
+      "Wikipedia: https://en.wikipedia.org/wiki/Enrique_Salem",
+      "Signal NFX: https://signal.nfx.com/investors/enrique-salem",
+      "Sus ensayos en BCV: https://baincapitalventures.com/insight/ai-agents-are-armed-for-battle-adapting-security-infrastructure-and-shipping-new-solutions/",
+      "Perfil biográfico en The Alumni Society: https://thealumnisociety.com/enrique-salem/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -119,7 +131,6 @@
     "motivo_v1": "Mandato literal 'early-stage infrastructure software'; Modal y Astronomer en cartera; invirtió en Cogent 'pre-founding'; nacido en Barranquilla, español confirmado; email público. Reserva: especialización ciber y punto dulce de cheque alto (BCV cubre seed, él personalmente A/B)."
   },
   "nombre_original": "Enrique Salem",
-  "email_original": "esalem@baincapital.com",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente el inversor hispanohablante mejor posicionado de EE.UU. para una startup de infraestructura de software IA-nativa: su mandato literal es 'early-stage infrastructure software' y su cartera actual (Modal, cómputo serverless para IA; Astronomer, orquestación de datos con Airflow; Cogent, agentes autónomos; Straiker, seguridad de IA; Adaptive; Dream) es exactamente la capa donde vive el cliente. Hay evidencia dura de que invierte antes de la tracción: sobre Cogent dijo 'We've known him from pre-founding the company', es decir, hizo seguimiento del fundador antes de que existiera la empresa. Revisa entre 400 y 500 pitches de seguridad con IA al año, así que rechaza el ruido y premia la especificidad técnica. Ángulo de contacto: escribirle en español (creció hablándolo en casa), abrir por el problema y no por la tecnología (es su criterio explícito), y encuadrar el stack IA-nativo dentro de su marco de las 'tres íes' —sobre todo 'inexpensive': cuantificar el ahorro de cómputo/latencia frente al stack actual. El harness de agentes se le puede presentar como infraestructura para que los agentes de seguridad y de datos sean fiables, que es su obsesión declarada.",
     "tesis_de_inversion": "Salem invierte en software de infraestructura en etapa temprana, con especialización declarada en ciberseguridad. Su frase en la web de BCV resume el marco: 'Infrastructure software is quite literally the backbone of every business in every sector' y 'Every company is a software company, and it is endlessly exciting to invest in innovative software technologies'. Sobre equipos: 'Look for great people and expect exceptional results. It sounds simple, but it's actually a challenge to find brilliant and committed founders who also have the operational chops to deliver on their vision'. En IA es abiertamente maximalista: 'There isn't anything that we're going to be working on for the next 20 to 30 years that isn't going to be meaningfully impacted by AI' (vídeo de tesis inversora publicado por Straiker). Su ensayo 'AI Agents are Armed for Battle' (BCV, 28-abr-2025) plantea el marco de las 'tres íes': lo que financia debe ser invisible (no rompe el flujo de trabajo), invencible (aguanta la superficie de ataque ampliada) e inexpensive (se paga sola en eficiencia operativa). Y explícitamente pregunta: 'Can we build better software and infrastructure to brace for the generative AI era?'. Prefiere fundadores que empiezan por el problema y no por la tecnología: sobre la Series A de Cogent dijo que lo que le convenció fue que el fundador dijera 'let me explain the problem. What am I solving? And why does it matter?'.",

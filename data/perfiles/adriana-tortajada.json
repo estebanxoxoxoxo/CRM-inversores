@@ -18,11 +18,8 @@
     "Cheques reportados 2-10M USD (probablemente mezcla compromisos a fondos y directos); no publica ticket ni proceso."
   ],
   "linkedin": "https://www.linkedin.com/in/adriana-tortajada-2784869b/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web del fondo: https://1200.vc/ (también https://www.twelvehundred.vc, que redirige) | Equipo: https://1200.vc/team | Portafolio: https://1200.vc/portfolio | LinkedIn del fondo: https://www.linkedin.com/company/1200vc | YouTube del fondo: https://www.youtube.com/@1200_vc | Kauffman Fellows: https://www.kauffmanfellows.org/fellows/adriana-tortajada | LAVCA: https://www.lavca.org/people/adriana-tortajada/ | LAVCA Week (bio de ponente): https://www.lavcaweek.org/speakers/adriana-tortajada | Global Entrepreneurship Network: https://www.genglobal.org/user/adrianatortajada | Entrevistas en vídeo: https://www.youtube.com/watch?v=9jVAdUhGiVo, https://www.youtube.com/watch?v=0HdgomYcPj0 (Newtopia VC), https://www.youtube.com/watch?v=ALFQ7n9yNWM (Business Trip México), https://nachoimery.com/podcast/f/nachotalks-con-adriana-tortajada-ceo-y-managing-partner-1200-vc",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "1200.vc no publica ninguna dirección de correo: ni en /team ni en /contact, que solo ofrece un formulario ('Get in touch'). Al no haber ningún email público de otro socio del fondo, NO existe base para proponer un patrón inferido. Existen agregadores comerciales (RocketReach) que afirman tener su email, pero no son fuente pública verificable y no se recogen aquí.",
   "por_que_es_interesante": [
     "Tesis 'Productivity & Infrastructure': software, hardware e infraestructura como 'la capa donde la nueva tecnología cobra ingresos reales'.",
     "Ya invirtió directamente en 101obex, infraestructura de API para la economía de agentes; es LP de Cantos (pre-seed deep tech).",
@@ -88,6 +85,24 @@
     "https://nachoimery.com/podcast/f/nachotalks-con-adriana-tortajada-ceo-y-managing-partner-1200-vc",
     "https://www.youtube.com/watch?v=9jVAdUhGiVo"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "1200.vc no publica ninguna dirección de correo: ni en /team ni en /contact, que solo ofrece un formulario ('Get in touch'). Al no haber ningún email público de otro socio del fondo, NO existe base para proponer un patrón inferido. Existen agregadores comerciales (RocketReach) que afirman tener su email, pero no son fuente pública verificable y no se recogen aquí."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: https://1200.vc/ (también https://www.twelvehundred.vc, que redirige)",
+      "Equipo: https://1200.vc/team",
+      "Portafolio: https://1200.vc/portfolio",
+      "LinkedIn del fondo: https://www.linkedin.com/company/1200vc",
+      "YouTube del fondo: https://www.youtube.com/@1200_vc",
+      "Kauffman Fellows: https://www.kauffmanfellows.org/fellows/adriana-tortajada",
+      "LAVCA: https://www.lavca.org/people/adriana-tortajada/",
+      "LAVCA Week (bio de ponente): https://www.lavcaweek.org/speakers/adriana-tortajada",
+      "Global Entrepreneurship Network: https://www.genglobal.org/user/adrianatortajada",
+      "Entrevistas en vídeo: https://www.youtube.com/watch?v=9jVAdUhGiVo, https://www.youtube.com/watch?v=0HdgomYcPj0 (Newtopia VC), https://www.youtube.com/watch?v=ALFQ7n9yNWM (Business Trip México), https://nachoimery.com/podcast/f/nachotalks-con-adriana-tortajada-ceo-y-managing-partner-1200-vc"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -113,7 +128,6 @@
     "motivo_v1": "Mandato deep tech e inversión directa en infra para economía de agentes (101obex), pero cheques 2-10M, estructura híbrida fondo de fondos y cierre del vehículo no confirmado. Confirmar estado del fondo antes de contactar."
   },
   "nombre_original": "Adriana Tortajada",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es la inversora mexicana con el discurso deep tech más explícito y con menos apego a la tracción: su bloque 'Productivity & Infrastructure' describe literalmente 'software, hardware, and infrastructure making enterprises measurably more productive, the layer where new technology first earns real revenue'. Y ya tiene en cartera directa 101obex, descrita como 'virtual API infrastructure where integrations evolve live for the agent economy' — es decir, ya ha puesto dinero en infraestructura para la economía de agentes. Además es LP de Cantos, especialista en pre-seed deep tech, lo que demuestra que entiende y financia esa clase de activo. El ángulo de contacto debe ser de tecnología fundacional y horizonte largo, no de go-to-market: presentar el harness de agentes y el stack IA-nativo como 'la capa donde la nueva tecnología cobra ingresos reales' y apoyarse en su lenguaje de convergencia tecnológica. Su historia de política pública mexicana la hace además una interlocutora útil para acceso a LPs institucionales y a Fondo de Fondos si el cliente busca capital mexicano.",
     "tesis_de_inversion": "1200 VC se define como 'an early-stage investment platform that invests in fund managers and founders shaping the future of humanity', y su tesis en una línea es 'invest at the convergence where technologies accelerate and compound together'. Organiza la cartera en tres bloques: (1) Sustainable Future — energía, materiales, agua, biotech, cómputo; (2) Productivity & Infrastructure — 'software, hardware, and infrastructure making enterprises measurably more productive, the layer where new technology first earns real revenue'; (3) Demographic Opportunity — salud y servicios financieros para consumidores emergentes. La sección de tecnologías frontera nombra explícitamente cuántica, biotech, energía, materiales y robótica. La estructura es híbrida y así la explican: combinan 'Fund-of-Funds radar' con 'concentrated direct investments', es decir, usan su red de fondos especializados como radar de inteligencia y luego doblan apuesta directamente en las convicciones altas. En LP están fondos como Quantonation (hardware cuántico) y Cantos ('pre-seed deeptech specialist with one of hard tech's strongest networks'), lo que revela apetito real por pre-semilla deep tech, aunque sea por interpósito gestor. El enfoque es de tesis larga y de tecnologías fundacionales antes de que el mercado las valide; el ESG está integrado y el alcance es binacional México–EE.UU.",

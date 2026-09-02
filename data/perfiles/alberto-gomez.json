@@ -18,11 +18,8 @@
     "Dos patas de fondo: AV4 (digital) y AVE (energía)."
   ],
   "linkedin": "https://es.linkedin.com/in/albertogomezarreaza",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha en el fondo: https://www.adara.vc/team/alberto-gomez | Web del fondo: https://www.adara.vc | Blog/stories del fondo donde firma posts: https://www.adara.vc/stories | X del fondo: https://x.com/AdaraVentures | LinkedIn del fondo: https://www.linkedin.com/company/adaravc/ | Ponente en 4YFN Barcelona: https://4yfn.com/agenda/speakers | Signal NFX: https://signal.nfx.com/investors/alberto-gomez | Crunchbase: https://www.crunchbase.com/person/alberto-gomez-2 | No se le ha localizado cuenta personal de X/Twitter ni newsletter propia: publica bajo la marca Adara.",
   "email": "info@adara.vc",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://www.adara.vc/contact — solo aparece Info@adara.vc y el formulario typeform; ninguna fuente pública (prensa, Business Wire, papers, GitHub) expone un email individual de Alberto Gómez. | buzón general del fondo, publicado en adara.vc/contact y en el pie de todas sus páginas). Email personal directo: no encontrado. Adara no publica direcciones individuales de sus socios en ninguna fuente pública consultada, por lo que no hay un patrón fiable que inferir (no se ha visto ningún nombre@adara.vc publicado). La vía formal que el propio fondo indica para fundadores es su typeform: https://adaravc.typeform.com/to/HL6FbYAe",
   "por_que_es_interesante": [
     "Firmó personalmente la entrada de Adara en Airflows (2M€, 2026): 'IA convertida en software determinista y auditable', la tesis del stack IA-nativo.",
     "Adara respaldó TuringDream (seed 6M€, orquestación multiagente) y TandemTrace (agentes de IA para SecOps): tres precedentes literales.",
@@ -96,6 +93,24 @@
     "https://siliconcanals.com/madrid-based-turingdream-raises-e6m/",
     "https://es.linkedin.com/in/albertogomezarreaza"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.adara.vc/contact — solo aparece Info@adara.vc y el formulario typeform; ninguna fuente pública (prensa, Business Wire, papers, GitHub) expone un email individual de Alberto Gómez.",
+      "Buzón general del fondo, publicado en adara.vc/contact y en el pie de todas sus páginas. Email personal directo: no encontrado. Adara no publica direcciones individuales de sus socios en ninguna fuente pública consultada, por lo que no hay un patrón fiable que inferir (no se ha visto ningún nombre@adara.vc publicado). La vía formal que el propio fondo indica para fundadores es su typeform: https://adaravc.typeform.com/to/HL6FbYAe"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha en el fondo: https://www.adara.vc/team/alberto-gomez",
+      "Web del fondo: https://www.adara.vc",
+      "Blog/stories del fondo donde firma posts: https://www.adara.vc/stories",
+      "X del fondo: https://x.com/AdaraVentures",
+      "LinkedIn del fondo: https://www.linkedin.com/company/adaravc/",
+      "Ponente en 4YFN Barcelona: https://4yfn.com/agenda/speakers",
+      "Signal NFX: https://signal.nfx.com/investors/alberto-gomez",
+      "Crunchbase: https://www.crunchbase.com/person/alberto-gomez-2",
+      "No se le ha localizado cuenta personal de X/Twitter ni newsletter propia: publica bajo la marca Adara."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -121,7 +136,6 @@
     "motivo_v1": "Adara: Airflows y TuringDream (IA determinista y orquestación multiagente), criterio publicado de invertir antes de validación de mercado, seed/pre-seed, español nativo, activo 2026."
   },
   "nombre_original": "Alberto Gómez",
-  "email_original": "info@adara.vc (buzón general del fondo, publicado en adara.vc/contact y en el pie de todas sus páginas). Email personal directo: no encontrado. Adara no publica direcciones individuales de sus socios en ninguna fuente pública consultada, por lo que no hay un patrón fiable que inferir (no se ha visto ningún nombre@adara.vc publicado). La vía formal que el propio fondo indica para fundadores es su typeform: https://adaravc.typeform.com/to/HL6FbYAe",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente el encaje más literal de toda la lista española. En marzo de 2026 firmó personalmente la entrada de Adara en Airflows —una plataforma que 'turns AI into deterministic, auditable software systems for the enterprise'— liderando una ronda de 2 M€. En julio de 2025 firmó la entrada en TandemTrace (agentes de IA para SecOps) escribiendo que 'AI agents will play a crucial role as co-defenders'. Y Adara respaldó en 2025 a TuringDream (6 M€ seed, Madrid) porque 'the next wave of enterprise software will run on multi-agent systems'. Es decir: ya ha invertido tres veces en la tesis exacta del cliente (stack de software IA-nativo + orquestación de agentes), en rondas seed y pre-seed, en español y desde Madrid. Su fondo declara explícitamente que respalda 'courage: willingness to pioneer before market validation', lo que desactiva la objeción de 'no tenemos usuarios'. El ángulo de contacto: no vender tracción, vender arquitectura —por qué el stack IA-nativo es determinista/auditable y por qué el harness de agentes es infraestructura, no una demo. Referencia obligada a Airflows y TuringDream.",
     "tesis_de_inversion": "Invierte en deep tech B2B europeo en etapa temprana desde una tesis explícitamente 'post-IA': Adara sostiene que 'as AI commoditises the surface layer of software, value sinks below to the proprietary data, trust, domain depth and physical systems'. Organiza su cartera en cuatro dominios: Capture (nuevas fronteras de datos y sensórica), Secure (infraestructura de IA fiable), Compute (computación de dominio profundo) y Connect (sistemas del mundo real). Lo que busca en un equipo lo enumera el propio fondo: Big Vision, Execution ('shipping y contratar/despedir rápido'), Technical Conviction ('decisiones de arquitectura deliberadas que crean ventaja estructural') y Courage, definido literalmente como la 'willingness to pioneer before market validation'. Gómez añade su propio filtro: busca fundadores con 'extreme hunger, resourcefulness, and the ambition to compete globally'. Rechaza la obsesión por los unicornios: 'In a sector obsessed with unicorns, our philosophy has always been to maximise dragons—companies that return the entire fund'. En 2026 escribe que 'the next generation of enterprise application development will be defined by platforms that bridge the gap between AI-driven speed and the governance enterprises cannot compromise on' y que 'prototypes are easy; production systems are not'. Es decir: le interesa el software de IA que se comporta como software de verdad —determinista, auditable, gobernable.",

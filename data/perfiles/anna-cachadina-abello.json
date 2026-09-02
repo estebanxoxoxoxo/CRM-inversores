@@ -17,11 +17,8 @@
     "Fondo III y vehículo vigente en 2026 no confirmados."
   ],
   "linkedin": "https://uk.linkedin.com/in/anna-cachadina-abello",
-  "linkedin_nota": "",
-  "otros_perfiles": "Perfil en el fondo: https://crane.vc/people/anna-cachadina-abello/ (nota: esta URL devolvió 404 en una comprobación; la ficha sí aparece indexada y ella figura en https://crane.vc/team) | Autora en RTInsights: https://www.rtinsights.com/author/anna-cachadina-abello/ | Canal de YouTube atribuido: https://m.youtube.com/@annacachadina3135/videos | Web del fondo: https://crane.vc/ | Contacto del fondo: https://crane.vc/contact/ | No se le ha encontrado cuenta pública de X/Twitter, blog personal ni GitHub verificables.",
   "email": "anna@crane.vc",
   "email_estado": "patrón inferido (no verificado)",
-  "email_fuente": "No hay email suyo publicado en ninguna fuente primaria localizada. El patrón se deduce de agregadores de formato de email (RocketReach y AeroLeads sobre el dominio crane.vc: https://rocketreach.co/crane-venture-partners-email-format_b4555231fc963d2a y https://aeroleads.com/company/crane-venture-partners-email-format), que coinciden en que el formato dominante es nombre@crane.vc (indicado como 100% de uso). Al ser un nombre compuesto con apellidos catalanes, la forma exacta no es segura. Vía oficial y preferible: el formulario de https://crane.vc/contact/, que el propio fondo presenta como abierto a fundadores. | INFERIDO, no verificado",
   "por_que_es_interesante": [
     "Ingeniera de software (Goldman Sachs), catalana y castellanohablante nativa, en un fondo cuyo mandato es infraestructura fundacional, dev tools y open source desde 'inception'.",
     "Crane lideró la seed de Qovery (DevOps) y tiene Encord (datos AI-native) y Laminar (observabilidad de agentes) en cartera.",
@@ -95,6 +92,21 @@
     "https://www.openvc.app/fund/Crane%20Venture%20Partners",
     "https://crane.vc/contact/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No hay email suyo publicado en ninguna fuente primaria localizada. El patrón se deduce de agregadores de formato de email (RocketReach y AeroLeads sobre el dominio crane.vc: https://rocketreach.co/crane-venture-partners-email-format_b4555231fc963d2a y https://aeroleads.com/company/crane-venture-partners-email-format), que coinciden en que el formato dominante es nombre@crane.vc (indicado como 100% de uso). Al ser un nombre compuesto con apellidos catalanes, la forma exacta no es segura. Vía oficial y preferible: el formulario de https://crane.vc/contact/, que el propio fondo presenta como abierto a fundadores.",
+      "INFERIDO, no verificado"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en el fondo: https://crane.vc/people/anna-cachadina-abello/ (nota: esta URL devolvió 404 en una comprobación; la ficha sí aparece indexada y ella figura en https://crane.vc/team)",
+      "Autora en RTInsights: https://www.rtinsights.com/author/anna-cachadina-abello/",
+      "Canal de YouTube atribuido: https://m.youtube.com/@annacachadina3135/videos",
+      "Web del fondo: https://crane.vc/",
+      "Contacto del fondo: https://crane.vc/contact/",
+      "No se le ha encontrado cuenta pública de X/Twitter, blog personal ni GitHub verificables."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -120,7 +132,6 @@
     "motivo_v1": "Crane invierte desde inception en infraestructura digital (Qovery, Encord); ella es 'Investor', no decide; español/catalán de Barcelona. Puerta única a Crane; fuera de región."
   },
   "nombre_original": "Anna Cachadiña Abelló",
-  "email_original": "anna@crane.vc (INFERIDO, no verificado)",
   "textos_v1": {
     "por_que_es_interesante": "Es el perfil con mayor afinidad personal y temática de todo el lote: ingeniera de software real (Goldman Sachs), catalanoparlante y castellanoparlante nativa de Barcelona, dentro de un fondo cuyo mandato literal es infraestructura fundacional, dev tools y open source desde 'inception'. Su artículo publicado demuestra que ya piensa en el problema del cliente desde el lado del comprador empresarial: quién controla, gobierna y observa la IA dentro de la organización, y por qué la integración con el stack de datos existente es el cuello de botella. El portfolio confirma cheques reales en la categoría: Qovery (Crane lideró su semilla de 4M USD en 2021, automatización de DevOps), Encord (infraestructura de datos AI-native, en cartera desde antes de su Serie C de 60M USD en febrero de 2026) y Laminar (observabilidad y depuración de agentes de IA), que figura en el portfolio de la home de Crane. Ángulo de contacto: escribirle en español o catalán, con un mensaje técnico y sin métricas de vanidad, conectando el harness de agentes con la tesis de su artículo (gobernanza y observabilidad de agentes en empresa). Es una excelente campeona interna, aunque no la firmante final del cheque.",
     "tesis_de_inversion": "Anna trabaja dentro del mandato de Crane, un fondo que invierte desde la concepción hasta semilla en 'foundational technologies': SaaS empresarial, open source, datos, machine learning, infraestructura y developer tools, con extensiones a ciberseguridad y seguridad post-cuántica. El lema del fondo, 'First to believe. Last to leave.', y su descripción de respaldar 'outlier founders everywhere, from inception to seed' apuntan a apetito por riesgo técnico temprano. Su propio pensamiento escrito se centra en la capa de gobernanza e infraestructura de la IA empresarial: en su artículo 'The AI Wild West: Who's Really in Charge of Enterprise AI?' (RTInsights) argumenta que las empresas carecen de liderazgo unificado sobre IA — cita que el 70% de las organizaciones encuestadas no tienen un único responsable con visión completa de sus proyectos de IA — y que la autoridad se dispersa entre CTOs, CISOs, product managers y equipos de datos sin rendición de cuentas clara. Señala la paradoja de que el 100% de los encuestados cree que la IA transformará el software empresarial en 3-5 años mientras solo el 10% ha integrado operaciones de IA, y detecta como frenos la seguridad y el cumplimiento (41,7%), la calidad del dato (46,7%) y la integración con el stack de datos empresarial (38,3%). Es una tesis de capa de control, observabilidad e integración: exactamente el terreno de un harness de agentes.",

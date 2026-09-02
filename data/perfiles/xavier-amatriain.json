@@ -16,11 +16,8 @@
     "Ticket no publicado (previsiblemente <100k USD); no lidera, sin vehículo."
   ],
   "linkedin": "https://www.linkedin.com/in/xamat/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web y blog personal: https://amatria.in/ y https://amatria.in/blog/ | X/Twitter: https://x.com/xamat (@xamat) | Google Scholar (publicaciones y citas) | Slideshare: xamat | Crunchbase: https://www.crunchbase.com/person/xavier-amatriain | CB Insights: https://www.cbinsights.com/investor/xavier-amatriain | Perfil de ponente ELC: https://sfelc.com/speaker/xavier-amatriain",
   "email": "xavier@amatria.in",
   "email_estado": "público verificado",
-  "email_fuente": "https://amatria.in/ publica en su página de contacto la dirección en formato 'firstname@amatria.in' junto con su ubicación (Los Gatos, CA) y su LinkedIn. Es él quien publica el buzón; la única inferencia es sustituir 'firstname' por 'xavier'. | su propia web publica el patrón textual 'firstname@amatria.in' en la sección de contacto",
   "por_que_es_interesante": [
     "Tesis pública escrita: el código como representación intermedia 'producida, inspeccionada, probada y modificada por agentes'; riesgo de 'specification errors'.",
     "Firma apuestas de infraestructura de IA sin tracción cuando el problema le convence (Alinia AI, pre-seed 2,4M USD, con Delangue, Wolf, Vinyals, Preston-Werner).",
@@ -84,6 +81,22 @@
     "https://www.crunchbase.com/person/xavier-amatriain",
     "https://hackernoon.com/the-end-of-coding-as-we-know-it"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://amatria.in/ publica en su página de contacto la dirección en formato 'firstname@amatria.in' junto con su ubicación (Los Gatos, CA) y su LinkedIn. Es él quien publica el buzón; la única inferencia es sustituir 'firstname' por 'xavier'.",
+      "Su propia web publica el patrón textual 'firstname@amatria.in' en la sección de contacto"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web y blog personal: https://amatria.in/ y https://amatria.in/blog/",
+      "X/Twitter: https://x.com/xamat (@xamat)",
+      "Google Scholar (publicaciones y citas)",
+      "Slideshare: xamat",
+      "Crunchbase: https://www.crunchbase.com/person/xavier-amatriain",
+      "CB Insights: https://www.cbinsights.com/investor/xavier-amatriain",
+      "Perfil de ponente ELC: https://sfelc.com/speaker/xavier-amatriain"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -109,7 +122,6 @@
     "motivo_v1": "Autoridad técnica en IA con ensayo 2026 sobre liderar agentes de código y una pre-seed en Alinia AI (guardrails), pero una sola inversión, sin vehículo y C-level en Expedia desde dic-2025. Advisor, no capital."
   },
   "nombre_original": "Xavier (Xavi) Amatriain",
-  "email_original": "xavier@amatria.in — su propia web publica el patrón textual 'firstname@amatria.in' en la sección de contacto",
   "textos_v1": {
     "por_que_es_interesante": "Su valor no está en el tamaño del cheque sino en que su tesis pública escrita es prácticamente el pitch del cliente. En mayo de 2026 publicó que el trabajo de ingeniería se desplaza de escribir sintaxis a 'expresar intención, restricciones, arquitectura y verificación' y que el código pasa a ser una representación intermedia 'producida, inspeccionada, probada y modificada por agentes' — que es lo que un harness de desarrollo con nube de agentes construye. Es doctor, ex-Netflix, ex-Google, coautor de un survey de LLMs, y ha respaldado con dinero propio una compañía pre-seed de evaluación y guardrails (Alinia AI) junto a Clément Delangue, Thomas Wolf, Oriol Vinyals y Tom Preston-Werner, es decir: firma apuestas de infraestructura de IA sin tracción cuando el problema le convence. Es español, de Barcelona, con doctorado por la UPF y presencia en medios en catalán y castellano. Ángulo de contacto: escribirle a xavier@amatria.in reaccionando específicamente a 'The End of Coding?' y proponiendo su tesis de 'specification errors' como el problema que el harness resuelve; pedirle rol de advisor antes que cheque.",
     "tesis_de_inversion": "Amatriain no tiene tesis formal de inversión: es un ejecutivo de IA que invierte de forma muy puntual en compañías cuyo problema conoce de primera mano. Su única inversión documentada, Alinia AI, es exactamente eso: gobernanza, alineación y guardrails de IA generativa, fundada en Barcelona por Miguel Martínez y Ari Beloso, con pre-seed de 2,4 M USD en junio de 2024. En cambio, sí tiene una tesis tecnológica pública y muy articulada, escrita en su blog, y es la que importa para el cliente. En 'The End of Coding? From AI Co-Development to Leading AI Agents' (2 de mayo de 2026, https://amatria.in/blog/endofcode) sostiene: 'The important shift is not from coding to not coding. It is from writing syntax to expressing intent, constraints, architecture, and verification', y 'Code will still exist, just as assembly still exists. But for most engineers, most of the time, code is becoming less of a language we write directly and more of an intermediate representation produced, inspected, tested, and modified by agents.' Añade que el riesgo se desplaza 'from syntax errors to specification errors'. En X ha dicho que lleva hablando de los agentes como el aspecto más importante de la revolución de la IA generativa en su blog y en su survey de LLMs. También es explícitamente escéptico del hype: escribió 'Why I am not AGI-pilled (and you probably shouldn't be either)'. En resumen: cree en agentes y en la capa de verificación y evaluación, no en la autonomía mágica.",

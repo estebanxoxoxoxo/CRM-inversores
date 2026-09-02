@@ -16,11 +16,8 @@
     "No lidera, no fija términos, sin vehículo ni criterios publicados."
   ],
   "linkedin": "https://www.linkedin.com/in/joaquincan/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web personal: https://quinonero.net/ | X/Twitter: https://x.com/jquinonero (@jquinonero) | Google Scholar: https://scholar.google.com/citations?user=33ynLk8AAAAJ | Cambridge MLG: https://mlg.eng.cam.ac.uk/people/joaquin-quinonero-candela/ | OpenAI Forum (conversación grabada): https://forum.openai.com/public/resources/in-conversation-with-openais-head-of-recruiting-joaquin-quinonero-candela-2025-07-28",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Revisadas quinonero.net, su perfil de LinkedIn, su X y su ficha de Google Scholar: ninguna publica dirección de correo. No hay fondo ni dominio corporativo del que deducir un patrón, porque invierte a título personal y su empleador (OpenAI) no publica direcciones nominales.",
   "por_que_es_interesante": [
     "Entiende el riesgo operativo real de muchos agentes ejecutando código de forma autónoma y puede evaluar el moat sin pedir usuarios.",
     "Su única inversión (Trent AI, seed 13M USD, seguridad multi-agente salida de sigilo) es diagnóstica de lo que le interesa.",
@@ -83,6 +80,19 @@
     "https://trent.ai/blog/trent-ai-raises-13m-to-secure-the-agentic-age/",
     "https://www.engadget.com/ai/openai-is-hiring-a-new-head-of-preparedness-to-try-to-predict-and-mitigate-ais-harms-220330486.html"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Revisadas quinonero.net, su perfil de LinkedIn, su X y su ficha de Google Scholar: ninguna publica dirección de correo. No hay fondo ni dominio corporativo del que deducir un patrón, porque invierte a título personal y su empleador (OpenAI) no publica direcciones nominales."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web personal: https://quinonero.net/",
+      "X/Twitter: https://x.com/jquinonero (@jquinonero)",
+      "Google Scholar: https://scholar.google.com/citations?user=33ynLk8AAAAJ",
+      "Cambridge MLG: https://mlg.eng.cam.ac.uk/people/joaquin-quinonero-candela/",
+      "OpenAI Forum (conversación grabada): https://forum.openai.com/public/resources/in-conversation-with-openais-head-of-recruiting-joaquin-quinonero-candela-2025-07-28"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -108,7 +118,6 @@
     "motivo_v1": "Credibilidad técnica máxima y una inversión en seguridad agéntica (Trent AI), pero una sola operación, sin vehículo, rol 2026 no confirmado y sin email."
   },
   "nombre_original": "Joaquín Quiñonero Candela",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es el perfil de mayor autoridad del lote en seguridad y evaluación de sistemas agénticos, y su única inversión conocida es precisamente en eso: seguridad multi-agente en fase seed, en una compañía recién salida de sigilo y sin clientes públicos. Para una startup que construye un harness de desarrollo con nube de agentes, es el tipo de persona que entiende el riesgo operativo real de que muchos agentes ejecuten código autónomamente —y que puede evaluar el moat sin pedir usuarios. Es español, con conexión institucional viva con España (Consejo Asesor de IA del Gobierno, consejo técnico de Inditex). Ángulo de contacto: no pitch de mercado, sino de arquitectura de control —cómo el harness limita, verifica y audita lo que hacen los agentes— y ofrecerle un rol de advisor. Es una vía de alta señal y baja probabilidad: el retorno realista es credibilidad y puertas, no capital.",
     "tesis_de_inversion": "No tiene tesis de inversión publicada ni vehículo. Su única inversión conocida, sin embargo, es muy diagnóstica: entró en la seed de Trent AI (7 de abril de 2026, 13 M USD, liderada por LocalGlobe y Cambridge Innovation Capital), una compañía londinense de seguridad multi-agente fundada en 2025 y salida de sigilo el mismo día del anuncio. Es decir, seguridad para sistemas agénticos autónomos, con producto sin clientes públicos y en una categoría que apenas existe. Los otros ángeles de la ronda dibujan su círculo: Avinash Bhat (Director en AWS, ex-responsable de infraestructura de datos en Stripe), Ippokratis Pandis (Distinguished Engineer en Databricks) y Tony Jebara (ex-VP de Ingeniería y responsable de IA/ML en Spotify). Los fundadores son también un perfil de investigación pura: Eno Thereska (ex-Distinguished Engineer en Alcion, AWS y Confluent), Neil Lawrence (catedrático DeepMind de Machine Learning en Cambridge, ex-Director de Machine Learning en Amazon) y Zhenwen Dai (ex-AWS y Spotify). Su discurso público, en cambio, sí está muy documentado: gira sobre preparación frente a riesgos catastróficos, IA responsable, equidad, robustez, privacidad y rendición de cuentas —los temas que dirigió en Meta como Distinguished Technical Lead de Responsible AI y luego en OpenAI como Head of Preparedness.",

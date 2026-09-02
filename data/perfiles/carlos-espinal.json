@@ -17,11 +17,8 @@
     "Fund VII 220M USD + Select 100M USD (Serie B+); observador hasta Serie A, sin asiento de consejo."
   ],
   "linkedin": "https://www.linkedin.com/in/carloseduardoespinal/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Perfil en el fondo: https://seedcamp.com/people/carlos-eduardo-espinal/ | X/Twitter: https://x.com/cee (handle @cee) | Podcast que presenta: 'This Much I Know - The Seedcamp Podcast' (https://open.spotify.com/show/1FjXUrwJr3GplzUZhWhKOo y https://podcasts.apple.com/us/podcast/this-much-i-know-the-seedcamp-podcast/id962121995) | Autor en TechCrunch: https://techcrunch.com/author/carlos-espinal/ | Libro: 'The Fundraising Fieldguide' | Crunchbase: https://www.crunchbase.com/person/carlos-espinal | Bloomberg: https://www.bloomberg.com/profile/person/18954949 | Ficha de ponente: https://londontechweek.com/speakers/carlos-eduardo-espinal-espinal",
   "email": "carlos@seedcamp.com",
   "email_estado": "patrón inferido (no verificado)",
-  "email_fuente": "No se ha encontrado ningún email personal suyo publicado en fuente primaria. El patrón se deduce de agregadores de formato de email (LeadIQ, https://leadiq.com/c/seedcamp/5a1d98852300005e0087361f/email-format), que indican que el formato dominante en el dominio seedcamp.com es nombre@seedcamp.com (~70% de los casos), con variantes nombreapellido@seedcamp.com. NO está verificado en fuente primaria: la vía oficial y recomendada es el formulario de https://seedcamp.com/contact/ y el portal de aplicación del Fund VII. Tratar el email como hipótesis, no como dato. | INFERIDO, no verificado",
   "por_que_es_interesante": [
     "Fondo que declara invertir 'pre-product and pre-revenue'; Fund VII (220M USD, 2026) con ~35 primeros cheques al año.",
     "Su cita de 2026 al liderar Embedd es el argumento del cliente: el stack actual no fue diseñado para la siguiente fase de la IA.",
@@ -93,6 +90,23 @@
     "https://www.startupgrind.com/blog/vc-corner-qa-with-carlos-eduardo-espinal/",
     "https://tracxn.com/d/venture-capital/seedcamp/__XXmYAT2NJwtr7bvQJPC4tTSxJSQ84J_7DPCMmbST9_g"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "No se ha encontrado ningún email personal suyo publicado en fuente primaria. El patrón se deduce de agregadores de formato de email (LeadIQ, https://leadiq.com/c/seedcamp/5a1d98852300005e0087361f/email-format), que indican que el formato dominante en el dominio seedcamp.com es nombre@seedcamp.com (~70% de los casos), con variantes nombreapellido@seedcamp.com. NO está verificado en fuente primaria: la vía oficial y recomendada es el formulario de https://seedcamp.com/contact/ y el portal de aplicación del Fund VII. Tratar el email como hipótesis, no como dato.",
+      "INFERIDO, no verificado"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Perfil en el fondo: https://seedcamp.com/people/carlos-eduardo-espinal/",
+      "X/Twitter: https://x.com/cee (handle @cee)",
+      "Podcast que presenta: 'This Much I Know - The Seedcamp Podcast' (https://open.spotify.com/show/1FjXUrwJr3GplzUZhWhKOo y https://podcasts.apple.com/us/podcast/this-much-i-know-the-seedcamp-podcast/id962121995)",
+      "Autor en TechCrunch: https://techcrunch.com/author/carlos-espinal/",
+      "Libro: 'The Fundraising Fieldguide'",
+      "Crunchbase: https://www.crunchbase.com/person/carlos-espinal",
+      "Bloomberg: https://www.bloomberg.com/profile/person/18954949",
+      "Ficha de ponente: https://londontechweek.com/speakers/carlos-eduardo-espinal-espinal"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -118,7 +132,6 @@
     "motivo_v1": "Seedcamp: primer cheque institucional explícitamente pre-producto y pre-tracción (Dust, Embedd), Fund VII 220M USD 2026, hondureño con español fluido. Fuera de región (Londres) y filtro Europa/Israel: requiere ángulo europeo (España)."
   },
   "nombre_original": "Carlos Eduardo Espinal",
-  "email_original": "carlos@seedcamp.com (INFERIDO, no verificado)",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente el encaje más limpio de la lista con el perfil del cliente: un fondo que se define literalmente como 'Europe's Original First Check Investor' y que declara por escrito que invierte pre-producto, pre-ingresos y pre-tracción, dirigido por un ingeniero hondureño que da entrevistas en español. La evidencia de que apuesta por infraestructura antes de tracción es muy reciente y muy concreta: en agosto de 2026 Seedcamp lideró un pre-seed de 2,7M USD en Embedd (software para máquinas inteligentes) con una cita de Espinal sobre que 'el stack de software actual nunca fue diseñado' para la siguiente fase de la IA. Ese es exactamente el argumento del cliente. Ángulo de contacto recomendado: escribirle en inglés con un párrafo en español, abrir con la tesis de que el stack de software actual no fue diseñado para ser operado por IA (enlazando con su propia cita sobre Embedd), y llevar la demo del harness de agentes como prueba técnica, no métricas de usuarios. Su podcast y su libro dan puntos de entrada naturales.",
     "tesis_de_inversion": "Espinal invierte como primer dinero institucional en fundadores técnicos que atacan mercados globales grandes, con una tolerancia explícita al riesgo pre-producto: las propias FAQ de Seedcamp dicen que las compañías con las que se asocian van 'from pre-product and pre-revenue to post-launch', y que el momento importa menos que la calidad y ambición del fundador. Es agnóstico de sector pero con sesgo declarado hacia software con fundamento técnico profundo; en el Fund VII (2026) la tesis se ha inclinado hacia la intersección de IA con la ciencia y el mundo físico ('physical AI'), infraestructura y herramientas, y deliberadamente se aleja de sectores intensivos en capital como movilidad y marketplaces. Sus citas de 2026 son inequívocas sobre el ángulo de infraestructura: al liderar el pre-seed de Embedd dijo que 'AI's next chapter will play out in the physical world, but today's software stack was never designed for that reality', y describió la inversión como respaldar 'the infrastructure underpinning the next generation of intelligent machines'. Al invertir en PAIR resumió el criterio de utilidad: 'We invested in PAIR because they turn AI from a generic tool into real, role-specific productivity'. Busca equipos con al menos un perfil técnico fuerte en el núcleo fundador y considera normal el pivote en fases tempranas.",

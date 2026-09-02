@@ -16,11 +16,8 @@
     "Sin etapa ni ticket conocidos."
   ],
   "linkedin": "https://es.linkedin.com/in/jatorre",
-  "linkedin_nota": "",
-  "otros_perfiles": "GitHub (activo, 85 repos, 114 seguidores): https://github.com/jatorre | Posts en el blog de CARTO: https://carto.com/authors/javier-de-la-torre/ | Autor invitado en el blog de Snowflake: https://www.snowflake.com/en/blog/authors/javier-de-la-torre-carto/ | Autor en Digital Insurance: https://www.dig-in.com/author/javier-de-la-torre | Perfil AngelFlow: https://angelflow.com/angels/javier-de-la-torre | Perfil Dealroom: https://app.dealroom.co/investors/javier_de_la_torre | Crunchbase: https://www.crunchbase.com/person/javier-de-la-torre | Entrevista en vídeo: https://www.youtube.com/watch?v=Q391N2Xuu9U | Charla 'The Agentic Interface: How AI is Rebuilding the Future of Geography': https://www.youtube.com/watch?v=tVPao0EmJTA | Podcast 'Location Matters': https://open.spotify.com/episode/7dCuF1dNBulmEH3HPXQmQo | Podcast 'The European Startup Show': https://player.fm/series/the-european-startup-show/location-analytics-carto-cso-javier-de-la-torre-on-building-a-global-brand-managing-privacy-how-and-when-to-build-vs-buy",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Su perfil de GitHub (https://github.com/jatorre) no expone email; CARTO no publica correos individuales de directivos en carto.com/about-us/ ni en su newsroom, solo formularios corporativos. No hay ningún email de otro directivo de CARTO publicado del que inferir un patrón fiable, así que no se propone ninguno. Vías reales: LinkedIn, GitHub (issues/PRs en sus repos) y los eventos de CARTO. | No encontrado en fuentes públicas.",
   "por_que_es_interesante": [
     "Reorientó CARTO hacia la 'Agentic Enterprise' con servidor MCP propio; impulsó GeoParquet y geometría en Apache Iceberg: construye la capa que el cliente vende.",
     "Su tesis pública sobre agentes, formatos abiertos y elección de proveedor es literalmente el argumento de moat del stack.",
@@ -93,6 +90,26 @@
     "https://player.fm/series/the-european-startup-show/location-analytics-carto-cso-javier-de-la-torre-on-building-a-global-brand-managing-privacy-how-and-when-to-build-vs-buy",
     "https://www.theofficialboard.com/biography/javier-de-la-torre-d8920"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Su perfil de GitHub (https://github.com/jatorre) no expone email; CARTO no publica correos individuales de directivos en carto.com/about-us/ ni en su newsroom, solo formularios corporativos. No hay ningún email de otro directivo de CARTO publicado del que inferir un patrón fiable, así que no se propone ninguno. Vías reales: LinkedIn, GitHub (issues/PRs en sus repos) y los eventos de CARTO.",
+      "No encontrado en fuentes públicas."
+    ],
+    "linkedin": [],
+    "otras": [
+      "GitHub (activo, 85 repos, 114 seguidores): https://github.com/jatorre",
+      "Posts en el blog de CARTO: https://carto.com/authors/javier-de-la-torre/",
+      "Autor invitado en el blog de Snowflake: https://www.snowflake.com/en/blog/authors/javier-de-la-torre-carto/",
+      "Autor en Digital Insurance: https://www.dig-in.com/author/javier-de-la-torre",
+      "Perfil AngelFlow: https://angelflow.com/angels/javier-de-la-torre",
+      "Perfil Dealroom: https://app.dealroom.co/investors/javier_de_la_torre",
+      "Crunchbase: https://www.crunchbase.com/person/javier-de-la-torre",
+      "Entrevista en vídeo: https://www.youtube.com/watch?v=Q391N2Xuu9U",
+      "Charla 'The Agentic Interface: How AI is Rebuilding the Future of Geography': https://www.youtube.com/watch?v=tVPao0EmJTA",
+      "Podcast 'Location Matters': https://open.spotify.com/episode/7dCuF1dNBulmEH3HPXQmQo",
+      "Podcast 'The European Startup Show': https://player.fm/series/the-european-startup-show/location-analytics-carto-cso-javier-de-la-torre-on-building-a-global-brand-managing-privacy-how-and-when-to-build-vs-buy"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -118,7 +135,6 @@
     "motivo_v1": "Discurso agéntico/MCP idóneo y fundador de CARTO, pero ninguna inversión ángel documentada, sin etapa ni ticket; valor como validador y puente, no como capital."
   },
   "nombre_original": "Javier de la Torre",
-  "email_original": "No encontrado en fuentes públicas.",
   "textos_v1": {
     "por_que_es_interesante": "Es el interlocutor técnico ideal aunque probablemente no sea el cheque. Ha construido una plataforma de datos con superficie de desarrollador durante catorce años, es Director de un organismo de estándares abiertos (OGC), impulsó GeoParquet y el soporte de geometría en Apache Iceberg, y en 2025-2026 ha reorientado públicamente CARTO hacia la 'Agentic Enterprise' con servidor MCP propio. Su tesis pública —que la UI de SaaS se convierte en comando de CLI, API o herramienta MCP; que la soberanía es poder elegir proveedor de modelo; que los formatos abiertos rompen los silos— es literalmente el argumento de moat de un stack IA-nativo. Sigue escribiendo código en abierto, así que un contacto por GitHub o por un ensayo técnico tiene más probabilidad de funcionar que un deck. Ángulo: no pedirle dinero de entrada, sino su lectura técnica y su red (es puerta natural hacia Kibo Ventures, Accel, Insight y Salesforce Ventures, todos inversores de CARTO).",
     "tesis_de_inversion": "No tiene tesis de inversión publicada porque no hay evidencia de que invierta de forma sistemática. Lo que sí tiene, y es más útil, es una tesis tecnológica muy articulada y muy cercana a la del cliente. Sobre agentes: 'Agents don't go to a browser or click through dropdowns. They call APIs, invoke MCP tools, and run CLI commands directly', y generaliza: 'across every industry and every category of enterprise software, the same shift is underway: what used to be a SaaS UI for an agent is a CLI command, an API, or an MCP tool' (CARTO for Agents, 14 mayo 2026). Sobre organización: las empresas ganadoras serán las que 'bring humans and AI Agents on the same platform, working from the same data, the same governance'. Sobre soberanía y lock-in, su ensayo del 20 de noviembre de 2025: 'Sovereignty doesn't mean building walls or rejecting innovation. True sovereignty is about choice'; 'Lock yourself into proprietary schemas or isolated data models, and you've confused isolation with independence'; y sobre modelos: 'Open models are increasingly competitive... a reliable model you can run securely on your own infrastructure is already more strategically valuable', con la regla 'always use standards and platforms that give you provider choice'. Es decir: defiende formatos abiertos, arquitecturas cloud-native, superficie de API/CLI/MCP para agentes y ausencia de dependencia de un proveedor de modelo. Es exactamente el argumento de moat que necesita una startup de stack IA-nativo.",

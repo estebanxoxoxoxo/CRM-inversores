@@ -17,11 +17,8 @@
     "Fund I: ~4M USD en 16 empresas con cheques de 50-150k USD."
   ],
   "linkedin": "https://www.linkedin.com/in/javiersamb/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter personal: https://x.com/javiersamb | X del fondo: https://x.com/CARABELA_vc | Web del fondo: https://www.carabela.vc/ | Tesis del Fondo II: https://www.carabela.vc/fund2 | Equipo: https://www.carabela.vc/team | Perfil Signal NFX: https://signal.nfx.com/investors/javier-sanchez-aldana | Crunchbase: https://www.crunchbase.com/person/javier-sanchez-aldana | LinkedIn del fondo: https://www.linkedin.com/company/carabelavc | Formulario de aplicación público: https://forms.gle/pRKN7cDeQnhmVrUD9",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Ni la web del fondo (carabela.vc, incluidas las páginas /team y /fund2) ni sus perfiles públicos exponen direcciones de correo. Tampoco hay email público de su socio Francisco Ruiz Izaguirre del que deducir un patrón, por lo que NO se propone patrón inferido. La vía declarada por el propio fondo es el formulario de Google: https://forms.gle/pRKN7cDeQnhmVrUD9",
   "por_que_es_interesante": [
     "Su tesis busca exactamente el perfil del cliente: middleware técnico, usuarios ingenieros, distribución por API/SDK, repo en GitHub como señal positiva, software-first.",
     "Lidera rondas pre-seed: pone precio y términos antes de que exista tracción; menciona dev tools de forma explícita.",
@@ -88,6 +85,23 @@
     "https://mx.linkedin.com/in/javiersamb",
     "https://www.linkedin.com/in/franco5/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Ni la web del fondo (carabela.vc, incluidas las páginas /team y /fund2) ni sus perfiles públicos exponen direcciones de correo. Tampoco hay email público de su socio Francisco Ruiz Izaguirre del que deducir un patrón, por lo que NO se propone patrón inferido. La vía declarada por el propio fondo es el formulario de Google: https://forms.gle/pRKN7cDeQnhmVrUD9"
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter personal: https://x.com/javiersamb",
+      "X del fondo: https://x.com/CARABELA_vc",
+      "Web del fondo: https://www.carabela.vc/",
+      "Tesis del Fondo II: https://www.carabela.vc/fund2",
+      "Equipo: https://www.carabela.vc/team",
+      "Perfil Signal NFX: https://signal.nfx.com/investors/javier-sanchez-aldana",
+      "Crunchbase: https://www.crunchbase.com/person/javier-sanchez-aldana",
+      "LinkedIn del fondo: https://www.linkedin.com/company/carabelavc",
+      "Formulario de aplicación público: https://forms.gle/pRKN7cDeQnhmVrUD9"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -113,7 +127,6 @@
     "motivo_v1": "Carabela: 'Pre seed for deep-tech founders', lidera con tickets hasta 500k, dev tools nombrado como vertical, criterio para usuarios técnicos. Reservas: Fund II (20M) sin cierre confirmado, tesis deep tech nueva en 2025, no invierte en solo founders."
   },
   "nombre_original": "Javier Sánchez Aldana",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es, con diferencia, el encaje más literal de este lote. Su tesis publicada no solo tolera sino que busca exactamente el perfil del cliente: middleware técnico complejo, usuarios que son ingenieros y desarrolladores, distribución por API/SDK, repositorio en GitHub como señal positiva, software-first sin capex, y 'anomalías' fuera del hype. Es un fondo que lidera rondas pre-seed —es decir, pone precio y términos antes de que exista tracción— y que menciona dev tools de forma explícita entre sus verticales. El ángulo de contacto correcto es puramente técnico: enseñar el harness de desarrollo con nube de agentes como producto para desarrolladores (SDK/API, repo público o documentación técnica que permita 'low friction deployment'), enmarcar el stack IA-nativo como una 'anomalía' respecto al consenso de wrappers sobre modelos, y ser explícito sobre el equipo fundador (mínimo dos personas, con profundidad técnica demostrable) porque excluye solo founders. Aplicar por su formulario público es una vía legítima: responden en una semana.",
     "tesis_de_inversion": "Carabela se define literalmente como 'Pre seed for deep-tech founders' y, en el Fondo II, dice respaldar a 'deep tech founders building what others don't yet understand'. Invierte exclusivamente en B2B digital deep tech en etapa pre-semilla, con foco en Gen AI, blockchain, IoT, diseño de semiconductores, plataformas digitales y dev tools (así lo anunció el propio Javier al lanzar el Fondo II en X, julio 2025). Los criterios publicados son notablemente afines a una startup de infraestructura: (1) 'Anomalies' — busca 'startups that stand apart from the hype cycles'; (2) 'Emerging Tech' — puntos de inflexión en IA, blockchain, IoT 'and other transformational technologies'; (3) 'Technical Users' — soluciones para 'engineers, developers, scientists'; (4) 'Developer-Ready' — valora tener 'SDK, GitHub Repo or API'; (5) 'Low Friction' — despliegue autónomo por el usuario con buena documentación técnica; (6) 'Software-First' — 'we avoid hardware-heavy models'. Prensa especializada describe el Fondo II como 'B2B deep-tech exclusivamente: plataformas con middleware técnico complejo, usuarios altamente especializados, y distribución vía API o SDK'. Excluye explícitamente fundadores solitarios ('Sorry, we don't invest in Solo Founders'), B2C, nichos diminutos y soluciones que exigen consultoría extensa. En ningún punto de su tesis pide tracción, usuarios ni ingresos.",

@@ -17,11 +17,8 @@
     "Principal: no firma; origina y defiende en comité."
   ],
   "linkedin": "https://es.linkedin.com/in/jorge-baron",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha oficial en el fondo: https://www.adara.vc/team/jorge-baron | Equipo de Adara: https://www.adara.vc/team | Signal NFX: https://signal.nfx.com/investors/jorge-baron | Post público suyo en LinkedIn (marzo 2025, anuncio del Fondo IV): https://www.linkedin.com/posts/jorge-baron_fund-iv-is-live-adara-ventures-continues-activity-7307328773949919232-XK35 | Aparece indexado como inversor asistente a 4YFN Barcelona 2026: https://www.4yfn.com/investors/attending/1927-jorge-baron (la URL devolvió 404 al intentar abrirla; el título del listado sí está indexado) | Perfil en Bloomberg 'Jorge Baron, Adara Venture Partners': https://www.bloomberg.com/profile/person/21363186 (bloqueado, 403) | Ficha en The Network: https://www.thenetwork.com/profile/jorge-baron-ec355622 (404 al abrir) | X/Twitter personal: no encontrado. El fondo publica en https://x.com/AdaraVentures y en https://www.linkedin.com/company/adaravc/. No tiene blog, newsletter ni GitHub localizables. ATENCIÓN: no confundir con Jorge Barón, presentador peruano de televisión ('Yo Soy'), ni con Jorge Barón, director ejecutivo del Northwest Immigrant Rights Project en EE. UU.",
   "email": "Info@adara.vc",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "https://www.adara.vc/contact — solo aparecen Info@adara.vc, el typeform de pitch y la dirección postal (Calle José Abascal 58, 28003 Madrid). Ninguna fuente pública consultada expone un email individual de Jorge Barón. Vía real de contacto: typeform + mensaje directo en LinkedIn (https://es.linkedin.com/in/jorge-baron), que es donde sí tiene actividad propia. | no encontrado. Adara no publica direcciones individuales de su equipo. Los únicos canales publicados son el buzón general  y el formulario de pitch https://adaravc.typeform.com/to/HL6FbYAe. Tampoco existe un patrón nombre@adara.vc verificable, porque no se ha localizado ninguna dirección individual del fondo en prensa, notas de Business Wire, papers ni GitHub",
   "por_que_es_interesante": [
     "Puerta operativa a Adara: único Principal, origina y evalúa en etapa temprana; tesis personal literal de infraestructura de software.",
     "Ha trabajado deals de IA-nativa y agentes (42Crunch, Bigle, Articul8, TandemTrace).",
@@ -109,6 +106,23 @@
     "https://capital-riesgo.es/en/articles/adara-ventures-leads-2m-seed-round-in-kimera-technologies-to-power-ai-driven-product-discovery-in-ecommerce/",
     "https://www.4yfn.com/investors/attending/1927-jorge-baron"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "https://www.adara.vc/contact — solo aparecen Info@adara.vc, el typeform de pitch y la dirección postal (Calle José Abascal 58, 28003 Madrid). Ninguna fuente pública consultada expone un email individual de Jorge Barón. Vía real de contacto: typeform + mensaje directo en LinkedIn (https://es.linkedin.com/in/jorge-baron), que es donde sí tiene actividad propia.",
+      "No encontrado. Adara no publica direcciones individuales de su equipo. Los únicos canales publicados son el buzón general y el formulario de pitch https://adaravc.typeform.com/to/HL6FbYAe. Tampoco existe un patrón nombre@adara.vc verificable, porque no se ha localizado ninguna dirección individual del fondo en prensa, notas de Business Wire, papers ni GitHub"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha oficial en el fondo: https://www.adara.vc/team/jorge-baron",
+      "Equipo de Adara: https://www.adara.vc/team",
+      "Signal NFX: https://signal.nfx.com/investors/jorge-baron",
+      "Post público suyo en LinkedIn (marzo 2025, anuncio del Fondo IV): https://www.linkedin.com/posts/jorge-baron_fund-iv-is-live-adara-ventures-continues-activity-7307328773949919232-XK35",
+      "Aparece indexado como inversor asistente a 4YFN Barcelona 2026: https://www.4yfn.com/investors/attending/1927-jorge-baron (la URL devolvió 404 al intentar abrirla; el título del listado sí está indexado)",
+      "Perfil en Bloomberg 'Jorge Baron, Adara Venture Partners': https://www.bloomberg.com/profile/person/21363186 (bloqueado, 403)",
+      "Ficha en The Network: https://www.thenetwork.com/profile/jorge-baron-ec355622 (404 al abrir)",
+      "X/Twitter personal: no encontrado. El fondo publica en https://x.com/AdaraVentures y en https://www.linkedin.com/company/adaravc/. No tiene blog, newsletter ni GitHub localizables. ATENCIÓN: no confundir con Jorge Barón, presentador peruano de televisión ('Yo Soy'), ni con Jorge Barón, director ejecutivo del Northwest Immigrant Rights Project en EE. UU."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -134,7 +148,6 @@
     "motivo_v1": "Tesis personal de infraestructura ('la capa debajo de la tecnología visible') en Adara, pero es Principal sin decisión y solapa con Gómez, Pillado y Goulet: una sola vía a Adara."
   },
   "nombre_original": "Jorge Barón",
-  "email_original": "no encontrado. Adara no publica direcciones individuales de su equipo. Los únicos canales publicados son el buzón general Info@adara.vc y el formulario de pitch https://adaravc.typeform.com/to/HL6FbYAe. Tampoco existe un patrón nombre@adara.vc verificable, porque no se ha localizado ninguna dirección individual del fondo en prensa, notas de Business Wire, papers ni GitHub.",
   "textos_v1": {
     "por_que_es_interesante": "Es la puerta de entrada operativa a Adara: único Principal del equipo, con función explícita de originar y evaluar oportunidades en etapa temprana, y con una tesis personal —\"the layer underneath the technology most people see\", \"critical software\"— que describe casi literalmente lo que el cliente construye: infraestructura de software, no aplicación visible. Su cartera nominal incluye 42Crunch (seguridad de APIs, que Adara justifica porque las APIs son \"the foundational execution layer for the digital economy and increasingly for AI agents\"), Bigle (\"an AI-native contract lifecycle platform\"), Articul8 y TandemTrace (agentes de IA para SecOps): ya ha trabajado deals de IA-nativa y de agentes. Además es español nativo, con base en Madrid, e ingeniero de formación, así que la conversación puede ser técnica desde el minuto uno. El ángulo correcto no es la demo —Adara publica que \"a strong demo proves little\"— sino la arquitectura: por qué el stack IA-nativo es una capa de infraestructura defendible y por qué el harness de agentes es sistema de producción, no prototipo. Su fondo se presenta con el lema \"We know what it takes to build before the market believes\".",
     "tesis_de_inversion": "Su tesis personal, tal como la formula en su ficha del fondo, es de infraestructura pura: dice prestar la máxima atención a \"the layer underneath the technology most people see\", es decir, a la capa que hay debajo de la tecnología visible. Concreta sus dominios en \"energy, health, defense, critical software\" y explica que le atraen \"hard markets where the expertise to build well sits with a handful of people worldwide\": mercados difíciles donde la capacidad de construir bien reside en un puñado de personas en el mundo. En cuanto al equipo, su filtro declarado es \"I look for founders who pair real ambition with intellectual honesty\" (https://www.adara.vc/team/jorge-baron). Esto encaja y a la vez matiza la tesis del fondo, que sostiene que \"As AI commoditises the surface layer of software, value sinks below to the proprietary data, trust, domain depth and physical systems\" y que organiza la cartera en cuatro dominios (Capture, Secure, Compute, Connect). Es importante retener el matiz que Adara publica en su página About: \"AI commoditises building; a strong demo proves little\" — la demo no es el argumento; la arquitectura y el dominio sí. Signal NFX le asocia Seed y Serie A, con sweet spot ~1,5 M$, en Robotics, TransportationTech, AI, Enterprise y DeepTech.",

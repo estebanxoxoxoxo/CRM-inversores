@@ -13,6 +13,9 @@
  * - Los campos de síntesis (`por_que_es_interesante`, `tesis_de_inversion`, `etapa_y_ticket`) y las listas
  *   (inversiones, señales, riesgos, cómo llegar, fuentes) son SIEMPRE arrays de strings; `antecedentes` e
  *   `investigacion_larga` son párrafos.
+ * - `fuente_vias_de_contacto` documenta de dónde sale cada vía de contacto (email, LinkedIn, otras) como listas
+ *   de notas cortas; se muestra al final de la ficha. Los datos de contacto en sí van en `email`, `email_estado`
+ *   y `linkedin`.
  */
 import { z } from "zod";
 
@@ -59,6 +62,14 @@ export const PuntuacionSchema = z.object({
 });
 export type Puntuacion = z.infer<typeof PuntuacionSchema>;
 
+/** Procedencia de las vías de contacto: notas cortas (texto o URL) por canal. */
+export const FuenteViasDeContactoSchema = z.object({
+  email: z.array(z.string()),
+  linkedin: z.array(z.string()),
+  otras: z.array(z.string()),
+});
+export type FuenteViasDeContacto = z.infer<typeof FuenteViasDeContactoSchema>;
+
 export const AuditoriaSchema = z.object({
   version: z.literal(2),
   fecha: z.string(),
@@ -89,11 +100,8 @@ export const InversorSchema = z.object({
   tipo_inversor_detalle: z.string(),
   etapa_y_ticket: z.array(z.string()),
   linkedin: z.union([z.url(), z.literal("")]),
-  linkedin_nota: z.string(),
-  otros_perfiles: z.string(),
   email: z.union([z.email(), z.literal("")]),
   email_estado: EmailEstadoSchema,
-  email_fuente: z.string(),
   por_que_es_interesante: z.array(z.string()),
   tesis_de_inversion: z.array(z.string()),
   antecedentes: z.string(),
@@ -103,9 +111,9 @@ export const InversorSchema = z.object({
   como_llegar: z.array(z.string()),
   investigacion_larga: z.string(),
   fuentes: z.array(z.string()),
+  fuente_vias_de_contacto: FuenteViasDeContactoSchema,
   auditoria: AuditoriaSchema,
   nombre_original: z.string(),
-  email_original: z.string(),
   textos_v1: z
     .object({
       por_que_es_interesante: z.string(),

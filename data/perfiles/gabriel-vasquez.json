@@ -17,11 +17,8 @@
     "Inusual en a16z: dos de sus cuatro operaciones documentadas son pre-seed."
   ],
   "linkedin": "https://www.linkedin.com/in/gabriel-vasquez-49392580/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://x.com/GEVS94 | Perfil de autor en a16z: https://a16z.com/author/gabriel-vasquez/ | Signal NFX: https://signal.nfx.com/investors/gabriel-vasquez | Crunchbase: https://www.crunchbase.com/person/gabriel-vasquez-db03 | Ensayo insignia: https://a16z.com/rise-of-the-borderless-founder/",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "a16z no publica direcciones individuales de sus socios en ninguna fuente pública (web del fondo, ensayos, bios de ponente, prensa) y no existe ningún patrón de dominio verificable en fuentes abiertas, por lo que NO se propone ninguno. Las vías reales son X/Twitter (@GEVS94), LinkedIn y, sobre todo, la puerta explícita que él mismo abre al final de su ensayo: “If you’re a Borderless Founder, we’d love to meet you”.",
   "por_que_es_interesante": [
     "Su trabajo es encontrar equipos técnicos fuera de Silicon Valley y meterlos en a16z; escribe pre-seeds de verdad (Dentio, Carecode).",
     "Ensayo 'Rise of the Borderless Founder' (2026): 'Your background is your moat'; red de cenas como puerta real.",
@@ -85,6 +82,19 @@
     "https://open.spotify.com/show/a16z-podcast (episodio sobre Kavak coconducido con Angela Strange)",
     "https://startupeable.com/ (contexto de medios de VC en español en LatAm; no se ha hallado aparición suya)"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "A16z no publica direcciones individuales de sus socios en ninguna fuente pública (web del fondo, ensayos, bios de ponente, prensa) y no existe ningún patrón de dominio verificable en fuentes abiertas, por lo que NO se propone ninguno. Las vías reales son X/Twitter (@GEVS94), LinkedIn y, sobre todo, la puerta explícita que él mismo abre al final de su ensayo: “If you’re a Borderless Founder, we’d love to meet you”."
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://x.com/GEVS94",
+      "Perfil de autor en a16z: https://a16z.com/author/gabriel-vasquez/",
+      "Signal NFX: https://signal.nfx.com/investors/gabriel-vasquez",
+      "Crunchbase: https://www.crunchbase.com/person/gabriel-vasquez-db03",
+      "Ensayo insignia: https://a16z.com/rise-of-the-borderless-founder/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -110,7 +120,6 @@
     "motivo_v1": "Lidera pre-seeds de 2-4M fuera de EE.UU. y dirige Borderless Founders, pero su vertical es IA aplicada (salud, fintech), no infra ni dev tools; origen y español sin ninguna fuente. Sólo como puerta indirecta a a16z."
   },
   "nombre_original": "Gabriel Vasquez",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es, de toda la lista, el socio con el mandato más literalmente diseñado para esta startup: su trabajo consiste en encontrar equipos técnicos fuera del circuito de Silicon Valley y meterlos en a16z, y escribe cheques de pre-seed de verdad (Dentio, 2,3M USD, pre-seed; Carecode, 4M USD, pre-seed). Su ensayo “Rise of the Borderless Founder” es una invitación explícita y abierta a que fundadores como este equipo le escriban, y la red de cenas que codirige es una puerta de entrada real, no un programa de marketing. Ya ha invertido en un equipo con base parcial en España (Supersonik, San Francisco y Barcelona, seed de 5M USD en septiembre de 2025, agente de IA que hace demos de producto B2B). Su reserva: su vertical es IA aplicada, no infraestructura ni herramientas de desarrollo, que en a16z corresponde a otros socios. Ángulo de contacto: presentarse explícitamente como Borderless Founders, con el foso construido sobre el equipo de ingeniería hispanohablante, y pedirle que canalice la parte de infraestructura a la práctica correspondiente de la casa.",
     "tesis_de_inversion": "Invierte en IA aplicada (AI apps) y dirige la estrategia global de a16z, con el objetivo declarado de “build a bridge between the United States and the world’s best founders, operators, and technologists — and partner with them to win globally”. Su tesis más articulada está en el ensayo “Rise of the Borderless Founder” (a16z, 20 de agosto de 2026, coescrito con Angela Strange): sostiene que los fundadores internacionales que mantienen redes simultáneas en su país de origen y en Silicon Valley tienen ventaja competitiva estructural, y que su origen no es un obstáculo sino un foso: “Your background is your moat”. Desglosa tres ventajas concretas: clientes (acceso temprano a grandes empresas y design partners vía red del país de origen), marca (el reconocimiento en el mercado doméstico genera impulso internacional) y talento (identificar a los mejores ingenieros antes de que el mercado global los descubra). En cartera se ve el patrón: apuesta por productos IA-nativos que sustituyen trabajo humano especializado —agentes clínicos, agentes de venta, agentes administrativos— en mercados donde la escasez del recurso humano es aguda. Invierte muy pronto: dos de sus cuatro operaciones documentadas son pre-seed.",

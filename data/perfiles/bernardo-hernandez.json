@@ -17,11 +17,8 @@
     "Última inversión registrada: agosto de 2023 (Founderz)."
   ],
   "linkedin": "https://www.linkedin.com/in/bernardohernandez/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web personal: https://bernardohernandez.com | X/Twitter: https://x.com/berniehernie | Instagram: @berniehernie | Flickr: https://www.flickr.com/photos/bernzo/ | Wikipedia (es): https://es.wikipedia.org/wiki/Bernardo_Hernández_González | Ficha de conferenciante: https://grupobcc.com/speakers/bernardo-hernandez/ | Startupxplore: https://startupxplore.com/es/inversores/bernardo-hernandez",
   "email": "bernardo.hernandez@gmail.com",
   "email_estado": "público verificado",
-  "email_fuente": "Publicado por él mismo, junto con su dirección postal (C. Santa Engracia 14, 28010 Madrid), en la sección de contacto de su web personal https://bernardohernandez.com",
   "por_que_es_interesante": [
     "Pensero AI (cofundador) mide el rendimiento de equipos de ingeniería con IA: piensa a diario en el mismo problema y es usuario potencial del stack.",
     "Asesor senior de SandboxAQ (IA + cuántica) y OpenChip: apetito por deep tech.",
@@ -84,6 +81,21 @@
     "https://www.linkedin.com/in/bernardohernandez",
     "https://www.crunchbase.com/funding_round/pensero-ai-seed--95a9dfe8"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Publicado por él mismo, junto con su dirección postal (C. Santa Engracia 14, 28010 Madrid), en la sección de contacto de su web personal https://bernardohernandez.com"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web personal: https://bernardohernandez.com",
+      "X/Twitter: https://x.com/berniehernie",
+      "Instagram: @berniehernie",
+      "Flickr: https://www.flickr.com/photos/bernzo/",
+      "Wikipedia (es): https://es.wikipedia.org/wiki/Bernardo_Hernández_González",
+      "Ficha de conferenciante: https://grupobcc.com/speakers/bernardo-hernandez/",
+      "Startupxplore: https://startupxplore.com/es/inversores/bernardo-hernandez"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -109,7 +121,6 @@
     "motivo_v1": "Cartera consumer (idealista, Tuenti, Glovo), sin operaciones desde 2023, sin fondo, operador a tiempo completo en Pensero AI con posible solapamiento."
   },
   "nombre_original": "Bernardo Hernández",
-  "email_original": "bernardo.hernandez@gmail.com",
   "textos_v1": {
     "por_que_es_interesante": "El ángulo más fuerte no es su cartera pasada sino lo que está construyendo ahora: Pensero AI es una plataforma IA-nativa que mide el rendimiento de equipos de ingeniería, es decir, un producto que vive exactamente en la misma capa que un harness de desarrollo con nube de agentes. Está pensando a diario en cómo cambia la productividad de ingeniería con IA, y su empresa es un usuario potencial obvio de un stack IA-nativo. Añade a eso su papel de asesor en SandboxAQ (IA + cuántica) y en OpenChip (chips), que muestra apetito por deep tech, y su enorme red en el ecosistema español. Pero hay que ser honesto: su historial inversor real es consumer y marketplaces, no infraestructura, y no se le documentan operaciones desde agosto de 2023. Lo razonable es contactarle como socio estratégico y puerta de entrada al ecosistema español, con la posibilidad de un cheque ángel, no como inversor principal.",
     "tesis_de_inversion": "Bernardo Hernández no publica una tesis formalizada: invierte como ángel con criterio de producto y distribución, muy influido por sus años como directivo de producto y marketing en Google. Su patrón histórico es claro: marketplaces y plataformas de consumo con efectos de red en España y Europa (idealista, Tuenti, Wallapop, Glovo, Fever, Paack, Citibox), más alguna posición en infraestructura estadounidense (Stripe, Chalk.ai). Su discurso público reciente sí se ha desplazado hacia la tecnología profunda: es asesor senior de SandboxAQ (IA y computación cuántica, spin-off de Alphabet) desde 2023 y asesor de OpenChip (proyecto español de chips), y da conferencias sobre 'cómo la inteligencia artificial, el quantum computing y la tecnología blockchain están transformando' el mundo empresarial. En 2024-2025 cofundó Pensero AI, una plataforma IA-nativa y privacy-first que mide en tiempo real el rendimiento de los equipos de ingeniería 'para que los managers no tengan que hacerlo', con una seed de unos 5-6 M USD en agosto de 2025 liderada por Mighty Capital. Al incorporarse al consejo asesor de la agencia Annie Bonnie (abril de 2026) declaró que 'las marcas necesitan socios capaces de entender tecnología, cultura y crecimiento al mismo tiempo'. En mayo de 2026 advirtió que el ritmo del cambio tecnológico supera la capacidad de preparación de las organizaciones.",

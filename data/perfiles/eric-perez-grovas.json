@@ -17,11 +17,8 @@
     "AUM >180M USD en tres fondos; tercer fondo con objetivo 100M USD (2021)."
   ],
   "linkedin": "https://www.linkedin.com/in/ericperezgrovas/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web del fondo: http://www.wollefvc.com | Equipo: http://www.wollefvc.com/team | Portafolio: http://www.wollefvc.com/companies | X del fondo: https://x.com/WollefVC | LinkedIn del fondo: https://www.linkedin.com/company/wollef/ | Signal NFX: https://signal.nfx.com/investors/eric-perez-grovas | Podcast Startupeable (18 oct 2023): 'Eric Perez Grovas, Wollef | Dejar McKinsey por Mercado Libre; MBA para Emprender; y Lecciones de Invertir en Nubank' | AVISO: el dominio wollef.com ya NO pertenece al fondo (redirige a un mercado de dominios); el sitio vigente es wollefvc.com. La URL de LinkedIn personal es la forma habitual del perfil pero no pudo verificarse por bloqueo de LinkedIn a la consulta automatizada.",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "El sitio del fondo (wollefvc.com) no publica ninguna dirección de correo, ni general ni de socios; solo remite a LinkedIn y X. No existe email público de ningún socio del que deducir un patrón, por lo que NO se propone patrón inferido.",
   "por_que_es_interesante": [
     "Pre-seed y seed, 'comfortable being first institutional investors', ticket 250k-3M USD con punto dulce 1,6M.",
     "Lideró la seed de Kleva ('autonomous voice AI' para cobranza bancaria).",
@@ -87,6 +84,23 @@
     "https://www.linkedin.com/company/wollef",
     "https://startupeable.com (podcast, 18/10/2023: 'Eric Perez Grovas, Wollef | Dejar McKinsey por Mercado Libre; MBA para Emprender; y Lecciones de Invertir en Nubank')"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "El sitio del fondo (wollefvc.com) no publica ninguna dirección de correo, ni general ni de socios; solo remite a LinkedIn y X. No existe email público de ningún socio del que deducir un patrón, por lo que NO se propone patrón inferido."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: http://www.wollefvc.com",
+      "Equipo: http://www.wollefvc.com/team",
+      "Portafolio: http://www.wollefvc.com/companies",
+      "X del fondo: https://x.com/WollefVC",
+      "LinkedIn del fondo: https://www.linkedin.com/company/wollef/",
+      "Signal NFX: https://signal.nfx.com/investors/eric-perez-grovas",
+      "Podcast Startupeable (18 oct 2023): 'Eric Perez Grovas, Wollef",
+      "Dejar McKinsey por Mercado Libre; MBA para Emprender; y Lecciones de Invertir en Nubank'",
+      "AVISO: el dominio wollef.com ya NO pertenece al fondo (redirige a un mercado de dominios); el sitio vigente es wollefvc.com. La URL de LinkedIn personal es la forma habitual del perfil pero no pudo verificarse por bloqueo de LinkedIn a la consulta automatizada."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -114,7 +128,6 @@
     "motivo_v1": "Cómodo como primer institucional y lideró Kleva (voz IA), pero sin tesis tecnológica, cero dev tools/infra y sesgo fintech/e-commerce."
   },
   "nombre_original": "Eric Pérez-Grovas",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Su etapa y su cheque encajan mecánicamente bien: Pre-Seed y Seed, primer inversor institucional, ticket de US$250K a US$3M con punto dulce en US$1,6M — suficiente para financiar una fase de construcción larga sin exigir métricas de mercado. Y sí ha invertido en agentes de IA: lideró la semilla de Kleva, una plataforma de cobranza con IA de voz autónoma vendida a bancos, que la propia Wollef describe como 'autonomous voice AI'. Su marca gira en torno al riesgo ('invertimos en quien se lo juega todo'), lo que da un marco narrativo favorable a una apuesta pre-tracción. Dicho esto, el encaje temático es débil: ni él ni el fondo tienen tesis, portafolio ni discurso público sobre deep tech, infraestructura de IA o herramientas para desarrolladores. Si se le contacta, el ángulo debe ser el impacto económico —un stack que hace que el software se construya 90% mejor cambia la estructura de costes de todo su portafolio— y no la arquitectura. Es un contacto de segunda ronda, útil como coinversor, no como líder de una ronda deep tech.",
     "tesis_de_inversion": "Wollef resume su tesis en una frase que repite en todos sus materiales: 'We take a risk on those who risk it all' / 'We invest in those who risk it all'. Se posicionan como socios muy tempranos —Pre-Seed, Seed y Serie A— y declaran estar cómodos siendo el primer inversor institucional de una compañía. Sus valores declarados son honestidad, mente abierta y coraje, y presumen de no ser 'políticamente correctos' y de dar feedback sincero (Cristóbal Perdomo, cofundador). En la práctica, su tesis es sobre EQUIPO y apetito de riesgo del fundador más que sobre tecnología: no publican verticales tecnológicas prioritarias ni una tesis sobre IA, infraestructura o herramientas para desarrolladores. Los sectores efectivos que declaran son fintech, SaaS, marketplace, logística, foodtech, proptech y e-commerce. Sí han desplegado capital de forma consistente en IA aplicada desde 2022-2024 (Kleva, Mi Chamba, Zumma, Kunzapp, Ginia, Pulsar), siempre como producto vertical para una industria concreta y nunca como capa de infraestructura. Eric aporta específicamente la lente de marketplaces, e-commerce y consumo, coherente con haber montado MercadoLibre México y con presidir la AMVO.",

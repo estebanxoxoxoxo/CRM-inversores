@@ -17,11 +17,8 @@
     "Él es Venture Partner a tiempo parcial: origina y evalúa, no firma."
   ],
   "linkedin": "https://www.linkedin.com/in/asubiotto/",
-  "linkedin_nota": "redirige a https://es.linkedin.com/in/asubiotto",
-  "otros_perfiles": "Web personal: https://www.asubiotto.com (con secciones /writing y /speaking) | GitHub: https://github.com/asubiotto | X/Twitter: https://twitter.com/asubiotto | Bluesky: https://bsky.app/profile/asubiotto.bsky.social | Ficha en el fondo: https://www.lorimerventures.com/team (aparece como 'Alfonso Marqués — Founding Engineer at Polar Signals' en la sección Venture Partners) | Blog técnico de Polar Signals con post firmado por él: https://www.polarsignals.com/blog",
   "email": "alfonsojssm+website@gmail.com",
   "email_estado": "público verificado",
-  "email_fuente": "El correo alfonsojssm+website@gmail.com aparece publicado como contacto en su sitio personal https://www.asubiotto.com. El patrón corporativo alfonso@lorimerventures.com se deduce de que la página de equipo del fondo publica los correos de los cuatro cofundadores con formato nombre@lorimerventures.com (stephan@, nick@, pete@, zach@ en https://www.lorimerventures.com/team); no está verificado para venture partners, así que debe tratarse como inferido. | publicado por él mismo en su web personal). Alternativa corporativa probable: alfonso@lorimerventures.com — patrón inferido, no verificado",
   "por_que_es_interesante": [
     "Mandato declarado por él mismo: 'invest in developer tools and data infrastructure'; Lorimer tiene 14 compañías en esa categoría y entra 'pre-consensus at pre-seed and seed'.",
     "Ingeniero de sistemas real: motor vectorizado en CockroachDB, perfiles continuos con eBPF (Polar Signals, hoy Dash0), kernels CUDA, deterministic simulation testing.",
@@ -90,6 +87,23 @@
     "https://www.linkedin.com/company/lorimer-ventures/",
     "https://www.polarsignals.com/blog"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "El correo alfonsojssm+website@gmail.com aparece publicado como contacto en su sitio personal https://www.asubiotto.com. El patrón corporativo alfonso@lorimerventures.com se deduce de que la página de equipo del fondo publica los correos de los cuatro cofundadores con formato nombre@lorimerventures.com (stephan@, nick@, pete@, zach@ en https://www.lorimerventures.com/team); no está verificado para venture partners, así que debe tratarse como inferido.",
+      "Publicado por él mismo en su web personal. Alternativa corporativa probable: alfonso@lorimerventures.com — patrón inferido, no verificado"
+    ],
+    "linkedin": [
+      "Redirige a https://es.linkedin.com/in/asubiotto"
+    ],
+    "otras": [
+      "Web personal: https://www.asubiotto.com (con secciones /writing y /speaking)",
+      "GitHub: https://github.com/asubiotto",
+      "X/Twitter: https://twitter.com/asubiotto",
+      "Bluesky: https://bsky.app/profile/asubiotto.bsky.social",
+      "Ficha en el fondo: https://www.lorimerventures.com/team (aparece como 'Alfonso Marqués — Founding Engineer at Polar Signals' en la sección Venture Partners)",
+      "Blog técnico de Polar Signals con post firmado por él: https://www.polarsignals.com/blog"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -117,7 +131,6 @@
     "motivo_v1": "Mandato literal 'developer tools and data infrastructure' en un fondo de primer cheque (Lorimer); es Venture Partner sin firma propia: se trata como puerta al fondo, único contacto de Lorimer en la lista."
   },
   "nombre_original": "Alfonso Subiotto Marqués",
-  "email_original": "alfonsojssm+website@gmail.com (publicado por él mismo en su web personal). Alternativa corporativa probable: alfonso@lorimerventures.com — patrón inferido, no verificado.",
   "textos_v1": {
     "por_que_es_interesante": "Es el evaluador técnico más cualificado de este lote para un stack de software IA-nativo y un harness de desarrollo con agentes: ha construido un motor de ejecución vectorizado dentro de una base de datos distribuida, ha trabajado en formatos columnares y almacenamiento de perfiles continuos, ha optimizado kernels CUDA y ha empujado públicamente la práctica del deterministic simulation testing, que es precisamente la técnica que hace verificable un sistema de agentes no determinista. Su mandato declarado en Lorimer es literalmente 'developer tools and data infrastructure', y el fondo tiene 14 compañías en esa categoría y entra 'pre-consensus at pre-seed and seed', o sea, sin tracción. Es hispanohablante y está basado en España, con correo público en su propia web: se le puede escribir directamente, en español, sin intro. Ángulo de contacto: no vender mercado, vender arquitectura. Enseñarle el repo, el diseño del harness, cómo se testea de forma determinista una nube de agentes, y qué parte del stack es sustituible y cuál no. Un mensaje que empiece citando su post sobre Parquet→Vortex o su charla de DST en EuroRust tiene muchísimas más probabilidades de respuesta que un deck.",
     "tesis_de_inversion": "Su mandato está escrito en primera persona en su web personal, sin ambigüedad: 'Venture Partner at Lorimer Ventures, where I invest in developer tools and data infrastructure'. Es exactamente la categoría del cliente. El fondo que lo respalda invierte 'pre-consensus at pre-seed and seed', es decir, entra antes de que exista consenso de mercado, y su ethos declarado es 'Be Genuinely Useful': posicionarse como acelerante y no como necesidad, apoyándose en más de 100 LPs operadores y en una red que ha colocado 45+ operadores en compañías de cartera, hecho 100+ presentaciones a clientes potenciales y originado 17+ leads de ronda. La tesis corporativa pública de Lorimer para 2026 se centra en la 'fase de despliegue de la IA' (infraestructura de IA, world models y IA determinista para activos industriales, sensórica y computación cuántica, descubrimiento de materiales, flujos financieros de salud y seguros, energía), argumentando que 'el coste por token ha caído más de 100x desde 2023 y sin embargo la IA apenas ha penetrado en la empresa (<5% de adopción)'. Dentro de ese marco, Alfonso cubre la franja de herramientas para desarrolladores, datos e infraestructura, que es donde el fondo ya tiene 14 compañías (Amberflo, Bugout, Digraph, Golioth, Hex, Instant, Knapsack, Lilac Software, LogicLoop, Onboarded, Polar Signals, Sutro, Trace).",

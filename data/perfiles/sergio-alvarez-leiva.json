@@ -17,11 +17,8 @@
     "Su capacidad de decisión en comité no está confirmada."
   ],
   "linkedin": "https://www.linkedin.com/in/saleiva/",
-  "linkedin_nota": "",
-  "otros_perfiles": "X/Twitter: https://twitter.com/saleiva | Ficha en K Fund: https://www.kfund.vc/team | Anuncio de su incorporacion: https://www.kfund.vc/post/bienvenido-sergio | Memo de inversion firmado por el: https://www.kfund.vc/post/reinventing-video-creation-with-collaborative-ai-why-we-invested-in-mito | Episodio de PodKast de K Fund en el que participa: https://www.kfund.vc/post/podkast-episodio-2-carto-y-saas-con-sergio-alvarez-leiva-y-miguel-arias | Tinybird (cofundador): https://www.tinybird.co/about | GitHub personal: no confirmado (no localizado)",
   "email": "dealflowK@kfund.vc",
   "email_estado": "buzón general del fondo (público)",
-  "email_fuente": "Ambas direcciones estan publicadas en la pagina de contacto oficial del fondo, https://www.kfund.vc/contact , junto al telefono +34 915 789 609. El propio fondo indica que los fundadores deben enviar su informacion a dealflowK@kfund.vc. No hay emails individuales de miembros del equipo publicados, por lo que no es posible inferir un patron fiable para su correo personal. | buzon de dealflow para fundadores, publico) e info@kfund.vc (general, publico). Personal: no encontrado",
   "por_que_es_interesante": [
     "Sabe de primera mano que un producto de infraestructura para desarrolladores tarda años en tener métricas y que el moat está en la arquitectura y la experiencia de desarrollador.",
     "Su memo de MITO evalúa productos IA-nativos por cómo redefinen el proceso, no por tracción, y usa el marco de 'infraestructura fundacional'.",
@@ -97,6 +94,22 @@
     "https://www.kfund.vc/post/going-overseas-weve-opened-an-office-in-brazil-to-back-deeptech-startups-across-latam",
     "https://www.kfund.vc/post/why-were-doubling-down-on-abacum-real-time-finance-real-strategic-impact"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Ambas direcciones estan publicadas en la pagina de contacto oficial del fondo, https://www.kfund.vc/contact , junto al telefono +34 915 789 609. El propio fondo indica que los fundadores deben enviar su informacion a dealflowK@kfund.vc. No hay emails individuales de miembros del equipo publicados, por lo que no es posible inferir un patron fiable para su correo personal.",
+      "Buzon de dealflow para fundadores, publico e info@kfund.vc (general, publico). Personal: no encontrado"
+    ],
+    "linkedin": [],
+    "otras": [
+      "X/Twitter: https://twitter.com/saleiva",
+      "Ficha en K Fund: https://www.kfund.vc/team",
+      "Anuncio de su incorporacion: https://www.kfund.vc/post/bienvenido-sergio",
+      "Memo de inversion firmado por el: https://www.kfund.vc/post/reinventing-video-creation-with-collaborative-ai-why-we-invested-in-mito",
+      "Episodio de PodKast de K Fund en el que participa: https://www.kfund.vc/post/podkast-episodio-2-carto-y-saas-con-sergio-alvarez-leiva-y-miguel-arias",
+      "Tinybird (cofundador): https://www.tinybird.co/about",
+      "GitHub personal: no confirmado (no localizado)"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -122,7 +135,6 @@
     "motivo_v1": "Cofundador de Tinybird y ex-CPO de CARTO, firma el memo de MITO (pre-seed 4,5M); pero su cargo de GP no está confirmado (web: Product & Technology), sigue como COO de Tinybird y hay posible conflicto si el stack toca datos en tiempo real. Campeón técnico; el cheque de K Fund entra por Clemente."
   },
   "nombre_original": "Sergio Álvarez Leiva",
-  "email_original": "dealflowK@kfund.vc (buzon de dealflow para fundadores, publico) e info@kfund.vc (general, publico). Personal: no encontrado.",
   "textos_v1": {
     "por_que_es_interesante": "Es el unico inversor de la lista que ha construido personalmente, y sigue construyendo, exactamente la categoria del cliente: infraestructura de datos en tiempo real para desarrolladores (Tinybird). Entiende de primera mano que ese tipo de producto tarda anos en tener metricas, que el moat esta en la arquitectura y la experiencia de desarrollador, y que la validacion temprana es tecnica, no comercial. Su memo sobre MITO muestra que evalua productos IA-nativos por como redefinen el proceso, no por traccion, y que le atrae el marco de 'infraestructura fundacional'. K Fund entra desde pre-seed con tickets desde 100K EUR, ya ha coinvertido en Causa Prima (red agente-a-agente para equipos financieros) y tiene cartera en agentes empresariales (2501, HappyRobot, Maisa) y en LLMs open source (Alinia). Angulo de contacto: escribirle en espanol, entrar por producto y arquitectura, y comparar el harness con lo que Tinybird resolvio en datos en tiempo real - la analogia 'developer experience como moat' es su lenguaje nativo.",
     "tesis_de_inversion": "K Fund se define publicamente como el fondo que respalda a \"the crazy, contrarians and outliers\" que crean productos y servicios tecnologicos diferenciados, invirtiendo de pre-seed a Serie B con tickets de 100K a 10M EUR desde el sur de Europa hacia el mundo. La aportacion propia de Sergio Álvarez Leiva es la de constructor de producto e infraestructura de datos: su bio oficial dice \"I like building products that people want, that are at the intersection of data, people and technology. I've co-founded three different companies in the data space (Vizzuality, CARTO and Tinybird)\". Su memo de inversion sobre MITO (marzo de 2026) revela como piensa sobre productos IA-nativos: sostiene que \"we are at the beginning of a new creative era: one where artificial intelligence is not just a tool, but a collaborator reshaping how stories are imagined\", que \"the opportunity is not simply to make production faster, but to redefine the creative process itself, placing collaboration, iteration and creative control at its core\" y que la empresa \"is building foundational infrastructure for a new creative era\". Es decir: no busca aceleracion incremental sino redefinicion del proceso, y usa explicitamente el marco de 'infraestructura fundacional'. El resto del fondo empuja en la misma direccion con posiciones en agentes empresariales (2501, HappyRobot, Maisa), evaluacion y alineamiento de LLMs open source (Alinia), infraestructura de IA (Bliss) e infraestructura de datos en tiempo real.",

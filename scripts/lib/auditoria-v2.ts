@@ -60,6 +60,44 @@ export function calcularPuntuacion(p: DecisionV2["puntuacion"]): Puntuacion {
 
 const aLista = (v: unknown): string[] => (Array.isArray(v) ? v.map(String) : String(v ?? "").split(/\r?\n+/).map((s) => s.trim()).filter(Boolean));
 
+/** Convierte las notas libres de contacto (texto con " | ", " || ", saltos de línea, guiones) en una lista limpia sin duplicados. */
+function aNotas(v: unknown): string[] {
+  const texto = Array.isArray(v) ? v.map(String).join("\n") : String(v ?? "");
+  const vistas = new Set<string>();
+  const out: string[] = [];
+  for (const bruto of texto.split(/\r?\n+|\s\|\|\s|\s\|\s/)) {
+    let n = bruto.trim().replace(/^[—–\-·•]\s*/, "").replace(/\s+/g, " ").trim();
+    // Paréntesis huérfano heredado de la extracción del email ("buzón general ... )") → se elimina el ")" sin pareja.
+    let abiertos = 0;
+    n = [...n].filter((c) => (c === "(" ? (abiertos++, true) : c === ")" ? (abiertos > 0 ? (abiertos--, true) : false) : true)).join("");
+    n = n.replace(/^[\s,;:]+/, "").trim();
+    if (n && !/^(https?:\/\/|www\.)/i.test(n)) n = n[0].toUpperCase() + n.slice(1);
+    n = n.replace(/^Https?:\/\//, (m) => m.toLowerCase());
+    if (!n || /^no encontrado\.?$/i.test(n)) continue;
+    const clave = n.toLowerCase();
+    if (vistas.has(clave)) continue;
+    vistas.add(clave);
+    out.push(n);
+  }
+  return out;
+}
+
+/** Construye `fuente_vias_de_contacto` desde los campos sueltos v1 (email_fuente, linkedin_nota, otros_perfiles) o conserva el v2. */
+function fuenteViasDeContacto(perfil: Record<string, unknown>, esV2: boolean): { email: string[]; linkedin: string[]; otras: string[] } {
+  if (esV2 && perfil.fuente_vias_de_contacto) {
+    const v = perfil.fuente_vias_de_contacto as { email: unknown; linkedin: unknown; otras: unknown };
+    return { email: aNotas(v.email), linkedin: aNotas(v.linkedin), otras: aNotas(v.otras) };
+  }
+  const email = aNotas(perfil.email_fuente);
+  const estado = String(perfil.email_estado ?? "");
+  if (!email.length) {
+    if (estado === "no encontrado") email.push("No se localizó email individual en fuentes públicas.");
+    else if (estado.startsWith("patrón")) email.push("Dirección inferida del patrón del dominio del fondo; no verificada.");
+    else if (estado.startsWith("buzón")) email.push("Buzón general del fondo publicado en su web.");
+  }
+  return { email, linkedin: aNotas(perfil.linkedin_nota), otras: aNotas(perfil.otros_perfiles) };
+}
+
 /** Construye el perfil v2 a partir de un perfil v1 (importado) o de un perfil v2 ya aplicado (re-ejecución). */
 export function aplicarV2(perfil: Record<string, unknown>, d: DecisionV2, fecha: string): Inversor {
   const au = (perfil.auditoria ?? {}) as Record<string, unknown>;
@@ -95,9 +133,10 @@ export function aplicarV2(perfil: Record<string, unknown>, d: DecisionV2, fecha:
       confianza_final: esV2 ? au.confianza_final : perfil.confianza,
       motivo_v1: esV2 ? au.motivo_v1 : au.motivo,
     },
+    fuente_vias_de_contacto: fuenteViasDeContacto(perfil, esV2),
     textos_v1: textosV1,
   };
-  delete (candidato as Record<string, unknown>).nivel_etiqueta;
+  for (const k of ["nivel_etiqueta", "email_fuente", "linkedin_nota", "otros_perfiles", "email_original"]) delete (candidato as Record<string, unknown>)[k];
   return InversorSchema.parse(candidato);
 }
 

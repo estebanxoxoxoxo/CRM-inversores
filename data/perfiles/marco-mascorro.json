@@ -17,11 +17,8 @@
     "Los rangos de a16z (0,5-40M USD) ya no aplican."
   ],
   "linkedin": "https://www.linkedin.com/in/marcomascorro/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web personal: https://www.mascobot.com/ | Página de inversión: https://www.mascobot.com/investing | Blog técnico: https://www.mascobot.com/blog.html | X/Twitter: https://x.com/Mascobot | METR: https://metr.org/team/marco-mascorro/ | Crunchbase: https://www.crunchbase.com/person/marco-mascorro-c5da | Signal NFX: https://signal.nfx.com/investors/marco-mascorro | Perfil MIT Technology Review en español (Innovators Under 35 LatAm 2017): https://www.innovatorsunder35.com/the-list/marco-mascorro/ | Podcast a16z sobre DeepSeek y modelos de razonamiento: https://a16z.com/podcast/deepseek-reasoning-models-and-the-future-of-llms/",
   "email": "m@mascobot.com",
   "email_estado": "público verificado",
-  "email_fuente": "Publicado por él mismo en su web personal, tanto en https://www.mascobot.com/ como en https://www.mascobot.com/investing, con el formato ofuscado 'm [at] mascobot.com'. Es fuente primaria y está puesto explícitamente como canal de contacto para founders.",
   "por_que_es_interesante": [
     "Historial que es el canon del harness: lideró la Serie A de Cursor; seeds de Thinking Machines y Black Forest Labs por convicción arquitectónica.",
     "Trabajo actual dentro del problema: evaluación de computer-use agents con Harbor, OSWorld y Daytona en escritorios reales en sandbox (2026).",
@@ -97,6 +94,23 @@
     "https://a16z.com/podcast/deepseek-reasoning-models-and-the-future-of-llms/",
     "https://wellfound.com/p/marco-mascorro"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Publicado por él mismo en su web personal, tanto en https://www.mascobot.com/ como en https://www.mascobot.com/investing, con el formato ofuscado 'm [at] mascobot.com'. Es fuente primaria y está puesto explícitamente como canal de contacto para founders."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web personal: https://www.mascobot.com/",
+      "Página de inversión: https://www.mascobot.com/investing",
+      "Blog técnico: https://www.mascobot.com/blog.html",
+      "X/Twitter: https://x.com/Mascobot",
+      "METR: https://metr.org/team/marco-mascorro/",
+      "Crunchbase: https://www.crunchbase.com/person/marco-mascorro-c5da",
+      "Signal NFX: https://signal.nfx.com/investors/marco-mascorro",
+      "Perfil MIT Technology Review en español (Innovators Under 35 LatAm 2017): https://www.innovatorsunder35.com/the-list/marco-mascorro/",
+      "Podcast a16z sobre DeepSeek y modelos de razonamiento: https://a16z.com/podcast/deepseek-reasoning-models-and-the-future-of-llms/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -122,7 +136,6 @@
     "motivo_v1": "Lideró en a16z la Serie A de Cursor y los seeds de Thinking Machines y Black Forest Labs; mexicano confirmado (Tec de Monterrey); email público. Hoy ángel independiente con cheque pequeño y dedicación principal a investigación."
   },
   "nombre_original": "Marco Mascorro",
-  "email_original": "m@mascobot.com",
   "textos_v1": {
     "por_que_es_interesante": "Es, de los tres perfiles del lote, el que mejor entiende técnicamente lo que el cliente está construyendo y el único con origen hispano plenamente documentado y email público. Su historial de inversión es literalmente el canon del harness de desarrollo con IA: lideró la Series A de Cursor. Y su trabajo actual es evaluación de agentes de uso de ordenador a escala: en marzo de 2026 publicó cómo integró Harbor con OSWorld, Tinker, Daytona y bare metal para evaluar computer-use agents en escritorios Ubuntu y Windows reales en sandbox. Es decir: ya está operando dentro del problema exacto de una nube de agentes. Invierte pre-tracción por convicción arquitectónica (Thinking Machines, Black Forest Labs eran equipos de investigación sin producto). Ángulo de contacto: escribirle en español a m@mascobot.com con benchmarks reproducibles y detalle de arquitectura —cómo evalúas tus agentes, en qué entornos, contra qué baseline—, no con narrativa de mercado. Reserva: hoy es ángel, no fondo.",
     "tesis_de_inversion": "Invierte desde la óptica de fundador técnico: en su página de inversión escribe 'As a founder myself, I learned how hard (and lonely) a job it is to build a company' y explica que replica el tipo de acompañamiento que a él le resultó útil. Su foco declarado es IA e infraestructura de software: modelos de IA a gran escala, nuevas capacidades y arquitecturas de modelos, System 1 y System 2, aprendizaje por refuerzo, agentes, simulación, dev tools y robótica. Su historial lo confirma: en a16z lideró la Series A de Cursor (y siguió hasta la Serie C), y los seeds de Black Forest Labs (el equipo original de Stable Diffusion), Thinking Machines, Waveforms AI y la Series A de Deeptune. Es decir, apuesta por equipos de investigación y por infraestructura de desarrollo antes de que exista producto comercial o tracción: Thinking Machines y Black Forest Labs eran, en el momento de la inversión, equipos con papers y pesos, no con métricas. Como ángel independiente sigue en pre-seed y Series A (Mechanize, Runpod, SF Compute, Embra AI —adquirida por Notion—, Stack AI —adquirida por Asana—, entre otras). No es un inversor de tracción: es un inversor de arquitectura.",

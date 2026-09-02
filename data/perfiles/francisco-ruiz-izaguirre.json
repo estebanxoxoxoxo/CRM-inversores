@@ -17,11 +17,8 @@
     "Fund I (2020, ~4,5M USD): 16 compañías, mitad pre-seed y mitad seed."
   ],
   "linkedin": "https://www.linkedin.com/in/franco5/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Web del fondo: https://www.carabela.vc/ | Equipo: https://www.carabela.vc/team | Tesis Fund II: https://www.carabela.vc/fund2 | Fund I: https://www.carabela.vc/fund1 | Cartera Fund II: https://www.carabela.vc/fund2portcos | Blog: https://www.carabela.vc/blog | X del fondo: https://twitter.com/CARABELA_vc | LinkedIn del fondo: https://www.linkedin.com/company/carabelavc | Crunchbase: https://www.crunchbase.com/organization/carabela-fondo-semilla-de-angel-ventures-guadalajara | Ponente en Talent Land México ('El despertar de las startups Deep Tech'). No se le ha localizado newsletter propia ni blog personal; publica ensayos como artículos de LinkedIn.",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Se revisaron https://www.carabela.vc/ , /team , /fund2 , /aboutus y el sitemap completo del dominio: ninguna página publica direcciones de correo, solo direcciones postales (25420 Kuykendahl Rd, Ste B200-188, Tomball, TX 77375 y Mutuo Naciones Unidas 4-05, 45110 Zapopan, Jalisco) y un formulario de Google Forms. Los agregadores tipo RocketReach devuelven 403 y no permiten confirmar patrón, por lo que no se propone ninguno para evitar inventarlo. | No encontrado en fuentes públicas. La web del fondo no publica ningún email; el canal declarado es el formulario https://forms.gle/pRKN7cDeQnhmVrUD9",
   "por_que_es_interesante": [
     "Tesis literal: producto para 'technical end-users' desplegado con documentación técnica; bienvenida explícita a 'SDK, GitHub Repo or API'.",
     "'We back the bold—deep tech founders building what others don't yet understand'; busca 'anomalías' fuera del hype.",
@@ -90,6 +87,25 @@
     "https://www.crunchbase.com/organization/carabela-fondo-semilla-de-angel-ventures-guadalajara",
     "https://talent-land.mx/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Se revisaron https://www.carabela.vc/ , /team , /fund2 , /aboutus y el sitemap completo del dominio: ninguna página publica direcciones de correo, solo direcciones postales (25420 Kuykendahl Rd, Ste B200-188, Tomball, TX 77375 y Mutuo Naciones Unidas 4-05, 45110 Zapopan, Jalisco) y un formulario de Google Forms. Los agregadores tipo RocketReach devuelven 403 y no permiten confirmar patrón, por lo que no se propone ninguno para evitar inventarlo.",
+      "No encontrado en fuentes públicas. La web del fondo no publica ningún email; el canal declarado es el formulario https://forms.gle/pRKN7cDeQnhmVrUD9"
+    ],
+    "linkedin": [],
+    "otras": [
+      "Web del fondo: https://www.carabela.vc/",
+      "Equipo: https://www.carabela.vc/team",
+      "Tesis Fund II: https://www.carabela.vc/fund2",
+      "Fund I: https://www.carabela.vc/fund1",
+      "Cartera Fund II: https://www.carabela.vc/fund2portcos",
+      "Blog: https://www.carabela.vc/blog",
+      "X del fondo: https://twitter.com/CARABELA_vc",
+      "LinkedIn del fondo: https://www.linkedin.com/company/carabelavc",
+      "Crunchbase: https://www.crunchbase.com/organization/carabela-fondo-semilla-de-angel-ventures-guadalajara",
+      "Ponente en Talent Land México ('El despertar de las startups Deep Tech'). No se le ha localizado newsletter propia ni blog personal; publica ensayos como artículos de LinkedIn."
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -115,7 +131,6 @@
     "motivo_v1": "Carabela Fund II: lidera pre-seed hasta 500k con tesis literal para usuarios técnicos y bienvenida a 'SDK, GitHub repo o API'. Exige fundadores latinoamericanos y no invierte en solo founders. Perfil público limitado (confianza media)."
   },
   "nombre_original": "Francisco Ruiz Izaguirre",
-  "email_original": "No encontrado en fuentes públicas. La web del fondo no publica ningún email; el canal declarado es el formulario https://forms.gle/pRKN7cDeQnhmVrUD9",
   "textos_v1": {
     "por_que_es_interesante": "Es probablemente el encaje de tesis más literal de este lote: Carabela dice por escrito que quiere pre-seed deep tech B2B cuyo usuario final sean 'engineers, developers, scientists', que se distribuya vía SDK, repositorio de GitHub o API, y que se despliegue con documentación técnica sin consultoría; y que respalda 'a los que construyen lo que otros todavía no entienden'. Eso es exactamente un stack de software IA-nativo más un harness de desarrollo con nube de agentes. Además Frank aporta seis años de AWS: entiende de primera mano economía de cloud, márgenes de infraestructura y ciclos de venta a clientes técnicos, y escribe públicamente sobre agentes de IA y la muerte de los 'AI wrappers', es decir, sobre por qué el valor está en la capa profunda y no en la envoltura. Ángulo de contacto: escribir en español, citar su artículo 'AI Wrappers will kill software engineering' y posicionar el producto como lo contrario de un wrapper; enseñar el repo/SDK y las métricas de ingeniería del harness antes que ninguna métrica de usuarios; y entrar por el formulario de Carabela (responden en una semana) reforzado con un mensaje directo en LinkedIn.",
     "tesis_de_inversion": "Frank co-dirige un fondo cuya tesis está escrita casi como si describiera a un equipo de infraestructura de software: 'We back the bold—deep tech founders building what others don't yet understand'. Carabela lidera rondas pre-seed en B2B digital deep tech de fundadores latinoamericanos, sobre GenAI, blockchain, IoT y diseño de semiconductores. Sus criterios publicados son inusualmente explícitos y favorables para una startup técnica sin tracción: buscan 'Anomalies: startups that stand apart from the hype cycles' y 'originality over conformity'; B2B-first con profundidad vertical (nada de B2C); tecnologías en punto de inflexión; y, sobre todo, producto para 'technical end-users: engineers, developers, scientists', con implantación de baja fricción vía 'technical documentation' y bienvenida explícita a startups que llegan con 'SDK, GitHub Repo or API'. Exigen equipo fundador múltiple ('we don't invest in Solo Founders') y modelo software-first, evitando hardware pesado y alto capex. El propio Frank, al anunciar su incorporación, dijo que le atrajo la 'integrity-obsessed culture' de Carabela y su disposición a invertir en categorías difíciles, y que buscaba 'early-stage enterprise founders in LatAm building a category-defining company with a unique product or technology angle'.",

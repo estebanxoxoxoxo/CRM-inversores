@@ -17,11 +17,8 @@
     "Analizan ~6.000 oportunidades al año, unas 250 españolas."
   ],
   "linkedin": "https://www.linkedin.com/in/inakiberenguer/",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha en el fondo: https://www.lifex.vc/team/inaki-berenguer | Web del fondo: https://www.lifex.vc | Entrevista en Verve Ventures: https://www.verve.vc/blog/interview-inaki-berenguer/ | Podcast de Samaipata: https://www.samaipata.vc/podcast/inaki-berenguer-optimismo-paranoico-detras-de-tres-exits-y-un-fondo-de-100m | Perfil en El Referente: https://elreferente.es/emprendedores/inaki-berenguer/ | Columna en Forbes España: https://forbes.es/opinion/712849/",
   "email": "inaki@lifex.vc",
   "email_estado": "patrón inferido (no verificado)",
-  "email_fuente": "El dominio corporativo de LifeX Ventures es lifex.vc y varias bases de datos de contactos confirman que las direcciones del equipo usan ese dominio: Mintround indica que 'Inaki Berenguer's email address uses the lifex.vc domain' (https://mintround.com/investors/inaki-berenguer) y RocketReach muestra 'a******@lifex.vc' para su socio Amol Sarva. La web de LifeX (https://www.lifex.vc) NO publica ninguna dirección, por lo que 'inaki@lifex.vc' es un patrón deducido, no verificado. No usar como único canal.",
   "por_que_es_interesante": [
     "Entiende estructuralmente la apuesta pre-tracción: financia biología computacional y hardware fotónico sin clientes; cofundó una spin-off de fotónica (iPronics).",
     "Precedente en infra de IA open source: LifeX participó en la pre-seed de Zylon/PrivateGPT (equipo técnico español).",
@@ -90,6 +87,20 @@
     "https://elreferente.es/inversiones/zylon-anuncia-una-ronda-pre-pemilla-de-casi-tres-millones-de-euros-liderada-por-felicis/",
     "https://marketing4ecommerce.net/zylon-la-startup-especializada-en-ia-generativa-recaudo-casi-3me-para-perfeccionar-su-tecnologia/"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "El dominio corporativo de LifeX Ventures es lifex.vc y varias bases de datos de contactos confirman que las direcciones del equipo usan ese dominio: Mintround indica que 'Inaki Berenguer's email address uses the lifex.vc domain' (https://mintround.com/investors/inaki-berenguer) y RocketReach muestra 'a******@lifex.vc' para su socio Amol Sarva. La web de LifeX (https://www.lifex.vc) NO publica ninguna dirección, por lo que 'inaki@lifex.vc' es un patrón deducido, no verificado. No usar como único canal."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha en el fondo: https://www.lifex.vc/team/inaki-berenguer",
+      "Web del fondo: https://www.lifex.vc",
+      "Entrevista en Verve Ventures: https://www.verve.vc/blog/interview-inaki-berenguer/",
+      "Podcast de Samaipata: https://www.samaipata.vc/podcast/inaki-berenguer-optimismo-paranoico-detras-de-tres-exits-y-un-fondo-de-100m",
+      "Perfil en El Referente: https://elreferente.es/emprendedores/inaki-berenguer/",
+      "Columna en Forbes España: https://forbes.es/opinion/712849/"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -117,7 +128,6 @@
     "motivo_v1": "PhD Cambridge, invierte pre-tracción en ciencia y LifeX participó en Zylon/PrivateGPT (infra de IA open source, equipo español), pero el mandato del fondo es longevidad/clima y declara evitar riesgo técnico y de mercado a la vez; la vía es su cheque ángel."
   },
   "nombre_original": "Iñaki Berenguer",
-  "email_original": "inaki@lifex.vc",
   "textos_v1": {
     "por_que_es_interesante": "Es, de la lista, el inversor que mejor entiende estructuralmente lo que significa apostar por tecnología profunda antes de que exista tracción: su fondo financia biología computacional y hardware fotónico sin clientes, y él mismo cofundó una spin-off universitaria de fotónica. Tiene un doctorado en ingeniería por Cambridge, así que no necesita que le traduzcan la parte técnica, y es una figura muy accesible del ecosistema español (podcasts, foros, columnas). Ahora bien, hay que ser realista: el mandato de LifeX es salud, longevidad y clima, no dev tools. La vía viable es su bolsillo personal como ángel, no el fondo. El ángulo de contacto: presentarle el stack IA-nativo como una capacidad transversal que acelera la I+D científica de sus propias participadas, y pedirle un cheque ángel más una introducción a fondos de infraestructura, no una inversión de LifeX.",
     "tesis_de_inversion": "LifeX Ventures invierte, en palabras de su propia web, para 'transformar el futuro de las personas y del planeta': longevidad, salud, biotecnología, eliminación de carbono y clima, siempre en la intersección de la IA con el avance científico. Es deep tech genuino y pre-tracción —su cartera está llena de compañías sin ingresos como Cortical Labs, Onc AI, Cure51, IMU Biosciences o Hypervision Surgical— pero el mandato sectorial NO cubre herramientas para desarrolladores ni infraestructura de software genérica. Berenguer se define como 'tecno-optimista' y sostiene que 'la IA desbloqueará el potencial humano e impulsará la prosperidad' y que 'la aplicación de la inteligencia artificial a la sanidad tendrá efectos tremendos en los próximos años' (entrevista en Verve Ventures). Su criterio de riesgo es explícito y muy relevante para el cliente: busca 'mercados con vientos de cola significativos, no en contra' y evita asumir simultáneamente los tres riesgos —tecnológico, de ingeniería y de mercado—. Sobre el equipo: 'Buscamos a gente obsesiva y con una motivación irracional por conseguir las cosas' (webcapitalriesgo) y valora que los fundadores tengan 'autoconciencia, comprendan sus debilidades y recluten personas que destaquen en esas áreas'; su metáfora favorita es que 'el espíritu empresarial es como el fútbol, no el tenis'.",

@@ -17,11 +17,8 @@
     "Actividad inversora actual no confirmada."
   ],
   "linkedin": "https://www.linkedin.com/in/tomasrb",
-  "linkedin_nota": "",
-  "otros_perfiles": "Ficha oficial en KP: https://www.kleinerperkins.com/people/tomas-barreto/ (y https://www.kleinerperkins.com/people/specialists/tomas-barreto/) | X/Twitter: https://x.com/tomasrb | Signal NFX: https://signal.nfx.com/investors/tomas-barreto | The Org: https://theorg.com/org/kleiner-perkins/org-chart/tomas-barreto | Ponente en Engineering Leadership Community (ELC/SF ELC): https://sfelc.com/speaker/tomas-barreto | First Round Review: https://review.firstround.com/articles/tomas-barreto/ | Podcast Software Engineering Daily: https://softwareengineeringdaily.com/2021/02/22/okay-engineering-with-tomas-barreto/ | Okay en Y Combinator: https://www.ycombinator.com/companies/okay",
   "email": "",
   "email_estado": "no encontrado",
-  "email_fuente": "Kleiner Perkins no publica direcciones de correo individuales en su web (https://www.kleinerperkins.com/people/); la ficha de Tomas solo enlaza X y LinkedIn. No he encontrado ningún email suyo en fuentes primarias (web del fondo, web personal, papers, GitHub, bios de ponente). Los agregadores de contactos comerciales (ContactOut, RocketReach) muestran direcciones ocultas, no verificables, y no se usan como fuente. Canales reales: X (@tomasrb, ha sido históricamente muy accesible por DM) y LinkedIn.",
   "por_que_es_interesante": [
     "Sabe qué métricas de productividad de ingeniería son reales (Okay: Maker Time, Meeting Load, Friction Time).",
     "Como Operating Partner asesora a decenas de equipos de ingeniería de la cartera de KP: potencial cliente o design partner.",
@@ -91,6 +88,22 @@
     "https://en.wikipedia.org/wiki/Kleiner_Perkins",
     "https://people.equilar.com/bio/person/tomas-barreto-kleiner-perkins/20871160"
   ],
+  "fuente_vias_de_contacto": {
+    "email": [
+      "Kleiner Perkins no publica direcciones de correo individuales en su web (https://www.kleinerperkins.com/people/); la ficha de Tomas solo enlaza X y LinkedIn. No he encontrado ningún email suyo en fuentes primarias (web del fondo, web personal, papers, GitHub, bios de ponente). Los agregadores de contactos comerciales (ContactOut, RocketReach) muestran direcciones ocultas, no verificables, y no se usan como fuente. Canales reales: X (@tomasrb, ha sido históricamente muy accesible por DM) y LinkedIn."
+    ],
+    "linkedin": [],
+    "otras": [
+      "Ficha oficial en KP: https://www.kleinerperkins.com/people/tomas-barreto/ (y https://www.kleinerperkins.com/people/specialists/tomas-barreto/)",
+      "X/Twitter: https://x.com/tomasrb",
+      "Signal NFX: https://signal.nfx.com/investors/tomas-barreto",
+      "The Org: https://theorg.com/org/kleiner-perkins/org-chart/tomas-barreto",
+      "Ponente en Engineering Leadership Community (ELC/SF ELC): https://sfelc.com/speaker/tomas-barreto",
+      "First Round Review: https://review.firstround.com/articles/tomas-barreto/",
+      "Podcast Software Engineering Daily: https://softwareengineeringdaily.com/2021/02/22/okay-engineering-with-tomas-barreto/",
+      "Okay en Y Combinator: https://www.ycombinator.com/companies/okay"
+    ]
+  },
   "auditoria": {
     "version": 2,
     "fecha": "2026-09-02",
@@ -116,7 +129,6 @@
     "motivo_v1": "Construyó y vendió Okay (efectividad de ingeniería, a Stripe) y KP confirma que habla español, pero es Operating Partner sin capacidad de invertir y su actividad ángel (10-50k) no consta desde 2023. Campeón técnico interno en KP."
   },
   "nombre_original": "Tomas Barreto",
-  "email_original": "no encontrado",
   "textos_v1": {
     "por_que_es_interesante": "Es el mejor evaluador posible del producto del cliente y el peor candidato a financiarlo, y conviene tratarlo exactamente así. Cofundó y vendió a Stripe una empresa cuyo objeto era medir y mejorar la efectividad de la ingeniería: es literalmente el problema que ataca un harness de desarrollo con nube de agentes, y sabe qué métricas son reales y cuáles son humo. Hoy, como Operating Partner de Kleiner Perkins, su trabajo consiste en aconsejar a las compañías de la cartera sobre velocidad de entrega y organización de ingeniería, lo que lo convierte en (a) un potencial cliente/design partner con acceso a decenas de equipos de ingeniería de startups de KP y (b) un posible campeón técnico interno que puede llevar la operación a Leigh Marie Braswell o Ilya Fushman, que son quienes sí firman. Habla español según la propia ficha de KP y vivió en Caracas, así que la conversación puede ser en español. El ángulo correcto: pedirle una sesión técnica y su opinión sobre las métricas, no un cheque.",
     "tesis_de_inversion": "No tiene tesis de inversión publicada, porque no es inversor profesional: es un operador de ingeniería. Su perfil de Signal NFX sitúa su actividad como ángel en seed, Series A y Series B con cheques de 10-50 K USD (punto dulce 25 K USD), y clasifica sus sectores por orden con Developer Tools en cabeza, seguido de Analytics, SaaS, FinTech, Payments, HRTech, salud de consumo y software para pymes. Su tesis implícita, la que ha ejecutado con su propia empresa, es la efectividad de ingeniería medida con datos: Okay descomponía el tiempo de los equipos en Maker Time, Meeting Load y Friction Time y unía datos cuantitativos y cualitativos en un único panel para que los líderes tomasen decisiones basadas en evidencia. Su argumento público de fondo, en Software Engineering Daily (22/02/2021), es que «people in maker professions such as developers and writers are most productive when they can carve out dedicated time for focused work, without the frequent context-switching». En Kleiner Perkins su función declarada es asesorar a las compañías de la cartera sobre contratación de talento técnico, escalado de equipos, velocidad de entrega y mentoría de CTOs. Es, en resumen, un comprador y evaluador natural de un harness de desarrollo, no un firmante de cheques.",

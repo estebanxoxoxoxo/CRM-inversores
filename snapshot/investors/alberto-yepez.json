@@ -1,0 +1,125 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Español nativo con apetito por deep tech hispanohablante (Sherpa.ai, Multiverse, Maisa), pero mandato central de ciberseguridad y cheque típico de 5-10M USD en Serie A: demasiado tarde y demasiado grande para un pre-seed.",
+    "score": {
+      "access": 11,
+      "caps": [
+        "requires_traction"
+      ],
+      "decision": 20,
+      "otherAspects": 0,
+      "otherAspectsReason": "",
+      "raw": 65,
+      "spanish": 15,
+      "stage": 7,
+      "thesis": 12,
+      "total": 64
+    },
+    "status": "reviewed"
+  },
+  "background": "Nacido en Perú. Estudió en la Universidad Nacional de Ingeniería de Lima y llegó becado a Estados Unidos hace más de cuarenta años; se licenció en la University of San Francisco y cursó programas en la Kellogg School of Management (Northwestern). Trabajó diez años en Apple en los años ochenta y noventa y también en Oracle. Como emprendedor fundó y presidió enCommerce (adquirida por Entrust), fue copresidente y presidente de Entrust (después comprada por Thoma Bravo) y presidente y CEO de Thor Technologies (adquirida por Oracle). Fue Entrepreneur in Residence en Warburg Pincus, consultor de venture en Bain Capital y asesor del Departamento de Defensa de EE.UU. en la iniciativa DeVenCI. En 2013 se incorporó a Trident Capital para liderar sus inversiones en ciberseguridad y en 2015 fundó Forgepoint Capital con Don Dixon. Ha sido consejero de la National Venture Capital Association (NVCA), patrono de la University of San Francisco, miembro de la comunidad de Technology Pioneers del Foro Económico Mundial, miembro del Global Cybersecurity Group del Aspen Institute y Chairman Emeritus del Hispanic IT Executive Council (HITEC). Fortune lo ha incluido entre los principales inversores de ciberseguridad y TAG Cyber en su lista “Fifty to Watch”.",
+  "band": "high_potential",
+  "baseCity": "San Mateo, California, EE.UU. (la firma tiene además hub europeo en Londres y presencia en Madrid y París)",
+  "confidence": "high",
+  "contactSources": {
+    "email": [
+      "No se ha localizado ningún email público de Alberto Yépez. La única referencia parcial es una dirección enmascarada (j***@forgepointcap.com, correspondiente a otro empleado, en ZoomInfo), insuficiente para deducir un patrón fiable. Las páginas /contact de forgepointcap.com devuelven 404 y la web solo publica el teléfono corporativo +1 650-289-4455. No se propone patrón inferido."
+    ],
+    "linkedin": [],
+    "other": [
+      "X/Twitter: https://x.com/alyepez",
+      "Perfil en el fondo: https://www.forgepointcap.com/team/alberto-yepez/",
+      "Web: https://forgepointcap.com/",
+      "Podcast en español (Startupeable): https://startupeable.com/forgepointcap/",
+      "LinkedIn en español: https://es.linkedin.com/posts/albertoyepez_forgepointfamily-themissioncontinues-activity-7498251894591713280-5jS1"
+    ]
+  },
+  "deepResearch": "Cronología. Alberto Yépez nace en Perú y estudia en la Universidad Nacional de Ingeniería de Lima. Llega becado a Silicon Valley hace más de cuarenta años, se licencia en la University of San Francisco y complementa su formación en la Kellogg School of Management. En el podcast Startupeable (4-sep-2024, entrevistado por Enzo Cavalie) explica que su carrera está marcada por la formación jesuita, la excelencia y la idea de retribuir a la comunidad. Trabaja una década en Apple en los años ochenta y noventa, y también en Oracle. Da el salto a emprendedor: funda y preside enCommerce, empresa de gestión de identidades y accesos que Entrust adquiere; se convierte en copresidente y presidente de Entrust (posteriormente comprada por Thoma Bravo); y funda y dirige Thor Technologies, adquirida por Oracle. Entre medias es Entrepreneur in Residence en Warburg Pincus, consultor de venture en Bain Capital y asesor del Departamento de Defensa estadounidense en la iniciativa DeVenCI. En 2013 entra en Trident Capital para liderar su vertical de ciberseguridad, y en 2015 funda con Don Dixon lo que sería Forgepoint Capital.\n\nLos fondos. Forgepoint levantó 306M USD en su primer fondo y 450M USD en el segundo, cerrado en 2019. En 2022 lanzó Forgepoint Cybersecurity Fund III con un objetivo declarado de 750M USD; los registros públicos de la SEC muestran unos 192M USD captados a septiembre de 2023 y PitchBook da el fondo por cerrado a 31 de diciembre de 2023, con Donald R. Dixon y J. Alberto Yepez como gestores. El tamaño final del Fondo III no está confirmado públicamente, lo que conviene tener en cuenta: la firma declara más de 1.000M USD bajo gestión (VC Sheet y Private Equity List citan cifras entre 1.000M y 1.250M USD) y una cartera de 93 empresas, 41 activas y 3 unicornios, con más de 2.000M USD en salidas acumuladas en ciberseguridad.\n\nLa expansión internacional. Es el movimiento más relevante para un cliente hispanohablante. El 21-22 de octubre de 2024 Forgepoint anunció un hub europeo con sede en Londres y una gestora dedicada, Forgepoint Capital International, con el argumento de cubrir el hueco de financiación de crecimiento en ciberseguridad europea. Yépez lo justificó así: “We're seeking to become a global franchise”. El 4 de noviembre de 2024 ampliaron el anuncio a Europa, Latinoamérica e Israel, con una alianza estratégica con Banco Santander para impulsar inversión e innovación en ciberseguridad e IA a escala global; el equipo internacional incluye a Damien Henault (Managing Director), Michael Cortez (Partner, antes en YL Ventures) y Jaime Goyarrola (CFO). Publicaciones en LinkedIn sitúan además oficinas o presencia en Madrid y París. Antecedentes europeos de la firma: AlienVault (vendida a AT&T) y BehavioSec (vendida a LexisNexis Risk Solutions).\n\nInversiones recientes en IA e infraestructura. Forgepoint hizo alrededor de cinco nuevas inversiones en 2026 y ocho en los últimos doce meses según Tracxn. Entre las más relevantes: Sherpa.ai, empresa de Bilbao dedicada a IA con aprendizaje federado y preservación de la privacidad para empresas y gobiernos, cuya ronda de 18M USD lideró Forgepoint en julio de 2026 junto a Mundi Ventures, Ekarpen, Allegra Holdings y SETT; Qevlar AI, cuya ronda de 30M USD colideró con Partech; Multiverse Computing, empresa donostiarra de computación cuántica e IA en la que doblaron apuesta en julio de 2026; DataBahn (pipelines de datos de seguridad); Huntress, Bishop Fox, ReversingLabs, RAD Security, 1Kosmos, CyberCube y Surefire Cyber. El patrón es claro: infraestructura de datos y seguridad, con dos apuestas españolas de tecnología profunda (Sherpa.ai y Multiverse) en el último año. Ambas son compañías de investigación intensiva y horizonte largo, no de tracción rápida.\n\nDeclaraciones públicas. “If software has eaten the world, the world must now be secure by design” (Backing builders of the digital future, forgepointcap.com, 5-may-2024). “Securing AI is both a technical and organizational challenge. Security, IT, and business teams must align” (conclusiones del Consejo Asesor 2025, 8-dic-2025). En RSAC 2026 participó en una conversación pública sobre tendencias y oportunidades de inversión en IA (YouTube, agosto de 2026). En el podcast Startupeable, en español, hizo un diagnóstico duro del capital riesgo latinoamericano: “los grupos económicos como las familias Slim y Romero son los venture capital de Latinoamérica. El problema es que son muy cerrados”. Ese episodio es además la mejor evidencia disponible de su fluidez en español.\n\nEcosistema hispanohablante. Está muy conectado con el mundo en español, pero por la vía latinoamericana y peruana más que por la española. Es Chairman Emeritus del Hispanic IT Executive Council (HITEC), participa habitualmente en el Perú Venture Capital Conference (anunció su participación en la 11ª edición, el 15 de octubre, en un post en español en LinkedIn), publica en español en LinkedIn y ha sido entrevistado en español por Startupeable. Su vínculo con España se ha reforzado por la vía de la cartera (Sherpa.ai en Bilbao, Multiverse Computing en San Sebastián) y por la alianza con Banco Santander.\n\nEncaje real, sin adornos. Forgepoint es un fondo de ciberseguridad que ha ampliado su mandato a IA e infrastructure software. El cliente no construye un producto de seguridad, así que el encaje no es directo: hay que traducir la propuesta al idioma que Yépez compra. Los ángulos viables son tres. Primero, la seguridad de los agentes: un harness que ejecuta código autónomo plantea problemas de sandboxing, permisos, auditoría y credenciales que están en el centro de la agenda de “securing AI” que él mismo formuló. Segundo, la soberanía y eficiencia del cómputo: Sherpa.ai demuestra que financia infraestructura de IA que resuelve privacidad y soberanía del dato, no solo defensa perimetral. Tercero, el canal: su Consejo Asesor de más de 80-100 CISOs y directivos puede convertirse en la vía de acceso a los primeros clientes empresariales, que es justamente lo que una startup pre-tracción necesita y no tiene. Los riesgos a poner sobre la mesa son el tamaño de cheque (5-10M USD implica que suele liderar Series A, no pre-seed), el horizonte declarado de 3-5 años hacia salida —más corto que el que suele requerir el deep tech— y la incertidumbre sobre el tamaño final del Fondo III.\n\nCo-inversores y red. Partech, Mundi Ventures, Ekarpen, SETT, YL Ventures (de donde viene su socio Michael Cortez), Banco Santander como socio estratégico, y la red de CISOs de grandes corporaciones que forman su Consejo Asesor Global.",
+  "email": "",
+  "emailStatus": "not_found",
+  "firm": "Forgepoint Capital (y Forgepoint Capital International, la gestora europea)",
+  "fitSignals": [
+    "Tesis declarada que incluye explícitamente 'infrastructure software' y 'artificial intelligence', no solo ciberseguridad",
+    "Su propia web dice que acompañan 'from first call to exit': entran en fases muy tempranas, incluida semilla",
+    "En 2026 lideró la Series A de una empresa española de IA de investigación intensiva (Sherpa.ai) y reforzó otra apuesta deep tech española (Multiverse Computing)",
+    "Español nativo verificado: entrevista completa en español en Startupeable (sep-2024), posts en español en LinkedIn y participación en el Perú Venture Capital Conference",
+    "Chairman Emeritus del Hispanic IT Executive Council y con red activa en Endeavor y ecosistemas latinoamericanos",
+    "Consejo Asesor Global de 80-100 CISOs y directivos que funciona como validación técnica y canal de primeros clientes: valor real para una startup sin tracción",
+    "Fundador y operador durante décadas antes de ser inversor: evalúa arquitectura y no solo métricas",
+    "Presencia europea con hub en Londres y actividad en Madrid y París, y alianza con Banco Santander"
+  ],
+  "howToReach": [
+    "1) LinkedIn (https://www.linkedin.com/in/albertoyepez), escribiendo en español y anclando el mensaje en securing AI y en la gobernanza de agentes autónomos; publica y responde en español.",
+    "2) X/Twitter @alyepez.",
+    "3) Intro vía cartera española: Sherpa.ai (Bilbao) y Multiverse Computing (San Sebastián) son sus dos puertas más naturales para un equipo español, junto a los coinversores Mundi Ventures, Ekarpen y SETT.",
+    "4) Perú Venture Capital Conference (participa habitualmente, edición de octubre) y el circuito Endeavor en LatAm.",
+    "5) HITEC (Hispanic IT Executive Council), del que es Chairman Emeritus.",
+    "6) Eventos de seguridad donde Forgepoint tiene presencia fija: RSAC (organizan una cena ejecutiva anual), Black Hat y sus reuniones del Consejo Asesor.",
+    "7) Startupeable (Enzo Cavalie), que ya le ha entrevistado y es puerta de entrada al circuito hispanohablante.",
+    "8) Teléfono corporativo publicado en la web: +1 650-289-4455."
+  ],
+  "id": "alberto-yepez",
+  "investmentThesis": [
+    "Forgepoint: ciberseguridad, IA e infrastructure software 'from first call to exit'.",
+    "Vectores: securing AI, IA para seguridad, identidad, gestión proactiva del riesgo, seguridad de la infraestructura.",
+    "'If software has eaten the world, the world must now be secure by design'; asegurar la IA es reto técnico y organizativo.",
+    "Franquicia global: hub europeo en Londres con presencia en Madrid; alianza con Banco Santander; consejo asesor de 80-100 CISOs como canal de validación."
+  ],
+  "investorType": "institutional_vc",
+  "investorTypeDetail": "VC institucional",
+  "level": 64,
+  "linkedin": "https://www.linkedin.com/in/albertoyepez",
+  "name": "Alberto Yépez",
+  "personalWebsite": "",
+  "priority": "B",
+  "region": "us_hispanic",
+  "relevantInvestments": [
+    "Sherpa.ai (Series A de 18M USD liderada por Forgepoint en julio de 2026; Bilbao, España; IA con aprendizaje federado y preservación de la privacidad) — prueba de que invierte en deep tech de IA fundada por españoles",
+    "Multiverse Computing (San Sebastián, España; computación cuántica e IA; doblaron apuesta en julio de 2026) — segunda apuesta española de tecnología profunda y horizonte largo",
+    "Qevlar AI (ronda de 30M USD colidera con Partech) — agentes autónomos de IA aplicados a operaciones de seguridad",
+    "DataBahn (pipelines y telemetría de datos de seguridad) — infraestructura de datos, no aplicación",
+    "Huntress, Bishop Fox, ReversingLabs, RAD Security, 1Kosmos, CyberCube, Surefire Cyber — cartera activa de infraestructura y seguridad",
+    "AlienVault (vendida a AT&T) y BehavioSec (vendida a LexisNexis Risk Solutions) — exits europeos que sostienen su credibilidad fuera de EE.UU.",
+    "Forgepoint Capital International (Londres, 2024) y alianza estratégica con Banco Santander — vehículo y socio para operar en Europa y Latinoamérica",
+    "enCommerce, Entrust y Thor Technologies (sus propias empresas, vendidas a Entrust/Thoma Bravo y a Oracle) — track record operativo en identidad e infraestructura"
+  ],
+  "risksOrAlerts": [
+    "Su mandato central sigue siendo la ciberseguridad; un stack IA-nativo generalista y un harness de desarrollo no encajan salvo que se reencuadren como problema de seguridad y gobernanza de agentes",
+    "Cheque típico de 5-10M USD: en la práctica lidera Series A, no pre-seed; para una ronda muy pequeña puede no ser el interlocutor adecuado",
+    "Horizonte declarado de 3-5 años hacia venta estratégica o salida a bolsa, más corto que el que suele exigir una apuesta deep tech de plataforma",
+    "El tamaño final del Forgepoint Cybersecurity Fund III no está confirmado: objetivo de 750M USD pero registros SEC de solo ~192M USD captados a 2023",
+    "No hay email público suyo ni página de contacto operativa en la web del fondo (los /contact devuelven 404)",
+    "Su vínculo hispanohablante es principalmente peruano y latinoamericano; con España es reciente y llega por la vía de la cartera, no por relación personal",
+    "Fondo con equipo pequeño y ritmo moderado: unas 5 nuevas inversiones en 2026 y 8 en los últimos doce meses"
+  ],
+  "role": "Cofundador y Managing Director",
+  "sources": [
+    "https://www.forgepointcap.com/team/alberto-yepez/",
+    "https://forgepointcap.com/",
+    "https://forgepointcap.com/perspectives/cybersecurity-vc-forgepoint-opens-in-europe-to-address-growth-funding-gap/",
+    "https://forgepointcap.com/perspectives/forgepoint-announces-new-european-hub-to-focus-on-cyber-ai/",
+    "https://pulse2.com/forgepoint-capital-global-expansion-into-europe-latin-america-and-israel/",
+    "https://forgepointcap.com/perspectives/ai-security-identity-and-geopolitics-six-key-insights-from-forgepoints-2025-advisory-council-meeting-and-dinner/",
+    "https://forgepointcap.com/perspectives/backing-builders-of-the-digital-future/",
+    "https://startupeable.com/forgepointcap/",
+    "https://www.listennotes.com/podcasts/startupeable/crear-el-vc-n1-de-qh6uL8mngbC/",
+    "https://es.linkedin.com/posts/albertoyepez_forgepointfamily-themissioncontinues-activity-7498251894591713280-5jS1",
+    "https://aum13f.com/fund/forgepoint-cybersecurity-fund-iii-lp",
+    "https://tracxn.com/d/venture-capital/forgepointcapital/",
+    "https://www.vcsheet.com/fund/forgepoint-capital",
+    "https://www.youtube.com/watch?v=vrEkaXluUoM"
+  ],
+  "stageAndTicket": [
+    "Semilla a Serie B, con foco real en Serie A.",
+    "Cheque típico 5-10M USD; horizonte declarado de 3-5 años hacia venta o salida a bolsa.",
+    "Fondos: Forgepoint I (306M), II (450M, 2019), Cybersecurity Fund III (objetivo 750M, tamaño final no confirmado); Forgepoint Capital International en Londres desde 2024."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Tesis que incluye 'infrastructure software' y IA, no sólo ciberseguridad.",
+    "Español nativo verificado (podcast y posts en español); lideró en 2026 la Serie A de 18M USD de Sherpa.ai (Bilbao).",
+    "Consejo asesor de más de 80 CISOs: canal de validación y primeros clientes empresariales.",
+    "Ángulo: presentar el harness desde gobernanza y seguridad de agentes (trazabilidad, aislamiento, permisos); citar Sherpa.ai."
+  ]
+}

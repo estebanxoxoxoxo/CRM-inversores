@@ -1,0 +1,122 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Arquetipo del inversor de infraestructura profunda con horizonte de décadas (Prime Intellect, Zama), nacido en Ciudad de México; pero su vehículo con decisión es neurotecnología, en PLC Rails sólo es Research Partner, la cartera ángel es cripto-céntrica, la última operación personal es de enero de 2025 y no hay español documentado.",
+    "score": {
+      "access": 6,
+      "caps": [],
+      "decision": 8,
+      "otherAspects": -3,
+      "otherAspectsReason": "Cartera ángel cripto-céntrica y ritmo de inversión bajo (última operación personal enero 2025).",
+      "raw": 44,
+      "spanish": 8,
+      "stage": 13,
+      "thesis": 12,
+      "total": 44
+    },
+    "status": "reviewed"
+  },
+  "background": "Nacido en marzo de 1988 en Ciudad de México y trasladado a San Diego siendo adolescente. Estudió Ciencias de la Computación en la Universidad de Stanford. Fue CTO de Loki Studios, startup de videojuegos que pasó por Y Combinator (verano de 2013) y fue adquirida por Yahoo!. En 2014 fundó Protocol Labs, laboratorio de I+D que creó IPFS (InterPlanetary File System), libp2p y Filecoin, esta última con una de las mayores recaudaciones de la historia de las ICOs (2017). Protocol Labs, con sede en Palo Alto, ha levantado unos 204 M USD según Tracxn y en 2023 recortó 89 puestos (~21% de la plantilla) en un ajuste que él mismo justificó como preparación para un ciclo económico prolongado. Actualmente sigue como fundador y CEO y ha extendido su actividad a la inversión estructurada a través de PL Capital y sus verticales (PLC Neurotech, PLC Rails y un venture studio), gestionados por Protocol VC LLC. Es una figura central del movimiento de bienes públicos digitales (Funding the Commons) y de la ciencia descentralizada (DeSci), a la que definió como 'un movimiento que busca construir infraestructura pública para financiar... usando el stack Web3'. Su patrimonio estimado se sitúa entre 400 y 500 M USD según estimaciones de prensa especializada (dato no auditado).",
+  "band": "discarded",
+  "baseCity": "San Francisco / Palo Alto, California, EE.UU. (nacido en Ciudad de México en 1988; se mudó a San Diego siendo adolescente)",
+  "confidence": "medium",
+  "contactSources": {
+    "email": [
+      "Email de contacto publicado en la web de sus vehículos de inversión, https://plcapital.xyz y https://plcapital.xyz/neurotech/, bajo la invitación '¿Building a breakthrough?'. NO es su dirección personal: es la bandeja general del fondo. No he encontrado ninguna dirección personal suya en fuentes públicas (ni en GitHub ni en su web personal)."
+    ],
+    "linkedin": [],
+    "other": [
+      "GitHub: https://github.com/jbenet (2.600 seguidores, organizaciones IPFS, Filecoin, libp2p, Protocol Labs, Multiformats)",
+      "Web personal: http://juan.benet.ai (con problemas de certificado TLS en el momento de la consulta)",
+      "Podcast propio: https://juanbenetpodcast.com ('conversations on the future of neurotech, computing, intelligence, and more')",
+      "Fondos: https://plcapital.xyz y https://plcapital.xyz/neurotech/",
+      "Perfil de investigación: https://research.protocol.ai/authors/juan-benet/index.html",
+      "https://pl.xyz/blog/transcription-juan-benet-public-goods/"
+    ]
+  },
+  "deepResearch": "ORIGEN Y FORMACIÓN. Juan Benet (nombre completo Juan Batiz-Benet) nació en marzo de 1988 en Ciudad de México y se trasladó a San Diego en la adolescencia. Estudió Ciencias de la Computación en Stanford. Su primera empresa fue Loki Studios, donde fue CTO; pasó por Y Combinator en el verano de 2013 y fue adquirida por Yahoo!. AVISO DE HONESTIDAD SOBRE EL IDIOMA: pese al origen mexicano, no he localizado ninguna entrevista, charla o publicación suya en español. Los contenidos en español sobre él son traducciones o coberturas de terceros (por ejemplo cypherhunter.com/es o ichi.pro). Su fluidez en español es probable pero NO está confirmada por ninguna fuente primaria, y esto debe asumirse al preparar el contacto: escribir en inglés.\n\nPROTOCOL LABS. Fundado en 2014, es el proyecto que define su carrera: un laboratorio de investigación y desarrollo dedicado a crear protocolos abiertos. De ahí salieron IPFS (protocolo de hipermedios peer-to-peer, 23.100 estrellas en GitHub), su implementación en Go kubo (17.100 estrellas), js-ipfs, libp2p (6.900 estrellas) y Multiformats. Filecoin, la red de almacenamiento incentivada construida sobre IPFS, protagonizó una de las mayores recaudaciones de la historia en 2017. Tracxn cifra la financiación acumulada de Protocol Labs en unos 204 M USD, con sede en Palo Alto. En 2023 la compañía recortó 89 puestos, en torno al 21% de la plantilla, y Benet justificó públicamente el ajuste como una adaptación al entorno macro. En 2026 sigue como fundador y CEO, y su hoja de ruta declarada pasa por la 'integración más profunda de almacenamiento, cómputo e IA'.\n\nVEHÍCULOS DE INVERSIÓN. Aquí conviene precisar, porque las bases de datos lo confunden. PL Capital (https://plcapital.xyz) es la marca paraguas, gestionada por Protocol VC LLC, un asesor de inversión registrado en la SEC, con tres verticales: PLC Neurotech, PLC Rails y un venture studio. Su lema es 'backing extraordinary founders scaling breakthrough R&D'. (1) En PLC NEUROTECH, Juan Benet figura como General Partner. El fondo invierte en interfaces cerebro-computador, NeuroAI y conectómica, y su cartera incluye Synchron, Paradromics, Science Corp, Hemispheric y Merge Labs. Su bio ahí: 'Founder of Protocol Labs. Inventor of Filecoin, IPFS and libp2p. Frontier technology investor across crypto, neurotech, AI, and biotech. Stanford & YC alum.' (2) En PLC RAILS, en cambio, aparece únicamente como Research Partner, explícitamente 'non-advisory'; los que deciden son Brad Holden (Managing Partner, ex responsable del programa AWS Seed y ex socio de Tomorrow Ventures) y Lacey Wisdom (General Partner). La tesis de Rails es 'back founders using cryptographic and decentralized primitives to solve real problems' en IA, infraestructura física, software empresarial y rails financieros, tratando esas primitivas como capa de seguridad, privacidad y coordinación para la era de la IA. (3) Bajo la marca Protocol VC, algunas fuentes fechan el brazo inversor en 2017 y registran operaciones como la seed de 6 M USD de Belfort (septiembre de 2025) junto a Founders Fund, Thrive Capital y Polychain. CONSECUENCIA PRÁCTICA PARA EL CLIENTE: el vehículo cuyo mandato podría cubrir un stack IA-nativo es PLC Rails, pero Benet no decide ahí; el vehículo donde sí decide, PLC Neurotech, tiene un mandato incompatible.\n\nCARTERA ÁNGEL PERSONAL. Shizune (https://shizune.co/investors/profile/juan-batiz-benet) registra 22 operaciones, con la última en enero de 2025 y una tasa de liderazgo del 9%. Distribución sectorial: software 27%, blockchain 27%, criptomonedas 27%, servicios financieros 18%, TI 18%. Por etapa: seed 55%, Serie A 18%, grants 5%, pre-seed 5%, Serie B 5%. Geografía: 64% Estados Unidos, más Francia, Grecia y Suiza. Nombres citados: CoinTracker, CoinList, Anjuna, Iron Fish, Secured Finance, Golden, WeatherXM y, lo más interesante para el cliente, Prime Intellect (infraestructura de entrenamiento descentralizado de modelos) y Zama (cifrado homomórfico aplicado a IA), además de General Proximity (medicina). Coinversores habituales: Protocol Labs, ConsenSys Mesh, Archetype, CoinFund. La lectura es clara: es un inversor de infraestructura criptográfica y descentralizada que se ha abierto recientemente a infraestructura de IA cuando esta comparte esa naturaleza (descentralizada, verificable, criptográfica).\n\nDISCURSO PÚBLICO 2025-2026. Sigue muy activo como divulgador. Dio la keynote del Open AGI Summit en Devconnect (noviembre de 2025, https://www.youtube.com/watch?v=sCEoJ4iO-s8) y habló en 'Intelligence at the Frontier' en marzo de 2026 con una charla titulada 'Thoughts for the FtC Community in 2026' (https://www.youtube.com/watch?v=OfjXrJdZKbE). En enero de 2026 apareció en un podcast sobre 'Neurotech, Thinking in Decades, Crypto Knowledge Systems' (devfound.ai), un título que resume bien su marco temporal: piensa en décadas. Es una de las voces centrales de Funding the Commons, la comunidad de financiación de bienes públicos digitales, donde ha declarado que 'the internet was never meant to be owned. It was meant to be shared' (https://pl.xyz/blog/transcription-juan-benet-public-goods/), y del movimiento DeSci, que define como 'un movimiento que busca construir infraestructura pública para financiar... usando el stack Web3'. Desde 2026 mantiene su propio podcast (https://juanbenetpodcast.com) sobre 'the future of neurotech, computing, intelligence, and more'.\n\nENCAJE, CON HONESTIDAD. A favor del cliente: es un inversor con horizonte temporal muy largo y alta tolerancia demostrada a la ausencia de tracción; financia BCIs y conectómica, que no tendrán ingresos en años. Su ideología de open source, protocolos abiertos y bienes públicos casa con un stack abierto e interoperable. Y sus dos inversiones más recientes de IA (Prime Intellect, Zama) son infraestructura profunda de IA. En contra: su vertical de decisión en 2026 es neurotecnología; su cartera personal es cripto-céntrica; su última inversión ángel registrada es de enero de 2025, lo que sugiere un ritmo bajo; no tiene historial en herramientas para desarrolladores clásicas ni en agentes de código; su email personal no es público y el canal es una bandeja genérica del fondo; y no hay evidencia de que opere en español. Además, cualquier pitch que no incorpore un componente de verificabilidad, descentralización o criptografía tiene poca probabilidad de resonar con su marco mental. Por todo ello se le asigna prioridad C: merece seguimiento por su horizonte y su peso simbólico en infraestructura abierta, pero no debe consumir esfuerzo prioritario de outreach.",
+  "email": "hello@plcapital.xyz",
+  "emailStatus": "firm_general_mailbox",
+  "firm": "Protocol Labs (fundador y CEO) + PL Capital: General Partner de PLC Neurotech y Research Partner (no asesor) de PLC Rails. También inversión ángel a título personal.",
+  "fitSignals": [
+    "Horizonte de décadas declarado explícitamente (podcast 'Thinking in Decades', enero de 2026): no exige tracción ni retornos a corto",
+    "Financia ciencia y hardware sin mercado formado (interfaces cerebro-computador, conectómica) a través de PLC Neurotech, donde es General Partner",
+    "Dos inversiones directas en infraestructura profunda de IA: Prime Intellect (entrenamiento descentralizado) y Zama (cifrado homomórfico)",
+    "Ideología pública de protocolos abiertos, open source y bienes públicos digitales ('The internet was never meant to be owned. It was meant to be shared')",
+    "Perfil técnico real: Stanford CS, autor de IPFS, libp2p y Filecoin, con presencia activa en GitHub",
+    "PLC Rails tiene un mandato que sí cubre IA, software empresarial e infraestructura, con email de contacto abierto",
+    "Nacido en Ciudad de México, lo que da un ángulo cultural para el ecosistema hispanohablante"
+  ],
+  "howToReach": [
+    "Email del fondo: hello@plcapital.xyz, publicado en https://plcapital.xyz bajo la invitación 'Building a breakthrough?'",
+    "Vía PLC Rails y sus socios decisorios, Brad Holden (Managing Partner) y Lacey Wisdom (General Partner), que son el camino real si el pitch se enmarca en primitivas criptográficas aplicadas a IA",
+    "Comunidad Funding the Commons: participa y da charlas con regularidad; es el foro donde su discurso de bienes públicos y open source está más activo",
+    "Eventos donde ha hablado recientemente: Open AGI Summit en Devconnect (noviembre de 2025) e 'Intelligence at the Frontier' (marzo de 2026)",
+    "GitHub (https://github.com/jbenet) y las comunidades de IPFS y libp2p: es un canal técnico legítimo si el proyecto tiene componente open source",
+    "Su podcast (https://juanbenetpodcast.com) como vía indirecta: proponer un tema sobre coordinación entre agentes e infraestructura verificable",
+    "Ecosistema de Protocol Labs: eventos LabWeek/LabDay y la red de Filecoin"
+  ],
+  "id": "juan-benet",
+  "investmentThesis": [
+    "Infraestructura fundacional con horizonte de décadas: 'The internet was never meant to be owned. It was meant to be shared'.",
+    "PLC Neurotech: interfaces cerebro-computador, NeuroAI, conectómica (Synchron, Paradromics, Science Corp).",
+    "PLC Rails: primitivas criptográficas y descentralizadas como capa de seguridad, privacidad y coordinación de la era de la IA.",
+    "Cartera ángel: software, blockchain y cripto a partes iguales; coinvierte con Protocol Labs, ConsenSys Mesh, Archetype, CoinFund."
+  ],
+  "investorType": "operator_fund",
+  "investorTypeDetail": "Fondo operador / solo GP (PL Capital, vehículos verticales) + Business angel",
+  "level": 44,
+  "linkedin": "https://www.linkedin.com/in/jbenetcs",
+  "name": "Juan Benet",
+  "personalWebsite": "http://juan.benet.ai",
+  "priority": "C",
+  "region": "us_hispanic",
+  "relevantInvestments": [
+    "Prime Intellect (infraestructura de entrenamiento descentralizado de modelos de IA) — la inversión suya con mayor cercanía a la tesis del cliente: infraestructura de IA profunda, pre-comercial",
+    "Zama (criptografía homomórfica aplicada a IA) — deep tech de investigación con años de horizonte antes de ingresos",
+    "Synchron, Paradromics, Science Corp, Hemispheric, Merge Labs (cartera de PLC Neurotech: interfaces cerebro-computador, NeuroAI, conectómica) — prueba de que financia ciencia sin producto ni mercado",
+    "Anjuna (computación confidencial / enclaves seguros) — infraestructura empresarial de seguridad",
+    "CoinTracker, CoinList, Iron Fish, Secured Finance (cripto y fintech) — núcleo histórico de su cartera personal",
+    "WeatherXM (red descentralizada de datos meteorológicos) y Golden (base de conocimiento) — infraestructura de datos abierta",
+    "Belfort (seed de 6 M USD, septiembre de 2025, vía Protocol VC, junto a Founders Fund, Thrive Capital y Polychain) — operación registrada más reciente del vehículo"
+  ],
+  "risksOrAlerts": [
+    "FOCO ACTUAL DESALINEADO: el vehículo donde decide (PLC Neurotech) invierte en interfaces cerebro-computador y NeuroAI, no en dev tools ni agentes de código",
+    "En PLC Rails, el vehículo cuyo mandato sí cubriría IA e infraestructura, figura solo como 'Research Partner, non-advisory': no decide. Deciden Brad Holden y Lacey Wisdom",
+    "Cartera ángel personal muy cripto-céntrica (54% entre blockchain y criptomonedas según Shizune): el sesgo Web3 filtra fuerte",
+    "Ritmo de inversión bajo: última operación ángel registrada en enero de 2025 (Shizune)",
+    "Fluidez en español NO confirmada: no se ha localizado ninguna entrevista, charla ni texto suyo en español. Contactar en inglés",
+    "No hay email personal público; solo la bandeja genérica hello@plcapital.xyz",
+    "Es CEO a tiempo completo de Protocol Labs, compañía que pasó por un recorte del 21% de plantilla en 2023: su atención está en su propia empresa",
+    "Sin componente de verificabilidad, criptografía o descentralización, un pitch de harness de agentes probablemente no resuene con su marco"
+  ],
+  "role": "Fundador y CEO de Protocol Labs; General Partner de PLC Neurotech; Research Partner de PLC Rails; business angel",
+  "sources": [
+    "https://plcapital.xyz/",
+    "https://plcapital.xyz/neurotech/",
+    "https://plcapital.xyz/rails/",
+    "https://shizune.co/investors/profile/juan-batiz-benet",
+    "https://github.com/jbenet",
+    "https://startupintros.com/orgs/protocol-vc",
+    "https://pl.xyz/blog/transcription-juan-benet-public-goods/",
+    "https://research.protocol.ai/authors/juan-benet/index.html",
+    "https://juanbenetpodcast.com/",
+    "https://www.youtube.com/watch?v=sCEoJ4iO-s8",
+    "https://www.youtube.com/watch?v=OfjXrJdZKbE",
+    "https://tracxn.com/d/companies/protocollabs/",
+    "https://iq.wiki/wiki/juan-benet",
+    "https://tradersunion.com/persons/juan-benet/"
+  ],
+  "stageAndTicket": [
+    "Ángel: 22 operaciones (55% seed, 18% Serie A), lidera el 9%; última registrada enero 2025; ticket no público.",
+    "PL Capital: PLC Neurotech (GP) y PLC Rails (Research Partner, no decide); tamaños no publicados.",
+    "Operación reciente del gestor: seed de 6M USD en Belfort (sept-2025)."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Financia ciencia aplicada sin producto comercial: Prime Intellect (entrenamiento descentralizado) y Zama (criptografía homomórfica).",
+    "Discurso sobre bienes públicos, open source y sistemas de conocimiento afín a un stack abierto.",
+    "En contra: foco 2025-26 en neurotecnología y cartera personal mayoritariamente cripto.",
+    "Ángulo: infraestructura abierta y verificable para agentes (procedencia del código, sandboxes, coordinación), no productividad de desarrolladores."
+  ]
+}

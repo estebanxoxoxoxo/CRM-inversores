@@ -1,0 +1,125 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "PhD en ingeniería por Cambridge, invierte pre-tracción en ciencia y LifeX participó en Zylon/PrivateGPT (infra de IA open source, equipo español); pero el mandato del fondo es longevidad, salud y clima, y declara evitar riesgo técnico y de mercado a la vez. La vía es su cheque ángel y sus intros, no LifeX.",
+    "score": {
+      "access": 12,
+      "caps": [
+        "thesis_below_10"
+      ],
+      "decision": 12,
+      "otherAspects": -3,
+      "otherAspectsReason": "Declara evitar asumir a la vez riesgo tecnológico, de ingeniería y de mercado.",
+      "raw": 60,
+      "spanish": 15,
+      "stage": 15,
+      "thesis": 9,
+      "total": 55
+    },
+    "status": "reviewed"
+  },
+  "background": "Científico convertido en emprendedor en serie. Máster en el MIT, máster y doctorado en Ingeniería por la Universidad de Cambridge, becario Fulbright durante dos años en Columbia University y postdoctorado en el Cambridge-MIT Institute. Trabajó como consultor en McKinsey & Company y en estrategia corporativa de Microsoft en Redmond. Fundó y dirigió tres compañías en Estados Unidos: Pixable (CEO; vendida a SingTel en 2012 por 30 M USD), Contactive (CEO; vendida a Fuze) y CoverWallet (CEO; seguros para pymes; levantó 60 M USD, más de 500 empleados y en torno a 1.000 M USD de primas gestionadas; adquirida por Aon en 2020). Es cofundador y presidente del consejo de iPronics —spin-off de fotónica programable de la Universitat Politècnica de València, deep tech de hardware puro— y de Agentero. Es Crown Fellow del Aspen Institute. En 2022 cofundó LifeX Ventures junto a Amol Sarva. Ha invertido personalmente en más de 100 startups, entre ellas Cabify, Peertransfer (hoy Flywire), Clicars y Geoblink. Corredor: 14 maratones terminadas, 7 de ellas la de Nueva York.",
+  "band": "reserve",
+  "baseCity": "Nueva York, EE.UU. (con actividad y residencia parcial en España; nacido en Valencia/Comunidad Valenciana)",
+  "confidence": "high",
+  "contactSources": {
+    "email": [
+      "El dominio corporativo de LifeX Ventures es lifex.vc y varias bases de datos de contactos confirman que las direcciones del equipo usan ese dominio: Mintround indica que 'Inaki Berenguer's email address uses the lifex.vc domain' (https://mintround.com/investors/inaki-berenguer) y RocketReach muestra 'a******@lifex.vc' para su socio Amol Sarva. La web de LifeX (https://www.lifex.vc) NO publica ninguna dirección, por lo que 'inaki@lifex.vc' es un patrón deducido, no verificado. No usar como único canal."
+    ],
+    "linkedin": [],
+    "other": [
+      "Ficha en el fondo: https://www.lifex.vc/team/inaki-berenguer",
+      "Web del fondo: https://www.lifex.vc",
+      "Entrevista en Verve Ventures: https://www.verve.vc/blog/interview-inaki-berenguer/",
+      "Podcast de Samaipata: https://www.samaipata.vc/podcast/inaki-berenguer-optimismo-paranoico-detras-de-tres-exits-y-un-fondo-de-100m",
+      "Perfil en El Referente: https://elreferente.es/emprendedores/inaki-berenguer/",
+      "Columna en Forbes España: https://forbes.es/opinion/712849/"
+    ]
+  },
+  "deepResearch": "PERFIL. Iñaki Berenguer es probablemente el emprendedor español más internacional de su generación y, desde 2022, uno de los pocos gestores de fondos de deep tech con pasaporte español y base en Nueva York. Su recorrido académico es inusualmente profundo para un inversor: máster en el MIT, máster y doctorado en Ingeniería por la Universidad de Cambridge, dos años como becario Fulbright en Columbia University y un postdoctorado en el Cambridge-MIT Institute. Antes de emprender pasó por McKinsey y por el área de estrategia corporativa de Microsoft en Redmond.\n\nTRES EXITS. Pixable (agregador de fotos sociales) fue vendida a SingTel en 2012 por 30 M USD. Contactive fue adquirida por Fuze. CoverWallet, su proyecto más grande, digitalizó la correduría de seguros para pymes: levantó 60 M USD, llegó a más de 500 empleados y a gestionar cerca de 1.000 M USD en primas, y fue comprada por Aon en 2020. Esa secuencia le da credibilidad operativa y, sobre todo, capital propio para invertir como ángel.\n\nDEEP TECH PROPIO: iPRONICS. Un dato que suele pasarse por alto y que es decisivo para valorar su apetito por riesgo técnico: es cofundador y presidente del consejo de iPronics, una spin-off de la Universitat Politècnica de València dedicada a procesadores fotónicos programables. Es hardware de investigación, con ciclos de desarrollo de años y sin mercado formado. Alguien que pone su nombre en el consejo de una compañía así no es un inversor que exija tracción. También es cofundador de Agentero (insurtech).\n\nLIFEX VENTURES. Fundado en 2022 con Amol Sarva (cognitive scientist, seis veces emprendedor, fundador de Knotel y Virgin Mobile USA). Primer fondo: 100 M USD. La tesis, según su propia web, es 'acelerar la innovación para transformar el futuro de las personas y del planeta', con foco en longevidad, salud, biotecnología, retirada de carbono y clima, todo ello 'en la intersección de la IA y el avance científico' (así lo describe también F4: https://f4.fund/firms/lifex-ventures). El equipo incluye a Rika Christanto y Yue Zhao como partners y a Fabian Siegel y Lisa Kleinsorge como venture partners. La cartera pública supera las 24 compañías: Onc AI, Cortical Labs, Hypervision Surgical, Powerful Medical, Cromatic, IMU Biosciences, Haven, Monomer, Cure51, Century Health, Ilant Health, además de españolas como Idoven (IA cardiológica) y Ontruck. Un dato revelador de su modelo de trabajo: analizan unas 6.000 oportunidades al año, de las cuales unas 250 son proyectos españoles (https://www.webcapitalriesgo.com/inaki-berenguer-lifex-ventures-para-emprender-no-hace-falta-ser-un-hombre-del-renacimiento/). En noviembre de 2025, El Economista informó de que 'ultima otro fondo de 100 millones con LifeX tras invertir en 60 tecnológicas'; Nordic9 registra un Fondo II con objetivo de unos 70 M EUR para 2026. LifeX recibió además inversión minoritaria de inversores institucionales valencianos y de Angels (el vehículo de Juan Roig), según NovoBrief y Born2Invest.\n\nDECLARACIONES CLAVE. La entrevista más útil es la de Verve Ventures (https://www.verve.vc/blog/interview-inaki-berenguer/). Dos ideas destacan. Primera, su marco de riesgo: busca invertir 'en mercados con vientos de cola significativos, no en contra' y evita asumir a la vez el riesgo tecnológico, el de ingeniería y el de mercado. Para una startup de stack IA-nativo y harness de agentes, esto es una alerta: el cliente asume riesgo tecnológico y riesgo de mercado simultáneamente, y tendrá que argumentar que el viento de cola (la adopción de agentes de código) es tan fuerte que anula el tercero. Segunda, su optimismo tecnológico: se declara 'tecno-optimista' y afirma que 'la IA desbloqueará el potencial humano e impulsará la prosperidad'. Sobre fundadores, en webcapitalriesgo: 'Buscamos a gente obsesiva y con una motivación irracional por conseguir las cosas', y su objetivo declarado es 'intentar ser protagonista y no un mero espectador de la mayor revolución'. Su metáfora recurrente, en Verve: 'el espíritu empresarial es como el fútbol, no el tenis' — es decir, valora el equipo por encima del fundador individual.\n\nEn el podcast de Samaipata ('Optimismo paranoico detrás de tres exits y un fondo de 100M', https://www.samaipata.vc/podcast/inaki-berenguer-optimismo-paranoico-detras-de-tres-exits-y-un-fondo-de-100m, conducido por Luis Garay e Íñigo Laucirica) desarrolla su concepto de 'optimismo paranoico', insiste en que la caída del coste de inferencia abre modelos de negocio nuevos y en que la distribución separa ganadores de perdedores, y menciona que tiene dos proyectos propios en desarrollo relacionados con analítica en tiempo real y creación de vídeo. Este último dato es interesante: sigue construyendo producto, no solo invirtiendo.\n\nÁNGEL PERSONAL. Ha invertido en más de 100 startups a título personal (así lo declara la propia web de LifeX, que cuantifica: 'Amol 50+, Inaki 100+, Fabian 30+'). En el ecosistema español se le conocen posiciones en Cabify, Peertransfer/Flywire, Clicars y Geoblink; webcapitalriesgo cifra en torno a 30 los proyectos personales más recientes. HONESTIDAD: esta cartera personal es mayoritariamente marketplaces, movilidad y fintech española, no infraestructura de software ni herramientas para desarrolladores. No he encontrado una sola inversión suya documentada en dev tools, infraestructura de IA, open source o ciberseguridad.\n\nECOSISTEMA Y RECONOCIMIENTO. Es un referente mediático en España: perfiles en Emprendedores ('el emprendedor en serie español más internacional'), Forbes España ('el hambre irracional de cambiar el mundo de un optimista paranoico'), Expansión ('Así me hice emprendedor', 16/02/2025) y El Referente. Es Crown Fellow del Aspen Institute. Aparece con regularidad en foros del ecosistema español y en podcasts de fondos europeos (Samaipata, Verve). Su LinkedIn es el canal más activo.\n\nCONCLUSIÓN DE ENCAJE. Estamos ante un inversor que sí apuesta por ciencia dura sin tracción y con horizonte de década, pero cuyo vehículo institucional tiene un mandato sectorial que excluye el producto del cliente. La lectura correcta para el outreach es doble: (a) como ángel personal puede entrar con un cheque pequeño si la tesis le convence intelectualmente; (b) como conector es extremadamente valioso, porque conoce a los fondos españoles y estadounidenses de deep tech y porque su fondo tiene decenas de participadas científicas que son usuarias potenciales de un stack IA-nativo. El peor error sería enviarle un pitch dirigido a LifeX: lo descartará por mandato en el primer filtro.\n\nNota de verificación (orquestador, 2 sept 2026): LifeX Ventures participó en la ronda pre-semilla de 3,2M USD de Zylon (creadores de PrivateGPT, Madrid), liderada por Felicis y con Zypsy, según El Referente y Marketing4ecommerce. Es la evidencia más directa de que Berenguer y su fondo entran en infraestructura de IA open source pre-tracción cuando el equipo es técnico e hispanohablante; conviene usar Zylon como referencia en el primer contacto.",
+  "email": "inaki@lifex.vc",
+  "emailStatus": "inferred_pattern",
+  "firm": "LifeX Ventures (Life Extension Ventures) — cofundador y Managing Partner. En paralelo, inversión ángel a título personal (más de 100 startups) y cofundador/presidente de iPronics y Agentero.",
+  "fitSignals": [
+    "Invierte sistemáticamente pre-tracción: la cartera de LifeX está formada por compañías científicas sin ingresos (Cortical Labs, Cure51, Monomer, IMU Biosciences)",
+    "Cofundador y presidente de una spin-off universitaria de fotónica programable (iPronics): asume riesgo de hardware y ciclos de I+D de años",
+    "Doctorado en Ingeniería por Cambridge y máster por el MIT: evalúa la tecnología sin intermediarios",
+    "Fondo I de 100 M USD (2022) y Fondo II en preparación (~70-100 M, 2026): capital fresco y horizonte de despliegue activo",
+    "Más de 100 inversiones ángel a título personal, con capacidad de decidir un cheque sin comité de inversión",
+    "Español nativo, con presencia constante en medios y podcasts en español y ~250 proyectos españoles analizados al año",
+    "Se declara 'tecno-optimista' y quiere ser 'protagonista y no un mero espectador de la mayor revolución'"
+  ],
+  "howToReach": [
+    "LinkedIn (https://www.linkedin.com/in/inakiberenguer/) es su canal más activo y donde responde",
+    "Email inferido inaki@lifex.vc (marcar como no verificado); alternativa: formulario/contacto general de https://www.lifex.vc",
+    "Ecosistema español: South Summit (Madrid), Valencia Digital Summit y el entorno de Angels/Marina de Empresas, que participó en LifeX; también Spain Tech Week",
+    "Intro vía Samaipata (grabó su podcast con Luis Garay e Íñigo Laucirica) o vía Verve Ventures, que le entrevistó",
+    "Intro vía fundadores españoles de su cartera personal o de LifeX: Idoven, Ontruck, Cabify, Geoblink",
+    "Vía iPronics y la Universitat Politècnica de València, donde es presidente del consejo — camino natural si el pitch se enmarca como I+D profunda",
+    "Medios donde publica o es entrevistado: Forbes España, Expansión, El Referente, webcapitalriesgo"
+  ],
+  "id": "inaki-berenguer",
+  "investmentThesis": [
+    "LifeX: longevidad, salud, biotecnología, eliminación de carbono y clima, en la intersección de la IA con el avance científico.",
+    "Deep tech genuino y pre-tracción (Cortical Labs, Cure51, IMU Biosciences), pero sin dev tools ni infraestructura genérica en el mandato.",
+    "Criterio de riesgo: mercados con viento de cola y evitar asumir a la vez riesgo tecnológico, de ingeniería y de mercado.",
+    "Equipo: 'gente obsesiva con motivación irracional' y autoconciencia; 'el emprendimiento es como el fútbol, no el tenis'."
+  ],
+  "investorType": "institutional_vc",
+  "investorTypeDetail": "VC institucional (LifeX Ventures) + Business angel a título personal",
+  "level": 55,
+  "linkedin": "https://www.linkedin.com/in/inakiberenguer/",
+  "name": "Iñaki Berenguer",
+  "personalWebsite": "",
+  "priority": "C",
+  "region": "us_hispanic",
+  "relevantInvestments": [
+    "Zylon / PrivateGPT (2023-2024, pre-seed de 3,2M USD liderada por Felicis con participación de LifeX Ventures y Zypsy; Madrid) — es la capa API open source para IA privada sobre modelos locales (RAG, tools, MCP). Demuestra que LifeX sí escribe cheques en infraestructura de IA open source cuando el equipo es técnico y español. Fuentes: elreferente.es (ronda pre-semilla de Zylon), marketing4ecommerce.net.",
+    "iPronics (cofundador y presidente del consejo; procesadores fotónicos programables, spin-off de la UPV) — prueba máxima de tolerancia a riesgo técnico y horizonte largo sin mercado formado",
+    "Cortical Labs (LifeX; computación biológica con neuronas cultivadas) — una de las apuestas más especulativas y de mayor horizonte del fondo",
+    "Cure51, Onc AI, IMU Biosciences, Powerful Medical, Hypervision Surgical (LifeX; IA aplicada a biología y diagnóstico) — todas pre-ingresos en el momento de la inversión",
+    "Idoven (LifeX; IA cardiológica española, ~20 M USD levantados) — señal concreta de inversión en deep tech española",
+    "Ontruck (LifeX; logística/clima, España, ~60 M USD levantados)",
+    "Cabify, Peertransfer/Flywire, Clicars, Geoblink (inversiones ángel personales en startups españolas) — muestran su red en España, aunque son consumer/marketplace y no deep tech",
+    "CoverWallet (fundador y CEO; vendida a Aon en 2020) y Pixable (vendida a SingTel en 2012 por 30 M USD) — sus propios exits, fuente de su capital personal"
+  ],
+  "risksOrAlerts": [
+    "CORRECCIÓN DEL ORQUESTADOR: sí existe al menos una inversión documentada en infraestructura de IA open source (Zylon/PrivateGPT vía LifeX, pre-seed liderada por Felicis). Otras atribuciones (Stack AI, Momento) no se pudieron verificar y no se incluyen.",
+    "MANDATO SECTORIAL INCOMPATIBLE: LifeX invierte en longevidad, salud, biotecnología y clima. Un stack IA-nativo y un harness de agentes no encaja en la tesis del fondo. La vía es su bolsillo personal, no LifeX",
+    "Declara explícitamente que evita asumir a la vez riesgo tecnológico, de ingeniería y de mercado — que es exactamente la combinación que presenta el cliente",
+    "Su cartera ángel personal es mayoritariamente consumer, marketplaces y fintech española (Cabify, Clicars, Geoblink)",
+    "El email es un patrón inferido del dominio lifex.vc, no está publicado en ninguna fuente oficial",
+    "Está construyendo dos proyectos propios (analítica en tiempo real y creación de vídeo), lo que compite por su atención",
+    "Su discurso público sobre IA gira casi siempre en torno a salud y ciencia, no a infraestructura de desarrollo"
+  ],
+  "role": "Cofundador y Managing Partner de LifeX Ventures; business angel; cofundador y presidente de consejo de iPronics",
+  "sources": [
+    "https://www.lifex.vc/",
+    "https://www.lifex.vc/team/inaki-berenguer",
+    "https://www.verve.vc/blog/interview-inaki-berenguer/",
+    "https://www.webcapitalriesgo.com/inaki-berenguer-lifex-ventures-para-emprender-no-hace-falta-ser-un-hombre-del-renacimiento/",
+    "https://www.samaipata.vc/podcast/inaki-berenguer-optimismo-paranoico-detras-de-tres-exits-y-un-fondo-de-100m",
+    "https://www.eleconomista.es/capital-riesgo/noticias/13622655/11/25/inaki-berenguer-ultima-otro-fondo-de-100-millones-con-lifex-tras-invertir-en-60-tecnologicas.html",
+    "https://nordic9.com/companies/lifex-ventures/",
+    "https://novobrief.com/inaki-berenguers-lifex-ventures-attracts-angels-investment-to-promote-sustainable-technology/10190/",
+    "https://f4.fund/firms/lifex-ventures",
+    "https://emprendedores.es/casos-de-exito/inaki-berenguer-emprendedor/",
+    "https://forbes.es/opinion/712849/gamechangers-inaki-berenguer-el-hambre-irracional-de-cambiar-del-mundo-de-un-optimista-paranoico/",
+    "https://www.expansion.com/expansion-empleo/emprendedores/2025/02/16/67b20b08468aeb7b298b456d.html",
+    "https://mintround.com/investors/inaki-berenguer",
+    "https://elreferente.es/inversiones/zylon-anuncia-una-ronda-pre-pemilla-de-casi-tres-millones-de-euros-liderada-por-felicis/",
+    "https://marketing4ecommerce.net/zylon-la-startup-especializada-en-ia-generativa-recaudo-casi-3me-para-perfeccionar-su-tecnologia/"
+  ],
+  "stageAndTicket": [
+    "LifeX: seed y pre-seed en ciencia aplicada; Fondo I 100M USD (2022), segundo fondo de 70-100M en preparación.",
+    "Ticket no publicado; media implícita ~1M USD; como ángel, tickets pequeños en más de 100 startups.",
+    "Analizan ~6.000 oportunidades al año, unas 250 españolas."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Entiende estructuralmente la apuesta pre-tracción: financia biología computacional y hardware fotónico sin clientes; cofundó una spin-off de fotónica (iPronics).",
+    "Precedente en infra de IA open source: LifeX participó en la pre-seed de Zylon/PrivateGPT (equipo técnico español).",
+    "Figura accesible del ecosistema español (podcasts, foros, columnas); más de 100 cheques ángel.",
+    "Ángulo: el stack como capacidad transversal que acelera la I+D de sus participadas; pedir cheque ángel e intros a fondos de infraestructura."
+  ]
+}

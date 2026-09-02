@@ -1,0 +1,126 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Ingeniera (MIT CS) que declara invertir en deep/frontier tech y tiene PLCs.ai (generación de código con IA), MarkeTeam.ai (agentes autónomos) y memQ en cartera; pero el fondo exige MVP completo y tracción inicial, cheques de 200k-2M en seed/Serie A, Fund II de 2021 sin Fund III, sin evidencia de español y sin email.",
+    "score": {
+      "access": 7,
+      "caps": [],
+      "decision": 17,
+      "otherAspects": -3,
+      "otherAspectsReason": "El fondo exige MVP completo y tracción inicial.",
+      "raw": 47,
+      "spanish": 3,
+      "stage": 8,
+      "thesis": 15,
+      "total": 47
+    },
+    "status": "reviewed"
+  },
+  "background": "Estudió Computer Science & Engineering en el MIT (NFX Signal indica doble BS) y durante la carrera lideró el club de emprendimiento de pregrado del MIT, con actividad en el ecosistema de startups de Boston. Su bio oficial afirma que 'began investing at age 12'. Antes de Ocean Azul fue Managing Partner de Dorm Room Fund, el vehículo estudiantil respaldado por First Round Capital: durante dos años escuchó más de 200 pitches y su equipo hizo más de 20 inversiones en startups universitarias de Boston y otras regiones. Dorm Room Fund acumula más de 350 inversiones cuyas compañías han levantado más de $4B. Es además Board Certified Health & Wellness Coach y mantiene una práctica de coaching de salud integrativa, un rasgo poco habitual en el perfil. En el ecosistema latino de VC fue vicepresidenta del board de SomosVC (antes LatinxVC) en 2022 y Board President en 2023, permaneciendo como miembro del board hasta finales de 2024; hoy figura en la sección 'Board Alumni' de somos.vc. Mentoriza a través del programa Blueprint de Dorm Room Fund y del programa de mentoría de SomosVC. Declara que una de sus motivaciones para entrar al capital riesgo fue aumentar la representación, en particular de mujeres y latinos. Comparte firma con Alex Tellez, también Managing Director y también del MIT (Aeronautical Engineering), lo que sugiere un vínculo familiar que no está confirmado por ninguna fuente pública consultada.",
+  "band": "reserve",
+  "baseCity": "No confirmado. La firma tiene oficina en 255 Alhambra Cir, Suite 340, Coral Gables, FL 33134. Las fuentes sobre ella personalmente se contradicen: agregadores basados en Crunchbase la sitúan en Bozeman (Montana) y NFX Signal en Boston (Massachusetts). NO se confirma que resida en Miami.",
+  "confidence": "medium",
+  "contactSources": {
+    "email": [
+      "El sitio de Ocean Azul Partners NO publica ninguna dirección de correo, ni de la firma ni de los socios (verificado en oceanazulpartners.com/contact/, que solo ofrece un formulario de pitch y un formulario general, con promesa de respuesta en dos semanas). Al no existir ningún email publicado por el fondo, no hay patrón observable que se pueda inferir con honestidad. Existen agregadores de pago (RocketReach, Angel Match, intail.ai) que afirman tener su correo, pero no son fuentes públicas verificables y no se han usado."
+    ],
+    "linkedin": [],
+    "other": [
+      "Crunchbase: https://www.crunchbase.com/person/lisette-tellez",
+      "NFX Signal: https://signal.nfx.com/investors/lisette-tellez",
+      "Vcsheet: https://www.vcsheet.com/who/lisette-herbanek",
+      "Bio oficial: https://oceanazulpartners.com/team/team-bios/",
+      "Venture Forward (NVCA): https://ventureforward.org/hhm-lisette-herbanek/",
+      "SomosVC (board alumni): https://www.somos.vc/about/team"
+    ]
+  },
+  "deepResearch": "Lisette Tellez Herbanek es Managing Director de Ocean Azul Partners, fondo de capital riesgo de etapa temprana con oficina en 255 Alhambra Cir, Suite 340, Coral Gables, Florida. Su cargo y su vigencia en 2026 quedan confirmados de primera mano: la página oficial del equipo, consultada en septiembre de 2026, la lista como 'Lisette Herbanek — Managing Director', junto a Bill Pruitt, Salo Sredni, Alex Tellez, David Zinn, Ryan Pruitt y Kristy King (esta última como Managing Director, Fund I). Su descripción en esa página es: 'Using a background in computer science and early-stage investing to help entrepreneurs bring innovative technologies and ideas to market'.\n\nCRONOLOGÍA. Formación en Computer Science & Engineering en el MIT, donde lideró el club de emprendimiento de pregrado. Su bio oficial sostiene que empezó a invertir a los 12 años. Fue Managing Partner de Dorm Room Fund, el fondo estudiantil respaldado por First Round Capital, durante dos años: escuchó más de 200 pitches y su equipo cerró más de 20 inversiones en startups universitarias del área de Boston. Se incorporó a Ocean Azul como socia del Fund 2. En paralelo, construyó su papel en el ecosistema latino de venture: vicepresidenta del board de LatinxVC/SomosVC en 2022, Board President en 2023, y miembro del board hasta finales de 2024. Hoy aparece en somos.vc dentro de 'Board Alumni', con la etiqueta '2023 Board President & 2022 VP'; la presidencia de 2025 la ocupa Joanna Lichter (Emerson Collective). En 2025 fue destacada por Venture Forward, la organización 501(c)(3) de la NVCA, dentro de su serie de Hispanic Heritage Month, junto a Jossy R. Harrington, Marcos Fernandez, Tiq Chapa y Laura I. Maydón.\n\nEL FONDO. Ocean Azul cerró su Fund 2 en julio de 2021 por más de $40 millones, con nueve compañías ya invertidas en ese momento, según Refresh Miami. Los cinco socios del Fund 2 eran Bill Pruitt (Managing Partner), David Zinn, Salomon Sredni, Alex Tellez y Lisette Tellez. Existe un Fund I previo (Kristy King figura como Managing Director, Fund I). NO se ha encontrado ningún anuncio público de un Fund III: el tamaño del fondo vigente en 2026 es 'no confirmado'. Los cheques declarados van de $200K a $2M (ficha de la firma y vcsheet), aunque el Q&A de Refresh Miami con David Zinn amplía el rango a $200K-$3M con un punto óptimo de ~$1M. La firma reserva capital para follow-ons y toma asiento de board u observador en cada participada, un nivel de involucración alto para el tamaño de cheque.\n\n¿LIDERA O CO-INVIERTE? Aquí hay una contradicción importante entre fuentes. La ficha de vcsheet afirma explícitamente 'Leads Rounds: No'. Sin embargo, la evidencia de operaciones concretas lo desmiente parcialmente: Ocean Azul LIDERÓ la ronda seed de $3M de MarkeTeam.ai en enero de 2025, con participación de Clive Sirkin (ex CMO de Kellogg's) y Tony Weisman (ex CMO de Dunkin'), llevando el total de la compañía a $5M; y CO-LIDERÓ con Quantonation la Serie A de $10M de memQ el 31 de marzo de 2026. La lectura correcta es: co-invierte por defecto, pero lidera de forma selectiva, y lo hace precisamente en deep tech y en IA agéntica.\n\nCOINVERSORES HABITUALES. De las rondas rastreadas: Quantonation (fondo especialista en tecnologías cuánticas, co-líder en memQ), Insight Partners, JLL Spark, 10D, Random Forest y M-Fund (todos en la Serie A de $16M de qbiq en enero de 2025, liderada por Insight), y Avila Ventures e ICI Fund (en el seed de $4M de PLCs.ai). El perfil de coinversores es mixto: especialistas europeos de deep tech, fondos israelíes y growth funds estadounidenses.\n\nCARTERA Y RELEVANCIA PARA DEV TOOLS. La cartera publicada tiene unas 40 compañías. El bloque genuinamente deep tech es real y no cosmético: memQ (redes cuánticas), Clarke Valve (válvula de control de alta eficiencia), Fortify (impresión 3D magnética para composites), Senecio (robótica de dispersión de mosquitos estériles), Forrest Innovations (biotech/agtech), 5x5 Technologies (computación espacial para inspección de activos), SkyHoop (detección aérea autónoma con IA) y ANRA Technologies (gestión de tráfico de drones). El bloque de IA incluye Qbiq (IA generativa y modelado geométrico para planificación arquitectónica), MarkeTeam (equipo de marketing autónomo sobre un LLM propietario), Cybord (IA para autenticidad de componentes) y PLCs.ai (generación de código con IA para PLCs). El bloque más cercano a herramientas de desarrollo e infraestructura es delgado pero existe: PLCs.ai es literalmente generación de código, e Itopia es automatización de escritorios remotos, apps y servidores sobre Google Cloud. No hay, sin embargo, ninguna apuesta por un stack de software horizontal, un runtime, un lenguaje, una base de datos ni un harness de agentes para desarrolladores. El peso principal de la cartera sigue siendo SaaS B2B vertical (Taxfyle, Identifee, Bandwango, Wisor, Fohlio, Cargologik, Mosaic, Simetric, DadeSystems) más un cubo de Florida con dispositivos médicos y analítica deportiva (Swift Sync, Vesteck, Aegle Therapeutics, Gemini Sports Analytics, Intracare, Rabbu, Acium). Salida relevante: myInterview adquirida por Radancy en septiembre de 2025.\n\nDECLARACIONES Y DISCURSO PÚBLICO. En su spotlight de Venture Forward declara invertir en 'areas of the US that have traditionally less access to venture capital, including South Florida' y en 'deep/frontier tech companies'; sobre su entrada al sector afirma: 'Riley was pivotal in my getting the chance to join Dorm Room Fund (DRF), which equipped me with the tools and education to enter the VC industry'; y su consejo a quienes quieren entrar a VC es 'leaning into your unique strengths and experiences'. Refresh Miami atribuye explícitamente la estrategia deep tech del fondo a la formación MIT de Alex y Lisette Tellez. En el mismo Q&A, David Zinn articula el filtro de la firma: 'We invest in people', buscando defensibilidad o moat 'whether through intellectual property or differentiation'.\n\nECOSISTEMA HISPANOHABLANTE. Su identidad latina está razonablemente sustentada: presidencia del board de SomosVC/LatinxVC, inclusión en la serie de Hispanic Heritage Month de Venture Forward, y su declaración de que una motivación para entrar al VC fue aumentar la representación de mujeres y latinos. Sin embargo, NO se ha encontrado ninguna evidencia de fluidez en español: ni entrevistas, ni podcasts, ni charlas en español, ni mención de país de origen familiar. El propio artículo de Venture Forward, leído íntegro, no aborda su herencia hispana, su país de origen ni el idioma. Tampoco se encontró participación suya en eMerge Americas, Startupeable ni podcasts en español.\n\nACCIONABLE PARA UN PRIMER CONTACTO. El canal público real es el formulario de pitch de oceanazulpartners.com/contact/, con respuesta prometida en dos semanas. El ángulo más fuerte es PLCs.ai: es la única participada de generación de código con IA, y permite abrir con una tesis compartida sobre por qué generar código correcto en un dominio con restricciones duras exige un stack propio y no un wrapper sobre un modelo. El segundo ángulo es MarkeTeam.ai y su lenguaje de 'agentes autónomos en el trabajo', directamente conectable con el harness de nube de agentes. El tercero es su formación MIT CS: es de las pocas socias que puede evaluar una demo técnica sin intermediarios, lo que favorece enseñar el sistema funcionando antes que métricas de uso. Una vía cálida sería a través de la red de SomosVC o de alumni de Dorm Room Fund.",
+  "email": "",
+  "emailStatus": "not_found",
+  "firm": "Ocean Azul Partners",
+  "fitSignals": [
+    "Formación técnica real: Computer Science & Engineering en el MIT. Puede evaluar una demo de un stack de software y de un harness de agentes sin depender de un asesor técnico externo.",
+    "Declaración propia de invertir en 'deep/frontier tech companies' (Venture Forward, 2025), no en SaaS genérico.",
+    "Refresh Miami atribuye explícitamente la estrategia deep tech del fondo a la formación MIT de Alex y Lisette Tellez: ella es el vector deep tech dentro del comité.",
+    "PLCs.ai en cartera: generación de código con IA. Es el punto de entrada conversacional más directo y demuestra que el tema no les resulta ajeno.",
+    "MarkeTeam.ai, liderada por Ocean Azul (enero 2025), se describe como equipo autónomo de IA sobre un LLM propietario: vocabulario y tesis casi idénticos a los del harness de agentes del cliente.",
+    "Co-lideraron en marzo de 2026 la Serie A de $10M de memQ, redes cuánticas: una compañía sin producto comercial masivo. Prueba concreta de tolerancia a pre-tracción en deep tech.",
+    "El filtro declarado de la firma es el moat: buscan defensibilidad 'whether through intellectual property or differentiation' (David Zinn, Refresh Miami). Es exactamente el eje del cliente.",
+    "El fondo está activo y desplegando en 2026 (co-lead de memQ el 31/03/2026), no en modo cosecha silenciosa.",
+    "Identidad latina activa y verificable: Board President de SomosVC/LatinxVC en 2023 y destacada por Venture Forward (NVCA) en Hispanic Heritage Month 2025. Motivación declarada de aumentar la representación de latinos.",
+    "Cheque de $200K-$2M en Seed, compatible con una primera ronda pre-tracción.",
+    "Ocean Azul se posiciona explícitamente como puente para compañías no estadounidenses (incluidas latinoamericanas) hacia el mercado de EE.UU., lo que abre la puerta a una startup hispanohablante."
+  ],
+  "howToReach": [
+    "No hay email público, así que la ruta debe ser una introducción cálida o el formulario oficial. Vías cálidas por orden de calidad: (1) la red de SomosVC (somos.vc), donde fue VP en 2022 y Board President en 2023 y sigue como Board Alumni; el director ejecutivo actual es José Piñero, y una introducción desde esa comunidad tiene sentido natural para una startup fundada por hispanohablantes; (2) la red de alumni de Dorm Room Fund, donde fue Managing Partner, y su programa de mentoría Blueprint; (3) la red MIT, especialmente el club de emprendimiento de pregrado que ella lideró; (4) fundadores de las participadas más cercanas al tema, en particular PLCs.ai y MarkeTeam.ai, cuya recomendación pesaría mucho. Ruta fría: el formulario de pitch en https://oceanazulpartners.com/contact/, que la firma dice responder en dos semanas. Contenido del primer mensaje: escribir EN INGLÉS (no asumir español), abrir con PLCs.ai y con por qué generar código correcto en dominios con restricciones duras exige un stack propio y no una capa sobre un modelo ajeno; encuadrar el proyecto explícitamente como deep tech y no como SaaS, para no caer en el filtro de tracción; hablar en su vocabulario de moat, citando el criterio de la propia firma de defensibilidad por propiedad intelectual o diferenciación; y ofrecerle una demo técnica en vivo del harness de agentes en cuanto exista la versión para inversores en ~1 mes, aprovechando que su formación MIT CS le permite juzgar el sistema por sí misma. Mencionar el benchmark de ~90% de mejora solo si se puede reproducir delante de ella. Evitar apoyarse en eventos presenciales de Miami: no está basada allí."
+  ],
+  "id": "lisette-tellez-herbanek",
+  "investmentThesis": [
+    "Software B2B y deep tech en seed y Serie A, con EE.UU. como mercado principal; ayuda a compañías israelíes y latinoamericanas a entrar en EE.UU.",
+    "Cubos: ~20% Israel, ~5% sur de Florida; evita bienes de consumo.",
+    "'We invest in people' y defensibilidad 'through intellectual property or differentiation'.",
+    "Su eje personal: 'deep/frontier tech' y zonas de EE.UU. con menos acceso a capital."
+  ],
+  "investorType": "institutional_vc",
+  "investorTypeDetail": "VC institucional",
+  "level": 47,
+  "linkedin": "https://www.linkedin.com/in/lisettellez/",
+  "name": "Lisette Tellez Herbanek",
+  "personalWebsite": "",
+  "priority": "C",
+  "region": "us_hispanic",
+  "relevantInvestments": [
+    "PLCs.ai (ronda seed de $4M; fundada en 2024, Nueva York; plataforma de IA que genera, revisa y documenta código de controladores lógicos programables y lógica de automatización industrial) — es la inversión MÁS relevante del portafolio para el cliente: prueba de que el fondo respalda generación de código con IA en dominios donde la corrección importa. Coinversores: Avila Ventures e ICI Fund.",
+    "memQ (Serie A de $10M, 31 de marzo de 2026, CO-LIDERADA por Ocean Azul junto a Quantonation; hardware y software de redes cuánticas: controladores de interfaz de red cuántica, módulos de memoria, sistema de control y compilador cuántico distribuido) — evidencia dura de que escriben cheques grandes a deep tech sin tracción comercial y de que sí lideran cuando la tecnología es profunda.",
+    "MarkeTeam.ai (ronda seed de $3M, enero de 2025, LIDERADA por Ocean Azul; 'autonomous AI marketing team, powered by a proprietary large language model'; total levantado $5M) — la tesis de agentes autónomos con modelo propietario es el paralelo más cercano al harness de agentes del cliente. Coinversores: Clive Sirkin y Tony Weisman.",
+    "Itopia (año y ronda no confirmados; automatización de escritorios remotos, aplicaciones y servidores sobre Google Cloud Platform) — la apuesta más clara de infraestructura y tooling para equipos técnicos dentro del portafolio.",
+    "qbiq (Serie A de $16M, enero de 2025, liderada por Insight Partners con participación de Ocean Azul; IA generativa y modelado geométrico estructural para planificación arquitectónica) — muestra el patrón de co-inversión con growth funds y el apetito por IA generativa aplicada con base científica. Coinversores: JLL Spark, 10D, Random Forest, M-Fund.",
+    "Southie Autonomy (año y ronda no confirmados; software de automatización modular, dinámico y altamente configurable para robots) — software de bajo nivel para hardware, cercano a la idea de un stack propio.",
+    "Fortify (año y ronda no confirmados; impresión 3D magnética para materiales compuestos avanzados) y Clarke Valve (válvula de control ultracompacta de cero fugas) — deep tech de hardware puro con horizonte largo, útil para argumentar que el fondo tolera ciclos de maduración lentos.",
+    "myInterview (adquirida por Radancy en septiembre de 2025; plataforma de entrevistas en vídeo) — única salida reciente documentada del fondo, útil como referencia de que el vehículo está en fase de retornos."
+  ],
+  "risksOrAlerts": [
+    "FLUIDEZ EN ESPAÑOL NO CONFIRMADA. Es la reserva más seria. No se encontró ni una sola entrevista, charla, podcast o publicación suya en español. El propio artículo de Venture Forward por Hispanic Heritage Month, leído íntegro, NO menciona su herencia, su país de origen familiar ni el idioma. Su origen hispano se apoya en señales indirectas (apellido Tellez, presidencia de SomosVC, inclusión en la serie de HHM, su declaración de querer aumentar la representación de latinos), no en una declaración explícita. Asumir que se puede hacer outreach en español sería un error: escribir en inglés.",
+    "REQUISITO DE TRACCIÓN, EL PUNTO MÁS DELICADO PARA EL CLIENTE. El Q&A de Refresh Miami con David Zinn indica que la firma busca compañías con MVP completado y que requiere 'proof of concept and initial traction' para valorar si el capital acelerará el crecimiento. Esto choca frontalmente con la mala experiencia previa del cliente con inversores que exigen usuarios. Matiz importante: el co-lead de memQ (deep tech cuántico) sugiere que aplican ese filtro al embudo de software B2B, no al deep tech de frontera. Habrá que enmarcar la conversación explícitamente como deep tech, no como SaaS.",
+    "DEV TOOLS E INFRAESTRUCTURA SON UNA FRANJA ESTRECHA, NO LA TESIS. De ~40 participadas, solo PLCs.ai e Itopia son claramente herramientas para desarrolladores o infraestructura. El grueso es SaaS B2B vertical (logística, fintech, banca, hospitalidad, construcción, salud) más un cubo de Florida con dispositivos médicos y analítica deportiva. No hay ningún antecedente de inversión en un stack horizontal, runtime, lenguaje o plataforma de agentes para desarrolladores.",
+    "TAMAÑO DEL FONDO VIGENTE NO CONFIRMADO. El único cierre público documentado es el Fund 2, de más de $40M, en julio de 2021. No se encontró ningún anuncio de un Fund III. Un vehículo de 2021 en 2026 está probablemente en fase avanzada de despliegue o ya reservando para follow-ons, lo que puede limitar cheques nuevos. Conviene preguntar directamente desde qué vehículo invertirían.",
+    "NO ESTÁ BASADA EN MIAMI, pese a la pista de descubrimiento. La firma sí está en Coral Gables, pero las fuentes sobre ella se contradicen entre Bozeman (Montana) y Boston (Massachusetts). Cualquier intento de contacto vía eventos presenciales del ecosistema de Miami (eMerge Americas, Refresh Miami) puede fallar. No se encontró evidencia de que participe en esos eventos.",
+    "REQUISITO DE MERCADO ESTADOUNIDENSE. Ocean Azul exige que la compañía apunte a EE.UU. como mercado principal. Si el cliente es una startup hispanohablante enfocada en España o Latinoamérica como mercado inicial, el encaje cae y la prioridad debería bajar a C.",
+    "AMBIGÜEDAD SOBRE SI LIDERA. vcsheet afirma 'Leads Rounds: No', mientras que los hechos muestran liderazgo en MarkeTeam.ai (2025) y co-liderazgo en memQ (2026). No se puede prometer que liderarán; lo prudente es plantearlos como co-inversor de calidad o como posible co-lead técnico junto a otro fondo.",
+    "SIN EMAIL PÚBLICO. El fondo no publica ninguna dirección de correo, por lo que ni siquiera hay un patrón que inferir honestamente. El canal real es un formulario web, lo que reduce el control sobre la personalización y aconseja buscar una introducción cálida.",
+    "SU ATRIBUCIÓN INDIVIDUAL EN OPERACIONES ES POCO VISIBLE. No aparece citada por nombre en las notas de prensa de las rondas revisadas (memQ, MarkeTeam, qbiq, PLCs.ai). No se pudo confirmar de qué participadas concretas es ella la responsable ni en cuáles ocupa asiento de board.",
+    "POSIBLE ESTRUCTURA FAMILIAR. Comparte firma con Alex Tellez, también Managing Director y también del MIT. El vínculo familiar es plausible pero NO está confirmado por ninguna fuente pública consultada; si lo hay, la decisión real de inversión podría concentrarse en un núcleo reducido de socios."
+  ],
+  "role": "Managing Director en Ocean Azul Partners; Board President de SomosVC (antes LatinxVC). La web oficial del equipo la lista como 'Lisette Herbanek'.",
+  "sources": [
+    "https://oceanazulpartners.com/team/",
+    "https://oceanazulpartners.com/team/team-bios/",
+    "https://oceanazulpartners.com/portfolio/",
+    "https://oceanazulpartners.com/contact/",
+    "https://www.oceanazulpartners.com/",
+    "https://ventureforward.org/hhm-lisette-herbanek/",
+    "https://www.somos.vc/about/team",
+    "https://refreshmiami.com/news/ocean-azul-closes-fund-2-at-over-40-million-with-a-south-florida-commitment/",
+    "https://refreshmiami.com/news/qa-with-david-zinn-of-ocean-azul-a-global-fund-yet-so-miami/",
+    "https://memq.tech/memq_announces_seriesa_funding/",
+    "https://www.vcsheet.com/who/lisette-herbanek",
+    "https://www.vcsheet.com/fund/ocean-azul-partners",
+    "https://signal.nfx.com/investors/lisette-tellez",
+    "https://www.linkedin.com/in/lisettellez/",
+    "https://www.crunchbase.com/person/lisette-tellez",
+    "https://www.prnewswire.com/news-releases/marketeamai-raises-3-million-in-seed-funding-to-accelerate-transition-to-ai-native-autonomous-agents-in-the-workplace-302360842.html",
+    "https://www.prnewswire.com/news-releases/qbiq-ai-raises-16m-series-a-led-by-insight-partners-to-meet-booming-demand-for-its-automated-architectural-solutions-302347354.html"
+  ],
+  "stageAndTicket": [
+    "Seed y Serie A; cheques 200.000-2.000.000 USD (hasta 3M), punto dulce ~1M USD.",
+    "Asiento de consejo u observador en todas las participadas; follow-ons por desempeño.",
+    "Fund II de 40M USD (2021); Fund III no público."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Una de las pocas inversoras latinas con formación real de ingeniería de software que firma deep tech, no SaaS genérico.",
+    "Cartera conectada: PLCs.ai (generación de código con IA), Itopia (automatización sobre Google Cloud), MarkeTeam.ai (agentes autónomos, liderada por Ocean Azul), memQ (redes cuánticas, co-liderada 2026).",
+    "Discurso de moat por propiedad intelectual o diferenciación.",
+    "En contra: el fondo pide MVP y 'initial traction'; contactar sólo con producto y en inglés."
+  ]
+}

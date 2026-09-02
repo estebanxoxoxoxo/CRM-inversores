@@ -1,0 +1,130 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Áreas oficiales 'AI Enablement, Developer Platforms, Memory & Inference' en un fondo pre-seed (Flybridge VII, 100M USD, 40+ inversiones al año), colombiano confirmado y con podcast propio como vía de entrada; pero es Associate y no decide. Tope aplicado por no firmar cheque.",
+    "score": {
+      "access": 13,
+      "caps": [],
+      "decision": 6,
+      "otherAspects": -6,
+      "otherAspectsReason": "Associate: origina y escribe la tesis interna, pero no decide.",
+      "raw": 69,
+      "spanish": 15,
+      "stage": 17,
+      "thesis": 24,
+      "total": 69
+    },
+    "status": "reviewed"
+  },
+  "background": "Colombiano. Estudió Administración de Empresas (BBA) en la Universidad de Los Andes (Bogotá) y en Maastricht University, y completó el programa ejecutivo VC Unlocked de la Stanford University School of Engineering. Empezó como emprendedor: fundó Monedero, una fintech colombiana de ahorro que fue seleccionada para un programa de aceleración de Google y reconocida en 2018 entre las diez fintech más prometedoras del país. Pasó después al capital riesgo latinoamericano: fue Manager en Velum Ventures (fondo colombiano) y luego Associate en Dalus Capital, donde lideró la apertura de la oficina en Colombia. Es cofundador de la iniciativa 'Rising LatAm VCs'. Actualmente es Associate en el equipo de inversión de Flybridge Capital Partners (Nueva York / Boston), fondo seed y pre-seed cofundado por Jeff Bussgang y Chip Hazard, con Jesse Middleton como tercer General Partner, cuya tesis actual es 'The East Coast Firm Backing Our AI-Powered Future'. En Flybridge presenta el podcast 'AI Without Borders', contribuye al Flybridge AI Index y publica ensayos e informes de tesis. Escribe también en su Substack personal 'Forward Feed' y en Medium.",
+  "band": "high_potential",
+  "baseCity": "Nueva York, EE.UU. (Flybridge opera desde Nueva York y Boston; su asignación exacta de oficina no está confirmada en fuente primaria)",
+  "confidence": "high",
+  "contactSources": {
+    "email": [
+      "Patrón nombre_de_pila@flybridge.com deducido de una fuente pública y primaria: Jeff Bussgang, cofundador y General Partner de Flybridge, publicó su propio correo en X escribiendo 'jeff@flybridge.com. Shoot me some info and/or let's talk' (https://x.com/bussgang/status/2943238950). Flybridge no publica el correo de Daniel en su web, por lo que la dirección concreta NO está verificada. Alternativa segura y probablemente mejor: DM en X (@dforwardfeed) o LinkedIn, o el formulario de contacto del podcast."
+    ],
+    "linkedin": [],
+    "other": [
+      "Substack personal 'Forward Feed': https://danielp1.substack.com/",
+      "Medium: https://dpr648.medium.com/",
+      "X/Twitter: https://x.com/dforwardfeed",
+      "Podcast que presenta: 'AI Without Borders' https://open.spotify.com/show/64ZoEttcgTNXAC7DQRdTvg",
+      "Ficha en la web del fondo: https://www.flybridge.net/daniel-porras-reyes/ y https://www.flybridge.com/team",
+      "Flybridge AI Index: https://www.flybridge.com/ai-index",
+      "Crunchbase (aparece también como cofundador de 'Rising LatAm VCs'): https://www.crunchbase.com/person/daniel-porras-reyes"
+    ]
+  },
+  "deepResearch": "Origen y trayectoria temprana. Daniel Porras Reyes es colombiano, y el origen está documentado por hechos biográficos verificables, no por el apellido: cursó su BBA en la Universidad de Los Andes de Bogotá (además de un periodo en Maastricht University, Países Bajos), fundó y operó una startup fintech en Colombia, trabajó en dos fondos de capital riesgo colombianos/latinoamericanos y lideró la apertura de la oficina colombiana de uno de ellos. Es además cofundador de la iniciativa 'Rising LatAm VCs' según su ficha de Crunchbase. Su fluidez en español puede darse por confirmada: es su lengua de formación y de toda su carrera anterior a Estados Unidos.\n\nSu primer proyecto fue emprendedor: Monedero, una fintech de ahorro, seleccionada para un programa de aceleración de Google y reconocida en 2018 como una de las diez fintech más prometedoras de Colombia. De ahí pasó al lado inversor: Manager en Velum Ventures, y después Associate en Dalus Capital, donde le encargaron abrir la oficina de Colombia. Completó el programa ejecutivo VC Unlocked de la Stanford School of Engineering, un curso de formación de inversores. Es decir, su recorrido es LatAm-first y su llegada a un fondo estadounidense de la costa este es reciente.\n\nFlybridge: el fondo. Flybridge Capital Partners es un fondo seed y pre-seed con oficinas en Nueva York y Boston, cofundado por Jeff Bussgang y Chip Hazard, con Jesse Middleton como tercer General Partner, más Dorothy Chang y Anna Palmer como Venture Partners. Su posicionamiento actual es explícitamente de IA: 'The East Coast Firm Backing Our AI-Powered Future'. El fondo vigente es Flybridge Capital Fund VII, de 100 M$, con vintage de septiembre de 2025. La estructura de cheques está publicada: pre-seed hasta 250 K$ y seed de 1 a 3 M$. Junto al fondo principal opera 'Next Wave', un programa pre-seed articulado sobre una red de más de 50 fundadores, emprendedores y ejecutivos de compañías como Anthropic, NVIDIA, OpenAI o Toast, que lideran inversiones en el borde de la tesis; a través de ese ecosistema el fondo realiza más de 40 inversiones al año. La tesis está segmentada en infraestructura de IA y plataformas de desarrollo, aplicaciones de negocio agénticas, SaaS vertical, aplicaciones AI-native y, en general, el software que reorganiza cómo se hace el trabajo. Flybridge usa además herramientas de sourcing propias: mantiene el Flybridge AI Index para seguir a las compañías cotizadas líderes en IA (lanzado en mayo de 2024, con una versión 2.0 en 2025) y ha documentado públicamente su uso de Harmonic para descubrir oportunidades de inversión en IA. En enero de 2025 el fondo llegó a liberar en abierto un generador de memos de inversión con agentes de IA, un gesto que dice bastante sobre su cultura técnica.\n\nEl papel de Daniel dentro del fondo. Su título oficial en https://www.flybridge.com/team es Associate, y sus áreas de interés aparecen listadas literalmente como 'AI Enablement • Developer Platforms • Memory & Inference'. En la práctica, su función visible es la de generar tesis y flujo: escribe los informes y ensayos temáticos, presenta el podcast del fondo y contribuye al AI Index. Producción documentada: (1) 'Memex 2.0: Memory The Missing Piece for Real Intelligence', publicado el 17 de julio de 2025 con Vadym Barda —ingeniero de software e IA ex-LangChain y ex-Kensho—, tanto en su Substack (https://danielp1.substack.com/p/memex-20-memory-the-missing-piece) como en el sitio de Flybridge; el argumento central es que resolver la memoria significa diseñar sistemas capaces de razonar a través del tiempo y que los ganadores de la IA generativa serán quienes traten la memoria no como almacenamiento sino como arquitectura dinámica para inteligencia compuesta; el ensayo recoge voces de MongoDB (Richmond Alake) y Zep (Daniel Chalef) y concluye que los ganadores tendrán lock-in por memorias acumuladas, mejora real con el uso y eficiencia operativa. (2) Una tesis sobre las carencias en la forma en que los agentes de IA interactúan con los sistemas de ficheros y dónde pueden construir fundadores en verticales reguladas —legal, salud, servicios financieros—. (3) El informe 'The End of Design? Or Just the Beginning: The Generative UI Revolution', coescrito con Holley McShan y Nicolas Lopierre. (4) Contribución al Flybridge AI Index y su versión 2.0 (anunciada por él en LinkedIn en 2025), con análisis sobre compañías de infraestructura como servicio para IA y expectativas de salidas a bolsa en el primer semestre de 2026. (5) Su Substack personal 'Forward Feed', activo desde hace unos tres años, y su cuenta de Medium.\n\n'AI Without Borders': la mejor vía de acceso. Daniel presenta el podcast 'AI Without Borders' (https://open.spotify.com/show/64ZoEttcgTNXAC7DQRdTvg), dedicado explícitamente a las historias de emprendedores, investigadores y operadores latinoamericanos que están empujando la siguiente ola de innovación en inteligencia artificial en todo el mundo. Se emite en inglés, pero su selección de invitados es inequívocamente hispanohablante y muy técnica: Guillermo Rauch (CEO de Vercel) sobre infraestructura agéntica autoconducida; Damian Schenkelman (VP de I+D en Auth0 Labs/Okta) sobre el futuro de la autenticación para agentes; Juan Camilo Pinzón (Yutori, ex-Apple/Humane) sobre agentes de navegador; Fernando Neto (research scientist en Liquid AI) sobre modelos en dispositivo y aprendizaje por refuerzo; Alex Jaimes (Head of Conversational AI en JPMorgan Chase, ex-Chief AI Officer de Dataminr) sobre modelos que se automejoran; Gus Martins (product manager en Google DeepMind) sobre Gemma 4; Ricardo Anaya (Legora) sobre el despliegue de IA en empresa; Brynne McNulty Rojas (cofundadora de Habi) sobre LatAm; Bruno Koba (Astor, YC 2025); Andre Martins (Freight Hero); Franco Pinto (CTO de The Mobile First Company); Albert Gozzi (Aleph AI). Son más de 20 episodios. Para una startup hispanohablante que construye un harness de agentes y un stack IA-nativo, este es un canal de entrada casi diseñado a medida: proponer participación o aportar datos técnicos al podcast es una forma natural, no transaccional, de abrir la relación con él y, por extensión, con Flybridge.\n\nEvaluación como vía de acceso real. Es Associate: no tiene poder de decisión y en Flybridge las decisiones de inversión las toman los General Partners (Bussgang, Hazard, Middleton). Pero sí origina, escribe la tesis interna y es la persona del fondo cuyas áreas declaradas coinciden mejor con el producto del cliente. La combinación de (a) fondo que invierte pre-seed sin tracción y hace 40+ operaciones al año, (b) tesis explícita en plataformas de desarrollo y memoria/inferencia, (c) canal de contenido propio orientado a hispanohablantes y (d) origen colombiano confirmado, lo convierte en una puerta de entrada muy eficiente, aunque no en el decisor. Riesgo secundario: el ticket es pequeño (250 K$ pre-seed, 1-3 M$ seed) y el fondo es de 100 M$, así que Flybridge sería un coinversor o primer cheque, no el líder de una ronda grande. No se le conocen board seats ni operaciones lideradas a título individual, algo esperable en su rango.",
+  "email": "daniel@flybridge.com",
+  "emailStatus": "inferred_pattern",
+  "firm": "Flybridge Capital Partners",
+  "fitSignals": [
+    "Sus áreas de interés oficiales en la web del fondo son 'AI Enablement, Developer Platforms, Memory & Inference': coincidencia casi literal con un stack IA-nativo y un harness de agentes.",
+    "Flybridge invierte pre-seed y seed, con cheques desde 250 K$, y hace más de 40 inversiones al año: no exige tracción para entrar.",
+    "El fondo publica tesis prospectivas y busca fundadores en huecos que él mismo identifica (memoria, agentes y sistemas de ficheros, UI generativa): compra visión antes que métricas.",
+    "Cultura técnica del fondo: liberó en abierto un generador de memos de inversión con agentes (enero 2025) y mantiene el Flybridge AI Index.",
+    "Presenta un podcast dedicado a fundadores e investigadores latinoamericanos en IA, con más de 20 episodios: canal de acceso abierto, personal y en su idioma cultural.",
+    "Su red incluye a Guillermo Rauch (Vercel), Damian Schenkelman (Okta/Auth0) y research scientists de Liquid AI y Google DeepMind: coinversores y validadores técnicos potenciales.",
+    "Origen colombiano y español nativo documentados por formación (Universidad de Los Andes) y carrera previa en Colombia (Monedero, Velum Ventures, Dalus Capital)."
+  ],
+  "howToReach": [
+    "1) Su podcast 'AI Without Borders' (https://open.spotify.com/show/64ZoEttcgTNXAC7DQRdTvg) es la mejor puerta: está dedicado a emprendedores e investigadores latinoamericanos en IA y él busca invitados activamente; proponer una conversación técnica sobre evaluación de agentes o sobre el harness es un contacto natural y no transaccional.",
+    "2) X/Twitter: @dforwardfeed; responder o comentar su ensayo 'Memex 2.0' sobre memoria para IA.",
+    "3) LinkedIn: https://www.linkedin.com/in/danielporrasr/, donde publica sus informes y responde a comentarios.",
+    "4) Substack 'Forward Feed' (https://danielp1.substack.com/) y Medium (https://dpr648.medium.com/): suscribirse y responder a un post.",
+    "5) Email inferido daniel@flybridge.com (patrón nombre@flybridge.com, verificado sólo para jeff@flybridge.com); alternativa: escribir directamente a jeff@flybridge.com, que es público y que Bussgang ofrece abiertamente en X.",
+    "6) Programa Next Wave de Flybridge (https://www.flybridge.com/next-wave): red de 50+ fundadores y operadores de Anthropic, NVIDIA, OpenAI y Toast que lideran cheques pre-seed; buscar intro por ahí.",
+    "7) Eventos del fondo, p. ej. 'Agents in Production: What's Next?'.",
+    "8) Redes latinoamericanas: Rising LatAm VCs (que él cofundó), ecosistema Velum Ventures / Dalus Capital / Universidad de Los Andes, y comunidades como Latitud, Startupeable o Contxto."
+  ],
+  "id": "daniel-porras-reyes",
+  "investmentThesis": [
+    "'AI Enablement, Developer Platforms, Memory & Inference': infraestructura de datos y plataformas para quien construye y opera aplicaciones de IA.",
+    "'Memex 2.0': la memoria es la capa de infraestructura que falta a los agentes; ganarán quienes la traten como arquitectura dinámica (lock-in por memorias acumuladas, mejora con el uso).",
+    "Tesis sobre las carencias de los agentes al interactuar con sistemas de ficheros y dónde construir en verticales reguladas.",
+    "Coautor del informe de Flybridge sobre UI generativa."
+  ],
+  "investorType": "institutional_vc",
+  "investorTypeDetail": "VC institucional",
+  "level": 69,
+  "linkedin": "https://www.linkedin.com/in/danielporrasr/",
+  "name": "Daniel Porras Reyes",
+  "personalWebsite": "https://danielp1.substack.com/",
+  "priority": "B",
+  "region": "us_hispanic",
+  "relevantInvestments": [
+    "No se han encontrado operaciones atribuidas públicamente a él a título individual: es Associate y en Flybridge las decisiones las firman los General Partners. Dato honesto y relevante para calibrar expectativas.",
+    "Flybridge Capital Fund VII (100 M$, vintage septiembre 2025) — vehículo vigente desde el que se invertiría; pre-seed hasta 250 K$, seed de 1-3 M$.",
+    "Programa Next Wave de Flybridge (red de 50+ fundadores y ejecutivos de Anthropic, NVIDIA, OpenAI, Toast; 40+ inversiones al año en pre-seed) — el canal concreto por el que una compañía sin tracción puede recibir el primer cheque.",
+    "Tesis publicada sobre memoria para IA ('Memex 2.0', julio 2025, con Vadym Barda ex-LangChain) — indica que el fondo está buscando activamente compañías en la capa de memoria e inferencia.",
+    "Tesis publicada sobre la interacción de agentes con sistemas de ficheros y verticales reguladas — mapa explícito de dónde quiere que los fundadores construyan.",
+    "Informe 'The End of Design? The Generative UI Revolution' (con Holley McShan y Nicolas Lopierre) — muestra el método del fondo: publicar tesis para atraer flujo."
+  ],
+  "risksOrAlerts": [
+    "Es Associate: NO decide. Origina y escribe tesis, pero la decisión de inversión está en los General Partners (Jeff Bussgang, Chip Hazard, Jesse Middleton). Tratarlo como vía de entrada, no como cierre.",
+    "Ticket pequeño: pre-seed hasta 250 K$ y seed de 1-3 M$ sobre un fondo de 100 M$. Flybridge no lideraría una ronda grande.",
+    "No se le conocen inversiones lideradas ni board seats a título individual: su historial personal de decisión es no verificable.",
+    "Fondo de la costa este de EE.UU. (Nueva York/Boston); no se ha encontrado política declarada sobre inversión en equipos fuera de EE.UU., lo que puede ser una fricción si el equipo del cliente está en España o LatAm. No confirmado.",
+    "Email no verificado: 'daniel@flybridge.com' es patrón inferido a partir del correo público de Jeff Bussgang, no una dirección publicada.",
+    "El podcast se emite en inglés pese a su foco latinoamericano: el material de contacto conviene prepararlo en inglés aunque la conversación pueda ser en español.",
+    "Perfil de formación en administración de empresas, no en ingeniería: su credibilidad técnica viene del trabajo de tesis, no de haber construido sistemas. La demo debe ser explicativa, no asumir contexto de infraestructura profundo.",
+    "Ciudad base exacta (Nueva York vs. Boston) no confirmada."
+  ],
+  "role": "Associate del equipo de inversión (confirmado en la página oficial de equipo del fondo, https://www.flybridge.com/team, con áreas de interés declaradas: 'AI Enablement • Developer Platforms • Memory & Inference'). Anfitrión del podcast del fondo 'AI Without Borders' y coautor del Flybridge AI Index.",
+  "sources": [
+    "https://www.flybridge.com/team",
+    "https://www.flybridge.com/next-wave",
+    "https://www.flybridge.com/ai-index",
+    "https://www.flybridge.com/ideas/tag/agentic-ai",
+    "https://www.flybridge.com/ideas/the-bow/new-flybridge-report-on-the-generative-ui-revolution-whats-next-for-design",
+    "https://www.flybridge.com/ideas/the-bow/announcing-flybridge-2025",
+    "https://danielp1.substack.com/p/memex-20-memory-the-missing-piece",
+    "https://danielp1.substack.com/",
+    "https://open.spotify.com/show/64ZoEttcgTNXAC7DQRdTvg",
+    "https://www.linkedin.com/in/danielporrasr/",
+    "https://www.linkedin.com/posts/danielporrasr_ai-index-20-evolving-with-the-wave-flybridge-activity-7369379969010917377-9S8y",
+    "https://www.linkedin.com/posts/danielporrasr_a-vc-firm-created-an-ai-agent-powered-investment-activity-7282767066858676226-MoL8",
+    "https://www.crunchbase.com/person/daniel-porras-reyes",
+    "https://theorg.com/org/flybridge/org-chart/daniel-porras-reyes",
+    "https://people.equilar.com/bio/person/daniel-reyes-flybridge-capital-partners/45284746",
+    "https://dpr648.medium.com/",
+    "https://x.com/dforwardfeed",
+    "https://x.com/bussgang/status/2943238950",
+    "https://f4.fund/firms/flybridge",
+    "https://harmonic.ai/case-study/flybridge",
+    "https://www.flybridge.net/daniel-porras-reyes/"
+  ],
+  "stageAndTicket": [
+    "Flybridge: pre-seed hasta 250.000 USD (programa Next Wave) y seed de 1-3M USD.",
+    "Fund VII de 100M USD (sept-2025), Nueva York y Boston; 40+ inversiones al año.",
+    "Él es Associate: sin cheque propio."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Sus tres áreas declaradas (AI enablement, developer platforms, memory & inference) describen casi exactamente el producto.",
+    "Flybridge hace pre-seed hasta 250k USD vía Next Wave y seeds de 1-3M en compañías sin ingresos, 40+ al año: umbral de entrada bajo.",
+    "Canal propio: podcast 'AI Without Borders' (20+ episodios, invitados como Guillermo Rauch) para emprendedores latinoamericanos en IA.",
+    "Ángulo: proponer contenido, no capital; escribirle sobre memoria y la interacción agente-sistema de ficheros con datos propios del harness. Origina y escribe la tesis interna, no decide."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Nauta tiene un vertical real 'DevTools & Infra' (Napptive, NetBird, Nhost, Kubermatic, Xonai) y él cubre España y Portugal; pero exigen producto operativo, doctrina estricta de eficiencia de capital, prefieren GenAI vertical, el último fondo confirmado es de 2021 y sólo hay buzón general.",
+    "score": {
+      "access": 9,
+      "caps": [],
+      "decision": 15,
+      "otherAspects": 0,
+      "otherAspectsReason": "",
+      "raw": 66,
+      "spanish": 15,
+      "stage": 10,
+      "thesis": 17,
+      "total": 66
+    },
+    "status": "reviewed"
+  },
+  "background": "Ingeniero de Telecomunicación por la Universidad de Sevilla, MBA por la London Business School y Associate Chartered Accountant del ICAEW (Reino Unido). Comenzó como consultor de negocio en Deloitte (España y Reino Unido), pasó a la mesa de credit trading de Barclays Capital como analista, y después a Kennet Partners como investment manager, un fondo de growth de software B2B con oficinas en Londres. Antes de Nauta fue senior investment manager del fondo de corporate venture capital de Telefónica. Se incorporó a Nauta Capital en 2018 y hoy es Partner del equipo de inversión, con responsabilidad sobre las oportunidades de España y Portugal. La firma lo asigna a la oficina de Barcelona aunque su residencia es Madrid. El equipo inversor de Nauta lo completan Carles Ferrer y Jordi Viñas (General Partners, Londres y Barcelona), Anna Daviau (Partner, Operations & Platform), Conor Scanlan (Associate Partner, Londres), Andrea Oliver y Theo Wethered (Principals, Londres), Arthur Sbert (Investment Associate, Barcelona) y Daniel Sánchez (Venture Partner, Barcelona). Nauta está regulada por la CNMV en España y por la FCA en Reino Unido.",
+  "band": "high_potential",
+  "baseCity": "Oficina asignada: Barcelona, España (Av. Diagonal 593, 08014). La propia ficha del fondo indica que reside en Madrid.",
+  "confidence": "medium",
+  "contactSources": {
+    "email": [
+      "https://www.nautacapital.com/contact/ publica únicamente info@nautacapital.com junto con los teléfonos de Londres (+44 203 553 5757) y Barcelona (+34 93 503 5900) y un formulario de pitch. No se localizó ningún email nominal de socio en la web del fondo, notas de prensa ni bios de ponente.",
+      "Buzón general publicado. Email individual: no encontrado en fuentes públicas; Nauta no publica direcciones nominales de sus socios en ninguna página accesible, por lo que no hay base para inferir un patrón con evidencia"
+    ],
+    "linkedin": [],
+    "other": [
+      "Ficha en la web del fondo: https://www.nautacapital.com/team/borja-brena/",
+      "Signal NFX: https://signal.nfx.com/investors/borja-brena (registra también perfiles en X/Twitter y Crunchbase)",
+      "Crunchbase: https://www.crunchbase.com/person/borja-bre-a",
+      "Newsletter del fondo: http://eepurl.com/duawyD",
+      "Contenido del fondo: https://www.nautacapital.com/insights/"
+    ]
+  },
+  "deepResearch": "Borja Breña es el socio de Nauta Capital responsable de España y Portugal, y el punto de entrada natural al fondo para un proyecto español de software de infraestructura.\n\nTrayectoria. Su formación es técnica y financiera a partes iguales: Ingeniero de Telecomunicación por la Universidad de Sevilla, MBA por la London Business School y Associate Chartered Accountant del ICAEW británico. Empezó como consultor de negocio en Deloitte, con etapas en España y Reino Unido; siguió como analista en la mesa de credit trading de Barclays Capital; después pasó a Kennet Partners, la firma de growth equity especializada en software B2B, como investment manager; y antes de dar el salto a Nauta fue senior investment manager del fondo de corporate venture capital de Telefónica, es decir, con exposición directa al dealflow tecnológico español desde el lado corporativo. Se incorpora a Nauta Capital en 2018 y hoy figura como Partner del equipo de inversión. La ficha oficial (https://www.nautacapital.com/team/borja-brena/) lo describe como «recognised as a venture capital investor with international experience in finance, technology, and innovation» y lo asigna a la oficina de Barcelona, precisando además que reside en Madrid. En Signal NFX se autodescribe con una metáfora ciclista reveladora de su estilo: aspira «to be a good directeur sportif at the service of the real heroes» —el director deportivo al servicio de los corredores, no el protagonista.\n\nEl fondo. Nauta Capital es una gestora paneuropea con hubs en Londres (82 Dean St) y Barcelona (Av. Diagonal 593), regulada por la CNMV en España y la FCA en Reino Unido. Su tesis es «visionary founders across Europe building the next generation of B2B software companies», en etapa temprana, con ticket medio declarado de 1-5 M€ y, muy importante, con la nota explícita de que acepta compañías con producto operativo pero pre-ingresos ('operating product, pre-revenue acceptable'). Cifras que publica: más de 15 años invirtiendo, 95+ compañías, 550 M€ de AUM histórico, 200+ fundadores apoyados y 2.500 M€ de valor histórico de exits (Brandwatch, PromoteIQ vendida a Microsoft, BoxyHQ a Ory en mayo de 2025, Datia a Connect Earth en septiembre de 2025). Sobre fondos: el último cierre público confirmado es el de 190 M€ de noviembre de 2021, precedido de un vehículo sidecar de 55 M€ en julio de 2019. No se ha localizado ningún anuncio público de un 'Nauta V' posterior, por lo que el fondo vigente debe considerarse no confirmado; Signal NFX muestra 55 M€ como 'current fund size' asociado a Breña, dato probablemente desactualizado o referido al sidecar.\n\nVerticales y cartera relevante. Nauta organiza su cartera en verticales y tres de ellos son directamente pertinentes. En 'DevTools & Infra': Napptive (España, 2022, «a tooling platform simplifying the design, development and maintenance of cloud-native applications»), NetBird (Alemania, plataforma open source que sustituye a las VPN tradicionales, Serie A de 10 M$ anunciada el 13 de enero de 2026), mistho (API abierta de nóminas), NetAI (analítica en tiempo real para redes 4G/5G) y Universal Quantum (Reino Unido, computación cuántica, también etiquetada como Deep Tech). En 'AI/ML & Data': Trackingplan (España, 2022, «embedded software platform that provides analytics, tracking, and code quality»), Xonai (Reino Unido, computación acelerada para procesamiento de datos), YZR (Francia), Neurolabs (Reino Unido, 7,8 M$ Serie A liderada por Nauta en abril de 2025) y Unravel. En 'Security & Privacy': NetBird, Mindflow (Francia, automatización no-code de flujos de ciberseguridad), Lupovis (Reino Unido, deception dinámica), ESProfiler (Reino Unido, 2024) y TrustWorks (gobernanza de IA y privacidad, ronda liderada con Elkstone en agosto de 2025). En 2021 el fondo también entró en Kubermatic (6 M$ seed, automatización de Kubernetes). Es decir: hay precedente real y repetido de invertir en infraestructura de software y open source, algo poco común entre fondos españoles.\n\nQué se le atribuye a él directamente. Signal NFX registra dos operaciones a su nombre: QueryLayer (seed, 2022; Webcapitalriesgo la fecha en 2021 con 2 M€, plataforma de flujos de privacidad) y Weecover (seed, noviembre de 2022, insurtech). No se ha podido confirmar documentalmente qué otras rondas lidera, porque Nauta no publica el socio responsable en sus notas y los buscadores generales no devolvieron resultados nominales. Ahora bien, dado que su mandato es España y Portugal, las participadas españolas del fondo son su territorio: Napptive (2022, Dev Tools & Infra), Trackingplan (2022, AI/ML & Data), Loyal Guru (2022, 8 M€ Serie A), Stockagile (2022), Last.app (2023), Danelfin (2024, 2 M€ seed, analítica bursátil con IA), Wegrow (2024) y Acai Travel (2024, IA para operadores de viajes). Napptive y Trackingplan son, con diferencia, las dos referencias más cercanas al cliente y ambas están en su geografía. En la cartera no figura ninguna compañía portuguesa.\n\nDoctrina de inversión, y por qué importa. Nauta publica su marco con una franqueza poco habitual. El artículo 'Nauta's non-fragile strategy: Investing in companies with Maximum Sustainable Growth' (17-feb-2026) fija el listón: buscan «great potential, capital-efficient companies that always strive for the Maximum Sustainable Growth», y concretan que una compañía de calidad debe alcanzar «€5M in annual revenues using less than €10M in funding», con una trayectoria de ingresos y quema que «should enable them to reach net cash breakeven within six months of runway end». Esto es lo contrario de una apuesta científica a diez años, y es la principal reserva de encaje. En paralelo, 'Momentum vs. Moats: Building Durable GenAI Companies' (8-oct-2025) aplica las Siete Fuerzas de Hamilton Helmer a la GenAI: quieren «value beyond the API», arquitectura integrada que mejore cuando mejoren los modelos, ventajas de originación (contraposicionamiento o recursos acorralados) y rutas claras hacia switching costs, efectos de red o marca; y avisan de que «execution excellence is a necessary condition to scale, but long-term durability requires a thoughtful approach to defensibility from the start». Prefieren explícitamente GenAI vertical sobre horizontal, por el riesgo de erosión de márgenes ante OpenAI y Google. Y en 'The AI Future of B2B Software' (1-jul-2026) sostienen que «software development is a textbook case of Jevon's paradox: as production costs fall, total spend rises», que las herramientas de codificación con IA expandirán el mercado y que la mayor parte del valor se capturará en la capa de aplicación especializada, no en los proveedores de modelos de propósito general. Su asociado en Barcelona, Arthur Sbert, añade en julio de 2026 que hoy las mejores compañías son «AI-native from day one» y que lo que hace tres años era un seed de 1-3 M€ ahora se llama pre-seed.\n\nLectura para el cliente. Nauta es de los pocos fondos con vocabulario propio para lo que hace el cliente —AI-native, dev tools, infraestructura, defensibilidad, open source— y con un socio español que cubre exactamente su geografía. La fricción está en la doctrina de eficiencia de capital y en la preferencia declarada por lo vertical frente a lo horizontal: un stack de propósito general tendrá que responder por adelantado a la objeción de 'os come OpenAI'. El fondo también organiza formación abierta ('Fundamentals for VC') y el programa 'Nauta Collective' para fundadores, que son puertas de entrada blandas.",
+  "email": "info@nautacapital.com",
+  "emailStatus": "firm_general_mailbox",
+  "firm": "Nauta Capital (Nauta Capital VC Partners, SGEIC, S.A.)",
+  "fitSignals": [
+    "'DevTools & Infra' es un vertical formal y declarado del fondo, con cartera real (Napptive, NetBird, Kubermatic, mistho, NetAI), no una etiqueta de marketing.",
+    "La web del fondo admite expresamente compañías 'early-stage B2B software (operating product, pre-revenue acceptable)': producto sí, ingresos no obligatorios.",
+    "Historial en open source con exit: BoxyHQ vendida a Ory (mayo de 2025) y NetBird levantando Serie A de 10 M$ en enero de 2026.",
+    "El fondo publica tesis propia sobre defensibilidad en GenAI y pide explícitamente 'value beyond the API' y arquitectura que mejore con los modelos: es el argumento del cliente, en su propio idioma.",
+    "Su asociado en Barcelona escribe que las mejores compañías hoy son 'AI-native from day one' — el término exacto que usa el cliente.",
+    "Breña es ingeniero de telecomunicación y español nativo (Universidad de Sevilla), con mandato explícito sobre España y Portugal; toda la conversación puede hacerse en español.",
+    "Ticket de 1-5 M€ y sweet spot personal de ~3 M$: dimensión adecuada para una ronda seed sustancial que financie desarrollo antes de tracción.",
+    "Fondo activo en 2025-2026: al menos cinco operaciones o exits anunciados entre abril de 2025 y enero de 2026."
+  ],
+  "howToReach": [
+    "1) Formulario de pitch de la web (https://www.nautacapital.com/contact/), que el fondo presenta como su canal explícito para «a founder at an early-stage B2B software company in Europe»; alternativamente info@nautacapital.com o el teléfono de Barcelona +34 93 503 5900.",
+    "2) LinkedIn directo: https://www.linkedin.com/in/borjabrena/ — es su única presencia pública activa.",
+    "3) Puerta lateral por el equipo de Barcelona: Arthur Sbert (Investment Associate, autor del artículo sobre el ecosistema de Barcelona), Jordi Viñas (General Partner en Barcelona) y Anna Daviau (Partner de Operations & Platform).",
+    "4) Intro caliente por participadas españolas: Napptive (Valencia, cloud-native dev tooling) y Trackingplan son los puentes más naturales; también Last.app, Danelfin o Loyal Guru.",
+    "5) Programas abiertos del fondo: 'Nauta Collective' (sesiones para fundadores sobre crecimiento, posicionamiento y expansión a EE. UU.) y la serie 'Fundamentals for VC'; suscribirse a su newsletter (http://eepurl.com/duawyD) y responder a un artículo concreto es un abridor legítimo.",
+    "6) Red de origen: alumni de London Business School, del CVC de Telefónica (Wayra / Telefónica Ventures) y de la Escuela de Ingenieros de Telecomunicación de Sevilla.",
+    "7) Eventos: South Summit Madrid, 4YFN/MWC Barcelona y Barcelona Tech City, donde Nauta tiene presencia habitual."
+  ],
+  "id": "borja-brena",
+  "investmentThesis": [
+    "'Capital-efficient B2B software' europeo: llegar a 5M€ de ingresos con menos de 10M€ levantados y a breakeven con seis meses de runway.",
+    "Verticales: DevTools & Infra, AI/ML & Data, Security & Privacy, Deep Tech, además de retail, fintech, insurtech, productividad y salud.",
+    "'Momentum vs. Moats' (oct-2025): 'value beyond the API', arquitectura integrada que mejora con los modelos, costes de cambio y efectos de red.",
+    "Prefiere GenAI vertical sobre horizontal por riesgo de erosión de márgenes frente a OpenAI y Google."
+  ],
+  "investorType": "institutional_vc",
+  "investorTypeDetail": "VC institucional",
+  "level": 66,
+  "linkedin": "https://www.linkedin.com/in/borjabrena/",
+  "name": "Borja Breña",
+  "personalWebsite": "",
+  "priority": "B",
+  "region": "spain",
+  "relevantInvestments": [
+    "Napptive (España, 2022, vertical Dev Tools & Infra de Nauta; plataforma de tooling que simplifica el diseño, desarrollo y mantenimiento de aplicaciones cloud-native) — la participada española más cercana a un harness de desarrollo; cae en la geografía de Breña.",
+    "Trackingplan (España, 2022, vertical AI/ML & Data; plataforma embebida de analítica, tracking y calidad de código) — dev tooling español, también en su geografía.",
+    "NetBird (Alemania, Serie A de 10 M$ anunciada en enero de 2026; plataforma open source que sustituye a las VPN tradicionales) — prueba de que Nauta financia infraestructura open source hasta Serie A.",
+    "Kubermatic (2021, 6 M$ seed; automatización de Kubernetes) — infraestructura pura de cómputo y orquestación.",
+    "Xonai (Reino Unido, 2022, vertical AI/ML & Data; computación acelerada para procesamiento de datos) — optimización de rendimiento a bajo nivel, el tipo de moat técnico que el cliente reivindica.",
+    "BoxyHQ (open source de seguridad para desarrolladores, adquirida por Ory en mayo de 2025) — exit en dev tools open source, argumento de retorno para el comité.",
+    "Universal Quantum (Reino Unido, 2022, computación cuántica; única etiquetada como Deep Tech) — demuestra tolerancia puntual a horizontes muy largos.",
+    "QueryLayer (seed, 2021-2022, ~2 M€; plataforma de flujos de privacidad) y Weecover (seed, noviembre de 2022, insurtech) — las dos únicas operaciones atribuidas nominalmente a Borja Breña en Signal NFX.",
+    "TrustWorks (2025, ronda liderada junto a Elkstone Ventures; gobernanza de IA y privacidad) y Neurolabs (abril de 2025, 7,8 M$ Serie A liderada por Nauta) — actividad reciente confirmada del fondo en IA."
+  ],
+  "risksOrAlerts": [
+    "Doctrina de eficiencia de capital muy explícita y potencialmente incompatible: exigen llegar a «€5M in annual revenues using less than €10M in funding» y a «net cash breakeven within six months of runway end». Es un fondo de métricas, no de apuestas científicas a diez años.",
+    "Preferencia declarada por GenAI VERTICAL sobre horizontal, por riesgo de 'margin erosion' frente a OpenAI y Google. Un stack de propósito general chocará de frente con esa doctrina y hay que responder a la objeción por adelantado.",
+    "No se ha podido confirmar documentalmente qué rondas lidera él personalmente más allá de dos entradas en Signal NFX (QueryLayer y Weecover); Nauta no publica el socio responsable en sus notas y los buscadores generales están bloqueados.",
+    "Fondo vigente NO CONFIRMADO: el último cierre público es de noviembre de 2021 (190 M€). Sin anuncio de un 'Nauta V', existe el riesgo de que estén al final del periodo de inversión o en fundraising.",
+    "Ninguna inversión localizada en Portugal pese a que su mandato lo incluye.",
+    "Perfil público muy discreto: no escribe los artículos del fondo, no aparece citado en prensa, no se le localizan podcasts ni entrevistas. La personalización del primer contacto tendrá que apoyarse en contenido del fondo, no suyo.",
+    "Email individual no encontrado; solo buzón general y formulario de pitch, lo que reduce mucho la tasa de respuesta en frío.",
+    "Su ADN profesional (Deloitte, Barclays, Kennet, CVC de Telefónica) es de análisis financiero de software B2B, no de I+D profundo."
+  ],
+  "role": "Partner, Investment — responsable de las oportunidades de España y Portugal",
+  "sources": [
+    "https://www.nautacapital.com/",
+    "https://www.nautacapital.com/team/",
+    "https://www.nautacapital.com/team/borja-brena/",
+    "https://www.nautacapital.com/portfolio/",
+    "https://www.nautacapital.com/contact/",
+    "https://www.nautacapital.com/insights/",
+    "https://www.nautacapital.com/news-insights/gen-ai-defensibility",
+    "https://www.nautacapital.com/news-insights/the-ai-future-of-b2b-software",
+    "https://www.nautacapital.com/news-insights/maximum-sustainable-growth",
+    "https://www.nautacapital.com/news-insights/returning-to-barcelona-as-a-vc",
+    "https://www.nautacapital.com/news-insights/netbird-10m-series-a",
+    "https://www.nautacapital.com/news-insights/ory-acquires-boxyhq",
+    "https://signal.nfx.com/investors/borja-brena",
+    "https://www.linkedin.com/in/borjabrena/",
+    "https://www.webcapitalriesgo.com/?s=Nauta+Capital",
+    "https://dealflow.es/?s=Nauta",
+    "https://dealflow.es/?s=Nauta+Capital+fondo",
+    "https://www.crunchbase.com/person/borja-bre-a"
+  ],
+  "stageAndTicket": [
+    "Seed y Serie A de software B2B europeo.",
+    "Ticket medio 1-5M€; a él Signal le atribuye 1-6M USD con punto dulce 3M.",
+    "Último cierre confirmado: Nauta IV, 190M€ (nov-2021) + sidecar 55M€; Nauta V no confirmado."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "'DevTools & Infra' es vertical formal con cartera real: Napptive y Trackingplan (España), NetBird, Kubermatic, Xonai, BoxyHQ.",
+    "Socio responsable de España y Portugal, ingeniero de telecomunicación, español nativo: las participadas españolas más cercanas caen en su territorio.",
+    "Nauta admite 'operating product, pre-revenue acceptable'.",
+    "Ángulo: entrar por la conversación que el fondo abrió (Jevons paradox en software, defensibilidad de GenAI) y demostrar 'value beyond the API' con arquitectura."
+  ]
+}

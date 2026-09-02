@@ -9,16 +9,23 @@ están en español (`src/lib/labels.ts` traduce cada código a su etiqueta).
 ## Una sola fuente de verdad: Firestore
 
 Una única colección, `investors`, con un documento por inversor: el perfil completo con su auditoría. La app se
-suscribe a la colección entera y refleja cualquier cambio en vivo. No hay datos en el repositorio; `backups/`
-(ignorado por git) sólo contiene volcados de `npm run export`.
+suscribe a la colección entera y refleja cualquier cambio en vivo.
 
 ```bash
 npm run dev                               # la app, suscripta a investors
 npm run recalculate                       # valida cada documento y reescribe los valores derivados que cambiaron
 npm run import -- <archivo.json|carpeta>  # alta de inversores nuevos desde un JSON de investigación (auditoría pendiente)
-npm run export                            # respaldo local de investors/* en backups/<fecha>/
+npm run snapshot                          # copia de recupero: investors/* -> snapshot/investors/<id>.json (commitear)
+npm run restore                           # vuelve a escribir en Firestore lo que hay en snapshot/ (--prune borra lo que no esté)
 npm run typecheck                         # tipos de la app y de los scripts
 ```
+
+## Recupero ante desastres
+
+`snapshot/investors/` es una copia versionada de la colección, no una fuente de verdad. Antes de una tarea riesgosa:
+`npm run snapshot` y commit. Si la base se daña: `npm run restore` (agrega `--prune` para eliminar también los
+documentos que no estén en el snapshot). Los archivos se escriben con las claves ordenadas, así que `git diff`
+muestra exactamente qué cambió entre dos snapshots.
 
 Editar un perfil = editarlo en Firestore. La app recalcula lo derivado al leer, así que un documento editado a mano
 nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores derivados guardados alineados.
@@ -30,7 +37,7 @@ nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores
 - `src/lib/labels.ts` — etiquetas en español para cada código (bandas, regiones, tipos, estados, topes, rúbrica).
 - `src/lib/investors.ts` — suscripción a Firestore. `src/context/` — el contexto que expone la colección.
 - `src/lib/filters.ts` — filtros, orden y URL. `src/components/` — filtros, lista, ficha y badges.
-- `scripts/` — `recalculate.ts`, `import-profiles.ts`, `export.ts`; `scripts/lib/firestore.ts` conecta con la
+- `scripts/` — `recalculate.ts`, `import-profiles.ts`, `snapshot.ts`, `restore.ts`; `scripts/lib/firestore.ts` conecta con la
   config de `.env` y `scripts/lib/spanish-values.ts` traduce los valores en español de los JSON de investigación.
 
 ## Auditoría dentro del perfil

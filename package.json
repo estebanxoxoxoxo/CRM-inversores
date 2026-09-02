@@ -11,7 +11,8 @@
     "typecheck": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.scripts.json --noEmit",
     "recalculate": "tsx scripts/recalculate.ts",
     "import": "tsx scripts/import-profiles.ts",
-    "export": "tsx scripts/export.ts"
+    "snapshot": "tsx scripts/snapshot.ts",
+    "restore": "tsx scripts/restore.ts"
   },
   "dependencies": {
     "firebase": "^12.18.0",

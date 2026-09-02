@@ -1,0 +1,126 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Cofundó y vendió a Stripe Okay, una empresa de efectividad de ingeniería (el problema exacto del harness), y KP confirma que habla español; pero es Operating Partner sin capacidad de invertir, su actividad ángel (10-50k) no consta desde 2023 y no tiene email. Evaluador y campeón interno en Kleiner Perkins, no capital.",
+    "score": {
+      "access": 7,
+      "caps": [],
+      "decision": 3,
+      "otherAspects": 0,
+      "otherAspectsReason": "",
+      "raw": 51,
+      "spanish": 15,
+      "stage": 8,
+      "thesis": 18,
+      "total": 51
+    },
+    "status": "reviewed"
+  },
+  "background": "Licenciado en Ciencias de la Computación y Economía por Duke University. Vivió en Boston, Raleigh, Caracas y la Bay Area, y la ficha oficial de Kleiner Perkins declara explícitamente que habla inglés y español. Su primer trabajo fue una beca de ingeniería de software en una ONG de educación de matemáticas y ciencias. Fue el quinto ingeniero y decimocuarto empleado de Box, donde pasó más de nueve años: escaló el equipo de ingeniería hasta la salida a bolsa y hasta más de 500 M USD de ingresos, llegando a VP of Engineering con equipos de más de 150 personas y construyendo los cimientos técnicos de la compañía. En 2017 se incorporó a Checkr como su primer VP of Engineering (después VP of Product & Engineering), donde llevó el equipo de ingeniería, producto y diseño de 25 a más de 100 personas. En enero de 2019 cofundó Okay junto a Antoine Boulanger (CEO), a quien conoció en Box: una startup de efectividad de ingeniería usada por Brex, Plaid e Intercom, pasada por Y Combinator, que Stripe adquirió en mayo de 2023. Fue Scout de Sequoia Capital entre 2018 y 2023, advisor de YC Continuity, miembro del CIO Advisory Council de Splunk y advisor e inversor en más de 20 startups, entre ellas Loom, Oura y Modern Treasury. Desde octubre de 2024 es Operating Partner, Engineering en Kleiner Perkins. Fuera del trabajo se interesa por la salud y la longevidad; su artículo más conocido en First Round Review es «Box's VP Engineering on Biohacks For A Better Career».",
+  "band": "reserve",
+  "baseCity": "San Francisco, California, EE.UU. Ha vivido en Boston, Raleigh, Caracas y la Bay Area",
+  "confidence": "high",
+  "contactSources": {
+    "email": [
+      "Kleiner Perkins no publica direcciones de correo individuales en su web (https://www.kleinerperkins.com/people/); la ficha de Tomas solo enlaza X y LinkedIn. No he encontrado ningún email suyo en fuentes primarias (web del fondo, web personal, papers, GitHub, bios de ponente). Los agregadores de contactos comerciales (ContactOut, RocketReach) muestran direcciones ocultas, no verificables, y no se usan como fuente. Canales reales: X (@tomasrb, ha sido históricamente muy accesible por DM) y LinkedIn."
+    ],
+    "linkedin": [],
+    "other": [
+      "Ficha oficial en KP: https://www.kleinerperkins.com/people/tomas-barreto/ (y https://www.kleinerperkins.com/people/specialists/tomas-barreto/)",
+      "X/Twitter: https://x.com/tomasrb",
+      "Signal NFX: https://signal.nfx.com/investors/tomas-barreto",
+      "The Org: https://theorg.com/org/kleiner-perkins/org-chart/tomas-barreto",
+      "Ponente en Engineering Leadership Community (ELC/SF ELC): https://sfelc.com/speaker/tomas-barreto",
+      "First Round Review: https://review.firstround.com/articles/tomas-barreto/",
+      "Podcast Software Engineering Daily: https://softwareengineeringdaily.com/2021/02/22/okay-engineering-with-tomas-barreto/",
+      "Okay en Y Combinator: https://www.ycombinator.com/companies/okay"
+    ]
+  },
+  "deepResearch": "RESPUESTA DIRECTA A LA PREGUNTA DEL BRIEFING. El briefing pedía verificar si Tomas Barreto escribe cheques. La respuesta matizada es: sí invierte a título personal, pero con importes simbólicos y probablemente no de forma activa hoy. Su perfil en Signal NFX lo clasifica como ángel y scout, con cheques de 10 K a 50 K USD y punto dulce de 25 K USD, en seed, Series A y Series B, y con Developer Tools como su primer sector por afinidad. Fue Scout de Sequoia Capital de enero de 2018 a enero de 2023 —justo el periodo en que dirigía Okay— y ha sido advisor e inversor en más de 20 compañías, incluidas Loom, Oura y Modern Treasury. Pero ese papel de scout terminó en 2023 y no hay evidencia pública de operaciones ángel suyas posteriores. En Kleiner Perkins su título es Operating Partner, Engineering: NO forma parte del equipo inversor y no tiene autoridad para comprometer capital del fondo. Por eso la prioridad de este perfil es C, y su valor es de acceso y validación, no de capital.\n\nORIGEN Y ESPAÑOL: CONFIRMADO EN FUENTE PRIMARIA. Esto es inusualmente sólido. La propia ficha de Kleiner Perkins (https://www.kleinerperkins.com/people/tomas-barreto/) incluye dos campos explícitos: «Languages spoken: English and Spanish» y una lista de ciudades en las que ha vivido: Boston, Raleigh, Caracas y la Bay Area. Es decir, el fondo declara su bilingüismo y su paso por Venezuela. No he localizado ninguna entrevista ni charla suya en español, pero la declaración del fondo es fuente primaria suficiente para dar la fluidez por buena.\n\nCRONOLOGÍA PROFESIONAL. Duke University: licenciatura en Ciencias de la Computación y Economía. Primer empleo: beca de ingeniería de software en una ONG de educación científica y matemática. Box: entró como quinto ingeniero y decimocuarto empleado y se quedó más de nueve años; escaló el equipo de ingeniería a través de la salida a bolsa y hasta superar los 500 M USD de ingresos, terminando como VP of Engineering con equipos de más de 150 personas. Es un currículum que en la Bay Area abre casi cualquier puerta técnica. 2017: Checkr, como primer VP of Engineering y después VP of Product & Engineering; llevó ingeniería, producto y diseño de 25 a más de 100 personas. Enero de 2019: cofunda Okay con Antoine Boulanger (CEO), a quien conoció en Box. Okay pasó por Y Combinator y vendía a equipos de ingeniería un producto de «engineering effectiveness»: paneles y métricas accionables que descomponían el tiempo de los equipos en Maker Time, Meeting Load y Friction Time, combinando datos cuantitativos con feedback cualitativo. Clientes citados: Brex, Plaid, Intercom. Mayo de 2023: Stripe adquiere Okay (cobertura en TechCrunch, 31/05/2023: «Okay, which analyzes engineers' productivity, sells to Stripe»). Octubre de 2024: se incorpora a Kleiner Perkins como Operating Partner, Engineering.\n\nQUÉ HACE EXACTAMENTE EN KLEINER PERKINS. Su función declarada es asesorar a las compañías de la cartera en la construcción y el escalado de sus organizaciones de ingeniería, con especialidades en contratación de talento técnico de primer nivel, escalado de equipos, mejora de la velocidad y mentoría de CTOs. En la página de equipo de KP aparece bajo «specialists», separado del listado de socios inversores, que son Mamoon Hamid, Ilya Fushman, Leigh Marie Braswell, Josh Coyne, Aditya Naganath, Aatish Nayak, Joubin Mirzadegan y Ted Schlein. Kleiner Perkins es un fondo grande y muy activo: KP22, su vigésimo segundo fondo de venture, es de 1.000 M USD para early stage, acompañado de 2.500 M USD en vehículos de growth; el anterior par fue KP21 (825 M USD) y KP Select III (1.200 M USD). El fondo hizo 47 inversiones en 2025 y su tesis actual gira alrededor del «rise of AI», con foco en infraestructura de IA/ML, ciberseguridad, fintech, software empresarial y salud. Dentro de ese equipo, la persona que cubre infraestructura, IA y herramientas para desarrolladores es Leigh Marie Braswell, y Ilya Fushman (ex-Dropbox) es el socio con más historial en software empresarial y productos para desarrolladores: son los dos destinos naturales de una intro hecha por Tomas.\n\nSU PENSAMIENTO SOBRE PRODUCTIVIDAD DE INGENIERÍA. Aquí está el valor real del contacto. Toda su carrera reciente gira sobre la misma pregunta que el cliente quiere resolver con agentes: cómo medir y aumentar la efectividad de un equipo de ingeniería. En Software Engineering Daily (22/02/2021, https://softwareengineeringdaily.com/2021/02/22/okay-engineering-with-tomas-barreto/) explicó la tesis de Okay: «people in maker professions such as developers and writers are most productive when they can carve out dedicated time for focused work, without the frequent context-switching that comes with an irregular meeting schedule», y describió cómo el producto categorizaba el tiempo en Maker Time, Meeting Load y Friction Time para que los equipos tomasen «data-driven decisions to maximize productivity». Ha hablado en la comunidad ELC (Engineering Leadership Community) con charlas como «Introducing Okay: A Product for Optimizing Engineering Operations and Productivity» (25/06/2020) y «Paying Down Technical Debt: Managing the Costs of Code from Another Time» (09/10/2018). En First Round Review firmó «Box's VP Engineering on Biohacks For A Better Career». Advertencia honesta: NO he encontrado ninguna declaración pública suya específicamente sobre agentes de IA, coding agents o el impacto de los LLM en la productividad de ingeniería. Es muy probable que tenga opinión —es su especialidad y su puesto lo exige— pero no está documentada en fuentes abiertas, y su producción pública escrita es escasa y anterior a 2023. Cualquier afirmación sobre su postura ante los agentes sería especulación.\n\nRED Y COINVERSORES. Su red es de operadores, no de financieros: Box (Aaron Levie y toda la primera generación de ingeniería), Checkr, Stripe (por la adquisición de Okay), Y Combinator (Okay fue empresa de YC y él fue advisor de YC Continuity), Sequoia (scout durante cinco años), Splunk (CIO Advisory Council) y ahora Kleiner Perkins. Como advisor/inversor aparece ligado a Loom, Oura y Modern Treasury. Signal NFX registra además accesos de red vía Microsoft, IBM y Duke University.\n\nCÓMO USARLO, EN CONCRETO. (1) No pedirle dinero: pedirle una revisión técnica del harness y de las métricas con las que el cliente sostiene el «90% mejor». Él fabricó y vendió a Stripe el producto que medía justamente eso; si el número sobrevive a su escrutinio, es la mejor validación externa disponible y además genera un aliado. (2) Ofrecerle acceso temprano como design partner para compañías de la cartera de Kleiner Perkins: su trabajo consiste literalmente en mejorar la velocidad de ingeniería de esas empresas, así que un harness que funcione es munición para su propio rol. (3) Solo después, y si la conversación va bien, pedir la intro a Leigh Marie Braswell o Ilya Fushman. (4) Considerarlo como advisor o ángel simbólico (25 K USD): su nombre en la cap table es señal de calidad ante otros inversores de dev tools, aunque el importe sea irrelevante. (5) Canal: X (@tomasrb) y LinkedIn (/in/tomasrb). Kleiner Perkins no publica emails y no hay ninguno suyo en fuentes primarias.\n\nRIESGOS DEL CONTACTO. Es un perfil muy solicitado (ex-Box, ex-Stripe, KP) y sin email público; el volumen de mensajes que recibe será alto, así que el primer contacto tiene que ser corto y con algo demostrable adjunto. No decide inversiones. Su actividad ángel documentada es antigua (hasta 2023) y de importe pequeño. Y su relación con el cliente sería, en el mejor de los casos, la de un aliado técnico: útil, pero no resuelve la ronda.",
+  "email": "",
+  "emailStatus": "not_found",
+  "firm": "Kleiner Perkins (fondos vigentes: KP22, 1.000 M USD para early stage, más 2.500 M USD en vehículos de growth; anteriormente KP21 de 825 M USD y KP Select III de 1.200 M USD). Antes: cofundador y CTO de Okay (adquirida por Stripe en 2023) y Scout de Sequoia Capital",
+  "fitSignals": [
+    "Ha construido y vendido un producto de efectividad de ingeniería (Okay → Stripe, 2023): entiende el dominio exacto del cliente desde dentro",
+    "Signal NFX sitúa Developer Tools como su primer sector por afinidad como ángel",
+    "Fluidez en español confirmada en fuente primaria: la ficha oficial de Kleiner Perkins declara «Languages spoken: English and Spanish» y lista Caracas entre las ciudades donde ha vivido",
+    "Su trabajo actual en KP consiste en mejorar la velocidad de ingeniería de las compañías de la cartera: un harness de agentes que funcione es directamente útil para su función, lo que abre la vía de design partner",
+    "Perfil puramente técnico (quinto ingeniero de Box, primer VP Eng de Checkr): puede evaluar una demo sin pedir métricas de tracción",
+    "Fue Scout de Sequoia cinco años y advisor de YC Continuity: tiene criterio de inversión reconocido y red para hacer intros de calidad",
+    "Kleiner Perkins está desplegando KP22 (1.000 M USD para early stage) con tesis explícita en IA e infraestructura, y cuenta con socios que sí cubren dev tools (Leigh Marie Braswell, Ilya Fushman)",
+    "Accesible por canales abiertos: X (@tomasrb) y LinkedIn, sin necesidad de intro previa"
+  ],
+  "howToReach": [
+    "X/Twitter: https://x.com/tomasrb — históricamente su canal más abierto; mensaje corto con un vídeo o benchmark adjunto",
+    "LinkedIn: https://www.linkedin.com/in/tomasrb — conexión mencionando Caracas o la etapa de Box",
+    "Engineering Leadership Community (ELC / SF ELC, https://sfelc.com/): es ponente habitual; sus eventos y su comunidad de líderes de ingeniería son un entorno natural para conocerlo",
+    "Red de Y Combinator: Okay fue empresa de YC y él fue advisor de YC Continuity; una intro vía founders de YC funciona bien",
+    "Red de Box y Stripe: exingenieros de Box (donde fue el quinto ingeniero) y el equipo de Stripe que absorbió Okay",
+    "Antoine Boulanger, cofundador y CEO de Okay, es la persona que mejor puede presentarlo",
+    "Enfoque recomendado: proponerle una sesión técnica de 30 minutos para que critique las métricas del harness, y ofrecerle acceso como design partner para compañías de la cartera de Kleiner Perkins. Solo después, pedir intro a los socios que sí invierten: Leigh Marie Braswell (infraestructura e IA) o Ilya Fushman (software empresarial y dev tools) — https://www.kleinerperkins.com/people/",
+    "Opción complementaria: ofrecerle entrar como advisor con equity o como ángel simbólico (~25 K USD); su nombre en la cap table es señal de calidad ante otros inversores de dev tools"
+  ],
+  "id": "tomas-barreto",
+  "investmentThesis": [
+    "Sin tesis de inversión; operador de ingeniería. Signal lo clasifica con Developer Tools como primer sector.",
+    "Tesis implícita: efectividad de ingeniería medida con datos; 'maker professions are most productive with dedicated focused time'.",
+    "En KP: contratación técnica, escalado de equipos, velocidad de entrega y mentoría de CTOs."
+  ],
+  "investorType": "operator_fund",
+  "investorTypeDetail": "Fondo operador / solo GP — en la práctica: Business angel de cheque pequeño + operating partner en un VC institucional (sin autoridad para firmar cheques del fondo)",
+  "level": 51,
+  "linkedin": "https://www.linkedin.com/in/tomasrb",
+  "name": "Tomas Barreto",
+  "personalWebsite": "",
+  "priority": "C",
+  "region": "us_hispanic",
+  "relevantInvestments": [
+    "Okay (cofundador y CTO, 2019-2023; plataforma de efectividad de ingeniería con clientes como Brex, Plaid e Intercom; adquirida por Stripe en mayo de 2023) — no es una inversión sino su propia empresa, y es el antecedente más relevante: construyó y vendió el producto que mide exactamente lo que el harness del cliente promete mejorar",
+    "Loom (advisor e inversor; vídeo asíncrono para equipos, adquirida por Atlassian) — herramienta para equipos técnicos, dentro de su primer sector declarado",
+    "Modern Treasury (advisor e inversor; infraestructura de pagos con API para desarrolladores) — producto de infraestructura con usuario técnico",
+    "Oura (advisor e inversor; anillo de salud y sueño) — coherente con su interés declarado en salud y longevidad, pero fuera del ámbito de dev tools",
+    "Scout de Sequoia Capital (2018-2023) — desplegó capital de Sequoia en cheques pequeños durante cinco años; demuestra criterio de inversión reconocido por un fondo de primer nivel",
+    "Advisor de más de 20 startups y de YC Continuity; miembro del CIO Advisory Council de Splunk — su valor histórico ha sido de asesoría técnica, no de capital"
+  ],
+  "risksOrAlerts": [
+    "NO ES UN INVERSOR: su cargo en Kleiner Perkins es Operating Partner, Engineering; no forma parte del equipo inversor y no puede comprometer capital del fondo. Esta es la razón principal de la prioridad C",
+    "Su actividad como ángel es real pero mínima: cheques de 10-50 K USD, punto dulce de 25 K USD (Signal NFX). No mueve una ronda",
+    "Su papel de Scout en Sequoia terminó en enero de 2023 y no hay ninguna operación ángel suya documentada después de esa fecha: actividad inversora actual NO confirmada",
+    "No se ha encontrado ninguna declaración pública suya sobre agentes de IA, coding agents o el impacto de los LLM en la productividad de ingeniería. Su producción pública escrita es escasa y anterior a 2023: no atribuirle opiniones que no ha expresado",
+    "Sin email público: Kleiner Perkins no publica direcciones individuales y no hay ninguna en fuentes primarias. Solo X y LinkedIn",
+    "Perfil muy solicitado (ex-Box, ex-Stripe, KP): alto volumen de mensajes entrantes y baja probabilidad de respuesta a un contacto genérico",
+    "Fluidez en español declarada por el fondo, pero sin ninguna entrevista o charla suya en español que lo demuestre en la práctica",
+    "Aunque hiciera una intro interna, Kleiner Perkins es un fondo grande que rara vez lidera pre-producto sin señal fuerte; su vía natural sería una Series A o un seed con mucha tracción de fundador",
+    "Su experiencia de ventas (Okay) fue a equipos de ingeniería de empresas medianas y grandes: puede empujar al cliente hacia un enfoque enterprise que no encaje con su plan"
+  ],
+  "role": "Operating Partner, Engineering (desde octubre de 2024). NO es socio inversor: asesora a las compañías de la cartera en construcción y escalado de sus organizaciones de ingeniería. Por separado, invierte a título personal como ángel y fue Scout de Sequoia (2018-2023) y advisor de Y Combinator",
+  "sources": [
+    "https://www.kleinerperkins.com/people/tomas-barreto/",
+    "https://www.kleinerperkins.com/people/",
+    "https://signal.nfx.com/investors/tomas-barreto",
+    "https://www.linkedin.com/in/tomasrb",
+    "https://x.com/tomasrb",
+    "https://theorg.com/org/kleiner-perkins/org-chart/tomas-barreto",
+    "https://www.ycombinator.com/companies/okay",
+    "https://techcrunch.com/2023/05/31/okay-which-analyzes-engineers-productivity-sells-to-stripe/",
+    "https://softwareengineeringdaily.com/2021/02/22/okay-engineering-with-tomas-barreto/",
+    "https://sfelc.com/speaker/tomas-barreto",
+    "https://review.firstround.com/articles/tomas-barreto/",
+    "https://www.kleinerperkins.com/perspectives/our-new-funds-kp22-select-iv-flex/",
+    "https://news.crunchbase.com/venture/kleiner-perkins-raises-ai-focused-funds/",
+    "https://en.wikipedia.org/wiki/Kleiner_Perkins",
+    "https://people.equilar.com/bio/person/tomas-barreto-kleiner-perkins/20871160"
+  ],
+  "stageAndTicket": [
+    "Como ángel/scout: seed a Serie B, 10.000-50.000 USD (punto dulce 25k); scout de Sequoia hasta enero de 2023.",
+    "Como Operating Partner de KP no decide ni tiene ticket propio.",
+    "Actividad inversora actual no confirmada."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Sabe qué métricas de productividad de ingeniería son reales (Okay: Maker Time, Meeting Load, Friction Time).",
+    "Como Operating Partner asesora a decenas de equipos de ingeniería de la cartera de KP: potencial cliente o design partner.",
+    "Puede llevar la operación a Leigh Marie Braswell o Ilya Fushman, que sí firman; habla español (vivió en Caracas).",
+    "Ángulo: pedirle una sesión técnica y su opinión sobre las métricas, no un cheque."
+  ]
+}

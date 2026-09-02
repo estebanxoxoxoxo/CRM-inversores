@@ -1,0 +1,128 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "La tesis de Carabela está escrita como una descripción del cliente: pre-seed deep tech B2B para 'engineers, developers, scientists', distribuido vía SDK, repo de GitHub o API, liderando con hasta 500k USD; seis años en AWS y escribe contra los 'AI wrappers'. Reservas: Fund II (20M) sin cierre confirmado, exige fundadores latinoamericanos y no invierte en solo founders.",
+    "score": {
+      "access": 12,
+      "caps": [],
+      "decision": 15,
+      "otherAspects": -2,
+      "otherAspectsReason": "Exige fundadores latinoamericanos y no invierte en solo founders.",
+      "raw": 84,
+      "spanish": 15,
+      "stage": 20,
+      "thesis": 24,
+      "total": 84
+    },
+    "status": "reviewed"
+  },
+  "background": "Francisco José Ruiz Izaguirre ('Frank') se describe en LinkedIn como profesional con '20+ years at the intersection of entrepreneurship, semiconductors, cloud AI'. Cursó un Master of Science in Technology Commercialization (emprendimiento tecnológico) en la Red McCombs School of Business de la University of Texas at Austin (2011-2012, GPA 3.7). Es emprendedor dos veces ('2x founder'), con paso por Ranktab Inc., y pasó seis años en Amazon Web Services, principalmente en servicios cloud, atendiendo a clientes unicornio de LatAm en cloud, IA, blockchain, tecnología industrial, logística y software empresarial. Mantiene certificaciones AWS vigentes, incluida la de AWS AI Practitioner. Se incorporó a CARABELA como co-Managing Partner alrededor de junio de 2024, junto a Javier Sánchez Aldana, tras el despliegue del primer fondo (~4,5 M USD). Trabaja además en el desarrollo de proveeduría de semiconductores en Jalisco (programa 'Circuito 14') y escribe con regularidad sobre agentes de IA operando equipo físico y científico, chips de inferencia y la transición hacia la 'IA física'. En agosto de 2026 publicó un ensayo sobre formalización tensorial relacional en mecánica cuántica escrito con asistencia de IA, una señal poco habitual de curiosidad técnica en un GP de LatAm.",
+  "band": "undisputed",
+  "baseCity": "Zapopan / Guadalajara, Jalisco, México (la firma declara además domicilio en Tomball, Texas, EE. UU.; su LinkedIn muestra Ciudad de México como localidad personal)",
+  "confidence": "medium",
+  "contactSources": {
+    "email": [
+      "Se revisaron https://www.carabela.vc/ , /team , /fund2 , /aboutus y el sitemap completo del dominio: ninguna página publica direcciones de correo, solo direcciones postales (25420 Kuykendahl Rd, Ste B200-188, Tomball, TX 77375 y Mutuo Naciones Unidas 4-05, 45110 Zapopan, Jalisco) y un formulario de Google Forms. Los agregadores tipo RocketReach devuelven 403 y no permiten confirmar patrón, por lo que no se propone ninguno para evitar inventarlo.",
+      "No encontrado en fuentes públicas. La web del fondo no publica ningún email; el canal declarado es el formulario https://forms.gle/pRKN7cDeQnhmVrUD9"
+    ],
+    "linkedin": [],
+    "other": [
+      "Web del fondo: https://www.carabela.vc/",
+      "Equipo: https://www.carabela.vc/team",
+      "Tesis Fund II: https://www.carabela.vc/fund2",
+      "Fund I: https://www.carabela.vc/fund1",
+      "Cartera Fund II: https://www.carabela.vc/fund2portcos",
+      "Blog: https://www.carabela.vc/blog",
+      "X del fondo: https://twitter.com/CARABELA_vc",
+      "LinkedIn del fondo: https://www.linkedin.com/company/carabelavc",
+      "Crunchbase: https://www.crunchbase.com/organization/carabela-fondo-semilla-de-angel-ventures-guadalajara",
+      "Ponente en Talent Land México ('El despertar de las startups Deep Tech'). No se le ha localizado newsletter propia ni blog personal; publica ensayos como artículos de LinkedIn."
+    ]
+  },
+  "deepResearch": "CARABELA nació en 2013 en Guadalajara, México, no como fondo sino como comunidad: seis años operando una red de inversores ángeles que conectó a más de 20 fundadores con capital temprano, cinco programas de incubación y aceleración que apoyaron a 65+ startups, más de 15 talleres y eventos, y mentoría y jurado en eventos de emprendimiento en México, EE. UU. y LatAm (https://www.carabela.vc/aboutus). El primer vehículo institucional, Carabela Fondo Semilla (Fund I), se lanzó en febrero de 2020 como fideicomiso mexicano con ~4-4,5 M USD y 29 LPs. Invirtió en 16 compañías, mitad pre-seed y mitad seed, repartidas en 6 países de LatAm y 11 sectores, con 25% de compañías con cofundadora mujer; entre las participadas figuran Terapify, 100 Ladrillos, Bruna.ai, Rocketbot, Creizer, Mayorea, Airbag, Peakr, LeadSales, KredFeed, Moffin, Foccuz, Nilus y Bord (https://www.carabela.vc/fund1 y el blog del fondo, que documenta cada entrada: Bord en septiembre de 2024, Moffin en abril de 2024, Foccuz en abril de 2024, KredFeed en septiembre de 2023, Leadsales en agosto de 2023, Peakr en junio de 2023).\n\nFrancisco Ruiz Izaguirre se incorporó como co-Managing Partner alrededor de junio de 2024. En su publicación de anuncio en LinkedIn explicó que se unía a Carabela en Guadalajara junto a Javier Sánchez Aldana, que la firma había invertido con éxito su primer fondo de 4,5 M USD en LatAm y que arrancaba una nueva etapa; dijo que le atrajo la 'integrity-obsessed culture' del equipo y su voluntad de invertir en categorías difíciles, y que, tras seis años en AWS, quería conectar con 'early-stage enterprise founders in LatAm building a category-defining company with a unique product or technology angle', aportando su experiencia en cloud, IA, blockchain, tecnología industrial, logística y software empresarial con clientes unicornio latinoamericanos (https://www.linkedin.com/posts/franco5_cloud-ai-startups-activity-7203459749151973376-H_UR). Su formación es un Master of Science in Technology Commercialization por la Red McCombs School of Business de UT Austin (2011-2012), un programa específicamente diseñado para comercializar tecnología profunda, y se define como '2x founder' con paso previo por Ranktab Inc. Su LinkedIn (https://www.linkedin.com/in/franco5/, 4.000+ seguidores) resume su perfil como '20+ years at the intersection of entrepreneurship, semiconductors, cloud AI'.\n\nEl giro estratégico de Carabela con Frank dentro es evidente en Fund II. El 31 de julio de 2025 la firma anunció un segundo fondo con objetivo de 20 M USD, cheque medio de ~500.000 USD y una cartera prevista de 25 startups, con la etiqueta 'pre-seed for deep-tech founders' y respaldo de LPs que incluyen científicos de IA, ejecutivos tecnológicos y corporate VCs (https://entorno.vc/carabela-y-su-nuevo-fondo-de-usd-20m-para-invertir-en-deep-tech/). El posicionamiento declarado, citado por Entorno VC, es que les interesa 'lo que es técnicamente difícil y comercialmente contraintuitivo'. La página de tesis (https://www.carabela.vc/fund2) es el documento más útil para calibrar el encaje: encabeza con 'We back the bold—deep tech founders building what others don't yet understand', enumera GenAI, blockchain, IoT y diseño de semiconductores como tecnologías objetivo, y establece siete criterios: (1) anomalías, startups fuera del ciclo de hype, 'originality over conformity'; (2) B2B-first con profundidad vertical, sin nichos diminutos ni B2C; (3) tecnologías emergentes en punto de inflexión; (4) impacto real; (5) equipos excepcionales, con la frase tajante 'we don't invest in Solo Founders'; (6) usuarios finales técnicos: 'engineers, developers, scientists'; (7) implantación de baja fricción mediante documentación técnica, sin consultoría pesada, y modelo software-first que evite 'hardware-heavy models' y 'high capital expenditures'. La página invita expresamente a startups que lleguen con 'SDK, GitHub Repo or API'. La página de cartera de Fund II (https://www.carabela.vc/fund2portcos) indica vintage 2025 con 3 compañías invertidas hasta ahora en 2 sectores y 33% con cofundadora mujer; los nombres no se publican todavía. Una ficha independiente (Descubre.vc) lista entre los sectores objetivo de Carabela 'Developer Tools' junto a AgTech, IA/ML, blockchain, CloudTech, ciberseguridad, datos y analítica, fintech, hardware, IoT y SaaS, y precisa que buscan 'technical founder teams with prior experience scaling startups' y B2B 'to be consumed by technical profiles', descartando explícitamente B2C y SaaS B2B no orientado a compradores técnicos (https://www.descubre.vc/carabela).\n\nLa presencia pública de Frank es la de un operador que piensa en voz alta, no la de un GP de relaciones públicas. Escribe artículos en LinkedIn con títulos deliberadamente provocadores: 'AI Wrappers will kill software engineering' (marzo de 2025), 'The One-Person Unicorn Fallacy' (junio de 2025) y 'I'm Not a Physicist. This Happened When I Used AI to Play the Part' (agosto de 2026), este último acompañado de un texto sobre formalización tensorial relacional en mecánica cuántica desarrollado con asistencia de IA. Sus publicaciones recientes tratan de agentes de IA operando equipo físico y hardware científico (incluida una mención a un 'Model Hardware Standard' en colaboración con Anthropic), del desarrollo de proveeduría de semiconductores en Jalisco a través del programa 'Circuito 14', de benchmarks de chips de inferencia y del cambio de plataforma hacia la 'IA física'. Ha dado la charla 'El despertar de las startups Deep Tech' en Talent Land México, el mayor evento de talento tecnológico del país, celebrado precisamente en Guadalajara. El fondo mantiene además un encuentro anual propio ('encuentro2024' aparece en su sitemap) y una cuenta de X (@CARABELA_vc).\n\nEl proceso de entrada está documentado y es rápido: formulario en línea (https://forms.gle/pRKN7cDeQnhmVrUD9), respuesta en una semana y tres etapas de evaluación que suman entre cuatro y seis semanas. La estructura legal combina Carabela Investments, LLC (Tomball, Texas) y AOVOMOOO, S.A.P.I. de C.V. (Zapopan, Jalisco); Private Equity International lista también a Alejandro Arregui como Venture Partner y a Aldo Farah como Partner, ambos en Zapopan.\n\nPatrones de inversión observados: Carabela lidera, no sigue, en pre-seed; prefiere compañías con más de un fundador; evita hardware intensivo en capital pese a hablar de semiconductores (les interesa el diseño y el software asociado, no la fábrica); y su criterio de 'anomalía' premia justamente lo que la mayoría de fondos LatAm penaliza, que es no tener aún usuarios ni encajar en una categoría de moda. El riesgo evidente para un cliente hispanohablante es geográfico: la tesis dice 'led by Latin American founders' y Fund I se desplegó en seis países de LatAm; si el equipo fundador no es latinoamericano ni tiene presencia real en la región, hay que resolver esa objeción antes de nada. El segundo riesgo es de tamaño: con 20 M USD objetivo y cheques de hasta 500.000 USD, Carabela puede liderar una pre-seed pero no puede sostener por sí solo rondas grandes posteriores, así que conviene presentarlo como líder de ronda acompañado de ángeles técnicos. No se han encontrado controversias públicas asociadas a Frank ni al fondo.",
+  "email": "",
+  "emailStatus": "not_found",
+  "firm": "CARABELA (Carabela Investments, LLC / AOVOMOOO, S.A.P.I. de C.V.)",
+  "fitSignals": [
+    "La tesis publicada de Fund II pide literalmente producto para 'technical end-users: engineers, developers, scientists' y da la bienvenida a startups que lleguen con 'SDK, GitHub Repo or API'",
+    "'We back the bold—deep tech founders building what others don't yet understand': el criterio explícito es respaldar lo que todavía no se entiende, no lo que ya tiene tracción",
+    "Criterio de 'anomalías': premian startups que se salen de los ciclos de hype y la 'originality over conformity'",
+    "Lideran rondas pre-seed, es decir, entran antes de que exista métrica de usuarios",
+    "GenAI y diseño de semiconductores están en el núcleo de la tesis; Frank además impulsa el programa de semiconductores Circuito 14 en Jalisco",
+    "Frank viene de seis años en AWS y es 2x founder: evalúa infraestructura y economía de cloud desde dentro, no desde una hoja de cálculo",
+    "Escribe públicamente contra los 'AI wrappers' ('AI Wrappers will kill software engineering', marzo de 2025), lo que sugiere preferencia por capas profundas y moat técnico",
+    "Proceso de entrada abierto, sin necesidad de intro: formulario con respuesta en una semana y decisión en 4-6 semanas",
+    "Hispanohablante nativo con base en Guadalajara/CDMX: toda la relación puede ser en español"
+  ],
+  "howToReach": [
+    "Formulario oficial de aplicación de Carabela: https://forms.gle/pRKN7cDeQnhmVrUD9 (respuesta declarada en una semana; proceso completo de 4-6 semanas en tres etapas)",
+    "LinkedIn directo a Frank: https://www.linkedin.com/in/franco5/ — publica ensayos con frecuencia y responde en comentarios; comentar sus artículos sobre agentes de IA y 'AI wrappers' es la forma natural de calentar el contacto",
+    "LinkedIn y X del fondo: https://www.linkedin.com/company/carabelavc y https://twitter.com/CARABELA_vc",
+    "Eventos: Talent Land México (Guadalajara), donde ha impartido 'El despertar de las startups Deep Tech'; el encuentro anual propio de Carabela; ecosistema deep tech de Jalisco y el programa de semiconductores Circuito 14",
+    "Intro caliente vía fundadores de Fund I con perfil técnico: Moffin, Rocketbot o Bruna.ai son los más cercanos a un producto vendido a compradores técnicos",
+    "Co-Managing Partner Javier Sánchez Aldana (https://www.linkedin.com/in/javiersamb/) como segunda puerta al mismo comité"
+  ],
+  "id": "francisco-ruiz-izaguirre",
+  "investmentThesis": [
+    "Pre-seed deep tech B2B de fundadores latinoamericanos: GenAI, blockchain, IoT, diseño de semiconductores.",
+    "Criterios: 'Anomalies' fuera de los ciclos de hype, 'originality over conformity', B2B-first con profundidad vertical, tecnologías en punto de inflexión.",
+    "Usuario final técnico e implantación de baja fricción vía documentación, SDK, repo o API.",
+    "Equipo fundador múltiple obligatorio; software-first, sin hardware pesado ni alto capex."
+  ],
+  "investorType": "institutional_vc",
+  "investorTypeDetail": "VC institucional (fondo pequeño de pre-seed; la firma nació como red de ángeles y aceleradora en 2013)",
+  "level": 84,
+  "linkedin": "https://www.linkedin.com/in/franco5/",
+  "name": "Francisco Ruiz Izaguirre",
+  "personalWebsite": "",
+  "priority": "A",
+  "region": "mexico",
+  "relevantInvestments": [
+    "Fund II (vintage 2025, objetivo 20 M USD, 3 compañías invertidas hasta la fecha, nombres no publicados) — el vehículo activo y el que está explícitamente dedicado a 'pre-seed for deep-tech founders' con usuarios finales técnicos",
+    "Rocketbot (Fund I, pre-seed/seed; RPA y automatización de procesos con software desplegable por equipos técnicos) — la participada de Fund I más cercana a herramientas para desarrolladores",
+    "Bruna.ai (Fund I, IA aplicada) — señal temprana de apetito por IA antes del ciclo GenAI",
+    "Moffin (2024, Fund I; infraestructura de datos y APIs de scoring/onboarding para fintech en México) — producto vendido vía API a compradores técnicos, coherente con el criterio de distribución por SDK/API",
+    "Foccuz (2024, Fund I) y KredFeed (2023, Fund I) — cadencia de entradas pre-seed lideradas y documentadas en el blog del fondo",
+    "Bord (septiembre de 2024, Fund I) — última entrada pública documentada de Fund I, ya con Frank incorporado como co-Managing Partner",
+    "Peakr, Leadsales, Creizer, Airbag, Terapify, 100 Ladrillos, Nilus, Mayorea (Fund I, 2020-2024) — cartera que muestra 16 entradas en 6 países y 11 sectores con un fondo de solo ~4,5 M USD"
+  ],
+  "risksOrAlerts": [
+    "La tesis exige fundadores latinoamericanos ('led by Latin American founders'); si el equipo del cliente no es de LatAm ni tiene entidad/presencia en la región, el encaje geográfico se rompe y hay que resolverlo en el primer mensaje",
+    "'We don't invest in Solo Founders': un equipo con un único fundador queda descartado por criterio explícito",
+    "Fondo pequeño: 20 M USD objetivo y cheque máximo de ~500 K USD; puede liderar una pre-seed pero no sostener rondas grandes de seguimiento sin coinversores",
+    "Fund II está en fase muy temprana (3 inversiones, vintage 2025): buena noticia por capacidad disponible, pero sin track record propio todavía y con posible dependencia de que se complete el levantamiento de los 20 M USD (objetivo, no cierre confirmado)",
+    "El fondo prefiere software-first y evita 'hardware-heavy models' y alto capex: encaje bueno para software, pero cuidado si el pitch enfatiza infraestructura física propia",
+    "No hay ningún email público de Frank ni del fondo; la única vía documentada es un Google Form y LinkedIn",
+    "Track record de exits todavía no demostrado públicamente (Fund I con 12 de 16 compañías activas y sin salidas relevantes comunicadas)",
+    "Su título exacto en Carabela aparece a veces como 'Managing Partner' y a veces como 'co-Managing Partner'; el comité lo comparte con Javier Sánchez Aldana, de modo que la decisión no es unipersonal"
+  ],
+  "role": "Managing Partner (co-Managing Partner junto a Javier Sánchez Aldana)",
+  "sources": [
+    "https://www.carabela.vc/",
+    "https://www.carabela.vc/fund2",
+    "https://www.carabela.vc/fund1",
+    "https://www.carabela.vc/fund2portcos",
+    "https://www.carabela.vc/team",
+    "https://www.carabela.vc/aboutus",
+    "https://www.carabela.vc/blog",
+    "https://www.linkedin.com/in/franco5/",
+    "https://www.linkedin.com/posts/franco5_cloud-ai-startups-activity-7203459749151973376-H_UR",
+    "https://entorno.vc/carabela-y-su-nuevo-fondo-de-usd-20m-para-invertir-en-deep-tech/",
+    "https://www.descubre.vc/carabela",
+    "https://www.privateequityinternational.com/institution-profiles/carabela.html",
+    "https://www.crunchbase.com/organization/carabela-fondo-semilla-de-angel-ventures-guadalajara",
+    "https://talent-land.mx/"
+  ],
+  "stageAndTicket": [
+    "Pre-seed, liderando: 'Lead pre-seed rounds with tickets up to $500K'.",
+    "Fund II (vintage 2025): objetivo 20M USD, cartera objetivo 25 compañías, cheque medio ~500k USD; cierre no confirmado.",
+    "Fund I (2020, ~4,5M USD): 16 compañías, mitad pre-seed y mitad seed."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Tesis literal: producto para 'technical end-users' desplegado con documentación técnica; bienvenida explícita a 'SDK, GitHub Repo or API'.",
+    "'We back the bold—deep tech founders building what others don't yet understand'; busca 'anomalías' fuera del hype.",
+    "Seis años en AWS: entiende economía de cloud, márgenes de infraestructura y venta a clientes técnicos; escribe sobre la muerte de los 'AI wrappers'.",
+    "Ángulo: en español, citar su artículo sobre AI wrappers y posicionar el producto como lo contrario; enseñar repo/SDK y métricas de ingeniería; formulario de Carabela (responden en una semana) más LinkedIn."
+  ]
+}

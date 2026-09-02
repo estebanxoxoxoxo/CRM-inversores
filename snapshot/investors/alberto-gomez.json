@@ -1,0 +1,133 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Ha invertido tres veces en la tesis exacta del cliente (Airflows, TuringDream, TandemTrace) en seed y pre-seed desde Madrid, con criterio publicado de 'pioneer before market validation'. Reservas: sólo buzón general, y posible solapamiento con Airflows/TuringDream.",
+    "score": {
+      "access": 12,
+      "caps": [],
+      "decision": 20,
+      "otherAspects": -2,
+      "otherAspectsReason": "Posible solapamiento de cartera con Airflows y TuringDream; parte de las operaciones 2026 las firma Ross Strachan.",
+      "raw": 86,
+      "spanish": 15,
+      "stage": 17,
+      "thesis": 24,
+      "total": 86
+    },
+    "status": "reviewed"
+  },
+  "background": "Nacido en Caracas (Venezuela) en una familia de clase media; un año de estudios en EE. UU. siendo adolescente le abrió la puerta al MIT, donde se graduó (ingeniería eléctrica y management science, según Signal NFX). Trabajó en consultoría estratégica y en banca de inversión en Nueva York, y después cursó un MBA en Harvard Business School. En 2004-2005 identificó un hueco: equipos técnicos muy fuertes en el sur de Europa sin capital de fase temprana ni rutas de salida hacia EE. UU. Con esa tesis cofundó Adara Ventures junto a Nico Goulet; el fondo se constituye en Madrid en 2005 y cierra su Fondo I en 2006. Desde entonces ha cerrado los fondos II (2013), III (2019, 80 M€), un Opportunity Fund (2022) y, en 2025, el Fondo IV (AV4, objetivo 100 M€) y el Adara Ventures Energy (AVE). Adara declara hoy ~350 M€ bajo gestión, 60 compañías respaldadas, 12 exits y 20 años de actividad. Gómez ha estado en el consejo o en el seguimiento de 16+ compañías: 42Crunch, Acoru, ADD Semiconductor, Airflows, AlienVault, Constella Intelligence, Councilbox, CounterCraft, Cyber Guru, Genasys, Hdiv Security, Openbravo, PlayGiga, Quality Clouds, SatVu, Stratio, TandemTrace y XYZ Reality. Es ponente habitual en 4YFN/MWC Barcelona.",
+  "band": "undisputed",
+  "baseCity": "Madrid, España",
+  "confidence": "high",
+  "contactSources": {
+    "email": [
+      "https://www.adara.vc/contact — solo aparece Info@adara.vc y el formulario typeform; ninguna fuente pública (prensa, Business Wire, papers, GitHub) expone un email individual de Alberto Gómez.",
+      "Buzón general del fondo, publicado en adara.vc/contact y en el pie de todas sus páginas. Email personal directo: no encontrado. Adara no publica direcciones individuales de sus socios en ninguna fuente pública consultada, por lo que no hay un patrón fiable que inferir (no se ha visto ningún nombre@adara.vc publicado). La vía formal que el propio fondo indica para fundadores es su typeform: https://adaravc.typeform.com/to/HL6FbYAe"
+    ],
+    "linkedin": [],
+    "other": [
+      "Ficha en el fondo: https://www.adara.vc/team/alberto-gomez",
+      "Web del fondo: https://www.adara.vc",
+      "Blog/stories del fondo donde firma posts: https://www.adara.vc/stories",
+      "X del fondo: https://x.com/AdaraVentures",
+      "LinkedIn del fondo: https://www.linkedin.com/company/adaravc/",
+      "Ponente en 4YFN Barcelona: https://4yfn.com/agenda/speakers",
+      "Signal NFX: https://signal.nfx.com/investors/alberto-gomez",
+      "Crunchbase: https://www.crunchbase.com/person/alberto-gomez-2",
+      "No se le ha localizado cuenta personal de X/Twitter ni newsletter propia: publica bajo la marca Adara."
+    ]
+  },
+  "deepResearch": "Alberto Gómez es cofundador y Founding/Managing Partner de Adara Ventures, la gestora española que más consistentemente ha invertido en deep tech B2B desde antes de que la etiqueta existiera en España. Su biografía en la web del fondo es inusualmente personal: nació en Caracas, Venezuela, en una familia de clase media durante un periodo de optimismo del país; un año de instituto en Estados Unidos siendo adolescente le abrió la puerta al MIT, que él describe como el punto de inflexión de su carrera. Tras el MIT pasó por consultoría estratégica y por bancos de inversión en Nueva York, y completó un MBA en Harvard Business School. Signal NFX le atribuye doble titulación del MIT (ingeniería eléctrica y management science) y le sitúa con 763 conexiones vía HBS y 561+ vía MIT, una red que sigue siendo parte de su propuesta de valor a fundadores (la ruta 'sur de Europa a Silicon Valley').\\n\\nEn 2004 Gómez formuló la tesis fundacional: había equipos técnicos excelentes y baratos en el sur de Europa, sin capital de fase temprana ni un camino natural hacia el mercado y los compradores estadounidenses. Con Nico Goulet levantó Adara Ventures, constituida en Madrid en 2005 (la web del fondo fecha 'Founded in Madrid in 2005'; el propio Goulet habla de 2002 como año en que empezaron a trabajar en la idea, y la ficha de Gómez menciona 2004 — conviene no ser dogmático con la fecha exacta). La cronología de fondos que publica Adara es: Fondo I cierra en 2006, Fondo II en 2013, Fondo III en 2019 (80 M€, un 70% mayor que los anteriores, según declaró Gómez a Capital & Corporate/webcapitalriesgo en noviembre de 2020), Opportunity Fund en 2022 y, en 2025, tanto AV4 como el Adara Ventures Energy Fund. AV4 anunció primer cierre el 17 de marzo de 2025 con 75 M€ sobre un objetivo de 100 M€ y más de 130 LPs (instituciones, fondos de pensiones, gestoras, family offices y también fundadores de la propia cartera); a cierre de 2025 el fondo declaraba haber alcanzado el 95% del objetivo con más de 150 LPs. El fondo de energía captó 35 M€ del FEI en septiembre de 2024 y compromisos de Elewit (Redeia) y Grupo Energía Bogotá. Adara declara hoy ~350 M€ AUM, 60 compañías, 12 exits y una distribución geográfica 75% Europa / 25% América.\\n\\nEl track record de salidas explica su credibilidad: AlienVault (ciberseguridad open source, vendida a AT&T en 2018), PlayGiga (cloud gaming, comprada por Facebook en 2019), Seedtag (que levantó 250 M€ en 2022) y Cyber Guru (vendida a Libraesva en 2025). En cartera activa relevante para un stack IA-nativo: Stratio, Constella Intelligence, CounterCraft (deception), Hdiv Security, 42Crunch (seguridad de APIs), Quality Clouds, Genasys, SatVu (imagen térmica desde satélite), XYZ Reality, Quibim (imagen médica con IA, 50 M$ Serie A en enero de 2025) y ADD Semiconductor.\\n\\nLo decisivo para este cliente es lo que Adara —y Gómez en primera persona— ha hecho entre 2025 y 2026. En julio de 2025 Gómez firmó el post 'Why we invested in TandemTrace: Disrupting SecOps using AI Agents': Adara co-lideró la seed junto a Acurio Ventures, con Addendum Capital. Sus frases: 'AI agents will play a crucial role as co-defenders in the fight against increasingly automated threats' y 'humans and AI can work in tandem to secure infrastructure and data, faster and more effectively than ever before' (https://www.adara.vc/stories/why-we-invested-in-tandemtrace-secops-ai-agents). En 2025 Adara co-lideró además la seed de 6 M€ de TuringDream, startup madrileña fundada en 2023 por Juan Morán que construye una plataforma no-code para orquestar múltiples agentes de IA especializados; la justificación publicada por el fondo es literalmente 'we backed TuringDream because the next wave of enterprise software will run on multi-agent systems'. También en 2025: Adcities (ronda seed de 3+ M€ liderada por Adara), Acoru (ciberseguridad antifraude, 4 M€ de lanzamiento y después 10 M€), Wodan AI (pre-seed de 2 M€ co-liderada, infraestructura de IA privada con cifrado totalmente homomórfico) y Area2 (IA neuroconectiva).\\n\\nEn 2026 la cadencia se acelera hacia el corazón de la tesis del cliente. El 8 de enero de 2026 Adara anunció inversión en Articul8 (GenAI empresarial de dominio industrial, spin-off de Intel). El 4 de febrero de 2026, AppFactor: 4 M$ seed co-liderada por Adara y Tensor Ventures, con Begin Capital y Narwhal; la plataforma 'uses automation and generative AI to analyse, modernise, and continuously maintain enterprise software at a system level' y pone 'software maintenance on autopilot' (post firmado por el partner Ross Strachan). Y el 25 de marzo de 2026 Gómez firmó personalmente 'Why we invested in Airflows: Turning AI into reliable software for the enterprise': Adara lideró una ronda de 2 M€ con Armilar Venture Partners en una plataforma que combina un motor de lenguaje específico de dominio con un copiloto de IA para convertir requisitos en flujos ejecutables. Sus citas: 'a platform that turns AI into deterministic, auditable software systems for the enterprise'; 'prototypes are easy; production systems are not'; 'the next generation of enterprise application development will be defined by platforms that bridge the gap between AI-driven speed and the governance enterprises cannot compromise on'; y 'fast iteration without sacrificing reliability, in environments where consistency and explainability are non-negotiable'. Difícilmente hay en España un socio con un historial escrito tan alineado con un 'stack de software IA-nativo'.\\n\\nOtros datos útiles para personalizar el contacto: en mayo de 2025 Adara se convirtió en el primer fondo español en entrar en la NVIDIA Inception VC Alliance (cubierto por Expansión y Forbes España); Gómez lo comentó públicamente en LinkedIn subrayando la aceleración de la adopción de IA, especialmente en energía. Adara organiza un Annual Founders Summit (septiembre 2025), una Investor Conference (junio 2025, coincidiendo con sus 20 años) y una AGM (junio 2026), además de co-organizar con CRB Health Tech y GoHub Ventures el Frontier HealthTech Symposium en el Parc Científic de Barcelona. Gómez figura como ponente en 4YFN Barcelona. Sobre el ecosistema español, en su entrevista de noviembre de 2020 fue medido y algo crítico: 'España sigue por detrás de las grandes economías europeas, EE. UU. e Israel en actividad innovadora', aunque destacaba que el capital riesgo gestionado por firmas españolas se cuadruplicó entre 2008-2013 y 2014-2019. En esa misma entrevista definió su terreno de juego como 'Enterprise Digital Tech' (ciberseguridad, infraestructura cloud, software empresarial, analítica de datos, salud digital y componentes hardware) y explicó la lógica de la alianza con Elewit como 'una apuesta importante por el modelo de colaboración entre una corporate y un fondo independiente'.\\n\\nPatrones observables: (1) co-lidera mucho, rara vez va solo —co-inversores recurrentes: Acurio Ventures, Armilar, Tensor Ventures, Addendum, Begin Capital; (2) entra en seed y pre-seed con producto técnico y poco o ningún revenue; (3) su cartera se concentra en ciberseguridad, infraestructura de datos e IA aplicada a entornos regulados; (4) mantiene a las compañías durante ciclos largos —el testimonio destacado en su home dice 'Adara wrote the first check when nobody else would. Then they did something rarer, they stayed'; (5) su vocabulario de defensibilidad es 'defensibility is a spectrum, not a formula'. Riesgo a tener en cuenta: Adara está desplegando AV4 con un equipo que ha crecido (Rocío Pillado, Ross Strachan, Alberto Echeverri, Jorge Barón), y muchas de las operaciones de 2026 las firma Strachan, no Gómez; conviene entrar por Gómez pero saber que el deal podría acabar en otro socio. Español nativo: nació en Caracas, vive en Madrid y da entrevistas en español (capital-riesgo.es / webcapitalriesgo.com), así que no hay ninguna duda de idioma.",
+  "email": "info@adara.vc",
+  "emailStatus": "firm_general_mailbox",
+  "firm": "Adara Ventures",
+  "fitSignals": [
+    "Adara define explícitamente 'Courage' como 'willingness to pioneer before market validation': criterio publicado de invertir antes de validación de mercado",
+    "Tesis publicada: 'as AI commoditises the surface layer of software, value sinks below to the proprietary data, trust, domain depth and physical systems' — busca moat por debajo de la capa de aplicación",
+    "Tres inversiones 2025-2026 en agentes/IA determinista para empresa (TandemTrace, TuringDream, Airflows) y una en dev tools de IA (AppFactor)",
+    "Fondo vigente AV4 recién levantado (primer cierre mar-2025, 95% del objetivo de 100 M€ a cierre de 2025): dinero fresco que desplegar en 2026-2028",
+    "Ticket inicial declarado 500 k€–5 M€ y entradas reales en pre-seed de 2 M€ (Wodan) y seed de 2-6 M€: encaja con una primera ronda pre-tracción",
+    "Filosofía anti-unicornio, pro 'dragons': optimiza fondo devuelto, no métricas de vanidad — compatible con horizonte largo",
+    "Primer VC español en la NVIDIA Inception VC Alliance (may-2025): acceso a cómputo y a la cadena de valor de infraestructura de IA",
+    "20 años sosteniendo compañías: testimonio destacado en su web sobre haber escrito 'the first check when nobody else would'",
+    "Habla y publica en español; base en Madrid; entrevistas en medios españoles"
+  ],
+  "howToReach": [
+    "1) Vía oficial del fondo: typeform de pitch https://adaravc.typeform.com/to/HL6FbYAe y buzón Info@adara.vc.",
+    "2) Intro caliente por cartera: fundadores de TuringDream (Juan Morán, Madrid), Airflows, TandemTrace, Acoru, Stratio, Hdiv Security o 42Crunch — todos hispanohablantes o accesibles desde Madrid.",
+    "3) Eventos: 4YFN / MWC Barcelona (habla en la agenda de speakers), South Summit Madrid, Adara Annual Founders Summit y su Investor Conference (junio), y el Frontier HealthTech Symposium que co-organiza con CRB Health Tech y GoHub.",
+    "4) Ecosistema institucional: SpainCap/ASCRI, COFIDES y FEI son LPs o vecinos de Adara; los medios capital-riesgo.es y webcapitalriesgo.com le entrevistan con regularidad.",
+    "5) Comentar con criterio sus posts de 'Why we invested' en LinkedIn (Adara publica cada tesis de inversión) es el gancho más natural antes de escribir.",
+    "6) Ángulo NVIDIA: Adara pertenece a la Inception VC Alliance; si el stack tiene relación con cómputo o inferencia, es un puente concreto."
+  ],
+  "id": "alberto-gomez",
+  "investmentThesis": [
+    "Deep tech B2B europeo temprano con tesis 'post-IA': cuando la IA comoditiza la superficie del software, el valor baja a datos propietarios, confianza, profundidad de dominio y sistemas físicos.",
+    "Cuatro dominios: Capture (datos y sensórica), Secure (infra de IA fiable), Compute (cómputo de dominio profundo), Connect (sistemas del mundo real).",
+    "Criterios de equipo publicados: Big Vision, Execution, Technical Conviction (arquitectura deliberada que crea ventaja) y Courage ('pioneer before market validation').",
+    "2026: 'prototypes are easy; production systems are not'; le interesa IA que se comporta como software real: determinista, auditable, gobernable."
+  ],
+  "investorType": "institutional_vc",
+  "investorTypeDetail": "VC institucional",
+  "level": 86,
+  "linkedin": "https://es.linkedin.com/in/albertogomezarreaza",
+  "name": "Alberto Gómez",
+  "personalWebsite": "",
+  "priority": "A",
+  "region": "spain",
+  "relevantInvestments": [
+    "Airflows (2026, ronda de 2 M€ liderada por Adara con Armilar; plataforma que convierte IA en software determinista y auditable para empresa) — post firmado por el propio Alberto Gómez; es el caso más cercano al 'stack IA-nativo' del cliente",
+    "TuringDream (2025, seed de 6 M€ co-liderada; plataforma no-code de orquestación multi-agente para empresa, Madrid) — Adara: 'the next wave of enterprise software will run on multi-agent systems'",
+    "TandemTrace (2025, seed co-liderada con Acurio Ventures; agentes de IA autónomos para SOC/SecOps) — post firmado por Alberto Gómez",
+    "AppFactor (feb 2026, seed de 4 M$ co-liderada con Tensor Ventures; plataforma de desarrollo aumentada por IA que moderniza y mantiene software empresarial 'on autopilot') — dev tools puro",
+    "Articul8 (ene 2026, GenAI empresarial de dominio industrial, spin-off de Intel) — infraestructura de IA vertical",
+    "Wodan AI (dic 2025, pre-seed de 2 M€ co-liderada; infraestructura de IA privada con cifrado totalmente homomórfico) — apuesta pre-producto en criptografía avanzada",
+    "AlienVault (exit a AT&T, 2018; ciberseguridad open source) — demuestra recorrido largo y salida grande en infraestructura",
+    "PlayGiga (exit a Facebook, 2019; cloud gaming) — deep tech española con comprador estratégico global",
+    "42Crunch, Hdiv Security, CounterCraft, Constella Intelligence, Stratio — cartera histórica de seguridad e infraestructura de datos B2B",
+    "SatVu (2024, imagen térmica de alta resolución desde satélite) y Quibim (2025, 50 M$ Serie A, IA en imagen médica) — tolerancia a ciclos largos y riesgo técnico"
+  ],
+  "risksOrAlerts": [
+    "El equipo ha crecido y varias operaciones de 2026 (AppFactor) las firma el partner Ross Strachan, no Gómez: el deal puede derivarse a otro socio",
+    "Adara exige convicción técnica y arquitectura deliberada; una demo sin arquitectura defendible se cae rápido en su filtro",
+    "El fondo tiene ahora dos patas (AV4 digital y AVE energía) y una parte notable de la actividad 2024-2025 fue energía/hardware, no software puro",
+    "Email personal no encontrado; la vía oficial es un typeform, lo que reduce la tasa de respuesta sin una intro caliente",
+    "No tiene presencia personal en X ni newsletter propia: menos superficie para un contacto en frío 'cálido'",
+    "Ya tiene en cartera Airflows y TuringDream, que podrían considerarse adyacentes o competidores parciales del stack IA-nativo del cliente (posible conflicto)",
+    "Sesgo declarado hacia mercados regulados y ciberseguridad: un harness de desarrollo genérico debería enmarcarse en gobernanza/fiabilidad para encajar"
+  ],
+  "role": "Cofundador y Founding Partner / Managing Partner",
+  "sources": [
+    "https://www.adara.vc/team/alberto-gomez",
+    "https://www.adara.vc/",
+    "https://www.adara.vc/about",
+    "https://www.adara.vc/stories",
+    "https://www.adara.vc/stories/why-we-invested-in-airflows",
+    "https://www.adara.vc/stories/why-we-invested-in-tandemtrace-secops-ai-agents",
+    "https://www.adara.vc/stories/why-we-invested-in-appfactor",
+    "https://www.adara.vc/stories/announcing-av4",
+    "https://www.adara.vc/stories/year-in-review-2025",
+    "https://www.adara.vc/portfolio/turingdream",
+    "https://www.adara.vc/contact",
+    "https://www.webcapitalriesgo.com/alberto-gomez-managing-partner-de-adara-nuestra-colaboracion-con-elewit-es-una-apuesta-importante-por-el-modelo-de-colaboracion-entre-una-corporate-y-un-fondo-independiente/",
+    "https://signal.nfx.com/investors/alberto-gomez",
+    "https://privateequitylist.com/investors/adara-ventures",
+    "https://www.fundssociety.com/es/noticias/alternativos/adara-ventures-anuncia-el-primer-cierre-de-su-fondo-av4-en-75-millones-de-euros/",
+    "https://siliconcanals.com/madrid-based-turingdream-raises-e6m/",
+    "https://es.linkedin.com/in/albertogomezarreaza"
+  ],
+  "stageAndTicket": [
+    "Pre-seed y seed como núcleo, con capacidad hasta Serie A y growth.",
+    "Ticket inicial 500.000-5.000.000 € (web del fondo); hasta 2,5M€ iniciales en digital.",
+    "Lidera y co-lidera seeds con frecuencia (Airflows, Wodan, TandemTrace, Adcities).",
+    "Dos patas de fondo: AV4 (digital) y AVE (energía)."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Firmó personalmente la entrada de Adara en Airflows (2M€, 2026): 'IA convertida en software determinista y auditable', la tesis del stack IA-nativo.",
+    "Adara respaldó TuringDream (seed 6M€, orquestación multiagente) y TandemTrace (agentes de IA para SecOps): tres precedentes literales.",
+    "Criterio publicado 'Courage: willingness to pioneer before market validation' desactiva la objeción de 'no tenemos usuarios'.",
+    "Ángulo: vender arquitectura (determinismo, auditabilidad, el harness como infraestructura), citando Airflows y TuringDream; preguntar por el solapamiento."
+  ]
+}

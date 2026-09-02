@@ -1,0 +1,139 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Encaje literal: fondo español dedicado 100% a IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), y criterio publicado de 'Architectural Empathy' y moat que no dependa de una API ajena. Reservas: fondo joven de 50M€ que coinvierte más que lidera, email inferido y posible solapamiento con BrainGrid.",
+    "score": {
+      "access": 13,
+      "caps": [],
+      "decision": 17,
+      "otherAspects": -3,
+      "otherAspectsReason": "Posible solapamiento de cartera con BrainGrid (harness de desarrollo IA-nativo).",
+      "raw": 87,
+      "spanish": 15,
+      "stage": 20,
+      "thesis": 25,
+      "total": 87
+    },
+    "status": "reviewed"
+  },
+  "background": "Formada en la Universidad CEU Cardenal Herrera (Valencia). Su carrera empieza en el lado público-institucional: lideró la estrategia de innovación del Ayuntamiento de Valencia (VIT Emprende), alineando intereses públicos y privados para articular la comunidad startup valenciana, y formó parte del equipo fundador de Startup Valencia y del evento VDS (Valencia Digital Summit), del que hoy es Chairwoman y que reúne a más de 12.000 asistentes. Pasó después por Plug and Play. Su etapa clave como inversora fue GoHub Ventures, el fondo corporativo de deep tech de Global Omnium, donde fue Managing Director/Managing Partner y convirtió el vehículo en uno de los más activos de España en software y deep tech (inversiones como NeuralSpace, voice AI, 2022). Acumula más de ocho años en capital riesgo y declara haber gestionado una cartera de más de 100 M$ y acompañado a cientos de emprendedores. En 2024 fundó Next Tier Ventures junto a Rubén Colomer (también ex Plug and Play y ex GoHub) y en diciembre de 2024 cerró la alianza con GVC Gaesco para lanzar Next Tier GVC Gaesco S.C.R., S.A.",
+  "band": "undisputed",
+  "baseCity": "Valencia, España (el fondo opera también desde Miami, EE.UU.)",
+  "confidence": "high",
+  "contactSources": {
+    "email": [
+      "La página de equipo del fondo (https://www.nexttier.vc/team) publica el correo de Jonathan Sultan (Investor Relations) como jonathan.sultan@nexttier.vc, lo que establece el patrón nombre.apellido@nexttier.vc. El correo de Patricia Pastor no aparece publicado en ninguna fuente. Vía alternativa y preferible: el formulario oficial https://www.nexttier.vc/apply.",
+      "Patrón inferido, NO verificado"
+    ],
+    "linkedin": [],
+    "other": [
+      "Web del fondo: https://www.nexttier.vc",
+      "Equipo: https://www.nexttier.vc/team",
+      "Portfolio: https://www.nexttier.vc/portfolio",
+      "Formulario de aplicación: https://www.nexttier.vc/apply",
+      "Blog del fondo: https://www.nexttier.vc/blog",
+      "Crunchbase: https://www.crunchbase.com/person/patricia-pastor",
+      "Entrevista escrita en profundidad (0100 Conferences): https://0100conferences.substack.com/p/next-tier-ventures-building-the-foundations",
+      "Vídeo 'Inteligencia Artificial: un cambio de paradigma': https://www.youtube.com/watch?v=ry8GHm07lX0",
+      "Vídeo 'Cómo piensan los expertos': https://www.youtube.com/watch?v=p5fWEcRjG_c",
+      "Perfil en The Startup Oasis: https://startupsoasis.com/patricia-pastor-next-tier-ventures/",
+      "Embajadora en España de WeInvest (red de +300 mujeres inversoras)"
+    ]
+  },
+  "deepResearch": "Cronología. Patricia Pastor no viene del mundo financiero sino del institucional-emprendedor valenciano. Estudió en la Universidad CEU Cardenal Herrera y su primer papel relevante fue dentro del Ayuntamiento de Valencia, en VIT Emprende, donde su trabajo consistió en alinear intereses públicos y privados para consolidar el principal activo del ecosistema valenciano: su comunidad. De ahí salió el equipo fundador de Startup Valencia (asociación) y del VDS / Valencia Digital Summit, hoy uno de los mayores eventos tecnológicos del sur de Europa con más de 12.000 asistentes, del que sigue siendo Chairwoman. Esa doble condición —inversora y organizadora del evento tech de referencia de su región— es un dato operativo importante: es una persona a la que se puede acceder físicamente una vez al año sin necesidad de intro.\n\nDe ahí pasó a Plug and Play y después a GoHub Ventures, el fondo corporativo de deep tech de Global Omnium (grupo del agua con sede en Valencia), donde fue Managing Director / Managing Partner. GoHub se convirtió durante su etapa en uno de los inversores más activos de España en software y deep tech, con un programa de aceleración propio para startups deep tech y operaciones internacionales como la entrada en NeuralSpace (voice AI, Reino Unido, 2022), que ella misma anunció públicamente en LinkedIn. Su experiencia acumulada declarada es de más de ocho años en VC y una cartera gestionada superior a los 100 M$. Es también embajadora en España de WeInvest, la red de más de 300 mujeres inversoras.\n\nEl salto a gestora propia. En 2024 funda Next Tier Ventures con Rubén Colomer (también ex Plug and Play y ex GoHub, descrito en la web del fondo como 'tech entrepreneur turned investor. Focused on AI infrastructure and B2B SaaS'). El 2 de diciembre de 2024 se anuncia la alianza con GVC Gaesco, la casa de valores catalana, para lanzar Next Tier GVC Gaesco S.C.R., S.A. La CNMV aprueba el vehículo el 3 de diciembre de 2024. Es, según varias fuentes, el primer fondo español regulado dedicado en exclusiva a IA. El tamaño objetivo es de 50 M€ (con una fase inicial de captación de 30 M€), el mandato es hacer entre 30 y 35 operaciones en startups B2B de IA, y la geografía cubre Europa, Estados Unidos y Latinoamérica —con base operativa dual Valencia-Miami. Un rasgo poco habitual: el fondo se comercializa también a inversores retail desde 10.000 €, apalancando la red de distribución de GVC Gaesco. Por el lado de GVC Gaesco el interlocutor es Paco Illueca, Director de Inversiones, que figura en la página de equipo del fondo, junto a Silvia Solé; Illueca declaró que 'nuestra asociación con Next Tier Ventures representa un paso más en la firme apuesta de GVC Gaesco por el capital riesgo'. Pastor, en el mismo anuncio: 'Esta tecnología va a desarrollar el mundo más rápido y mejor. Va a cambiar nuestras formas de trabajar'. El equipo se completa con Roger Almuni (Principal) y Jonathan Sultan (Investor Relations), y —detalle revelador de su propio discurso— con 'Nexty', un agente de IA listado en la página de equipo como 'AI Operations', encargado de 'handling the repetitive and dirty work so the humans can focus on strategy'. Es decir: usan agentes internamente y lo publicitan.\n\nEn enero de 2026 llega la validación institucional: la SETT (Sociedad Española para la Transformación Tecnológica), dependiente del Ministerio para la Transformación Digital y de la Función Pública, entra como partícipe con 9,5 M€. Es un espaldarazo público que confirma que el vehículo está efectivamente desplegando.\n\nPortfolio y patrón de inversión. La cartera publicada en nexttier.vc/portfolio a fecha de esta investigación incluye doce compañías, y el patrón es inequívocamente 'IA como núcleo' con una mezcla de aplicaciones verticales e infraestructura: SalesBlue (AI salestech para seguros), HealthForce (fuerza de trabajo digital gestionada para automatizar flujos administrativos hospitalarios en Europa), Onevisa (sistema operativo de IA para visados de estudiante), Symbe (inteligencia de decisión para equipos GTM), Dimenso (IA ambiental que sustituye la documentación manual de laboratorio con captura de voz y visión en tiempo real), Modelia (generación de imagen/vídeo hiperrealista para moda), Lucida AI (edtech conversacional), Wio Capital (fintech de gestión automatizada de patrimonios; ronda de 1,2 M€ colideradas por Next Tier Ventures y Bynd VC), Turing Dream (tutor de IA 'Tau'), Nilo (motor de videojuegos que genera objetos 3D y aplica física por comandos de voz) y, sobre todo para el caso del cliente: BrainGrid y Optiak. BrainGrid levantó 1 M$ de pre-seed anunciado el 24 de marzo de 2026, liderado por Menlo Ventures y con participación de Next Tier Ventures y Brainstorm Ventures; su pitch es que 'con el código ya resuelto por la IA, el cuello de botella para construir software se ha desplazado a la planificación', y son la capa de planificación estructurada para construir productos SaaS IA-nativos —había ayudado a más de 500 builders a lanzar productos. Optiak es una capa de orquestación empresarial que unifica modelos, agentes y sistemas corporativos fragmentados y automatiza la gobernanza y la selección de modelos. Coinvertir con Menlo Ventures en pre-seed y respaldar una capa de orquestación de agentes son las dos señales más fuertes de todo el expediente.\n\nDeclaraciones públicas. La fuente más útil es su entrevista con 0100 Conferences, 'Next Tier Ventures: Building the Foundations of the AI-Native Economy'. Allí articula cuatro tesis: (1) obsesión full-stack —los ganadores combinan pericia en modelos con dominio de infraestructura y excelencia operativa: 'being a model expert is a great start, but we back leaders who think deeply about infrastructure and operational excellence'; (2) orquestación y verticalización —la oportunidad real está en la selección inteligente de modelos y en aplicaciones verticales; (3) edge intelligence y soberanía —computación distribuida y rendimiento soberano como próxima frontera, con la idea de que los fundadores deben ayudar a las empresas a dejar de 'alquilar' su tecnología núcleo y convertirla en IP estratégica; (4) automatización de operaciones internas en sectores tradicionales (logística, sanidad, sector público) como el vertical infravalorado. Considera sobrecapitalizados los copilotos horizontales genéricos y las aplicaciones prematuras de AGI. Su definición de moat es directa: 'If a company's only advantage is access to a specific model or API, it is very difficult to build a durable business'. Y su criterio para juzgar a un equipo pre-seed sin métricas es 'Architectural Empathy': fundadores 'brillantes diseñando para escala y control de coste desde el día uno'. También ha hablado en el II Forum on Artificial Intelligence de Alicante (Encuentros NOW, septiembre 2024) sobre educación, ciberseguridad y el coste ambiental de la IA, y participó el 5 de junio de 2025 en un panel de South Summit sobre cómo la IA transforma la escala empresarial. Un matiz práctico que ha defendido públicamente: el cumplimiento del RGPD y del AI Act se ha convertido en una ventaja competitiva en la venta enterprise europea, porque las corporaciones globales prefieren software europeo por sus garantías de seguridad y cumplimiento.\n\nControversias: no se han encontrado. Riesgo real: fondo joven y de tamaño medio-bajo, con capacidad limitada de seguir rondas grandes.",
+  "email": "patricia.pastor@nexttier.vc",
+  "emailStatus": "inferred_pattern",
+  "firm": "Next Tier Ventures / Next Tier GVC Gaesco, S.C.R., S.A. (gestora conjunta con GVC Gaesco)",
+  "fitSignals": [
+    "Mandato explícito de pre-seed y seed: el fondo está estructurado para 30-35 operaciones desde fase inicial, no para comprar tracción",
+    "Cita textual sobre cómo juzga equipos sin métricas: 'What truly sets a pre-seed or seed team apart today is Architectural Empathy... brilliant at designing for scale and cost-control from day one'",
+    "Cita textual sobre moat: 'We invest in defensible architectures... where AI isn't just an add-on, but the very DNA of the system'",
+    "Rechaza explícitamente los copilotos horizontales genéricos como categoría sobrecapitalizada: busca diferenciación arquitectónica, no adopción rápida",
+    "Ya tiene en cartera BrainGrid (herramienta de desarrollo de software IA-nativo) y Optiak (orquestación de modelos y agentes): las dos categorías del cliente",
+    "Coinvierte con fondos americanos de primer nivel en pre-seed (Menlo Ventures en BrainGrid), lo que indica criterio técnico y acceso a rondas posteriores",
+    "Su propio equipo usa un agente de IA ('Nexty', AI Operations) publicado en la página de equipo: entiende el producto por uso propio",
+    "Respaldo público de la SETT (9,5 M€, enero 2026) y de FondICO-adyacentes: capital paciente con horizonte largo, no presión de retorno rápido",
+    "Fondo con base en Valencia y equipo hispanohablante nativo: todo el proceso se puede hacer en español",
+    "Habla de un futuro donde 'la IA no solo asiste a los humanos, sino que orquesta servidores de forma independiente': visión de agentes autónomos en infraestructura"
+  ],
+  "howToReach": [
+    "Formulario oficial del fondo: https://www.nexttier.vc/apply (la propia gestora lo señala como canal de entrada y promete respuesta en semanas)",
+    "VDS / Valencia Digital Summit: es la Chairwoman del evento; asistir y pedir reunión allí es la vía de acceso físico más natural (Valencia, anual)",
+    "South Summit (Madrid): participó como panelista el 5 de junio de 2025 en un panel sobre IA y escala empresarial",
+    "Intro vía portfolio: los fundadores de BrainGrid y Optiak son los referentes más relevantes; también Wio Capital, coinvertida con Bynd VC",
+    "Coinversores para intro indirecta: Menlo Ventures, Brainstorm Ventures, Bynd VC",
+    "Rubén Colomer (cofundador y GP, https://www.linkedin.com/in/rubencolomer) es el socio con foco declarado en 'AI infrastructure and B2B SaaS': para un pitch de infraestructura puede ser mejor primer contacto que ella",
+    "Jonathan Sultan (Investor Relations, jonathan.sultan@nexttier.vc) es el único email publicado del equipo y puede servir de puerta",
+    "Ecosistema Startup Valencia y red WeInvest (es embajadora en España)",
+    "Paco Illueca y Silvia Solé (GVC Gaesco) para el ángulo institucional"
+  ],
+  "id": "patricia-pastor",
+  "investmentThesis": [
+    "B2B early-stage donde la IA es el ADN del sistema: 'We invest in defensible architectures... where AI isn't just an add-on'.",
+    "Rechaza copilotos horizontales genéricos y AGI prematura; infravalorada la automatización de operaciones internas.",
+    "'Architectural Empathy': equipos que diseñan para escala y control de costes desde el día uno; 'being a model expert is a great start, but we back leaders who think deeply about infrastructure'.",
+    "IA soberana: dejar de 'alquilar' la tecnología núcleo; un futuro donde la IA 'orquesta servidores de forma independiente'."
+  ],
+  "investorType": "institutional_vc",
+  "investorTypeDetail": "VC institucional",
+  "level": 87,
+  "linkedin": "https://www.linkedin.com/in/patriciapastorg/",
+  "name": "Patricia Pastor",
+  "personalWebsite": "",
+  "priority": "A",
+  "region": "spain",
+  "relevantInvestments": [
+    "BrainGrid (2026, pre-seed 1 M$ liderado por Menlo Ventures con Next Tier Ventures y Brainstorm Ventures; capa de planificación estructurada para construir software SaaS AI-native) — es literalmente un harness de desarrollo con IA; el encaje conceptual con el producto del cliente es directo",
+    "Optiak (portfolio actual; capa de orquestación empresarial que unifica modelos, agentes y sistemas corporativos fragmentados, con gobernanza y selección automática de modelos) — infraestructura de agentes, la categoría exacta del cliente",
+    "Wio Capital (2025-2026, ronda de 1,2 M€ colíder junto a Bynd VC; automatización de gestión de patrimonios con IA) — demuestra que lidera rondas, no solo acompaña",
+    "Nilo (portfolio actual; motor de videojuegos que genera objetos 3D y aplica física por comandos de voz) — apuesta por infraestructura generativa profunda, no por aplicaciones de superficie",
+    "Dimenso (portfolio actual; IA ambiental de captura de voz y visión en tiempo real que sustituye la documentación manual de laboratorio) — deep tech aplicado con componente de modelo propio",
+    "HealthForce (portfolio actual; fuerza de trabajo digital gestionada que automatiza flujos administrativos y operativos en hospitales europeos) — 'agentes que hacen el trabajo', su tesis de automatización de operaciones internas",
+    "NeuralSpace (2022, desde GoHub Ventures; voice AI para idiomas de bajos recursos, Reino Unido) — histórico de deep tech de infraestructura de IA anterior a la moda"
+  ],
+  "risksOrAlerts": [
+    "Fondo pequeño y joven (50 M€ objetivo, primer vehículo de la gestora, CNMV dic 2024): capacidad limitada para liderar rondas grandes o seguir en Serie A+",
+    "El ticket medio comprometido (~1,4-1,7 M€) incluye follow-on; el primer cheque real en pre-seed puede ser de unos pocos cientos de miles de euros",
+    "Mandato declarado 'B2B': el cliente debe encuadrar su producto como venta a empresas y no como herramienta de desarrollador de consumo",
+    "Sesgo declarado hacia verticalización y automatización de operaciones internas en sectores tradicionales; un stack horizontal puede chocar con su crítica a los 'copilotos horizontales genéricos' si no se posiciona bien",
+    "Estructura con GVC Gaesco y distribución retail: puede implicar comités de inversión más formales y tiempos más largos que un fondo puramente de founders",
+    "Email personal no verificado; solo hay patrón inferido y formulario público",
+    "Parte del capital procede de la SETT (dinero público con criterios de arraigo en España): conviene verificar requisitos de domicilio o actividad en España antes de invertir tiempo"
+  ],
+  "role": "Cofundadora y General Partner. Además Chairwoman de VDS (Valencia Digital Summit) y miembro del equipo fundador de Startup Valencia",
+  "sources": [
+    "https://www.nexttier.vc",
+    "https://www.nexttier.vc/team",
+    "https://www.nexttier.vc/portfolio",
+    "https://www.nexttier.vc/blog/patricia-pastor-alicante-forum",
+    "https://0100conferences.substack.com/p/next-tier-ventures-building-the-foundations",
+    "https://blog.gvcgaesco.es/fondo-startups-inteligencia-artificial/",
+    "https://blog.gvcgaesco.es/next-tier-gvc-gaesco-sociedad-espanola-transformacion-tecnologica/",
+    "https://valenciaplaza.com/valenciaplaza/plaza-innovacion/next-tier-gvc-gaesco-suma-como-participe-a-la-sociedad-espanola-para-la-transformacion-tecnologica-que-invierte-95-millones-de-euros",
+    "https://elreferente.es/venture-capital/la-sett-destina-95-millones-de-euros-a-next-tier-gvc-gaesco/",
+    "https://capital-riesgo.es/en/articles/next-tier-ventures-invests-in-braingrid-the-platform-turning-ideas-into-structured-plans-for-ai-native-software-development/",
+    "https://www.prnewswire.com/news-releases/braingrid-raises-1m-pre-seed-led-by-menlo-ventures-to-build-the-ai-product-planner-for-non-technical-founders-302722951.html",
+    "https://capital-riesgo.es/es/articles/next-tier-ventures-y-bynd-vc-lideran-una-inversi-n-de-1-2-millones-en-wio-capital-para-automatizar-la-gesti-n-de-patrimonios-con-ia/",
+    "https://startupsoasis.com/patricia-pastor-next-tier-ventures/",
+    "https://superscout.co/investor/next-tier-ventures",
+    "https://startupvalencia.org/patricia-pastor-gohub/",
+    "https://www.crunchbase.com/person/patricia-pastor",
+    "https://www.linkedin.com/in/patriciapastorg/",
+    "https://www.elespanol.com/invertia/mis-finanzas/fondos-de-inversion/20241202/gvc-gaesco-next-tier-ventures-asocian-lanzan-fondo-invertir-startups-ia/905659900_0.html",
+    "https://infonegociosvalencia.es/nota-principal/next-tier-se-lanza-a-captar-30-millones-de-euros-para-respaldar-nuevas-startups-en-ia-liderado-por-ruben-colomer-y-patricia-pastor",
+    "https://x.com/GVCGaesco/status/1928043753295466940",
+    "https://ecosistemastartup.com/patricia-pastor-y-next-tier-ventures-el-oasis-de-las-startups/"
+  ],
+  "stageAndTicket": [
+    "Pre-seed y seed como núcleo, con capacidad hasta Serie A.",
+    "Fondo objetivo 50M€ (30M€ en captación inicial) para 30-35 operaciones; ~1,4-1,7M€ comprometidos por compañía con follow-on; primer cheque menor (BrainGrid: ronda total de 1M USD como coinversora).",
+    "SETT entró con 9,5M€ (ene-2026); accesible a retail desde 10.000 €."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Cartera con las dos categorías del cliente: BrainGrid ('capa de planificación estructurada para construir software AI-native') y Optiak ('capa de orquestación que unifica modelos, agentes y sistemas').",
+    "Pre-seed por mandato: 30-35 operaciones desde fase inicial; criterio 'Architectural Empathy' (diseñar para escala y coste desde el día uno).",
+    "Su principal riesgo declarado es la ausencia de moat: 'si la única ventaja es acceso a un modelo o API, es muy difícil construir un negocio durable'.",
+    "Ángulo: en español desde Valencia, por la puerta de BrainGrid/Optiak ('vuestra tesis de arquitectura defendible aplicada al stack completo'); formulario del fondo y VDS."
+  ]
+}

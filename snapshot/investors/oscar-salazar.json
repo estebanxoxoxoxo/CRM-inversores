@@ -1,0 +1,125 @@
+{
+  "audit": {
+    "date": "2026-09-02",
+    "reason": "Evidencia limpia de apuesta deep tech pre-tracción: puso su nombre en Qbeast (spin-off del BSC, indexación open source) y Giskard (testing open source de modelos) cuando no había categoría; arquitecto original de Uber, mexicano. Pero cuatro o cinco operaciones en cinco años (última 2024), sin vehículo, ticket desconocido, sin LinkedIn ni email, y dedicación a Consello.",
+    "score": {
+      "access": 6,
+      "caps": [],
+      "decision": 8,
+      "otherAspects": -3,
+      "otherAspectsReason": "Cadencia baja: última inversión confirmada en junio de 2024.",
+      "raw": 65,
+      "spanish": 15,
+      "stage": 17,
+      "thesis": 22,
+      "total": 65
+    },
+    "status": "reviewed"
+  },
+  "background": "Mexicano. Licenciado en Ciencias por la Universidad de Colima (México), M.Sc. en Ingeniería Eléctrica y de Computación por la University of Calgary (Canadá) y doctorado en Telecomunicaciones por ParisTech (Francia). Fue el Founding CTO y tercer cofundador de Uber junto a Garrett Camp y Travis Kalanick: construyó los prototipos de la app de pasajero, la de conductor y el motor de despacho, y diseñó la arquitectura inicial. Salió de Uber poco después del lanzamiento. Fundó Citivox (plataforma para que ONG y ciudadanos reporten fraude electoral, crimen y problemas de infraestructura), Pager (telemedicina bajo demanda, 'el Uber de la salud') y RIDE (carpooling corporativo). Ha sido inversor, asesor o fundador en Pager, Rubicon Global, Cornershop, Voyager Digital, Frete.com, Socure, Clover Health y Halan (Egipto, donde además entró al consejo). Ocupa asientos de consejo en Cargo X, Rubicon, nirvanaHealth y Food Delivery Brands (matriz de Telepizza). Desde febrero de 2023 es Partner de Consello y Presidente de Consello Tech, el brazo tecnológico del grupo de asesoría financiera fundado por Declan Kelly, donde dirige la construcción de plataformas de ML y IA generativa para asesoría de inversión.",
+  "band": "high_potential",
+  "baseCity": "Nueva York, EE.UU. (origen mexicano; actividad entre EE.UU., México, Brasil y Europa)",
+  "confidence": "medium",
+  "contactSources": {
+    "email": [
+      "https://consello.com/leaders/oscar-salazar/ publica únicamente el buzón corporativo info@consello.com. No hay email personal en ninguna fuente pública (web del fondo, prensa, papers, fichas de conferenciante). No se propone patrón porque Consello no publica direcciones nominales de ningún socio.",
+      "No encontrado. El único buzón público asociado es el genérico del fondo: (Consello, 590 Madison Avenue, Nueva York, NY 10022; tel. +1 212-884-9304"
+    ],
+    "linkedin": [],
+    "other": [
+      "Ficha en el fondo: https://consello.com/leaders/oscar-salazar/",
+      "Nota de nombramiento: https://consello.com/news/consello-appoints-oscar-salazar-president-of-consello-tech/",
+      "The Org: https://theorg.com/org/consello/org-chart/oscar-salazar",
+      "Crunchbase: https://www.crunchbase.com/person/oscar-salazar",
+      "CB Insights: https://www.cbinsights.com/investor/oscar-salazar",
+      "PitchBook: https://pitchbook.com/profiles/investor/135958-51",
+      "Ficha de conferenciante (ES): https://www.divulga.com.mx/conferencista/oscar-salazar/",
+      "World Retail Congress 2026: https://www.worldretailcongress.com/speakers/oscar-salazar",
+      "LinkedIn personal no localizado en fuentes públicas (verificado por el orquestador)."
+    ]
+  },
+  "deepResearch": "Óscar Salazar Gaitán tiene credenciales técnicas de primer nivel y evidencia concreta de invertir en infraestructura profunda antes de que exista mercado.\n\nFormación y origen. Es mexicano. Se licenció en la Universidad de Colima, hizo un M.Sc. en Ingeniería Eléctrica y de Computación en la University of Calgary y un doctorado en Telecomunicaciones en ParisTech. Tres países, tres idiomas de trabajo. La prensa mexicana lo trata como figura propia: 'El cofundador mexicano de Uber: Oscar Salazar' (Breaking, 2019), y aparece en catálogos de conferenciantes en español (divulga.com.mx). En esas piezas ha sostenido que ve un gran potencial para construir negocios tecnológicos innovadores en América Latina y que la IA será la punta de lanza de la disrupción en transporte, educación y salud.\n\nUber. Fue el Founding CTO y arquitecto original. Se le atribuye la construcción de los prototipos de la aplicación de pasajero, la de conductor y el motor de despacho, además del diseño de la arquitectura y de la experiencia de usuario. Se marchó poco después del lanzamiento. Este hecho es relevante para el contacto: su identidad pública no es la de un inversor financiero sino la de la persona que escribió el primer sistema distribuido que funcionó a escala mundial.\n\nEmprendimiento posterior. Fundó Citivox, plataforma para reportar y monitorizar fraude electoral, crimen y problemas de infraestructura, usada por ONG e individuos —una apuesta de impacto con raíz mexicana. Después fundó Pager, telemedicina bajo demanda en Nueva York, y RIDE, carpooling corporativo. Ha sido inversor, asesor o fundador en Pager, Rubicon Global, Cornershop, Voyager Digital, Frete.com, Socure, Clover Health y Halan (Egipto, donde entró además en el consejo; https://www.menabytes.com/oscar-salazar-halan/). Mantiene asientos de consejo en Cargo X, Rubicon, nirvanaHealth y Food Delivery Brands, la matriz de Telepizza —nombramiento cubierto por Forbes España (https://forbes.es/nombramientos/96143/).\n\nRol actual. Desde el 15 de febrero de 2023 es Partner de Consello y Presidente de Consello Tech (https://consello.com/news/consello-appoints-oscar-salazar-president-of-consello-tech/). Consello es un grupo de asesoría estratégica y financiera con sede en Nueva York; Consello Tech es su entidad tecnológica centralizada, con un stack propio diseñado por tecnólogos, científicos de datos e ingenieros. En el comunicado Salazar declara: 'Predictive analytics and strategic use of data science and machine learning is required to change the face of financial and advisory services' y 'Consello Tech is developing and implementing core systems and platforms at the center of the company that will not only inform and improve the efficiency of all these divisions, but will create momentum to scale and advance this industry.' Sigue apareciendo en 2026 en el circuito de conferencias con esa titularidad (World Retail Congress 2026). Consello no es un fondo de venture: es una firma de asesoría, así que su actividad de inversión sigue siendo personal, no institucional.\n\nCartera de inversión y evidencia deep tech. CB Insights le contabiliza 16 inversiones; PitchBook, 21. Los registros públicos con detalle son:\n\n— Giskard (15 de diciembre de 2022, seed de 1,5 M €, liderada por Elaia con Bessemer Venture Partners). Giskard es 'the first collaborative & open-source software platform to ensure the quality of AI models': testing, auditoría y control de sesgo y robustez para modelos de NLP y visión. El resto de ángeles de la ronda es un quién es quién técnico europeo: Julien Chaumond (CTO de Hugging Face), Charles Gorintin (CTO de Alan), Vincent Huguet (CEO de Malt), Nick Hernandez (CEO de 360Learning), Christine Balagué (Good in Tech), Nathalie Gaveau (PriceMinister), Chris Schagen (ex-CMO de Contentful), Victor Coisne (Strapi). Es una ronda de 1,5 M € en una categoría —evaluación y guardrails de modelos— que en diciembre de 2022 prácticamente no existía comercialmente. Fuente: https://www.giskard.ai/knowledge/news-fundraising-2022\n\n— Qbeast (23 de febrero de 2023, seed de 2,5-2,65 M €, liderada por Elaia con Inveready y Sabadell Venture Capital). Qbeast es un spin-off del Barcelona Supercomputing Center que construye una solución open source de indexación multidimensional para data lakes, con métricas de 68 % más rapidez de ejecución y hasta 50x en cargas de muestreo. El titular de Tech.eu fue literalmente 'Uber's founding CTO is backing Qbeast's data lake engineering platform' (https://tech.eu/2023/02/23/qbeast/), lo que indica que su participación se usó como señal de validación técnica de la ronda. Es una compañía nacida en un centro de supercomputación, con clientes piloto y cero escala: el arquetipo de la apuesta pre-tracción con moat científico.\n\n— Constrafor (software para construcción), Stellar (seed VC, 12 de junio de 2024, 2,2 M USD, junto a Human Capital, Ramin Arani y Sean Parker) y otras 11 posiciones no desveladas públicamente en CB Insights. Un exit registrado: Voyager Digital.\n\nPatrón observable. Repite con Elaia (fondo francés) en dos rondas seguidas de infraestructura open source europea; repite con equipos salidos de investigación; y repite con compañías cuyo producto es una capa técnica invisible al usuario final (indexación, testing de modelos, identidad, riesgo). Los coinversores recurrentes son fondos europeos de deep tech (Elaia, Inveready, Sabadell VC, Bessemer) y CTOs de compañías técnicas de referencia. No hay evidencia de que exija métricas de uso.\n\nRelación con el ecosistema hispanohablante. Es nativo. Ha invertido en dos compañías españolas o con raíz española (Qbeast en Barcelona, Food Delivery Brands/Telepizza en el consejo), en Cornershop (Chile/México), en Frete.com (Brasil) y en Halan (Egipto). Da conferencias en español en México y aparece con regularidad en prensa mexicana y española (Forbes España, Whitepaper/Breaking). Es, de largo, el puente más natural entre un equipo hispanohablante y una red de infraestructura internacional.\n\nRiesgos. Su cadencia de inversión es baja e irregular: los registros públicos muestran cuatro o cinco operaciones documentadas en cinco años y la última confirmada es de junio de 2024. Su tiempo principal está en Consello Tech, una firma de asesoría financiera, no en venture. No tiene vehículo, ni tesis publicada, ni proceso de entrada para fundadores: no hay formulario, ni newsletter, ni programa. No se ha localizado su perfil de LinkedIn (hay homónimos que no son él) ni ningún email personal. Y su interés declarado se orienta a transformación digital de industrias legacy (transporte, logística, salud, finanzas, residuos), lo que puede hacer que un stack IA-nativo horizontal le resulte menos concreto que una aplicación vertical. En resumen: encaje temático excelente, accesibilidad y cadencia débiles. Por eso prioridad B y no A.\n\nControversias: ninguna relevante. Su salida temprana de Uber lo mantuvo fuera de las crisis reputacionales de la compañía.",
+  "email": "info@consello.com",
+  "emailStatus": "firm_general_mailbox",
+  "firm": "Consello / Consello Tech (Nueva York) — inversión ángel a título personal",
+  "fitSignals": [
+    "Dos inversiones seed consecutivas (2022 y 2023) en infraestructura open source de datos e IA sin tracción comercial: Giskard y Qbeast",
+    "Doctor en Telecomunicaciones y arquitecto del sistema original de Uber: puede evaluar arquitectura sin necesitar métricas de uso",
+    "Su nombre se usa en prensa como sello de validación técnica de la ronda ('Uber's founding CTO is backing Qbeast')",
+    "Coinvierte de forma recurrente con fondos deep tech europeos (Elaia, Inveready, Sabadell VC, Bessemer) y con CTOs de compañías de infraestructura",
+    "Apuesta declarada por la IA como disrupción estructural en transporte, educación y salud, y por 'predictive analytics, data science and machine learning' como núcleo de su rol actual",
+    "Historial de invertir en compañías de origen no estadounidense: España, Brasil, Chile/México, Egipto",
+    "Hablante nativo de español con presencia mediática recurrente en México y España"
+  ],
+  "howToReach": [
+    "Vía Elaia Partners (París), fondo con el que ha coinvertido dos veces seguidas en deep tech open source: es su coinversor más recurrente y la ruta más probable de intro cálida",
+    "Vía los fundadores de Qbeast (Cesare Cugnasco) o Giskard (Alex Combessie, Jean-Marie John-Mathews) — ambas compañías europeas de infraestructura open source con equipos accesibles",
+    "Vía el Barcelona Supercomputing Center y su red de spin-offs, si hay algún vínculo académico o de ecosistema español",
+    "Inveready y Sabadell Venture Capital (España), coinversores en Qbeast",
+    "Circuito de conferencias: World Retail Congress 2026, ponencias universitarias en EE.UU. (University of Southern Indiana, University of Iowa) y catálogos de conferenciantes en español (divulga.com.mx)",
+    "Buzón corporativo de Consello: info@consello.com (Consello, 590 Madison Avenue, Nueva York) — vía fría y de baja probabilidad",
+    "Ecosistema mexicano: prensa y comunidades donde aparece con regularidad (Whitepaper.mx, Endeavor México, Contxto)"
+  ],
+  "id": "oscar-salazar",
+  "investmentThesis": [
+    "Sin tesis escrita; patrón nítido: semilla en infraestructura de datos e IA de base científica y open source, antes de clientes de referencia.",
+    "Qbeast (seed 2,5M€ liderada por Elaia, 2023) y Giskard (1,5M€ liderada por Elaia con Bessemer, 2022).",
+    "Discurso: transformación digital de industrias legacy; 'predictive analytics and strategic use of data science and ML' como motor de cambio."
+  ],
+  "investorType": "business_angel",
+  "investorTypeDetail": "Business angel",
+  "level": 65,
+  "linkedin": "",
+  "name": "Oscar Salazar Gaitán",
+  "personalWebsite": "",
+  "priority": "B",
+  "region": "us_hispanic",
+  "relevantInvestments": [
+    "Qbeast (feb-2023, seed 2,5-2,65 M €, indexación open source para data lakes, spin-off del Barcelona Supercomputing Center) — deep tech puro, español, open source, sin escala comercial; su nombre encabezó el titular de prensa de la ronda",
+    "Giskard (dic-2022, seed 1,5 M €, plataforma open source de testing/QA y guardrails de modelos de IA) — invirtió en evaluación de modelos antes de que la categoría existiera; coinvirtió con Julien Chaumond (CTO de Hugging Face) y Charles Gorintin (CTO de Alan)",
+    "Constrafor (software B2B para construcción) — infraestructura de software vertical en fase temprana",
+    "Stellar (jun-2024, seed VC 2,2 M USD, junto a Human Capital, Ramin Arani y Sean Parker) — su inversión documentada más reciente",
+    "Socure (identidad digital y verificación con ML) — infraestructura de riesgo basada en modelos",
+    "Halan (Egipto, ride-hailing y fintech; entró también al consejo) — apuesta en mercado emergente pre-escala",
+    "Cornershop (LatAm), Frete.com (Brasil), Rubicon Global, Clover Health, Voyager Digital (exit), Pager (fundador) — cartera más amplia, mayoritariamente marketplaces e industrias legacy digitalizadas"
+  ],
+  "risksOrAlerts": [
+    "Cadencia de inversión baja: solo cuatro o cinco operaciones documentadas públicamente en cinco años; la última confirmada es de junio de 2024",
+    "No tiene vehículo, fondo, tesis publicada ni proceso de entrada para fundadores: no hay formulario, programa ni newsletter",
+    "Su dedicación principal desde 2023 es Consello Tech, una firma de asesoría estratégica y financiera, no venture capital",
+    "Ticket no confirmado en ninguna fuente pública",
+    "Perfil de LinkedIn no localizado (los resultados con ese nombre corresponden a homónimos); tampoco hay email personal público",
+    "Su interés declarado se orienta a transformación digital de industrias legacy (transporte, logística, salud, finanzas, residuos): un stack IA-nativo horizontal puede resultarle menos tangible",
+    "Ocupa cuatro asientos de consejo y una presidencia ejecutiva: ancho de banda muy limitado",
+    "No lidera rondas ni fija términos: aporta señal y red, no cierra una financiación"
+  ],
+  "role": "Partner de Consello y Presidente de Consello Tech; business angel y asesor. Founding CTO de Uber",
+  "sources": [
+    "https://consello.com/leaders/oscar-salazar/",
+    "https://consello.com/news/consello-appoints-oscar-salazar-president-of-consello-tech/",
+    "https://tech.eu/2023/02/23/qbeast/",
+    "https://www.giskard.ai/knowledge/news-fundraising-2022",
+    "https://www.cbinsights.com/investor/oscar-salazar",
+    "https://www.crunchbase.com/person/oscar-salazar",
+    "https://pitchbook.com/profiles/investor/135958-51",
+    "https://www.worldretailcongress.com/speakers/oscar-salazar",
+    "https://theorg.com/org/consello/org-chart/oscar-salazar",
+    "https://www.usi.edu/news/releases/2017/01/uber-co-founder-and-serial-entrepreneur-oscar-salazar-to-present-at-usis-romain-college-of-business-speaker-series",
+    "https://www.menabytes.com/oscar-salazar-halan/",
+    "https://forbes.es/nombramientos/96143/oscar-salazar-uber-se-une-al-consejo-de-la-matriz-de-food-delivery-brands-para-apoyar-su-transformacion-digital/",
+    "https://breaking.com.mx/2019/05/el-cofundador-mexicano-de-uber-oscar-salazar/",
+    "https://www.bsc.es/news/bsc-news/qbeast-raises-%E2%82%AC25m-make-data-lakes-fast-and-easy-use"
+  ],
+  "stageAndTicket": [
+    "Pre-seed y seed como ángel en rondas de 1,5-3M USD lideradas por fondos europeos o latinoamericanos.",
+    "Ticket no publicado (previsiblemente decenas de miles de USD); nunca lidera.",
+    "16-21 inversiones según CB Insights y PitchBook; última confirmada junio de 2024."
+  ],
+  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "whyInteresting": [
+    "Qbeast y Giskard: infraestructura open source de datos e IA, financiada antes de clientes de referencia; su nombre encabezó las notas de prensa.",
+    "Doctor en telecomunicaciones y arquitecto del sistema original de Uber: evalúa arquitectura sin pedir usuarios.",
+    "Español nativo con presencia mediática en México y España.",
+    "Ángulo: diagrama del harness y por qué el stack actual no escala, replicando el marco 'open source que mejora la capa de datos' que ya compró dos veces."
+  ]
+}

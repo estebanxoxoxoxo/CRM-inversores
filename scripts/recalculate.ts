@@ -9,16 +9,7 @@
 import { collection, doc, getDocs, writeBatch, type Firestore } from "firebase/firestore";
 import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src/types/investor";
 import { connect, explainError } from "./lib/firestore";
-
-/** JSON with object keys sorted, so documents compare equal regardless of key order. */
-function stableStringify(value: unknown): string {
-  if (Array.isArray(value)) return `[${value.map(stableStringify).join(",")}]`;
-  if (value && typeof value === "object") {
-    const entries = Object.entries(value as Record<string, unknown>).sort(([a], [b]) => a.localeCompare(b));
-    return `{${entries.map(([key, item]) => `${JSON.stringify(key)}:${stableStringify(item)}`).join(",")}}`;
-  }
-  return JSON.stringify(value);
-}
+import { sortKeys } from "./lib/json";
 
 export interface RecalculateResult {
   investors: Investor[];
@@ -43,7 +34,7 @@ export async function recalculateAll(db: Firestore): Promise<RecalculateResult> 
       const { updatedAt: _derived, ...derivedRest } = investor;
       void _stored;
       void _derived;
-      if (stableStringify(storedRest) !== stableStringify(derivedRest)) {
+      if (JSON.stringify(sortKeys(storedRest)) !== JSON.stringify(sortKeys(derivedRest))) {
         batch.set(doc(db, COLLECTION, investor.id), { ...investor, updatedAt: now });
         rewritten++;
         if (++batched >= 400) {

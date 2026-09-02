@@ -101,6 +101,8 @@ export const InversorSchema = z.object({
   tipo_inversor_detalle: z.string(),
   etapa_y_ticket: z.array(z.string()),
   linkedin: z.union([z.url(), z.literal("")]),
+  /** Sitio, blog o newsletter que controla la propia persona (nunca la web del fondo). Vacío si no se localizó. */
+  web_personal: z.union([z.url(), z.literal("")]),
   email: z.union([z.email(), z.literal("")]),
   email_estado: EmailEstadoSchema,
   por_que_es_interesante: z.array(z.string()),
@@ -147,6 +149,7 @@ export const InversorResumenSchema = InversorSchema.pick({
   ciudad_base: true,
   tipo_inversor: true,
   linkedin: true,
+  web_personal: true,
   email: true,
   email_estado: true,
 }).extend({

@@ -54,6 +54,7 @@ Bandas derivadas del nivel: **Indiscutible** ≥ 78 · **Alto potencial** 60-77 
 se conserva en `auditoria.nivel_v1`, `prioridad_v1` y `motivo_v1`; los textos largos originales en `textos_v1`.
 
 Regla de origen: sólo autoidentificación pública o hechos biográficos documentados; nunca inferencia por apellido.
-Emails: sólo de fuentes públicas, con `email_estado` explícito; ninguna dirección inventada. La procedencia de cada vía
+`web_personal` es el sitio, blog o newsletter que controla la propia persona (nunca la web del fondo), curado en
+`data/auditoria_v2/web_personal.json`; vacío si no se localizó. Emails: sólo de fuentes públicas, con `email_estado` explícito; ninguna dirección inventada. La procedencia de cada vía
 (email, LinkedIn, otras) se guarda en `fuente_vias_de_contacto` como listas de notas cortas y se muestra como última
 sección de la ficha.

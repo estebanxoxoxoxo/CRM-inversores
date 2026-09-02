@@ -167,6 +167,14 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
         ) : (
           <span className="tenue">Sin LinkedIn público</span>
         )}
+        {p.web_personal && (
+          <>
+            <span className="separador">·</span>
+            <a href={p.web_personal} target="_blank" rel="noreferrer" title={p.web_personal}>
+              Web personal
+            </a>
+          </>
+        )}
         <span className="separador">·</span>
         {p.email ? (
           <>

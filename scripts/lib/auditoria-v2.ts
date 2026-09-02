@@ -21,6 +21,7 @@ export interface DecisionV2 {
   por_que: string[];
   etapa_y_ticket: string[];
   tesis: string[];
+  web_personal?: string;
 }
 
 export function cargarDecisiones(raiz: string): Record<string, DecisionV2> {
@@ -38,13 +39,20 @@ export function cargarDecisiones(raiz: string): Record<string, DecisionV2> {
   const otrosAspectos = fs.existsSync(rutaOtros)
     ? (JSON.parse(fs.readFileSync(rutaOtros, "utf8")) as Record<string, string>)
     : {};
+  // Web personal curada (data/auditoria_v2/web_personal.json); ausente = "".
+  const rutaWeb = path.join(carpeta, "web_personal.json");
+  const webs = fs.existsSync(rutaWeb) ? (JSON.parse(fs.readFileSync(rutaWeb, "utf8")) as Record<string, string>) : {};
   const completas: Record<string, DecisionV2> = {};
   const incompletas: string[] = [];
   for (const [id, d] of Object.entries(out)) {
     if (d.puntuacion && d.motivo && d.por_que && d.etapa_y_ticket && d.tesis) {
       const motivoOtros = otrosAspectos[id] ?? "";
       if (d.puntuacion.otros_aspectos !== 0 && !motivoOtros) incompletas.push(`${id} (otros_aspectos ${d.puntuacion.otros_aspectos} sin motivo en otros_aspectos.json)`);
-      completas[id] = { ...(d as DecisionV2), puntuacion: { ...d.puntuacion, otros_aspectos_motivo: d.puntuacion.otros_aspectos === 0 ? "" : motivoOtros } };
+      completas[id] = {
+        ...(d as DecisionV2),
+        puntuacion: { ...d.puntuacion, otros_aspectos_motivo: d.puntuacion.otros_aspectos === 0 ? "" : motivoOtros },
+        web_personal: (webs[id] ?? "").trim(),
+      };
     } else incompletas.push(`${id} (faltan: ${["puntuacion", "motivo", "por_que", "etapa_y_ticket", "tesis"].filter((k) => !(k in d)).join(", ")})`);
   }
   if (incompletas.length) throw new Error(`Decisiones incompletas en data/auditoria_v2:\n - ${incompletas.join("\n - ")}`);
@@ -130,6 +138,7 @@ export function aplicarV2(perfil: Record<string, unknown>, d: DecisionV2, fecha:
     por_que_es_interesante: d.por_que,
     tesis_de_inversion: d.tesis,
     etapa_y_ticket: d.etapa_y_ticket,
+    web_personal: d.web_personal ?? "",
     auditoria: {
       version: 2 as const,
       fecha,

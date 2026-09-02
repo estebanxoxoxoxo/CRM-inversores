@@ -2,10 +2,10 @@
  * Capa de datos: Firestore únicamente.
  * - Listado: documento `meta/indice` (resumen de todos los perfiles).
  * - Ficha: documento `inversores/{id}`.
- * Los JSON de /data son sólo la fuente para `npm run subir`; la app no los lee.
+ * Firestore es la única fuente de verdad. Lo derivado (nivel, banda, prioridad, totales) se recalcula al leer.
  */
 import { doc, getDoc } from "firebase/firestore";
-import { IndiceSchema, InversorSchema, type Indice, type Inversor } from "../types/inversor";
+import { IndiceSchema, derivar, derivarResumen, type Indice, type Inversor } from "../types/inversor";
 import { configFirebaseDisponible, firestore } from "./firebase";
 
 export class ErrorDatos extends Error {
@@ -43,7 +43,8 @@ export async function cargarIndice(): Promise<Indice> {
   if (!snap.exists()) {
     throw new ErrorDatos("El índice meta/indice no existe en Firestore.", "Ejecutá `npm run subir` para cargar los perfiles y el índice.");
   }
-  return IndiceSchema.parse(snap.data());
+  const indice = IndiceSchema.parse(snap.data());
+  return { ...indice, perfiles: indice.perfiles.map(derivarResumen) };
 }
 
 const cachePerfiles = new Map<string, Promise<Inversor>>();
@@ -59,7 +60,7 @@ export function cargarPerfil(id: string): Promise<Inversor> {
         throw traducir(e, `inversores/${id}`);
       }
       if (!snap.exists()) throw new ErrorDatos(`El perfil inversores/${id} no existe en Firestore.`, "Ejecutá `npm run subir` para sincronizar los perfiles.");
-      return InversorSchema.parse(snap.data());
+      return derivar({ ...snap.data(), id });
     })();
     cachePerfiles.set(id, p);
     p.catch(() => cachePerfiles.delete(id));

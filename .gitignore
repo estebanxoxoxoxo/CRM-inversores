@@ -13,3 +13,6 @@ dist
 .idea
 .DS_Store
 *.log
+
+# Respaldos locales de la base (no son fuente de verdad)
+respaldo/

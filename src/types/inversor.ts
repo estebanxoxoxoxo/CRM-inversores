@@ -1,11 +1,11 @@
 /**
- * Tipo canónico de un perfil de inversor. Única fuente de verdad: data/perfiles/<id>.json, que se sube tal cual a
- * Firestore (inversores/{id}). El esquema zod valida en runtime (scripts y lectura desde Firestore) y el tipo
- * TypeScript se infiere de él.
+ * Tipo canónico de un perfil de inversor. Única fuente de verdad: Firestore (`inversores/{id}`, con el resumen en
+ * `meta/indice` y la rúbrica en `meta/criterio`). El esquema zod valida en runtime (scripts y lectura desde
+ * Firestore) y el tipo TypeScript se infiere de él.
  *
  * - `auditoria` vive dentro del perfil y es lo que se edita a mano: motivo, puntuación por dimensiones y motivo de
  *   "otros aspectos". Lo derivado (`puntuacion.bruto`, `topes`, `total`, y `nivel`, `banda`, `prioridad` en la raíz)
- *   lo recalcula `npm run recalcular` a partir de esas entradas; no se edita.
+ *   lo recalcula `derivar()` a partir de esas entradas: los scripts al escribir y la app al leer. No se edita.
  * - `nivel` es 0-100. `banda` se deriva: Indiscutible >= 78, Alto potencial 60-77, Reserva 45-59, Descartado < 45;
  *   "Sin auditar" mientras `auditoria.estado` sea "pendiente". `prioridad` A/B/C se deriva del nivel.
  * - `confianza` califica las fuentes, no el encaje.
@@ -152,7 +152,35 @@ export type EmailEstado = z.infer<typeof EmailEstadoSchema>;
 export type Auditoria = z.infer<typeof AuditoriaSchema>;
 export type FuenteViasDeContacto = z.infer<typeof FuenteViasDeContactoSchema>;
 
-/** Resumen ligero para listados y filtros (`meta/indice` en Firestore y `data/indice.json`). */
+/**
+ * Deriva y valida un perfil a partir de sus entradas editables: recalcula puntuacion.bruto/topes/total y nivel,
+ * banda y prioridad. Lo usan los scripts al escribir y la app al leer, así lo derivado nunca queda desfasado.
+ */
+export function derivar(bruto: unknown): Inversor {
+  const b = (bruto ?? {}) as Record<string, unknown>;
+  const au = (b.auditoria ?? {}) as Record<string, unknown>;
+  const entrada = PuntuacionEntradaSchema.parse(au.puntuacion ?? {});
+  const estado: EstadoAuditoria = au.estado === "pendiente" ? "pendiente" : "revisado";
+  const puntuacion = calcularPuntuacion(entrada);
+  if (entrada.otros_aspectos !== 0 && !entrada.otros_aspectos_motivo.trim()) throw new Error("otros_aspectos distinto de 0 sin motivo");
+  if (estado === "revisado") {
+    if (!String(au.motivo ?? "").trim()) throw new Error("auditoría revisada sin motivo");
+    for (const k of ["por_que_es_interesante", "tesis_de_inversion", "etapa_y_ticket"] as const) {
+      if (!Array.isArray(b[k]) || !(b[k] as unknown[]).length) throw new Error(`auditoría revisada con ${k} vacío`);
+    }
+  }
+  const { actualizado: _a, ...resto } = b;
+  void _a;
+  return InversorSchema.parse({
+    ...resto,
+    nivel: puntuacion.total,
+    banda: bandaDe(puntuacion.total, estado),
+    prioridad: prioridadDe(puntuacion.total, estado),
+    auditoria: { estado, fecha: au.fecha, motivo: au.motivo ?? "", puntuacion },
+  });
+}
+
+/** Resumen ligero para listados y filtros (`meta/indice` en Firestore). */
 export const InversorResumenSchema = InversorSchema.pick({
   id: true,
   nombre: true,
@@ -170,11 +198,18 @@ export const InversorResumenSchema = InversorSchema.pick({
   email: true,
   email_estado: true,
 }).extend({
+  estado_auditoria: EstadoAuditoriaSchema,
   etapa_resumen: z.string(),
   motivo_nivel: z.string(),
   puntuacion: PuntuacionSchema,
 });
 export type InversorResumen = z.infer<typeof InversorResumenSchema>;
+
+/** Recalcula lo derivado de una entrada del índice (por si el índice guardado quedó desfasado). */
+export function derivarResumen(r: InversorResumen): InversorResumen {
+  const puntuacion = calcularPuntuacion(r.puntuacion);
+  return { ...r, puntuacion, nivel: puntuacion.total, banda: bandaDe(puntuacion.total, r.estado_auditoria), prioridad: prioridadDe(puntuacion.total, r.estado_auditoria) };
+}
 
 export const IndiceSchema = z.object({
   generado: z.string(),
@@ -186,6 +221,7 @@ export type Indice = z.infer<typeof IndiceSchema>;
 export function resumenDe(p: Inversor): InversorResumen {
   return InversorResumenSchema.parse({
     ...p,
+    estado_auditoria: p.auditoria.estado,
     etapa_resumen: p.etapa_y_ticket[0] ?? "",
     motivo_nivel: p.auditoria.motivo,
     puntuacion: p.auditoria.puntuacion,

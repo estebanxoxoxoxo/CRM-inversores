@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "importar": "tsx scripts/importar-perfiles.ts",
     "recalcular": "tsx scripts/recalcular.ts",
-    "subir": "tsx scripts/subir-firestore.ts",
+    "importar": "tsx scripts/importar-perfiles.ts",
+    "exportar": "tsx scripts/exportar.ts",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"

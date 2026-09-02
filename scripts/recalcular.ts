@@ -1,70 +1,67 @@
 /**
- * Recalcula lo derivado de cada perfil a partir de su propia auditoría (única fuente de verdad), valida contra el
- * tipo canónico y regenera data/indice.json.
+ * Mantenimiento de la base (única fuente de verdad):
+ *  1. Lee todos los documentos de `inversores`.
+ *  2. Deriva de cada uno lo que no se edita (puntuacion.bruto/topes/total, nivel, banda, prioridad) y valida contra el tipo.
+ *  3. Escribe de vuelta sólo los documentos que cambiaron.
+ *  4. Regenera `meta/indice` (resumen para listados) y `meta/criterio` (rúbrica).
  *
- * Deriva: auditoria.puntuacion.{bruto, topes, total} y, en la raíz, nivel, banda y prioridad.
- * Exige: motivo de "otros aspectos" cuando el valor no es 0; motivo y síntesis no vacíos si el estado es "revisado".
- *
- * Uso: npm run recalcular   (idempotente; falla con código 1 si algún perfil no valida)
+ * Uso: npm run recalcular   (idempotente; termina con código 1 si algún documento no valida)
  */
-import fs from "node:fs";
-import path from "node:path";
-import { InversorSchema, PuntuacionEntradaSchema, bandaDe, calcularPuntuacion, prioridadDe, resumenDe, type Inversor } from "../src/types/inversor";
+import { collection, doc, getDocs, writeBatch } from "firebase/firestore";
+import { CRITERIO, derivar, resumenDe, type Inversor } from "../src/types/inversor";
+import { conectar, explicarError } from "./lib/firestore";
 
-const raiz = path.resolve(import.meta.dirname, "..");
-const carpeta = path.join(raiz, "data", "perfiles");
-
-export function recalcularPerfil(bruto: Record<string, unknown>): Inversor {
-  const au = (bruto.auditoria ?? {}) as Record<string, unknown>;
-  const entrada = PuntuacionEntradaSchema.parse(au.puntuacion ?? {});
-  const estado = au.estado === "pendiente" ? "pendiente" : "revisado";
-  const puntuacion = calcularPuntuacion(entrada);
-  const errores: string[] = [];
-  if (entrada.otros_aspectos !== 0 && !entrada.otros_aspectos_motivo.trim()) errores.push("otros_aspectos distinto de 0 sin motivo");
-  if (estado === "revisado") {
-    if (!String(au.motivo ?? "").trim()) errores.push("auditoría revisada sin motivo");
-    for (const k of ["por_que_es_interesante", "tesis_de_inversion", "etapa_y_ticket"] as const) {
-      if (!Array.isArray(bruto[k]) || !(bruto[k] as unknown[]).length) errores.push(`auditoría revisada con ${k} vacío`);
-    }
-  }
-  if (errores.length) throw new Error(errores.join("; "));
-  return InversorSchema.parse({
-    ...bruto,
-    nivel: puntuacion.total,
-    banda: bandaDe(puntuacion.total, estado),
-    prioridad: prioridadDe(puntuacion.total, estado),
-    auditoria: { estado, fecha: au.fecha, motivo: au.motivo ?? "", puntuacion },
-  });
-}
-
-export function ordenar(perfiles: Inversor[]): Inversor[] {
-  return perfiles.sort((a, b) => b.nivel - a.nivel || a.region.localeCompare(b.region) || a.nombre.localeCompare(b.nombre));
-}
-
-export function escribirIndice(perfiles: Inversor[]): void {
-  const hoy = new Date().toISOString().slice(0, 10);
-  fs.writeFileSync(path.join(raiz, "data", "indice.json"), JSON.stringify({ generado: hoy, total: perfiles.length, perfiles: perfiles.map(resumenDe) }, null, 1) + "\n", "utf8");
-}
-
-if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(import.meta.filename)) {
+export async function recalcularBase(db: ReturnType<typeof conectar>): Promise<{ perfiles: Inversor[]; cambiados: number; errores: string[] }> {
+  const snap = await getDocs(collection(db, "inversores"));
   const perfiles: Inversor[] = [];
   const errores: string[] = [];
-  for (const f of fs.readdirSync(carpeta).filter((f) => f.endsWith(".json")).sort()) {
+  let cambiados = 0;
+  let batch = writeBatch(db);
+  let enBatch = 0;
+  const ahora = new Date().toISOString();
+  for (const d of snap.docs) {
+    const bruto = d.data() as Record<string, unknown>;
     try {
-      const p = recalcularPerfil(JSON.parse(fs.readFileSync(path.join(carpeta, f), "utf8")));
-      fs.writeFileSync(path.join(carpeta, f), JSON.stringify(p, null, 2) + "\n", "utf8");
+      const p = derivar({ ...bruto, id: bruto.id ?? d.id });
       perfiles.push(p);
+      const { actualizado: _a, ...sinMarca } = bruto;
+      void _a;
+      if (JSON.stringify(sinMarca) !== JSON.stringify(p)) {
+        batch.set(doc(db, "inversores", p.id), { ...p, actualizado: ahora });
+        cambiados++;
+        if (++enBatch >= 400) {
+          await batch.commit();
+          batch = writeBatch(db);
+          enBatch = 0;
+        }
+      }
     } catch (e) {
-      errores.push(`${f}: ${e instanceof Error ? e.message : String(e)}`);
+      errores.push(`${d.id}: ${e instanceof Error ? e.message : String(e)}`);
     }
   }
-  ordenar(perfiles);
-  escribirIndice(perfiles);
-  const cuenta = (f: (p: Inversor) => string) => perfiles.reduce<Record<string, number>>((a, p) => ((a[f(p)] = (a[f(p)] ?? 0) + 1), a), {});
-  console.log(`Recalculados ${perfiles.length} perfiles. Bandas:`, cuenta((p) => p.banda), "| con topes:", perfiles.filter((p) => p.auditoria.puntuacion.topes.length).length);
-  if (errores.length) {
-    console.error("\nPERFILES QUE NO VALIDAN:");
-    for (const e of errores) console.error(" -", e);
-    process.exit(1);
-  }
+  perfiles.sort((a, b) => b.nivel - a.nivel || a.region.localeCompare(b.region) || a.nombre.localeCompare(b.nombre));
+  batch.set(doc(db, "meta", "indice"), { generado: ahora.slice(0, 10), total: perfiles.length, perfiles: perfiles.map(resumenDe) });
+  batch.set(doc(db, "meta", "criterio"), { texto: CRITERIO, actualizado: ahora });
+  await batch.commit();
+  return { perfiles, cambiados, errores };
+}
+
+if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("scripts/recalcular.ts")) {
+  const db = conectar();
+  recalcularBase(db)
+    .then(({ perfiles, cambiados, errores }) => {
+      const cuenta = perfiles.reduce<Record<string, number>>((a, p) => ((a[p.banda] = (a[p.banda] ?? 0) + 1), a), {});
+      console.log(`Validados ${perfiles.length} perfiles; ${cambiados} reescritos; meta/indice y meta/criterio regenerados.`);
+      console.log("Bandas:", cuenta);
+      if (errores.length) {
+        console.error("\nDOCUMENTOS QUE NO VALIDAN (no se tocaron):");
+        for (const e of errores) console.error(" -", e);
+        process.exit(1);
+      }
+      process.exit(0);
+    })
+    .catch((e: unknown) => {
+      console.error("ERROR:", explicarError(e));
+      process.exit(1);
+    });
 }

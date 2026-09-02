@@ -1,20 +1,20 @@
 /**
- * Alta de inversores nuevos a partir de un JSON de investigación (formato del esquema de investigación:
- * nombre, region, firma, rol, tesis_de_inversion, antecedentes, por_que_es_interesante, investigacion_larga, etc.).
+ * Alta de inversores nuevos directamente en Firestore a partir de un JSON de investigación (nombre, region, firma,
+ * rol, tesis_de_inversion, antecedentes, por_que_es_interesante, investigacion_larga, fuentes, etc.).
  *
- * Normaliza el archivo al tipo canónico y lo deja en data/perfiles/<id>.json con la auditoría en estado
- * "pendiente" (puntuación a cero, motivo vacío): después se audita a mano editando ese único archivo y se ejecuta
- * `npm run recalcular`. NO sobrescribe perfiles que ya existen.
+ * Normaliza al tipo canónico, crea `inversores/<id>` con la auditoría en estado "pendiente" (puntuación a cero,
+ * motivo vacío) y regenera `meta/indice`. No sobrescribe documentos que ya existen. Después se audita el perfil
+ * (en la base) y se ejecuta `npm run recalcular`.
  *
  * Uso: npm run importar -- <archivo.json | carpeta>
  */
 import fs from "node:fs";
 import path from "node:path";
-import type { TipoInversor } from "../src/types/inversor";
-import { escribirIndice, ordenar, recalcularPerfil } from "./recalcular";
+import { doc, getDoc, setDoc } from "firebase/firestore";
+import { derivar, type TipoInversor } from "../src/types/inversor";
+import { conectar, explicarError } from "./lib/firestore";
+import { recalcularBase } from "./recalcular";
 
-const raiz = path.resolve(import.meta.dirname, "..");
-const destino = path.join(raiz, "data", "perfiles");
 const origen = process.argv[2];
 if (!origen) {
   console.error("Uso: npm run importar -- <archivo.json | carpeta>");
@@ -71,16 +71,11 @@ function normalizar(d: Record<string, unknown>): Record<string, unknown> {
   const emailBruto = String(d.email ?? "").trim();
   const m = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/.exec(emailBruto);
   const email = m ? m[0] : "";
-  const estadoEmail = email ? (String(d.email_estado ?? "") || "público (ver fuente)") : "no encontrado";
   const notasEmail = aNotas([d.email_fuente, m ? emailBruto.replace(m[0], "") : emailBruto]);
   if (!notasEmail.length) notasEmail.push(email ? "Dirección tomada de la investigación; ver fuentes." : "No se localizó email individual en fuentes públicas.");
-  const hoy = new Date().toISOString().slice(0, 10);
   return {
     id,
     nombre: String(d.nombre ?? "").replace(/\s*\([^)]*\)/g, "").trim(),
-    nivel: 0,
-    banda: "Sin auditar",
-    prioridad: "C",
     confianza: d.confianza ?? "media",
     region: d.region,
     firma: d.firma ?? "",
@@ -92,7 +87,7 @@ function normalizar(d: Record<string, unknown>): Record<string, unknown> {
     linkedin: li.url,
     web_personal: "",
     email,
-    email_estado: estadoEmail,
+    email_estado: email ? String(d.email_estado ?? "") || "público (ver fuente)" : "no encontrado",
     por_que_es_interesante: aLista(d.por_que_es_interesante),
     tesis_de_inversion: aLista(d.tesis_de_inversion),
     antecedentes: String(d.antecedentes ?? ""),
@@ -105,7 +100,7 @@ function normalizar(d: Record<string, unknown>): Record<string, unknown> {
     fuente_vias_de_contacto: { email: notasEmail, linkedin: aNotas(li.nota), otras: aNotas(d.otros_perfiles) },
     auditoria: {
       estado: "pendiente",
-      fecha: hoy,
+      fecha: new Date().toISOString().slice(0, 10),
       motivo: "",
       puntuacion: { tesis: 0, etapa: 0, decision: 0, espanol: 0, acceso: 0, otros_aspectos: 0, otros_aspectos_motivo: "" },
     },
@@ -115,32 +110,35 @@ function normalizar(d: Record<string, unknown>): Record<string, unknown> {
 const rutas = fs.statSync(origen).isDirectory()
   ? fs.readdirSync(origen).filter((f) => f.endsWith(".json") && !f.startsWith("_")).map((f) => path.join(origen, f))
   : [origen];
-let altas = 0;
-const avisos: string[] = [];
-for (const ruta of rutas) {
-  try {
-    const bruto = JSON.parse(fs.readFileSync(ruta, "utf8").replace(/^﻿/, "")) as Record<string, unknown>;
-    const p = recalcularPerfil(normalizar(bruto));
-    const salida = path.join(destino, `${p.id}.json`);
-    if (fs.existsSync(salida)) {
-      avisos.push(`${p.id}: ya existe en data/perfiles, no se sobrescribe`);
-      continue;
+
+const db = conectar();
+(async () => {
+  let altas = 0;
+  const avisos: string[] = [];
+  for (const ruta of rutas) {
+    try {
+      const bruto = JSON.parse(fs.readFileSync(ruta, "utf8").replace(/^﻿/, "")) as Record<string, unknown>;
+      const p = derivar(normalizar(bruto));
+      const ref = doc(db, "inversores", p.id);
+      if ((await getDoc(ref)).exists()) {
+        avisos.push(`${p.id}: ya existe en la base, no se sobrescribe`);
+        continue;
+      }
+      await setDoc(ref, { ...p, actualizado: new Date().toISOString() });
+      altas++;
+      console.log(`Alta: ${p.id} (${p.nombre}) — auditoría pendiente`);
+    } catch (e) {
+      avisos.push(`${path.basename(ruta)}: ${e instanceof Error ? e.message : String(e)}`);
     }
-    fs.writeFileSync(salida, JSON.stringify(p, null, 2) + "\n", "utf8");
-    altas++;
-    console.log(`Alta: ${p.id} (${p.nombre}) — auditoría pendiente`);
-  } catch (e) {
-    avisos.push(`${path.basename(ruta)}: ${e instanceof Error ? e.message : String(e)}`);
   }
-}
-// Regenerar el índice con todos los perfiles.
-const todos = fs
-  .readdirSync(destino)
-  .filter((f) => f.endsWith(".json"))
-  .map((f) => recalcularPerfil(JSON.parse(fs.readFileSync(path.join(destino, f), "utf8"))));
-escribirIndice(ordenar(todos));
-console.log(`${altas} alta(s). Índice regenerado con ${todos.length} perfiles.`);
-if (avisos.length) {
-  console.error("\nAVISOS:");
-  for (const a of avisos) console.error(" -", a);
-}
+  const { perfiles } = await recalcularBase(db);
+  console.log(`${altas} alta(s). Índice regenerado con ${perfiles.length} perfiles.`);
+  if (avisos.length) {
+    console.error("\nAVISOS:");
+    for (const a of avisos) console.error(" -", a);
+  }
+  process.exit(0);
+})().catch((e: unknown) => {
+  console.error("ERROR:", explicarError(e));
+  process.exit(1);
+});

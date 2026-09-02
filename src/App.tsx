@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import FiltersPanel from "./components/Filters";
+import FindMoreButton from "./components/FindMoreButton";
 import InvestorDetail from "./components/InvestorDetail";
 import InvestorList from "./components/InvestorList";
 import { useInvestors } from "./context/investors";
@@ -38,6 +39,7 @@ export default function App() {
             "Cargando desde Firestore…"
           )}
         </p>
+        <FindMoreButton />
       </header>
       {error && (
         <div className="error-notice">

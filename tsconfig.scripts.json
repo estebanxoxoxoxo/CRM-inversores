@@ -1,10 +1,16 @@
 {
   "compilerOptions": {
     "target": "es2023",
-    "lib": ["ES2023"],
+    "lib": [
+      "ES2023",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "module": "esnext",
     "moduleResolution": "bundler",
-    "types": ["node"],
+    "types": [
+      "node"
+    ],
     "strict": true,
     "verbatimModuleSyntax": true,
     "erasableSyntaxOnly": true,
@@ -13,5 +19,10 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true
   },
-  "include": ["scripts", "src/types"]
+  "include": [
+    "scripts",
+    "server",
+    "api",
+    "src/types"
+  ]
 }

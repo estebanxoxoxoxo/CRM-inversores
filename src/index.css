@@ -64,6 +64,27 @@ h2 {
   margin: 0;
   color: var(--muted);
 }
+.header-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.primary {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  padding: 6px 14px;
+  font-weight: 600;
+}
+.primary:hover {
+  background: #17397a;
+}
+.primary:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
 .error {
   color: #b91c1c;
 }

@@ -20,6 +20,20 @@ npm run restore                           # vuelve a escribir en Firestore lo qu
 npm run typecheck                         # tipos de la app y de los scripts
 ```
 
+## Buscar más perfiles
+
+El botón "Buscar más perfiles" (arriba a la derecha) copia al portapapeles un prompt completo para pegar en un chat de
+IA: el pedido original, la metodología de descubrimiento e investigación, la rúbrica, el código fuente del tipo, el
+endpoint de ingesta con su token, todos los perfiles existentes como excluidos (nombre, LinkedIn, email) y los perfiles
+con nivel mayor a 80 como ejemplos. El texto estático vive en `src/prompt/research-brief.md`; lo dinámico lo arma
+`src/lib/prompt.ts` desde la colección en vivo.
+
+`POST /api/investors` (`api/investors.ts`, función de Vercel) recibe `{ "investors": [ ... ] }` con
+`Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, fuerza la
+auditoría a `pending`, recalcula lo derivado, rechaza duplicados por id, nombre, LinkedIn o email y escribe sólo los
+nuevos; nunca sobreescribe. `?dryRun=1` valida sin escribir. Variables: `VITE_INGEST_TOKEN` (obligatoria) y
+`VITE_APP_URL` (opcional; en Vercel se toma de `VERCEL_PROJECT_PRODUCTION_URL`).
+
 ## Recupero ante desastres
 
 `snapshot/investors/` es una copia versionada de la colección, no una fuente de verdad. Antes de una tarea riesgosa:

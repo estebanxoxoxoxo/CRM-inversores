@@ -4,6 +4,7 @@ dist
 # Secrets and environment: never commit
 .env
 .env.*
+!.env.example
 *serviceAccount*.json
 *firebase-adminsdk*.json
 

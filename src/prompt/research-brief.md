@@ -1,6 +1,6 @@
 # Búsqueda de nuevos inversores deep tech / dev tools hispanohablantes
 
-Sos un analista de investigación de inversores. Este documento contiene, en este orden: el pedido original, la metodología completa de descubrimiento e investigación con la que se construyó la base actual, la rúbrica de auditoría, el tipo exacto de cada perfil, el endpoint donde enviar los perfiles nuevos, la lista de perfiles que ya existen (no los repitas) y perfiles de ejemplo con nivel superior a 80. Leelo entero antes de empezar. Todo el contenido que produzcas va en español; los nombres de empresas, fondos y citas textuales pueden ir en su idioma original.
+Sos un analista de investigación de inversores. Este documento contiene, en este orden: el pedido original, la metodología completa de descubrimiento e investigación, la rúbrica de auditoría, el tipo exacto de cada perfil, el endpoint donde enviar los perfiles nuevos, la lista de perfiles que ya existen (no los repitas) y perfiles de ejemplo con nivel superior a 80. Leelo entero antes de empezar. Todo el contenido que produzcas va en español; los nombres de empresas, fondos y citas textuales pueden ir en su idioma original.
 
 ## 1. Pedido original (textual)
 
@@ -13,12 +13,10 @@ Sos un analista de investigación de inversores. Este documento contiene, en est
 > Quiero que la pureza sea absoluta, que de verdad busques que cada perfil sea hiper atractivo como inversor para algo profundo a largo plazo y en linea con inversiones en IA con fuertisimo moat.
 >
 > Quiero que el output sea uns csv con nombre, linkedin, mail, tesis de inversio, antecedentes, por que es interesante, investigacion larga sobre su historia (no importa que desborde la celda). Pensa excelenetemente bien y mucho, cuando ya encuentres las tareas rutinarias lanza agentes de opus 5 para cuidar tu contexto.
+>
+> Me olvide de decirte. Quiero 30 que sean indiscutibles en su pureaza y 30 que tenga muchisimo potencial.
 
-Complemento textual del mismo pedido, enviado minutos después:
-
-> Me olvide de decirte. Quiero 30 que sean indiscutibles en su pureaza y 30 que tenga muchisimo potencial
-
-Es decir: sólo interesan perfiles indiscutibles en su pureza o con muchísimo potencial. El formato de salida ya no es un CSV sino el tipo de la sección 6, enviado al endpoint de la sección 7.
+El formato de salida tiene que respetar el tipo de la sección 6 y enviarse a la base a través del endpoint de la sección 7.
 
 ## 2. Contexto del cliente y criterio de pureza
 
@@ -36,9 +34,9 @@ No hay cuota: cada perfil enviado tiene que superar el criterio de pureza. Es pr
 
 ## 3. Descubrimiento de candidatos
 
-Método aplicado en la base actual; repetilo buscando personas que NO estén en la lista de excluidos de la sección 8.
+Buscá personas que no estén en la lista de excluidos de la sección 8.
 
-1. Ir fondo por fondo por los fondos especialistas en infraestructura y los de primer nivel buscando socios hispanohablantes cuyo foco personal sea infra de IA, dev tools, infraestructura de datos, ciberseguridad, infraestructura enterprise, open source o deep tech de frontera. Fondos ya recorridos en EE.UU.: a16z, Sequoia, Benchmark, Founders Fund, Lux, General Catalyst, Greylock, Kleiner Perkins, Khosla, Index, Accel, Lightspeed, Bessemer, Battery, Menlo, Mayfield, NEA, Felicis, Wing, Emergence, Sapphire, Norwest, Scale, Insight, Bain Capital Ventures, Redpoint, Matrix, First Round, Amplify Partners, Boldstart, Heavybit, Costanoa, Unusual, Decibel, Vertex US, Engineering Capital, Root Ventures, Zetta, Gradient, Basis Set, Work-Bench, Essence, Conviction, Pear VC, Neo, Initialized, Susa, Precursor, Floodgate, Foundation Capital, Canvas, Shasta, Uncork, True Ventures, DCVC, Playground, Eclipse, 8VC, Innovation Endeavors, Bloomberg Beta, Two Sigma Ventures, Point72 Ventures, Forgepoint Capital, Ballistic, YL Ventures, Ten Eleven, Evolution Equity, NightDragon, Base10 Partners, Ulu Ventures, Mendoza Ventures, Chingona Ventures, VamosVentures, L'Attitude Ventures, Stage Venture Partners, Roble Ventures, Ganas Ventures, TheVentureCity, FJ Labs, Bicycle Capital, Y Combinator, GV, CapitalG, M12, NVentures, Salesforce Ventures, Intel Capital, AMD Ventures, Samsung Next, Madrona, Pillar, Underscore, Glasswing, Hyperplane, Flybridge, Founder Collective, Primary, Lerer Hippeau, Bowery, Notable Capital, SignalFire, Craft, Alt Capital, South Park Commons, Abstract, Tapestry, Pebblebed, Chemistry, Theory Ventures, AI Grant, Factory, Long Journey, Village Global, Haystack, Homebrew, Cowboy, Freestyle. En España: Adara, Cardumen, Nauta, Kfund, Elaia, Athos, Clave, GoHub, Inveready, Axon, BeAble, Bankinter, Aldea, Nekko, Big Sur, JME, Seaya, Samaipata, Itnig, K Fund, Bonsai, Kibo. En México: 500 Global LatAm, ALLVP, Dalus, Nazca, Jaguar, Ignia, Angel Ventures, Dila, Mountain Nazca, Cometa, Wollef, Carabela, DILA, Redwood. Buscá fondos y personas que no aparezcan aquí ni en los excluidos: fondos nuevos de 2024-2026 enfocados en IA, agentes, infraestructura, cuántica, semiconductores, ciberseguridad o developer tools; solo GPs; angels técnicos (fundadores y CTOs que firman cheques en deep tech).
+1. Ir fondo por fondo por los fondos especialistas en infraestructura y los de primer nivel buscando socios hispanohablantes cuyo foco personal sea infra de IA, dev tools, infraestructura de datos, ciberseguridad, infraestructura enterprise, open source o deep tech de frontera.
 2. Buscar en español y en inglés, variando muchas consultas. Ejemplos usados: "venture capital deep tech España partner", "fondo deep tech España 2025", "inversores developer tools España", "VC inteligencia artificial infraestructura España", "business angel deep tech España", "nuevo fondo IA España 2025 2026", "fondo venture capital agentes IA España", "inversor ángel CTO España inteligencia artificial", "founders técnicos españoles que invierten como business angels", "Latino venture capital partners AI infrastructure", "Hispanic VC partner developer tools", "LatinxVC members deep tech", "Spanish-speaking VC Silicon Valley AI", "venture partner nacido en España Silicon Valley", "argentino partner venture capital Silicon Valley inteligencia artificial", "colombiano partner venture capital Estados Unidos deep tech", "chileno venture capital Estados Unidos AI", "mexicano partner fondo venture capital San Francisco", "new AI infrastructure fund 2025 founded by Latino", "Latino general partner launches fund AI 2025 2026", "fondo venture capital México deep tech", "inversionista ángel México inteligencia artificial infraestructura".
 3. Fuentes de descubrimiento: Dealflow.es, El Referente, Expansión, Cinco Días, TechCrunch, Sifted, Startupxplore, Crunchbase, Signal NFX, AngelList, Contxto, Whitepaper.mx, Latitud, Startupeable, LinkedIn (vía buscador), X/Twitter, podcasts (20VC, Invest Like the Best, Itnig, Dealflow.es, Latitud, Startupeable), newsletters y blogs propios de los inversores.
 4. Para cada candidato anotá origen o evidencia de español, foco, etapa y ticket, formación técnica, por qué encaja y confianza. Sé honesto: si no podés confirmar la fluidez en español, decilo ("origen sólo, fluidez no confirmada"). No rellenes con generalistas de consumo o fintech. Llevá una lista de "considerados y rechazados" con el motivo, para no volver a investigarlos.
@@ -119,4 +117,4 @@ Son el estándar de calidad esperado. Fijate en la concreción de `deepResearch`
 
 {{EXAMPLES}}
 
-Documento generado el {{DATE}} desde la base actual.
+Documento generado el {{DATE}}.

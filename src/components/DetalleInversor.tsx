@@ -1,5 +1,5 @@
 import { useEffect, useState, type ReactNode } from "react";
-import { cargarPerfil } from "../lib/datos";
+import { ErrorDatos, cargarPerfil } from "../lib/datos";
 import type { Inversor, Puntuacion } from "../types/inversor";
 import { Etiqueta, Nivel, claseBanda } from "./ListaInversores";
 
@@ -109,7 +109,7 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
     let vigente = true;
     cargarPerfil(id)
       .then((p) => vigente && setPerfil(p))
-      .catch((e: unknown) => vigente && setError(e instanceof Error ? e.message : String(e)));
+      .catch((e: unknown) => vigente && setError(e instanceof ErrorDatos ? `${e.message} ${e.ayuda}`.trim() : e instanceof Error ? e.message : String(e)));
     return () => {
       vigente = false;
     };
@@ -122,7 +122,7 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
   }, [onCerrar]);
 
   if (!id) return <section className="detalle detalle-vacio">Elegí un inversor de la lista para ver la ficha completa.</section>;
-  if (error) return <section className="detalle">Error al cargar el perfil: {error}</section>;
+  if (error) return <section className="detalle aviso-error">{error}</section>;
   if (!perfil) return <section className="detalle">Cargando…</section>;
   const p = perfil;
 

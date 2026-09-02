@@ -22,7 +22,7 @@ const perfiles: Inversor[] = fs
   .filter((f) => f.endsWith(".json"))
   .sort()
   .map((f) => InversorSchema.parse(JSON.parse(fs.readFileSync(path.join(carpeta, f), "utf8"))));
-const indice = IndiceSchema.parse({ generado: new Date().toISOString().slice(0, 10), total: perfiles.length, perfiles: perfiles.map(resumenDe) });
+const indice = IndiceSchema.parse({ generado: new Date().toISOString().slice(0, 10), version: 2, total: perfiles.length, perfiles: perfiles.map(resumenDe) });
 const ahora = new Date().toISOString();
 
 const serviceAccount = fs.readdirSync(raiz).find((f) => /(firebase-adminsdk|serviceAccount).*\.json$/i.test(f));

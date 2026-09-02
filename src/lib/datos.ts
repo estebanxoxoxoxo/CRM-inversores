@@ -1,85 +1,68 @@
 /**
- * Capa de datos. Fuente primaria: Firestore (`meta/indice` para el listado, `inversores/{id}` para el detalle).
- * Si Firestore no está configurado o rechaza la lectura (reglas), cae a los JSON locales de /data.
- * Se puede forzar con VITE_FUENTE_DATOS=local | firestore.
+ * Capa de datos: Firestore únicamente.
+ * - Listado: documento `meta/indice` (resumen de todos los perfiles).
+ * - Ficha: documento `inversores/{id}`.
+ * Los JSON de /data son sólo la fuente para `npm run subir`; la app no los lee.
  */
 import { doc, getDoc } from "firebase/firestore";
-import { IndiceSchema, InversorSchema, resumenDe, type Indice, type Inversor } from "../types/inversor";
+import { IndiceSchema, InversorSchema, type Indice, type Inversor } from "../types/inversor";
 import { configFirebaseDisponible, firestore } from "./firebase";
 
-export type Fuente = "firestore" | "local";
-
-const modulosLocales = import.meta.glob<{ default: unknown }>("../../data/perfiles/*.json");
-const indiceLocal = import.meta.glob<{ default: unknown }>("../../data/indice.json");
-
-let fuenteActual: Fuente | null = null;
-const oyentes = new Set<(f: Fuente) => void>();
-export function suscribirFuente(cb: (f: Fuente) => void): () => void {
-  oyentes.add(cb);
-  if (fuenteActual) cb(fuenteActual);
-  return () => oyentes.delete(cb);
-}
-function fijarFuente(f: Fuente) {
-  if (fuenteActual !== f) {
-    fuenteActual = f;
-    oyentes.forEach((cb) => cb(f));
+export class ErrorDatos extends Error {
+  readonly ayuda: string;
+  constructor(message: string, ayuda: string) {
+    super(message);
+    this.ayuda = ayuda;
   }
 }
 
-const preferencia = (import.meta.env.VITE_FUENTE_DATOS as Fuente | undefined) ?? (configFirebaseDisponible() ? "firestore" : "local");
-
-async function indiceLocalCargar(): Promise<Indice> {
-  const cargador = Object.values(indiceLocal)[0];
-  if (!cargador) throw new Error("No existe data/indice.json; ejecutá `npm run importar`.");
-  return IndiceSchema.parse((await cargador()).default);
-}
-
-async function perfilLocalCargar(id: string): Promise<Inversor> {
-  const ruta = Object.keys(modulosLocales).find((k) => k.endsWith(`/${id}.json`));
-  if (!ruta) throw new Error(`No existe data/perfiles/${id}.json`);
-  return InversorSchema.parse((await modulosLocales[ruta]()).default);
+function traducir(e: unknown, contexto: string): ErrorDatos {
+  const msg = e instanceof Error ? e.message : String(e);
+  if (/permission|PERMISSION_DENIED|insufficient/i.test(msg)) {
+    return new ErrorDatos(
+      `Firestore rechazó la lectura de ${contexto}.`,
+      "Las reglas de seguridad de Firestore no permiten leer desde el navegador. En Firebase Console > Firestore > Reglas, permití la lectura de meta/indice e inversores/{id} (por ejemplo `allow read: if true;` mientras la app sea de uso interno).",
+    );
+  }
+  if (/offline|unavailable|network/i.test(msg)) {
+    return new ErrorDatos(`Sin conexión con Firestore al leer ${contexto}.`, "Comprobá la red y que el proyecto de Firebase del .env sea el correcto.");
+  }
+  return new ErrorDatos(`Error al leer ${contexto}: ${msg}`, "");
 }
 
 export async function cargarIndice(): Promise<Indice> {
-  if (preferencia === "firestore") {
-    try {
-      const snap = await getDoc(doc(firestore(), "meta", "indice"));
-      if (snap.exists()) {
-        fijarFuente("firestore");
-        return IndiceSchema.parse(snap.data());
-      }
-      console.warn("meta/indice no existe en Firestore; usando datos locales.");
-    } catch (e) {
-      console.warn("Firestore no disponible para lectura; usando datos locales.", e);
-    }
+  if (!configFirebaseDisponible()) {
+    throw new ErrorDatos("Falta la configuración de Firebase.", "Completá VITE_FIREBASE_API_KEY, VITE_FIREBASE_PROJECT_ID y VITE_FIREBASE_APP_ID en .env (ver .env.example).");
   }
-  fijarFuente("local");
-  return indiceLocalCargar();
+  let snap;
+  try {
+    snap = await getDoc(doc(firestore(), "meta", "indice"));
+  } catch (e) {
+    throw traducir(e, "meta/indice");
+  }
+  if (!snap.exists()) {
+    throw new ErrorDatos("El índice meta/indice no existe en Firestore.", "Ejecutá `npm run subir` para cargar los perfiles y el índice.");
+  }
+  return IndiceSchema.parse(snap.data());
 }
 
 const cachePerfiles = new Map<string, Promise<Inversor>>();
+
 export function cargarPerfil(id: string): Promise<Inversor> {
   let p = cachePerfiles.get(id);
   if (!p) {
     p = (async () => {
-      if (fuenteActual === "firestore") {
-        try {
-          const snap = await getDoc(doc(firestore(), "inversores", id));
-          if (snap.exists()) return InversorSchema.parse(snap.data());
-        } catch (e) {
-          console.warn(`inversores/${id} no legible en Firestore; usando local.`, e);
-        }
+      let snap;
+      try {
+        snap = await getDoc(doc(firestore(), "inversores", id));
+      } catch (e) {
+        throw traducir(e, `inversores/${id}`);
       }
-      return perfilLocalCargar(id);
+      if (!snap.exists()) throw new ErrorDatos(`El perfil inversores/${id} no existe en Firestore.`, "Ejecutá `npm run subir` para sincronizar los perfiles.");
+      return InversorSchema.parse(snap.data());
     })();
     cachePerfiles.set(id, p);
     p.catch(() => cachePerfiles.delete(id));
   }
   return p;
-}
-
-/** Índice completo a partir de los perfiles locales (por si el índice guardado quedara desfasado). */
-export async function reconstruirIndiceLocal(): Promise<Indice> {
-  const perfiles = await Promise.all(Object.values(modulosLocales).map(async (c) => InversorSchema.parse((await c()).default)));
-  return { generado: new Date().toISOString().slice(0, 10), version: 2, total: perfiles.length, perfiles: perfiles.map(resumenDe) };
 }

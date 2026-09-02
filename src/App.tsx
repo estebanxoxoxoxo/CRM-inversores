@@ -2,22 +2,20 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import DetalleInversor from "./components/DetalleInversor";
 import PanelFiltros from "./components/Filtros";
 import ListaInversores from "./components/ListaInversores";
-import { cargarIndice, suscribirFuente, type Fuente } from "./lib/datos";
+import { ErrorDatos, cargarIndice } from "./lib/datos";
 import { aplicarFiltros, filtrosAUrl, filtrosDesdeUrl, type Filtros } from "./lib/filtros";
 import type { Indice } from "./types/inversor";
 
 export default function App() {
   const [indice, setIndice] = useState<Indice | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  const [fuente, setFuente] = useState<Fuente | null>(null);
+  const [error, setError] = useState<ErrorDatos | null>(null);
   const [filtros, setFiltros] = useState<Filtros>(() => filtrosDesdeUrl());
   const [seleccionado, setSeleccionado] = useState<string | null>(() => new URLSearchParams(window.location.hash.slice(1)).get("id"));
 
-  useEffect(() => suscribirFuente(setFuente), []);
   useEffect(() => {
     cargarIndice()
       .then(setIndice)
-      .catch((e: unknown) => setError(e instanceof Error ? e.message : String(e)));
+      .catch((e: unknown) => setError(e instanceof ErrorDatos ? e : new ErrorDatos(e instanceof Error ? e.message : String(e), "")));
   }, []);
   useEffect(() => filtrosAUrl(filtros), [filtros]);
   useEffect(() => {
@@ -34,20 +32,21 @@ export default function App() {
         <p className="cabecera-info">
           {indice ? (
             <>
-              <strong>{visibles.length}</strong> de {indice.total} perfiles · índice del {indice.generado}
+              <strong>{visibles.length}</strong> de {indice.total} perfiles · índice del {indice.generado} · Firestore
             </>
           ) : error ? (
-            <span className="error">{error}</span>
+            <span className="error">{error.message}</span>
           ) : (
-            "Cargando…"
-          )}
-          {fuente && (
-            <span className={`fuente fuente-${fuente}`} title={fuente === "local" ? "Leyendo los JSON de /data (Firestore no disponible o no configurado)" : "Leyendo de Firestore"}>
-              {fuente === "firestore" ? "Firestore" : "datos locales"}
-            </span>
+            "Cargando desde Firestore…"
           )}
         </p>
       </header>
+      {error && (
+        <div className="aviso-error">
+          <strong>{error.message}</strong>
+          {error.ayuda && <p>{error.ayuda}</p>}
+        </div>
+      )}
       <div className="cuerpo">
         <PanelFiltros filtros={filtros} onChange={setFiltros} perfiles={indice?.perfiles ?? []} />
         <main className="resultados">

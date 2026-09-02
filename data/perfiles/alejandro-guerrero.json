@@ -105,10 +105,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Lidera pre-seed de 1-3M USD y ya co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción) con la tesis 'la IA es un nuevo paradigma de computación'. Reservas: no es fondo deep tech, pide un wedge comercial claro y su fluidez en español no está documentada.",
     "puntuacion": {
       "tesis": 17,
       "etapa": 19,
@@ -120,21 +119,6 @@
       "bruto": 78,
       "topes": [],
       "total": 78
-    },
-    "motivo": "Lidera pre-seed de 1-3M USD y ya co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción) con la tesis 'la IA es un nuevo paradigma de computación'. Reservas: no es fondo deep tech, pide un wedge comercial claro y su fluidez en español no está documentada.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Lidera pre-seed 1-3M; co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción); tesis 'AI es nuevo paradigma de computación'. Reserva: no es fondo deep tech y pide un wedge comercial claro."
-  },
-  "nombre_original": "Alejandro Guerrero",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el encaje más accionable de este lote. Su tesis de fondo dice literalmente que la IA es “un nuevo paradigma de computación” que obliga a reconstruir los sistemas centrales desde cero: es la misma frase que sostiene un stack IA-nativo. Lidera pre-seed —no acompaña— con cheques de 1 a 3 millones, y ya tiene en cartera una inversión de developer tools con agentes: Optimal AI, cuya pre-seed de 2,25M USD colideró en febrero de 2025, construye “agentes de IA que automatizan flujos de compliance directamente dentro de las herramientas de desarrollo que los equipos de ingeniería ya usan cada día”. Es mexicano-estadounidense de primera generación, ha construido su carrera abriendo puertas a fundadores latinos y su fondo tiene ya varias empresas latinoamericanas en cartera (Jelou, Kriptos, Glitzi, GroWrk, Lapzo). Y publica un buzón abierto con la invitación “Send us your pitch”. Ángulo de contacto: escribirle citando su propia frase del paradigma de computación, enseñar el harness y posicionar la operación como pre-seed liderada, mencionando Optimal AI como precedente en su propia cartera.",
-    "tesis_de_inversion": "Act One Ventures invierte en “extraordinary founders building AI-native enterprise platforms” con una premisa que la web enuncia sin ambigüedad: “AI isn’t just another wave of software, it’s a new computing paradigm” que está reconstruyendo desde cero los sistemas centrales de las empresas. La formulación del Fund III es más operativa: buscan empresas que construyen la siguiente generación de plataformas empresariales “using AI-native systems with strong data leverage, deep automation, and a clear wedge into critical workflows”, en fintech y pagos, comercio y logística, y compliance y riesgo. El modelo es de convicción y no de dispersión: “fewer bets, deeper relationships”, unas siete nuevas inversiones al año, liderando pre-seed y seed y siguiendo de cerca a la empresa con una red de operating partners (entre ellos David Chaiken, exarquitecto jefe de Pinterest y exCTO de Altiscale y SAP, que aporta criterio técnico real). Alrededor del 70% de la cartera está liderada por mujeres y fundadores de grupos infrarrepresentados, y el 60% de las empresas ha llegado a Serie B o C. Guerrero es además el autor del Diversity Rider, un anexo de term sheet que reserva parte de cada ronda para inversores infrarrepresentados.",
-    "etapa_y_ticket": [
-      "Pre-seed y seed, liderando la ronda. La web del fondo declara cheques de 1M a 3M USD y unas 7 nuevas inversiones al año (https://www.actoneventures.com/). VC Sheet, con datos algo más antiguos, cifra el cheque en 300.000-1.000.000 USD (https://www.vcsheet.com/who/alejandro-alex-guerrero); la diferencia refleja el salto de tamaño entre fondos. Fondo vigente: Act One Ventures Fund III, 73M USD, cerrado en enero de 2024 (más del triple que el Fund II, de 23M USD), con 148M USD de capital total levantado en nueve años, más de 60 empresas en cartera y 5 salidas, entre ellas AuditBoard (vendida a Hg por 3.150M USD en 2024)."
-    ]
+    }
   }
 }

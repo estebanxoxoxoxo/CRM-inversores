@@ -102,10 +102,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Perfil técnico ideal (Hyperic, Outlook, Google Workspace, Metaplane) con foco declarado en dev tools e infraestructura y puertorriqueño; pero ya no figura en el equipo de Felicis, opera en Datadog, como Senior Venture Partner no tenía presupuesto propio y sus cheques ángel son escasos. Vínculo inversor no confirmado en 2026.",
     "puntuacion": {
       "tesis": 20,
       "etapa": 12,
@@ -117,21 +116,6 @@
       "bruto": 58,
       "topes": [],
       "total": 58
-    },
-    "motivo": "Perfil técnico ideal (Hyperic, Outlook, Google Workspace, Metaplane) con foco declarado en dev tools e infraestructura y puertorriqueño; pero ya no figura en el equipo de Felicis, opera en Datadog, como Senior Venture Partner no tenía presupuesto propio y sus cheques ángel son escasos. Vínculo inversor no confirmado en 2026.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Perfil técnico ideal (Hyperic, Metaplane) y foco declarado en dev tools, pero ya no aparece en el equipo de Felicis y opera en Datadog; vínculo inversor no confirmado en 2026."
-  },
-  "nombre_original": "Javier Soltero",
-  "textos_v1": {
-    "por_que_es_interesante": "En el papel es el perfil de esta lista con mejor comprensión técnica del problema que resuelve la startup. Hyperic era literalmente infraestructura open source para observar y gestionar sistemas; Google Workspace y Outlook Mobile le dieron escala de plataforma; Metaplane es observabilidad de datos. Alguien así no necesita que le expliquen por qué un harness de desarrollo con nube de agentes importa: ya construyó las capas de instrumentación y despliegue que ese harness necesita. Su criterio declarado de inversión es calidad de producto e ingeniería, no tracción, y sus cheques documentados son de infraestructura invisible. Además es puertorriqueño, con vínculo público con el ecosistema de la isla (keynote en la H3 Tech Conference de San Juan) y cobertura en prensa en español (El Nuevo Día). Ángulo de contacto: técnico y de producto, no de mercado. Enseñarle el harness funcionando, hablarle de fiabilidad, trazas y despliegue, y mencionar Hyperic explícitamente: es la referencia que le identifica.",
-    "tesis_de_inversion": "Su foco declarado es “enterprise software, cloud infrastructure, developer tools, and AI platforms”, con énfasis en tecnologías fundacionales que aumentan la productividad dentro de los ecosistemas empresariales. Es un inversor de perfil operador: no invierte por métricas sino por criterio de producto e ingeniería, y aporta a los fundadores estrategia de producto y red además de capital. Su historial personal explica la tesis mejor que cualquier declaración: fundó Hyperic, una empresa de monitorización y gestión de aplicaciones web construida sobre open source; dirigió Outlook Mobile y Cortana en Microsoft; y llevó Google Workspace como VP/GM. Es decir, ha construido y operado exactamente las tres capas que a un fondo le cuesta evaluar: infraestructura, herramientas de desarrollador y productividad empresarial a escala de cientos de millones de usuarios. Sus dos inversiones documentadas —Metaplane (observabilidad de datos) y Jumbo Privacy— son ambas de infraestructura invisible más que de aplicación vistosa. Sobre Metaplane declaró que lo que impulsa el crecimiento es “la fuerte satisfacción del cliente y la calidad del producto”, un criterio de producto y no de tracción bruta. Felicis, su fondo, sí tiene tesis institucional en IA: el Fund X (900M USD, junio 2025) declara foco en plataformas AI-first, ciberseguridad y defensa.",
-    "etapa_y_ticket": [
-      "Seed y Serie A, con foco declarado en cloud infrastructure, enterprise, developer tools y plataformas de IA. Signal NFX le asigna un rango de 500.000 a 15.000.000 USD con punto dulce de 7,8M USD, pero ese rango es el del fondo, no el suyo personal (https://signal.nfx.com/investors/javier-soltero). Fondo vigente: Felicis Fund X, 900M USD, cerrado en junio de 2025, con foco en “AI-first platforms, cybersecurity, defense, energy y healthtech” y capacidad de escribir de seed a etapas tardías. Como Senior Venture Partner no dispone de un presupuesto propio: su rol práctico es originar, diligenciar y respaldar operaciones que aprueban los GPs, además de sus cheques ángel personales."
-    ]
+    }
   }
 }

@@ -105,10 +105,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "El encaje es de firma (Nauta: DevTools & Infra, Nhost, NetBird), no de persona: hoy es Venture Partner de operaciones y exits, sin huella en IA ni dev tools, y el briefing original era erróneo (no ex-VMware ni ingeniero). Nauta queda cubierta por Borja Breña.",
     "puntuacion": {
       "tesis": 12,
       "etapa": 10,
@@ -120,21 +119,6 @@
       "bruto": 45,
       "topes": [],
       "total": 45
-    },
-    "motivo": "El encaje es de firma (Nauta: DevTools & Infra, Nhost, NetBird), no de persona: hoy es Venture Partner de operaciones y exits, sin huella en IA ni dev tools, y el briefing original era erróneo (no ex-VMware ni ingeniero). Nauta queda cubierta por Borja Breña.",
-    "nivel_v1": "x",
-    "prioridad_agente": "C",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "El briefing era erróneo (no ex-VMware ni ingeniero); hoy Venture Partner sin huella en IA ni dev tools. Nauta queda cubierta por Borja Breña."
-  },
-  "nombre_original": "Daniel Sánchez",
-  "textos_v1": {
-    "por_que_es_interesante": "El encaje es sobre todo de firma, no de persona. Nauta lista DevTools & Infra, AI/ML & Data, Security & Privacy y Deep Tech entre sus verticales, invierte con producto operativo aunque sea pre-revenue y tiene precedentes reales: lideró la seed de 3 M$ de Nhost (abril de 2021), la alternativa open source a Firebase; entró en NetBird (red segura open source, Serie A de 10 M$ en enero de 2026); en Napptive (tooling cloud-native, España); en Xonai (computación acelerada para procesamiento de datos); y en Universal Quantum (computación cuántica). Daniel Sánchez, en cambio, es el socio de operaciones y salidas: su valor para el cliente es el de puerta de entrada y avalista interno, especialmente vía la red de ESADE (preside Esade Alumni) y el ecosistema de Barcelona. Ángulo: usarlo como camino hacia Jordi Viñas o Carles Ferrer, y encuadrar el harness de agentes en el lenguaje de Nauta —eficiencia de capital y software de producción fiable frente a automatizaciones internas frágiles—, que es literalmente su predicción número 3.",
-    "tesis_de_inversion": "La tesis es de casa más que suya personal: Nauta invierte en 'capital-efficient B2B software' europeo en etapa temprana, con producto operativo aunque sea pre-revenue, y ticket de 1 a 5 M€. Sus verticales publicados incluyen explícitamente DevTools & Infra, AI/ML & Data, Security & Privacy y Deep Tech, junto a RetailTech, RevenueTech, Fintech, Insurtech, Productivity y HealthTech. Su lema es sobrio: 'We invest in early-stage B2B software. We stand by our founders. We talk straight.' En julio de 2026 el equipo publicó siete predicciones sobre 'The AI Future of B2B Software' con una posición clara —'AI will supercharge the software market, not kill it'— y varias tesis directamente pertinentes: que las herramientas internas y las automatizaciones tipo Claude 'son las nuevas hojas de cálculo' y no sustituyen software de producción, porque el coste oculto está en testing, fiabilidad y mantenimiento; que 'building software still requires judgement, taste and product decisions'; que la capa de aplicación capturará la mayor parte del valor; y que el rendimiento del modelo se convierte en el motor de defensibilidad y de pricing. La aportación personal de Daniel Sánchez es de otro registro: operaciones, gobierno corporativo, M&A y preparación de exits.",
-    "etapa_y_ticket": [
-      "Etapa temprana B2B software: la web de Nauta declara que invierten en compañías 'early-stage with operating products, even if pre-revenue' con un ticket medio de 1 a 5 M€. En la práctica lideran seed y Serie A y también participan sin liderar (NetBird, Tangany). Signal NFX atribuye a Daniel Sánchez personalmente un rango de 500 k$ a 7,5 M$ con sweet spot en torno a 500 k$ y le registra solo 7 operaciones. NOTA: como Venture Partner su capacidad de liderar y decidir un deal en solitario no está confirmada."
-    ]
+    }
   }
 }

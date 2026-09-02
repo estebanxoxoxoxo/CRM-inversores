@@ -134,10 +134,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Fondo IV (120M€, dic-2025) con mandato literal de deep tech, datos e infraestructura de IA, dinero fresco y criterio del '+10x'; pero primer cheque de ~5M€ en seed/Serie A (no pre-seed de 200-500k), perfil no técnico, historia consumer y sin email público.",
     "puntuacion": {
       "tesis": 18,
       "etapa": 9,
@@ -149,21 +148,6 @@
       "bruto": 71,
       "topes": [],
       "total": 71
-    },
-    "motivo": "Fondo IV (120M€, dic-2025) con mandato literal de deep tech, datos e infraestructura de IA, dinero fresco y criterio del '+10x'; pero primer cheque de ~5M€ en seed/Serie A (no pre-seed de 200-500k), perfil no técnico, historia consumer y sin email público.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "Fondo IV (120M€, dic 2025) con mandato literal de infraestructura de IA y deep tech, pero ticket inicial ~5M€ en seed/Serie A, perfil no técnico e historia consumer. Confirmado que NeuralTrust no la lideró."
-  },
-  "nombre_original": "Aquilino Peña",
-  "textos_v1": {
-    "por_que_es_interesante": "El mandato publicado del Fondo IV (deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física) es casi una descripción del cliente, y el fondo es dinero fresco: primer cierre en diciembre de 2025, con 120 M€ por desplegar en 2026-2029. La evidencia de apuesta pre-tracción existe y es reciente: Kibo lideró la seed de ~21 M€ de Theker (robots generalistas, hardware sin ingresos consolidados) y Aquilino personalmente lideró los 9,25 M€ de FOSSA Systems entrando al consejo; ambas son apuestas técnicas de horizonte largo, no compras de métricas. Su criterio declarado del '+10x en algún aspecto' es exactamente el terreno de un stack que afirma ser ~90% mejor: hay que llevarle el 10x medido y explicado, no un roadmap. Y su vocabulario ya incluye 'AI-native' y 'Agents are already here'. El ángulo de contacto correcto: no vender usuarios sino (a) el benchmark 10x reproducible, (b) por qué el harness de agentes es infraestructura que otros necesitarán, y (c) un equipo de dos o tres fundadores con tecnología, marketing y ventas cubiertos —ese es su check-list literal. Referencias obligadas: NeuralTrust, Theker y AnyFormat.",
-    "tesis_de_inversion": "Invierte en seed y Serie A liderando ronda, desde el Fondo IV de 120 M€ (dic-2025) cuyo mandato publicado es literalmente 'deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física y aplicaciones verticales, incluyendo defensa y espacio'. El vehículo co-invertido con CDTI se registra como 'Kibo Ventures Fund IV Innvierte', un fondo declarado deep tech. Su filtro personal lo ha explicado sin rodeos: 'Miramos que el producto tenga una ventaja en algo de +10 en algún aspecto' —diez veces más rápido, mejor o más barato que la alternativa—, 'Buscamos capacidad de ejecución, que sean capaces no tanto de decir sino de hacer', 'Nos gustan más dos o tres fundadores que uno solo' y 'Miramos que esté compensado: debe haber tecnología, pero también marketing y ventas'. Rechaza el corto plazo: 'Montar una compañía para que nos compre alguien es la receta del desastre'. Y sobre el recurso escaso: 'Hay más capital que buenas ideas, el recurso escaso es el talento'. Sobre IA y agentes su posición pública más reciente (LinkedIn, junio de 2026, al invertir en NeuralTrust) es que la compañía está 'at the intersection of two of the industries where we have vast experience: AI and cybersecurity', que 'Agents are already here' y que su papel es asegurarse de que 'they are safe'. También describe a Theker como 'AI-native generalist robots that adapt in real time': el adjetivo 'AI-native' es vocabulario suyo.",
-    "etapa_y_ticket": [
-      "Seed y Serie A, liderando ronda. Con el Fondo IV (120 M€, anunciado el 15 de diciembre de 2025) Kibo declara públicamente un ticket inicial de en torno a 5 M€ en rondas de fase inicial y reserva el 40% del fondo para follow-on (fuentes: webcapitalriesgo.com, Forbes España, El Español, Demócrata). El perfil del fondo en Fund Momentum lo resume como 'Seed/Series A' y define su sweet spot como 'technical European founder building deep tech or AI outside major VC hubs at Seed/Series A'. Operaciones reales de 2025-2026 confirman ese rango: seed de ~21 M€ en Theker (liderada por Kibo), ronda de 9,25 M€ en FOSSA Systems (liderada por Aquilino Peña, que entró al consejo), seed de 17,2 M€ en NeuralTrust (participación, no liderazgo) y ~3,3 M€ en AnyFormat. Conclusión honesta: 5 M€ de primer cheque es un ticket alto; no es un fondo de pre-seed de 200-500 k€."
-    ]
+    }
   }
 }

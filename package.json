@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "importar": "tsx scripts/importar-perfiles.ts",
-    "auditar": "tsx scripts/aplicar-auditoria-v2.ts",
+    "recalcular": "tsx scripts/recalcular.ts",
     "subir": "tsx scripts/subir-firestore.ts",
     "build": "tsc -b && vite build",
     "lint": "oxlint",

@@ -103,10 +103,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Hispanohablante nativo, equipo fundador de Auth0 y socio con decisión en NXTP, fondo con especialización en Developer Tools & Infrastructure (Auth0, Vercel) que entra pre-seed desde 500k USD; pero el Fund III es de 2023 con capacidad no confirmada, es Partner desde 2025 sin deals liderados, perfil de marketing y está fuera de región (Buenos Aires).",
     "puntuacion": {
       "tesis": 18,
       "etapa": 16,
@@ -118,21 +117,6 @@
       "bruto": 69,
       "topes": [],
       "total": 69
-    },
-    "motivo": "Hispanohablante nativo, equipo fundador de Auth0 y socio con decisión en NXTP, fondo con especialización en Developer Tools & Infrastructure (Auth0, Vercel) que entra pre-seed desde 500k USD; pero el Fund III es de 2023 con capacidad no confirmada, es Partner desde 2025 sin deals liderados, perfil de marketing y está fuera de región (Buenos Aires).",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "NXTP tiene especialización en Developer Tools & Infrastructure (Auth0, Vercel) y entra pre-seed; él fue equipo fundador de Auth0. Reservas: Fund III de 2023 con capacidad no confirmada, Partner desde 2025 sin deals liderados, perfil de marketing; fuera de región."
-  },
-  "nombre_original": "Federico Molina (usa públicamente 'Fede Molina')",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el único perfil del lote que combina tres cosas a la vez: hispanohablante nativo, operador que construyó desde dentro una compañía de developer tools de éxito global (Auth0), y socio con capacidad de decisión en un fondo cuya cartera incluye literalmente Auth0 y Vercel. Para una startup hispanohablante que vende un harness de desarrollo y un stack IA-nativo, no hace falta traducir nada: entiende el producto, entiende al comprador desarrollador y ha visto de cerca cómo una herramienta técnica pasa de idea a 6.500M USD. NXTP declara acompañar 'from idea through execution' y hace cheques de pre-seed desde 500K USD, lo que encaja con una ronda pre-producto. Ángulo de contacto: escribirle en español por X o LinkedIn, apoyándose en su etapa de Auth0 (el paralelismo entre 'autenticación como primitiva para desarrolladores' y 'harness de agentes como primitiva de desarrollo' es un gancho legítimo), y ofrecerle la versión para inversores del harness como algo que puede probar él mismo. Si NXTP no encaja por geografía, sigue siendo candidato a cheque de ángel.",
-    "tesis_de_inversion": "Molina invierte dentro del mandato de NXTP, que se define como 'Pioneers of early-stage B2B technology investing in Latin America and globally' y busca 'category-defining founders' a los que acompaña 'from idea through execution' — es decir, desde la idea, no desde la tracción. Las verticales declaradas del fondo son Cloud & SaaS, FinTech y pagos, habilitadores de e-commerce, marketplaces B2B y datos e IA, y varias fuentes de análisis de fondos le atribuyen explícitamente 'deep domain expertise in Developer Tools & Infrastructure': plataformas para desarrolladores, DevOps, CI/CD y observabilidad. Esa especialización no es teórica: NXTP fue inversor de Auth0 (identidad para desarrolladores, adquirida por Okta por 6.500M USD en 2021) y de Vercel (plataforma de frontend e infraestructura cloud). Su propio background refuerza el ángulo: viene de haber construido la función de crecimiento de dos productos vendidos a desarrolladores y creadores (Auth0 y Decentraland), por lo que su lente natural es la adopción bottom-up de herramientas técnicas, la comunidad de desarrolladores y la distribución product-led, más que la venta enterprise clásica. Es además business angel activo y asesor de varias startups, lo que abre la vía de un cheque personal aunque el fondo no entre.",
-    "etapa_y_ticket": [
-      "NXTP invierte en pre-seed, seed y Serie A. Cheques de 500.000 a 5.000.000 USD según la fuente del fondo; otras fuentes acotan el rango habitual a 500K-3M USD, típicamente en pre-seed o seed. Fondo vigente: NXTP Fund III, cerrado en noviembre de 2023 en 98M USD (objetivo inicial 120M USD), el mayor de la firma y el doble que el Fund II. NOTA: el fondo III lleva casi tres años desplegándose; conviene confirmar capacidad de nuevas inversiones y si hay un Fund IV en marcha (no confirmado)."
-    ]
+    }
   }
 }

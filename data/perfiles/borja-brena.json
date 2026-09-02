@@ -109,10 +109,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Nauta tiene un vertical real 'DevTools & Infra' (Napptive, NetBird, Nhost, Kubermatic, Xonai) y él cubre España y Portugal; pero exigen producto operativo, doctrina estricta de eficiencia de capital, prefieren GenAI vertical, el último fondo confirmado es de 2021 y sólo hay buzón general.",
     "puntuacion": {
       "tesis": 17,
       "etapa": 10,
@@ -124,21 +123,6 @@
       "bruto": 66,
       "topes": [],
       "total": 66
-    },
-    "motivo": "Nauta tiene un vertical real 'DevTools & Infra' (Napptive, NetBird, Nhost, Kubermatic, Xonai) y él cubre España y Portugal; pero exigen producto operativo, doctrina estricta de eficiencia de capital, prefieren GenAI vertical, el último fondo confirmado es de 2021 y sólo hay buzón general.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Nauta tiene vertical real DevTools & Infra (Napptive, NetBird, Nhost) y admite pre-revenue, pero exige producto operativo, doctrina de eficiencia de capital y preferencia por GenAI vertical. Puerta ibérica al fondo."
-  },
-  "nombre_original": "Borja Breña",
-  "textos_v1": {
-    "por_que_es_interesante": "Nauta es de los pocos fondos europeos con 'DevTools & Infra' como vertical formal y con cartera real ahí: Napptive (plataforma para desarrollar y mantener aplicaciones cloud-native, España, 2022), NetBird (VPN open source, Alemania, Serie A de 10 M$ en enero de 2026), Kubermatic (automatización de Kubernetes), Xonai (computación acelerada para procesamiento de datos), Trackingplan (analítica y calidad de código, España, 2022) y BoxyHQ (open source, vendida a Ory en mayo de 2025). Es decir, el fondo ya ha firmado infraestructura de software y open source, no solo SaaS vertical. Borja Breña es el socio que cubre España y Portugal, es ingeniero de telecomunicación de formación y español nativo, y las dos participadas españolas más cercanas al cliente (Napptive y Trackingplan) caen en su territorio. Ángulo de contacto: entrar por la conversación que el propio fondo ha abierto —Jevons paradox en desarrollo de software y defensibilidad de GenAI— y demostrar 'value beyond the API' con arquitectura, no con narrativa.",
-    "tesis_de_inversion": "Nauta invierte en fundadores europeos que construyen «la próxima generación de compañías de software B2B», en seed y Serie A, con tickets de 1-5 M€ y una obsesión declarada por la eficiencia de capital: su marco 'Maximum Sustainable Growth' exige que una buena compañía llegue a «€5M in annual revenues using less than €10M in funding» y que «their revenue growth and cash burn trajectory should enable them to reach net cash breakeven within six months of runway end». Sus verticales incluyen DevTools & Infra, AI/ML & Data, Security & Privacy y Deep Tech, además de RetailTech, Fintech, Insurtech, Productivity y HealthTech. Sobre IA, el fondo publica una tesis explícita ('Momentum vs. Moats: Building Durable GenAI Companies', oct-2025): busca «value beyond the API», arquitectura integrada que mejore con los modelos, ventajas de originación y rutas claras a costes de cambio o efectos de red, y avisa de que «execution excellence is a necessary condition to scale, but long-term durability requires a thoughtful approach to defensibility from the start». Prefiere GenAI vertical sobre horizontal, por riesgo de erosión de márgenes frente a OpenAI y Google. Breña se autodefine como «a good directeur sportif at the service of the real heroes».",
-    "etapa_y_ticket": [
-      "Seed y Serie A de software B2B europeo. La web de Nauta declara ticket medio de 1-5 M€ y admite explícitamente empresas 'early-stage B2B software (operating product, pre-revenue acceptable)'. Signal NFX atribuye a Breña un rango personal de 1-6 M$ con punto óptimo en 3 M$ y foco en seed. Fondo vigente: el último cierre público confirmado es el de 190 M€ de noviembre de 2021 (Nauta IV), más un vehículo sidecar de 55 M€ (julio de 2019); NO CONFIRMADO ningún 'Nauta V' anunciado públicamente. AUM histórico declarado por la firma: 550 M€, más de 95 participadas y 2.500 M€ de valor de exits."
-    ]
+    }
   }
 }

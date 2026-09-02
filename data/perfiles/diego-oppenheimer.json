@@ -102,10 +102,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Encaje completo en todas las dimensiones: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
     "puntuacion": {
       "tesis": 25,
       "etapa": 19,
@@ -117,21 +116,6 @@
       "bruto": 89,
       "topes": [],
       "total": 89
-    },
-    "motivo": "Encaje completo en todas las dimensiones: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "GP de AI Tinkerers Fund (pre-seed) y Venture Partner en Work-Bench; fundador de Algorithmia; cartera íntegramente infra de IA (Guardrails, Numbers Station); uruguayo; email público. Corrección: no cofundó Factory."
-  },
-  "nombre_original": "Diego Oppenheimer",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el mejor encaje de todo el lote. Es hispanohablante nativo, fue fundador de una empresa de infraestructura de ML vendida a DataRobot, y hoy tiene dos vehículos que invierten precisamente en pre-seed y seed de infra de IA y dev tools, uno de ellos con tickets de 2-5 M USD que sí pueden liderar una ronda. No pide usuarios: el AI Tinkerers Fund selecciona por demo funcionando, y la propia comunidad AI Tinkerers tiene como lema 'working code beats hype, demos over slides'. Además está escribiendo en público, ahora mismo, sobre agentes de ingeniería y sobre cómo se reorganiza el equipo de desarrollo con IA. Y publica su email en su web. El ángulo de contacto: escribirle en español, referenciar su post 'Three Roles Are Replacing the Traditional Engineering Org' y ofrecerle una demo del harness en un meetup de AI Tinkerers.",
-    "tesis_de_inversion": "Oppenheimer invierte en la capa de infraestructura y herramientas que hace que la IA funcione en producción. Es la tesis que ya ejecutó como fundador: Algorithmia fue una de las primeras plataformas de MLOps, y Guardrails AI ataca la fiabilidad de los LLM. Su cartera declarada en Signal/NFX (Ridge AI, Howie, Pally, Raylu, Guardrails AI, BrainLogic AI, Numbers Station, Flexio) se concentra en IA, analytics, infraestructura empresarial y deep tech, en seed y pre-seed. En Work-Bench el mandato es explícito: 'ai/ml, dev tools, and infrastructure' además de SaaS horizontal y vertical y seguridad e infraestructura cloud-native (https://www.work-bench.com/team). Sus escritos recientes muestran dónde está mirando ahora mismo: 'Three Roles Are Replacing the Traditional Engineering Org' (09/07/2026), 'Why Vertical AI Agents Scale Faster Than Platforms' (15/06/2026), 'Agents Shouldn't Hold Secrets' (11/06/2026) y 'What Actually Happened to Product Management After AI' (18/06/2026). Es decir: está escribiendo activamente sobre cómo los agentes reorganizan la ingeniería de software, que es exactamente el problema del cliente. Con el AI Tinkerers Fund su criterio de selección es aún más favorable a pre-tracción: invierte en builders que demuestran con código funcionando en los meetups de la comunidad, no en métricas.",
-    "etapa_y_ticket": [
-      "Dos vehículos con perfiles distintos. (1) AI Tinkerers Fund: fondo pre-seed dedicado a fundadores de IA salidos de la comunidad AI Tinkerers; tamaño del fondo no publicado; ejemplo documentado de operación: KinoSec.ai, ronda de 1 M USD a valoración de 15 M USD (2026), con el fondo listado entre los inversores junto a Joe Heitzeberg. (2) Work-Bench: seed y pre-seed, ticket de 2 a 5 M USD con 'sweet spot' en 3 M USD, sectores IA, analytics, infraestructura empresarial y deep tech, según su ficha en Signal/NFX (https://signal.nfx.com/investors/diego-oppenheimer_1). Work-Bench sí lidera rondas seed de infraestructura empresarial en Nueva York."
-    ]
+    }
   }
 }

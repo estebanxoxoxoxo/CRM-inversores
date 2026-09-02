@@ -114,10 +114,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Su método (decision analysis y market mapping) está diseñado para decir sí sin datos de PMF, lidera pre-seed y seed con ~1M USD y ya invirtió en Okahu (dev tools para agentes), markovML y Hevo; 'Spanish-speaking first'. Bloqueo: Ulu rechaza automáticamente empresas no constituidas en EE.UU.",
     "puntuacion": {
       "tesis": 17,
       "etapa": 19,
@@ -129,21 +128,6 @@
       "bruto": 74,
       "topes": [],
       "total": 74
-    },
-    "motivo": "Su método (decision analysis y market mapping) está diseñado para decir sí sin datos de PMF, lidera pre-seed y seed con ~1M USD y ya invirtió en Okahu (dev tools para agentes), markovML y Hevo; 'Spanish-speaking first'. Bloqueo: Ulu rechaza automáticamente empresas no constituidas en EE.UU.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "Método diseñado para decidir sin PMF, lidera pre-seed/seed, Okahu (observabilidad de agentes) en cartera, 'Spanish-speaking first'; pero Ulu rechaza automáticamente empresas no constituidas en EE.UU. y ticket ~1M."
-  },
-  "nombre_original": "Miriam Rivera",
-  "textos_v1": {
-    "por_que_es_interesante": "Es probablemente la inversora del mercado estadounidense cuyo metodo esta mejor disenado para decir 'si' sin traccion: el market mapping sustituye las metricas de usuarios por un modelo probabilistico del mercado, asi que un equipo con un stack IA-nativo y un harness de agentes puede ser evaluado por la estructura del mercado de dev tools y por la calidad tecnica del razonamiento, no por MRR. Ademas hay precedente sectorial directo: Ulu invirtio en Okahu (observabilidad de agentes de IA, literalmente 'dev tools to find & fix issues in AI agents'), markovML, Hevo (pipelines de datos), AltitudeIQ (calidad de datos), Banyan Infrastructure y Palantir. Angulo de contacto: pedirle una sesion de market mapping sobre el mercado de harnesses/agent clouds, presentando ya un mapa propio con caminos de entrada y competidores - es exactamente el lenguaje de su proceso. El vinculo hispano es real y personal (castellano como primera lengua), lo que abre la puerta a una intro en espanol.",
-    "tesis_de_inversion": "Ulu Ventures invierte en pre-seed y seed de software empresarial y de TI en EE.UU., con foco creciente en B2B software, deep tech y AI/ML. Su rasgo distintivo es metodologico: aplican 'decision analysis' (analisis de decisiones, la disciplina cuantitativa desarrollada en Stanford por Ron Howard, y en la que su cofundador y marido Clint Korver hizo el doctorado) para reducir el sesgo cognitivo en la seleccion. La herramienta central es el 'market mapping': una sesion de trabajo con el equipo fundador en la que se dibuja graficamente el mercado objetivo, los competidores, los caminos de entrada y como evolucionara, y se construye un modelo probabilistico de riesgo/retorno. Esto les permite invertir cuando todavia NO hay datos de product-market fit, porque la evaluacion se hace sobre la estructura del mercado y la calidad del razonamiento del equipo, no sobre metricas de traccion. Miriam lo resume en su ensayo 'Say Bye to Bias: Why Ulu Ventures Relies on Analytics for Better Portfolio Picks' (https://medium.com/ulu-ventures). Su rubrica publica ('Evaluating Seed-Stage Startups') valora mercado grande, equipo fuerte, producto convincente, go-to-market enfocado, viabilidad financiera y valores alineados. Ademas mantiene una tesis explicita de diversidad como fuente de alpha: ~90% de las companias de Ulu tienen al menos un fundador diverso (mujer, minoria o inmigrante).",
-    "etapa_y_ticket": [
-      "Pre-seed y seed (ocasionalmente Serie A de seguimiento). Ticket de 750.000-1.000.000 USD, 'sweet spot' ~875.000 USD segun Signal NFX (https://signal.nfx.com/investors/miriam-rivera) y VCSheet (https://www.vcsheet.com/who/miriam-rivera). Lidera rondas: la propia firma declara '85+ deals led' en https://uluventures.com/portfolio/. Ulu ha hecho ~66 inversiones en seed con tamano medio de ronda de 4,51M USD (Tracxn)."
-    ]
+    }
   }
 }

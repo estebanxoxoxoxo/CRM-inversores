@@ -14,6 +14,7 @@ const RANGO_BANDA: Record<string, string> = {
   "Alto potencial": `${UMBRALES["Alto potencial"]}-${UMBRALES.Indiscutible - 1}`,
   Reserva: `${UMBRALES.Reserva}-${UMBRALES["Alto potencial"] - 1}`,
   Descartado: `0-${UMBRALES.Reserva - 1}`,
+  "Sin auditar": "pendiente",
 };
 
 export default function PanelFiltros({ filtros, onChange, perfiles }: Props) {

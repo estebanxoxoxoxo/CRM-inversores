@@ -108,10 +108,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Foco literal 'AI and Infrastructure/DevOps', lideró la Serie A de 100M USD de Tessl (desarrollo de software IA-nativo) y firmó su ensayo; español nativo con email público. Reservas: Index entra de seed a growth (su deal fue Serie A), ambigüedad Partner vs Venture Partner y base en Londres.",
     "puntuacion": {
       "tesis": 24,
       "etapa": 12,
@@ -123,21 +122,6 @@
       "bruto": 75,
       "topes": [],
       "total": 75
-    },
-    "motivo": "Foco literal 'AI and Infrastructure/DevOps', lideró la Serie A de 100M USD de Tessl (desarrollo de software IA-nativo) y firmó su ensayo; español nativo con email público. Reservas: Index entra de seed a growth (su deal fue Serie A), ambigüedad Partner vs Venture Partner y base en Londres.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Foco literal 'AI and Infrastructure/DevOps', lideró la Serie A de Tessl (desarrollo de software IA-nativo), email público; ambigüedad Partner vs Venture Partner, base Londres, sin mandato España."
-  },
-  "nombre_original": "Carlos Gonzalez-Cadenas",
-  "textos_v1": {
-    "por_que_es_interesante": "De los seis, es quien más literalmente ha escrito la tesis del cliente. Lideró por Index la Series A de 100M USD de Tessl (noviembre de 2024), la compañía de Guy Podjarny (fundador de Snyk) dedicada al 'AI native software development', y firmó el ensayo que explica por qué el desarrollo pasará de estar centrado en el código a estarlo en la especificación. Un stack IA-nativo con harness de agentes es, en su marco, la infraestructura de ese mundo. Además es español nativo, así que la conversación puede ser en español desde el primer minuto, y publica su email en la web del fondo, lo que elimina la fricción de la intro. Su historial pre-tracción es excepcional: su propio socio en Index dijo que se le veía 'en casi todas las rondas pre-seed notables de Europa' de los dos años previos a su fichaje. Ángulo de contacto: escribirle en español, citar el ensayo de Tessl y plantear explícitamente cómo el producto del cliente encaja o compite con la visión spec-centric, con la parte de agentes como la pieza de ejecución que a Tessl le falta. Reserva: está fuera de la región objetivo (Londres) y hay ambigüedad sobre si su cargo actual es Partner o Venture Partner.",
-    "tesis_de_inversion": "Sus focos declarados en Index desde que entró en enero de 2021 son 'SaaS, Open Source, Security, Financial Services, AI and Infrastructure/DevOps' — es decir, exactamente el perímetro del cliente. Su operación emblemática, y el mejor argumento para contactarle, es Tessl: en el ensayo que coescribió para Index, 'When everyone speaks software: Tessl's vision for AI native development' (14 de noviembre de 2024), defiende que el paso de un desarrollo 'code-centric' a uno 'spec-centric' es el cambio más grande de la historia de la creación de software, y que los desarrolladores se bifurcarán en dos caminos —producto y arquitectura— con 'more creative satisfaction and less tedium'. Su frase más citable de esa pieza: 'Software creation becomes a new form of literacy - as fundamental to expressing ideas and solving problems as writing is today'. Sobre por qué invierte, dijo de Guy Podjarny que es 'one of those rare people who can sweat the details but also sees the big picture', con 'a great track record of catalyzing cultural change in how developers work', y describió Tessl como 'a movement to change how software gets made'. Sobre su forma de acompañar habla de 'moments of truth': coyunturas críticas en las que la experiencia cambia la trayectoria de un negocio, más que involucración operativa diaria. Y sobre sí mismo: 'Having an engineering background and knowing what it takes to build products from scratch and get them to market has made me a better executive, and will hopefully also make me a better investor'.",
-    "etapa_y_ticket": [
-      "Index invierte de semilla a growth y Carlos entró como socio generalista sin especialización de etapa; en su entrevista con TechCrunch (20-nov-2020) dijo que invierte a lo largo de venture y growth aunque 'todo el mundo en la industria' se está moviendo hacia etapas más tempranas. Su historial personal es marcadamente temprano: su socio Jan Hammer dijo de él que 'the reason you see him in almost all notable pre-seed European rounds of the last two years, is because every founder wants to have him close'. No se ha encontrado un rango de cheque publicado a su nombre. Como referencia de lo que lidera hoy: Index lideró la Series A de 100M USD de Tessl (noviembre de 2024), sobre una semilla previa de 25M USD de boldstart y GV. Como business angel previo hizo más de 50-60 inversiones de cheque pequeño en Europa."
-    ]
+    }
   }
 }

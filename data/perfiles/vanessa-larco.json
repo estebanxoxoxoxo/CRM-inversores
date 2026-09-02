@@ -109,10 +109,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Su mandato coincide punto por punto: pre-seed y seed exclusivos, 500k-3M USD, cofundador técnico obligatorio, 'AI-native tools for power users' y 'companies OpenAI won't kill', con un test de rearquitectura de costes que es el marco natural para el '90% mejor'. Reservas: tamaño del fondo y cierre no públicos, sin inversiones verificables aún, herencia colombiana materna pero español no documentado, sin email.",
     "puntuacion": {
       "tesis": 22,
       "etapa": 20,
@@ -124,21 +123,6 @@
       "bruto": 70,
       "topes": [],
       "total": 70
-    },
-    "motivo": "Su mandato coincide punto por punto: pre-seed y seed exclusivos, 500k-3M USD, cofundador técnico obligatorio, 'AI-native tools for power users' y 'companies OpenAI won't kill', con un test de rearquitectura de costes que es el marco natural para el '90% mejor'. Reservas: tamaño del fondo y cierre no públicos, sin inversiones verificables aún, herencia colombiana materna pero español no documentado, sin email.",
-    "nivel_v1": "2",
-    "prioridad_agente": "A",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Premise VC: pre-seed/seed exclusivo 500k-3M con tesis de compañías que OpenAI no matará y cofundador técnico obligatorio; pero tamaño del fondo y cierre no públicos, sin inversiones verificables y español no confirmado (madre de Barranquilla)."
-  },
-  "nombre_original": "Vanessa Larco",
-  "textos_v1": {
-    "por_que_es_interesante": "Es la única de esta lista cuyo mandato entero —pre-seed y seed, 500K-3M USD, fundadores técnicos, herramientas IA-nativas— coincide punto por punto con lo que necesita el cliente, y además acaba de levantar fondo, así que está desplegando activamente. Su tesis de 'companies OpenAI won't kill' es exactamente la conversación de moat que el cliente quiere tener: no le hay que convencer de que hace falta un foso, ya lo exige. Su test de si el producto rearquitectura la estructura de costes (más rápido, más barato o más fácil, e idealmente dos de tres) es el marco natural para presentar una afirmación de '~90% mejor': si esa cifra se sostiene con metodología, es literalmente su criterio de decisión. Exige al menos un cofundador altamente técnico, lo cual juega a favor. Y su hilo conductor de ejecución es la velocidad de shipping, que es lo que demuestra un harness de agentes. Ángulo de contacto: encuadrar el producto como la infraestructura que permite 'out-shippear' a los laboratorios, con números de coste y latencia, y explicar por qué OpenAI no lo va a matar. Herencia colombiana confirmada por vía materna (Barranquilla), aunque su fluidez en español no está documentada públicamente.",
-    "tesis_de_inversion": "Larco invierte en pre-seed y seed en fundadores técnicos que construyen 'AI-native tools for power users' y, en su formulación más citada, 'companies OpenAI won't kill': compañías con foso propio en espacios donde los laboratorios frontera fracasan o desprioritizan. Su requisito de equipo es explícito: 'At least one co-founder needs to be highly technical and accomplished', capaz de mantenerse al día con los frameworks de IA y de rehacer el roadmap cuando cambian las capacidades del modelo. Su test de producto —lo que Crunchbase News llama 'one big AI test'— es si el producto rearquitectura de verdad la estructura de costes: tiene que ser más rápido, más barato o más fácil que la alternativa, e idealmente dos de las tres cosas. Rechaza explícitamente los envoltorios de un solo modelo y prefiere fundadores que entienden la mecánica subyacente y saben optimizar entre varias soluciones. Considera la velocidad de producto como la ventaja crítica temprana, citando que Perplexity y ElevenLabs ganaron por 'out-shipping' a la competencia. Y ha definido siete rasgos de fundador de los que exige al menos dos, con énfasis en el fundador 'urgently dissatisfied', el que empuja al equipo más allá de lo que se creía posible sin confundirlo con ego. Opera el fondo como una startup: 'This is a startup, it's a startup, the product is a fund'.",
-    "etapa_y_ticket": [
-      "Pre-seed y seed EXCLUSIVAMENTE, con cheques de 500.000 a 3.000.000 USD (Crunchbase News, Fund Momentum). El tamaño total del fondo NO se ha hecho público ni se ha anunciado fecha de cierre. Es un cambio radical respecto a su etapa en NEA, donde Signal NFX le atribuía cheques de 2 a 50M USD con sweet spot de 25M sobre un fondo de 6.200M USD y foco en Series A/B. La propia Larco explica el motivo del cambio: 'at a fund managing $3 billion to $6 billion, a $2 million check can never be a real priority', y cita la petición de un fundador de querer 'un inversor en cada ronda al que le duela el cheque, que sea un porcentaje grande de su fondo'."
-    ]
+    }
   }
 }

@@ -101,10 +101,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Encaje temático máximo: co-lideró el seed de Corridor (seguridad para código generado por IA, clientes como Cursor) en Conviction, fondo de primer cheque AI-native; pero sin evidencia alguna de origen hispano o español, título 'Investor' no confirmado como Partner y sin email.",
     "puntuacion": {
       "tesis": 24,
       "etapa": 18,
@@ -116,21 +115,6 @@
       "bruto": 59,
       "topes": [],
       "total": 59
-    },
-    "motivo": "Encaje temático máximo: co-lideró el seed de Corridor (seguridad para código generado por IA, clientes como Cursor) en Conviction, fondo de primer cheque AI-native; pero sin evidencia alguna de origen hispano o español, título 'Investor' no confirmado como Partner y sin email.",
-    "nivel_v1": "r",
-    "prioridad_agente": "C",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Co-lideró el seed de Corridor (seguridad para código generado por IA), encaje temático máximo, pero origen hispano y español sin evidencia y título 'Investor' no confirmado como Partner. Reserva por regla de origen."
-  },
-  "nombre_original": "Isabella (Bella) Garcia-Camargo",
-  "textos_v1": {
-    "por_que_es_interesante": "Es probablemente la persona de Conviction con la tesis más cercana a un harness de desarrollo con nube de agentes: su deal firmado (Corridor) es exactamente infraestructura de seguridad para código generado por IA, con clientes como Cursor, y su ensayo argumenta que la velocidad del software con IA rompe las herramientas de desarrollo existentes. Es ingeniera de formación (M.S. CS en IA) y viene de construir sistemas de IA en Bridgewater, así que evalúa profundidad técnica, no métricas. Conviction escribe primeros cheques de 1-25 M$ en compañías sin tracción (Mistral, Cognition, Cartesia, Thinking Machines-style bets) y su portfolio está lleno de apuestas pre-producto. Ángulo de contacto: NO vender adopción; enviarle una demo técnica del harness y una nota que conecte con su tesis 'Secure by Design' —qué garantías estructurales impone tu stack cuando el código lo escriben agentes—. Es el gancho más probable para una respuesta.",
-    "tesis_de_inversion": "Su tesis es la de Conviction: 'Software 3.0' / compañías AI-native, en la convicción de que estamos muy al principio de la traducción de modelos potentes a productos que transforman industrias. Conviction invierte en toda la pila —chips, infraestructura de datos, dev tools, laboratorios de investigación y aplicaciones— y suele ser el primer cheque. Su ángulo personal, declarado en su anuncio de incorporación (LinkedIn, marzo 2025), es explícito: busca founders de empresas AI-native en ciberseguridad y herramientas financieras. Su ensayo de inversión en Corridor articula una tesis muy útil para el cliente: la seguridad tradicional no escala a la velocidad del desarrollo moderno y la brecha se ensancha a medida que la IA acelera la escritura de software; la respuesta es 'Secure by Design', donde propiedades como el mínimo privilegio y los valores por defecto seguros se imponen estructuralmente, y las herramientas de generación de código con IA son, por fin, el vehículo práctico para integrar prácticas seguras directamente en cómo se escribe el software. Es una tesis de infraestructura de desarrollo, no de aplicación vertical.",
-    "etapa_y_ticket": [
-      "Conviction invierte pre-seed, seed y Series A, frecuentemente como primer cheque institucional. La propia web del fondo declara tickets de 1 a 25 M$ (https://www.conviction.com/). Referencia concreta de una operación liderada por ella: seed de 5,4 M$ en Corridor (agosto 2025). Bases de datos terceras (vcsheet) dan rangos menores (0,5-5 M$) y afirman que 'no lidera', dato desmentido por los hechos: Conviction lideró el seed de Corridor. Fondo vigente: Conviction está en su tercer fondo; Fondo I de 101 M$ (2022), Fondo II de 230 M$, y un tercer vehículo que sitúa el total gestionado cerca de 1.000 M$ (cifra exacta del Fondo III no confirmada públicamente)."
-    ]
+    }
   }
 }

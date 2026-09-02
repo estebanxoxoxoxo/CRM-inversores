@@ -107,10 +107,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
     "puntuacion": {
       "tesis": 22,
       "etapa": 16,
@@ -122,21 +121,6 @@
       "bruto": 80,
       "topes": [],
       "total": 80
-    },
-    "motivo": "GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Cardumen DeepTech Fund: pre-seed/seed con 'Developer Tools' explícito, lideró seed de illumex (adquirida por NVIDIA), ticket 750k-4M, GP español en Madrid. Reservas: deal flow mayoritariamente israelí y texto que espera validación de mercado."
-  },
-  "nombre_original": "Gonzalo Martínez de Azagra",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el único socio español de esta lista cuyo fondo declara 'Developer Tools' por escrito como área de inversión, e invierte formalmente en pre-seed y seed —no solo en Serie A—. Su prueba más potente es illumex: Cardumen lideró la seed de 13 M$ (junio de 2024) de una compañía de 'Generative Semantic Fabric' —capa semántica para que la IA generativa entienda datos estructurados de empresa— y NVIDIA la adquirió en febrero de 2026 por ~60 M$. Es exactamente la clase de apuesta que busca el cliente: infraestructura profunda para IA, liderada en seed, con comprador estratégico de primer nivel. Además su discurso público de 2026 va sobre compañías AI-native y output por empleado, y sobre estructurar capital para lo intensivo en capital con hitos, no con tracción. Ángulo de contacto: presentarse como infraestructura para agentes con un moat semántico/de datos, apoyarse en el paralelismo con illumex, y usar el puente Israel-España (él busca precisamente compañías con ADN técnico profundo fuera del circuito de moda).",
-    "tesis_de_inversion": "Invierte en deep tech B2B/B2B2C en fase muy temprana con un puente estructural Israel-España-EE. UU. El DeepTech Fund declara: 'we invest in the backbone of a future where data-driven intelligence and security are fundamental to societal progress', con tres áreas núcleo —Inteligencia Artificial ('software solutions that harness the power of AI to create outstanding products'), Big Data (gestión, procesamiento y compliance del dato) y Ciberseguridad ('device-agnostic across IT, OT and IoT')— y áreas adicionales explícitas donde figura Developer Tools, junto a Creator Economy, IoT, Industria 4.0 y Future of Work. Se definen como 'technology experts in B2B and B2B2C' con fuerza particular en product-led growth, y como el inversor más activo del cap table: 'we are not afraid to get into the weeds and help you resolve big, complicated problems'. En enero de 2026 Gonzalo añadió una lectura muy útil para una startup IA-nativa: sostiene que las compañías AI-native consiguen mayor output por empleado y que la eficiencia es la nueva métrica de éxito, y sobre deep tech afirmó: 'Israel has always been a deep tech country – what's changed is the venture mindset around it', defendiendo estructuras de capital con hitos y plazos largos para lo intensivo en capital.",
-    "etapa_y_ticket": [
-      "Pre-seed, seed y ocasionalmente Serie A. La página del DeepTech Fund lo dice literalmente: 'Early-stage investments in Pre-seed, Seed, and occasionally Series A rounds', esperando validación de mercado y de-risking tecnológico. Ticket inicial declarado: 750.000 $ a 4 M$ 'depending on the round and opportunity'. Proceso: para llegar a due diligence 'two of our partners need to agree on pursuing the investment opportunity'."
-    ]
+    }
   }
 }

@@ -108,10 +108,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Lidera seed y Serie A (0,5-5M USD) con IA aplicada a dominios técnicos duros (Axion Ray, Doxel) y es vicepresidente de SomosVC con email público; pero su tesis escrita exige CAC bajo e 'instant-payback', no tiene historial en dev tools y su español no está documentado.",
     "puntuacion": {
       "tesis": 10,
       "etapa": 15,
@@ -123,21 +122,6 @@
       "bruto": 53,
       "topes": [],
       "total": 53
-    },
-    "motivo": "Lidera seed y Serie A (0,5-5M USD) con IA aplicada a dominios técnicos duros (Axion Ray, Doxel) y es vicepresidente de SomosVC con email público; pero su tesis escrita exige CAC bajo e 'instant-payback', no tiene historial en dev tools y su español no está documentado.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "Lidera seed/Serie A en Collective Global con IA aplicada dura (Axion Ray), pero su tesis escrita exige CAC bajo y retorno inmediato, sin historial en dev tools y español sin confirmar."
-  },
-  "nombre_original": "Samuel D. «Sam» Garcia",
-  "textos_v1": {
-    "por_que_es_interesante": "Tres razones concretas. Primera: opera exactamente en la etapa del cliente, seed y Serie A con capacidad de pre-seed, con tickets de 0,5 a 5 millones y un punto dulce de 1,5 millones, que encaja con una primera ronda institucional antes de tracción. Segunda: ya tiene tesis probada en IA aplicada a dominios técnicos difíciles y con ciclos de venta largos, no en IA de consumo: Axion Ray (IA de observabilidad para calidad e ingeniería en manufactura, con clientes como Boeing, Cummins y Pratt & Whitney), Doxel (visión computacional para construcción) y Crosby Health (IA en salud, pre-seed). Eso demuestra tolerancia a empresas donde el valor está en el motor técnico y la evidencia comercial tarda. Tercera: es el nexo hispano más creíble de la lista. Mexicano-americano de frontera, vicepresidente de LatinxVC/SomosVC y ya inversor en Kredi, fintech hipotecaria de Monterrey. Un equipo hispanohablante construyendo infraestructura de IA le da un ángulo de identidad y de tesis a la vez, algo que él ha señalado públicamente como prioridad personal.",
-    "tesis_de_inversion": "No tiene una tesis personal publicada en formato de blog, newsletter o ensayos. Lo que existe es: (1) la tesis de la casa y (2) su obra escrita operativa. Amplo se define por respaldar a «globally ambitious founders» que construyen «companies that matter», es decir, empresas con impacto social y económico significativo; el portafolio es deliberadamente transversal (fintech, healthtech, IA, software empresarial, infraestructura) y global, no un fondo de tesis vertical estrecha. Collective Global añade la capa institucional: es una plataforma de capital para inversores institucionales globales con tres estrategias (Elevate, participaciones en GPs; Amplo, directo en etapa temprana; Tactica, coinversión oportunista). La tesis propia y documentada de Sam Garcia aparece en sus siete artículos para Built In (2020-2021) y es marcadamente comercial: busca costes de adquisición de cliente bajos, unidades económicas sanas y «instant-payback models» donde el cliente ve retorno financiero inmediato; valora clientes institucionales y de gobierno porque «rara vez churnean». Es una tesis de eficiencia comercial temprana, no una tesis de tecnología profunda o de horizonte largo. Esta tensión es el hallazgo más importante del perfil.",
-    "etapa_y_ticket": [
-      "Pre-seed, seed, seed+ y Serie A. Ticket declarado en fuentes de terceros: 500.000 a 5 millones de USD (SuperScout) / 100.000 a 5 millones con «sweet spot» de 1,5 millones (Signal NFX). Tamaño del primer fondo de Amplo: ~100 millones de USD; Collective Global gestiona más de 1.000 millones de USD en AUM en sus tres estrategias (Elevate, Amplo, Tactica). Toma asientos de consejo de forma habitual."
-    ]
+    }
   }
 }

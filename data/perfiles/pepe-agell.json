@@ -115,10 +115,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Puerta europea de Pear, fondo que invierte por mandato en pre-seed antes del PMF y lista 'AI tooling e infrastructure' y 'developer tools' entre sus verticales; pasado real en dev tools (3scale, adquirida por Red Hat), castellano y catalán nativos, ángel en pre-seed (Traza). Reservas: rol Partner vs Visiting Partner sin cerrar, especialidad GTM, decisión en la Bahía y sin email.",
     "puntuacion": {
       "tesis": 18,
       "etapa": 19,
@@ -130,21 +129,6 @@
       "bruto": 74,
       "topes": [],
       "total": 74
-    },
-    "motivo": "Puerta europea de Pear, fondo que invierte por mandato en pre-seed antes del PMF y lista 'AI tooling e infrastructure' y 'developer tools' entre sus verticales; pasado real en dev tools (3scale, adquirida por Red Hat), castellano y catalán nativos, ángel en pre-seed (Traza). Reservas: rol Partner vs Visiting Partner sin cerrar, especialidad GTM, decisión en la Bahía y sin email.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Pear es especialista en pre-seed con vertical 'AI tooling/infrastructure' y él invierte como ángel en pre-seed (Traza); pero rol Partner vs Visiting Partner sin cerrar, especialidad GTM y decisión en la Bahía."
-  },
-  "nombre_original": "Pepe Agell (José Luis Agell)",
-  "textos_v1": {
-    "por_que_es_interesante": "Es la puerta europea de un fondo americano de primer nivel que invierte por mandato en pre-seed antes del product-market fit y que lista 'AI tooling e infrastructure' y 'developer tools' entre sus verticales oficiales. Pear no pide tracción: PearX está diseñado precisamente para compañías que aún no la tienen. Pepe además tiene un pasado de developer tools real (3scale, gestión de APIs, adquirida por Red Hat), habla castellano y catalán nativos y opera desde Barcelona, así que la conversación puede ser en español sin fricción. Su tesis pública sobre ingenieros desplazados que construirán software con IA encaja de lleno con un harness de desarrollo con nube de agentes. Ángulo de contacto: presentarlo como infraestructura B2B para equipos de ingeniería (su terreno), no como herramienta de consumo, y apoyarse en la parte GTM —es la ayuda que él ofrece— para demostrar que hay un camino comercial aunque no haya usuarios todavía.",
-    "tesis_de_inversion": "Pear se define como 'specialists in pre-seed and seed' y su filosofía es entrar en el 'día cero', antes del product-market fit: PearX ayuda a fundadores con desarrollo de producto, validación de mercado y construcción de cimientos escalables incluso antes de tener PMF. Sus verticales incluyen explícitamente 'AI (applications, tooling, infrastructure)' y 'Enterprise Tech (data platforms, cybersecurity, developer tools)', además de deep tech. La firma repite que 'bet on the people' es su criterio primario. El foco personal de Pepe Agell es B2B: 'B2B technology enabling companies to operate more effectively'. En un equipo busca conciencia de mercado, orientación al cliente, visión clara, capacidad de storytelling, resiliencia y adaptabilidad, y advierte del horizonte largo: 'I've experienced first hand that this is a marathon, it's not a sprint. When we're looking at a team, we want to make sure that not only are they smart, they have a unique angle'. Su lectura macro es directamente relevante para el cliente: prevé que las corporaciones acelerarán los despidos de ingeniería y que muchos de esos ingenieros desplazados se convertirán en 'solopreneurs' que usarán IA para construir sus propias aplicaciones y negocios, y espera una nueva ola de innovación a partir de esa tendencia en los próximos años. Su aportación operativa se concentra en go-to-market, ventas y crecimiento.",
-    "etapa_y_ticket": [
-      "Pear es especialista declarado en pre-seed y seed. Tramos publicados en pear.vc/how-we-invest: PearX (aceleradora de 12 semanas para pre-seed) 250.000-2 M$; seed directo 1-6 M$; follow-on hasta 10 M$. AUM aproximado de 800 M$ en cuatro fondos, con el Fund IV de 432 M$ cerrado en mayo de 2023. En 2025 el fondo hizo 34 inversiones (27 primeras entradas y 7 follow-on). A título personal invierte tickets de ángel (participó en el pre-seed de 2,1 M$ de Traza junto a Kfund y scouts de a16z)."
-    ]
+    }
   }
 }

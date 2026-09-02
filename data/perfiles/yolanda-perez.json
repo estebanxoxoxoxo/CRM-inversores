@@ -110,10 +110,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "BStartup 10 invierte pre-tracción con criterio explícito de 'fuerte base técnica o científica' y lideró con Inveready la primera ronda de Qbeast (spin-off del BSC, infraestructura de datos sin producto comercial); vehículo evergreen sin presión de exit. Reservas: ticket de 100-200k€ (coinversor, no líder), vehículo bancario con comité, y ella dirige el programa más que originar deals.",
     "puntuacion": {
       "tesis": 13,
       "etapa": 17,
@@ -125,21 +124,6 @@
       "bruto": 64,
       "topes": [],
       "total": 64
-    },
-    "motivo": "BStartup 10 invierte pre-tracción con criterio explícito de 'fuerte base técnica o científica' y lideró con Inveready la primera ronda de Qbeast (spin-off del BSC, infraestructura de datos sin producto comercial); vehículo evergreen sin presión de exit. Reservas: ticket de 100-200k€ (coinversor, no líder), vehículo bancario con comité, y ella dirige el programa más que originar deals.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "BStartup 10 invierte pre-tracción con criterio de base técnica o científica y coinvirtió en Qbeast (spin-off del BSC); pero ticket de 100-200k, vehículo bancario con comité y ella dirige el programa más que originar deals."
-  },
-  "nombre_original": "Yolanda Pérez Sáez",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el perfil español del lote con evidencia más clara y documentada de invertir ANTES de la tracción y en tecnología profunda de infraestructura: BStartup 10 lideró junto a Inveready la primera ronda de 520.000 euros de Qbeast, spin-off del Barcelona Supercomputing Center que acelera el procesamiento de grandes volúmenes de datos. José Carol, director operativo de BStartup, justificó esa inversión diciendo que era 'una spin-off del Barcelona Supercomputing Center liderada por un equipo brillante que tras años de desarrollo ha conseguido una tecnología que evalúa cualquier tipo de dato 100 veces más rápido', y que querían seguir apoyando la transferencia de conocimiento del ámbito académico. Ese es un cheque a tecnología de infraestructura de datos sin producto comercial maduro. Además es un fondo evergreen sin presión de exit y con criterios que citan expresamente 'fuerte base técnica o científica'. Ángulo de contacto: presentar el stack IA-nativo como tecnología profunda con transferencia de conocimiento, no como SaaS; el precedente Qbeast es la referencia exacta que hay que invocar. La limitación seria es el tamaño del ticket (100-200K euros), que lo convierte en coinversor, no en líder de una ronda ambiciosa.",
-    "tesis_de_inversion": "Pérez dirige un vehículo declaradamente agnóstico de sector que invierte en compañías tecnológicas y científicas en fases muy iniciales, mayoritariamente B2B aunque con casos B2C de éxito. Los criterios publicados de BStartup 10 buscan compañías 'ambiciosas con visión global, con una fuerte base técnica o científica, mentalidad de producto y capacidad de ejecutar rápido' — una formulación que prioriza el fundamento técnico sobre la métrica comercial. En sus declaraciones subraya el interés por empresas que atacan huecos de mercado en lugar de seguir modas, y las verticales prioritarias que ella misma señala son salud (más de 20 inversiones), sostenibilidad y DeepTech, con presencia declarada en IA, computación cuántica, climate tech y transferencia tecnológica. El software representa alrededor del 60% de las inversiones. Un rasgo diferencial importante: es un fondo evergreen, sin presión de desinversión en un horizonte fijo, lo que en teoría permite horizontes largos. Sobre fundadores, su tesis es explícita: 'Los emprendedores más exitosos saben preguntar y escuchar', y valora resiliencia, capacidad de construir equipo, alfabetización financiera, conocimiento técnico y habilidad para atraer talento complementario. Sobre competitividad europea afirma: 'Si queremos ser competitivos... tenemos que encontrar un equilibrio'.",
-    "etapa_y_ticket": [
-      "BStartup 10 invierte en etapa muy temprana (seed y pre-tracción), con tickets de 100.000 a 150.000 euros por proyecto según la propia documentación del programa; la dirección de inversiones ha citado también un rango de 100.000 a 200.000 euros. Invierte anualmente en más de 10 startups a cambio de participación en capital, con el porcentaje determinado por la valoración post-money de la ronda. Es un fondo evergreen con capacidad de vehículo de hasta 10 millones de euros. Para etapas posteriores el grupo utiliza Sabadell Venture Capital (177 startups). Acumulado: 105 inversiones directas vía BStartup 10 desde 2014."
-    ]
+    }
   }
 }

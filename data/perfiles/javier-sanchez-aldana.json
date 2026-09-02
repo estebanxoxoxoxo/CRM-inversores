@@ -104,10 +104,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "'Pre seed for deep-tech founders': lidera pre-seeds con tickets hasta 500k USD, nombra dev tools como vertical y busca usuarios técnicos, SDK/API y 'anomalías' fuera del hype; en ningún punto pide tracción. Reservas: Fund II (20M) sin cierre confirmado, tesis deep tech nueva en 2025, excluye solo founders.",
     "puntuacion": {
       "tesis": 24,
       "etapa": 20,
@@ -119,21 +118,6 @@
       "bruto": 84,
       "topes": [],
       "total": 84
-    },
-    "motivo": "'Pre seed for deep-tech founders': lidera pre-seeds con tickets hasta 500k USD, nombra dev tools como vertical y busca usuarios técnicos, SDK/API y 'anomalías' fuera del hype; en ningún punto pide tracción. Reservas: Fund II (20M) sin cierre confirmado, tesis deep tech nueva en 2025, excluye solo founders.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Carabela: 'Pre seed for deep-tech founders', lidera con tickets hasta 500k, dev tools nombrado como vertical, criterio para usuarios técnicos. Reservas: Fund II (20M) sin cierre confirmado, tesis deep tech nueva en 2025, no invierte en solo founders."
-  },
-  "nombre_original": "Javier Sánchez Aldana",
-  "textos_v1": {
-    "por_que_es_interesante": "Es, con diferencia, el encaje más literal de este lote. Su tesis publicada no solo tolera sino que busca exactamente el perfil del cliente: middleware técnico complejo, usuarios que son ingenieros y desarrolladores, distribución por API/SDK, repositorio en GitHub como señal positiva, software-first sin capex, y 'anomalías' fuera del hype. Es un fondo que lidera rondas pre-seed —es decir, pone precio y términos antes de que exista tracción— y que menciona dev tools de forma explícita entre sus verticales. El ángulo de contacto correcto es puramente técnico: enseñar el harness de desarrollo con nube de agentes como producto para desarrolladores (SDK/API, repo público o documentación técnica que permita 'low friction deployment'), enmarcar el stack IA-nativo como una 'anomalía' respecto al consenso de wrappers sobre modelos, y ser explícito sobre el equipo fundador (mínimo dos personas, con profundidad técnica demostrable) porque excluye solo founders. Aplicar por su formulario público es una vía legítima: responden en una semana.",
-    "tesis_de_inversion": "Carabela se define literalmente como 'Pre seed for deep-tech founders' y, en el Fondo II, dice respaldar a 'deep tech founders building what others don't yet understand'. Invierte exclusivamente en B2B digital deep tech en etapa pre-semilla, con foco en Gen AI, blockchain, IoT, diseño de semiconductores, plataformas digitales y dev tools (así lo anunció el propio Javier al lanzar el Fondo II en X, julio 2025). Los criterios publicados son notablemente afines a una startup de infraestructura: (1) 'Anomalies' — busca 'startups that stand apart from the hype cycles'; (2) 'Emerging Tech' — puntos de inflexión en IA, blockchain, IoT 'and other transformational technologies'; (3) 'Technical Users' — soluciones para 'engineers, developers, scientists'; (4) 'Developer-Ready' — valora tener 'SDK, GitHub Repo or API'; (5) 'Low Friction' — despliegue autónomo por el usuario con buena documentación técnica; (6) 'Software-First' — 'we avoid hardware-heavy models'. Prensa especializada describe el Fondo II como 'B2B deep-tech exclusivamente: plataformas con middleware técnico complejo, usuarios altamente especializados, y distribución vía API o SDK'. Excluye explícitamente fundadores solitarios ('Sorry, we don't invest in Solo Founders'), B2C, nichos diminutos y soluciones que exigen consultoría extensa. En ningún punto de su tesis pide tracción, usuarios ni ingresos.",
-    "etapa_y_ticket": [
-      "Pre-seed, lidera rondas. La web del Fondo II dice literalmente: 'We lead pre-seed rounds with tickets up to $500K' (carabela.vc/fund2). Fuentes de directorio y prensa reportan tickets de US$250K–US$750K para el Fondo II (descubre.vc/carabela y latamrepublic.com). En el Fondo I los cheques eran de US$50K–US$150K con reservas de follow-on (latamlist.com, Signal NFX). Fondo I: ~US$4M desplegados en 16 empresas; Fondo II (2025): objetivo US$20M para ~25 inversiones. Hay discrepancia entre la web (hasta $500K) y los directorios ($250K–$750K): tomar $500K como referencia central."
-    ]
+    }
   }
 }

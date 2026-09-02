@@ -109,10 +109,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Seedcamp es 'Europe's Original First Check Investor' y declara por escrito invertir pre-producto y pre-tracción; lideró en 2026 la pre-seed de Embedd diciendo que 'el stack de software actual nunca fue diseñado' para la siguiente fase de la IA; hondureño con español fluido. Reservas: Londres (fuera de región), filtro Europa/Israel y mandato 2026 inclinado a physical AI.",
     "puntuacion": {
       "tesis": 20,
       "etapa": 20,
@@ -124,21 +123,6 @@
       "bruto": 80,
       "topes": [],
       "total": 80
-    },
-    "motivo": "Seedcamp es 'Europe's Original First Check Investor' y declara por escrito invertir pre-producto y pre-tracción; lideró en 2026 la pre-seed de Embedd diciendo que 'el stack de software actual nunca fue diseñado' para la siguiente fase de la IA; hondureño con español fluido. Reservas: Londres (fuera de región), filtro Europa/Israel y mandato 2026 inclinado a physical AI.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Seedcamp: primer cheque institucional explícitamente pre-producto y pre-tracción (Dust, Embedd), Fund VII 220M USD 2026, hondureño con español fluido. Fuera de región (Londres) y filtro Europa/Israel: requiere ángulo europeo (España)."
-  },
-  "nombre_original": "Carlos Eduardo Espinal",
-  "textos_v1": {
-    "por_que_es_interesante": "Es probablemente el encaje más limpio de la lista con el perfil del cliente: un fondo que se define literalmente como 'Europe's Original First Check Investor' y que declara por escrito que invierte pre-producto, pre-ingresos y pre-tracción, dirigido por un ingeniero hondureño que da entrevistas en español. La evidencia de que apuesta por infraestructura antes de tracción es muy reciente y muy concreta: en agosto de 2026 Seedcamp lideró un pre-seed de 2,7M USD en Embedd (software para máquinas inteligentes) con una cita de Espinal sobre que 'el stack de software actual nunca fue diseñado' para la siguiente fase de la IA. Ese es exactamente el argumento del cliente. Ángulo de contacto recomendado: escribirle en inglés con un párrafo en español, abrir con la tesis de que el stack de software actual no fue diseñado para ser operado por IA (enlazando con su propia cita sobre Embedd), y llevar la demo del harness de agentes como prueba técnica, no métricas de usuarios. Su podcast y su libro dan puntos de entrada naturales.",
-    "tesis_de_inversion": "Espinal invierte como primer dinero institucional en fundadores técnicos que atacan mercados globales grandes, con una tolerancia explícita al riesgo pre-producto: las propias FAQ de Seedcamp dicen que las compañías con las que se asocian van 'from pre-product and pre-revenue to post-launch', y que el momento importa menos que la calidad y ambición del fundador. Es agnóstico de sector pero con sesgo declarado hacia software con fundamento técnico profundo; en el Fund VII (2026) la tesis se ha inclinado hacia la intersección de IA con la ciencia y el mundo físico ('physical AI'), infraestructura y herramientas, y deliberadamente se aleja de sectores intensivos en capital como movilidad y marketplaces. Sus citas de 2026 son inequívocas sobre el ángulo de infraestructura: al liderar el pre-seed de Embedd dijo que 'AI's next chapter will play out in the physical world, but today's software stack was never designed for that reality', y describió la inversión como respaldar 'the infrastructure underpinning the next generation of intelligent machines'. Al invertir en PAIR resumió el criterio de utilidad: 'We invested in PAIR because they turn AI from a generic tool into real, role-specific productivity'. Busca equipos con al menos un perfil técnico fuerte en el núcleo fundador y considera normal el pivote en fases tempranas.",
-    "etapa_y_ticket": [
-      "Primer cheque institucional ('first money in'), explícitamente pre-producto, pre-ingresos y pre-tracción. Las FAQ de Seedcamp indican un primer cheque habitual de 350.000-1.250.000 USD; TechCrunch (junio 2026) cifra el cheque medio del Fund VII en ~1M USD, con objetivo de 100-120 compañías en cartera y ~35 inversiones al año. El vehículo hermano 'Select' (100M USD) hace cheques de 3-5M USD en Serie B en adelante. Seedcamp lidera la mayoría de sus primeros cheques y no toma asiento de consejo, sino rol de observador hasta la Serie A."
-    ]
+    }
   }
 }

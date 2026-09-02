@@ -101,10 +101,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Español nativo, GP con 850M USD frescos y 10-15 semillas al año, pero su tesis es automatización de la economía real (logística, nóminas), no infraestructura horizontal ni dev tools; su deal de agentes (HappyRobot) fue Serie B.",
     "puntuacion": {
       "tesis": 10,
       "etapa": 13,
@@ -116,21 +115,6 @@
       "bruto": 71,
       "topes": [],
       "total": 71
-    },
-    "motivo": "Español nativo, GP con 850M USD frescos y 10-15 semillas al año, pero su tesis es automatización de la economía real (logística, nóminas), no infraestructura horizontal ni dev tools; su deal de agentes (HappyRobot) fue Serie B.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "Español nativo y capital fresco, pero tesis de automatización de la economía real (logística, nóminas), no infra horizontal ni dev tools; su deal de agentes fue Series B. No es indiscutible."
-  },
-  "nombre_original": "Adeyemi \"Ade\" Ajao",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el inversor de la lista con el vínculo más fuerte y verificable con el ecosistema hispanohablante: español de origen, formado en Madrid, fundador de Tuenti, inversor fundador de Cabify y Jobandtalent, y entrevistado en español en 2026 en Startupeable. Ha demostrado además que respalda a fundadores técnicos españoles en IA de agentes: Base10 lideró la Series B de 44M USD de HappyRobot en septiembre de 2025, empresa fundada por los españoles Pablo y Javi Palafox y Luis Paarup que vende agentes de IA a la logística. Tiene dinero fresco (850M USD cerrados en junio de 2026) y hace 10-15 semillas al año. El ángulo correcto no es venderle infraestructura horizontal —no es su tesis— sino demostrar con números qué coste laboral elimina el stack IA-nativo en un sector concreto de la economía real, y usar el harness de agentes como la maquinaria que lo hace posible. Escribirle en español, citando Tuenti y HappyRobot, es la vía natural.",
-    "tesis_de_inversion": "Su tesis, repetida desde 2018, es “Investing in Automation for the Real Economy”: llevar tecnología a los sectores que mueven el mundo físico —logística, transporte, construcción, nóminas, seguros, retail, servicios financieros y sanidad— en lugar de a productos puramente digitales. Su formulación de 2026 es más agresiva: en el podcast en español Startupeable (8-abr-2026) el episodio se titula “La IA compite por nómina, no por software”, es decir, el valor de la IA está en sustituir coste laboral, no en añadir otra capa de software. En Crunchbase News resume el propósito de la firma como usar “technology to bring capabilities traditionally available to the top 1% to the other 99%”. El método es intensivo en investigación: rastrean más de 15.000 empresas, el 90% de las inversiones nace de investigación sectorial propia y dedican en torno a la mitad del tiempo a empresas que no están levantando ronda; han construido incluso un sistema interno de IA llamado Base11 para clasificar compañías. Aun así, insiste en que “the actual decision-making and winning is more human than ever”. Áreas declaradas para 2026: logística, nóminas, construcción, modelos de visión, world models e inteligencia de fabricación.",
-    "etapa_y_ticket": [
-      "Seed, Series A y Series B. Según Crunchbase News (11-jun-2026) el fondo se marca objetivos anuales de 10-15 inversiones semilla, 2-3 Series A y 3-4 Series B. VC Sheet estima su rango de cheque personal en 100.000 a 5.000.000 USD. En junio de 2026 cerraron 850M USD en dos vehículos (Seed & Series A Fund 4 y Series B Fund 2), elevando el patrimonio gestionado a 2.600M USD."
-    ]
+    }
   }
 }

@@ -140,10 +140,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Solo GP con fondo cerrado de 15M USD, pre-seed en IA y Altan en cartera, decide en días; pero su criterio central es 'Momentum' comercial (deploys semanales y clientes), ticket fijo de 300-350k, y dedicación parcial (VP en ElevenLabs). Un pitch pre-tracción choca con su filtro.",
     "puntuacion": {
       "tesis": 14,
       "etapa": 14,
@@ -155,21 +154,6 @@
       "bruto": 59,
       "topes": [],
       "total": 59
-    },
-    "motivo": "Solo GP con fondo cerrado de 15M USD, pre-seed en IA y Altan en cartera, decide en días; pero su criterio central es 'Momentum' comercial (deploys semanales y clientes), ticket fijo de 300-350k, y dedicación parcial (VP en ElevenLabs). Un pitch pre-tracción choca con su filtro.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "Solo GP pre-seed con Altan en cartera, pero su criterio explícito es momentum comercial (deploys semanales y clientes), ticket fijo 300-350k y dedicación parcial (VP en ElevenLabs). Choca con un pitch pre-tracción."
-  },
-  "nombre_original": "Carles Reina",
-  "textos_v1": {
-    "por_que_es_interesante": "Es un solo GP: decide él, en días, sin comité — el ciclo más rápido posible para un primer cheque. Su fondo está totalmente cerrado (cierre único, sobresuscrito, levantado en ~3 meses durante el verano de 2025), así que tiene 15 M$ frescos que desplegar en 30-35 compañías de pre-seed/seed de IA, robótica y defensa; a mediados de 2026 solo llevaba unas 7-8 operaciones, o sea que el 75-80% del fondo está por desplegar. Ya tiene en cartera Altan AI, descrito como 'agentic application builder', y Wabi AI: la tesis del cliente (harness de desarrollo con nube de agentes) no le resulta exótica. Habla y escribe en español y catalán nativos, da entrevistas en español (Startupeable, Itnig) y su primer cheque fue a Revolut cuando no había nada. Ángulo de contacto: NO venderle 'tecnología profunda que necesita años'. Reina compra velocidad de distribución. El mensaje ganador es: 'tenemos el moat técnico y, además, un plan de GTM que produce clientes empresariales en 60-90 días; queremos que nos ayudes a construir la máquina comercial'. Mencionar explícitamente ElevenLabs y su modelo de 'land and expand'.",
-    "tesis_de_inversion": "Baobab Ventures se define en su propia web como un 'Operator-led VC fund' cuya misión es: 'We empower early stage, deep-tech founders to reach Momentum'. La palabra 'Momentum' es el eje entero de su tesis: 'Enabling the Momentum wheel is the hardest part yet the only thing that startups need to care about in the early days', y 'We are backing global, pre-seed & seed technical teams where we can help them reach Momentum quickly' (https://baobabventures.vc/). Los verticales declarados son inteligencia artificial (modelos e infraestructura y aplicaciones), robótica y defensa/dual-use, en pre-seed y seed, con mandato global (aproximadamente 50% Europa y 50% EE.UU. y otros mercados: India, Japón, Corea, LatAm y Oriente Medio). Lo que busca en un equipo lo ha dicho él mismo: 'Building startups has dramatically changed in the last few years. Sales cycles are faster, there are hundreds of competitors within months' (Silicon Canals, 11/2025) y 'Founders need to move incredibly quickly whilst building a sales and growth motion fit for the AI age' (BusinessCloud, 11/2025). En español lo resumió así: 'Los fundadores tienen que actuar con gran rapidez, tanto en producto como en ventas, y abrir nuevos mercados' (Emprendedores, 11/2025). Sobre defensibilidad, en su entrevista con Akash Bajwa (02/12/2024) describe el moat de una empresa de IA como una acumulación por capas: 'you have the research component (which is fundamentally important today), but then you start accumulating data and having product integrations that are end-to-end', y remata: 'You then move from a single product use case to a product suite scenario. That's how you win and stay embedded within the customer ecosystem'. Es decir: cree en el moat técnico, pero solo como base de un moat de distribución.",
-    "etapa_y_ticket": [
-      "Pre-seed y seed exclusivamente. Cheque declarado de 300.000–350.000 USD por compañía, con el objetivo de construir una cartera de 30-35 startups desde un fondo de 15 M$ (fuentes: EU-Startups 11/2025, BusinessCloud, Vestbee, Superscout, f4.fund). Es, por tamaño de cheque, un inversor de acompañamiento o co-lead, no un lead de rondas grandes: si lidera o solo acompaña no está confirmado de forma explícita en ninguna fuente primaria. En la evidencia disponible aparece acompañando a leads institucionales (Visionaries Club en Omnia) y como primer nombre de la lista de inversores en una pre-seed pequeña (Overwatch AI, 1,5 M$), lo que sugiere que puede co-liderar rondas de 1-2 M$ pero no rondas de 3 M$+. Antes del fondo, como business angel, ha hecho 74 inversiones desde 2017 (cifra que él mismo comunica; otras fuentes hablan de 40+, 60+ y 70+, un rango que conviene tomar como aproximado)."
-    ]
+    }
   }
 }

@@ -105,10 +105,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Argentino, Endeavor, el primero en apostar por Zoom cuando no era nadie, en un fondo con tesis de infraestructura de IA (Together AI, Physical Intelligence); pero cada socio hace una sola inversión nueva al año, su punto dulce es la Serie A con evidencia comercial y no hay canal frío. Relación a 12-24 meses.",
     "puntuacion": {
       "tesis": 12,
       "etapa": 6,
@@ -120,21 +119,6 @@
       "bruto": 55,
       "topes": [],
       "total": 55
-    },
-    "motivo": "Argentino, Endeavor, el primero en apostar por Zoom cuando no era nadie, en un fondo con tesis de infraestructura de IA (Together AI, Physical Intelligence); pero cada socio hace una sola inversión nueva al año, su punto dulce es la Serie A con evidencia comercial y no hay canal frío. Relación a 12-24 meses.",
-    "nivel_v1": "r",
-    "prioridad_agente": "C",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Una inversión nueva por socio al año y punto dulce en Serie A con evidencia comercial; tesis de servicios AI-native vertical. Relación a 12-24 meses."
-  },
-  "nombre_original": "Santi Subotovsky (Santiago Subotovsky)",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el caso más claro de credibilidad hispanohablante en software empresarial: argentino, Emprendedor Endeavor, cofundador de una SaaS en Latinoamérica, con entrevistas en español y una historia —fue el primero en apostar por Eric Yuan cuando Zoom no era nadie— que resuena exactamente con la frustración del cliente ante inversores que exigen tracción. Emergence tiene además tesis declarada de infraestructura de IA y ha entrado recientemente en Together AI y Physical Intelligence, lo que demuestra que el fondo sí toca la capa de infra. El problema es el ajuste de proceso: cada socio hace una sola inversión nueva al año y el punto dulce es la Series A de una empresa B2B con evidencia comercial. La forma correcta de usarlo no es pedirle que lidere la primera ronda, sino empezar la relación ahora —él invierte en personas a lo largo de años— y posicionarlo como candidato a liderar la Series A cuando la demo y los primeros clientes existan. Contactar en español, por Endeavor o por su red argentina.",
-    "tesis_de_inversion": "Emergence busca identificar innovaciones de modelo de negocio que una revolución tecnológica desbloquea antes de que el mercado las adopte: apostaron por el SaaS horizontal con Salesforce (2003) y por el SaaS vertical con Veeva (2008). Su tesis actual es la de los modelos de negocio nativos de IA, articulada en tres frentes: infraestructura de IA, IA del mundo físico y sobre todo AI-Native Services, es decir, empresas que “sell outcomes rather than software” en verticales como reclamaciones de seguros, administración de fondos, agencia de aduanas, ciclo de ingresos sanitario, KYC y cadena de suministro. Subotovsky es la cara de la escuela people-first del fondo: su cita más repetida es “Growing a business takes time. So you'd better be doing it with people you like”, y su método consiste en construir relación con el fundador mucho antes de la ronda. El fondo presume de disciplina extrema: menos de 2.500M USD invertidos en total, más de 9.000M USD de retornos realizados, más de 9 de cada 10 inversiones de etapa temprana levantan siguiente ronda, 1 de cada 5 supera los 1.000M USD de valoración y 1 de cada 10 sale a bolsa. La contrapartida es que cada socio hace una sola inversión nueva al año.",
-    "etapa_y_ticket": [
-      "Etapa temprana de software empresarial B2B, con el punto dulce en Series A y participación ocasional en semilla. Fondo vigente: Emergence VII, 1.000M USD, cerrado en marzo de 2025 (el anterior, Emergence VI, fue de 575M USD en 2021). La propia web del fondo declara un ritmo extremadamente bajo: “Our Partners each make just one investment annually”. Roundfunded le atribuye un cheque típico de 250.000 USD en operaciones pre-seed/seed, dato NO confirmado y probablemente referido solo a posiciones pequeñas; con un fondo de 1.000M USD y una inversión al año por socio, la operación característica de Emergence es una Series A de entre 10 y 30 millones con puesto en el consejo."
-    ]
+    }
   }
 }

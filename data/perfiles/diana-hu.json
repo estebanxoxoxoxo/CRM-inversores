@@ -100,10 +100,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "YC invierte 500k USD sin condicionarlo a métricas y ella es la socia que más empuja 'make something agents want'; YC incluso publicó QM, un harness multiagente open source. Reservas: sólo vía batch (7% + SAFE, constitución en EE.UU. y presencia en la Bahía), no elige el grupo que te toca, fluidez en español no documentada.",
     "puntuacion": {
       "tesis": 20,
       "etapa": 20,
@@ -115,21 +114,6 @@
       "bruto": 71,
       "topes": [],
       "total": 71
-    },
-    "motivo": "YC invierte 500k USD sin condicionarlo a métricas y ella es la socia que más empuja 'make something agents want'; YC incluso publicó QM, un harness multiagente open source. Reservas: sólo vía batch (7% + SAFE, constitución en EE.UU. y presencia en la Bahía), no elige el grupo que te toca, fluidez en español no documentada.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "YC invierte 500k USD sin condicionarlo a métricas; fundadora técnica (CMU, CTO Escher Reality) que acompaña infra de IA (Reducto, Resend, Activeloop); criada en Chile según YC. Única vía: entrar al batch (7% + SAFE) y constituirse en EE.UU./Canadá/Caimán/Singapur."
-  },
-  "nombre_original": "Diana Hu",
-  "textos_v1": {
-    "por_que_es_interesante": "Es la persona de la lista cuyo trabajo diario está más cerca del producto del cliente. En julio-agosto de 2026 YC liberó como open source QM (Quartermaster), descrito literalmente como “a multiplayer agent harness for work”, con sandboxes por scope, skills compartidas, crons y bucles de codificación intercambiables (Pi, OpenCode, Codex, Claude Code) — es decir, YC construye internamente un harness de agentes y lo publica con licencia MIT. Diana Hu es la socia que más ha empujado la narrativa de “make something agents want” y de que la unidad de producción de una startup pasa del equipo al fundador. Además, YC es el único vehículo de la lista que invierte 500.000 USD sin condicionarlo a ninguna métrica, lo que responde de forma frontal a la mala experiencia del cliente con inversores que piden usuarios. El ángulo: aplicar al batch con la demo del harness, contrastarla explícitamente con QM y con Codex/Claude Code, y llevar benchmarks reproducibles. Su origen chileno facilita el trato, aunque su fluidez en español no está documentada.",
-    "tesis_de_inversion": "Como socia de YC invierte en la etapa más temprana posible, sin exigir métricas: el deal estándar es incondicional y se cierra antes de que arranque el batch. Su lente es técnica —viene de visión por computador y ML— y su discurso público de 2025-2026 gira alrededor de los agentes. En el episodio de Lightcone “The AI Agent Economy Is Here” (21-feb-2026) plantea el crecimiento explosivo de las herramientas de desarrollo con IA y si ha llegado el momento de “make something agents want”, una reformulación deliberada del lema fundacional de YC. Sostiene que “AI agents are changing the basic production unit of a startup from a team to a founder” y observa que las empresas de YC pasan de cero a siete cifras de ingresos en tres meses, algo imposible en su propio batch de 2017, precisamente por las herramientas de programación agéntica. Avisa también del riesgo de plataforma: compara lo que vivió cuando Apple lanzó ARKit el primer día de su batch con lo que hoy afrontan los fundadores de IA, y pide que la hoja de ruta no colisione con lo que los laboratorios frontera ya están construyendo. Su cartera de acompañamiento está llena de infraestructura y herramientas para desarrolladores.",
-    "etapa_y_ticket": [
-      "Pre-seed / idea. El deal estándar de YC es 500.000 USD por empresa aceptada, en dos SAFEs simultáneos: 125.000 USD post-money por un 7% fijo y 375.000 USD en un SAFE uncapped con MFN. YC declara expresamente que la inversión “is not contingent on hitting any milestones” y desembolsa al aceptar, antes de que empiece el batch. Cuatro batches al año. Diana Hu no escribe cheques independientes fuera de YC: su capacidad de inversión pasa por el programa."
-    ]
+    }
   }
 }

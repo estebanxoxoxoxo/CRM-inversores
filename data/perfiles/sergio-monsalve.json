@@ -112,10 +112,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Criterio escrito contra la tracción ('your journey and vision even more than your results'), lidera seeds de 200k-2M USD, Potato AI (agentes científicos autónomos) en cartera y tesis 'tools that 10x the output of everyone'; nacido en México, buzón público. Reservas: tesis de human enablement (no infraestructura), fondo de ~26M sin Fund II confirmado y sin infra en cartera.",
     "puntuacion": {
       "tesis": 13,
       "etapa": 17,
@@ -127,21 +126,6 @@
       "bruto": 73,
       "topes": [],
       "total": 73
-    },
-    "motivo": "Criterio escrito contra la tracción ('your journey and vision even more than your results'), lidera seeds de 200k-2M USD, Potato AI (agentes científicos autónomos) en cartera y tesis 'tools that 10x the output of everyone'; nacido en México, buzón público. Reservas: tesis de human enablement (no infraestructura), fondo de ~26M sin Fund II confirmado y sin infra en cartera.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "Criterio escrito de valorar el viaje y la visión más que los resultados, lidera seed 200k-2M, Potato AI (agentes científicos) en cartera, nacido en México; pero tesis de human enablement, fondo de ~26M sin Fund II confirmado y sin infra en cartera."
-  },
-  "nombre_original": "Sergio Monsalve",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el inversor de la lista cuyo lenguaje publico coincide mas literalmente con el producto del cliente: Roble dice invertir en \"tools that 10x the output of everyone\" en la interseccion humano-IA, y su primer vertical es Workplace Productivity. Un harness de desarrollo con nube de agentes es, en su marco, productividad de los trabajadores mas cualificados que existen. Ademas su criterio de entrada esta escrito en contra de la traccion: 'queremos oir tu recorrido y tu vision del futuro incluso mas que tus resultados', lo que responde directamente a la mala experiencia del cliente con inversores que piden usuarios. Precedente agentico verificado: Roble invirtio en Potato AI (agentes cientificos autonomos que leen literatura, disenan experimentos y los ejecutan; ronda seed de 4,5M USD en abril de 2025 liderada por Draper) y en Hyperbound (entrenamiento de ventas con agentes de IA). Angulo de contacto: escribirle en espanol, enmarcar el harness como 'human enablement para ingenieros' con una metrica de output por desarrollador, y referenciar su tesis de 'augmented intelligence'.",
-    "tesis_de_inversion": "Roble Ventures invierte exclusivamente en lo que Monsalve llama 'human enablement technologies': tecnologia que amplifica la capacidad de las personas y los equipos para trabajar, aprender y producir. Lo organiza en tres verticales declarados en https://www.robleventures.com/how-we-invest : (1) Workplace Productivity Solutions, (2) Skills Development Technologies y (3) Employment Creation & Discovery Platforms, todo ello apuntando al 'mercado global del talento' de escala billonaria. Su posicion sobre IA es explicita y contraria al discurso de sustitucion: sostiene que \"'AI' should really stand for 'augmented intelligence,' and such tools should exist primarily to help humans continue to do what we do best - innovate, create, and connect\" (NVCA member spotlight). La web del fondo lo formula como construir \"the intersection where humans and AI come together, with tools that 10x the output of everyone\". Sobre traccion es inusualmente explicito: \"We want to hear about your journey and vision for the future even more than your results\". Busca 'uncommon founders' que desafien el statu quo y 'founders who choose humanity'; mas del 80% de su cartera tiene fundadoras y mas del 50% CEOs mujeres. Invierte en Norteamerica y tambien tiene actividad en LatAm (UBITS, Slang, Cometa).",
-    "etapa_y_ticket": [
-      "Seed y post-seed. Ticket declarado en la propia web: 200.000-2.000.000 USD (https://www.robleventures.com/how-we-invest y https://www.robleventures.com/). Signal NFX registra un rango de 500K-2,0M USD con 'sweet spot' en 1M USD. Tamano del fondo: ~26M USD segun Forbes (abril 2023, https://www.forbes.com/sites/dereknewton/2023/04/28/meet-educator-and-investor-sergio-monsalve-of-roble-ventures/); no se ha confirmado publicamente un Fund II ni una cifra actualizada para 2025-2026 (no confirmado)."
-    ]
+    }
   }
 }

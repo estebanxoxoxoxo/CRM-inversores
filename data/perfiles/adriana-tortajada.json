@@ -105,10 +105,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Mandato deep tech explícito e inversión directa en infraestructura para la economía de agentes (101obex), pero cheques reportados de 2-10M, estructura híbrida fondo de fondos, cierre del vehículo no confirmado y sin vía de contacto publicada.",
     "puntuacion": {
       "tesis": 17,
       "etapa": 10,
@@ -120,21 +119,6 @@
       "bruto": 60,
       "topes": [],
       "total": 60
-    },
-    "motivo": "Mandato deep tech explícito e inversión directa en infraestructura para la economía de agentes (101obex), pero cheques reportados de 2-10M, estructura híbrida fondo de fondos, cierre del vehículo no confirmado y sin vía de contacto publicada.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Mandato deep tech e inversión directa en infra para economía de agentes (101obex), pero cheques 2-10M, estructura híbrida fondo de fondos y cierre del vehículo no confirmado. Confirmar estado del fondo antes de contactar."
-  },
-  "nombre_original": "Adriana Tortajada",
-  "textos_v1": {
-    "por_que_es_interesante": "Es la inversora mexicana con el discurso deep tech más explícito y con menos apego a la tracción: su bloque 'Productivity & Infrastructure' describe literalmente 'software, hardware, and infrastructure making enterprises measurably more productive, the layer where new technology first earns real revenue'. Y ya tiene en cartera directa 101obex, descrita como 'virtual API infrastructure where integrations evolve live for the agent economy' — es decir, ya ha puesto dinero en infraestructura para la economía de agentes. Además es LP de Cantos, especialista en pre-seed deep tech, lo que demuestra que entiende y financia esa clase de activo. El ángulo de contacto debe ser de tecnología fundacional y horizonte largo, no de go-to-market: presentar el harness de agentes y el stack IA-nativo como 'la capa donde la nueva tecnología cobra ingresos reales' y apoyarse en su lenguaje de convergencia tecnológica. Su historia de política pública mexicana la hace además una interlocutora útil para acceso a LPs institucionales y a Fondo de Fondos si el cliente busca capital mexicano.",
-    "tesis_de_inversion": "1200 VC se define como 'an early-stage investment platform that invests in fund managers and founders shaping the future of humanity', y su tesis en una línea es 'invest at the convergence where technologies accelerate and compound together'. Organiza la cartera en tres bloques: (1) Sustainable Future — energía, materiales, agua, biotech, cómputo; (2) Productivity & Infrastructure — 'software, hardware, and infrastructure making enterprises measurably more productive, the layer where new technology first earns real revenue'; (3) Demographic Opportunity — salud y servicios financieros para consumidores emergentes. La sección de tecnologías frontera nombra explícitamente cuántica, biotech, energía, materiales y robótica. La estructura es híbrida y así la explican: combinan 'Fund-of-Funds radar' con 'concentrated direct investments', es decir, usan su red de fondos especializados como radar de inteligencia y luego doblan apuesta directamente en las convicciones altas. En LP están fondos como Quantonation (hardware cuántico) y Cantos ('pre-seed deeptech specialist with one of hard tech's strongest networks'), lo que revela apetito real por pre-semilla deep tech, aunque sea por interpósito gestor. El enfoque es de tesis larga y de tecnologías fundacionales antes de que el mercado las valide; el ESG está integrado y el alcance es binacional México–EE.UU.",
-    "etapa_y_ticket": [
-      "Etapa temprana; se describe como 'partnering from the Seed stage'. Estructura híbrida: invierte en gestores de fondos (fund-of-funds) y hace coinversiones directas. Objetivo inicial del vehículo: US$150M (lanzado enero de 2022); NO consta cierre confirmado en fuente pública. Prensa regional (latamrepublic.com) reporta cheques de US$2M a US$10M, cifra que resulta demasiado alta para un pre-seed y que probablemente mezcla compromisos a fondos con coinversiones directas. El fondo no publica su tamaño de cheque ni proceso de aplicación. Dato a verificar directamente con ella."
-    ]
+    }
   }
 }

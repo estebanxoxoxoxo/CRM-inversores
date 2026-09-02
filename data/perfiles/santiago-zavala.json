@@ -113,10 +113,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Programador en activo cuya conversación pública está pegada al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
     "puntuacion": {
       "tesis": 22,
       "etapa": 19,
@@ -128,21 +127,6 @@
       "bruto": 85,
       "topes": [],
       "total": 85
-    },
-    "motivo": "Programador en activo cuya conversación pública está pegada al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Programador en activo (GitHub público), tesis 2026 sobre orquestación de agentes y prompt driven development, 300+ inversiones pre-tracción, lidera. Reservas: vía estándar de 300k en programa por cohortes y foco LatAm."
-  },
-  "nombre_original": "Santiago Zavala",
-  "textos_v1": {
-    "por_que_es_interesante": "Es, de toda la lista, el inversor cuya conversación pública está más cerca del producto del cliente. No habla de IA en abstracto: habla de orquestar agentes, de Claude Code, Codex y OpenClaw como herramientas que usa a diario, de 'Prompt Driven Development' y de que el repositorio del futuro será de prompts. Organiza además 'Release Before Ready', un movimiento de hackatones de IA y creación de producto presentado por 500 Global, con ediciones en Ciudad de México, Palo Alto, Bogotá, Medellín y San Francisco —una superficie de contacto abierta, barata y verificable donde se le puede conocer construyendo, no pitcheando. Invierte en pre-seed, lidera rondas, tiene 300+ operaciones a sus espaldas y su historia entera es la de respaldar a fundadores técnicos antes de que existan métricas. Ángulo de contacto: enseñarle el harness funcionando —él evalúa código y demos, no slides—, participar en un Release Before Ready, y encuadrar el stack IA-nativo en su propio vocabulario (agentes orquestados, prompts como repositorio, go-to-market engineering).",
-    "tesis_de_inversion": "Invierte en fase muy temprana en fundadores técnicos de Latinoamérica y su tesis actual gira literalmente sobre agentes de IA y herramientas de desarrollo. En el podcast 'VibeRacing' (4 de febrero de 2026) explica el paso de escribir código línea a línea a 'orquestar agentes inteligentes' —vibecoding—, cuenta por qué nunca dejó de programar pese a ser inversor 'para no perder el ritmo de la tecnología', analiza compañías de 'Prompt Driven Development' y sostiene que el repositorio del futuro será de prompts y no de código fuente; también defiende el 'Go-To-Market Engineering', la idea de que los ingenieros deben ocuparse del ciclo de venta y distribución ahora que la IA abarata la creación técnica. En HumanX 2026 participa en la sesión 'Signal Before the Surge: How to Spot AI Winners Early', dirigida a inversores y fundadores, y en VC Unlocked imparte 'Why OpenClaw Won: An Investor Case Study'. Su marco histórico para LatAm es el del 'missing middle': el hueco de capital semilla que los fondos de la región abandonaron, que es justamente donde él insiste en operar. VC Sheet resume sus intereses como 'AI agents and autonomous coding tools', iteración rápida y lanzar producto imperfecto, y comunidad de builders entre LatAm y San Francisco.",
-    "etapa_y_ticket": [
-      "Pre-seed, seed y Serie A. VC Sheet le atribuye cheques de 100.000 $ a 5 M$ y confirma que lidera rondas. La vía estandarizada de 500 LatAm es distinta y más pequeña: 300.000 $ por compañía dentro de un programa con acompañamiento y acceso a Silicon Valley (en la convocatoria de 2026 se seleccionaron 5 compañías, con periodo de solicitud del 1 al 31 de julio de 2026). Históricamente 500 LatAm empezó con cheques de ~80.000 $ y los fue subiendo. Es decir: hay dos puertas, la del programa (300 k$, estándar) y la de una inversión directa mayor liderada por el fondo."
-    ]
+    }
   }
 }

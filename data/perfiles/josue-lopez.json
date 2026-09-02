@@ -113,10 +113,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "PhD del MIT, fundador de hardware financiado por DARPA y Principal en el mayor fondo deep tech del mundo, cómodo con equipos sin producto; pero su foco es cómputo de próxima generación y physical AI, no dev tools, es Principal sin firma, los cheques de DCVC son de 5-25M y su español no está documentado.",
     "puntuacion": {
       "tesis": 13,
       "etapa": 12,
@@ -128,21 +127,6 @@
       "bruto": 42,
       "topes": [],
       "total": 42
-    },
-    "motivo": "PhD del MIT, fundador de hardware financiado por DARPA y Principal en el mayor fondo deep tech del mundo, cómodo con equipos sin producto; pero su foco es cómputo de próxima generación y physical AI, no dev tools, es Principal sin firma, los cheques de DCVC son de 5-25M y su español no está documentado.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "PhD MIT y DCVC asume riesgo científico, pero es Principal, su foco es physical AI y cómputo de próxima generación, cheques de 5-25M y español sin confirmar."
-  },
-  "nombre_original": "Dr. Josué J. López",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el perfil de la lista con la relación más limpia con el riesgo técnico puro: fue fundador de una empresa de hardware financiada por DARPA, tiene un doctorado del MIT y trabaja en el fondo que existe precisamente para financiar ciencia antes de que haya mercado. Firmó una carta en Science pidiendo más capital para doctores que fundan empresas profundas; es literalmente su causa. Para el cliente, el ángulo NO es «herramientas para desarrolladores» —eso no es su área— sino «next-generation compute»: si la afirmación de que el stack IA-nativo es ~90% más eficiente que los stacks actuales operados con IA se puede demostrar con benchmarks de cómputo, energía o latencia, entra directamente en su tesis, junto a inversiones de DCVC como Mythic (arquitectura analógica 100x más eficiente que las GPU), Unconventional o SF Compute. Es además un interlocutor que evalúa papers y demos, no métricas de uso. Vía de acceso concreta: es ponente en Deep Tech Week SF 2026, donde figura como «Photonics Guru · DCVC».",
-    "tesis_de_inversion": "DCVC aplica lo que llama un «computational approach»: invierte donde la computación moderna —IA, simulación, big data— crea una ventaja estructural en industrias tradicionalmente ajenas al software (manufactura, agricultura, minería, salud, defensa, energía). Es el mayor fondo dedicado exclusivamente a deep tech y su modelo consiste precisamente en asumir riesgo científico y técnico antes de que exista mercado: su cartera de 366 compañías incluye Rocket Lab, Rigetti, D-Wave y MosaicML. Dentro de ese marco, la especialidad declarada de Josué es «companies building the next industrial and technological renaissance — from next-generation compute and AI-accelerated discovery platforms to advanced manufacturing, robotics, and physical AI». Su convicción personal, expresada en Negocios Now, es que «resilience, the audacity to pursue transformative ideas, and access to capital determine who gets to build the future»: una tesis explícita sobre financiar ambición técnica temprana. La ha llevado también a la política científica: firmó en 2025 una carta en Science, «Support PhDs building deep-tech ventures» (Science 387:1157, doi 10.1126/science.adt1709), defendiendo que hay que dar capital y estructura a doctores que fundan empresas profundas. Es, por perfil, un inversor cómodo con equipos técnicos sin producto comercializado.",
-    "etapa_y_ticket": [
-      "DCVC invierte en seed, Series A y growth. Fuentes de terceros sitúan el cheque habitual entre 5 y 25 M USD, con un punto dulce de ~10 M USD, y un rango total desde 250 K USD (aceleradora virtual) hasta más de 50 M USD en growth. Histórico: 112 inversiones en seed (tamaño medio de ronda 15,6 M USD) y 113 en Series A (21,2 M USD). Ticket personal de Josué: no aplica, es Principal y no firma cheques por sí solo; origina, analiza y defiende operaciones ante los socios. No hay datos públicos de que invierta como ángel."
-    ]
+    }
   }
 }

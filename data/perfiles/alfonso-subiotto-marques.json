@@ -106,10 +106,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y un evaluador técnico de primer nivel; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
     "puntuacion": {
       "tesis": 22,
       "etapa": 16,
@@ -123,21 +122,6 @@
         "no firma cheque → máx. 69"
       ],
       "total": 69
-    },
-    "motivo": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y un evaluador técnico de primer nivel; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Mandato literal 'developer tools and data infrastructure' en un fondo de primer cheque (Lorimer); es Venture Partner sin firma propia: se trata como puerta al fondo."
-  },
-  "nombre_original": "Alfonso Subiotto Marqués",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el evaluador técnico más cualificado de este lote para un stack de software IA-nativo y un harness de desarrollo con agentes: ha construido un motor de ejecución vectorizado dentro de una base de datos distribuida, ha trabajado en formatos columnares y almacenamiento de perfiles continuos, ha optimizado kernels CUDA y ha empujado públicamente la práctica del deterministic simulation testing, que es precisamente la técnica que hace verificable un sistema de agentes no determinista. Su mandato declarado en Lorimer es literalmente 'developer tools and data infrastructure', y el fondo tiene 14 compañías en esa categoría y entra 'pre-consensus at pre-seed and seed', o sea, sin tracción. Es hispanohablante y está basado en España, con correo público en su propia web: se le puede escribir directamente, en español, sin intro. Ángulo de contacto: no vender mercado, vender arquitectura. Enseñarle el repo, el diseño del harness, cómo se testea de forma determinista una nube de agentes, y qué parte del stack es sustituible y cuál no. Un mensaje que empiece citando su post sobre Parquet→Vortex o su charla de DST en EuroRust tiene muchísimas más probabilidades de respuesta que un deck.",
-    "tesis_de_inversion": "Su mandato está escrito en primera persona en su web personal, sin ambigüedad: 'Venture Partner at Lorimer Ventures, where I invest in developer tools and data infrastructure'. Es exactamente la categoría del cliente. El fondo que lo respalda invierte 'pre-consensus at pre-seed and seed', es decir, entra antes de que exista consenso de mercado, y su ethos declarado es 'Be Genuinely Useful': posicionarse como acelerante y no como necesidad, apoyándose en más de 100 LPs operadores y en una red que ha colocado 45+ operadores en compañías de cartera, hecho 100+ presentaciones a clientes potenciales y originado 17+ leads de ronda. La tesis corporativa pública de Lorimer para 2026 se centra en la 'fase de despliegue de la IA' (infraestructura de IA, world models y IA determinista para activos industriales, sensórica y computación cuántica, descubrimiento de materiales, flujos financieros de salud y seguros, energía), argumentando que 'el coste por token ha caído más de 100x desde 2023 y sin embargo la IA apenas ha penetrado en la empresa (<5% de adopción)'. Dentro de ese marco, Alfonso cubre la franja de herramientas para desarrolladores, datos e infraestructura, que es donde el fondo ya tiene 14 compañías (Amberflo, Bugout, Digraph, Golioth, Hex, Instant, Knapsack, Lilac Software, LogicLoop, Onboarded, Polar Signals, Sutro, Trace).",
-    "etapa_y_ticket": [
-      "Lorimer Ventures invierte 'pre-consensus at pre-seed and seed' y se presenta escribiendo 'the first check'. Tamaño de fondo y ticket típico: NO CONFIRMADOS — Lorimer no publica cifras en su web ni en su sección de noticias, y en agosto de 2026 fue seleccionado para el RAISE Global Summit como 'uno de los 101 gestores emergentes globales', lo que sugiere un vehículo de tamaño pequeño-medio. El papel de Alfonso es de Venture Partner con mandato temático declarado, no de GP con firma de cheque propia confirmada."
-    ]
+    }
   }
 }

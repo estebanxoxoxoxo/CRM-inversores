@@ -112,10 +112,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Su tesis tecnológica (la UI de SaaS se convierte en CLI, API o herramienta MCP; soberanía es poder elegir proveedor de modelo) es el argumento de moat de un stack IA-nativo, y construyó CARTO durante catorce años; pero no hay ninguna inversión ángel documentada ni etapa ni ticket. Validador y puente, no capital.",
     "puntuacion": {
       "tesis": 20,
       "etapa": 0,
@@ -127,21 +126,6 @@
       "bruto": 44,
       "topes": [],
       "total": 44
-    },
-    "motivo": "Su tesis tecnológica (la UI de SaaS se convierte en CLI, API o herramienta MCP; soberanía es poder elegir proveedor de modelo) es el argumento de moat de un stack IA-nativo, y construyó CARTO durante catorce años; pero no hay ninguna inversión ángel documentada ni etapa ni ticket. Validador y puente, no capital.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Discurso agéntico/MCP idóneo y fundador de CARTO, pero ninguna inversión ángel documentada, sin etapa ni ticket; valor como validador y puente, no como capital."
-  },
-  "nombre_original": "Javier de la Torre",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el interlocutor técnico ideal aunque probablemente no sea el cheque. Ha construido una plataforma de datos con superficie de desarrollador durante catorce años, es Director de un organismo de estándares abiertos (OGC), impulsó GeoParquet y el soporte de geometría en Apache Iceberg, y en 2025-2026 ha reorientado públicamente CARTO hacia la 'Agentic Enterprise' con servidor MCP propio. Su tesis pública —que la UI de SaaS se convierte en comando de CLI, API o herramienta MCP; que la soberanía es poder elegir proveedor de modelo; que los formatos abiertos rompen los silos— es literalmente el argumento de moat de un stack IA-nativo. Sigue escribiendo código en abierto, así que un contacto por GitHub o por un ensayo técnico tiene más probabilidad de funcionar que un deck. Ángulo: no pedirle dinero de entrada, sino su lectura técnica y su red (es puerta natural hacia Kibo Ventures, Accel, Insight y Salesforce Ventures, todos inversores de CARTO).",
-    "tesis_de_inversion": "No tiene tesis de inversión publicada porque no hay evidencia de que invierta de forma sistemática. Lo que sí tiene, y es más útil, es una tesis tecnológica muy articulada y muy cercana a la del cliente. Sobre agentes: 'Agents don't go to a browser or click through dropdowns. They call APIs, invoke MCP tools, and run CLI commands directly', y generaliza: 'across every industry and every category of enterprise software, the same shift is underway: what used to be a SaaS UI for an agent is a CLI command, an API, or an MCP tool' (CARTO for Agents, 14 mayo 2026). Sobre organización: las empresas ganadoras serán las que 'bring humans and AI Agents on the same platform, working from the same data, the same governance'. Sobre soberanía y lock-in, su ensayo del 20 de noviembre de 2025: 'Sovereignty doesn't mean building walls or rejecting innovation. True sovereignty is about choice'; 'Lock yourself into proprietary schemas or isolated data models, and you've confused isolation with independence'; y sobre modelos: 'Open models are increasingly competitive... a reliable model you can run securely on your own infrastructure is already more strategically valuable', con la regla 'always use standards and platforms that give you provider choice'. Es decir: defiende formatos abiertos, arquitecturas cloud-native, superficie de API/CLI/MCP para agentes y ausencia de dependencia de un proveedor de modelo. Es exactamente el argumento de moat que necesita una startup de stack IA-nativo.",
-    "etapa_y_ticket": [
-      "No confirmado. No se ha encontrado ninguna fuente pública que documente etapa, ticket ni operaciones ángel concretas de Javier de la Torre. Su perfil en AngelFlow lo etiqueta como business angel pero no lista ni una sola inversión, importe o sector. Cualquier cifra sería inventada. Lo que sí está documentado es su rol de fundador-operador y su posición institucional en estándares abiertos."
-    ]
+    }
   }
 }

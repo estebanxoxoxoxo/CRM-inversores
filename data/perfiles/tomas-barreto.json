@@ -106,10 +106,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Cofundó y vendió a Stripe Okay, una empresa de efectividad de ingeniería (el problema exacto del harness), y KP confirma que habla español; pero es Operating Partner sin capacidad de invertir, su actividad ángel (10-50k) no consta desde 2023 y no tiene email. Evaluador y campeón interno en Kleiner Perkins, no capital.",
     "puntuacion": {
       "tesis": 18,
       "etapa": 8,
@@ -121,21 +120,6 @@
       "bruto": 51,
       "topes": [],
       "total": 51
-    },
-    "motivo": "Cofundó y vendió a Stripe Okay, una empresa de efectividad de ingeniería (el problema exacto del harness), y KP confirma que habla español; pero es Operating Partner sin capacidad de invertir, su actividad ángel (10-50k) no consta desde 2023 y no tiene email. Evaluador y campeón interno en Kleiner Perkins, no capital.",
-    "nivel_v1": "r",
-    "prioridad_agente": "C",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "Construyó y vendió Okay (efectividad de ingeniería, a Stripe) y KP confirma que habla español, pero es Operating Partner sin capacidad de invertir y su actividad ángel (10-50k) no consta desde 2023. Campeón técnico interno en KP."
-  },
-  "nombre_original": "Tomas Barreto",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el mejor evaluador posible del producto del cliente y el peor candidato a financiarlo, y conviene tratarlo exactamente así. Cofundó y vendió a Stripe una empresa cuyo objeto era medir y mejorar la efectividad de la ingeniería: es literalmente el problema que ataca un harness de desarrollo con nube de agentes, y sabe qué métricas son reales y cuáles son humo. Hoy, como Operating Partner de Kleiner Perkins, su trabajo consiste en aconsejar a las compañías de la cartera sobre velocidad de entrega y organización de ingeniería, lo que lo convierte en (a) un potencial cliente/design partner con acceso a decenas de equipos de ingeniería de startups de KP y (b) un posible campeón técnico interno que puede llevar la operación a Leigh Marie Braswell o Ilya Fushman, que son quienes sí firman. Habla español según la propia ficha de KP y vivió en Caracas, así que la conversación puede ser en español. El ángulo correcto: pedirle una sesión técnica y su opinión sobre las métricas, no un cheque.",
-    "tesis_de_inversion": "No tiene tesis de inversión publicada, porque no es inversor profesional: es un operador de ingeniería. Su perfil de Signal NFX sitúa su actividad como ángel en seed, Series A y Series B con cheques de 10-50 K USD (punto dulce 25 K USD), y clasifica sus sectores por orden con Developer Tools en cabeza, seguido de Analytics, SaaS, FinTech, Payments, HRTech, salud de consumo y software para pymes. Su tesis implícita, la que ha ejecutado con su propia empresa, es la efectividad de ingeniería medida con datos: Okay descomponía el tiempo de los equipos en Maker Time, Meeting Load y Friction Time y unía datos cuantitativos y cualitativos en un único panel para que los líderes tomasen decisiones basadas en evidencia. Su argumento público de fondo, en Software Engineering Daily (22/02/2021), es que «people in maker professions such as developers and writers are most productive when they can carve out dedicated time for focused work, without the frequent context-switching». En Kleiner Perkins su función declarada es asesorar a las compañías de la cartera sobre contratación de talento técnico, escalado de equipos, velocidad de entrega y mentoría de CTOs. Es, en resumen, un comprador y evaluador natural de un harness de desarrollo, no un firmante de cheques.",
-    "etapa_y_ticket": [
-      "Como ángel/scout: seed, Series A y Series B, con cheques de 10 K a 50 K USD y un punto dulce de ~25 K USD, según su perfil en Signal NFX (https://signal.nfx.com/investors/tomas-barreto). Como Operating Partner de Kleiner Perkins NO decide inversiones ni tiene ticket propio; el capital del fondo lo despliegan los socios inversores (Mamoon Hamid, Ilya Fushman, Leigh Marie Braswell, Josh Coyne, Aditya Naganath, Aatish Nayak, Ted Schlein). Su papel de Scout en Sequoia terminó en enero de 2023; no está confirmado que siga invirtiendo activamente como ángel en 2026."
-    ]
+    }
   }
 }

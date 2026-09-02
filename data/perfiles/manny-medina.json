@@ -111,10 +111,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Su tesis es literalmente infraestructura de IA (datos y workflows, despliegue e inferencia, optimización de cómputo y redes) en seed y Serie A, con Hedgehog (open networking para IA) en 2026; cubano de nacimiento, español materno, preside el comité y construyó dos compañías de infraestructura. Reservas: fondo pequeño y en captación (Form D 20,2M frente a 75M objetivo) y no confundir con el Manny Medina de Outreach.",
     "puntuacion": {
       "tesis": 25,
       "etapa": 17,
@@ -126,21 +125,6 @@
       "bruto": 84,
       "topes": [],
       "total": 84
-    },
-    "motivo": "Su tesis es literalmente infraestructura de IA (datos y workflows, despliegue e inferencia, optimización de cómputo y redes) en seed y Serie A, con Hedgehog (open networking para IA) en 2026; cubano de nacimiento, español materno, preside el comité y construyó dos compañías de infraestructura. Reservas: fondo pequeño y en captación (Form D 20,2M frente a 75M objetivo) y no confundir con el Manny Medina de Outreach.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Medina Ventures publica una tesis literal de infraestructura de IA (datos, despliegue e inferencia, cómputo y redes), seed y Serie A, Hedgehog (open networking para IA) en 2026; cubano, español nativo; preside el comité. Reservas: fondo pequeño y en captación (Form D 20M), no confundir con el Manny Medina de Outreach."
-  },
-  "nombre_original": "Manuel D. \"Manny\" Medina",
-  "textos_v1": {
-    "por_que_es_interesante": "Es, sobre el papel, el encaje más limpio de este lote con lo que pide el cliente: un fondo que invierte en seed y Series A, con cheques de ~1 M USD, cuya primera línea de tesis es literalmente «software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference», gestionado por un cubano de nacimiento cuya lengua materna es el español y que construyó dos compañías de infraestructura desde cero. Ha hecho toda su carrera vendiendo «picks and shovels», no aplicaciones, así que el argumento de moat técnico y horizonte largo le resulta natural: Terremark tardó casi 30 años en llegar al exit. El ángulo de contacto es doble: el formulario/email del fondo (info@medinavc.com) con un pitch centrado en infraestructura de despliegue e inferencia de agentes, y eMerge Americas, la conferencia que él preside en Miami, que es una puerta de entrada real y barata para un equipo hispanohablante. La conversación puede hacerse íntegramente en español.",
-    "tesis_de_inversion": "Medina Ventures invierte en seed y Series A en «deep tech de doble uso»: la infraestructura habilitadora, no la aplicación final. Su frase de cabecera es «We back exceptional founders building the enabling infrastructure powering the next great technological revolution». Tres pilares declarados: (1) AI Infrastructure — «software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference, and the optimization of compute, networking and performance for production workloads»; (2) Quantum Technologies — computación, sensado, comunicaciones y redes cuánticas; (3) Next-Gen Cybersecurity — prevención, detección y respuesta potenciadas por IA y criptografía resistente a la cuántica. El fondo se presenta explícitamente como apoyo a la tríada AI + cuántica + ciberseguridad que sostiene la seguridad nacional estadounidense, y dice que apuesta «early — when capital, conviction and operational support compound the most», por «the picks-and-shovels of dual-use deep technology». En la versión original de 2023-2024 el discurso tenía además un fuerte componente de puente LatAm–Miami: «Queremos ser actores relevantes para aprovechar las increíbles ideas de innovación que surgen y una plataforma para crear puentes entre la región y Estados Unidos».",
-    "etapa_y_ticket": [
-      "Seed y Series A. La web oficial dice literalmente: «By investing at the Seed and Series A stages, Medina Ventures supports early innovation that strengthens critical systems, safeguards data, and powers global innovation» (https://medinavc.com/). Ticket: la prensa española (La Política Online, enero 2024) cita un mínimo de 1 M USD por operación y un objetivo de ~46 startups. Tamaño del fondo: objetivo declarado de 75 M USD; la realidad verificable es menor — el Form D presentado ante la SEC el 3/09/2025 por MEDINA VENTURES FUND, LP declara 20,2 M USD vendidos (firmantes: Manuel D. Medina y Jose A. Jimenez), y bases de datos secundarias hablan de ~11 M USD bajo gestión. Conclusión: fondo pequeño y todavía en captación; el objetivo de 75 M USD NO está confirmado como cerrado."
-    ]
+    }
   }
 }

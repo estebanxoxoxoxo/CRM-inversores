@@ -106,10 +106,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Cartera muy solapada con el cliente (consejero de Cursor, Convex, Braintrust, Distributional, Fivetran) y el precedente intelectual perfecto ('The Cost of Cloud'); fundador técnico que valora benchmarks y arquitectura. Pero nacido en España sin español documentado, entra en Series A/B, acceso en frío casi imposible y conflicto potencial por el consejo de Cursor.",
     "puntuacion": {
       "tesis": 25,
       "etapa": 10,
@@ -121,21 +120,6 @@
       "bruto": 60,
       "topes": [],
       "total": 60
-    },
-    "motivo": "Cartera muy solapada con el cliente (consejero de Cursor, Convex, Braintrust, Distributional, Fivetran) y el precedente intelectual perfecto ('The Cost of Cloud'); fundador técnico que valora benchmarks y arquitectura. Pero nacido en España sin español documentado, entra en Series A/B, acceso en frío casi imposible y conflicto potencial por el consejo de Cursor.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "La cartera más solapada con el cliente (Cursor, Braintrust, Distributional, Convex) y fundador técnico, pero nacido en España sin español confirmado, entra en Series A/B, acceso muy difícil y conflicto potencial por el consejo de Cursor."
-  },
-  "nombre_original": "Martin Casado",
-  "textos_v1": {
-    "por_que_es_interesante": "Es, de los seis, el inversor cuya cartera se solapa más literalmente con lo que construye el cliente: está en el consejo de Cursor (harness de programación con IA), Convex, Netlify, Fivetran, Braintrust y Distributional (evals e infraestructura de agentes). Su tesis pública de que el coste del cómputo y del cloud es el gran arbitraje pendiente encaja con la afirmación de “stack ~90% mejor”. Además es un fundador técnico profundo, no un inversor financiero: valora demos, benchmarks y arquitectura por encima de métricas de uso, y su podcast “Benchmarking AI Agents on Full-Stack Coding” muestra que le interesa exactamente el problema de evaluar agentes que escriben software. El ángulo de contacto correcto es técnico y cuantitativo: enseñarle el benchmark del stack frente a alternativas, con metodología de evals reproducible, y encuadrarlo como la secuela práctica de “The Cost of Cloud”. Nacido en España, pero su fluidez en español NO está confirmada.",
-    "tesis_de_inversion": "Casado invierte en infraestructura: bases de datos, redes, seguridad, plataformas de datos y, desde 2023, todo el stack de IA (modelos, evals, agentes, herramientas de desarrollo y hardware). Su marco público es que el valor en IA se está repartiendo por capas y que la capa de aplicación puede capturar tanto o más que los laboratorios: sobre Cursor dice que “developed near-SOTA model at fraction of cost, then went down-stack. Shows you can build massive opportunity on app layer while training models” (Latent Space, 19-feb-2026). Cree que estamos en 1996 y no en 1999, que las scaling laws siguen intactas y que el cuello de botella real es la demanda, no la técnica. Es contrario al consenso en dos cosas útiles para una startup deep tech: dice que “boring enterprise software is most underinvested” y que hay que huir del hype de ciclo; y sostiene que “every app company must ask: how do I extract margin on tokens flowing through”. Su ensayo más citado, “The Cost of Cloud, a Trillion Dollar Paradox” (a16z, 2021, con Sarah Wang), defiende exactamente la tesis de que reoptimizar el stack de cómputo libera cientos de miles de millones de valor: es el precedente intelectual perfecto para una startup que afirma un stack IA-nativo mucho más eficiente.",
-    "etapa_y_ticket": [
-      "Seed, Series A y Series B+. VC Sheet reporta un rango de cheque de 500.000 a 100.000.000 USD (https://www.vcsheet.com/who/martin-casado). a16z tiene socios y vehículos dedicados a seed, pero Casado personalmente suele liderar Series A/B con puesto en el consejo. El Machine Age Fund (1.100M USD) invierte en el stack físico de la IA: chips, memoria, redes, almacenamiento, data centers y robótica."
-    ]
+    }
   }
 }

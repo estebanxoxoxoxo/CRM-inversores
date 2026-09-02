@@ -111,10 +111,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "La doctrina escrita de Bullnet coincide con lo que busca el cliente (innovación científica por encima de tracción, entrada con prototipo, pilotos bienvenidos pero no exigidos) y tiene exits en dev tools (Códice, LeanXcale); físico y fotónico que lee arquitectura. Pero sólo invierte en sociedades domiciliadas en España, el fondo IV está en fase final, no tiene LinkedIn ni huella pública y la atribución de deals es inferida.",
     "puntuacion": {
       "tesis": 20,
       "etapa": 17,
@@ -126,21 +125,6 @@
       "bruto": 67,
       "topes": [],
       "total": 67
-    },
-    "motivo": "La doctrina escrita de Bullnet coincide con lo que busca el cliente (innovación científica por encima de tracción, entrada con prototipo, pilotos bienvenidos pero no exigidos) y tiene exits en dev tools (Códice, LeanXcale); físico y fotónico que lee arquitectura. Pero sólo invierte en sociedades domiciliadas en España, el fondo IV está en fase final, no tiene LinkedIn ni huella pública y la atribución de deals es inferida.",
-    "nivel_v1": "2",
-    "prioridad_agente": "A",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Estrategia escrita de Bullnet que prioriza innovación científica sobre tracción y exits en dev tools (Códice, LeanXcale), pero la misma restricción legal que Ulecia (sólo sociedades domiciliadas en España), fondo IV en fase final, sin LinkedIn ni huella pública y atribución de deals inferida."
-  },
-  "nombre_original": "Miguel del Cañizo",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el inversor español cuya doctrina escrita se acerca más literalmente a lo que el cliente busca: Bullnet declara en su página de estrategia que prioriza la innovación científica sobre la tracción comercial y que entra cuando la tecnología aún no es una versión comercial, con pilotos de clientes bienvenidos pero no exigidos. Y no es solo discurso en hardware: tienen historial real y con exit en herramientas para desarrolladores e infraestructura de software. Invirtieron en Códice Software (creadora de Plastic SCM, control de versiones para equipos de desarrollo) en 2009 y salieron en agosto de 2020 cuando la compró Unity Technologies; y en LeanXcale (base de datos SQL completa que escala linealmente cargas transaccionales) en marzo de 2017. Miguel del Cañizo es además un socio con formación de física y fotónica que puede leer un argumento arquitectónico sin intermediarios, y se sienta en los consejos. El ángulo de contacto es el paralelismo explícito con Códice y LeanXcale: software profundo, español, con barrera de conocimiento y sin necesidad de usuarios el día uno.",
-    "tesis_de_inversion": "Bullnet invierte en compañías españolas con «proprietary breakthrough technologies» creadas por «technical experts that also have an entrepreneurial spirit». Los sectores declarados son software, sistemas electrónicos, microelectrónica, fotónica y dispositivos médicos; excluyen expresamente biotecnología pura, internet de consumo y negocios de contenido. El criterio central es que el conocimiento sea fruto de un esfuerzo real de I+D y de experiencia profunda de industria: «This know-how is difficult to achieve by third parties... sustainable over time and (desirably) legally protectable through patents». Lo decisivo para el cliente: valoran la innovación científica por encima de la tracción comercial, piden un prototipo o prueba de concepto que demuestre viabilidad técnica, y entran cuando la tecnología «is still relatively immature to be called a commercial version», con pilotos de clientes bienvenidos pero no exigidos. Prefieren producto sobre servicio y diferenciación tecnológica sostenible sobre diversificación pasiva. Su gestión es 'hands on': Miguel del Cañizo, según la ficha del propio fondo, participa en los consejos de las participadas, y la firma acompaña en fundraising, protección de propiedad intelectual, alianzas, reclutamiento y desarrollo comercial.",
-    "etapa_y_ticket": [
-      "Etapa temprana, antes de la madurez comercial. La página de estrategia del fondo declara: inversión típica de Serie A en torno a 2 M€, y desde hace poco préstamos convertibles de 'proof of concept' por debajo de 500 K€ que pueden crecer hasta 6-7 M€ acumulados por compañía. Entran cuando la tecnología «is still relatively immature to be called a commercial version»; los pilotos o pruebas con clientes son bienvenidos pero NO requeridos. Geografía: solo compañías radicadas en España, por restricción legal de los vehículos. Fondos: cuatro fondos (Bullnet Capital I-IV) y más de 30 participadas; 'Innvierte Sciencetech Bullnet Capital IV' recibió 28 M€ del Fondo Europeo de Inversiones (anunciado el 14-nov-2024) y en abril de 2025 lanzaron el Bullnet Opportunity Fund con objetivo de 20-25 M€ para startups de creación reciente. Respaldo público-europeo: InnovFin Equity, InvestEU, Innvierte/CDTI y el Plan de Recuperación (NextGenerationEU)."
-    ]
+    }
   }
 }

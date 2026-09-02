@@ -101,10 +101,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Focos declarados (cloud infrastructure, DevSecOps, Kubernetes, AI/ML) y preferencia por plataformas sobre point solutions, peruano nativo y en el mismo fondo que Yépez; pero cheques de 5-30M USD en Series A/B, ninguna semilla documentada, sólo cuatro operaciones desde 2021 y sin email. Contacto de segunda ronda.",
     "puntuacion": {
       "tesis": 18,
       "etapa": 4,
@@ -116,21 +115,6 @@
       "bruto": 53,
       "topes": [],
       "total": 53
-    },
-    "motivo": "Focos declarados (cloud infrastructure, DevSecOps, Kubernetes, AI/ML) y preferencia por plataformas sobre point solutions, peruano nativo y en el mismo fondo que Yépez; pero cheques de 5-30M USD en Series A/B, ninguna semilla documentada, sólo cuatro operaciones desde 2021 y sin email. Contacto de segunda ronda.",
-    "nivel_v1": "x",
-    "prioridad_agente": "C",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Tesis de plataformas cloud/DevSecOps, pero cheques de 5-30M USD en Series A/B, sin semilla documentada y sólo 4 operaciones desde 2021."
-  },
-  "nombre_original": "Leo Casusol (Segundo Leoncio Casusol)",
-  "textos_v1": {
-    "por_que_es_interesante": "Su encaje es parcial pero su valor de red es real. A favor: sus focos declarados (cloud infrastructure, DevSecOps, Kubernetes/orquestación, AI/ML) son exactamente la capa del cliente; es hispanohablante nativo peruano, con lo que la conversación puede ser en español desde el primer minuto; y trabaja en el mismo fondo que Alberto Yépez (cofundador de Forgepoint, mexicano), que ya está en la lista, lo que permite una entrada doble. Su cartera incluye Rafay Systems (orquestación de Kubernetes) y Cinchy (autonomía de datos), es decir, plataformas de infraestructura, no aplicaciones. En contra, y es determinante: su ticket documentado es de 5 a 30M USD en Series A/B, tiene solo cuatro operaciones registradas a su nombre y no hay ninguna evidencia pública de que lidere semillas. Ángulo de contacto: no venderle visión sino despliegue —enseñarle cómo un CIO integraría el stack, qué reemplaza, quién lo compra— y usarlo como sparring técnico y puerta de entrada al fondo antes que como primer cheque. Es un contacto de segunda ronda, no de pre-seed.",
-    "tesis_de_inversion": "Casusol invierte desde la óptica del comprador: es un CIO de carrera reconvertido en inversor y su tesis gira en torno a si una tecnología se puede realmente comprar, integrar y desplegar en una empresa grande. Sus focos declarados en Forgepoint son cloud infrastructure, DevSecOps, orquestación (Kubernetes), AI/ML y 'frontier security'. En el Q&A publicado por su propio fondo (28-feb-2023) dice valorar 'startups that innovate and break the status quo, challenging how things are done today' y declara una preferencia explícita por 'platform plays than point solutions': le interesan plataformas que resuelvan problemas empresariales complejos, no herramientas de un solo uso, algo directamente aplicable a un stack completo. Su marco de diligencia son cuatro fricciones de venta empresarial: identificar a los stakeholders del cliente, ganar al sponsor técnico, escalar a nivel enterprise y sostener el soporte continuo. También insiste en la orquestación de procesos de negocio como patrón ganador. Es decir: pregunta menos '¿es esto técnicamente asombroso?' y más '¿quién lo compra, quién lo integra y quién lo mantiene?'. Para una startup pre-tracción esto es a la vez su virtud (entiende infraestructura de verdad) y su límite (quiere ver camino a compra empresarial).",
-    "etapa_y_ticket": [
-      "Series A y Series B principalmente, con algo de actividad en semilla. Signal NFX reporta un rango de cheque de 5.000.000 a 30.000.000 USD con sweet spot de 17.000.000 USD y solo 4 operaciones registradas a su nombre (Lynx, Lumu, Cinchy, Rafay Systems). Otras fuentes amplían el rango de Forgepoint a 5-50M USD. El fondo gestiona más de 1.000M USD de AUM y su Forgepoint Cybersecurity Fund III está cerrado y en despliegue activo. IMPORTANTE: este es un ticket de Series A/B, no de pre-seed ni seed; no hay evidencia pública de que Casusol haya liderado una ronda de semilla."
-    ]
+    }
   }
 }

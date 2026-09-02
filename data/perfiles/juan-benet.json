@@ -102,10 +102,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Arquetipo del inversor de infraestructura profunda con horizonte de décadas (Prime Intellect, Zama), nacido en Ciudad de México; pero su vehículo con decisión es neurotecnología, en PLC Rails sólo es Research Partner, la cartera ángel es cripto-céntrica, la última operación personal es de enero de 2025 y no hay español documentado.",
     "puntuacion": {
       "tesis": 12,
       "etapa": 13,
@@ -117,21 +116,6 @@
       "bruto": 44,
       "topes": [],
       "total": 44
-    },
-    "motivo": "Arquetipo del inversor de infraestructura profunda con horizonte de décadas (Prime Intellect, Zama), nacido en Ciudad de México; pero su vehículo con decisión es neurotecnología, en PLC Rails sólo es Research Partner, la cartera ángel es cripto-céntrica, la última operación personal es de enero de 2025 y no hay español documentado.",
-    "nivel_v1": "r",
-    "prioridad_agente": "C",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Horizonte de décadas y apuestas en Prime Intellect y Zama, pero decide sólo en PLC Neurotech, cartera ángel cripto-céntrica, ritmo bajo y español no confirmado."
-  },
-  "nombre_original": "Juan Benet",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el arquetipo del inversor que apuesta por infraestructura profunda sin tracción y con horizonte de década: fundó un laboratorio de protocolos, financia interfaces cerebro-computador y ha entrado en Prime Intellect (entrenamiento descentralizado de IA) y Zama (criptografía homomórfica), dos casos de ciencia aplicada sin producto comercial. Su discurso sobre bienes públicos, open source y sistemas de conocimiento encaja con una startup que construye un stack abierto e IA-nativo. Además nació en Ciudad de México, lo que abre un ángulo cultural. Pero el encaje es parcial y hay que decirlo: su foco de 2025-2026 es neurotecnología, y su cartera personal es mayoritariamente cripto. Si se le contacta, el encuadre debe ser el de infraestructura abierta y verificable para agentes (procedencia del código, sandboxes, coordinación entre agentes), no el de una herramienta de productividad para desarrolladores.",
-    "tesis_de_inversion": "Benet invierte en infraestructura fundacional con horizonte de décadas. Su marco mental está bien resumido en su frase pública en Funding the Commons: 'The internet was never meant to be owned. It was meant to be shared.' Protocol Labs se define como un laboratorio de investigación y desarrollo de protocolos abiertos, y su obra (IPFS, libp2p, Filecoin, Multiformats) es infraestructura de red descentralizada. En el plano de fondos, PLC Neurotech invierte en interfaces cerebro-computador, NeuroAI y conectómica, con cartera en Synchron, Paradromics, Science Corp, Hemispheric y Merge Labs; su bio en ese fondo se define como 'Frontier technology investor across crypto, neurotech, AI, and biotech. Stanford & YC alum'. PLC Rails, donde solo es Research Partner, busca 'back founders using cryptographic and decentralized primitives to solve real problems' en IA, infraestructura física, software empresarial y rails financieros, entendiendo esas tecnologías como la capa de seguridad, privacidad y coordinación de la era de la IA. Su cartera ángel personal, según Shizune, se reparte entre software (27%), blockchain (27%), criptomonedas (27%), servicios financieros (18%) y TI (18%): CoinTracker, CoinList, Anjuna, Iron Fish, Golden, WeatherXM, Secured Finance, y en el ángulo más interesante para el cliente, Prime Intellect (infraestructura de entrenamiento descentralizado de IA) y Zama (criptografía homomórfica para IA). Coinvierte habitualmente con Protocol Labs, ConsenSys Mesh, Archetype y CoinFund.",
-    "etapa_y_ticket": [
-      "Como ángel personal: 22 operaciones registradas en Shizune, con 55% en seed y 18% en Serie A, tasa de liderazgo del 9%; tamaños de ronda de 1,5 a 8,3 M USD en seed y de 7,7 a 73 M USD en Serie A (el ticket individual suyo no es público). Última inversión personal registrada: enero de 2025. Vía PL Capital: PLC Neurotech (fondo vertical de interfaces cerebro-computador, NeuroAI y conectómica, donde es General Partner) y PLC Rails (primitivas criptográficas y descentralizadas aplicadas a IA, infraestructura física, software empresarial y rails financieros, donde figura solo como Research Partner, non-advisory). Tamaños de fondo y tickets no publicados. Protocol VC LLC es el asesor de inversión registrado en la SEC que gestiona estos vehículos; la operación registrada más reciente es la seed de 6 M USD de Belfort (septiembre de 2025)."
-    ]
+    }
   }
 }

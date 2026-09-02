@@ -103,10 +103,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Ingeniera de software (Stanford, LinkedIn) que invierte en la primera ronda institucional y exige fundador técnico, con email público; pero fondo de 7M USD sin Fondo II confirmado, tesis de industrias tradicionales del corredor EE.UU.-México y cero dev tools en cartera.",
     "puntuacion": {
       "tesis": 8,
       "etapa": 19,
@@ -120,21 +119,6 @@
         "tesis < 10 → máx. 55"
       ],
       "total": 55
-    },
-    "motivo": "Ingeniera de software (Stanford, LinkedIn) que invierte en la primera ronda institucional y exige fundador técnico, con email público; pero fondo de 7M USD sin Fondo II confirmado, tesis de industrias tradicionales del corredor EE.UU.-México y cero dev tools en cartera.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "Ingeniera, primera ronda institucional y exige fundador técnico, pero fondo de 7M USD, sin Fondo II confirmado, tesis de industrias tradicionales y cero dev tools en cartera."
-  },
-  "nombre_original": "Ana Carolina Mexia Ponce",
-  "textos_v1": {
-    "por_que_es_interesante": "Es la inversora de este lote con el perfil técnico más directo: ingeniera de software de Stanford que escribió código en LinkedIn antes de invertir, con un fondo que se presenta como llevado por ingenieras y que exige al menos un fundador técnico. Eso significa que una demo de un harness de desarrollo con agentes se puede enseñar tal cual, sin traducción a métricas de negocio, y que la conversación puede ser sobre arquitectura. Entra en la primera ronda institucional, es decir antes de tracción por definición. El ángulo correcto NO es 'infraestructura de IA para el mundo', sino conectar el stack IA-nativo con su tesis del corredor EE.UU.–México: si el harness permite que equipos de ingeniería en México construyan software a velocidad de Silicon Valley, eso es literalmente su tesis de la 'década dorada'. Su newsletter ConteNido ('decode Silicon Valley for traditional industries') es un buen punto de entrada: leerla y responderle con algo sustantivo sobre agentes y productividad de ingeniería es mejor que un cold pitch.",
-    "tesis_de_inversion": "Nido invierte en pre-seed puro: 'We invest in pre-seed stage founders using technology to transform traditional industries in the US/Mexico corridor' y explicita que entra en la primera ronda institucional de la compañía. El criterio de equipo más relevante para el cliente es que prefiere 'at least one technical founder' — el fondo se presenta como llevado por ingenieras (ambas socias son ingenieras formadas en Stanford, una de software y otra de sistemas). La tesis macro es de nearshoring: México como principal socio comercial de EE.UU. y por tanto la palanca para transformar industrias fundacionales estadounidenses (manufactura, logística, cadena de suministro, healthcare, seguros). María Gutiérrez habla de la 'década dorada' de México en tecnología y de una oportunidad de más de US$800.000M por el desplazamiento económico. El sesgo operativo se ve en el portafolio: prácticamente todo lo invertido desde 2023 es IA aplicada vertical (Aloi, Arkham, Desteia, Mekan, Lilo, Telepatía, Nodal, Zenode, Mi Chamba). Es decir: son inversoras de IA, pero de IA aplicada a industrias tradicionales, no de infraestructura de IA ni de dev tools. Complementan el fondo con Nido Labs, un brazo de consultoría tecnológica que ayuda a grandes empresas a acelerar la adopción de tecnología.",
-    "etapa_y_ticket": [
-      "Pre-seed. La web declara literalmente: 'We partner with founders at the earliest of stages. We invest in a company's first institutional round'. Fondo I cerrado en US$7M en agosto de 2023 (Carta, descubre.vc). El fondo NO publica su tamaño de cheque; por tamaño del vehículo y por número de inversiones (18-23 empresas), el cheque razonable se sitúa en el rango bajo de seis cifras (aprox. US$150K–US$400K), pero esto NO está confirmado en fuente pública. Fondo II: no confirmado."
-    ]
+    }
   }
 }

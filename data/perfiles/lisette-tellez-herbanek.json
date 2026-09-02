@@ -106,10 +106,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Ingeniera (MIT CS) que declara invertir en deep/frontier tech y tiene PLCs.ai (generación de código con IA), MarkeTeam.ai (agentes autónomos) y memQ en cartera; pero el fondo exige MVP completo y tracción inicial, cheques de 200k-2M en seed/Serie A, Fund II de 2021 sin Fund III, sin evidencia de español y sin email.",
     "puntuacion": {
       "tesis": 15,
       "etapa": 8,
@@ -121,21 +120,6 @@
       "bruto": 47,
       "topes": [],
       "total": 47
-    },
-    "motivo": "Ingeniera (MIT CS) que declara invertir en deep/frontier tech y tiene PLCs.ai (generación de código con IA), MarkeTeam.ai (agentes autónomos) y memQ en cartera; pero el fondo exige MVP completo y tracción inicial, cheques de 200k-2M en seed/Serie A, Fund II de 2021 sin Fund III, sin evidencia de español y sin email.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "MIT CS y PLCs.ai en cartera, pero el fondo exige MVP completo y tracción inicial, cheques de 200k-2M en seed/Serie A, Fund II de 2021 sin Fund III, y español sin ninguna evidencia."
-  },
-  "nombre_original": "Lisette Tellez Herbanek",
-  "textos_v1": {
-    "por_que_es_interesante": "Es una de las pocas inversoras latinas con formación real de ingeniería de software (MIT CS) que firma cheques de deep tech, no de SaaS vertical genérico. Dos elementos de cartera conectan directamente con el cliente: PLCs.ai, plataforma de generación de código con IA sensible al contexto para controladores lógicos programables ($4M seed, con Ocean Azul dentro), e Itopia, automatización de escritorios, apps y servidores sobre Google Cloud, es decir, infraestructura para desarrolladores. A esto se suma MarkeTeam.ai, descrita como 'autonomous AI marketing team, powered by a proprietary large language model' y liderada por Ocean Azul en enero de 2025: es exactamente la tesis de agentes autónomos aplicados al trabajo. Y en marzo de 2026 el fondo co-lideró la Serie A de $10M de memQ, una compañía de hardware y software de redes cuánticas, prueba de que sí escriben cheques a tecnología profunda sin métricas de uso. El discurso de la firma sobre moat por propiedad intelectual o diferenciación encaja con una startup que apuesta por ventaja técnica antes que por tracción.",
-    "tesis_de_inversion": "Ocean Azul Partners invierte en etapa temprana (Seed y Serie A) en software B2B empresarial y deep tech, con la condición de que la compañía apunte a Estados Unidos como mercado principal. La firma se define por ayudar a compañías no estadounidenses —sobre todo israelíes y latinoamericanas— a entrar al mercado de EE.UU., y reserva cubos específicos: ~20% para compañías israelíes y ~5% para empresas del sur de Florida que de otro modo no cumplirían criterios (~27% de la cartera total es del sur de Florida). Sectores declarados: FinTech, AgriTech, IoT, ciberseguridad, automatización cloud, AutoTech, salud digital, EdTech, VR/AR, logística y energía. Evitan explícitamente bienes de consumo empaquetados. En el Q&A de Refresh Miami, el socio David Zinn resume el filtro: 'We invest in people', y buscan defensibilidad o moat competitivo, 'whether through intellectual property or differentiation'. La aportación específica de Lisette es el eje técnico y de frontera: en su perfil de Venture Forward declara invertir en 'deep/frontier tech companies' y en 'areas of the US that have traditionally less access to venture capital, including South Florida'. Refresh Miami señala que la estrategia deep tech del fondo está influida directamente por la formación en el MIT de Alex y Lisette Tellez.",
-    "etapa_y_ticket": [
-      "Seed y Serie A. Cheques de $200K a $2M según la ficha de la firma y vcsheet; el Q&A de Refresh Miami con David Zinn amplía el rango a $200K-$3M con un 'sweet spot' de ~$1M (NFX Signal calcula $1.1M). Reservan capital para follow-ons, evaluados por desempeño y no de forma automática. Ocean Azul toma asiento de board u observador en TODAS sus participadas."
-    ]
+    }
   }
 }

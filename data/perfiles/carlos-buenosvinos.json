@@ -105,10 +105,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Foco ángel declarado en 'B2B SaaS, developer tools' con 'Agents, AI' como primer interés, email de dominio propio y credibilidad técnica máxima (autor de DDD in PHP, 4 veces CTO/CPO); pero no decide en Encomenda, trabaja a tiempo completo en IFCO y su ticket personal es pequeño y no publicado.",
     "puntuacion": {
       "tesis": 20,
       "etapa": 12,
@@ -120,21 +119,6 @@
       "bruto": 68,
       "topes": [],
       "total": 68
-    },
-    "motivo": "Foco ángel declarado en 'B2B SaaS, developer tools' con 'Agents, AI' como primer interés, email de dominio propio y credibilidad técnica máxima (autor de DDD in PHP, 4 veces CTO/CPO); pero no decide en Encomenda, trabaja a tiempo completo en IFCO y su ticket personal es pequeño y no publicado.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "Ángel con foco declarado en developer tools y agentes, email público, campeón técnico creíble; no decide en Encomenda, empleo a tiempo completo en IFCO y ticket personal no publicado."
-  },
-  "nombre_original": "Carlos Buenosvinos",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el perfil de la lista con mayor credibilidad tecnica pura ante un equipo de ingenieria: autor de dos libros de arquitectura de software, mantenedor de un proyecto open source usado en produccion por miles de equipos, y CTO/CPO cuatro veces. Su foco angel declarado es literalmente 'B2B SaaS, developer tools and supply chain', y sus intereses declarados empiezan por 'Agents, AI, Automatization'. Para una startup que construye un harness de desarrollo con nube de agentes, es el tipo de inversor que puede validar la arquitectura en una llamada y despues abrir la puerta a Encomenda (pre-seed y seed, 100-500K EUR con seguimiento hasta 2-3M) y a la red de Carlos Blanco y Nuclio en Barcelona. Su email personal esta publicado y es de dominio propio: es contactable en frio sin intro. Angulo de contacto: en espanol, tecnico y sin deck - un writeup de arquitectura, la comparacion con las decisiones de diseno que el defiende (DDD, CQRS, despliegues reproducibles) y una invitacion a probar el harness. Ademas es una via natural para dar una charla en DevOps Barcelona o PHP Barcelona.",
-    "tesis_de_inversion": "Su foco como angel esta declarado explicitamente en su web personal: invierte en \"B2B SaaS, developer tools, and supply chain technology\", y asesora a fundadores en estrategia tecnologica, diseno organizativo y escalado de equipos de ingenieria. En Encomenda su area asignada es 'AI & Telecom'. Sus intereses profesionales, tal como los lista el mismo, son \"Agents, AI, Automatization\", organizaciones de alto rendimiento, gestion de datos, arquitectura de software y startups: es decir, ha puesto los agentes de IA en primer lugar de su propia lista de intereses. La tesis de Encomenda, el vehiculo desde el que canaliza parte de sus operaciones, es de alta conviccion en personas: \"Early Stage Venture Capital is about exceptional people. We make high conviction investments in technology-driven pre-seed and seed founders\", con foco en companias de origen espanol y ambicion internacional, gestion liderada por emprendedores y decisiones rapidas. Encomenda es sector-agnostico y su cartera reciente se concentra en IA aplicada (VoiceB.ai, Eleva AI, Metly, Uxia) y SaaS B2B. Su filosofia personal declarada -\"build the right thing right\" y \"strong opinions, loosely held\"- y su obra escrita sobre Domain-Driven Design y CQRS indican que evalua calidad de arquitectura y disciplina de ingenieria antes que metricas comerciales.",
-    "etapa_y_ticket": [
-      "Como Venture Partner de Encomenda: pre-seed y seed, con ticket inicial del fondo de 100.000-500.000 EUR y seguimiento de hasta 2-3M EUR por compania (Encomenda Seed 2; https://encomenda.com/funds/). Como angel a titulo personal: ticket NO publicado (no confirmado); por el perfil y las operaciones conocidas cabe esperar cheques de angel individual (orden de 10.000-50.000 EUR), pero no hay fuente que lo confirme. Encomenda es sector-agnostico, principalmente Espana, con 3 fondos seed y mas de 40 participadas activas."
-    ]
+    }
   }
 }

@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { ErrorDatos, cargarPerfil } from "../lib/datos";
-import type { Inversor, Puntuacion } from "../types/inversor";
+import { CRITERIO, type Inversor, type Puntuacion } from "../types/inversor";
 import { Etiqueta, Nivel, claseBanda } from "./ListaInversores";
 
 interface Props {
@@ -190,8 +190,11 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
       </div>
 
       <Seccion titulo={`Nivel ${p.nivel}: motivo y desglose`}>
-        <p>{p.auditoria.motivo}</p>
+        <p>{p.auditoria.estado === "pendiente" ? "Auditoría pendiente: este perfil todavía no fue revisado ni puntuado." : p.auditoria.motivo}</p>
         <Desglose p={p.auditoria.puntuacion} />
+        <p className="tenue pequeno" title={CRITERIO}>
+          Revisado el {p.auditoria.fecha}. Rúbrica: tesis 25, etapa 20, decisión 20, español 15, acceso 15, otros aspectos -15/+5; bandas Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado &lt;45.
+        </p>
       </Seccion>
       <Seccion titulo="Por qué es interesante">
         <Lista items={p.por_que_es_interesante} />
@@ -222,13 +225,6 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
       </Seccion>
       <Seccion titulo={`Fuentes (${p.fuentes.length})`} abierta={false}>
         <Lista items={p.fuentes} />
-      </Seccion>
-      <Seccion titulo="Auditoría anterior (v1)" abierta={false}>
-        <p className="tenue pequeno">
-          Nivel v1: {p.auditoria.nivel_v1} · prioridad del agente {p.auditoria.prioridad_agente}, v1 {p.auditoria.prioridad_v1} · confianza del agente{" "}
-          {p.auditoria.confianza_agente}. Auditado el {p.auditoria.fecha}.
-        </p>
-        <p className="tenue">{p.auditoria.motivo_v1}</p>
       </Seccion>
       <Seccion titulo="Fuente de vías de contacto" abierta={false}>
         <h4 className="sub">Email</h4>

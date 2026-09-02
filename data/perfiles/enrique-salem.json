@@ -108,10 +108,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Mandato literal 'early-stage infrastructure software', cartera exacta (Modal, Astronomer, Cogent, Straiker), invirtió en Cogent 'pre-founding', creció hablando español y publica su email. Reservas: especialización en ciberseguridad y punto dulce de cheque alto; BCV lidera seeds, pero su cheque natural es Serie A.",
     "puntuacion": {
       "tesis": 24,
       "etapa": 14,
@@ -123,21 +122,6 @@
       "bruto": 86,
       "topes": [],
       "total": 86
-    },
-    "motivo": "Mandato literal 'early-stage infrastructure software', cartera exacta (Modal, Astronomer, Cogent, Straiker), invirtió en Cogent 'pre-founding', creció hablando español y publica su email. Reservas: especialización en ciberseguridad y punto dulce de cheque alto; BCV lidera seeds, pero su cheque natural es Serie A.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Mandato literal 'early-stage infrastructure software'; Modal y Astronomer en cartera; invirtió en Cogent 'pre-founding'; nacido en Barranquilla, español confirmado; email público. Reserva: especialización ciber y punto dulce de cheque alto (BCV cubre seed, él personalmente A/B)."
-  },
-  "nombre_original": "Enrique Salem",
-  "textos_v1": {
-    "por_que_es_interesante": "Es probablemente el inversor hispanohablante mejor posicionado de EE.UU. para una startup de infraestructura de software IA-nativa: su mandato literal es 'early-stage infrastructure software' y su cartera actual (Modal, cómputo serverless para IA; Astronomer, orquestación de datos con Airflow; Cogent, agentes autónomos; Straiker, seguridad de IA; Adaptive; Dream) es exactamente la capa donde vive el cliente. Hay evidencia dura de que invierte antes de la tracción: sobre Cogent dijo 'We've known him from pre-founding the company', es decir, hizo seguimiento del fundador antes de que existiera la empresa. Revisa entre 400 y 500 pitches de seguridad con IA al año, así que rechaza el ruido y premia la especificidad técnica. Ángulo de contacto: escribirle en español (creció hablándolo en casa), abrir por el problema y no por la tecnología (es su criterio explícito), y encuadrar el stack IA-nativo dentro de su marco de las 'tres íes' —sobre todo 'inexpensive': cuantificar el ahorro de cómputo/latencia frente al stack actual. El harness de agentes se le puede presentar como infraestructura para que los agentes de seguridad y de datos sean fiables, que es su obsesión declarada.",
-    "tesis_de_inversion": "Salem invierte en software de infraestructura en etapa temprana, con especialización declarada en ciberseguridad. Su frase en la web de BCV resume el marco: 'Infrastructure software is quite literally the backbone of every business in every sector' y 'Every company is a software company, and it is endlessly exciting to invest in innovative software technologies'. Sobre equipos: 'Look for great people and expect exceptional results. It sounds simple, but it's actually a challenge to find brilliant and committed founders who also have the operational chops to deliver on their vision'. En IA es abiertamente maximalista: 'There isn't anything that we're going to be working on for the next 20 to 30 years that isn't going to be meaningfully impacted by AI' (vídeo de tesis inversora publicado por Straiker). Su ensayo 'AI Agents are Armed for Battle' (BCV, 28-abr-2025) plantea el marco de las 'tres íes': lo que financia debe ser invisible (no rompe el flujo de trabajo), invencible (aguanta la superficie de ataque ampliada) e inexpensive (se paga sola en eficiencia operativa). Y explícitamente pregunta: 'Can we build better software and infrastructure to brace for the generative AI era?'. Prefiere fundadores que empiezan por el problema y no por la tecnología: sobre la Series A de Cogent dijo que lo que le convenció fue que el fundador dijera 'let me explain the problem. What am I solving? And why does it matter?'.",
-    "etapa_y_ticket": [
-      "Etapa temprana con continuidad hasta growth. La web de BCV dice literalmente que invierte en 'early-stage infrastructure software companies with a specialization in cybersecurity'. Signal NFX reporta seed a Series C con rango de 1M-100M USD y sweet spot de 25M USD; VC Sheet reporta un rango más amplio de 100K a 100M USD en seed, Series A y Series B+. En la práctica lidera semillas (Prophet Security, 11M USD, abril 2024) y Series A (Cogent Security, 42M USD, febrero 2026). BCV gestiona vehículos separados de seed y de growth, así que el ticket es flexible; lo importante es que sí lidera cheques pequeños de semilla en infraestructura y seguridad."
-    ]
+    }
   }
 }

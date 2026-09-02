@@ -97,10 +97,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Escribe cheques de pre-seed reales desde a16z (Dentio 2,3M, Carecode 4M) y dirige Borderless Founders, una invitación abierta a fundadores internacionales; pero su vertical es IA aplicada (salud, fintech, ventas), no infraestructura ni dev tools, y no hay ninguna fuente sobre su origen ni su español.",
     "puntuacion": {
       "tesis": 10,
       "etapa": 18,
@@ -112,21 +111,6 @@
       "bruto": 59,
       "topes": [],
       "total": 59
-    },
-    "motivo": "Escribe cheques de pre-seed reales desde a16z (Dentio 2,3M, Carecode 4M) y dirige Borderless Founders, una invitación abierta a fundadores internacionales; pero su vertical es IA aplicada (salud, fintech, ventas), no infraestructura ni dev tools, y no hay ninguna fuente sobre su origen ni su español.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Lidera pre-seeds de 2-4M fuera de EE.UU. y dirige Borderless Founders, pero su vertical es IA aplicada (salud, fintech), no infra ni dev tools; origen y español sin ninguna fuente. Sólo como puerta indirecta a a16z."
-  },
-  "nombre_original": "Gabriel Vasquez",
-  "textos_v1": {
-    "por_que_es_interesante": "Es, de toda la lista, el socio con el mandato más literalmente diseñado para esta startup: su trabajo consiste en encontrar equipos técnicos fuera del circuito de Silicon Valley y meterlos en a16z, y escribe cheques de pre-seed de verdad (Dentio, 2,3M USD, pre-seed; Carecode, 4M USD, pre-seed). Su ensayo “Rise of the Borderless Founder” es una invitación explícita y abierta a que fundadores como este equipo le escriban, y la red de cenas que codirige es una puerta de entrada real, no un programa de marketing. Ya ha invertido en un equipo con base parcial en España (Supersonik, San Francisco y Barcelona, seed de 5M USD en septiembre de 2025, agente de IA que hace demos de producto B2B). Su reserva: su vertical es IA aplicada, no infraestructura ni herramientas de desarrollo, que en a16z corresponde a otros socios. Ángulo de contacto: presentarse explícitamente como Borderless Founders, con el foso construido sobre el equipo de ingeniería hispanohablante, y pedirle que canalice la parte de infraestructura a la práctica correspondiente de la casa.",
-    "tesis_de_inversion": "Invierte en IA aplicada (AI apps) y dirige la estrategia global de a16z, con el objetivo declarado de “build a bridge between the United States and the world’s best founders, operators, and technologists — and partner with them to win globally”. Su tesis más articulada está en el ensayo “Rise of the Borderless Founder” (a16z, 20 de agosto de 2026, coescrito con Angela Strange): sostiene que los fundadores internacionales que mantienen redes simultáneas en su país de origen y en Silicon Valley tienen ventaja competitiva estructural, y que su origen no es un obstáculo sino un foso: “Your background is your moat”. Desglosa tres ventajas concretas: clientes (acceso temprano a grandes empresas y design partners vía red del país de origen), marca (el reconocimiento en el mercado doméstico genera impulso internacional) y talento (identificar a los mejores ingenieros antes de que el mercado global los descubra). En cartera se ve el patrón: apuesta por productos IA-nativos que sustituyen trabajo humano especializado —agentes clínicos, agentes de venta, agentes administrativos— en mercados donde la escasez del recurso humano es aguda. Invierte muy pronto: dos de sus cuatro operaciones documentadas son pre-seed.",
-    "etapa_y_ticket": [
-      "Pre-seed, seed y Serie A. Signal NFX le atribuye un rango de 500.000 a 40.000.000 USD con punto dulce de 20M USD y fondo de referencia de 2.200M USD (https://signal.nfx.com/investors/gabriel-vasquez), pero sus operaciones reales documentadas van desde 2M USD de pre-seed (Dentio, enero-febrero 2026) y 4M USD de pre-seed (Carecode, diciembre 2024) hasta 33M USD de Serie A (Telepatia, junio 2026). Es decir: escribe de verdad cheques de pre-seed, lo que es inusual para un partner de a16z."
-    ]
+    }
   }
 }

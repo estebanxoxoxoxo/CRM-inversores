@@ -20,6 +20,7 @@ const CLASE_BANDA: Record<Banda, string> = {
   "Alto potencial": "banda-2",
   Reserva: "banda-3",
   Descartado: "banda-4",
+  "Sin auditar": "banda-0",
 };
 
 export function Nivel({ nivel, banda, grande = false }: { nivel: number; banda: Banda; grande?: boolean }) {

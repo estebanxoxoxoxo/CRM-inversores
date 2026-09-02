@@ -109,10 +109,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Crane invierte desde 'inception' en infraestructura fundacional y dev tools (Qovery, Encord, Laminar) y ella es ingeniera barcelonesa que ya escribe sobre gobernanza y observabilidad de agentes; pero su título es 'Investor', no decide, el Fondo III no está confirmado y está fuera de región.",
     "puntuacion": {
       "tesis": 23,
       "etapa": 17,
@@ -124,21 +123,6 @@
       "bruto": 68,
       "topes": [],
       "total": 68
-    },
-    "motivo": "Crane invierte desde 'inception' en infraestructura fundacional y dev tools (Qovery, Encord, Laminar) y ella es ingeniera barcelonesa que ya escribe sobre gobernanza y observabilidad de agentes; pero su título es 'Investor', no decide, el Fondo III no está confirmado y está fuera de región.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Crane invierte desde inception en infraestructura digital (Qovery, Encord); ella es 'Investor', no decide; español/catalán de Barcelona. Puerta única a Crane; fuera de región."
-  },
-  "nombre_original": "Anna Cachadiña Abelló",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el perfil con mayor afinidad personal y temática de todo el lote: ingeniera de software real (Goldman Sachs), catalanoparlante y castellanoparlante nativa de Barcelona, dentro de un fondo cuyo mandato literal es infraestructura fundacional, dev tools y open source desde 'inception'. Su artículo publicado demuestra que ya piensa en el problema del cliente desde el lado del comprador empresarial: quién controla, gobierna y observa la IA dentro de la organización, y por qué la integración con el stack de datos existente es el cuello de botella. El portfolio confirma cheques reales en la categoría: Qovery (Crane lideró su semilla de 4M USD en 2021, automatización de DevOps), Encord (infraestructura de datos AI-native, en cartera desde antes de su Serie C de 60M USD en febrero de 2026) y Laminar (observabilidad y depuración de agentes de IA), que figura en el portfolio de la home de Crane. Ángulo de contacto: escribirle en español o catalán, con un mensaje técnico y sin métricas de vanidad, conectando el harness de agentes con la tesis de su artículo (gobernanza y observabilidad de agentes en empresa). Es una excelente campeona interna, aunque no la firmante final del cheque.",
-    "tesis_de_inversion": "Anna trabaja dentro del mandato de Crane, un fondo que invierte desde la concepción hasta semilla en 'foundational technologies': SaaS empresarial, open source, datos, machine learning, infraestructura y developer tools, con extensiones a ciberseguridad y seguridad post-cuántica. El lema del fondo, 'First to believe. Last to leave.', y su descripción de respaldar 'outlier founders everywhere, from inception to seed' apuntan a apetito por riesgo técnico temprano. Su propio pensamiento escrito se centra en la capa de gobernanza e infraestructura de la IA empresarial: en su artículo 'The AI Wild West: Who's Really in Charge of Enterprise AI?' (RTInsights) argumenta que las empresas carecen de liderazgo unificado sobre IA — cita que el 70% de las organizaciones encuestadas no tienen un único responsable con visión completa de sus proyectos de IA — y que la autoridad se dispersa entre CTOs, CISOs, product managers y equipos de datos sin rendición de cuentas clara. Señala la paradoja de que el 100% de los encuestados cree que la IA transformará el software empresarial en 3-5 años mientras solo el 10% ha integrado operaciones de IA, y detecta como frenos la seguridad y el cumplimiento (41,7%), la calidad del dato (46,7%) y la integración con el stack de datos empresarial (38,3%). Es una tesis de capa de control, observabilidad e integración: exactamente el terreno de un harness de agentes.",
-    "etapa_y_ticket": [
-      "Crane invierte desde 'inception' hasta semilla ('from inception to seed', lema del fondo: 'First to believe. Last to leave.'). Primeros cheques de 750.000-3.000.000 USD con reservas de seguimiento hasta Serie B. Fondo II de 140M USD (mayo 2022), tras un Fondo I de 90M USD (2019). NOTA: no se ha confirmado un fondo III ni el tamaño del vehículo vigente en 2026 — dato no confirmado. Los tickets citados corresponden al Fondo II."
-    ]
+    }
   }
 }

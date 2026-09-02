@@ -113,10 +113,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Ha invertido tres veces en la tesis exacta del cliente (Airflows, TuringDream, TandemTrace) en seed y pre-seed desde Madrid, con criterio publicado de 'pioneer before market validation'. Reservas: sólo buzón general, y posible solapamiento con Airflows/TuringDream.",
     "puntuacion": {
       "tesis": 24,
       "etapa": 17,
@@ -128,21 +127,6 @@
       "bruto": 86,
       "topes": [],
       "total": 86
-    },
-    "motivo": "Ha invertido tres veces en la tesis exacta del cliente (Airflows, TuringDream, TandemTrace) en seed y pre-seed desde Madrid, con criterio publicado de 'pioneer before market validation'. Reservas: sólo buzón general, y posible solapamiento con Airflows/TuringDream.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Adara: Airflows y TuringDream (IA determinista y orquestación multiagente), criterio publicado de invertir antes de validación de mercado, seed/pre-seed, español nativo, activo 2026."
-  },
-  "nombre_original": "Alberto Gómez",
-  "textos_v1": {
-    "por_que_es_interesante": "Es probablemente el encaje más literal de toda la lista española. En marzo de 2026 firmó personalmente la entrada de Adara en Airflows —una plataforma que 'turns AI into deterministic, auditable software systems for the enterprise'— liderando una ronda de 2 M€. En julio de 2025 firmó la entrada en TandemTrace (agentes de IA para SecOps) escribiendo que 'AI agents will play a crucial role as co-defenders'. Y Adara respaldó en 2025 a TuringDream (6 M€ seed, Madrid) porque 'the next wave of enterprise software will run on multi-agent systems'. Es decir: ya ha invertido tres veces en la tesis exacta del cliente (stack de software IA-nativo + orquestación de agentes), en rondas seed y pre-seed, en español y desde Madrid. Su fondo declara explícitamente que respalda 'courage: willingness to pioneer before market validation', lo que desactiva la objeción de 'no tenemos usuarios'. El ángulo de contacto: no vender tracción, vender arquitectura —por qué el stack IA-nativo es determinista/auditable y por qué el harness de agentes es infraestructura, no una demo. Referencia obligada a Airflows y TuringDream.",
-    "tesis_de_inversion": "Invierte en deep tech B2B europeo en etapa temprana desde una tesis explícitamente 'post-IA': Adara sostiene que 'as AI commoditises the surface layer of software, value sinks below to the proprietary data, trust, domain depth and physical systems'. Organiza su cartera en cuatro dominios: Capture (nuevas fronteras de datos y sensórica), Secure (infraestructura de IA fiable), Compute (computación de dominio profundo) y Connect (sistemas del mundo real). Lo que busca en un equipo lo enumera el propio fondo: Big Vision, Execution ('shipping y contratar/despedir rápido'), Technical Conviction ('decisiones de arquitectura deliberadas que crean ventaja estructural') y Courage, definido literalmente como la 'willingness to pioneer before market validation'. Gómez añade su propio filtro: busca fundadores con 'extreme hunger, resourcefulness, and the ambition to compete globally'. Rechaza la obsesión por los unicornios: 'In a sector obsessed with unicorns, our philosophy has always been to maximise dragons—companies that return the entire fund'. En 2026 escribe que 'the next generation of enterprise application development will be defined by platforms that bridge the gap between AI-driven speed and the governance enterprises cannot compromise on' y que 'prototypes are easy; production systems are not'. Es decir: le interesa el software de IA que se comporta como software de verdad —determinista, auditable, gobernable.",
-    "etapa_y_ticket": [
-      "Seed a growth, con el grueso de la actividad en pre-seed/seed y Serie A. La web del fondo declara ticket inicial de 500.000 € a 5 M€ (adara.vc: 'seed to growth (€500k–€5m)'). Private Equity List recoge cheques medios de 1-5 M USD, hasta 2,5 M€ iniciales en digital y hasta 5 M€ en el vertical de energía. Signal NFX le atribuye rango 500k$-5M$ con sweet spot ~4 M$. Adara co-lidera y lidera rondas seed con frecuencia (TandemTrace, Adcities, Airflows, Wodan)."
-    ]
+    }
   }
 }

@@ -1,41 +1,33 @@
 /**
- * Tipo canónico de un perfil de inversor (versión 2, auditoría numérica).
- *
- * Única definición del tipo: el esquema zod valida en runtime (scripts y lectura desde Firestore) y el tipo
+ * Tipo canónico de un perfil de inversor. Única fuente de verdad: data/perfiles/<id>.json, que se sube tal cual a
+ * Firestore (inversores/{id}). El esquema zod valida en runtime (scripts y lectura desde Firestore) y el tipo
  * TypeScript se infiere de él.
  *
- * Convenciones:
- * - `id` es el slug y el id del documento en Firestore.
- * - `nivel` es una puntuación 0-100 asignada en la auditoría manual con la rúbrica de `auditoria.puntuacion`
- *   (tesis 25, etapa 20, decisión y capital 20, español 15, acceso y actividad 15, otros aspectos -15/+5, más topes).
- *   `banda` se deriva de `nivel`: Indiscutible >= 78, Alto potencial 60-77, Reserva 45-59, Descartado < 45.
- * - `prioridad` se deriva de `nivel` (A >= 78, B >= 60, C resto); `confianza` califica las fuentes, no el encaje.
- * - Los campos de síntesis (`por_que_es_interesante`, `tesis_de_inversion`, `etapa_y_ticket`) y las listas
- *   (inversiones, señales, riesgos, cómo llegar, fuentes) son SIEMPRE arrays de strings; `antecedentes` e
- *   `investigacion_larga` son párrafos.
- * - `fuente_vias_de_contacto` documenta de dónde sale cada vía de contacto (email, LinkedIn, otras) como listas
- *   de notas cortas; se muestra al final de la ficha. Los datos de contacto en sí van en `email`, `email_estado`
- *   y `linkedin`.
+ * - `auditoria` vive dentro del perfil y es lo que se edita a mano: motivo, puntuación por dimensiones y motivo de
+ *   "otros aspectos". Lo derivado (`puntuacion.bruto`, `topes`, `total`, y `nivel`, `banda`, `prioridad` en la raíz)
+ *   lo recalcula `npm run recalcular` a partir de esas entradas; no se edita.
+ * - `nivel` es 0-100. `banda` se deriva: Indiscutible >= 78, Alto potencial 60-77, Reserva 45-59, Descartado < 45;
+ *   "Sin auditar" mientras `auditoria.estado` sea "pendiente". `prioridad` A/B/C se deriva del nivel.
+ * - `confianza` califica las fuentes, no el encaje.
+ * - Síntesis (`por_que_es_interesante`, `tesis_de_inversion`, `etapa_y_ticket`) y listas son arrays de strings;
+ *   `antecedentes` e `investigacion_larga` son párrafos.
+ * - `fuente_vias_de_contacto` documenta la procedencia de email, LinkedIn y otras vías; se muestra al final de la ficha.
  */
 import { z } from "zod";
 
-export const BANDAS = ["Indiscutible", "Alto potencial", "Reserva", "Descartado"] as const;
+export const CRITERIO =
+  "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), " +
+  "español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5) con motivo obligatorio. " +
+  "Topes: tesis < 6 → máx. 45; tesis < 10 → máx. 55; decisión ≤ 8 (no firma cheque) → máx. 69; " +
+  "etapa ≤ 7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥ 78, Alto potencial 60-77, Reserva 45-59, " +
+  "Descartado < 45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados; " +
+  "cada ficha se redacta en términos absolutos, sin comparaciones con otros perfiles.";
+
+export const BANDAS = ["Indiscutible", "Alto potencial", "Reserva", "Descartado", "Sin auditar"] as const;
 export const BandaSchema = z.enum(BANDAS);
 export const UMBRALES = { Indiscutible: 78, "Alto potencial": 60, Reserva: 45 } as const;
 
-export function bandaDe(nivel: number): Banda {
-  if (nivel >= UMBRALES.Indiscutible) return "Indiscutible";
-  if (nivel >= UMBRALES["Alto potencial"]) return "Alto potencial";
-  if (nivel >= UMBRALES.Reserva) return "Reserva";
-  return "Descartado";
-}
-
-export function prioridadDe(nivel: number): Prioridad {
-  if (nivel >= UMBRALES.Indiscutible) return "A";
-  if (nivel >= UMBRALES["Alto potencial"]) return "B";
-  return "C";
-}
-
+export const EstadoAuditoriaSchema = z.enum(["revisado", "pendiente"]);
 export const PrioridadSchema = z.enum(["A", "B", "C"]);
 export const ConfianzaSchema = z.enum(["alta", "media", "baja"]);
 export const RegionSchema = z.enum(["EE.UU. (hispanohablante)", "España", "México", "Fuera de región (excepcional)"]);
@@ -48,8 +40,8 @@ export const EmailEstadoSchema = z.enum([
   "no encontrado",
 ]);
 
-/** Desglose de la puntuación 0-100. Los máximos por dimensión son 25/20/20/15/15; 'otros aspectos' va de -15 a +5. */
-export const PuntuacionSchema = z.object({
+/** Entradas editables de la puntuación. Máximos: 25/20/20/15/15; otros aspectos de -15 a +5 con motivo si no es 0. */
+export const PuntuacionEntradaSchema = z.object({
   tesis: z.number().int().min(0).max(25),
   etapa: z.number().int().min(0).max(20),
   decision: z.number().int().min(0).max(20),
@@ -57,33 +49,64 @@ export const PuntuacionSchema = z.object({
   acceso: z.number().int().min(0).max(15),
   otros_aspectos: z.number().int().min(-15).max(5),
   otros_aspectos_motivo: z.string(),
+});
+export type PuntuacionEntrada = z.infer<typeof PuntuacionEntradaSchema>;
+
+/** Puntuación completa: entradas más lo derivado por `calcularPuntuacion`. */
+export const PuntuacionSchema = PuntuacionEntradaSchema.extend({
   bruto: z.number().int(),
   topes: z.array(z.string()),
   total: z.number().int().min(0).max(100),
 });
 export type Puntuacion = z.infer<typeof PuntuacionSchema>;
 
+export function calcularPuntuacion(p: PuntuacionEntrada): Puntuacion {
+  const bruto = p.tesis + p.etapa + p.decision + p.espanol + p.acceso + p.otros_aspectos;
+  const topes: string[] = [];
+  let total = bruto;
+  const tope = (cond: boolean, max: number, etiqueta: string) => {
+    if (cond && total > max) {
+      total = max;
+      topes.push(etiqueta);
+    }
+  };
+  tope(p.tesis < 6, 45, "tesis < 6 → máx. 45");
+  tope(p.tesis < 10, 55, "tesis < 10 → máx. 55");
+  tope(p.decision <= 8, 69, "no firma cheque → máx. 69");
+  tope(p.etapa <= 7, 64, "Serie A o exige tracción → máx. 64");
+  total = Math.max(0, Math.min(100, Math.round(total)));
+  return { ...p, bruto, topes, total };
+}
+
+export function bandaDe(nivel: number, estado: EstadoAuditoria): Banda {
+  if (estado !== "revisado") return "Sin auditar";
+  if (nivel >= UMBRALES.Indiscutible) return "Indiscutible";
+  if (nivel >= UMBRALES["Alto potencial"]) return "Alto potencial";
+  if (nivel >= UMBRALES.Reserva) return "Reserva";
+  return "Descartado";
+}
+
+export function prioridadDe(nivel: number, estado: EstadoAuditoria): Prioridad {
+  if (estado !== "revisado") return "C";
+  if (nivel >= UMBRALES.Indiscutible) return "A";
+  if (nivel >= UMBRALES["Alto potencial"]) return "B";
+  return "C";
+}
+
+export const AuditoriaSchema = z.object({
+  estado: EstadoAuditoriaSchema,
+  /** Fecha (AAAA-MM-DD) de la última revisión manual. */
+  fecha: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  /** Por qué tiene el nivel que tiene: encaje y reservas, en términos absolutos. */
+  motivo: z.string(),
+  puntuacion: PuntuacionSchema,
+});
+
 /** Procedencia de las vías de contacto: notas cortas (texto o URL) por canal. */
 export const FuenteViasDeContactoSchema = z.object({
   email: z.array(z.string()),
   linkedin: z.array(z.string()),
   otras: z.array(z.string()),
-});
-export type FuenteViasDeContacto = z.infer<typeof FuenteViasDeContactoSchema>;
-
-export const AuditoriaSchema = z.object({
-  version: z.literal(2),
-  fecha: z.string(),
-  auditor: z.string(),
-  criterio: z.string(),
-  puntuacion: PuntuacionSchema,
-  motivo: z.string(),
-  nivel_v1: z.string(),
-  prioridad_agente: PrioridadSchema,
-  confianza_agente: ConfianzaSchema,
-  prioridad_v1: PrioridadSchema,
-  confianza_final: ConfianzaSchema,
-  motivo_v1: z.string(),
 });
 
 export const InversorSchema = z.object({
@@ -116,24 +139,18 @@ export const InversorSchema = z.object({
   fuentes: z.array(z.string()),
   fuente_vias_de_contacto: FuenteViasDeContactoSchema,
   auditoria: AuditoriaSchema,
-  nombre_original: z.string(),
-  textos_v1: z
-    .object({
-      por_que_es_interesante: z.string(),
-      tesis_de_inversion: z.string(),
-      etapa_y_ticket: z.array(z.string()),
-    })
-    .optional(),
 });
 
 export type Inversor = z.infer<typeof InversorSchema>;
 export type Banda = z.infer<typeof BandaSchema>;
+export type EstadoAuditoria = z.infer<typeof EstadoAuditoriaSchema>;
 export type Prioridad = z.infer<typeof PrioridadSchema>;
 export type Confianza = z.infer<typeof ConfianzaSchema>;
 export type Region = z.infer<typeof RegionSchema>;
 export type TipoInversor = z.infer<typeof TipoInversorSchema>;
 export type EmailEstado = z.infer<typeof EmailEstadoSchema>;
 export type Auditoria = z.infer<typeof AuditoriaSchema>;
+export type FuenteViasDeContacto = z.infer<typeof FuenteViasDeContactoSchema>;
 
 /** Resumen ligero para listados y filtros (`meta/indice` en Firestore y `data/indice.json`). */
 export const InversorResumenSchema = InversorSchema.pick({
@@ -161,7 +178,6 @@ export type InversorResumen = z.infer<typeof InversorResumenSchema>;
 
 export const IndiceSchema = z.object({
   generado: z.string(),
-  version: z.literal(2),
   total: z.number().int().nonnegative(),
   perfiles: z.array(InversorResumenSchema),
 });

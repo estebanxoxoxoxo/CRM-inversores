@@ -107,10 +107,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Lidera desde pre-seed y tiene un precedente dev-adjacent (Wabbi), pero su tesis es modernizar sectores regulados, es escéptico público del hype de IA, el Fund III va por debajo de objetivo y no hay evidencia de español.",
     "puntuacion": {
       "tesis": 7,
       "etapa": 15,
@@ -122,21 +121,6 @@
       "bruto": 46,
       "topes": [],
       "total": 46
-    },
-    "motivo": "Lidera desde pre-seed y tiene un precedente dev-adjacent (Wabbi), pero su tesis es modernizar sectores regulados, es escéptico público del hype de IA, el Fund III va por debajo de objetivo y no hay evidencia de español.",
-    "nivel_v1": "r",
-    "prioridad_agente": "C",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Tesis de modernización de sectores regulados; único precedente dev-adjacent (Wabbi); escéptico público del hype de IA; origen/español no confirmados."
-  },
-  "nombre_original": "Adrian Mendoza",
-  "textos_v1": {
-    "por_que_es_interesante": "Es un GP latino que lidera rondas desde pre-seed, con ciberseguridad e IA como verticales centrales y con una inversión que demuestra apetito por herramientas para equipos de desarrollo: lideró en noviembre de 2021 la seed de más de 2M USD de Wabbi, plataforma de seguridad continua que convierte la seguridad de aplicaciones “de cuello de botella en ventaja estratégica” integrándose en el ciclo de desarrollo; fue el mayor cheque del fondo hasta esa fecha. Su cartera es de solo 12-15 empresas por fondo con contacto semanal, lo que significa que un fundador entra en una relación real y no en una lista. Tiene además un buzón de socios público y una superficie mediática amplia (CNBC, American Banker) que lo hace localizable y contactable. Ángulo de contacto: entrar por la puerta de ciberseguridad y gobernanza de agentes —trazabilidad, privilegios, retención cero de datos, riesgo regulatorio— que es donde él aporta valor y donde tiene precedente (Wabbi), y no por la puerta de “stack 90% mejor”, que chocará con su escepticismo declarado sobre el hype.",
-    "tesis_de_inversion": "Mendoza Ventures invierte en “technology companies where there is an opportunity for innovation, modernization, and disruption” en servicios financieros, seguros, manufactura y empresas dual-use, con tres verticales declaradas: IA, ciberseguridad y fintech. El criterio de selección de fundadores es explícito y doble: experiencia de dominio en esos sectores y diversidad. El modelo de cartera es de alta convicción y muy concentrado —12 a 15 empresas por fondo, con implicación semanal del inversor—, y el fondo se apoya en un consejo asesor con perfiles de Neuberger Berman, el estado de Nueva York, CyberArk y Goldman Sachs, además de su propia experiencia operativa. La aportación diferencial que declaran es “operator experience and immigrant perspectives to help founders with go-to-market strategy and AI risk guidance”: acompañan sobre todo en salida al mercado y en riesgo regulatorio de la IA, que es exactamente lo que necesita una empresa que vende IA a bancos y aseguradoras. Su postura pública sobre IA es pragmática y algo escéptica: en CNBC Power Lunch (3 de noviembre de 2025) afirmó que “estamos en un segundo ciclo de hype de la IA” (AI Hype 2.0) y que “data is the new currency”, subrayando la importancia de las fuentes de datos con las que se entrenan los modelos.",
-    "etapa_y_ticket": [
-      "Pre-seed, seed, Serie A y algo de Serie B; lidera rondas. VC Sheet cifra el cheque medio en 500.000-5.000.000 USD (https://www.vcsheet.com/fund/mendoza-ventures); Signal NFX indica 250.000-5.000.000 USD con punto dulce de 3M USD (https://signal.nfx.com/investors/adrian-mendoza). Fondo vigente: Fund III, con objetivo declarado de 100M USD; el primer cierre se anunció en enero de 2023 con Bank of America como inversor ancla, y la propia web del fondo declaraba 40M USD levantados sobre ese objetivo de 100M. Truist Ventures se sumó a Bank of America y Grasshopper Bank entre los inversores del tercer fondo. Es un fondo de cartera muy concentrada: 12-15 empresas, con contacto semanal con cada fundador, y ofrecen “100% co-investment access to all deals” a sus LPs."
-    ]
+    }
   }
 }

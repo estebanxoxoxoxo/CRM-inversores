@@ -1,25 +1,29 @@
 /**
- * Importa los perfiles JSON de la investigación original, los normaliza y les aplica la auditoría v2
- * (data/auditoria_v2), dejando data/perfiles/<id>.json y data/indice.json validados contra el tipo canónico.
+ * Alta de inversores nuevos a partir de un JSON de investigación (formato del esquema de investigación:
+ * nombre, region, firma, rol, tesis_de_inversion, antecedentes, por_que_es_interesante, investigacion_larga, etc.).
  *
- * Uso: npm run importar [carpeta_origen]
- * Por defecto lee de ../Benchmark/tools/inversores/perfiles_json (relativo a la raíz del proyecto).
- * Para re-aplicar sólo la auditoría sobre data/perfiles ya importados, usar npm run auditar.
+ * Normaliza el archivo al tipo canónico y lo deja en data/perfiles/<id>.json con la auditoría en estado
+ * "pendiente" (puntuación a cero, motivo vacío): después se audita a mano editando ese único archivo y se ejecuta
+ * `npm run recalcular`. NO sobrescribe perfiles que ya existen.
+ *
+ * Uso: npm run importar -- <archivo.json | carpeta>
  */
 import fs from "node:fs";
 import path from "node:path";
-import { resumenDe, type Inversor, type TipoInversor } from "../src/types/inversor";
-import { aplicarV2, cargarDecisiones, ordenarPerfiles } from "./lib/auditoria-v2";
+import type { TipoInversor } from "../src/types/inversor";
+import { escribirIndice, ordenar, recalcularPerfil } from "./recalcular";
 
 const raiz = path.resolve(import.meta.dirname, "..");
-const origen = path.resolve(process.argv[2] ?? path.join(raiz, "..", "Benchmark", "tools", "inversores", "perfiles_json"));
 const destino = path.join(raiz, "data", "perfiles");
-fs.mkdirSync(destino, { recursive: true });
-const decisiones = cargarDecisiones(raiz);
-const hoy = new Date().toISOString().slice(0, 10);
+const origen = process.argv[2];
+if (!origen) {
+  console.error("Uso: npm run importar -- <archivo.json | carpeta>");
+  process.exit(1);
+}
 
 const URL_RE = /https?:\/\/[^\s)\]]+/;
 const sinAcentos = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+const slug = (s: string) => sinAcentos(s).replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
 function tipoInversor(texto: string): TipoInversor {
   const t = sinAcentos(texto);
@@ -40,68 +44,103 @@ function aLista(v: unknown): string[] {
   return partes.map((x) => x.trim()).filter(Boolean);
 }
 
-function linkedin(v: unknown): { linkedin: string; linkedin_nota: string } {
-  const s = String(v ?? "").trim();
-  const m = URL_RE.exec(s);
-  if (!m) return { linkedin: "", linkedin_nota: s };
-  return { linkedin: m[0].replace(/[),.;]+$/, ""), linkedin_nota: s.replace(m[0], "").replace(/^[\s(]+|[\s)]+$/g, "").trim() };
+function aNotas(v: unknown): string[] {
+  const texto = Array.isArray(v) ? v.map(String).join("\n") : String(v ?? "");
+  const vistas = new Set<string>();
+  const out: string[] = [];
+  for (const bruto of texto.split(/\r?\n+|\s\|\|\s|\s\|\s/)) {
+    let n = bruto.trim().replace(/^[—–\-·•]\s*/, "").replace(/\s+/g, " ").trim();
+    if (n && !/^(https?:\/\/|www\.)/i.test(n)) n = n[0].toUpperCase() + n.slice(1);
+    if (!n || /^no encontrado\.?$/i.test(n) || vistas.has(n.toLowerCase())) continue;
+    vistas.add(n.toLowerCase());
+    out.push(n);
+  }
+  return out;
 }
 
-/** Normaliza el JSON bruto de la investigación (forma v1) sin validarlo aún: la validación la hace aplicarV2. */
-function normalizar(id: string, d: Record<string, unknown>): Record<string, unknown> {
+function linkedin(v: unknown): { url: string; nota: string } {
+  const s = String(v ?? "").trim();
+  const m = URL_RE.exec(s);
+  if (!m) return { url: "", nota: s };
+  return { url: m[0].replace(/[),.;]+$/, ""), nota: s.replace(m[0], "").replace(/^[\s(]+|[\s)]+$/g, "").trim() };
+}
+
+function normalizar(d: Record<string, unknown>): Record<string, unknown> {
+  const id = String(d.id ?? slug(String(d.nombre ?? "")));
   const li = linkedin(d.linkedin);
-  const email = String(d.email ?? "").trim();
-  const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  const out: Record<string, unknown> = {
-    ...d,
+  const emailBruto = String(d.email ?? "").trim();
+  const m = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/.exec(emailBruto);
+  const email = m ? m[0] : "";
+  const estadoEmail = email ? (String(d.email_estado ?? "") || "público (ver fuente)") : "no encontrado";
+  const notasEmail = aNotas([d.email_fuente, m ? emailBruto.replace(m[0], "") : emailBruto]);
+  if (!notasEmail.length) notasEmail.push(email ? "Dirección tomada de la investigación; ver fuentes." : "No se localizó email individual en fuentes públicas.");
+  const hoy = new Date().toISOString().slice(0, 10);
+  return {
     id,
+    nombre: String(d.nombre ?? "").replace(/\s*\([^)]*\)/g, "").trim(),
+    nivel: 0,
+    banda: "Sin auditar",
+    prioridad: "C",
+    confianza: d.confianza ?? "media",
+    region: d.region,
+    firma: d.firma ?? "",
+    rol: d.rol ?? "",
+    ciudad_base: d.ciudad_base ?? "",
     tipo_inversor: tipoInversor(String(d.tipo_inversor ?? "")),
     tipo_inversor_detalle: String(d.tipo_inversor ?? ""),
-    linkedin: li.linkedin,
-    linkedin_nota: li.linkedin_nota,
-    email: emailValido ? email : "",
-    email_estado: emailValido ? d.email_estado : "no encontrado",
-    email_fuente: emailValido || !email ? String(d.email_fuente ?? "") : `${d.email_fuente ?? ""} | valor original no válido: ${email}`.trim(),
+    etapa_y_ticket: aLista(d.etapa_y_ticket),
+    linkedin: li.url,
+    web_personal: "",
+    email,
+    email_estado: estadoEmail,
+    por_que_es_interesante: aLista(d.por_que_es_interesante),
+    tesis_de_inversion: aLista(d.tesis_de_inversion),
+    antecedentes: String(d.antecedentes ?? ""),
     inversiones_relevantes: aLista(d.inversiones_relevantes),
     senales_de_encaje: aLista(d.senales_de_encaje ?? d["señales_de_encaje"]),
     riesgos_o_alertas: aLista(d.riesgos_o_alertas),
     como_llegar: aLista(d.como_llegar),
+    investigacion_larga: String(d.investigacion_larga ?? ""),
     fuentes: aLista(d.fuentes),
-    etapa_y_ticket: aLista(d.etapa_y_ticket),
+    fuente_vias_de_contacto: { email: notasEmail, linkedin: aNotas(li.nota), otras: aNotas(d.otros_perfiles) },
+    auditoria: {
+      estado: "pendiente",
+      fecha: hoy,
+      motivo: "",
+      puntuacion: { tesis: 0, etapa: 0, decision: 0, espanol: 0, acceso: 0, otros_aspectos: 0, otros_aspectos_motivo: "" },
+    },
   };
-  delete out["señales_de_encaje"];
-  return out;
 }
 
-const archivos = fs.readdirSync(origen).filter((f) => f.endsWith(".json") && !f.startsWith("_")).sort();
-const perfiles: Inversor[] = [];
-const errores: string[] = [];
-for (const f of archivos) {
-  const id = f.replace(/\.json$/, "");
+const rutas = fs.statSync(origen).isDirectory()
+  ? fs.readdirSync(origen).filter((f) => f.endsWith(".json") && !f.startsWith("_")).map((f) => path.join(origen, f))
+  : [origen];
+let altas = 0;
+const avisos: string[] = [];
+for (const ruta of rutas) {
   try {
-    const bruto = JSON.parse(fs.readFileSync(path.join(origen, f), "utf8").replace(/^﻿/, "")) as Record<string, unknown>;
-    const d = decisiones[id];
-    if (!d) throw new Error("sin decisión en data/auditoria_v2");
-    const p = aplicarV2(normalizar(id, bruto), d, hoy);
-    fs.writeFileSync(path.join(destino, `${id}.json`), JSON.stringify(p, null, 2) + "\n", "utf8");
-    perfiles.push(p);
+    const bruto = JSON.parse(fs.readFileSync(ruta, "utf8").replace(/^﻿/, "")) as Record<string, unknown>;
+    const p = recalcularPerfil(normalizar(bruto));
+    const salida = path.join(destino, `${p.id}.json`);
+    if (fs.existsSync(salida)) {
+      avisos.push(`${p.id}: ya existe en data/perfiles, no se sobrescribe`);
+      continue;
+    }
+    fs.writeFileSync(salida, JSON.stringify(p, null, 2) + "\n", "utf8");
+    altas++;
+    console.log(`Alta: ${p.id} (${p.nombre}) — auditoría pendiente`);
   } catch (e) {
-    errores.push(`${f}: ${e instanceof Error ? e.message : String(e)}`);
+    avisos.push(`${path.basename(ruta)}: ${e instanceof Error ? e.message : String(e)}`);
   }
 }
-ordenarPerfiles(perfiles);
-fs.writeFileSync(
-  path.join(raiz, "data", "indice.json"),
-  JSON.stringify({ generado: hoy, version: 2, total: perfiles.length, perfiles: perfiles.map(resumenDe) }, null, 1) + "\n",
-  "utf8",
-);
-const cuenta = (f: (p: Inversor) => string) => perfiles.reduce<Record<string, number>>((a, p) => ((a[f(p)] = (a[f(p)] ?? 0) + 1), a), {});
-console.log(`Origen: ${origen}`);
-console.log(`Importados ${perfiles.length}/${archivos.length} perfiles -> ${destino}`);
-console.log("bandas:", cuenta((p) => p.banda), "| tipo:", cuenta((p) => p.tipo_inversor));
-console.log("sin linkedin:", perfiles.filter((p) => !p.linkedin).map((p) => p.nombre));
-if (errores.length) {
-  console.error("\nERRORES:");
-  for (const e of errores) console.error(" -", e);
-  process.exit(1);
+// Regenerar el índice con todos los perfiles.
+const todos = fs
+  .readdirSync(destino)
+  .filter((f) => f.endsWith(".json"))
+  .map((f) => recalcularPerfil(JSON.parse(fs.readFileSync(path.join(destino, f), "utf8"))));
+escribirIndice(ordenar(todos));
+console.log(`${altas} alta(s). Índice regenerado con ${todos.length} perfiles.`);
+if (avisos.length) {
+  console.error("\nAVISOS:");
+  for (const a of avisos) console.error(" -", a);
 }

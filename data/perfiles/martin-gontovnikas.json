@@ -97,10 +97,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Muy bien conectado en el ecosistema dev tools (Vercel, Neon, Clerk, Together AI, Braintrust, Supabase), pero HyperGrowth no despliega capital (sweat equity en Series A-E post-PMF), su cheque ángel es de 5-25k con una sola inversión documentada y su especialidad es exactamente lo que el cliente aún no tiene: crecimiento y usuarios.",
     "puntuacion": {
       "tesis": 10,
       "etapa": 10,
@@ -112,21 +111,6 @@
       "bruto": 43,
       "topes": [],
       "total": 43
-    },
-    "motivo": "Muy bien conectado en el ecosistema dev tools (Vercel, Neon, Clerk, Together AI, Braintrust, Supabase), pero HyperGrowth no despliega capital (sweat equity en Series A-E post-PMF), su cheque ángel es de 5-25k con una sola inversión documentada y su especialidad es exactamente lo que el cliente aún no tiene: crecimiento y usuarios.",
-    "nivel_v1": "x",
-    "prioridad_agente": "C",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "HyperGrowth no despliega capital (sweat equity, Series A-E post-PMF); como ángel 5-25k con una sola inversión documentada."
-  },
-  "nombre_original": "Martín Gontovnikas (\"Gonto\")",
-  "textos_v1": {
-    "por_que_es_interesante": "Su valor para el cliente no es el cheque sino la red y el reconocimiento del terreno. Gonto es probablemente la persona hispanohablante mejor conectada del mundo dev tools: trabaja o ha trabajado con Vercel, Neon, Clerk, Together AI, n8n, Braintrust, Ashby, Supabase y Retool, y es argentino, con presencia habitual en podcasts en español (Startupeable). Ahora bien, el encaje con la tesis del cliente es débil: HyperGrowth no invierte capital, trabaja con compañías post-PMF de Serie A a E, y su especialidad es exactamente lo que el cliente NO tiene todavía (motor de crecimiento y usuarios). Su cheque ángel personal es de 5-25 k USD y su foco declarado es MarketingTech/SaaS, no infraestructura de IA. Ángulo realista: no plantearlo como inversor sino como puerta de entrada — pedirle intros a los fondos y ángeles de su órbita (Vercel/Guillermo Rauch, Neon, Clerk, Braintrust) y, si acaso, un cheque simbólico de señal.",
-    "tesis_de_inversion": "La tesis de Gonto es de go-to-market, no de tecnología profunda. HyperGrowth Partners, que cofundó en 2020-2021 con Guillaume 'G' Cabane, se define como 'the first startup growth-stage accelerator': un colectivo de 40+ líderes senior de crecimiento que entra en compañías B2B SaaS de Serie A a E ya con product-market fit, se mete en sus datos, diseña experimentos y ejecuta, cobrando principalmente en equity. Su especialización sectorial declarada es 'AI, FinTech, DevTools, MarTech y Ecom Tech', y su cartera de clientes es un catálogo de la infraestructura para desarrolladores de la última década: Ramp, Vercel, Neon, Together AI, n8n, Clerk, Factory, Drata, AirOps, Ashby, Braintrust, Attention, Retool, Reddit, Maze, Supabase. Como ángel personal, Signal NFX registra cheques de 5-25 k USD (punto dulce 15 k) en pre-seed, seed y Serie A, con sectores declarados MarketingTech y SaaS. La única inversión ángel documentada públicamente es Upstash (seed de 2 M USD, marzo de 2022, base de datos serverless Redis/Kafka) — infraestructura para desarrolladores, sí, pero en un cap table lleno de fondos que ya habían validado la compañía. No hay evidencia pública de ninguna tesis sobre moats técnicos, deep tech ni horizontes largos.",
-    "etapa_y_ticket": [
-      "Como ángel personal: pre-seed, seed y Serie A con cheques de 5.000-25.000 USD y punto dulce en 15.000 USD (Signal NFX). HyperGrowth Partners NO despliega capital: su modelo es sweat equity — 'Compensation is primarily equity, aligning our incentives directly with yours' (hypergrowthpartners.com) — y trabaja con B2B SaaS de Serie A a E ya post-product-market-fit. Es decir: dinero personal muy pequeño, o servicio a cambio de equity en compañías ya con tracción."
-    ]
+    }
   }
 }

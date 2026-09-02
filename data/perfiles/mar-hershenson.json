@@ -105,10 +105,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Española, doctora en ingeniería eléctrica con 14 patentes y gestora de un fondo cuyo producto principal (PearX) escribe 500k-2M USD a equipos sin tracción; publica 'Investing before the idea' y fue seed de Vals AI (evaluación de modelos). Reservas: fondo generalista, PearX exige 12 semanas en la Bahía, Fondo V no confirmado.",
     "puntuacion": {
       "tesis": 21,
       "etapa": 20,
@@ -120,21 +119,6 @@
       "bruto": 85,
       "topes": [],
       "total": 85
-    },
-    "motivo": "Española, doctora en ingeniería eléctrica con 14 patentes y gestora de un fondo cuyo producto principal (PearX) escribe 500k-2M USD a equipos sin tracción; publica 'Investing before the idea' y fue seed de Vals AI (evaluación de modelos). Reservas: fondo generalista, PearX exige 12 semanas en la Bahía, Fondo V no confirmado.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "PearX invierte 500k-2M en equipos sin producto ni tracción, blog 'Investing before the idea', Vals AI en cartera; nacida en Barcelona, PhD EE Stanford. Reservas: fondo generalista, PearX exige 12 semanas en el Área de la Bahía, Fondo V no confirmado."
-  },
-  "nombre_original": "Mar Hershenson",
-  "textos_v1": {
-    "por_que_es_interesante": "Es probablemente el mejor encaje global de la lista: española, técnica de verdad (doctorado en ingeniería eléctrica, 14 patentes), y gestora de un fondo cuyo producto principal es una aceleradora pre-seed que escribe cheques de 500K-2M USD a equipos sin tracción. Pear publica abiertamente entradas tituladas “Investing before the idea”, lo que responde de forma directa a la mala experiencia previa del cliente con inversores que exigen usuarios. Además, su cartera ya toca la infraestructura de IA que necesita el cliente: fue inversora semilla de Vals AI (evaluación de modelos), cuya Series A de 40M USD lideró a16z en agosto de 2026, y de Amari AI. El ángulo de contacto: escribir en español, presentarse como equipo técnico con una tesis de arquitectura contrastable, ofrecer el benchmark y la demo del harness, y pedir entrada a PearX en lugar de una ronda tradicional. Su condición de exfundadora de semiconductores hace creíble que valore un moat técnico sin usuarios.",
-    "tesis_de_inversion": "Invierte en pre-seed y seed, a menudo antes de que exista producto o incluso idea definitiva, con foco en IA, software empresarial, deep tech, semiconductores, salud y biotecnología. Su criterio explícito es el equipo técnico primero: en su ficha del fondo resume su filosofía como “To make a company succeed, you should think in terms of and, not or” (equipo Y mercado Y ejecución). En la entrevista de La Vanguardia desde Pier01 (Barcelona, 2017) el titular fue precisamente “Nos gusta más invertir en alguien que ya...”, en línea con su método de apostar por personas antes que por métricas. Pear describe su misión como asumir el riesgo de las etapas más tempranas: el propio blog del fondo publicó en 2026 la entrada “Andera: Investing before the idea” y “Maximum: Investing in Randy Fernando, again”, dos casos de inversión anterior al producto. En la ola actual publica tesis como “Sell the outcome, not the AI tool: Why Pear is betting on AI-Native Services”. Como doctora en Ingeniería Eléctrica por Stanford con 14 patentes y profesora consultora de diseño de circuitos analógicos, es de las pocas socias gestoras capaces de evaluar una arquitectura por sí misma en la primera reunión.",
-    "etapa_y_ticket": [
-      "Pre-seed y seed, con seguimiento en Series A. Vía PearX (aceleradora propia de 12 semanas, dos cohortes al año de 20-25 equipos) el cheque es de 500.000 a 2.000.000 USD más 1M+ USD en créditos de nube (Azure, OpenAI). Signal/NFX estima su rango personal en 1-5M USD con punto dulce en 2,5M USD. Fondo vigente conocido: Pear Fund IV, 432M USD (junio 2023); no hay Fondo V anunciado públicamente a septiembre de 2026."
-    ]
+    }
   }
 }

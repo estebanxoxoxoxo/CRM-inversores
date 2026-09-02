@@ -486,3 +486,9 @@ h2 {
 .aviso-error p {
   margin: 4px 0 0;
 }
+
+.banda-0 {
+  background: #f3f4f6;
+  color: #6b7280;
+  border: 1px dashed #9ca3af;
+}

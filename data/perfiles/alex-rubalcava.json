@@ -112,10 +112,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Tesis pre-seed deep tech B2B con filtro de eficiencia de ingeniería, lidera y es primer cheque institucional; pero español y origen sin evidencia, cheque de 300-750k y fusión con Amplify.LA (fondo generalista de LA, no Amplify Partners).",
     "puntuacion": {
       "tesis": 17,
       "etapa": 18,
@@ -127,21 +126,6 @@
       "bruto": 61,
       "topes": [],
       "total": 61
-    },
-    "motivo": "Tesis pre-seed deep tech B2B con filtro de eficiencia de ingeniería, lidera y es primer cheque institucional; pero español y origen sin evidencia, cheque de 300-750k y fusión con Amplify.LA (fondo generalista de LA, no Amplify Partners).",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Pre-seed deep tech B2B con filtro de eficiencia de ingeniería, pero español y origen no confirmados, cheque pequeño y fusión con Amplify.LA (no Amplify Partners)."
-  },
-  "nombre_original": "Alex Rubalcava",
-  "textos_v1": {
-    "por_que_es_interesante": "Su tesis publicada es prácticamente un guion escrito para el cliente: pre-seed, B2B, deep tech, riesgo técnico alto y riesgo competitivo bajo, con un filtro que premia explícitamente a los equipos capaces de construir software exigente con 25.000-60.000 USD. Si el cliente puede demostrar que su stack IA-nativo se construyó con una fracción del capital que consumiría un equipo convencional, ese es literalmente el dato que Rubalcava usa para decidir. Sus tres preguntas —¿sabes shippear, vender y contratar?— colocan la capacidad de ingeniería por delante de las métricas de uso. Lidera rondas y es a menudo el primer cheque institucional, así que no espera a que otro valide. Ángulo de contacto: no un pitch narrativo sino una demostración de eficiencia de ingeniería —qué se ha construido, con cuánto dinero, en cuánto tiempo, y por qué el riesgo dominante es técnico— más el harness de agentes como la explicación mecánica de esa eficiencia. CORRECCIÓN IMPORTANTE respecto a la información de partida: el fondo con el que se fusionó Stage VP es Amplify.LA, un fondo pre-seed de Los Ángeles fundado en 2011 (FloQast, Tapcart, Volley, RentSpree), NO Amplify Partners (el fondo de dev tools e infraestructura de IA de Datadog, dbt y Fivetran). Son dos firmas distintas.",
-    "tesis_de_inversion": "Es el inversor de esta lista cuyo criterio explícito está mejor alineado con financiar tecnología difícil antes de que haya usuarios. Aplica marcos de value investing al pre-seed: 'being good at value investing can make you good at venture capital, and vice versa' (dot.LA). Busca deliberadamente compañías con riesgo técnico alto y riesgo competitivo bajo: donde la pregunta abierta es si la tecnología se puede construir siquiera, no si habrá diez competidores. Su filtro operativo más citado es la eficiencia de capital extrema en ingeniería: VC Sheet lo resume como 'extreme engineering capital efficiency ($25-60k builds)', y en el podcast de Daniel Scrivner lo ilustra con un contraste que repite mucho: un equipo se gastó 4M USD y no tenía producto terminado mientras un competidor había gastado 40.000 USD y ya tenía clientes de pago, una diferencia de 100x. Rechaza equipos que subcontratan el desarrollo. Su marco de evaluación de equipos son tres preguntas: 'The three questions that matter when evaluating a management team are, can you ship? Can you sell? And can you hire?'. Invierte en applied AI, visión por computador, NLP, data warehouses especializados y sistemas de registro, además de robótica industrial, espacio, defensa y ciencias de la vida, con preferencia por entornos regulados donde los incumbentes son vulnerables.",
-    "etapa_y_ticket": [
-      "Pre-seed y seed, liderando rondas. En Stage Venture Partners su cheque documentado era de 250.000-500.000 USD (VC Sheet) o 300.000-600.000 USD dentro de rondas de 1-3M USD (podcast LA Venture de TenOneTen, 2019); Signal NFX reporta 500.000-1.000.000 USD con sweet spot de 750.000 USD sobre un fondo de 15M USD. Invierte en compañías que levantan 1-3M USD y que antes habían levantado menos de 1M USD, típicamente equipos de 3-4 personas y a veces pre-producto. Amplify se define como 'LA's premier pre-seed fund', dice ser 'the first partner to 80+ companies to-date', invierte por Fund VI y no publica el tamaño del fondo. Ejemplo reciente de cheque de Amplify: pre-seed de 1,3M USD liderada en Manta Health (2026)."
-    ]
+    }
   }
 }

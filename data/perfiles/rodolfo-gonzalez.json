@@ -105,10 +105,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "GP de un fondo que declara hacer el 80% de sus inversiones pre-producto ('zero billion-dollar markets'), con apuestas de infraestructura no obvia (Solana desde el inicio, DoubleZero), mexicano nativo y email público. Reserva: su práctica formal es fintech y cripto; el socio natural de infra de IA en Foundation es Ashu Garg.",
     "puntuacion": {
       "tesis": 14,
       "etapa": 17,
@@ -120,21 +119,6 @@
       "bruto": 77,
       "topes": [],
       "total": 77
-    },
-    "motivo": "GP de un fondo que declara hacer el 80% de sus inversiones pre-producto ('zero billion-dollar markets'), con apuestas de infraestructura no obvia (Solana desde el inicio, DoubleZero), mexicano nativo y email público. Reserva: su práctica formal es fintech y cripto; el socio natural de infra de IA en Foundation es Ashu Garg.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "GP de Foundation Capital (80% de inversiones pre-producto), firma la tesis de DoubleZero (infraestructura de red pre-comercial), mexicano, email público; pero su práctica formal es fintech y cripto y el socio natural de infra de IA es Ashu Garg."
-  },
-  "nombre_original": "Rodolfo Gonzalez",
-  "textos_v1": {
-    "por_que_es_interesante": "Es probablemente el mejor cruce disponible entre “fondo que invierte de verdad antes de la tracción” y “socio hispanohablante nativo”. Foundation Capital declara públicamente que el 80% de sus inversiones son pre-ingresos y pre-producto y que su trabajo es dimensionar mercados que aún no existen (“zero billion-dollar markets”): es exactamente el discurso que necesita una startup con un stack IA-nativo y un harness de agentes sin usuarios todavía. Rodolfo, además, tiene un historial de apuestas de infraestructura profunda y no obvia: Solana desde el principio y DoubleZero, una red física de rutas de fibra optimizadas cuyo argumento de inversión es literalmente “el cómputo y el almacenamiento escalaron exponencialmente; el rendimiento de red no”. Ese es el mismo tipo de argumento que sostiene un stack de software reoptimizado para IA. Ángulo de contacto: escribirle en español, presentar el stack como una reoptimización de sistemas (benchmarks, latencia, coste por unidad de trabajo) y no como producto; citar el ensayo de DoubleZero.",
-    "tesis_de_inversion": "Invierte en servicios financieros e infraestructura cripto, y desde 2023-2024 en agentes de IA aplicados a flujos de trabajo operativos. Su idea vertebradora, expresada en la práctica fintech del fondo, es que los bancos “no funcionan con software: funcionan con humanos que fingen ser software”, y que los agentes de IA pueden sustituir esos flujos manuales en mercados financieros desatendidos. En cripto su convicción es de infraestructura, no de aplicación: firmó ensayos como “The era of opinionated L1s is here and Solana will win it on mobile”, “A technical history of blockchain design, innovation, and narratives” y, sobre todo, “DoubleZero: Scaling distributed systems through new internet rails”, donde el argumento es puramente de sistemas distribuidos: “Compute and storage have scaled exponentially. Network performance hasn’t”, y el mercado es “any workload where milliseconds matter” (blockchains, CDN, inferencia de IA, bases de datos, gaming). Encaja con la doctrina de la casa de “zero billion-dollar markets”: invertir en mercados que todavía no existen, proyectando dónde podría estar el mercado si la cosa llegara a existir. Foundation Capital declara más de 100 inversiones en IA en infraestructura, infraestructura de datos, developer tools, seguridad y aplicaciones, y evita explícitamente los laboratorios de modelos frontera.",
-    "etapa_y_ticket": [
-      "Seed y Serie A principalmente, con seguimiento hasta Serie B. Signal NFX estima cheques de 1M a 10M USD con punto dulce de 5,5M USD y 46 empresas en cartera a su nombre (https://signal.nfx.com/investors/rodolfo-gonzalez). A nivel de fondo, Foundation Capital declara desplegar entre 15M y 20M USD por empresa a lo largo de Seed+Serie A+Serie B, y afirma que el 80% de sus inversiones se hacen en empresas pre-ingresos y pre-producto (Crunchbase News, marzo 2025: https://news.crunchbase.com/venture/ai-foundation-capital-11th-fund-vassallo/). Fondo vigente: Foundation Capital XI, 600M USD, cerrado en marzo de 2025."
-    ]
+    }
   }
 }

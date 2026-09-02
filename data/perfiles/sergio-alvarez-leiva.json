@@ -112,10 +112,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Ha construido y sigue construyendo la categoría del cliente (Tinybird, infraestructura de datos en tiempo real para desarrolladores; CARTO; Vizzuality) y firma memos de K Fund con el marco de 'infraestructura fundacional' (MITO, pre-seed); K Fund entra desde 100k€ y ya coinvirtió en Causa Prima y 2501. Reservas: su cargo de GP no está confirmado (web: 'Product & Technology'), sigue como COO de Tinybird y posible conflicto si el stack toca datos en tiempo real.",
     "puntuacion": {
       "tesis": 23,
       "etapa": 17,
@@ -127,21 +126,6 @@
       "bruto": 74,
       "topes": [],
       "total": 74
-    },
-    "motivo": "Ha construido y sigue construyendo la categoría del cliente (Tinybird, infraestructura de datos en tiempo real para desarrolladores; CARTO; Vizzuality) y firma memos de K Fund con el marco de 'infraestructura fundacional' (MITO, pre-seed); K Fund entra desde 100k€ y ya coinvirtió en Causa Prima y 2501. Reservas: su cargo de GP no está confirmado (web: 'Product & Technology'), sigue como COO de Tinybird y posible conflicto si el stack toca datos en tiempo real.",
-    "nivel_v1": "2",
-    "prioridad_agente": "A",
-    "confianza_agente": "media",
-    "prioridad_v1": "B",
-    "confianza_final": "media",
-    "motivo_v1": "Cofundador de Tinybird y ex-CPO de CARTO, firma el memo de MITO (pre-seed 4,5M); pero su cargo de GP no está confirmado (web: Product & Technology), sigue como COO de Tinybird y hay posible conflicto si el stack toca datos en tiempo real. Campeón técnico; el cheque de K Fund entra por Clemente."
-  },
-  "nombre_original": "Sergio Álvarez Leiva",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el unico inversor de la lista que ha construido personalmente, y sigue construyendo, exactamente la categoria del cliente: infraestructura de datos en tiempo real para desarrolladores (Tinybird). Entiende de primera mano que ese tipo de producto tarda anos en tener metricas, que el moat esta en la arquitectura y la experiencia de desarrollador, y que la validacion temprana es tecnica, no comercial. Su memo sobre MITO muestra que evalua productos IA-nativos por como redefinen el proceso, no por traccion, y que le atrae el marco de 'infraestructura fundacional'. K Fund entra desde pre-seed con tickets desde 100K EUR, ya ha coinvertido en Causa Prima (red agente-a-agente para equipos financieros) y tiene cartera en agentes empresariales (2501, HappyRobot, Maisa) y en LLMs open source (Alinia). Angulo de contacto: escribirle en espanol, entrar por producto y arquitectura, y comparar el harness con lo que Tinybird resolvio en datos en tiempo real - la analogia 'developer experience como moat' es su lenguaje nativo.",
-    "tesis_de_inversion": "K Fund se define publicamente como el fondo que respalda a \"the crazy, contrarians and outliers\" que crean productos y servicios tecnologicos diferenciados, invirtiendo de pre-seed a Serie B con tickets de 100K a 10M EUR desde el sur de Europa hacia el mundo. La aportacion propia de Sergio Álvarez Leiva es la de constructor de producto e infraestructura de datos: su bio oficial dice \"I like building products that people want, that are at the intersection of data, people and technology. I've co-founded three different companies in the data space (Vizzuality, CARTO and Tinybird)\". Su memo de inversion sobre MITO (marzo de 2026) revela como piensa sobre productos IA-nativos: sostiene que \"we are at the beginning of a new creative era: one where artificial intelligence is not just a tool, but a collaborator reshaping how stories are imagined\", que \"the opportunity is not simply to make production faster, but to redefine the creative process itself, placing collaboration, iteration and creative control at its core\" y que la empresa \"is building foundational infrastructure for a new creative era\". Es decir: no busca aceleracion incremental sino redefinicion del proceso, y usa explicitamente el marco de 'infraestructura fundacional'. El resto del fondo empuja en la misma direccion con posiciones en agentes empresariales (2501, HappyRobot, Maisa), evaluacion y alineamiento de LLMs open source (Alinia), infraestructura de IA (Bliss) e infraestructura de datos en tiempo real.",
-    "etapa_y_ticket": [
-      "K Fund invierte de pre-seed a Serie B con tickets de 100.000 a 10.000.000 EUR (https://www.kfund.vc/ y anuncio del fondo K3). Fondo vigente: K3, mas de 70M EUR, anunciado el 18 de junio de 2024 (https://www.kfund.vc/post/new-fund-same-vision---you-win-we-win-our-commitment-continues-stronger-than-ever). El grupo gestiona ademas Leadwind, fondo de crecimiento de 250M USD para deep tech en el sur de Europa y LatAm, con capital de ICO Next Tech, Telefonica Ventures, BBVA Spark y Seguros Catalana Occidente. Rondas recientes en las que participa K Fund: MITO 4,5M USD pre-seed (marzo 2026, liderada por Lightspeed)."
-    ]
+    }
   }
 }

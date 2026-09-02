@@ -116,10 +116,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Big Sur nombra 'AI-native software' y sistemas expertos en su tesis, invirtió en Axiomatic AI (infraestructura de inteligencia verificada) y lidera pre-seed y seed en deep tech con un fondo nuevo (BSV IV Ariadne, 100M€ objetivo, 40M€ de la SETT); pero su cartera deep tech es sobre todo hardware y física, sin dev tools, y en 2020 dijo que no hacían apuestas de infraestructura.",
     "puntuacion": {
       "tesis": 16,
       "etapa": 18,
@@ -131,21 +130,6 @@
       "bruto": 77,
       "topes": [],
       "total": 77
-    },
-    "motivo": "Big Sur nombra 'AI-native software' y sistemas expertos en su tesis, invirtió en Axiomatic AI (infraestructura de inteligencia verificada) y lidera pre-seed y seed en deep tech con un fondo nuevo (BSV IV Ariadne, 100M€ objetivo, 40M€ de la SETT); pero su cartera deep tech es sobre todo hardware y física, sin dev tools, y en 2020 dijo que no hacían apuestas de infraestructura.",
-    "nivel_v1": "2",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "BSV IV Ariadne (100M€ objetivo, 40M€ de la SETT) invierte pre-seed en deep tech y participó en Axiomatic AI, pero su cita de 2020 ('es difícil invertir en infraestructura, no hacemos apuestas') y una cartera de hardware/física sin dev tools impiden llamarlo indiscutible."
-  },
-  "nombre_original": "José Miguel Herrero",
-  "textos_v1": {
-    "por_que_es_interesante": "Es probablemente el inversor seed español con la tesis más cercana a un stack de software IA-nativo con moat técnico: Big Sur nombra 'AI-native software' y 'expert systems' dentro de su tesis 'Internet Power' y ya ha invertido en Axiomatic AI (marzo 2026, seed de 18 M$ liderada por Engine Ventures con Kleiner Perkins), que se define literalmente como 'the intelligence infrastructure for verified science & engineering' —es decir, infraestructura de IA, no aplicación. Además invierte sistemáticamente pre-tracción: cuántica en fase pre-seed (Arq Quantum, 1,4 M$, 2026), semiconductores (Nanopower, 9,4 M€ liderada), fotónica cuántica (LuxQuanta, 8 M€ Serie A liderada). Es español nativo, con la conversación técnica en español y en inglés, y con un fondo nuevo (BSV IV Ariadne, objetivo 100 M€, primer cierre hecho, 40 M€ del Estado vía SETT) que necesita desplegar. Ángulo de contacto: entrar por el paralelismo con Axiomatic AI —verificación e infraestructura de inteligencia— y por su propio pasado de fundador técnico en LaNetro.",
-    "tesis_de_inversion": "Big Sur invierte en etapa temprana (pre-seed a Serie A) en empresas con potencial de liderazgo global, articulando su cartera en dos tesis declaradas en su propia web: 'Internet Power' (software, internet y productos habilitados por TI —en descripciones más recientes se detalla como software IA-nativo, ciberseguridad y sistemas expertos) y 'Deep Tech' (cuántica, IA, ciencia de materiales, fotónica, microelectrónica y nanotecnología). Herrero valora explícitamente la tecnología profunda como barrera competitiva: «En nuestro caso nos encanta que una empresa tenga 'deep tech' porque supone una barrera a la competencia», aunque matiza que la patente sola no basta: «Si crees que por tener patentes tienes la vida resuelta, te van a comer vivo» (entrevista actúaupm, 2020). En equipo busca ambición con racionalidad y humildad: «Equipos ambiciosos, obsesionados por resolver un problema, pero no locos... gente humilde, de escucha activa»; y marca un límite claro: «La arrogancia es una línea roja». Se presenta como inversor activo, con más horas de socio por participada que la media del capital riesgo español.",
-    "etapa_y_ticket": [
-      "Pre-seed, seed y pre-Serie A (la web del fondo dice explícitamente 'Pre-seed through Series A'). Tickets: el fondo deep tech anunciado en 2022 hablaba de 100.000 € a 1 M€ por operación (El Economista / El Referente, jun-2022); las bases de datos actuales (Tracxn, Signal NFX) sitúan el cheque en 500.000 $ - 3 M$, con punto óptimo alrededor de 2,5 M$ para el propio Herrero. Con el nuevo vehículo BSV IV Ariadne (objetivo 100 M€) el fondo ya lidera rondas de 8-9,4 M€ (LuxQuanta, Nanopower Semiconductor), así que el rango real de 2025-2026 es claramente superior al de 2022. Lidera rondas seed: confirmado."
-    ]
+    }
   }
 }

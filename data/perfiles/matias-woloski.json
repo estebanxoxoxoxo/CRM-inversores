@@ -111,10 +111,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "CTO fundador de Auth0 que invierte cheques de 5-50k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes (Vercel 2019, Tinybird, Keycard 2025, Luzid, Veria Labs con Paul Graham); argentino, español nativo. Reservas: fuera de región (Buenos Aires), cheque pequeño que no lidera, rol operativo 2026 por confirmar.",
     "puntuacion": {
       "tesis": 24,
       "etapa": 18,
@@ -126,21 +125,6 @@
       "bruto": 74,
       "topes": [],
       "total": 74
-    },
-    "motivo": "CTO fundador de Auth0 que invierte cheques de 5-50k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes (Vercel 2019, Tinybird, Keycard 2025, Luzid, Veria Labs con Paul Graham); argentino, español nativo. Reservas: fuera de región (Buenos Aires), cheque pequeño que no lidera, rol operativo 2026 por confirmar.",
-    "nivel_v1": "1",
-    "prioridad_agente": "A",
-    "confianza_agente": "alta",
-    "prioridad_v1": "A",
-    "confianza_final": "alta",
-    "motivo_v1": "Cofundador y ex-CTO de Auth0; ángel recurrente en developer infrastructure (Vercel 2019, Keycard 2025 identidad para agentes, Tinybird), coinvierte con Rauch; español nativo. Fuera de región (Buenos Aires), cheque 5-50k, rol 2026 por confirmar."
-  },
-  "nombre_original": "Matías Woloski",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el mejor encaje temático puro del lote: un CTO fundador de una compañía de infraestructura para desarrolladores de 6.500 M USD, que invierte cheques de 5-50 k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes. Vercel (2019), Tinybird (2021), Keycard (2025, identidad para agentes de IA), Luzid (2025, automatización de desarrollo con IA), Autonoma AI, NanoCo AI, Veria Labs (2026, con Paul Graham). Es alguien que ha vivido en carne propia la construcción de una plataforma para desarrolladores desde cero y sin tracción, y que sabe que la métrica temprana correcta es la adopción de developers, no los ingresos. Es argentino, hablante nativo de español, y opera desde Buenos Aires: la comunicación puede ser íntegramente en español y sin fricción cultural. Ángulo de contacto: X (@woloski), mensaje técnico y corto, enfocado en el problema de infraestructura y en el ángulo de identidad, permisos y control de agentes que ejecutan código —el tema que él mismo está financiando en Keycard.",
-    "tesis_de_inversion": "Woloski invierte donde ha construido: infraestructura para desarrolladores, identidad y datos. La lectura de su cartera es inequívoca. En mayo de 2019 entró en la Serie A de Vercel (16 M USD) —la compañía que define hoy la infraestructura de desarrollo frontend. En 2021 empezó a invertir sistemáticamente a través de Tinybird (infraestructura de datos en tiempo real). En octubre de 2025 fue ángel en Keycard, la plataforma de identidad y acceso para agentes de IA que salió de sigilo con 38 M USD (seed de 8 M cliderada por a16z y Boldstart, más Serie A de 30 M liderada por Acrew): la lista de ángeles de esa ronda es un quién es quién de identidad e infraestructura —Ian Andrews (CRO de Groq), Ryan Carlson (presidente de Chainguard), Emilio Escobar (CISO de Datadog), Karl McGuinness (ex-Chief Product Architect de Okta) y él. En septiembre de 2025 entró en Luzid (herramientas de automatización de desarrollo basadas en IA para implantaciones empresariales) y en 2025-2026 en Autonoma AI, NanoCo AI y Veria Labs (seed de 3,2 M USD en febrero de 2026, con Y Combinator y Paul Graham como coinversores). Sus coinversores recurrentes son Paul Graham, Guillermo Rauch, Gokul Rajaram, Wences Casares, Zane Lackey y Manu Ginóbili. Su ticket es de 5-50 k USD, punto dulce 25 k, en pre-seed, seed y Serie A. No publica tesis escrita, pero su declaración en el podcast Startupeable resume su filosofía: 'lo que uno aprende durante el tiempo previo a emprender es la única ventaja competitiva que tenemos'.",
-    "etapa_y_ticket": [
-      "Pre-seed, seed y Serie A. Ticket de 5.000-50.000 USD con punto dulce en 25.000 USD (Signal NFX: 'Check size $5K - $50K, sweet spot $25K'). Signal registra 20 inversiones; Tracxn le atribuye entre 13 y 15 compañías; Private Market View, 11 posiciones. Entra como ángel dentro de rondas lideradas por fondos, a menudo junto a Okta Ventures."
-    ]
+    }
   }
 }

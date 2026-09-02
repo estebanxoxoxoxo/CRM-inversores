@@ -115,10 +115,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Construyó y publicó en abierto 'dual-agent', un harness multi-modelo con MCP, y es de los técnicos de IA más sólidos de España; pero no hay ni una inversión ángel documentada, así que su valor es de validador y advisor, no de capital.",
     "puntuacion": {
       "tesis": 20,
       "etapa": 0,
@@ -130,21 +129,6 @@
       "bruto": 47,
       "topes": [],
       "total": 47
-    },
-    "motivo": "Construyó y publicó en abierto 'dual-agent', un harness multi-modelo con MCP, y es de los técnicos de IA más sólidos de España; pero no hay ni una inversión ángel documentada, así que su valor es de validador y advisor, no de capital.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "media",
-    "prioridad_v1": "C",
-    "confianza_final": "media",
-    "motivo_v1": "Perfil técnico de élite y constructor de dual-agent, pero ninguna inversión ángel documentada: valor como advisor o validador, no como capital."
-  },
-  "nombre_original": "Andrés Torrubia",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el mejor validador técnico posible de todo el lote, porque ha construido con sus manos una versión reducida del segundo producto del cliente: 'dual-agent' es un harness de desarrollo que orquesta Claude Code, Codex CLI y ChatGPT Pro mediante herramientas MCP, y está publicado en abierto con licencia MIT en su GitHub. Es decir: no hay que explicarle qué es un harness de agentes ni por qué importa; él ya lo necesitaba y se lo hizo. Suma un perfil técnico difícil de igualar en España (CERN, top 0,1% de Kaggle, dos startups americanas fundadas y una vendida) y una plataforma de divulgación —el podcast 'Software 2.0' y el IIA— que multiplica cualquier cosa que respalde. Ángulo de contacto: puramente técnico y en abierto (un issue o PR en dual-agent, o enseñarle el harness para que lo compare con el suyo). No pedirle dinero en el primer contacto: pedirle su opinión de arquitectura y, si engancha, proponerle advisorship. Puede convertirse en la carta de presentación técnica ante los VC de la lista.",
-    "tesis_de_inversion": "No publica tesis de inversión porque no opera como inversor formal. Lo que sí tiene, y es más valioso, es una posición técnica pública muy definida y una práctica personal que coincide con el producto del cliente. Ha mantenido durante años que apostar contra la IA sale caro ('Sale muy caro apostar contra la IA', título de su conversación en el podcast Monos Estocásticos) y que la ventaja competitiva no está en tener la herramienta sino en aplicar la IA al problema propio. Su marco temporal favorito: decía en 2020 que 2012 era 'el siglo XII en IA' y 2020 'el siglo XX', para ilustrar la aceleración. Sobre las empresas: 'las empresas que perduran en el tiempo son aquellas que están siempre atentas a los cambios' y 'una característica fundamental de la IA es que es una tecnología de propósito general'. Es crítico con el riesgo regulatorio europeo para startups y compara con frecuencia los ecosistemas de IA de la UE, EE.UU. y China. Y, sobre todo, practica lo que predica: mantiene en abierto el repositorio 'dual-agent', un entorno de desarrollo colaborativo que empareja Claude Code (Anthropic) con Codex CLI y ChatGPT Pro vía herramientas MCP, tmux de doble panel e integración con Chrome, con el argumento de que 'by combining multiple models, you get rapid development velocity with rigorous quality checks and diverse perspectives'.",
-    "etapa_y_ticket": [
-      "No confirmado. Tras revisar Crunchbase (que lo lista únicamente como 'CEO & Co-founder @ Fixr', no como inversor), F6S (que lo lista como 'Advisor at Medbravo'), prensa española y bases de datos de ángeles, NO se ha encontrado ninguna inversión ángel concreta suya con empresa, año, ronda o importe. Cualquier cifra de ticket sería inventada. En el podcast #29 de Juan Such (Rankia, 1 oct 2020) habla de 'su forma de invertir y su cartera actual', pero el resumen público no detalla instrumentos ni participaciones en startups."
-    ]
+    }
   }
 }

@@ -109,10 +109,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Playground entra pre-formación ('between improbable and impossible') y ella puede auditar el claim del 90% leyendo arquitectura (PhD BAIR, HPC en Oak Ridge y LBNL); pero su mandato es cuántica y cómputo físico con vínculo obligatorio a Nuevo México, es Principal, latina confirmada sin español documentado y sin email.",
     "puntuacion": {
       "tesis": 12,
       "etapa": 19,
@@ -124,21 +123,6 @@
       "bruto": 46,
       "topes": [],
       "total": 46
-    },
-    "motivo": "Playground entra pre-formación ('between improbable and impossible') y ella puede auditar el claim del 90% leyendo arquitectura (PhD BAIR, HPC en Oak Ridge y LBNL); pero su mandato es cuántica y cómputo físico con vínculo obligatorio a Nuevo México, es Principal, latina confirmada sin español documentado y sin email.",
-    "nivel_v1": "r",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "Playground invierte pre-formación y ella lidera el Genesis Fund, pero es cuántica y cómputo físico con vínculo obligatorio a Nuevo México; Principal; español sin confirmar."
-  },
-  "nombre_original": "Marissa Ramirez de Chanlatte, PhD",
-  "textos_v1": {
-    "por_que_es_interesante": "Es una de las pocas inversoras capaces de auditar el claim central del cliente — '~90% mejor que los stacks actuales operados con IA' — leyendo la arquitectura en vez de pedir usuarios. Su doctorado en BAIR combina visión por computador y machine learning científico con años de HPC real en Oak Ridge y LBNL: rendimiento, paralelismo y eficiencia de cómputo son su lenguaje nativo, y sus papers son literalmente sobre acelerar y cuantificar incertidumbre en simulaciones numéricas. Además fue COO cofundadora de Prompt AI, una startup de software de IA en fase pre-producto, así que conoce desde dentro la comercialización temprana sin tracción. Playground entra pre-formación y presume de invertir 'entre lo improbable y lo imposible', justo lo contrario del inversor que pide 'todo servido'. Su cartera pública de cómputo (NextSilicon, d-Matrix, Ayar Labs) muestra apetito por stacks alternativos al statu quo. El encaje se juega en el encuadre: hay que presentarlo como un problema de sistemas y eficiencia de cómputo, no como 'otra herramienta de desarrollo'.",
-    "tesis_de_inversion": "Invierte desde Playground Global, firma de deep tech que se define por entrar 'en la fase más temprana de formación de la empresa' y por operar donde 'es demasiado pronto para todos los demás'; su lema público es 'We invest somewhere between improbable and impossible'. Los cuatro pilares de la firma son next-gen compute (cuántica, aceleración de IA, arquitecturas nuevas), automatización y robótica, transición energética y biología ingenierizada. Su Fund IV, de $475M (mayo de 2026), articula una tesis deliberadamente física, con citas literales del anuncio: 'Software may be eating the world, but you cannot eat software', 'We don't need data centers in space. We need deep tech investors on Earth' y 'It is time to put the Silicon back into Silicon Valley'. Dentro de esa casa, Marissa cubre cuántica, arquitecturas de cómputo de próxima generación, IA y robótica, y dirige el Playground Genesis Fund ($50M, con apoyo del State Investment Council de Nuevo México) para comercializar tecnología frontera en cuántica y cómputo avanzado. Un rasgo explícito de su enfoque con Genesis: estructuraron el fondo para no obligar a los fundadores a mudarse, sino para apalancar los recursos de Nuevo México (Sandia, Los Álamos, Roadrunner Venture Studios) en vez de robar empresas a otros ecosistemas.",
-    "etapa_y_ticket": [
-      "Pre-formación, pre-semilla, semilla y Serie A; con frecuencia primer inversor o líder de ronda. Playground Global: Fund IV de $475M (cerrado el 18 de mayo de 2026), Fund III de $360M (diciembre de 2023), ~$1.700M en AUM en cuatro vehículos principales. Vehículo que ella dirige: Playground Genesis Fund, $50M. Ticket exacto no publicado; referencia real y comprobable: lideró la ronda semilla de $4M de Photon Queue (julio de 2026). Históricamente Playground se describe con primeros cheques de varios millones y reservas para seguir hasta Serie B+ (cifra de reservas no confirmada oficialmente)."
-    ]
+    }
   }
 }

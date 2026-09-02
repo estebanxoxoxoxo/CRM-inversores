@@ -120,10 +120,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Ingeniero de semiconductores (LSI Logic, TI) cuyo fondo tiene una inversión real en dev tools de alto rendimiento (Codee) y un criterio explícito de barreras de entrada y know-how propietario; pero su etapa es late-seed y Serie A y el fondo lista 'market traction' entre sus requisitos. Posponer hasta tener la demo.",
     "puntuacion": {
       "tesis": 17,
       "etapa": 7,
@@ -135,21 +134,6 @@
       "bruto": 59,
       "topes": [],
       "total": 59
-    },
-    "motivo": "Ingeniero de semiconductores (LSI Logic, TI) cuyo fondo tiene una inversión real en dev tools de alto rendimiento (Codee) y un criterio explícito de barreras de entrada y know-how propietario; pero su etapa es late-seed y Serie A y el fondo lista 'market traction' entre sus requisitos. Posponer hasta tener la demo.",
-    "nivel_v1": "r",
-    "prioridad_agente": "C",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "Tiene Codee (dev tools) y criterio de moat, pero etapa late-seed/Serie A y 'market traction' explícito entre sus criterios. Posponer a después de la demo."
-  },
-  "nombre_original": "Juan Revuelta (Juan Revuelta Colomo)",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el socio de la lista con el perfil de ingeniería de hardware más profundo —LSI Logic y Texas Instruments, semiconductores— y su fondo es de los pocos en España que ha invertido de verdad en herramientas para desarrolladores: Codee, que hace análisis de código y optimización de rendimiento para C/C++/Fortran, está en Swanlaab II. En cartera también hay Sax AI (agentes de IA para KYC bancario, Reino Unido), Dolfin (plataforma AI-native de inteligencia de compensación comercial), Nymiz (enmascarado de datos con IA), IriusRisk (threat modeling automatizado) y Landbot. Su tesis premia exactamente lo que el cliente tiene: barreras de entrada altas y know-how propietario. Es madrileño, castellanoparlante nativo y lidera rondas con cheques de 500.000 € a 3 M€. Ángulo de contacto: hablarle de barreras de entrada y de propiedad del stack, no de crecimiento; y hacerlo cuando exista la demo para inversores, porque su etapa es late-seed, no pre-seed.",
-    "tesis_de_inversion": "Invierte en software empresarial B2B con base tecnológica profunda y barreras de entrada reales. La web del fondo lo formula así: buscan compañías con 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'. La firma se define como 'venture factory' y no como inversor pasivo: aportan 'capital, strategic expertise, and hands-on support', y él explica que 'el apellido Venture Factory viene precisamente de esa capacidad de apoyo operativo, principalmente con foco en las áreas de marketing y ventas'. Sobre los sectores que le atraen ha citado explícitamente la ciberseguridad —dice que 'seguirá contando con más apoyo y atención'—, la computación cuántica, Web3/blockchain y la IA entendida como herramienta instrumental. Su criterio de selección es primero de equipo: 'invertir en buenos equipos, ambiciosos, sin miedo, honestos', y después de mercado y de ventaja competitiva, lo que él llama la 'secret sauce'. Sobre el ecosistema español su lectura es optimista: la última década 'es la historia de un caso de éxito' y los emprendedores españoles 'no tienen ningún complejo a la hora de competir a nivel internacional'. El emprendedor que más admira de su cartera es Stephen de Vries, fundador de IriusRisk (ciberseguridad, Huesca; invertida en 2017), por su salto de 'humilde analista' a referente mundial en threat modeling. ATENCIÓN: el propio fondo incluye 'market traction' entre los requisitos de su vertical de deep tech y B2B software, y su etapa declarada es late-seed y Serie A.",
-    "etapa_y_ticket": [
-      "Late-seed y Serie A temprana (NO pre-seed). Ticket inicial de 500.000 € a 3 M€, con reservas de follow-on de 2 a 4 M€. Lidera rondas (así lo indica vcsheet.com). El vehículo vigente es Swanlaab Tech Fund II FCR, lanzado en junio de 2023 con un primer cierre de 45 M€ y un objetivo final de 60-80 M€; su inversor ancla es Fond-ICO Global y cuenta con BBVA como inversor corporativo además de family offices y privados. El fondo anterior (Swanlaab Giza Innvierte Innovation Fund, 2016) fue el primer fondo hispano-israelí de España y estaba respaldado por Innvierte (CDTI). Fuentes: https://swanlaab.com/strategy/ y https://novobrief.com/swanlaab-tech-fund-ii-begins-operations-with-e45-million-first-closing-eyes-early-stage-b2b-startups/10509/"
-    ]
+    }
   }
 }

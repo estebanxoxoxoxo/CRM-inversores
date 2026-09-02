@@ -107,10 +107,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Wayra exige producto funcionando, tracción inicial y sinergia con Telefónica, y su modelo 2026 es 'venture client': el arquetipo que el cliente quiere evitar. Sólo tiene sentido como conversación de cliente o piloto a futuro.",
     "puntuacion": {
       "tesis": 9,
       "etapa": 0,
@@ -122,21 +121,6 @@
       "bruto": 36,
       "topes": [],
       "total": 36
-    },
-    "motivo": "Wayra exige producto funcionando, tracción inicial y sinergia con Telefónica, y su modelo 2026 es 'venture client': el arquetipo que el cliente quiere evitar. Sólo tiene sentido como conversación de cliente o piloto a futuro.",
-    "nivel_v1": "x",
-    "prioridad_agente": "C",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "Wayra exige producto funcionando, tracción inicial y sinergia con Telefónica (venture client). Es el arquetipo que el cliente evita."
-  },
-  "nombre_original": "Andrés Saborido",
-  "textos_v1": {
-    "por_que_es_interesante": "El interés es real pero limitado y hay que ser honesto sobre por qué. A favor: es hispanohablante nativo, lleva quince años en el ecosistema, ha participado en más de 300 acuerdos de inversión, la IA y la ciberseguridad están entre sus cuatro prioridades declaradas para 2026, hay 20 millones de euros para desplegar este año, y su discurso público sobre infraestructura digital y megaclusters de computación conecta con la tesis del cliente. Ha invertido en LuxQuanta (criptografía cuántica, spin-off del ICFO, ronda de 8 millones de euros en octubre de 2025) y en Capably (automatización con agentes de IA, ronda semilla de 3,7 millones de euros en mayo de 2025 liderada por Boost Capital Partners), lo que confirma apetito por deep tech y por IA agéntica. EN CONTRA, y es determinante: los criterios publicados de Wayra exigen producto funcionando, tracción inicial y sinergia con el negocio de Telefónica, y el modelo 2026 es explícitamente 'venture client' — el valor se mide en contratos reales con el grupo. Para una startup pre-producto y sin usuarios, eso es exactamente el tipo de inversor que el cliente ha dicho que quiere evitar. Ángulo realista: no plantearlo como ronda de inversión sino como conversación de cliente/piloto a futuro, y mantenerlo en la lista solo como contacto de segundo orden.",
-    "tesis_de_inversion": "Bajo su dirección, Wayra ha abandonado definitivamente el modelo de aceleradora tradicional para consolidarse como un Corporate Venture Capital de enfoque INDUSTRIAL, alineado con la estrategia 'Transform & Grow' de Telefónica. Las prioridades declaradas para 2026 son ciberseguridad, inteligencia artificial, redes y comunicaciones, y experiencia de usuario, concentrando la actividad en los mercados y tecnologías clave del grupo. El giro decisivo para evaluar el encaje es que Wayra prioriza el modelo 'venture client' sobre la valoración financiera: según el análisis de su modelo 2026, 'el valor no está en la valoración post-money, sino en contratos reales con Telefónica', y el acceso a los 380 millones de usuarios del grupo se presenta como potencialmente 'más valioso que cualquier ronda de financiación tradicional'. El foco declarado es IA APLICADA, no investigación teórica, y deep tech con casos de uso corporativos claros e integrables en el stack tecnológico de Telefónica. Saborido mide el éxito por encaje estratégico más que por métricas financieras: más de 400 startups han generado negocio a través de Wayra, vendiendo a clientes de Movistar o implementando soluciones internamente. Su discurso público sobre política tecnológica sí es afín a la infraestructura: sostiene que 'para crear campeones tecnológicos europeos, hace falta menos fricción y más infraestructura digital' y reclama que la UE y los gobiernos eliminen fricciones regulatorias y garanticen acceso a infraestructura crítica de computación como los megaclusters. También afirma que 'el deep tech europeo necesita mayor ambición'.",
-    "etapa_y_ticket": [
-      "Wayra anunció que invertirá 20 millones de euros en startups Y FONDOS durante 2026 (El Economista, marzo 2026) — no todo es inversión directa. Tickets muy variables según la fuente: histórico de hasta 250.000 euros por startup, con rangos citados de 50.000 euros a 5 millones; hasta ~350.000 euros en coinversión con otros fondos y hasta 5 millones en inversiones estratégicas. En algunos programas internacionales (Chile, Colombia, México, España, LatAm) el equity ofrecido llega a ~200.000 USD. ETAPA: ha evolucionado desde etapas muy tempranas hacia compañías de Serie A/B con madurez suficiente para colaborar con el grupo. CRITERIO CRÍTICO: los requisitos publicados exigen startups tecnológicas con PRODUCTO FUNCIONANDO, TRACCIÓN INICIAL y SINERGIA con el negocio de Telefónica."
-    ]
+    }
   }
 }

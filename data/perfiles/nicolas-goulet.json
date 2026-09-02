@@ -105,10 +105,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Socio 'de ingeniero' de Adara (MIT), con foco declarado en infraestructura software y IA aplicada y la tesis del cliente ya validada en casa (Airflows, TuringDream, AppFactor); pero es el socio con menor huella en IA, tres operaciones recientes, las tesis las firma Gómez, y Adara ya está cubierta por Gómez y Pillado.",
     "puntuacion": {
       "tesis": 18,
       "etapa": 17,
@@ -120,21 +119,6 @@
       "bruto": 73,
       "topes": [],
       "total": 73
-    },
-    "motivo": "Socio 'de ingeniero' de Adara (MIT), con foco declarado en infraestructura software y IA aplicada y la tesis del cliente ya validada en casa (Airflows, TuringDream, AppFactor); pero es el socio con menor huella en IA, tres operaciones recientes, las tesis las firma Gómez, y Adara ya está cubierta por Gómez y Pillado.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "Cofundador de Adara e ingeniero (Centrale, MIT), pero es el socio con menor huella en IA y dev tools, 3 operaciones recientes y las tesis de IA las firma Gómez; 'Baring PE' no confirmado. Adara ya está cubierta por Gómez y Pillado."
-  },
-  "nombre_original": "Nico Goulet (Nicolas Goulet)",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el socio 'de ingeniero' de Adara: máster del MIT en un laboratorio experimental, fundador que ya fracasó una vez (CityHop) y gestor que sobrevivió al crash de 2000. Eso lo hace receptivo a una conversación de arquitectura y de horizonte largo, no de métricas. Su criterio publicado —visión grande, ejecución rápida y 'the courage to stay the course'— y su promesa de que los fundadores de 2015 le sigan llamando en 2030 son exactamente lo contrario del inversor que pide 'todo servido'. Adara, su fondo, acaba de invertir en Airflows (IA determinista para empresa), TuringDream (orquestación multi-agente) y AppFactor (dev tools de IA), así que la tesis del cliente ya está validada dentro de la casa. Ángulo de contacto: Goulet es la puerta buena si el mensaje es de disciplina de ejecución y de por qué el equipo puede sostener una apuesta técnica durante años; conviene emparejarlo con el ángulo de producto que interesa a Gómez. Ojo: verificar la afirmación de 'Baring Private Equity' — no aparece en ninguna fuente pública consultada.",
-    "tesis_de_inversion": "Invierte en early stage deep tech B2B donde la ingeniería es la ventaja competitiva: en su propia ficha declara foco en 'categories where engineering provides competitive advantage: cybersecurity, infrastructure software, and applied AI in regulated industries'. Su filtro sobre fundadores es explícito y de tres patas: 'vision big enough for a real outcome, execution — building, selling, hiring and firing fast — and the courage to stay the course'. Y su medida de éxito no es financiera sino relacional: 'my measure of success is simple: founders I backed in 2015 should still be calling me in 2030'. Comparte la tesis de casa de Adara —cuando la IA comoditiza la capa superficial del software, el valor cae hacia los datos propietarios, la confianza, la profundidad de dominio y los sistemas físicos— y los cuatro dominios del fondo (Capture, Secure, Compute, Connect). Startup Intros resume su especialidad como ciberseguridad, IA aplicada e infraestructura cloud vendidas a banca, seguros, retail y sectores tradicionales en transformación digital. Es el socio más orientado a la relación larga con el fundador y a la disciplina de ejecución; el discurso de producto/arquitectura de IA lo lleva más Alberto Gómez.",
-    "etapa_y_ticket": [
-      "Seed y Serie A principalmente, dentro del rango del fondo de 500.000 € a 5 M€ de ticket inicial (adara.vc). Signal NFX le atribuye personalmente cheques de 100 k$ a 5 M$ con sweet spot ~1,5 M$ y foco declarado en seed/Serie A deeptech. Adara lidera y co-lidera rondas seed."
-    ]
+    }
   }
 }

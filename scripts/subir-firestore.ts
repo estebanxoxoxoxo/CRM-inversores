@@ -1,29 +1,28 @@
 /**
- * Sube data/perfiles/*.json a Firestore: un documento por inversor en la colección `inversores` (id = slug)
- * y un documento resumen `meta/indice` para listados y filtros.
+ * Sube data/perfiles/*.json a Firestore tal cual: un documento por inversor en `inversores/{id}`, el resumen en
+ * `meta/indice` y el criterio de la rúbrica en `meta/criterio`. Antes de subir valida y recalcula cada perfil.
  *
- * Uso: npm run subir   (o npx tsx scripts/subir-firestore.ts)
- *
- * Credenciales, en este orden:
- *  1. Si en la raíz del proyecto hay un archivo *firebase-adminsdk*.json o *serviceAccount*.json (ambos ignorados
- *     por git), usa firebase-admin con esa service account: no depende de las reglas de seguridad.
- *  2. Si no, usa el SDK web con la config de .env (VITE_FIREBASE_*): requiere que las reglas de Firestore
- *     permitan escribir sin autenticación.
+ * Uso: npm run subir
+ * Credenciales: (1) service account *firebase-adminsdk*.json o *serviceAccount*.json en la raíz (ignorada por git);
+ * (2) si no, el SDK web con .env (VITE_FIREBASE_*), que requiere reglas de Firestore que permitan escribir.
  */
 import "dotenv/config";
 import fs from "node:fs";
 import path from "node:path";
-import { IndiceSchema, InversorSchema, resumenDe, type Inversor } from "../src/types/inversor";
+import { CRITERIO, IndiceSchema, resumenDe, type Inversor } from "../src/types/inversor";
+import { ordenar, recalcularPerfil } from "./recalcular";
 
 const raiz = path.resolve(import.meta.dirname, "..");
 const carpeta = path.join(raiz, "data", "perfiles");
-const perfiles: Inversor[] = fs
-  .readdirSync(carpeta)
-  .filter((f) => f.endsWith(".json"))
-  .sort()
-  .map((f) => InversorSchema.parse(JSON.parse(fs.readFileSync(path.join(carpeta, f), "utf8"))));
-const indice = IndiceSchema.parse({ generado: new Date().toISOString().slice(0, 10), version: 2, total: perfiles.length, perfiles: perfiles.map(resumenDe) });
+const perfiles: Inversor[] = ordenar(
+  fs
+    .readdirSync(carpeta)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => recalcularPerfil(JSON.parse(fs.readFileSync(path.join(carpeta, f), "utf8")))),
+);
 const ahora = new Date().toISOString();
+const indice = IndiceSchema.parse({ generado: ahora.slice(0, 10), total: perfiles.length, perfiles: perfiles.map(resumenDe) });
+const criterio = { texto: CRITERIO, actualizado: ahora };
 
 const serviceAccount = fs.readdirSync(raiz).find((f) => /(firebase-adminsdk|serviceAccount).*\.json$/i.test(f));
 
@@ -33,14 +32,14 @@ async function subirConAdmin(archivo: string) {
   admin.initializeApp({ credential: admin.credential.cert(cred), projectId: cred.project_id });
   const db = admin.firestore();
   console.log(`Credencial: service account ${archivo} (proyecto ${cred.project_id})`);
-  const TAM = 400;
-  for (let i = 0; i < perfiles.length; i += TAM) {
+  for (let i = 0; i < perfiles.length; i += 400) {
     const batch = db.batch();
-    for (const p of perfiles.slice(i, i + TAM)) batch.set(db.collection("inversores").doc(p.id), { ...p, actualizado: ahora });
+    for (const p of perfiles.slice(i, i + 400)) batch.set(db.collection("inversores").doc(p.id), { ...p, actualizado: ahora });
     await batch.commit();
-    console.log(`Subidos ${Math.min(i + TAM, perfiles.length)}/${perfiles.length} perfiles a inversores/`);
+    console.log(`Subidos ${Math.min(i + 400, perfiles.length)}/${perfiles.length} perfiles a inversores/`);
   }
   await db.collection("meta").doc("indice").set(indice);
+  await db.collection("meta").doc("criterio").set(criterio);
 }
 
 async function subirConWeb() {
@@ -59,21 +58,21 @@ async function subirConWeb() {
   });
   const db = getFirestore(app);
   console.log(`Credencial: SDK web (proyecto ${process.env.VITE_FIREBASE_PROJECT_ID}); depende de las reglas de Firestore`);
-  const TAM = 400;
-  for (let i = 0; i < perfiles.length; i += TAM) {
+  for (let i = 0; i < perfiles.length; i += 400) {
     const batch = writeBatch(db);
-    for (const p of perfiles.slice(i, i + TAM)) batch.set(doc(db, "inversores", p.id), { ...p, actualizado: ahora });
+    for (const p of perfiles.slice(i, i + 400)) batch.set(doc(db, "inversores", p.id), { ...p, actualizado: ahora });
     await batch.commit();
-    console.log(`Subidos ${Math.min(i + TAM, perfiles.length)}/${perfiles.length} perfiles a inversores/`);
+    console.log(`Subidos ${Math.min(i + 400, perfiles.length)}/${perfiles.length} perfiles a inversores/`);
   }
   const b = writeBatch(db);
   b.set(doc(db, "meta", "indice"), indice);
+  b.set(doc(db, "meta", "criterio"), criterio);
   await b.commit();
 }
 
 (serviceAccount ? subirConAdmin(serviceAccount) : subirConWeb())
   .then(() => {
-    console.log(`Subido meta/indice con ${indice.total} entradas. Listo.`);
+    console.log(`Subidos meta/indice (${indice.total} entradas) y meta/criterio. Listo.`);
     process.exit(0);
   })
   .catch((e: unknown) => {
@@ -82,9 +81,8 @@ async function subirConWeb() {
     if (/permission|PERMISSION_DENIED|insufficient/i.test(msg)) {
       console.error(
         "\nLas reglas de Firestore no permiten escribir con el SDK web sin autenticación. Opciones:\n" +
-          " (a) Descargar una service account (Firebase Console > Configuración del proyecto > Cuentas de servicio > Generar clave)\n" +
-          "     y dejar el JSON en la raíz del proyecto (queda ignorado por git); volver a ejecutar npm run subir.\n" +
-          " (b) Permitir temporalmente la escritura en Firestore > Reglas y volver a ejecutar.",
+          " (a) service account en la raíz del proyecto (Firebase Console > Configuración > Cuentas de servicio > Generar clave);\n" +
+          " (b) permitir la escritura en Firestore > Reglas.",
       );
     }
     process.exit(1);

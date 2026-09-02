@@ -110,10 +110,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Áreas oficiales 'AI Enablement, Developer Platforms, Memory & Inference' en un fondo pre-seed (Flybridge VII, 100M USD, 40+ inversiones al año), colombiano confirmado y con podcast propio como vía de entrada; pero es Associate y no decide. Tope aplicado por no firmar cheque.",
     "puntuacion": {
       "tesis": 24,
       "etapa": 17,
@@ -125,21 +124,6 @@
       "bruto": 69,
       "topes": [],
       "total": 69
-    },
-    "motivo": "Áreas oficiales 'AI Enablement, Developer Platforms, Memory & Inference' en un fondo pre-seed (Flybridge VII, 100M USD, 40+ inversiones al año), colombiano confirmado y con podcast propio como vía de entrada; pero es Associate y no decide. Tope aplicado por no firmar cheque.",
-    "nivel_v1": "2",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "B",
-    "confianza_final": "alta",
-    "motivo_v1": "Áreas oficiales 'AI Enablement, Developer Platforms, Memory & Inference' en un fondo pre-seed (Flybridge VII, 100M USD), colombiano confirmado, podcast propio; es Associate y no decide: puerta al fondo."
-  },
-  "nombre_original": "Daniel Porras Reyes",
-  "textos_v1": {
-    "por_que_es_interesante": "Es la vía de acceso más practicable del lote y la de origen mejor documentado. Sus tres áreas declaradas —AI enablement, developer platforms, memory & inference— describen casi exactamente el producto del cliente. Flybridge escribe cheques pre-seed de hasta 250 K$ vía Next Wave y seeds de 1-3 M$ en compañías sin ingresos, y hace más de 40 inversiones al año, así que el umbral de entrada es bajo. Y, crucialmente, tiene un canal de entrada público y propio: presenta 'AI Without Borders', un podcast dedicado a emprendedores, investigadores y operadores latinoamericanos que empujan la frontera de la IA, con más de 20 episodios e invitados como Guillermo Rauch (Vercel), Juan Camilo Pinzón (Yutori) o Fernando Neto (Liquid AI). Ángulo: proponerle contenido, no capital. Escribirle sobre su tesis de memoria y sobre la interacción agente-sistema de ficheros, ofreciendo datos propios del harness, y dejar que la conversación de inversión venga después. No decide, pero origina y escribe la tesis interna.",
-    "tesis_de_inversion": "Sus áreas declaradas en la web del fondo son 'AI Enablement, Developer Platforms, Memory & Inference': literalmente infraestructura y plataformas para quien construye con IA. En su perfil describe su interés como compañías que desarrollan infraestructura de datos y plataformas para constructores y operadores de aplicaciones de IA. Su ensayo más citado, 'Memex 2.0: Memory The Missing Piece for Real Intelligence' (17 de julio de 2025, coescrito con Vadym Barda, ingeniero ex-LangChain y ex-Kensho), sostiene que la memoria es la capa de infraestructura que falta para que los agentes tengan utilidad a largo plazo, y que ganarán quienes traten la memoria no como almacenamiento sino como arquitectura dinámica para inteligencia compuesta: lock-in por memorias acumuladas, mejora real del rendimiento con el tiempo y eficiencia operativa. Ha escrito además una tesis sobre las carencias en la interacción de los agentes con los sistemas de ficheros y dónde pueden construir fundadores en verticales reguladas (legal, salud, servicios financieros), y coautorizó el informe de Flybridge sobre la revolución de la UI generativa. Encaja con la tesis del fondo: infraestructura de IA, plataformas de desarrollo, aplicaciones de negocio agénticas y software que reorganiza cómo se trabaja.",
-    "etapa_y_ticket": [
-      "Flybridge es un fondo seed y pre-seed. Fondo vigente: Flybridge Capital Fund VII, 100 M$, vintage septiembre de 2025, con oficinas en Nueva York y Boston. Cheques: pre-seed hasta 250 K$ y seed de 1 a 3 M$. Además opera el programa Next Wave, una red de más de 50 fundadores, emprendedores y ejecutivos de compañías como Anthropic, NVIDIA, OpenAI o Toast, a través de la cual el fondo hace más de 40 inversiones al año en el borde de su tesis. Ese vehículo pre-seed es la vía más realista de entrada para una startup sin tracción."
-    ]
+    }
   }
 }

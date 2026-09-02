@@ -1,60 +1,61 @@
 # CRM inversores
 
-App para filtrar y consultar los perfiles de inversores deep tech / dev tools hispanohablantes investigados y auditados
-(84 perfiles, auditoría v2 del 2 de septiembre de 2026 con puntuación 0-100).
+App para filtrar y consultar perfiles de inversores deep tech / dev tools hispanohablantes (84 perfiles auditados el
+2 de septiembre de 2026, nivel 0-100).
+
+## Una sola fuente de verdad
+
+`data/perfiles/<id>.json` es el perfil completo, incluida la auditoría. Se edita ahí y en ningún otro sitio; Firestore
+recibe una copia idéntica. Flujo:
+
+```bash
+npm run recalcular   # deriva nivel/banda/prioridad de la puntuación, valida contra el tipo, regenera data/indice.json
+npm run subir        # sube data/perfiles a inversores/{id}, el resumen a meta/indice y la rúbrica a meta/criterio
+npm run importar -- <archivo.json | carpeta>   # alta de inversores nuevos desde un JSON de investigación (auditoría pendiente)
+npm run dev          # la app lee sólo de Firestore
+```
 
 ## Estructura
 
-- `src/types/inversor.ts` — **tipo canónico** `Inversor` (esquema zod + tipo TypeScript inferido). Única definición:
-  scripts y app validan contra él.
-- `data/perfiles/<id>.json` — un perfil por inversor, normalizado, auditado y validado. `data/indice.json` — resumen para listados.
-- `data/auditoria_v2/lote*.json` — decisiones de la auditoría por perfil: desglose de puntuación, motivo y los tres
-  campos de síntesis en puntos (`por_que`, `tesis`, `etapa_y_ticket`). Editar aquí y correr `npm run auditar`.
-- `scripts/importar-perfiles.ts` — importa los JSON de la investigación original, normaliza y aplica la auditoría v2. `npm run importar [carpeta]`.
-- `scripts/aplicar-auditoria-v2.ts` — re-aplica la auditoría sobre `data/perfiles` y regenera el índice. `npm run auditar`.
-- `scripts/subir-firestore.ts` — sube `data/` a Firestore (`inversores/{id}` y `meta/indice`). `npm run subir`.
-- `src/lib/datos.ts` — lee de Firestore y, si no está disponible o las reglas lo bloquean, de `data/` local.
-- `src/lib/filtros.ts` — filtros, orden y sincronización con la URL (los filtros se comparten por enlace).
+- `src/types/inversor.ts` — **tipo canónico** `Inversor` (esquema zod + tipo TypeScript), la rúbrica (`CRITERIO`), los
+  umbrales de banda y `calcularPuntuacion`. Todo lo demás se apoya en este archivo.
+- `data/perfiles/<id>.json` — un perfil por inversor. `data/indice.json` — resumen derivado para listados.
+- `scripts/recalcular.ts`, `scripts/subir-firestore.ts`, `scripts/importar-perfiles.ts` — los tres comandos de arriba.
+- `src/lib/datos.ts` — lectura desde Firestore (`meta/indice` para el listado, `inversores/{id}` para la ficha).
+- `src/lib/filtros.ts` — filtros, orden y sincronización con la URL. `src/components/` — filtros, lista y ficha.
+
+## Auditoría dentro del perfil
+
+```json
+"auditoria": {
+  "estado": "revisado",            // o "pendiente" (alta nueva sin puntuar)
+  "fecha": "2026-09-02",
+  "motivo": "...",                 // por qué tiene ese nivel, en términos absolutos
+  "puntuacion": {
+    "tesis": 25, "etapa": 10, "decision": 20, "espanol": 6, "acceso": 5,   // entradas editables
+    "otros_aspectos": -6, "otros_aspectos_motivo": "...",                  // entrada editable, motivo obligatorio si != 0
+    "bruto": 60, "topes": [], "total": 60                                   // derivados: no editar
+  }
+}
+```
+
+Rúbrica: tesis y encaje 0-25, etapa y pre-tracción 0-20, capacidad de decidir y capital 0-20, español y cercanía 0-15,
+acceso y actividad 0-15, otros aspectos -15/+5. Topes: tesis < 6 → máx. 45; tesis < 10 → máx. 55; decisión ≤ 8 → máx. 69;
+etapa ≤ 7 → máx. 64. Bandas: Indiscutible ≥ 78, Alto potencial 60-77, Reserva 45-59, Descartado < 45, y "Sin auditar"
+mientras el estado sea pendiente. `nivel`, `banda` y `prioridad` (A/B/C) de la raíz se derivan de aquí con `npm run recalcular`.
+
+Reglas de redacción: cada ficha se escribe en términos absolutos, sin comparaciones con otros perfiles. Origen y español
+sólo con autoidentificación pública o hechos biográficos documentados. Emails sólo de fuentes públicas, con `email_estado`
+explícito; la procedencia de cada vía va en `fuente_vias_de_contacto`. `web_personal` es el sitio, blog o newsletter que
+controla la propia persona, nunca la web del fondo.
 
 ## Puesta en marcha
 
 ```bash
 npm install
-cp .env.example .env   # completar con la config web de Firebase (VITE_FIREBASE_*)
+cp .env.example .env   # config web de Firebase (VITE_FIREBASE_*)
 npm run dev
 ```
 
-`VITE_FUENTE_DATOS=local` fuerza los JSON locales; `VITE_FUENTE_DATOS=firestore` fuerza Firestore.
-
-## Subir los datos a Firestore
-
-`npm run subir` usa, en este orden: (1) una service account si hay un archivo `*firebase-adminsdk*.json` o
-`*serviceAccount*.json` en la raíz (ignorado por git; no depende de las reglas); (2) el SDK web con `.env`, que requiere
-reglas de Firestore que permitan escribir. Para que la app lea desde el navegador, las reglas deben permitir la lectura
-de `meta/indice` e `inversores/{id}`.
-
-## Nivel (0-100) y bandas
-
-Cada perfil tiene un `nivel` de 0 a 100 asignado en revisión manual con esta rúbrica (`auditoria.puntuacion`). Las cinco dimensiones suman hasta 95; 'otros aspectos' suma o resta hasta llegar a 100:
-
-| Dimensión | Máx. | Qué mide |
-|---|---|---|
-| Tesis y encaje temático | 25 | Infra de IA / dev tools / deep tech de software, con prueba en cartera |
-| Etapa y pre-tracción | 20 | Primer cheque sin tracción, lidera; penaliza Serie A y exigencia de métricas |
-| Capacidad de decidir y capital | 20 | GP con fondo vigente y ticket adecuado; penaliza venture partners, associates y fondos sin cerrar |
-| Español y cercanía | 15 | Documentado nativo 15; origen documentado sin fluidez confirmada 8-10; sólo herencia 3-5; sin evidencia 0-2 |
-| Acceso y actividad | 15 | Activo 2025-26, vía de contacto pública, cadencia |
-| Otros aspectos | -15 / +5 | Circunstancias concretas que las dimensiones no miden: conflicto de cartera con un competidor, filtros legales o geográficos, redundancia con otro contacto del mismo fondo, estado del fondo, bonus por un deal comparable. El motivo va en `puntuacion.otros_aspectos_motivo` (fuente: `data/auditoria_v2/otros_aspectos.json`) |
-
-Topes que encajan la pureza: tesis < 6 → máximo 45; tesis < 10 → máximo 55; sin capacidad de firmar cheque
-(decisión ≤ 8) → máximo 69; Serie A o exigencia de tracción (etapa ≤ 7) → máximo 64.
-
-Bandas derivadas del nivel: **Indiscutible** ≥ 78 · **Alto potencial** 60-77 · **Reserva** 45-59 · **Descartado** < 45.
-`prioridad` (A/B/C) se deriva del nivel; `confianza` califica las fuentes, no el encaje. La auditoría v1 (niveles 1/2/r/x)
-se conserva en `auditoria.nivel_v1`, `prioridad_v1` y `motivo_v1`; los textos largos originales en `textos_v1`.
-
-Regla de origen: sólo autoidentificación pública o hechos biográficos documentados; nunca inferencia por apellido.
-`web_personal` es el sitio, blog o newsletter que controla la propia persona (nunca la web del fondo), curado en
-`data/auditoria_v2/web_personal.json`; vacío si no se localizó. Emails: sólo de fuentes públicas, con `email_estado` explícito; ninguna dirección inventada. La procedencia de cada vía
-(email, LinkedIn, otras) se guarda en `fuente_vias_de_contacto` como listas de notas cortas y se muestra como última
-sección de la ficha.
+Las reglas de Firestore deben permitir leer `meta/*` e `inversores/*` desde el navegador; para `npm run subir`, o bien
+permiten escribir, o bien se deja una service account `*firebase-adminsdk*.json` en la raíz (ignorada por git).

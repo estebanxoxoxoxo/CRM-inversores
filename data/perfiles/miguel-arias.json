@@ -107,10 +107,9 @@
     ]
   },
   "auditoria": {
-    "version": 2,
+    "estado": "revisado",
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
-    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "motivo": "Operador técnico que dejó Kfund en junio de 2026 para construir infraestructura de IA ('esta ola no pienso vivirla desde la grada'), con historial de 130+ inversiones tempranas en Wayra; pero hoy no dispone de capital institucional, su ticket ángel no es público y su propio proyecto puede solapar con el harness. Puerta de entrada, no capital.",
     "puntuacion": {
       "tesis": 14,
       "etapa": 12,
@@ -122,21 +121,6 @@
       "bruto": 47,
       "topes": [],
       "total": 47
-    },
-    "motivo": "Operador técnico que dejó Kfund en junio de 2026 para construir infraestructura de IA ('esta ola no pienso vivirla desde la grada'), con historial de 130+ inversiones tempranas en Wayra; pero hoy no dispone de capital institucional, su ticket ángel no es público y su propio proyecto puede solapar con el harness. Puerta de entrada, no capital.",
-    "nivel_v1": "x",
-    "prioridad_agente": "B",
-    "confianza_agente": "alta",
-    "prioridad_v1": "C",
-    "confianza_final": "alta",
-    "motivo_v1": "Dejó Kfund en junio de 2026; hoy ángel sin ticket público y construyendo su propio proyecto de infraestructura de IA (posible solapamiento). No puede comprometer capital institucional."
-  },
-  "nombre_original": "Miguel Arias",
-  "textos_v1": {
-    "por_que_es_interesante": "Es el perfil de esta lista que más se parece al cliente: un operador técnico español que acaba de dejar un fondo precisamente porque quiere construir infraestructura de IA. Su despedida —'esta ola generacional de la IA no pienso vivirla desde la grada'— y su bio actual ('desarrollando un proyecto de infraestructura digital para inteligencia artificial') significan que entiende sin traducción qué es un stack IA-nativo y un harness de agentes. Tiene historial de apostar por tecnología antes de la tracción: en Telefónica firmó más de 130 inversiones en fase temprana (Wayra/Open Future) en ciberseguridad, datos e IA, y en Kfund entró en nFlux AI y Voicemod en pleno arranque de la IA generativa. Ángulo de contacto: no pedirle un cheque institucional (no lo tiene), sino buscarlo como ángel, asesor o coinversor y, sobre todo, como puerta de entrada a Kfund, Telefónica/Wayra, Endeavor, SeedRocket y Chamberí Valley. Gancho natural: comentar con criterio su post 'Nuevos caminos en un mundo de IA' o su libro. Alerta: al estar construyendo su propio proyecto de infraestructura de IA, hay riesgo real de solapamiento competitivo — conviene sondearlo antes de compartir detalle técnico.",
-    "tesis_de_inversion": "Su tesis actual es la de un operador que ha vuelto a construir. En junio de 2026 explicó por qué dejaba el capital riesgo: 'cinco años es mucho tiempo para vivir dentro del riesgo, el error y la niebla permanente', y sobre todo: 'esta ola generacional de la IA no pienso vivirla desde la grada'. Añadió una tesis geográfica explícita: 'este es el momento de Europa, de construir desde aquí proyectos y compañías que definan nuestro futuro'. Como inversor, su criterio siempre ha sido de operador: aporta 'expertise concreta y asesoramiento honesto', con especialización en escalado SaaS y en operaciones (su libro 'El Latido de tu Startup' es literalmente un manual de eficiencia operativa, descrito como 'un sistema operativo para fundadores'). En Telefónica invirtió en más de 130 startups en Europa y LatAm a través de Wayra y Open Future, con foco declarado en ciberseguridad, datos, IA, movilidad, IoT, realidad virtual y fintech. En Kfund lideró Leadwind, cuyas primeras inversiones incluyeron nFlux AI, Digibee, Voicemod y Factorial. Escribe siempre que 'intentó ser el inversor que él habría querido tener como emprendedor'.",
-    "etapa_y_ticket": [
-      "Como business angel: pre-seed y seed, tickets de ángel (no publicados; no hay cifra verificada). Como GP de Kfund hasta junio de 2026 gestionaba Leadwind, fondo de 250 M$ de early-growth (Serie A a Serie C) lanzado en septiembre de 2021 con Telefónica y con BBVA incorporado en abril de 2022; Kfund/Kanoar gestiona además K Fund I, II y III y vehículos de pre-seed. IMPORTANTE: al haber dejado el fondo, hoy NO dispone de capital institucional que desplegar; su valor es de ángel, asesor y puerta de entrada."
-    ]
+    }
   }
 }

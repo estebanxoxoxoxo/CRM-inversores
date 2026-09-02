@@ -1,8 +1,8 @@
 {
   "id": "marc-clemente",
   "nombre": "Marc Clemente Yeves",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 75,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "media",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Madrid, España",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Pre-seed puro, incluso pre-producto y pre-tracción. Histórico documentado: K Founders arrancó en julio de 2020 con cheques de hasta 100.000 € para empresas con menos de 6 meses de vida; en junio de 2024 el equipo pre-seed publicó un rango de 100.000-350.000 € con ronda media de pre-seed de 1-1,5 M€ y objetivo de ~50 empresas; en abril de 2026 lanzan K Founders Preseed II, ~20 M€, con ticket inicial de ~300.000 €. Follow-on declarado en el lanzamiento original: 200.000 € a 2.000.000 € en rondas posteriores desde los fondos mayores de Kfund. Kfund como casa invierte de 100 k€ a 10 M€. Nota importante: en pre-seed Kfund declara explícitamente que suele CO-INVERTIR con leads tier-one, no liderar.",
+  "etapa_y_ticket": [
+    "Pre-seed puro, incluso pre-producto; empresas de menos de 6 meses.",
+    "K Founders Preseed II (abr-2026): ~20M€, ticket inicial ~300.000 €; follow-on de 200k a 2M€ desde los fondos mayores.",
+    "Kfund suele co-invertir con leads tier-one, no liderar."
+  ],
   "linkedin": "https://www.linkedin.com/in/marcclementeyeves/",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha en el fondo: https://www.kfund.vc/team | X/Twitter: https://twitter.com/MarcCley (enlazado desde su ficha oficial en kfund.vc/team; el contenido no ha podido verificarse porque x.com bloquea el acceso automatizado) | LinkedIn (versión ES): https://es.linkedin.com/in/marcclementeyeves | Posts firmados por él en el blog de Kfund: https://www.kfund.vc/post/k-founders-invests-in-rosita-tacter-and-nuna-and-launches-a-new-batch-only-focused-on-b2b-companies y https://www.kfund.vc/post/we-are-doubling-down-on-our-pre-seed-efforts | Anuncio de su nombramiento: https://www.kfund.vc/post/kfund-promotes-marc-clemente-and-jaime-novoa-to-partner | Podcast de la casa: 'PodKast de K Fund' https://open.spotify.com/show/4fIVIKsz8V2jGDdZ8CTDBk (no se ha localizado un episodio protagonizado por él) | Perfil en El Referente: https://elreferente.es/emprendedores/marc-clemente/ (devuelve 403 a acceso automatizado, pero existe y es indexable) | No se le ha localizado newsletter propia, blog personal ni GitHub.",
   "email": "kfounders@kfund.vc",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "https://www.kfund.vc/contact (publica dealflowK@kfund.vc para fundadores e info@kfund.vc) y https://www.kfund.vc/post/k-founders-invests-in-rosita-tacter-and-nuna-and-launches-a-new-batch-only-focused-on-b2b-companies (publica kfounders@kfund.vc como contacto del programa pre-seed). El email personal de Marc no aparece en ninguna fuente pública consultada. | buzón oficial del programa pre-seed que él dirige, publicado por el propio Kfund en los posts de K Founders. Alternativas verificadas del fondo: dealflowK@kfund.vc (la dirección que Kfund indica en su página de contacto para que los fundadores manden su proyecto) e info@kfund.vc (colaboraciones e inversores). Teléfono publicado: +34 915789609. Email personal directo de Marc Clemente: no encontrado. Kfund NO publica direcciones individuales de sus socios en ninguna fuente consultada, por lo que no existe un patrón fiable que inferir; proponer marc@kfund.vc o mclemente@kfund.vc sería especulación pura y no está respaldado por ninguna evidencia",
-  "tesis_de_inversion": "Marc Clemente dirige la pata pre-seed de Kfund con una tesis que el propio fondo ha puesto por escrito. La misión declarada del equipo pre-seed es 'to serve as the first institutional and professional money, acting like an angel: agile, intimate and 100% founder-focused' (https://www.kfund.vc/post/we-are-doubling-down-on-our-pre-seed-efforts, 10 de junio de 2024, post coescrito por él). Los cuatro pilares que enumera ese post son literales: 'Obsessing on founder-market fit', 'Focusing on big markets', 'Co-investing with strong leads' y 'Building a diversified portfolio' (agnósticos en vertical y geografía), más un quinto operativo, 'Founder-Friendly and Agile', con términos estandarizados y decisiones rápidas. Cuando él mismo anunció el batch B2B de K Founders escribió que buscaban 'software-based products that aim to be 10x better than the alternatives in the market and can become defensible in the long term', en mercados con potencial de 100 M€ de ingresos anuales, y que 'we wanted to invest in founders with a strong conviction in what they do and the experience needed to carry out that vision'. En abril de 2026, al presentar K Founders Preseed II (~20 M€, ticket ~300 k€), su declaración a webcapitalriesgo fue: 'Hemos invertido en 40 compañías, de las cuales más del 70% están fuera de España. Queremos mantener la misma estrategia que iniciamos con el vehículo previo'. En su ficha oficial declara foco personal en logística, foodtech y fintech, no en deep tech.",
+  "por_que_es_interesante": [
+    "Vehículo diseñado para decir sí antes de que existan usuarios: nota convertible, sin consejo, sin DD exhaustiva, 'three weeks from first meeting to money in the bank'.",
+    "Apetito reciente por infraestructura de agentes: 2501 (flotas de agentes para AIOps) y Causa Prima (red agente a agente).",
+    "Guía pública de DD técnica: en pre-seed 'we typically don't do any dedicated tech DD'.",
+    "Ángulo: kfounders@kfund.vc con arquitectura y CTO por delante, referencias 2501 y Causa Prima, y un lead potencial (en pre-seed coinvierten)."
+  ],
+  "tesis_de_inversion": [
+    "Primer dinero institucional 'acting like an angel: agile, intimate and 100% founder-focused'.",
+    "Pilares: founder-market fit, mercados grandes, co-invertir con leads fuertes, cartera diversificada, términos estándar y decisión rápida.",
+    "Busca productos software '10x better than the alternatives' y defendibles a largo plazo, en mercados de 100M€ de ingresos potenciales.",
+    "40 compañías invertidas, más del 70% fuera de España; foco personal declarado en logística, foodtech y fintech."
+  ],
   "antecedentes": "Formación: según su perfil de LinkedIn cursó estudios universitarios entre 2010 y 2015 —Derecho y ADE en Valencia, según la reseña de El Referente— y en 2016-2017 completó el Máster en Venture Capital & Private Equity dirigido por la Fundación Rafael del Pino junto al Instituto de Capital Riesgo, que aparece explícitamente en su LinkedIn. Perfil de formación jurídico-empresarial, no técnico ni de ingeniería (dato relevante y confirmado por dos fuentes independientes). Primer empleo: analista en BlueBull Ventures, boutique de M&A especializada en startups y alta tecnología; su propia bio en kfund.vc lo dice literalmente: 'Before joining K I was an analyst at BlueBull Ventures, an M&A boutique specializing in startups and high tech'. Estuvo allí aproximadamente un año antes del máster. Entró en Kfund como analista y ha hecho toda su carrera inversora dentro de la casa: la ficha oficial lo describe como 'Analyst turned Investment Team Member' y añade 'I'm now part of K Fund's investment team, with a strong focus on areas such as logistics, foodtech and fintech. I also lead our pre-seed investment program, K Founders'. Kfund lo promovió a Partner junto a Jaime Novoa, destacando que 'Marc has been instrumental in shaping our investment strategy, diligently organizing internal teams and processes'. Desde 2020 es el responsable de K Founders y desde junio de 2024 codirige el equipo pre-seed dedicado (inicialmente con Isabel Salgueiro).",
-  "por_que_es_interesante": "Es, con diferencia, la puerta pre-seed más institucional de España para una startup sin tracción. K Founders nació explícitamente para invertir en empresas de menos de 6 meses de vida, con nota convertible, sin puesto en el consejo, sin due diligence exhaustiva y con un compromiso público de 'no more than three weeks from first meeting to money in the bank' (Jaime Novoa, TechCrunch, julio de 2020); en el caso de Tacter la decisión tardó menos de una semana. Es decir: el vehículo está diseñado para decir sí antes de que existan usuarios. Además, la cartera reciente demuestra apetito por infraestructura de agentes: 2501 (flotas de agentes autónomos para AIOps e infraestructura IT/cloud) es una de las cinco compañías que Kfund destaca del primer fondo pre-seed, y Causa Prima (red agente-a-agente para transacciones financieras B2B, Madrid/Múnich) aparece entre su actividad reciente. Kfund publica además una guía de due diligence técnica que en pre-seed dice literalmente 'we typically don't do any dedicated tech DD (mostly because, in many cases, there is little to nothing to audit)'. Ángulo de contacto: escribir a kfounders@kfund.vc con arquitectura y CTO por delante, encuadrando el harness de agentes como infraestructura (referencias 2501 y Causa Prima) y presentando un lead potencial, porque en pre-seed Kfund coinvierte más que lidera.",
   "inversiones_relevantes": [
     "2501 (destacada por Kfund como una de las cinco compañías del primer fondo K Founders Preseed; ronda de 9,3-12 M$ liderada por Cusp Capital en diciembre de 2025; plataforma de AIOps con 'fleets of autonomous agents' para infraestructura IT y cloud) — es la inversión pre-seed más cercana a un harness de agentes en toda la cartera",
     "Causa Prima (2026, pre-seed de 8,5 M€ liderada por Creandum con Kfund, HelloWorld y ángeles de Qonto, Pennylane, SAP, ING, SoFi, Lidl y DeepMind; red agente-a-agente para transacciones financieras B2B, Madrid y Múnich) — aparece entre la actividad reciente de Marc en LinkedIn; agentes autónomos como infraestructura",
@@ -98,17 +112,36 @@
     "https://dealflow.es"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 12,
+      "etapa": 20,
+      "decision": 14,
+      "espanol": 15,
+      "acceso": 14,
+      "ajuste": 0,
+      "bruto": 75,
+      "topes": [],
+      "total": 75
+    },
+    "motivo": "La puerta pre-seed más institucional de España para una startup sin tracción: K Founders Preseed II (20M€) existe para empresas de menos de seis meses, sin DD técnica, con decisión en tres semanas, y ya respaldó 2501 y Causa Prima. Reservas: ticket ~300k, co-invierte sin liderar, fondo generalista y su foco personal es logística, foodtech y fintech.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "media",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "media",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "K Founders Preseed II (20M€) existe para empresas de menos de 6 meses, sin DD técnica y con decisión en tres semanas; ya respaldó 2501 (flotas de agentes) y Causa Prima (infra agente a agente). Reservas: ~300k, co-invierte sin liderar, fondo generalista."
+    "motivo_v1": "K Founders Preseed II (20M€) existe para empresas de menos de 6 meses, sin DD técnica y con decisión en tres semanas; ya respaldó 2501 (flotas de agentes) y Causa Prima (infra agente a agente). Reservas: ~300k, co-invierte sin liderar, fondo generalista."
   },
   "nombre_original": "Marc Clemente Yeves",
-  "email_original": "kfounders@kfund.vc — buzón oficial del programa pre-seed que él dirige, publicado por el propio Kfund en los posts de K Founders. Alternativas verificadas del fondo: dealflowK@kfund.vc (la dirección que Kfund indica en su página de contacto para que los fundadores manden su proyecto) e info@kfund.vc (colaboraciones e inversores). Teléfono publicado: +34 915789609. Email personal directo de Marc Clemente: no encontrado. Kfund NO publica direcciones individuales de sus socios en ninguna fuente consultada, por lo que no existe un patrón fiable que inferir; proponer marc@kfund.vc o mclemente@kfund.vc sería especulación pura y no está respaldado por ninguna evidencia."
+  "email_original": "kfounders@kfund.vc — buzón oficial del programa pre-seed que él dirige, publicado por el propio Kfund en los posts de K Founders. Alternativas verificadas del fondo: dealflowK@kfund.vc (la dirección que Kfund indica en su página de contacto para que los fundadores manden su proyecto) e info@kfund.vc (colaboraciones e inversores). Teléfono publicado: +34 915789609. Email personal directo de Marc Clemente: no encontrado. Kfund NO publica direcciones individuales de sus socios en ninguna fuente consultada, por lo que no existe un patrón fiable que inferir; proponer marc@kfund.vc o mclemente@kfund.vc sería especulación pura y no está respaldado por ninguna evidencia.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es, con diferencia, la puerta pre-seed más institucional de España para una startup sin tracción. K Founders nació explícitamente para invertir en empresas de menos de 6 meses de vida, con nota convertible, sin puesto en el consejo, sin due diligence exhaustiva y con un compromiso público de 'no more than three weeks from first meeting to money in the bank' (Jaime Novoa, TechCrunch, julio de 2020); en el caso de Tacter la decisión tardó menos de una semana. Es decir: el vehículo está diseñado para decir sí antes de que existan usuarios. Además, la cartera reciente demuestra apetito por infraestructura de agentes: 2501 (flotas de agentes autónomos para AIOps e infraestructura IT/cloud) es una de las cinco compañías que Kfund destaca del primer fondo pre-seed, y Causa Prima (red agente-a-agente para transacciones financieras B2B, Madrid/Múnich) aparece entre su actividad reciente. Kfund publica además una guía de due diligence técnica que en pre-seed dice literalmente 'we typically don't do any dedicated tech DD (mostly because, in many cases, there is little to nothing to audit)'. Ángulo de contacto: escribir a kfounders@kfund.vc con arquitectura y CTO por delante, encuadrando el harness de agentes como infraestructura (referencias 2501 y Causa Prima) y presentando un lead potencial, porque en pre-seed Kfund coinvierte más que lidera.",
+    "tesis_de_inversion": "Marc Clemente dirige la pata pre-seed de Kfund con una tesis que el propio fondo ha puesto por escrito. La misión declarada del equipo pre-seed es 'to serve as the first institutional and professional money, acting like an angel: agile, intimate and 100% founder-focused' (https://www.kfund.vc/post/we-are-doubling-down-on-our-pre-seed-efforts, 10 de junio de 2024, post coescrito por él). Los cuatro pilares que enumera ese post son literales: 'Obsessing on founder-market fit', 'Focusing on big markets', 'Co-investing with strong leads' y 'Building a diversified portfolio' (agnósticos en vertical y geografía), más un quinto operativo, 'Founder-Friendly and Agile', con términos estandarizados y decisiones rápidas. Cuando él mismo anunció el batch B2B de K Founders escribió que buscaban 'software-based products that aim to be 10x better than the alternatives in the market and can become defensible in the long term', en mercados con potencial de 100 M€ de ingresos anuales, y que 'we wanted to invest in founders with a strong conviction in what they do and the experience needed to carry out that vision'. En abril de 2026, al presentar K Founders Preseed II (~20 M€, ticket ~300 k€), su declaración a webcapitalriesgo fue: 'Hemos invertido en 40 compañías, de las cuales más del 70% están fuera de España. Queremos mantener la misma estrategia que iniciamos con el vehículo previo'. En su ficha oficial declara foco personal en logística, foodtech y fintech, no en deep tech.",
+    "etapa_y_ticket": [
+      "Pre-seed puro, incluso pre-producto y pre-tracción. Histórico documentado: K Founders arrancó en julio de 2020 con cheques de hasta 100.000 € para empresas con menos de 6 meses de vida; en junio de 2024 el equipo pre-seed publicó un rango de 100.000-350.000 € con ronda media de pre-seed de 1-1,5 M€ y objetivo de ~50 empresas; en abril de 2026 lanzan K Founders Preseed II, ~20 M€, con ticket inicial de ~300.000 €. Follow-on declarado en el lanzamiento original: 200.000 € a 2.000.000 € en rondas posteriores desde los fondos mayores de Kfund. Kfund como casa invierte de 100 k€ a 10 M€. Nota importante: en pre-seed Kfund declara explícitamente que suele CO-INVERTIR con leads tier-one, no liderar."
+    ]
+  }
 }

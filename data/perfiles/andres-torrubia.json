@@ -1,8 +1,8 @@
 {
   "id": "andres-torrubia",
   "nombre": "Andrés Torrubia",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 47,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "España",
@@ -11,16 +11,29 @@
   "ciudad_base": "Alicante, España (con vinculación operativa a EE.UU.: Fixr y HowMuch.net son startups americanas)",
   "tipo_inversor": "Business angel",
   "tipo_inversor_detalle": "Business angel",
-  "etapa_y_ticket": "No confirmado. Tras revisar Crunchbase (que lo lista únicamente como 'CEO & Co-founder @ Fixr', no como inversor), F6S (que lo lista como 'Advisor at Medbravo'), prensa española y bases de datos de ángeles, NO se ha encontrado ninguna inversión ángel concreta suya con empresa, año, ronda o importe. Cualquier cifra de ticket sería inventada. En el podcast #29 de Juan Such (Rankia, 1 oct 2020) habla de 'su forma de invertir y su cartera actual', pero el resumen público no detalla instrumentos ni participaciones en startups.",
+  "etapa_y_ticket": [
+    "Sin inversiones ángel documentadas en ninguna fuente pública.",
+    "Sin etapa ni ticket conocidos; cualquier cifra sería inventada."
+  ],
   "linkedin": "https://www.linkedin.com/in/andrestorrubia",
   "linkedin_nota": "perfil existente; no accesible sin sesión para verificar el contenido exacto",
   "otros_perfiles": "GitHub (muy activo y el activo más relevante): https://github.com/antorsae | Crunchbase: https://www.crunchbase.com/person/andres-torrubia | F6S: https://www.f6s.com/member/andrestorrubia | The Org (HowMuch.net): https://theorg.com/org/howmuch-net/org-chart/andres-torrubia | Instituto de Inteligencia Artificial: https://iia.es/ y https://iia.es/sobre-nosotros/ | Podcast propio 'Software 2.0': https://www.ivoox.com/podcast-software-2-0_sq_f1807016_1.html | Newsletter del IIA: 'Explicable' | Canal YouTube del IIA: https://www.youtube.com/@iia | Podcast 'Monos Estocásticos': https://cuonda.com/monos-estocasticos/sale-muy-caro-apostar-contra-la-ia-con-andres-torrubia-y-miguel-angel-roman | Entrevista IIACONF2025: https://www.youtube.com/watch?v=8YG_l2bLKrU",
   "email": "info@iia.es",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "https://iia.es/sobre-nosotros/ publica info@iia.es y +34 623 068 412 como canales de contacto del Instituto que cofundó. Su correo personal no aparece en ninguna fuente pública; su perfil de GitHub (https://github.com/antorsae) tampoco lo expone. No hay patrón de dominio del que inferir un correo personal fiable. | email institucional del Instituto de Inteligencia Artificial, que cofundó; NO es su correo personal). Teléfono público del IIA: +34 623 068 412",
-  "tesis_de_inversion": "No publica tesis de inversión porque no opera como inversor formal. Lo que sí tiene, y es más valioso, es una posición técnica pública muy definida y una práctica personal que coincide con el producto del cliente. Ha mantenido durante años que apostar contra la IA sale caro ('Sale muy caro apostar contra la IA', título de su conversación en el podcast Monos Estocásticos) y que la ventaja competitiva no está en tener la herramienta sino en aplicar la IA al problema propio. Su marco temporal favorito: decía en 2020 que 2012 era 'el siglo XII en IA' y 2020 'el siglo XX', para ilustrar la aceleración. Sobre las empresas: 'las empresas que perduran en el tiempo son aquellas que están siempre atentas a los cambios' y 'una característica fundamental de la IA es que es una tecnología de propósito general'. Es crítico con el riesgo regulatorio europeo para startups y compara con frecuencia los ecosistemas de IA de la UE, EE.UU. y China. Y, sobre todo, practica lo que predica: mantiene en abierto el repositorio 'dual-agent', un entorno de desarrollo colaborativo que empareja Claude Code (Anthropic) con Codex CLI y ChatGPT Pro vía herramientas MCP, tmux de doble panel e integración con Chrome, con el argumento de que 'by combining multiple models, you get rapid development velocity with rigorous quality checks and diverse perspectives'.",
+  "por_que_es_interesante": [
+    "Ha construido con sus manos una versión reducida del segundo producto del cliente: dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP, MIT, en GitHub).",
+    "Perfil técnico difícil de igualar en España: CERN, top 0,1% de Kaggle, dos startups fundadas en EE.UU.",
+    "Plataforma de divulgación (podcast Software 2.0, Instituto de IA) que multiplica cualquier respaldo.",
+    "Ángulo: técnico y en abierto (issue o PR en dual-agent, comparar harnesses); pedir opinión de arquitectura y, si engancha, advisorship. No pedir dinero."
+  ],
+  "tesis_de_inversion": [
+    "No publica tesis de inversión; opera como constructor y divulgador, no como inversor formal.",
+    "'Sale muy caro apostar contra la IA'; la ventaja no está en tener la herramienta sino en aplicar la IA al problema propio.",
+    "Practica lo que predica: mantiene en abierto dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP) para 'velocidad de desarrollo con controles de calidad rigurosos'.",
+    "Crítico con el riesgo regulatorio europeo; compara ecosistemas de IA de UE, EE.UU. y China."
+  ],
   "antecedentes": "Ingeniero de Telecomunicaciones. Trabajó en el CERN (Ginebra) al inicio de su carrera. Fundó una startup de distribución y seguridad de videojuegos por Internet que vendió en 2005. Después fundó y dirigió dos compañías estadounidenses: Fixr.com (marketplace de reformas y servicios para el hogar) y HowMuch.net, de las que es CEO. Cofundó Medbravo, aplicación de IA a proyectos biomédicos y ensayos clínicos, junto a Aurelia Bustos (doctora en IA, oncóloga e ingeniera informática, condecorada con la medalla al mérito civil). A finales de 2019 cofundó en Alicante el Instituto de Inteligencia Artificial (IIA) con Aurelia Bustos y Miguel Ángel Román (doctor en IA e ingeniero de telecomunicaciones, ex director de un centro de I+D de una multinacional alemana): el IIA imparte un Máster Ejecutivo en IA que va por su undécima edición, formaciones intensivas en ciberseguridad, desarrollo, compliance y marketing, consultoría y divulgación. Es competidor de élite en Kaggle —el IIA lo sitúa en el 'top 0,1% mundial'— con soluciones públicas como el segundo puesto en 'Predicting Molecular Properties' (CHAMPS) y trabajos en identificación de modelos de cámara (IEEE) y reconocimiento de landmarks de Google; fue además finalista (top 4) del desafío Didi-Udacity de conducción autónoma. Produce y presenta el podcast 'Software 2.0'.",
-  "por_que_es_interesante": "Es el mejor validador técnico posible de todo el lote, porque ha construido con sus manos una versión reducida del segundo producto del cliente: 'dual-agent' es un harness de desarrollo que orquesta Claude Code, Codex CLI y ChatGPT Pro mediante herramientas MCP, y está publicado en abierto con licencia MIT en su GitHub. Es decir: no hay que explicarle qué es un harness de agentes ni por qué importa; él ya lo necesitaba y se lo hizo. Suma un perfil técnico difícil de igualar en España (CERN, top 0,1% de Kaggle, dos startups americanas fundadas y una vendida) y una plataforma de divulgación —el podcast 'Software 2.0' y el IIA— que multiplica cualquier cosa que respalde. Ángulo de contacto: puramente técnico y en abierto (un issue o PR en dual-agent, o enseñarle el harness para que lo compare con el suyo). No pedirle dinero en el primer contacto: pedirle su opinión de arquitectura y, si engancha, proponerle advisorship. Puede convertirse en la carta de presentación técnica ante los VC de la lista.",
   "inversiones_relevantes": [
     "NO CONFIRMADO: no se ha encontrado ninguna inversión ángel concreta de Andrés Torrubia en fuentes públicas. Crunchbase lo lista solo como 'CEO & Co-founder @ Fixr' y F6S como 'Advisor at Medbravo'; no aparece ninguna operación con empresa, año, ronda ni importe",
     "dual-agent (proyecto propio en abierto, GitHub antorsae/dual-agent, MIT): entorno de desarrollo que orquesta Claude Code + Codex CLI + ChatGPT Pro vía herramientas MCP, tmux y Chrome — no es una inversión, pero es la prueba más fuerte de encaje con el producto del cliente",
@@ -83,17 +96,36 @@
     "https://medios.uchceu.es/actualidad-ceu/andres-torrubia-inteligencia-artificial-hablando-con-la-empresa-ceu-elche/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 20,
+      "etapa": 0,
+      "decision": 0,
+      "espanol": 15,
+      "acceso": 12,
+      "ajuste": 0,
+      "bruto": 47,
+      "topes": [],
+      "total": 47
+    },
+    "motivo": "Construyó y publicó en abierto 'dual-agent', un harness multi-modelo con MCP, y es de los técnicos de IA más sólidos de España; pero no hay ni una inversión ángel documentada, así que su valor es de validador y advisor, no de capital.",
+    "nivel_v1": "r",
     "prioridad_agente": "B",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": true,
-    "cambio_confianza": false,
-    "motivo": "Perfil técnico de élite y constructor de dual-agent, pero ninguna inversión ángel documentada: valor como advisor o validador, no como capital."
+    "motivo_v1": "Perfil técnico de élite y constructor de dual-agent, pero ninguna inversión ángel documentada: valor como advisor o validador, no como capital."
   },
   "nombre_original": "Andrés Torrubia",
-  "email_original": "info@iia.es (email institucional del Instituto de Inteligencia Artificial, que cofundó; NO es su correo personal). Teléfono público del IIA: +34 623 068 412."
+  "email_original": "info@iia.es (email institucional del Instituto de Inteligencia Artificial, que cofundó; NO es su correo personal). Teléfono público del IIA: +34 623 068 412.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el mejor validador técnico posible de todo el lote, porque ha construido con sus manos una versión reducida del segundo producto del cliente: 'dual-agent' es un harness de desarrollo que orquesta Claude Code, Codex CLI y ChatGPT Pro mediante herramientas MCP, y está publicado en abierto con licencia MIT en su GitHub. Es decir: no hay que explicarle qué es un harness de agentes ni por qué importa; él ya lo necesitaba y se lo hizo. Suma un perfil técnico difícil de igualar en España (CERN, top 0,1% de Kaggle, dos startups americanas fundadas y una vendida) y una plataforma de divulgación —el podcast 'Software 2.0' y el IIA— que multiplica cualquier cosa que respalde. Ángulo de contacto: puramente técnico y en abierto (un issue o PR en dual-agent, o enseñarle el harness para que lo compare con el suyo). No pedirle dinero en el primer contacto: pedirle su opinión de arquitectura y, si engancha, proponerle advisorship. Puede convertirse en la carta de presentación técnica ante los VC de la lista.",
+    "tesis_de_inversion": "No publica tesis de inversión porque no opera como inversor formal. Lo que sí tiene, y es más valioso, es una posición técnica pública muy definida y una práctica personal que coincide con el producto del cliente. Ha mantenido durante años que apostar contra la IA sale caro ('Sale muy caro apostar contra la IA', título de su conversación en el podcast Monos Estocásticos) y que la ventaja competitiva no está en tener la herramienta sino en aplicar la IA al problema propio. Su marco temporal favorito: decía en 2020 que 2012 era 'el siglo XII en IA' y 2020 'el siglo XX', para ilustrar la aceleración. Sobre las empresas: 'las empresas que perduran en el tiempo son aquellas que están siempre atentas a los cambios' y 'una característica fundamental de la IA es que es una tecnología de propósito general'. Es crítico con el riesgo regulatorio europeo para startups y compara con frecuencia los ecosistemas de IA de la UE, EE.UU. y China. Y, sobre todo, practica lo que predica: mantiene en abierto el repositorio 'dual-agent', un entorno de desarrollo colaborativo que empareja Claude Code (Anthropic) con Codex CLI y ChatGPT Pro vía herramientas MCP, tmux de doble panel e integración con Chrome, con el argumento de que 'by combining multiple models, you get rapid development velocity with rigorous quality checks and diverse perspectives'.",
+    "etapa_y_ticket": [
+      "No confirmado. Tras revisar Crunchbase (que lo lista únicamente como 'CEO & Co-founder @ Fixr', no como inversor), F6S (que lo lista como 'Advisor at Medbravo'), prensa española y bases de datos de ángeles, NO se ha encontrado ninguna inversión ángel concreta suya con empresa, año, ronda o importe. Cualquier cifra de ticket sería inventada. En el podcast #29 de Juan Such (Rankia, 1 oct 2020) habla de 'su forma de invertir y su cartera actual', pero el resumen público no detalla instrumentos ni participaciones en startups."
+    ]
+  }
 }

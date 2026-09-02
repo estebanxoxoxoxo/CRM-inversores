@@ -1,8 +1,8 @@
 {
   "id": "alberto-gomez",
   "nombre": "Alberto Gómez",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
+  "nivel": 86,
+  "banda": "Indiscutible",
   "prioridad": "A",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,31 @@
   "ciudad_base": "Madrid, España",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Seed a growth, con el grueso de la actividad en pre-seed/seed y Serie A. La web del fondo declara ticket inicial de 500.000 € a 5 M€ (adara.vc: 'seed to growth (€500k–€5m)'). Private Equity List recoge cheques medios de 1-5 M USD, hasta 2,5 M€ iniciales en digital y hasta 5 M€ en el vertical de energía. Signal NFX le atribuye rango 500k$-5M$ con sweet spot ~4 M$. Adara co-lidera y lidera rondas seed con frecuencia (TandemTrace, Adcities, Airflows, Wodan).",
+  "etapa_y_ticket": [
+    "Pre-seed y seed como núcleo, con capacidad hasta Serie A y growth.",
+    "Ticket inicial 500.000-5.000.000 € (web del fondo); hasta 2,5M€ iniciales en digital.",
+    "Lidera y co-lidera seeds con frecuencia (Airflows, Wodan, TandemTrace, Adcities).",
+    "Dos patas de fondo: AV4 (digital) y AVE (energía)."
+  ],
   "linkedin": "https://es.linkedin.com/in/albertogomezarreaza",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha en el fondo: https://www.adara.vc/team/alberto-gomez | Web del fondo: https://www.adara.vc | Blog/stories del fondo donde firma posts: https://www.adara.vc/stories | X del fondo: https://x.com/AdaraVentures | LinkedIn del fondo: https://www.linkedin.com/company/adaravc/ | Ponente en 4YFN Barcelona: https://4yfn.com/agenda/speakers | Signal NFX: https://signal.nfx.com/investors/alberto-gomez | Crunchbase: https://www.crunchbase.com/person/alberto-gomez-2 | No se le ha localizado cuenta personal de X/Twitter ni newsletter propia: publica bajo la marca Adara.",
   "email": "info@adara.vc",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "https://www.adara.vc/contact — solo aparece Info@adara.vc y el formulario typeform; ninguna fuente pública (prensa, Business Wire, papers, GitHub) expone un email individual de Alberto Gómez. | buzón general del fondo, publicado en adara.vc/contact y en el pie de todas sus páginas). Email personal directo: no encontrado. Adara no publica direcciones individuales de sus socios en ninguna fuente pública consultada, por lo que no hay un patrón fiable que inferir (no se ha visto ningún nombre@adara.vc publicado). La vía formal que el propio fondo indica para fundadores es su typeform: https://adaravc.typeform.com/to/HL6FbYAe",
-  "tesis_de_inversion": "Invierte en deep tech B2B europeo en etapa temprana desde una tesis explícitamente 'post-IA': Adara sostiene que 'as AI commoditises the surface layer of software, value sinks below to the proprietary data, trust, domain depth and physical systems'. Organiza su cartera en cuatro dominios: Capture (nuevas fronteras de datos y sensórica), Secure (infraestructura de IA fiable), Compute (computación de dominio profundo) y Connect (sistemas del mundo real). Lo que busca en un equipo lo enumera el propio fondo: Big Vision, Execution ('shipping y contratar/despedir rápido'), Technical Conviction ('decisiones de arquitectura deliberadas que crean ventaja estructural') y Courage, definido literalmente como la 'willingness to pioneer before market validation'. Gómez añade su propio filtro: busca fundadores con 'extreme hunger, resourcefulness, and the ambition to compete globally'. Rechaza la obsesión por los unicornios: 'In a sector obsessed with unicorns, our philosophy has always been to maximise dragons—companies that return the entire fund'. En 2026 escribe que 'the next generation of enterprise application development will be defined by platforms that bridge the gap between AI-driven speed and the governance enterprises cannot compromise on' y que 'prototypes are easy; production systems are not'. Es decir: le interesa el software de IA que se comporta como software de verdad —determinista, auditable, gobernable.",
+  "por_que_es_interesante": [
+    "Firmó personalmente la entrada de Adara en Airflows (2M€, 2026): 'IA convertida en software determinista y auditable', la tesis del stack IA-nativo.",
+    "Adara respaldó TuringDream (seed 6M€, orquestación multiagente) y TandemTrace (agentes de IA para SecOps): tres precedentes literales.",
+    "Criterio publicado 'Courage: willingness to pioneer before market validation' desactiva la objeción de 'no tenemos usuarios'.",
+    "Ángulo: vender arquitectura (determinismo, auditabilidad, el harness como infraestructura), citando Airflows y TuringDream; preguntar por el solapamiento."
+  ],
+  "tesis_de_inversion": [
+    "Deep tech B2B europeo temprano con tesis 'post-IA': cuando la IA comoditiza la superficie del software, el valor baja a datos propietarios, confianza, profundidad de dominio y sistemas físicos.",
+    "Cuatro dominios: Capture (datos y sensórica), Secure (infra de IA fiable), Compute (cómputo de dominio profundo), Connect (sistemas del mundo real).",
+    "Criterios de equipo publicados: Big Vision, Execution, Technical Conviction (arquitectura deliberada que crea ventaja) y Courage ('pioneer before market validation').",
+    "2026: 'prototypes are easy; production systems are not'; le interesa IA que se comporta como software real: determinista, auditable, gobernable."
+  ],
   "antecedentes": "Nacido en Caracas (Venezuela) en una familia de clase media; un año de estudios en EE. UU. siendo adolescente le abrió la puerta al MIT, donde se graduó (ingeniería eléctrica y management science, según Signal NFX). Trabajó en consultoría estratégica y en banca de inversión en Nueva York, y después cursó un MBA en Harvard Business School. En 2004-2005 identificó un hueco: equipos técnicos muy fuertes en el sur de Europa sin capital de fase temprana ni rutas de salida hacia EE. UU. Con esa tesis cofundó Adara Ventures junto a Nico Goulet; el fondo se constituye en Madrid en 2005 y cierra su Fondo I en 2006. Desde entonces ha cerrado los fondos II (2013), III (2019, 80 M€), un Opportunity Fund (2022) y, en 2025, el Fondo IV (AV4, objetivo 100 M€) y el Adara Ventures Energy (AVE). Adara declara hoy ~350 M€ bajo gestión, 60 compañías respaldadas, 12 exits y 20 años de actividad. Gómez ha estado en el consejo o en el seguimiento de 16+ compañías: 42Crunch, Acoru, ADD Semiconductor, Airflows, AlienVault, Constella Intelligence, Councilbox, CounterCraft, Cyber Guru, Genasys, Hdiv Security, Openbravo, PlayGiga, Quality Clouds, SatVu, Stratio, TandemTrace y XYZ Reality. Es ponente habitual en 4YFN/MWC Barcelona.",
-  "por_que_es_interesante": "Es probablemente el encaje más literal de toda la lista española. En marzo de 2026 firmó personalmente la entrada de Adara en Airflows —una plataforma que 'turns AI into deterministic, auditable software systems for the enterprise'— liderando una ronda de 2 M€. En julio de 2025 firmó la entrada en TandemTrace (agentes de IA para SecOps) escribiendo que 'AI agents will play a crucial role as co-defenders'. Y Adara respaldó en 2025 a TuringDream (6 M€ seed, Madrid) porque 'the next wave of enterprise software will run on multi-agent systems'. Es decir: ya ha invertido tres veces en la tesis exacta del cliente (stack de software IA-nativo + orquestación de agentes), en rondas seed y pre-seed, en español y desde Madrid. Su fondo declara explícitamente que respalda 'courage: willingness to pioneer before market validation', lo que desactiva la objeción de 'no tenemos usuarios'. El ángulo de contacto: no vender tracción, vender arquitectura —por qué el stack IA-nativo es determinista/auditable y por qué el harness de agentes es infraestructura, no una demo. Referencia obligada a Airflows y TuringDream.",
   "inversiones_relevantes": [
     "Airflows (2026, ronda de 2 M€ liderada por Adara con Armilar; plataforma que convierte IA en software determinista y auditable para empresa) — post firmado por el propio Alberto Gómez; es el caso más cercano al 'stack IA-nativo' del cliente",
     "TuringDream (2025, seed de 6 M€ co-liderada; plataforma no-code de orquestación multi-agente para empresa, Madrid) — Adara: 'the next wave of enterprise software will run on multi-agent systems'",
@@ -82,17 +97,36 @@
     "https://es.linkedin.com/in/albertogomezarreaza"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 24,
+      "etapa": 17,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 12,
+      "ajuste": -2,
+      "bruto": 86,
+      "topes": [],
+      "total": 86
+    },
+    "motivo": "Ha invertido tres veces en la tesis exacta del cliente (Airflows, TuringDream, TandemTrace) en seed y pre-seed desde Madrid, con criterio publicado de 'pioneer before market validation'. Reservas: sólo buzón general, y posible solapamiento con Airflows/TuringDream.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Adara: Airflows y TuringDream (IA determinista y orquestación multiagente), criterio publicado de invertir antes de validación de mercado, seed/pre-seed, español nativo, activo 2026."
+    "motivo_v1": "Adara: Airflows y TuringDream (IA determinista y orquestación multiagente), criterio publicado de invertir antes de validación de mercado, seed/pre-seed, español nativo, activo 2026."
   },
   "nombre_original": "Alberto Gómez",
-  "email_original": "info@adara.vc (buzón general del fondo, publicado en adara.vc/contact y en el pie de todas sus páginas). Email personal directo: no encontrado. Adara no publica direcciones individuales de sus socios en ninguna fuente pública consultada, por lo que no hay un patrón fiable que inferir (no se ha visto ningún nombre@adara.vc publicado). La vía formal que el propio fondo indica para fundadores es su typeform: https://adaravc.typeform.com/to/HL6FbYAe"
+  "email_original": "info@adara.vc (buzón general del fondo, publicado en adara.vc/contact y en el pie de todas sus páginas). Email personal directo: no encontrado. Adara no publica direcciones individuales de sus socios en ninguna fuente pública consultada, por lo que no hay un patrón fiable que inferir (no se ha visto ningún nombre@adara.vc publicado). La vía formal que el propio fondo indica para fundadores es su typeform: https://adaravc.typeform.com/to/HL6FbYAe",
+  "textos_v1": {
+    "por_que_es_interesante": "Es probablemente el encaje más literal de toda la lista española. En marzo de 2026 firmó personalmente la entrada de Adara en Airflows —una plataforma que 'turns AI into deterministic, auditable software systems for the enterprise'— liderando una ronda de 2 M€. En julio de 2025 firmó la entrada en TandemTrace (agentes de IA para SecOps) escribiendo que 'AI agents will play a crucial role as co-defenders'. Y Adara respaldó en 2025 a TuringDream (6 M€ seed, Madrid) porque 'the next wave of enterprise software will run on multi-agent systems'. Es decir: ya ha invertido tres veces en la tesis exacta del cliente (stack de software IA-nativo + orquestación de agentes), en rondas seed y pre-seed, en español y desde Madrid. Su fondo declara explícitamente que respalda 'courage: willingness to pioneer before market validation', lo que desactiva la objeción de 'no tenemos usuarios'. El ángulo de contacto: no vender tracción, vender arquitectura —por qué el stack IA-nativo es determinista/auditable y por qué el harness de agentes es infraestructura, no una demo. Referencia obligada a Airflows y TuringDream.",
+    "tesis_de_inversion": "Invierte en deep tech B2B europeo en etapa temprana desde una tesis explícitamente 'post-IA': Adara sostiene que 'as AI commoditises the surface layer of software, value sinks below to the proprietary data, trust, domain depth and physical systems'. Organiza su cartera en cuatro dominios: Capture (nuevas fronteras de datos y sensórica), Secure (infraestructura de IA fiable), Compute (computación de dominio profundo) y Connect (sistemas del mundo real). Lo que busca en un equipo lo enumera el propio fondo: Big Vision, Execution ('shipping y contratar/despedir rápido'), Technical Conviction ('decisiones de arquitectura deliberadas que crean ventaja estructural') y Courage, definido literalmente como la 'willingness to pioneer before market validation'. Gómez añade su propio filtro: busca fundadores con 'extreme hunger, resourcefulness, and the ambition to compete globally'. Rechaza la obsesión por los unicornios: 'In a sector obsessed with unicorns, our philosophy has always been to maximise dragons—companies that return the entire fund'. En 2026 escribe que 'the next generation of enterprise application development will be defined by platforms that bridge the gap between AI-driven speed and the governance enterprises cannot compromise on' y que 'prototypes are easy; production systems are not'. Es decir: le interesa el software de IA que se comporta como software de verdad —determinista, auditable, gobernable.",
+    "etapa_y_ticket": [
+      "Seed a growth, con el grueso de la actividad en pre-seed/seed y Serie A. La web del fondo declara ticket inicial de 500.000 € a 5 M€ (adara.vc: 'seed to growth (€500k–€5m)'). Private Equity List recoge cheques medios de 1-5 M USD, hasta 2,5 M€ iniciales en digital y hasta 5 M€ en el vertical de energía. Signal NFX le atribuye rango 500k$-5M$ con sweet spot ~4 M$. Adara co-lidera y lidera rondas seed con frecuencia (TandemTrace, Adcities, Airflows, Wodan)."
+    ]
+  }
 }

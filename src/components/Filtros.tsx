@@ -1,4 +1,4 @@
-import { ConfianzaSchema, EmailEstadoSchema, NIVELES, PrioridadSchema, RegionSchema, TipoInversorSchema, type InversorResumen } from "../types/inversor";
+import { BANDAS, ConfianzaSchema, EmailEstadoSchema, RegionSchema, TipoInversorSchema, UMBRALES, type InversorResumen } from "../types/inversor";
 import { FILTROS_INICIALES, FILTROS_VACIOS, type Filtros } from "../lib/filtros";
 
 interface Props {
@@ -7,7 +7,14 @@ interface Props {
   perfiles: InversorResumen[];
 }
 
-type ClaveLista = "nivel" | "region" | "prioridad" | "confianza" | "tipo" | "email";
+type ClaveLista = "banda" | "region" | "confianza" | "tipo" | "email";
+
+const RANGO_BANDA: Record<string, string> = {
+  Indiscutible: `${UMBRALES.Indiscutible}-100`,
+  "Alto potencial": `${UMBRALES["Alto potencial"]}-${UMBRALES.Indiscutible - 1}`,
+  Reserva: `${UMBRALES.Reserva}-${UMBRALES["Alto potencial"] - 1}`,
+  Descartado: `0-${UMBRALES.Reserva - 1}`,
+};
 
 export default function PanelFiltros({ filtros, onChange, perfiles }: Props) {
   const alternar = (clave: ClaveLista, valor: string) => {
@@ -42,18 +49,30 @@ export default function PanelFiltros({ filtros, onChange, perfiles }: Props) {
         />
         <div className="filtros-acciones">
           <button type="button" className="enlace" onClick={() => onChange(FILTROS_INICIALES)}>
-            Niveles 1 y 2
+            Indiscutibles y alto potencial
           </button>
           <button type="button" className="enlace" onClick={() => onChange(FILTROS_VACIOS)}>
             Ver todo
           </button>
         </div>
       </div>
-      {grupo("Nivel", "nivel", "nivel", Object.keys(NIVELES), (v) => NIVELES[v as keyof typeof NIVELES])}
+      {grupo("Banda", "banda", "banda", BANDAS, (v) => `${v} (${RANGO_BANDA[v]})`)}
+      <fieldset className="grupo">
+        <legend>Nivel mínimo: {filtros.nivelMin}</legend>
+        <input
+          type="range"
+          min={0}
+          max={100}
+          step={1}
+          value={filtros.nivelMin}
+          onChange={(e) => onChange({ ...filtros, nivelMin: Number(e.target.value) })}
+          className="rango"
+          aria-label="Nivel mínimo"
+        />
+      </fieldset>
       {grupo("Región", "region", "region", RegionSchema.options)}
-      {grupo("Prioridad", "prioridad", "prioridad", PrioridadSchema.options)}
-      {grupo("Confianza", "confianza", "confianza", ConfianzaSchema.options)}
       {grupo("Tipo de inversor", "tipo", "tipo_inversor", TipoInversorSchema.options)}
+      {grupo("Confianza en las fuentes", "confianza", "confianza", ConfianzaSchema.options)}
       {grupo("Email", "email", "email_estado", EmailEstadoSchema.options)}
       <fieldset className="grupo">
         <legend>Otros</legend>
@@ -64,7 +83,7 @@ export default function PanelFiltros({ filtros, onChange, perfiles }: Props) {
         <label className="opcion opcion-select">
           <span className="opcion-texto">Orden</span>
           <select value={filtros.orden} onChange={(e) => onChange({ ...filtros, orden: e.target.value as Filtros["orden"] })}>
-            <option value="nivel">Nivel y prioridad</option>
+            <option value="nivel">Nivel (mayor a menor)</option>
             <option value="nombre">Nombre</option>
             <option value="firma">Firma</option>
             <option value="region">Región</option>

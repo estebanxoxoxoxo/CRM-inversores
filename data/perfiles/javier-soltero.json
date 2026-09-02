@@ -1,8 +1,8 @@
 {
   "id": "javier-soltero",
   "nombre": "Javier Soltero",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 58,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,30 @@
   "ciudad_base": "San Francisco / Bay Area, California, EE.UU. (nacido en San Juan, Puerto Rico)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional (venture partner, no GP con mandato propio) + business angel operador",
-  "etapa_y_ticket": "Seed y Serie A, con foco declarado en cloud infrastructure, enterprise, developer tools y plataformas de IA. Signal NFX le asigna un rango de 500.000 a 15.000.000 USD con punto dulce de 7,8M USD, pero ese rango es el del fondo, no el suyo personal (https://signal.nfx.com/investors/javier-soltero). Fondo vigente: Felicis Fund X, 900M USD, cerrado en junio de 2025, con foco en “AI-first platforms, cybersecurity, defense, energy y healthtech” y capacidad de escribir de seed a etapas tardías. Como Senior Venture Partner no dispone de un presupuesto propio: su rol práctico es originar, diligenciar y respaldar operaciones que aprueban los GPs, además de sus cheques ángel personales.",
+  "etapa_y_ticket": [
+    "Vía Felicis (Fund X, 900M USD, 2025): seed y Serie A; rango del fondo 500k-15M USD.",
+    "Sin presupuesto propio como Senior Venture Partner; cheques ángel personales pequeños.",
+    "Estado actual en Felicis no confirmado; empleo principal en Metaplane by Datadog."
+  ],
   "linkedin": "https://www.linkedin.com/in/jsoltero/",
   "linkedin_nota": "",
   "otros_perfiles": "X/Twitter: https://x.com/jsoltero | Anuncio de su incorporación a Felicis: https://www.felicis.com/news/javier-soltero-senior-venture-partner | Wikipedia: https://en.wikipedia.org/wiki/Javier_Soltero | Crunchbase: https://www.crunchbase.com/person/javier-soltero | Signal NFX: https://signal.nfx.com/investors/javier-soltero | Autor en el newsroom de Canva: https://www.canva.com/newsroom/news/author/javier-soltero/ | Perfil resumen: https://startupintros.com/people/javier-soltero",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "No aparece ningún email suyo en fuentes primarias públicas (web de Felicis, Canva newsroom, Wikipedia, prensa, bios de ponente). Felicis no publica direcciones individuales de su equipo y él ni siquiera figura en la página de equipo actual, por lo que NO se propone patrón alguno. Los agregadores de pago (RocketReach, ZoomInfo) tienen fichas suyas, pero no son fuentes públicas y no se usan. La vía realista es X/Twitter (@jsoltero) o LinkedIn (in/jsoltero), ambos activos.",
-  "tesis_de_inversion": "Su foco declarado es “enterprise software, cloud infrastructure, developer tools, and AI platforms”, con énfasis en tecnologías fundacionales que aumentan la productividad dentro de los ecosistemas empresariales. Es un inversor de perfil operador: no invierte por métricas sino por criterio de producto e ingeniería, y aporta a los fundadores estrategia de producto y red además de capital. Su historial personal explica la tesis mejor que cualquier declaración: fundó Hyperic, una empresa de monitorización y gestión de aplicaciones web construida sobre open source; dirigió Outlook Mobile y Cortana en Microsoft; y llevó Google Workspace como VP/GM. Es decir, ha construido y operado exactamente las tres capas que a un fondo le cuesta evaluar: infraestructura, herramientas de desarrollador y productividad empresarial a escala de cientos de millones de usuarios. Sus dos inversiones documentadas —Metaplane (observabilidad de datos) y Jumbo Privacy— son ambas de infraestructura invisible más que de aplicación vistosa. Sobre Metaplane declaró que lo que impulsa el crecimiento es “la fuerte satisfacción del cliente y la calidad del producto”, un criterio de producto y no de tracción bruta. Felicis, su fondo, sí tiene tesis institucional en IA: el Fund X (900M USD, junio 2025) declara foco en plataformas AI-first, ciberseguridad y defensa.",
+  "por_que_es_interesante": [
+    "Construyó las tres capas que un fondo no sabe evaluar: infraestructura open source (Hyperic), herramientas de desarrollador y productividad a escala (Outlook, Workspace).",
+    "Criterio declarado de producto e ingeniería, no de tracción; sus cheques documentados son infraestructura invisible (Metaplane, adquirida por Datadog).",
+    "Puertorriqueño con presencia pública en español.",
+    "Ángulo: técnico y de producto; enseñarle el harness y hablar de fiabilidad, trazas y despliegue, citando Hyperic. Confirmar antes su vínculo con Felicis."
+  ],
+  "tesis_de_inversion": [
+    "'Enterprise software, cloud infrastructure, developer tools, and AI platforms'; tecnologías fundacionales que aumentan la productividad empresarial.",
+    "Inversor operador: criterio de producto e ingeniería, no de métricas; aporta estrategia de producto y red.",
+    "Precedentes: Metaplane (observabilidad de datos) y Jumbo Privacy, ambas infraestructura invisible.",
+    "Felicis Fund X: plataformas AI-first, ciberseguridad y defensa."
+  ],
   "antecedentes": "Nacido el 6 de septiembre de 1974 en San Juan, Puerto Rico. Licenciado (BS) en Information Systems e Industrial Management por Carnegie Mellon University en 1997. Empezó en Netscape trabajando en infraestructura de internet, y siguió como ingeniero senior en BackFlip.com. En 2004 cofundó Hyperic, software de monitorización y gestión para aplicaciones web con base open source; SpringSource la adquirió en 2009 y él pasó a ser CTO de Managed Products, y poco después VMware compró SpringSource por 420M USD. En 2013 cofundó Acompli con Kevin Henrikson y JJ Zhuang, siendo CEO; la empresa levantó 7,3M USD y Microsoft la compró en diciembre de 2014 por unos 200M USD, convirtiéndose en Outlook Mobile. En Microsoft fue Corporate Vice President, dirigiendo Outlook y después Cortana, y asesor de Rajesh Jha. En 2019 fichó por Google para dirigir G Suite, que él mismo renombró como Google Workspace, siendo VP & General Manager hasta julio de 2022. En marzo de 2023 se incorporó a Felicis Ventures como Senior Venture Partner. Después asumió un rol operativo en Canva como SVP & GM de Canva Enterprise, del que se apartó tras varios meses (cobertura de The Australian), quedando como Strategic Advisor. Actualmente su ocupación principal en LinkedIn es Metaplane by Datadog, empresa de la que era inversor y board member y que Datadog adquirió el 23 de abril de 2025.",
-  "por_que_es_interesante": "En el papel es el perfil de esta lista con mejor comprensión técnica del problema que resuelve la startup. Hyperic era literalmente infraestructura open source para observar y gestionar sistemas; Google Workspace y Outlook Mobile le dieron escala de plataforma; Metaplane es observabilidad de datos. Alguien así no necesita que le expliquen por qué un harness de desarrollo con nube de agentes importa: ya construyó las capas de instrumentación y despliegue que ese harness necesita. Su criterio declarado de inversión es calidad de producto e ingeniería, no tracción, y sus cheques documentados son de infraestructura invisible. Además es puertorriqueño, con vínculo público con el ecosistema de la isla (keynote en la H3 Tech Conference de San Juan) y cobertura en prensa en español (El Nuevo Día). Ángulo de contacto: técnico y de producto, no de mercado. Enseñarle el harness funcionando, hablarle de fiabilidad, trazas y despliegue, y mencionar Hyperic explícitamente: es la referencia que le identifica.",
   "inversiones_relevantes": [
     "Metaplane (ángel primero; Serie A liderada por Felicis en marzo de 2024, ronda de 13,8-16M USD; observabilidad de datos de extremo a extremo) — su inversión insignia; ocupó asiento en el consejo y la empresa fue adquirida por Datadog el 23 de abril de 2025. Demuestra convicción en infraestructura invisible de datos, comprada por calidad de producto.",
     "Jumbo Privacy (Serie A, junio de 2020, 8M USD; privacidad y seguridad para consumidores) — apuesta temprana en una categoría sin mercado establecido.",
@@ -75,17 +89,36 @@
     "https://techcrunch.com/2023/03/02/felicis-funded-50-more-deals-in-2022/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 20,
+      "etapa": 12,
+      "decision": 5,
+      "espanol": 15,
+      "acceso": 6,
+      "ajuste": 0,
+      "bruto": 58,
+      "topes": [],
+      "total": 58
+    },
+    "motivo": "Perfil técnico ideal (Hyperic, Outlook, Google Workspace, Metaplane) con foco declarado en dev tools e infraestructura y puertorriqueño; pero ya no figura en el equipo de Felicis, opera en Datadog, como Senior Venture Partner no tenía presupuesto propio y sus cheques ángel son escasos. Vínculo inversor no confirmado en 2026.",
+    "nivel_v1": "r",
     "prioridad_agente": "B",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": true,
-    "cambio_confianza": false,
-    "motivo": "Perfil técnico ideal (Hyperic, Metaplane) y foco declarado en dev tools, pero ya no aparece en el equipo de Felicis y opera en Datadog; vínculo inversor no confirmado en 2026."
+    "motivo_v1": "Perfil técnico ideal (Hyperic, Metaplane) y foco declarado en dev tools, pero ya no aparece en el equipo de Felicis y opera en Datadog; vínculo inversor no confirmado en 2026."
   },
   "nombre_original": "Javier Soltero",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "En el papel es el perfil de esta lista con mejor comprensión técnica del problema que resuelve la startup. Hyperic era literalmente infraestructura open source para observar y gestionar sistemas; Google Workspace y Outlook Mobile le dieron escala de plataforma; Metaplane es observabilidad de datos. Alguien así no necesita que le expliquen por qué un harness de desarrollo con nube de agentes importa: ya construyó las capas de instrumentación y despliegue que ese harness necesita. Su criterio declarado de inversión es calidad de producto e ingeniería, no tracción, y sus cheques documentados son de infraestructura invisible. Además es puertorriqueño, con vínculo público con el ecosistema de la isla (keynote en la H3 Tech Conference de San Juan) y cobertura en prensa en español (El Nuevo Día). Ángulo de contacto: técnico y de producto, no de mercado. Enseñarle el harness funcionando, hablarle de fiabilidad, trazas y despliegue, y mencionar Hyperic explícitamente: es la referencia que le identifica.",
+    "tesis_de_inversion": "Su foco declarado es “enterprise software, cloud infrastructure, developer tools, and AI platforms”, con énfasis en tecnologías fundacionales que aumentan la productividad dentro de los ecosistemas empresariales. Es un inversor de perfil operador: no invierte por métricas sino por criterio de producto e ingeniería, y aporta a los fundadores estrategia de producto y red además de capital. Su historial personal explica la tesis mejor que cualquier declaración: fundó Hyperic, una empresa de monitorización y gestión de aplicaciones web construida sobre open source; dirigió Outlook Mobile y Cortana en Microsoft; y llevó Google Workspace como VP/GM. Es decir, ha construido y operado exactamente las tres capas que a un fondo le cuesta evaluar: infraestructura, herramientas de desarrollador y productividad empresarial a escala de cientos de millones de usuarios. Sus dos inversiones documentadas —Metaplane (observabilidad de datos) y Jumbo Privacy— son ambas de infraestructura invisible más que de aplicación vistosa. Sobre Metaplane declaró que lo que impulsa el crecimiento es “la fuerte satisfacción del cliente y la calidad del producto”, un criterio de producto y no de tracción bruta. Felicis, su fondo, sí tiene tesis institucional en IA: el Fund X (900M USD, junio 2025) declara foco en plataformas AI-first, ciberseguridad y defensa.",
+    "etapa_y_ticket": [
+      "Seed y Serie A, con foco declarado en cloud infrastructure, enterprise, developer tools y plataformas de IA. Signal NFX le asigna un rango de 500.000 a 15.000.000 USD con punto dulce de 7,8M USD, pero ese rango es el del fondo, no el suyo personal (https://signal.nfx.com/investors/javier-soltero). Fondo vigente: Felicis Fund X, 900M USD, cerrado en junio de 2025, con foco en “AI-first platforms, cybersecurity, defense, energy y healthtech” y capacidad de escribir de seed a etapas tardías. Como Senior Venture Partner no dispone de un presupuesto propio: su rol práctico es originar, diligenciar y respaldar operaciones que aprueban los GPs, además de sus cheques ángel personales."
+    ]
+  }
 }

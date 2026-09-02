@@ -1,9 +1,9 @@
 {
   "id": "javier-redondo",
   "nombre": "Javier Redondo",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
-  "prioridad": "C",
+  "nivel": 64,
+  "banda": "Alto potencial",
+  "prioridad": "B",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
   "firma": "Scale Venture Partners (Fondo VIII, 900 M USD; ~2.800 M USD bajo gestión)",
@@ -11,16 +11,30 @@
   "ciudad_base": "San Francisco Bay Area (Foster City, California), EE.UU. — origen español (Madrid)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Series A y Series B. Scale declara explícitamente en su FAQ oficial que NO invierte en seed: «Scale leads 80% of the Series A and Series B rounds we invest in» y que los cheques iniciales van de 5 a 50 M USD, dimensionados a la ronda. La propia web pide que el fundador llegue con «signed customers and repeatable demand», típicamente entre 500 K y 5 M USD de ARR. Fuente primaria: https://www.scalevp.com/frequently-asked-questions y https://www.scalevp.com/approach. Geografía: invierten desde la Bay Area en Norteamérica, Europa e Israel.",
+  "etapa_y_ticket": [
+    "Series A y B; Scale lidera el 80% de las rondas en las que entra.",
+    "Cheques iniciales 5-50M USD; exige 'signed customers and repeatable demand' (0,5-5M USD de ARR).",
+    "Fondo VIII de 900M USD; Norteamérica, Europa e Israel."
+  ],
   "linkedin": "https://www.linkedin.com/in/redondojavier/",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha oficial en el fondo: https://www.scalevp.com/team/javier-redondo | Página de autor en el blog del fondo: https://www.scalevp.com/insights/author/javier_redondo/ | Autor en The New Stack: https://thenewstack.io/author/javier-redondo/ | Web personal (heredada de su etapa en Anyscale, hoy devuelve 403 a bots): https://javierredondo.com | Crunchbase: https://www.crunchbase.com/person/javier-redondo-e8f4 | The Org: https://theorg.com/org/scale-venture-partners/org-chart/javier-redondo | X/Twitter: no confirmado (las cuentas @javi_redondo14 y @jredondomunoz que aparecen en búsquedas NO se han podido verificar como suyas; no usarlas)",
   "email": "javier@scalevp.com",
   "email_estado": "público verificado",
   "email_fuente": "Publicado en su propia ficha del equipo en la web del fondo: https://www.scalevp.com/team/javier-redondo. Scale publica el email de cada socio precisamente para outreach directo; su FAQ dice literalmente «Go directly to the partner who covers your space. Our partners' focus areas and contacts are on our team page» y aclara que aceptan contacto en frío sin necesidad de intro (https://www.scalevp.com/frequently-asked-questions).",
-  "tesis_de_inversion": "Invierte en «productos con un usuario técnico»: infraestructura, DevOps, open source, datos, ciberseguridad y herramientas para desarrolladores potenciadas por IA. Su ficha oficial dice que busca «founders deeply committed to user experience», grupos pequeños de early adopters apasionados y patrones de uso inesperados: es un inversor de señal cualitativa temprana, no de métricas de vanidad. Su tesis pública más citada es que los protocolos de agentes son la nueva capa de infraestructura: en «MCP is the new WWW» (10/06/2025) escribe «Agent = LLM + MCP» y «In a world where humans consume websites, AI models will consume MCP», y sostiene que MCP hace por los modelos lo que el navegador hizo por los humanos hace 30 años, abriendo una oleada de «picks and shovels» de seguridad, gobierno y distribución sobre el protocolo. En «The rise of advanced build systems» (19/09/2024, con Josh Cohen) argumenta que monorepos y explosión de dependencias han convertido el build en el cuello de botella de la ingeniería y que ganará quien combine «high-quality developer experience, cross-platform compatibility and powerful integrations». En «Postgres: One database to rule them all?» (28/02/2024) apuesta por la consolidación vía extensiones. Restricción clave: por política de firma, su tesis se ejecuta en Series A/B post-PMF, no en seed.",
+  "por_que_es_interesante": [
+    "Ha gestionado producto de infraestructura distribuida para IA (Ray, Kafka) y escribe las dos mitades del harness: protocolos de agentes (MCP) y sistemas de build.",
+    "Español nativo (ICAI, Madrid) y email público: cero fricción de idioma ni de intro.",
+    "Determinante: Scale no invierte en seed y exige ARR; no habrá cheque pre-tracción.",
+    "Ángulo: demo técnica del harness como continuación de su ensayo sobre MCP y build systems, buscando validación y campeón interno para la Serie A."
+  ],
+  "tesis_de_inversion": [
+    "Productos con usuario técnico: infraestructura, DevOps, open source, datos, ciberseguridad y dev tools con IA.",
+    "'MCP is the new WWW' (2025): 'Agent = LLM + MCP'; los protocolos de agentes son la nueva capa de infraestructura y abren 'picks and shovels' de seguridad, gobierno y distribución.",
+    "'The rise of advanced build systems' (2024): el build es el cuello de botella de la ingeniería; gana quien combine DX, compatibilidad e integraciones.",
+    "Busca founders obsesionados con la experiencia de usuario y patrones de uso inesperados; ejecuta en Series A/B post-PMF."
+  ],
   "antecedentes": "Español. Ingeniero por ICAI–Universidad Pontificia Comillas (Madrid): su LinkedIn lista Universidad Pontificia Comillas junto a Stanford GSB, y su ficha oficial confirma BS y MS en Electrical Engineering más un MBA por Stanford. Empezó su carrera en McKinsey & Company, asesorando a grandes empresas en transformación digital y adopción de machine learning. Pasó después a producto: en Klarna lanzó el primer producto de consumo de la compañía (la tarjeta de crédito); en Confluent lideró iniciativas mayores dentro de Apache Kafka y del producto SaaS (Confluent Cloud); y en Anyscale fue responsable del producto de cómputo gestionado y contribuyente al proyecto Ray, es decir, estuvo dentro de dos de los proyectos open source más importantes de la última década en datos en streaming y cómputo distribuido para IA. Se define como «open-source and distributed systems aficionado» que pasó «the better part of the 2010s in product management building solutions for developers». Se incorporó a Scale Venture Partners como Principal de infraestructura y hoy es Partner. Fuera del trabajo ha competido a alto nivel en powerlifting y judo, y hace surf y snowboard.",
-  "por_que_es_interesante": "Es, en contenido, el inversor de la lista que mejor entiende exactamente lo que construye el cliente: no es un generalista que ha leído sobre agentes, es alguien que gestionó el producto de Ray en Anyscale y de Apache Kafka en Confluent y que en junio de 2025 publicó una tesis sobre protocolos de agentes («MCP is the new WWW») y en 2024 otra sobre sistemas de build avanzados: son literalmente las dos mitades de un harness de desarrollo con nube de agentes. Además es español nativo, lo que elimina la fricción de idioma y da una vía de conexión personal (ICAI, Madrid, McKinsey Madrid). El ángulo de contacto correcto NO es pedirle un cheque pre-tracción —Scale no lo dará—, sino escribirle directamente a javier@scalevp.com con una demo técnica del harness enmarcada como continuación de su propio ensayo sobre MCP y build systems, buscando validación técnica, feedback y posicionarse para la Series A. Es el tipo de socio que puede convertirse en campeón interno antes de tiempo.",
   "inversiones_relevantes": [
     "Permit.io (2024, Series A de 8 M USD liderada por Scale, autorización full-stack as-a-service con núcleo open source OPAL/OPA) — infraestructura para desarrolladores con motor open source; co-inversores NFX, Verissimo, Roosh, Firestreak",
     "ClearVector (Series A liderada por Scale, detección y respuesta cloud identity-first) — ciberseguridad técnica, una de sus áreas declaradas",
@@ -80,17 +94,38 @@
     "https://www.prweb.com/releases/2022/9/prweb18924672.htm"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 24,
+      "etapa": 3,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 13,
+      "ajuste": -10,
+      "bruto": 65,
+      "topes": [
+        "Serie A o exige tracción → máx. 64"
+      ],
+      "total": 64
+    },
+    "motivo": "Nadie en la lista entiende mejor el producto: gestionó Ray en Anyscale y Kafka en Confluent y publicó las tesis 'MCP is the new WWW' y de sistemas de build; español nativo con email público. Pero Scale declara que no invierte en seed, lidera Series A/B con cheques de 5-50M y pide clientes firmados y 0,5-5M ARR. Reservar para la Serie A.",
+    "nivel_v1": "r",
     "prioridad_agente": "B",
     "confianza_agente": "alta",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "alta",
-    "nivel_final": "r",
-    "cambio_prioridad": true,
-    "cambio_confianza": false,
-    "motivo": "Tesis literal (MCP, agent protocols, build systems), español, email público; pero Scale declara que no invierte en seed, pide clientes firmados y 0,5-5M ARR, cheques de 5-50M. Reservar para Serie A."
+    "motivo_v1": "Tesis literal (MCP, agent protocols, build systems), español, email público; pero Scale declara que no invierte en seed, pide clientes firmados y 0,5-5M ARR, cheques de 5-50M. Reservar para Serie A."
   },
   "nombre_original": "Javier Redondo",
-  "email_original": "javier@scalevp.com"
+  "email_original": "javier@scalevp.com",
+  "textos_v1": {
+    "por_que_es_interesante": "Es, en contenido, el inversor de la lista que mejor entiende exactamente lo que construye el cliente: no es un generalista que ha leído sobre agentes, es alguien que gestionó el producto de Ray en Anyscale y de Apache Kafka en Confluent y que en junio de 2025 publicó una tesis sobre protocolos de agentes («MCP is the new WWW») y en 2024 otra sobre sistemas de build avanzados: son literalmente las dos mitades de un harness de desarrollo con nube de agentes. Además es español nativo, lo que elimina la fricción de idioma y da una vía de conexión personal (ICAI, Madrid, McKinsey Madrid). El ángulo de contacto correcto NO es pedirle un cheque pre-tracción —Scale no lo dará—, sino escribirle directamente a javier@scalevp.com con una demo técnica del harness enmarcada como continuación de su propio ensayo sobre MCP y build systems, buscando validación técnica, feedback y posicionarse para la Series A. Es el tipo de socio que puede convertirse en campeón interno antes de tiempo.",
+    "tesis_de_inversion": "Invierte en «productos con un usuario técnico»: infraestructura, DevOps, open source, datos, ciberseguridad y herramientas para desarrolladores potenciadas por IA. Su ficha oficial dice que busca «founders deeply committed to user experience», grupos pequeños de early adopters apasionados y patrones de uso inesperados: es un inversor de señal cualitativa temprana, no de métricas de vanidad. Su tesis pública más citada es que los protocolos de agentes son la nueva capa de infraestructura: en «MCP is the new WWW» (10/06/2025) escribe «Agent = LLM + MCP» y «In a world where humans consume websites, AI models will consume MCP», y sostiene que MCP hace por los modelos lo que el navegador hizo por los humanos hace 30 años, abriendo una oleada de «picks and shovels» de seguridad, gobierno y distribución sobre el protocolo. En «The rise of advanced build systems» (19/09/2024, con Josh Cohen) argumenta que monorepos y explosión de dependencias han convertido el build en el cuello de botella de la ingeniería y que ganará quien combine «high-quality developer experience, cross-platform compatibility and powerful integrations». En «Postgres: One database to rule them all?» (28/02/2024) apuesta por la consolidación vía extensiones. Restricción clave: por política de firma, su tesis se ejecuta en Series A/B post-PMF, no en seed.",
+    "etapa_y_ticket": [
+      "Series A y Series B. Scale declara explícitamente en su FAQ oficial que NO invierte en seed: «Scale leads 80% of the Series A and Series B rounds we invest in» y que los cheques iniciales van de 5 a 50 M USD, dimensionados a la ronda. La propia web pide que el fundador llegue con «signed customers and repeatable demand», típicamente entre 500 K y 5 M USD de ARR. Fuente primaria: https://www.scalevp.com/frequently-asked-questions y https://www.scalevp.com/approach. Geografía: invierten desde la Bay Area en Norteamérica, Europa e Israel."
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "id": "jorge-baron",
   "nombre": "Jorge Barón",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 62,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "media",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Madrid, España (oficina de Adara en Calle José Abascal 58, 28003 Madrid)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Fondo: seed to growth con ticket inicial declarado de 500.000 € a 5 M€ (adara.vc, portada). A nivel personal, Signal NFX le atribuye rango de 100 k$ a 5 M$ con sweet spot ~1,5 M$ y etapas Seed y Serie A (https://signal.nfx.com/investors/jorge-baron). Sectores que Signal le asocia: Robotics, TransportationTech, AI, Enterprise y DeepTech. Su propia ficha en adara.vc enumera como focos 'energy, health, defense, critical software'. Adara entra habitualmente en pre-seed (2 M€ en Wodan AI) y seed (2-6 M€), co-liderando o liderando.",
+  "etapa_y_ticket": [
+    "Adara: seed a growth, ticket inicial 500.000-5.000.000 €; pre-seed de 2M€ (Wodan) y seeds de 2-6M€.",
+    "A él Signal le atribuye 100k-5M USD con punto dulce ~1,5M en seed y Serie A.",
+    "Principal: no firma; origina y defiende en comité."
+  ],
   "linkedin": "https://es.linkedin.com/in/jorge-baron",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha oficial en el fondo: https://www.adara.vc/team/jorge-baron | Equipo de Adara: https://www.adara.vc/team | Signal NFX: https://signal.nfx.com/investors/jorge-baron | Post público suyo en LinkedIn (marzo 2025, anuncio del Fondo IV): https://www.linkedin.com/posts/jorge-baron_fund-iv-is-live-adara-ventures-continues-activity-7307328773949919232-XK35 | Aparece indexado como inversor asistente a 4YFN Barcelona 2026: https://www.4yfn.com/investors/attending/1927-jorge-baron (la URL devolvió 404 al intentar abrirla; el título del listado sí está indexado) | Perfil en Bloomberg 'Jorge Baron, Adara Venture Partners': https://www.bloomberg.com/profile/person/21363186 (bloqueado, 403) | Ficha en The Network: https://www.thenetwork.com/profile/jorge-baron-ec355622 (404 al abrir) | X/Twitter personal: no encontrado. El fondo publica en https://x.com/AdaraVentures y en https://www.linkedin.com/company/adaravc/. No tiene blog, newsletter ni GitHub localizables. ATENCIÓN: no confundir con Jorge Barón, presentador peruano de televisión ('Yo Soy'), ni con Jorge Barón, director ejecutivo del Northwest Immigrant Rights Project en EE. UU.",
   "email": "Info@adara.vc",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "https://www.adara.vc/contact — solo aparecen Info@adara.vc, el typeform de pitch y la dirección postal (Calle José Abascal 58, 28003 Madrid). Ninguna fuente pública consultada expone un email individual de Jorge Barón. Vía real de contacto: typeform + mensaje directo en LinkedIn (https://es.linkedin.com/in/jorge-baron), que es donde sí tiene actividad propia. | no encontrado. Adara no publica direcciones individuales de su equipo. Los únicos canales publicados son el buzón general  y el formulario de pitch https://adaravc.typeform.com/to/HL6FbYAe. Tampoco existe un patrón nombre@adara.vc verificable, porque no se ha localizado ninguna dirección individual del fondo en prensa, notas de Business Wire, papers ni GitHub",
-  "tesis_de_inversion": "Su tesis personal, tal como la formula en su ficha del fondo, es de infraestructura pura: dice prestar la máxima atención a \"the layer underneath the technology most people see\", es decir, a la capa que hay debajo de la tecnología visible. Concreta sus dominios en \"energy, health, defense, critical software\" y explica que le atraen \"hard markets where the expertise to build well sits with a handful of people worldwide\": mercados difíciles donde la capacidad de construir bien reside en un puñado de personas en el mundo. En cuanto al equipo, su filtro declarado es \"I look for founders who pair real ambition with intellectual honesty\" (https://www.adara.vc/team/jorge-baron). Esto encaja y a la vez matiza la tesis del fondo, que sostiene que \"As AI commoditises the surface layer of software, value sinks below to the proprietary data, trust, domain depth and physical systems\" y que organiza la cartera en cuatro dominios (Capture, Secure, Compute, Connect). Es importante retener el matiz que Adara publica en su página About: \"AI commoditises building; a strong demo proves little\" — la demo no es el argumento; la arquitectura y el dominio sí. Signal NFX le asocia Seed y Serie A, con sweet spot ~1,5 M$, en Robotics, TransportationTech, AI, Enterprise y DeepTech.",
+  "por_que_es_interesante": [
+    "Puerta operativa a Adara: único Principal, origina y evalúa en etapa temprana; tesis personal literal de infraestructura de software.",
+    "Ha trabajado deals de IA-nativa y agentes (42Crunch, Bigle, Articul8, TandemTrace).",
+    "Español nativo, ingeniero (Daimler, BMW i Ventures): conversación técnica desde el minuto uno.",
+    "Ángulo: arquitectura, no demo (Adara publica 'a strong demo proves little'). Elegir una sola vía: Barón como primer contacto operativo, Gómez o Strachan como destino."
+  ],
+  "tesis_de_inversion": [
+    "'The layer underneath the technology most people see'; dominios: energía, salud, defensa, 'critical software'.",
+    "'Hard markets where the expertise to build well sits with a handful of people worldwide'.",
+    "Fundadores que combinan ambición real con honestidad intelectual.",
+    "Matiz del fondo: 'AI commoditises building; a strong demo proves little'; la arquitectura y el dominio son el argumento."
+  ],
   "antecedentes": "Creció en un hogar mixto —familia de humanidades (historia del arte, bellas artes, diseño, cine) y abuelos y bisabuelos ingenieros— y en un entorno itinerante: Toulouse, Boston y Ontario antes del instituto. Estudió ingeniería \"across Madrid, Stuttgart and Waterloo\" y cursó un máster \"between Madrid, Milan and Munich\" (las universidades exactas y el programa concreto no están confirmados en fuente pública; el patrón Madrid-Milán-Múnich es compatible con una doble titulación tipo T.I.M.E. o con EIT, pero no se ha verificado). Signal NFX añade un Executive Program in Advanced Venture Capital del IE Business School. Empezó su carrera en Daimler, en Stuttgart —él cita la cultura \"Best or Nothing\" como origen de su exigencia—; Signal registra el puesto como Production Planning & Engineering en Mercedes-Benz AG. También figura una etapa de Business Development en Robotise Technologies (robótica de servicio, Múnich). Después pasó a BMW i Ventures en Múnich, en el equipo de inversión, \"working on generative design, autonomous driving and vehicle cybersecurity\". Volvió a Madrid y entró en Adara Ventures en 2019 como analista, atraído por \"partners who were engineers themselves, sharp and substantive\". Ascendió a Associate en 2021 y a Principal en 2024.",
-  "por_que_es_interesante": "Es la puerta de entrada operativa a Adara: único Principal del equipo, con función explícita de originar y evaluar oportunidades en etapa temprana, y con una tesis personal —\"the layer underneath the technology most people see\", \"critical software\"— que describe casi literalmente lo que el cliente construye: infraestructura de software, no aplicación visible. Su cartera nominal incluye 42Crunch (seguridad de APIs, que Adara justifica porque las APIs son \"the foundational execution layer for the digital economy and increasingly for AI agents\"), Bigle (\"an AI-native contract lifecycle platform\"), Articul8 y TandemTrace (agentes de IA para SecOps): ya ha trabajado deals de IA-nativa y de agentes. Además es español nativo, con base en Madrid, e ingeniero de formación, así que la conversación puede ser técnica desde el minuto uno. El ángulo correcto no es la demo —Adara publica que \"a strong demo proves little\"— sino la arquitectura: por qué el stack IA-nativo es una capa de infraestructura defendible y por qué el harness de agentes es sistema de producción, no prototipo. Su fondo se presenta con el lema \"We know what it takes to build before the market believes\".",
   "inversiones_relevantes": [
     "42Crunch (2020, seguridad de APIs; Adara: las APIs son 'the foundational execution layer for the digital economy and increasingly for AI agents') — deal que analizó siendo analista y que sigue figurando en su ficha; es infraestructura crítica pura y el puente más directo con agentes",
     "Bigle / Bigle Legal (2021, 'an AI-native contract lifecycle platform that automates the creation, negotiation and management of legal agreements') — precedente de inversión en software declaradamente 'AI-native'",
@@ -96,17 +110,36 @@
     "https://www.4yfn.com/investors/attending/1927-jorge-baron"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 22,
+      "etapa": 17,
+      "decision": 7,
+      "espanol": 15,
+      "acceso": 9,
+      "ajuste": -8,
+      "bruto": 62,
+      "topes": [],
+      "total": 62
+    },
+    "motivo": "Tesis personal de infraestructura ('la capa debajo de la tecnología visible', 'critical software') en Adara, con 42Crunch, Bigle y TandemTrace trabajados; ingeniero español en Madrid. Pero es Principal sin decisión final y solapa con Gómez, Pillado y Goulet: una sola vía de entrada a Adara.",
+    "nivel_v1": "r",
     "prioridad_agente": "B",
     "confianza_agente": "media",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Tesis personal de infraestructura ('la capa debajo de la tecnología visible') en Adara, pero es Principal sin decisión y solapa con Gómez, Pillado y Goulet: una sola vía a Adara."
+    "motivo_v1": "Tesis personal de infraestructura ('la capa debajo de la tecnología visible') en Adara, pero es Principal sin decisión y solapa con Gómez, Pillado y Goulet: una sola vía a Adara."
   },
   "nombre_original": "Jorge Barón",
-  "email_original": "no encontrado. Adara no publica direcciones individuales de su equipo. Los únicos canales publicados son el buzón general Info@adara.vc y el formulario de pitch https://adaravc.typeform.com/to/HL6FbYAe. Tampoco existe un patrón nombre@adara.vc verificable, porque no se ha localizado ninguna dirección individual del fondo en prensa, notas de Business Wire, papers ni GitHub."
+  "email_original": "no encontrado. Adara no publica direcciones individuales de su equipo. Los únicos canales publicados son el buzón general Info@adara.vc y el formulario de pitch https://adaravc.typeform.com/to/HL6FbYAe. Tampoco existe un patrón nombre@adara.vc verificable, porque no se ha localizado ninguna dirección individual del fondo en prensa, notas de Business Wire, papers ni GitHub.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es la puerta de entrada operativa a Adara: único Principal del equipo, con función explícita de originar y evaluar oportunidades en etapa temprana, y con una tesis personal —\"the layer underneath the technology most people see\", \"critical software\"— que describe casi literalmente lo que el cliente construye: infraestructura de software, no aplicación visible. Su cartera nominal incluye 42Crunch (seguridad de APIs, que Adara justifica porque las APIs son \"the foundational execution layer for the digital economy and increasingly for AI agents\"), Bigle (\"an AI-native contract lifecycle platform\"), Articul8 y TandemTrace (agentes de IA para SecOps): ya ha trabajado deals de IA-nativa y de agentes. Además es español nativo, con base en Madrid, e ingeniero de formación, así que la conversación puede ser técnica desde el minuto uno. El ángulo correcto no es la demo —Adara publica que \"a strong demo proves little\"— sino la arquitectura: por qué el stack IA-nativo es una capa de infraestructura defendible y por qué el harness de agentes es sistema de producción, no prototipo. Su fondo se presenta con el lema \"We know what it takes to build before the market believes\".",
+    "tesis_de_inversion": "Su tesis personal, tal como la formula en su ficha del fondo, es de infraestructura pura: dice prestar la máxima atención a \"the layer underneath the technology most people see\", es decir, a la capa que hay debajo de la tecnología visible. Concreta sus dominios en \"energy, health, defense, critical software\" y explica que le atraen \"hard markets where the expertise to build well sits with a handful of people worldwide\": mercados difíciles donde la capacidad de construir bien reside en un puñado de personas en el mundo. En cuanto al equipo, su filtro declarado es \"I look for founders who pair real ambition with intellectual honesty\" (https://www.adara.vc/team/jorge-baron). Esto encaja y a la vez matiza la tesis del fondo, que sostiene que \"As AI commoditises the surface layer of software, value sinks below to the proprietary data, trust, domain depth and physical systems\" y que organiza la cartera en cuatro dominios (Capture, Secure, Compute, Connect). Es importante retener el matiz que Adara publica en su página About: \"AI commoditises building; a strong demo proves little\" — la demo no es el argumento; la arquitectura y el dominio sí. Signal NFX le asocia Seed y Serie A, con sweet spot ~1,5 M$, en Robotics, TransportationTech, AI, Enterprise y DeepTech.",
+    "etapa_y_ticket": [
+      "Fondo: seed to growth con ticket inicial declarado de 500.000 € a 5 M€ (adara.vc, portada). A nivel personal, Signal NFX le atribuye rango de 100 k$ a 5 M$ con sweet spot ~1,5 M$ y etapas Seed y Serie A (https://signal.nfx.com/investors/jorge-baron). Sectores que Signal le asocia: Robotics, TransportationTech, AI, Enterprise y DeepTech. Su propia ficha en adara.vc enumera como focos 'energy, health, defense, critical software'. Adara entra habitualmente en pre-seed (2 M€ en Wodan AI) y seed (2-6 M€), co-liderando o liderando."
+    ]
+  }
 }

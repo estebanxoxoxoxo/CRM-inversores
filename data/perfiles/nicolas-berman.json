@@ -1,8 +1,8 @@
 {
   "id": "nicolas-berman",
   "nombre": "Nicolás Berman",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 52,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "México",
@@ -11,16 +11,29 @@
   "ciudad_base": "Ciudad de México, México (según la pista de descubrimiento). ATENCIÓN: no confirmado — Signal NFX lo ubica en Argentina y Kaszek no asigna ubicación por persona en su web (oficinas en Buenos Aires, Ciudad de México, Montevideo y São Paulo). Es argentino de origen y desde junio de 2025 es además director de Endeavor Chile, lo que sugiere presencia regional itinerante.",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Kaszek opera dos familias de fondos: los early-stage (Seed, Serie A y Serie B) y los Opportunity (Serie C hasta pre-IPO). Para él personalmente, Signal NFX registra tickets de US$500K a US$25M con punto dulce en US$10M — es decir, su operación típica es muy superior a un primer cheque pre-semilla. En abril de 2023 Kaszek levantó US$975M entre dos nuevos fondos. La firma acumula 9 fondos, 131 compañías y 303 emprendedores respaldados. Incluso sus 'semillas' son grandes: la de Primero AI fue de US$12M.",
+  "etapa_y_ticket": [
+    "Kaszek early-stage: seed, Serie A y B; Opportunity: Serie C a pre-IPO.",
+    "Para él: 500k-25M USD, punto dulce 10M USD; su 'semilla' de Primero AI fue de 12M.",
+    "975M USD levantados en 2023 en dos fondos; 131 compañías."
+  ],
   "linkedin": "https://www.linkedin.com/in/nicolasberman/",
   "linkedin_nota": "",
   "otros_perfiles": "Web del fondo: https://www.kaszek.com/ | Equipo: https://www.kaszek.com/people/ | Portafolio: https://www.kaszek.com/companies/ | LinkedIn del fondo: https://www.linkedin.com/company/2892335 | Instagram: https://www.instagram.com/kaszekventures | Signal NFX: https://signal.nfx.com/investors/nicolas-berman | Entrevista en Diario Financiero (22/11/2024): 'Nicolás Berman, socio de Kaszek: Hay compañías hermosas en Chile' | AVISO: la URL de LinkedIn personal es la forma habitual del perfil pero NO ha podido verificarse por bloqueo de LinkedIn a la consulta automatizada. Kaszek no publica páginas individuales de socios ni biografías.",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "Kaszek muestra en su web un único email corporativo ofuscado contra scraping y no publica direcciones individuales de sus socios ni en /people/ ni en ninguna otra página. Sin ningún email público de socio, NO hay base para proponer un patrón inferido.",
-  "tesis_de_inversion": "Kaszek se define como 'We are tech entrepreneurs partnering with the most extraordinary founders in Latin America' e invierte en industrias donde la tecnología ofrece oportunidades de disrupción significativa. La firma no publica una tesis específica sobre IA, infraestructura ni herramientas para desarrolladores; su criterio declarado es de equipo ('fundadores extraordinarios') y de tamaño de mercado. Los sectores efectivos son servicios financieros, educación, salud, e-commerce, marketplaces, software empresarial y SaaS. El posicionamiento sobre IA que sí se le puede atribuir a Berman viene de la operación de Primero AI (agosto de 2026): Kaszek coliideró con General Catalyst una ronda semilla de US$12M para una plataforma que conecta sistemas fragmentados en grandes empresas latinoamericanas y automatiza procesos corporativos con IA aplicada. En el comunicado, Berman planteó que los CEOs de las mayores empresas de la región están deseosos de adoptar IA. Es decir: su lectura de la IA es de ADOPCIÓN EMPRESARIAL —llevar IA a corporativos grandes de LatAm— y no de construcción de infraestructura fundacional ni de herramientas para desarrolladores.",
+  "por_que_es_interesante": [
+    "Kaszek pone semillas muy grandes en IA empresarial con poco recorrido comercial (Primero AI, 12M USD, 2026).",
+    "Red corporativa (FEMSA, Bimbo, Aeroméxico, Kimberly-Clark): compradores potenciales del stack.",
+    "En contra: su etapa efectiva empieza donde termina una pre-seed; sin dev tools en Kaszek.",
+    "Ángulo: radar para la ronda siguiente y validación corporativa temprana; requiere intro caliente."
+  ],
+  "tesis_de_inversion": [
+    "'Tech entrepreneurs partnering with the most extraordinary founders in Latin America'; criterio de equipo y tamaño de mercado.",
+    "Sin tesis publicada sobre IA, infraestructura ni dev tools; sectores: finanzas, educación, salud, e-commerce, SaaS.",
+    "Lectura de la IA: adopción empresarial en grandes corporativos de LatAm (Primero AI), no infraestructura fundacional."
+  ],
   "antecedentes": "Argentino. Según la pista de descubrimiento, pasó trece años en MercadoLibre en áreas de búsqueda, business intelligence, experiencia de usuario y SEO — dato coherente con el ADN de Kaszek, fundada en 2011 por Hernán Kazah (cofundador de MercadoLibre) y Nicolás Szekasy (CFO de MercadoLibre), pero que NO he podido verificar en fuente primaria accesible: Kaszek no publica biografías individuales de sus socios. Como Partner de Kaszek acumula asientos en más de veinte consejos, entre ellos Kavak, Konfío, Urbvan, Ayenda y Bia Energy, además de posiciones en Warren Investimentos, Contabilizei, Crabi, Yuno y Winnin (Signal NFX). En junio de 2025 se incorporó como director de Endeavor Chile junto con Eduardo Novoa y Hans Pieringer. En noviembre de 2024 dio una entrevista a Diario Financiero titulada 'Hay compañías hermosas en Chile', señal de que dedica tiempo activo a dealflow en el Cono Sur. Kaszek, la firma donde es socio, es el mayor fondo de VC de América Latina: nueve fondos, 131 compañías, 303 emprendedores, y un levantamiento de US$975M en abril de 2023 repartido entre un vehículo early-stage y uno de oportunidad.",
-  "por_que_es_interesante": "Es el inversor con más músculo de este lote y el único que ha colocado capital reciente y significativo en una compañía de agentes de IA para empresas: colideró con General Catalyst la semilla de US$12M de Primero AI en agosto de 2026, junto a Definition, Conviction, 8VC y ángeles de FEMSA, Bimbo, Aeroméxico y Kimberly-Clark de México. Esa operación demuestra dos cosas útiles: que Kaszek está dispuesta a poner semillas muy grandes en compañías de IA con poco recorrido comercial, y que Berman tiene interlocución directa con los mayores corporativos de la región —justo los compradores potenciales de un stack IA-nativo—. El problema es de calibre: su cheque típico ronda los US$10M y su etapa efectiva empieza donde una pre-semilla termina. El ángulo realista es no pedirle un primer cheque, sino ponerlo en el radar ahora para la ronda siguiente y usar su red corporativa (FEMSA, Bimbo, Aeroméxico) como vía de validación temprana. Requiere intro caliente: Kaszek no tiene canal frío.",
   "inversiones_relevantes": [
     "Primero AI (agosto 2026, semilla de US$12M colidereada por Kaszek y General Catalyst con Definition, Conviction, 8VC y ángeles de FEMSA, Bimbo, Aeroméxico y Kimberly-Clark — plataforma 'Primia' que conecta sistemas fragmentados y automatiza procesos corporativos con IA) — la evidencia central de su apetito por IA empresarial y del tamaño de semilla que maneja",
     "Yuno (infraestructura de pagos, orquestación) — de lo más cercano a infraestructura horizontal en su cartera personal",
@@ -72,17 +85,36 @@
     "https://www.elobservador.com.uy (15/09/2021: 'Equipo original de Mercado Libre crea compañía de inversiones para acelerar proyectos de la región')"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 8,
+      "etapa": 9,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 5,
+      "ajuste": -5,
+      "bruto": 52,
+      "topes": [],
+      "total": 52
+    },
+    "motivo": "Co-lideró con General Catalyst la 'semilla' de 12M USD de Primero AI y tiene interlocución con FEMSA, Bimbo y Aeroméxico; pero su punto dulce es 10M USD, Kaszek no tiene tesis ni cartera en dev tools o infraestructura, lee la IA como adopción corporativa y no tiene canal frío. Radar para la ronda siguiente.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Co-lideró la seed de 12M de Primero AI, pero punto dulce de 10M, sin dev tools en Kaszek y lectura de IA como adopción corporativa. Radar para ronda posterior."
+    "motivo_v1": "Co-lideró la seed de 12M de Primero AI, pero punto dulce de 10M, sin dev tools en Kaszek y lectura de IA como adopción corporativa. Radar para ronda posterior."
   },
   "nombre_original": "Nicolás Berman",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el inversor con más músculo de este lote y el único que ha colocado capital reciente y significativo en una compañía de agentes de IA para empresas: colideró con General Catalyst la semilla de US$12M de Primero AI en agosto de 2026, junto a Definition, Conviction, 8VC y ángeles de FEMSA, Bimbo, Aeroméxico y Kimberly-Clark de México. Esa operación demuestra dos cosas útiles: que Kaszek está dispuesta a poner semillas muy grandes en compañías de IA con poco recorrido comercial, y que Berman tiene interlocución directa con los mayores corporativos de la región —justo los compradores potenciales de un stack IA-nativo—. El problema es de calibre: su cheque típico ronda los US$10M y su etapa efectiva empieza donde una pre-semilla termina. El ángulo realista es no pedirle un primer cheque, sino ponerlo en el radar ahora para la ronda siguiente y usar su red corporativa (FEMSA, Bimbo, Aeroméxico) como vía de validación temprana. Requiere intro caliente: Kaszek no tiene canal frío.",
+    "tesis_de_inversion": "Kaszek se define como 'We are tech entrepreneurs partnering with the most extraordinary founders in Latin America' e invierte en industrias donde la tecnología ofrece oportunidades de disrupción significativa. La firma no publica una tesis específica sobre IA, infraestructura ni herramientas para desarrolladores; su criterio declarado es de equipo ('fundadores extraordinarios') y de tamaño de mercado. Los sectores efectivos son servicios financieros, educación, salud, e-commerce, marketplaces, software empresarial y SaaS. El posicionamiento sobre IA que sí se le puede atribuir a Berman viene de la operación de Primero AI (agosto de 2026): Kaszek coliideró con General Catalyst una ronda semilla de US$12M para una plataforma que conecta sistemas fragmentados en grandes empresas latinoamericanas y automatiza procesos corporativos con IA aplicada. En el comunicado, Berman planteó que los CEOs de las mayores empresas de la región están deseosos de adoptar IA. Es decir: su lectura de la IA es de ADOPCIÓN EMPRESARIAL —llevar IA a corporativos grandes de LatAm— y no de construcción de infraestructura fundacional ni de herramientas para desarrolladores.",
+    "etapa_y_ticket": [
+      "Kaszek opera dos familias de fondos: los early-stage (Seed, Serie A y Serie B) y los Opportunity (Serie C hasta pre-IPO). Para él personalmente, Signal NFX registra tickets de US$500K a US$25M con punto dulce en US$10M — es decir, su operación típica es muy superior a un primer cheque pre-semilla. En abril de 2023 Kaszek levantó US$975M entre dos nuevos fondos. La firma acumula 9 fondos, 131 compañías y 303 emprendedores respaldados. Incluso sus 'semillas' son grandes: la de Primero AI fue de US$12M."
+    ]
+  }
 }

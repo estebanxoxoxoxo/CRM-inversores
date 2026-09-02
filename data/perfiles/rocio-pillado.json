@@ -1,8 +1,8 @@
 {
   "id": "rocio-pillado",
   "nombre": "Rocío Pillado",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
+  "nivel": 83,
+  "banda": "Indiscutible",
   "prioridad": "A",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Madrid, España (oficina: Calle José Abascal, 58, 28003 Madrid)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Seed a growth, con nucleo real en pre-seed y seed. Ticket declarado en la web del fondo: 500.000 - 5.000.000 EUR (https://adara.vc/). Rondas recientes lideradas o colideradas por Adara: Wodan AI 2M EUR pre-seed (dic-2025), Airflows 2M EUR (mar-2026, liderada por Adara), AppFactor 4M USD seed (feb-2026, colidera con Tensor Ventures), TuringDream 6M EUR seed (2025), Adcities 3M+ EUR. AUM del fondo: ~350M EUR.",
+  "etapa_y_ticket": [
+    "Seed a growth con núcleo real en pre-seed y seed; ticket 500.000-5.000.000 €.",
+    "Rondas recientes lideradas o co-lideradas: Wodan 2M€ pre-seed, Airflows 2M€, AppFactor 4M USD, TuringDream 6M€.",
+    "AUM ~350M€."
+  ],
   "linkedin": "https://www.linkedin.com/in/rociopillado/",
   "linkedin_nota": "probable, NO verificado: LinkedIn bloquea el acceso automatizado con codigo 999; el slug responde con redireccion de dominio, no con 404, pero no se ha podido confirmar visualmente",
   "otros_perfiles": "Ficha oficial en el fondo: https://www.adara.vc/team/rocio-pillado | Equipo: https://www.adara.vc/team | Web del fondo: https://adara.vc/ | LinkedIn de la firma: https://www.linkedin.com/company/adaravc/ | Post firmado por ella: https://www.adara.vc/stories/announcing-our-investment-in-wodan | Formulario de pitch: https://adaravc.typeform.com/to/HL6FbYAe . NOTA: la web de Adara no publica LinkedIn ni email individuales de los socios; solo el perfil corporativo. El dominio antiguo adaraventures.com esta aparcado (su sitemap solo devuelve /lander); el dominio vigente es adara.vc.",
   "email": "Info@adara.vc",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "Info@adara.vc aparece publicado como mailto en https://www.adara.vc/contact y en el pie de todas las paginas de https://adara.vc/ . No hay ningun email individual de socios publicado, por lo que NO es posible inferir un patron fiable para el correo personal de Rocío Pillado. La via preferente que el propio fondo indica para fundadores es el formulario: https://adaravc.typeform.com/to/HL6FbYAe | buzon general del fondo, publicado). Email personal: no encontrado",
-  "tesis_de_inversion": "Su foco personal, declarado en su ficha oficial, es \"AI infrastructure, cybersecurity, regulation, and AI adoption in traditional industries, especially healthcare, where better infrastructure can still move the needle\". Su marco conceptual esta resumido en una frase suya: \"I see AI as the latest platform shift - changing both how fast startups can grow and what they need to grow securely\". Se inserta en la tesis de Adara, que es de las mas alineadas de Europa con una startup de stack IA-nativo: el fondo sostiene que, a medida que la IA comoditiza la capa superficial del software, el valor y la defensibilidad se desplazan hacia datos propietarios, confianza, conocimiento de dominio y sistemas fisicos. Organizan la cartera en cuatro verticales: Capture (New Data Frontiers), Secure (Trusted AI Infrastructure), Compute (Deep Domain Computation) y Connect (Real-World Systems). Los criterios de seleccion de fundadores estan publicados y el cuarto es directamente relevante: Big Vision, Execution, Technical Conviction (\"deliberate technology choices creating structural competitive advantages\") y Courage, definida como la disposicion a \"operate ahead of market readiness\", es decir, operar antes de que el mercado este listo. Sobre la relacion con el fundador: \"Venture is a long-term relationship, which makes transparency and integrity just as important as vision\". En fundadores busca \"trust, resilience and conviction: sharp intuition, deep knowledge of the problem, and the ability to keep moving when things get hard\".",
+  "por_que_es_interesante": [
+    "Adara invirtió en la categoría exacta en los últimos doce meses: AppFactor (seed 4M USD), Airflows (2M€ liderada), TuringDream (6M€ seed), Wodan (pre-seed 2M€).",
+    "Criterio publicado 'Courage: willingness to operate ahead of market readiness' resuelve de antemano la objeción de la tracción.",
+    "Ingeniera informática (UPM, ENSIMAG) con pasado real en automatización y seguridad: evalúa arquitectura sin demo con usuarios.",
+    "Ángulo: en español, harness como 'Trusted AI Infrastructure', comparando con Airflows (determinismo) y AppFactor (deuda técnica); preguntar por el solapamiento."
+  ],
+  "tesis_de_inversion": [
+    "Foco personal: 'AI infrastructure, cybersecurity, regulation, and AI adoption in traditional industries'; 'AI as the latest platform shift'.",
+    "Adara: cuando la IA comoditiza la capa superficial, el valor baja a datos propietarios, confianza, dominio y sistemas físicos; cuatro verticales (Capture, Secure, Compute, Connect).",
+    "Criterios de fundador: Big Vision, Execution, Technical Conviction y Courage ('operate ahead of market readiness').",
+    "'Venture is a long-term relationship': transparencia e integridad tan importantes como la visión."
+  ],
   "antecedentes": "Nacida y criada en Madrid, segunda de cuatro hermanos; hija de ingeniero y con abuelos que trabajaron en tecnologia y programacion. Es Ingeniera Informatica por la Universidad Politecnica de Madrid, con formacion en ENSIMAG (Ecole Nationale Superieure d'Informatique et de Mathematiques Appliquees, Grenoble, Francia) y MBA por Chicago Booth. Antes del venture capital acumulo unos diez anos como ingeniera y responsable de producto trabajando en Francia, Nueva York y Hong Kong; en Hong Kong trabajo en automatizacion de trading y en ciberseguridad dentro de un banco de inversion. Es decir: perfil de ingeniera de sistemas de baja latencia y seguridad, no de analista financiero reconvertido. Es Partner en Adara Ventures, donde cubre deep tech en fase temprana (ciberseguridad, salud, infraestructura, datos e IA), y Academic Director de los programas de Venture Capital de IE Business School, lo que la situa como formadora de nuevas generaciones de inversores en Madrid. Las companias que su ficha oficial le atribuye son Freeverse, indigitall, IOMED, Kompyte, Quibim, WIVI Vision, Wodan AI y Seedtag. Es madre de cuatro hijos y aficionada al esqui y la montana. Deportista de equipo (tenis, baloncesto, futbol sala), rasgo que ella misma vincula a su caracter competitivo.",
-  "por_que_es_interesante": "Es, de los seis, el encaje mas directo con la tesis del cliente. Adara acaba de invertir, en los ultimos doce meses, en exactamente la categoria del producto: AppFactor (plataforma de IA que mapea el patrimonio de aplicaciones, analiza deuda tecnica, genera documentacion y tests y refactoriza a arquitecturas modernas; 4M USD seed colidera Adara, feb-2026), Airflows (convertir IA en software determinista y auditable para empresa; 2M EUR liderada por Adara, mar-2026) y TuringDream (aplicaciones empresariales multiagente; 6M EUR seed). Ninguna de ellas tenia metricas de mercado significativas al entrar. El criterio de fundador que publican incluye literalmente 'Courage: willingness to operate ahead of market readiness', que es la objecion que el cliente ha encontrado en otros inversores, resuelta de antemano. Rocío ademas es ingeniera informatica con pasado real en automatizacion y seguridad, capaz de evaluar arquitectura sin necesidad de una demo con usuarios. Angulo de contacto: en espanol, enmarcando el harness como 'Trusted AI Infrastructure' y comparando explicitamente con Airflows (determinismo y auditabilidad) y AppFactor (deuda tecnica).",
   "inversiones_relevantes": [
     "AppFactor (2026, seed de 4M USD colidera Adara + Tensor Ventures; plataforma de IA que mapea el parque de aplicaciones, analiza deuda tecnica, genera documentacion y tests y refactoriza a arquitecturas modernas) — dev tool de IA para ingenieria, el precedente mas cercano al cliente",
     "Airflows (2026, 2M EUR liderada por Adara con Armilar; motor de lenguaje especifico de dominio + copiloto de IA para construir aplicaciones empresariales deterministas y auditables, incluidos sistemas de agentes) — infraestructura de fiabilidad para IA",
@@ -87,17 +101,36 @@
     "https://dealflow.es/issue/410/seedtag-adara-s-fund-returner-voxel-exits-for-113m-online-sales-of-spanish-giants"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 24,
+      "etapa": 18,
+      "decision": 19,
+      "espanol": 15,
+      "acceso": 11,
+      "ajuste": -4,
+      "bruto": 83,
+      "topes": [],
+      "total": 83
+    },
+    "motivo": "Ingeniera con foco declarado en 'AI infrastructure' y tesis 'AI as the latest platform shift', en un fondo que en doce meses invirtió en AppFactor (dev tool de IA), Airflows (IA determinista) y TuringDream (multiagente) sin métricas de mercado, con el criterio publicado 'operate ahead of market readiness'. Reservas: no lidera personalmente esos deals, posible solapamiento con Airflows/TuringDream, buzón general y LinkedIn no verificado.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Ingeniera, tesis 'AI as platform shift' con AppFactor, Airflows, TuringDream y Wodan en Adara; criterio publicado 'operate ahead of market readiness'. Reservas: solapamiento posible con Airflows/TuringDream, no lidera personalmente esos deals, LinkedIn probable no verificado."
+    "motivo_v1": "Ingeniera, tesis 'AI as platform shift' con AppFactor, Airflows, TuringDream y Wodan en Adara; criterio publicado 'operate ahead of market readiness'. Reservas: solapamiento posible con Airflows/TuringDream, no lidera personalmente esos deals, LinkedIn probable no verificado."
   },
   "nombre_original": "Rocío Pillado",
-  "email_original": "Info@adara.vc (buzon general del fondo, publicado). Email personal: no encontrado."
+  "email_original": "Info@adara.vc (buzon general del fondo, publicado). Email personal: no encontrado.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es, de los seis, el encaje mas directo con la tesis del cliente. Adara acaba de invertir, en los ultimos doce meses, en exactamente la categoria del producto: AppFactor (plataforma de IA que mapea el patrimonio de aplicaciones, analiza deuda tecnica, genera documentacion y tests y refactoriza a arquitecturas modernas; 4M USD seed colidera Adara, feb-2026), Airflows (convertir IA en software determinista y auditable para empresa; 2M EUR liderada por Adara, mar-2026) y TuringDream (aplicaciones empresariales multiagente; 6M EUR seed). Ninguna de ellas tenia metricas de mercado significativas al entrar. El criterio de fundador que publican incluye literalmente 'Courage: willingness to operate ahead of market readiness', que es la objecion que el cliente ha encontrado en otros inversores, resuelta de antemano. Rocío ademas es ingeniera informatica con pasado real en automatizacion y seguridad, capaz de evaluar arquitectura sin necesidad de una demo con usuarios. Angulo de contacto: en espanol, enmarcando el harness como 'Trusted AI Infrastructure' y comparando explicitamente con Airflows (determinismo y auditabilidad) y AppFactor (deuda tecnica).",
+    "tesis_de_inversion": "Su foco personal, declarado en su ficha oficial, es \"AI infrastructure, cybersecurity, regulation, and AI adoption in traditional industries, especially healthcare, where better infrastructure can still move the needle\". Su marco conceptual esta resumido en una frase suya: \"I see AI as the latest platform shift - changing both how fast startups can grow and what they need to grow securely\". Se inserta en la tesis de Adara, que es de las mas alineadas de Europa con una startup de stack IA-nativo: el fondo sostiene que, a medida que la IA comoditiza la capa superficial del software, el valor y la defensibilidad se desplazan hacia datos propietarios, confianza, conocimiento de dominio y sistemas fisicos. Organizan la cartera en cuatro verticales: Capture (New Data Frontiers), Secure (Trusted AI Infrastructure), Compute (Deep Domain Computation) y Connect (Real-World Systems). Los criterios de seleccion de fundadores estan publicados y el cuarto es directamente relevante: Big Vision, Execution, Technical Conviction (\"deliberate technology choices creating structural competitive advantages\") y Courage, definida como la disposicion a \"operate ahead of market readiness\", es decir, operar antes de que el mercado este listo. Sobre la relacion con el fundador: \"Venture is a long-term relationship, which makes transparency and integrity just as important as vision\". En fundadores busca \"trust, resilience and conviction: sharp intuition, deep knowledge of the problem, and the ability to keep moving when things get hard\".",
+    "etapa_y_ticket": [
+      "Seed a growth, con nucleo real en pre-seed y seed. Ticket declarado en la web del fondo: 500.000 - 5.000.000 EUR (https://adara.vc/). Rondas recientes lideradas o colideradas por Adara: Wodan AI 2M EUR pre-seed (dic-2025), Airflows 2M EUR (mar-2026, liderada por Adara), AppFactor 4M USD seed (feb-2026, colidera con Tensor Ventures), TuringDream 6M EUR seed (2025), Adcities 3M+ EUR. AUM del fondo: ~350M EUR."
+    ]
+  }
 }

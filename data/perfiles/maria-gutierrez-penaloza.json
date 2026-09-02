@@ -1,8 +1,8 @@
 {
   "id": "maria-gutierrez-penaloza",
   "nombre": "María Gutiérrez Peñaloza",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 55,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "México",
@@ -11,16 +11,29 @@
   "ciudad_base": "Ciudad de México, México / área metropolitana de Los Ángeles-San Diego, California, EE. UU. (su LinkedIn indica 'Los Angeles Metropolitan Area'; el LinkedIn de la firma declara sede en San Francisco y la operación se articula en el corredor EE. UU.-México)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional (fondo pre-seed emergente; nació en 2021 como sindicato de ángeles 'Nido Angels')",
-  "etapa_y_ticket": "Pre-seed exclusivamente. La web del fondo lo define así: 'We partner with founders at the earliest of stages. We invest in a company's first institutional round.' Tamaño de fondo y ticket típico: NO CONFIRMADO — Nido no publica cifras y no se han localizado comunicados de cierre de fondo en prensa. Por las rondas en las que aparece (pre-seeds y seeds de 1,5-9 M USD en LatAm, normalmente acompañando o coliderando), el cheque estimable estaría en el rango de cientos de miles de dólares, pero es una inferencia, no un dato verificado.",
+  "etapa_y_ticket": [
+    "Pre-seed exclusivamente: primera ronda institucional.",
+    "Tamaño de fondo y ticket no confirmados; por las rondas en que aparece, cientos de miles de USD (inferencia)."
+  ],
   "linkedin": "https://www.linkedin.com/in/mariagutierrezp/",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha en la web del fondo: https://www.desdeelnido.com/team/maria-gutierrez | Equipo: https://www.desdeelnido.com/investors | Web del fondo: https://www.desdeelnido.com | Portfolio: https://www.desdeelnido.com/portfolio | LinkedIn del fondo: https://www.linkedin.com/company/nido-ventures/ | X/Twitter personal: @mariainthenido | Forbes 30 Under 30 (Venture Capital, noviembre de 2023). No se le ha localizado newsletter, blog personal ni GitHub.",
   "email": "maria@nido.ventures",
   "email_estado": "público verificado",
   "email_fuente": "Publicado por ella misma en su ficha oficial del equipo en la web del fondo: https://www.desdeelnido.com/team/maria-gutierrez (junto a su LinkedIn y su cuenta de X @mariainthenido). Nótese que el dominio de correo (nido.ventures) es distinto del dominio web principal (desdeelnido.com).",
-  "tesis_de_inversion": "María invierte en pre-seed, en la primera ronda institucional de la compañía, en startups B2B que usan tecnología para transformar industrias tradicionales dentro del corredor Estados Unidos-México. La tesis publicada de Nido parte de un dato macro: México es el primer socio comercial de EE. UU., con más de 800.000 M USD de comercio bilateral anual, 145.000 M USD de IED estadounidense, 63.000 M USD de remesas y más de 3.000 plantas maquiladoras, y sostiene que 'technology will be the catalyst to accelerate this shift' en manufactura, logística, infraestructura, consumo y servicios financieros. Los tres filtros que publican son: (1) etapa pre-seed, primera ronda institucional; (2) 'We particularly enjoy working with companies that have at least one technical founder'; (3) equipos que 'understand the intricacies and problems faced by traditional industries'. La firma se autodefine como plataforma integrada de venture capital e innovación corporativa: Nido Ventures invierte y Nido Labs trabaja con grandes industriales mexicanos en estrategia de innovación y venture clienting, es decir, la propuesta de valor al fundador es acceso a cliente corporativo temprano más que capital. El sesgo es de IA aplicada y vertical, no de infraestructura horizontal.",
+  "por_que_es_interesante": [
+    "Entiende la cadena de valor del silicio y no se asusta ante ciclos de producto largos.",
+    "Primera ronda institucional y al menos un fundador técnico: puede evaluar infraestructura sin usuarios.",
+    "Nido Labs (venture clienting con industriales mexicanos) como canal de primeros clientes de referencia.",
+    "Ángulo: traducción industrial (qué coste de cómputo, ingeniería y despliegue ahorra el stack a una manufacturera o logística del corredor), no 'stack IA-nativo' en abstracto."
+  ],
+  "tesis_de_inversion": [
+    "Pre-seed B2B que transforma industrias tradicionales en el corredor EE.UU.-México; macro de nearshoring (800.000M USD de comercio bilateral, 3.000+ maquiladoras).",
+    "Filtros: primera ronda institucional, al menos un fundador técnico, equipos que entienden las industrias tradicionales.",
+    "Plataforma integrada: Nido Ventures invierte y Nido Labs hace venture clienting con grandes industriales.",
+    "Sesgo de IA aplicada vertical, no infraestructura horizontal."
+  ],
   "antecedentes": "Nacida y criada en Ciudad de México. Estudió en Stanford University (2013-2017) un BS en Management Science and Engineering, graduándose con distinción y en el 15% superior de su promoción, y volvió a Stanford para el MBA en la Graduate School of Business (2021-2023). Durante sus años de licenciatura fue vicepresidenta de la Latin Business Association. Su carrera operativa es de cadena de suministro y compras en dos de las compañías de hardware más exigentes del mundo: en Apple (Cupertino) y en Tesla (Fremont/Palo Alto, con exposición a Singapur) trabajó en aprovisionamiento de semiconductores y logística, gestionando más de 800 M USD de gasto según su propia ficha en la web del fondo. Después fue Chief of Staff en Backbone Systems, una startup tecnológica de Ciudad de México. En 2021-2022 cofundó Nido junto a Ana Carolina Mexia (ex CPO de Siclo), con un grupo inicial de socios que incluía a Emilio Rivero (regulatory affairs en Bitso), Renato Picard (cofundador y CEO de Urbvan) y Javier de la Madrid (GBM+); el vehículo arrancó como sindicato de ángeles (Nido Angels, 2021) y evolucionó a fondo (Nido Ventures Fund I) con un brazo de consultoría, Nido Labs. Fue reconocida en Forbes 30 Under 30 en la categoría de Venture Capital en noviembre de 2023. Ha visitado más de 72 países.",
-  "por_que_es_interesante": "Aporta dos cosas poco comunes en el ecosistema hispanohablante: entiende de verdad la cadena de valor del silicio (gestionó 800 M USD de compras de semiconductores y logística en Tesla y Apple) y su fondo invierte por criterio en la primera ronda institucional, con preferencia declarada por equipos con al menos un fundador técnico. Eso significa que puede evaluar una apuesta de infraestructura sin exigir usuarios y que no se asusta ante ciclos de producto largos. Su portfolio, sin embargo, es de IA aplicada vertical, no de infraestructura de software, así que el ángulo de contacto no debe ser 'stack IA-nativo' en abstracto sino la traducción industrial: cuánto coste de cómputo, de ingeniería y de tiempo de despliegue ahorra el stack a una empresa manufacturera o logística del corredor EE. UU.-México, y cómo el harness de agentes reduce el coste de construir el software interno de esas compañías. Nido Labs, su brazo de venture clienting con industriales mexicanos, puede convertirse en canal de primeros clientes de referencia, que es exactamente lo que le falta a una startup pre-tracción.",
   "inversiones_relevantes": [
     "Desteia (2023, pre-seed; 'the platform and API to expand into global markets', datos e inteligencia de cadena de suministro) — la participada más cercana a un producto de infraestructura/API vendido a perfiles técnicos",
     "Nodal (2024, pre-seed; 'Payroll API for LatAm') — infraestructura de APIs, evidencia de que entienden un modelo de distribución por API",
@@ -75,17 +88,38 @@
     "https://latamlist.com/telepatia-ai-raises-9m-seed-round/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 8,
+      "etapa": 19,
+      "decision": 12,
+      "espanol": 15,
+      "acceso": 13,
+      "ajuste": -8,
+      "bruto": 59,
+      "topes": [
+        "tesis < 10 → máx. 55"
+      ],
+      "total": 55
+    },
+    "motivo": "Invierte en la primera ronda institucional con preferencia por fundadores técnicos y entiende la cadena del silicio (800M USD de compras en Tesla y Apple), con email público; pero su cartera es IA aplicada vertical sin dev tools, el fondo no publica tamaño ni ticket y Mexia es el contacto primario de Nido.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Pre-seed real y fundador técnico exigido, pero tesis vertical en industrias tradicionales y cero dev tools en 22 participadas; Mexia es el contacto primario de Nido."
+    "motivo_v1": "Pre-seed real y fundador técnico exigido, pero tesis vertical en industrias tradicionales y cero dev tools en 22 participadas; Mexia es el contacto primario de Nido."
   },
   "nombre_original": "María Gutiérrez Peñaloza",
-  "email_original": "maria@nido.ventures"
+  "email_original": "maria@nido.ventures",
+  "textos_v1": {
+    "por_que_es_interesante": "Aporta dos cosas poco comunes en el ecosistema hispanohablante: entiende de verdad la cadena de valor del silicio (gestionó 800 M USD de compras de semiconductores y logística en Tesla y Apple) y su fondo invierte por criterio en la primera ronda institucional, con preferencia declarada por equipos con al menos un fundador técnico. Eso significa que puede evaluar una apuesta de infraestructura sin exigir usuarios y que no se asusta ante ciclos de producto largos. Su portfolio, sin embargo, es de IA aplicada vertical, no de infraestructura de software, así que el ángulo de contacto no debe ser 'stack IA-nativo' en abstracto sino la traducción industrial: cuánto coste de cómputo, de ingeniería y de tiempo de despliegue ahorra el stack a una empresa manufacturera o logística del corredor EE. UU.-México, y cómo el harness de agentes reduce el coste de construir el software interno de esas compañías. Nido Labs, su brazo de venture clienting con industriales mexicanos, puede convertirse en canal de primeros clientes de referencia, que es exactamente lo que le falta a una startup pre-tracción.",
+    "tesis_de_inversion": "María invierte en pre-seed, en la primera ronda institucional de la compañía, en startups B2B que usan tecnología para transformar industrias tradicionales dentro del corredor Estados Unidos-México. La tesis publicada de Nido parte de un dato macro: México es el primer socio comercial de EE. UU., con más de 800.000 M USD de comercio bilateral anual, 145.000 M USD de IED estadounidense, 63.000 M USD de remesas y más de 3.000 plantas maquiladoras, y sostiene que 'technology will be the catalyst to accelerate this shift' en manufactura, logística, infraestructura, consumo y servicios financieros. Los tres filtros que publican son: (1) etapa pre-seed, primera ronda institucional; (2) 'We particularly enjoy working with companies that have at least one technical founder'; (3) equipos que 'understand the intricacies and problems faced by traditional industries'. La firma se autodefine como plataforma integrada de venture capital e innovación corporativa: Nido Ventures invierte y Nido Labs trabaja con grandes industriales mexicanos en estrategia de innovación y venture clienting, es decir, la propuesta de valor al fundador es acceso a cliente corporativo temprano más que capital. El sesgo es de IA aplicada y vertical, no de infraestructura horizontal.",
+    "etapa_y_ticket": [
+      "Pre-seed exclusivamente. La web del fondo lo define así: 'We partner with founders at the earliest of stages. We invest in a company's first institutional round.' Tamaño de fondo y ticket típico: NO CONFIRMADO — Nido no publica cifras y no se han localizado comunicados de cierre de fondo en prensa. Por las rondas en las que aparece (pre-seeds y seeds de 1,5-9 M USD en LatAm, normalmente acompañando o coliderando), el cheque estimable estaría en el rango de cientos de miles de dólares, pero es una inferencia, no un dato verificado."
+    ]
+  }
 }

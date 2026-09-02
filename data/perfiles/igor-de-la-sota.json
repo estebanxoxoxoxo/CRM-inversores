@@ -1,8 +1,8 @@
 {
   "id": "igor-de-la-sota",
   "nombre": "Igor de la Sota",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 76,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Madrid, España (segunda oficina y equipo de inversión en Tel Aviv, Israel)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Deep tech B2B en etapas tempranas: pre-seed, seed y, con follow-ons, Series A/B. Cheques iniciales típicos de 1-3 M USD (perfil de Superscout: 'check sizes typically range from $1 million to $3 million'). En el Fondo I, el ticket medio acumulado por compañía fue de ~4,2 M€ sobre ~10 compañías (El Economista, 2019). Cardumen DeepTech Fund II (~105 M€ / 120 M USD, cierre definitivo diciembre 2023 - enero 2024) se declara explícitamente como fondo de 'Pre-Seed and Seed' en IA, ciberseguridad, big data y tecnologías de la información (Calcalist/CTech, 17-01-2024), con una cartera objetivo de ~20 compañías.",
+  "etapa_y_ticket": [
+    "Pre-seed y seed; Series A/B con follow-ons.",
+    "Cheques iniciales 1-3M USD; ticket acumulado medio ~4,2M€ por compañía en el Fondo I.",
+    "DeepTech Fund II: ~105M€ (cierre ene-2024), ~20 compañías objetivo, declarado pre-seed y seed."
+  ],
   "linkedin": "https://www.linkedin.com/in/igordelasota/",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha en la web del fondo: https://www.cardumencapital.com/investors/igor-de-la-sota | Equipo: https://www.cardumencapital.com/team | Perfil Bloomberg: https://www.bloomberg.com/profile/person/18349751 | The Org: https://theorg.com/org/cardumen-capital/org-chart/igor-de-la-sota | Crunchbase del fondo: https://www.crunchbase.com/organization/cardumen-capital-sgeic-sa | Dealroom: https://app.dealroom.co/companies/cardumen_capital | No se le ha localizado cuenta pública activa de X/Twitter ni blog o newsletter personal; su canal público principal es LinkedIn (8.000+ seguidores) y la prensa económica española.",
   "email": "info@cardumencapital.com",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "El único email público del fondo es info@cardumencapital.com, publicado en https://www.cardumencapital.com/contact junto con las direcciones de Madrid (Calle de Velázquez 100, 3º Izda, +34 911 98 66 98) y Tel Aviv (Herzl St 16, +972 54 330 7141). ZoomInfo muestra un correo enmascarado 'a***@cardumencapital.com' para Arturo Martínez (Financial Controller), lo que confirma el dominio pero no permite deducir con seguridad si el patrón es nombre@ o inicial+apellido@; por eso no se propone patrón inferido. La vía formal de entrada es el Typeform enlazado en /contact. | buzón general del fondo, público y verificado). Email personal directo: no encontrado; patrón corporativo no confirmado",
-  "tesis_de_inversion": "Igor invierte en deep tech B2B en fase muy temprana con un fuerte sesgo hacia software de infraestructura: inteligencia artificial, ciberseguridad, big data e infraestructura de datos. Su marco mental es que esas tres áreas son 'los pilares de la digitalización y automatización industrial' (Capital, 31-01-2022). Busca fundadores con ventaja tecnológica real y capacidad de vender fuera de su mercado local; el fondo se describe como 'the most active investor on your cap table', con posiciones minoritarias, asiento o presencia en consejo, apertura de puertas a coinversores internacionales y foco explícito en construir hacia una salida (M&A). Tras la compra de illumex por NVIDIA declaró: 'The success of the Illumex exit underscores the global demand for robust data infrastructure in the age of Generative AI. We are proud to have supported the team from day one in building a platform that now sits at the heart of the world's AI computing network' (PR Newswire, marzo 2026). Su socio Gonzalo Martínez de Azagra resumió la tesis en la misma nota: 'This acquisition validates our DeepTech thesis. By backing visionary founders early, we demonstrate our ability to identify the core building blocks of the AI era'. Es decir: entrar en el 'building block' antes de que haya tracción y sostenerlo hasta el exit.",
+  "por_que_es_interesante": [
+    "Uno de los pocos GP españoles que ha llevado una inversión pre-seed/seed de infraestructura de datos hasta un exit a NVIDIA (illumex).",
+    "La categoría 'Developer Tools' existe en el portfolio (Configu, Naboo, Raftt, Reshuffle): saben evaluar producto para desarrolladores sin usuarios.",
+    "Discurso 2026: 'robust data infrastructure in the age of Generative AI' y 'the core building blocks of the AI era'.",
+    "Ángulo: en español, abrir con illumex y la analogía capa de infraestructura invisible; reconocer que la startup no es israelí y explicar por qué el corredor España-Israel-Europa suma."
+  ],
+  "tesis_de_inversion": [
+    "Deep tech B2B muy temprano con sesgo a software de infraestructura: IA, ciberseguridad, big data e infraestructura de datos, 'pilares de la digitalización industrial'.",
+    "Fundadores con ventaja tecnológica real y capacidad de vender fuera de su mercado local.",
+    "'The most active investor on your cap table'; foco explícito en construir hacia M&A.",
+    "illumex: entrar en el 'building block' antes de la tracción y sostenerlo hasta el exit."
+  ],
   "antecedentes": "Igor de la Sota es licenciado en Business Administration por la University of Newcastle y tiene un MBA por IESE Business School y London Business School (formación ejecutiva adicional en IESE entre 2001 y 2011). Acumula cerca de dos décadas en corporate finance y private equity. Antes de fundar Cardumen dirigió durante siete años la oficina española (Head for Iberia) de Hilco Capital, casa de private equity especializada en reestructuraciones. En 2016-2017 cofundó Cardumen Capital junto a Gonzalo Martínez de Azagra (ex Samsung Ventures), lanzando el primer fondo hispano-israelí de deep tech; la firma se constituyó formalmente en 2018 y está supervisada por la CNMV. Hoy Cardumen supera los 300-400 M€ de activos bajo gestión, con más de 40 compañías en cartera y presencia en Europa, Israel y APAC (Venture Partner en Taipéi). Reconocimientos: IESE 40 under 40 (2022) y 'Spanish Economic Leader of Tomorrow' del Instituto Choiseul (2017 y 2018). Dato personal útil para romper el hielo: fue internacional absoluto de rugby con la Federación Española de Rugby (2004).",
-  "por_que_es_interesante": "Es uno de los pocos GP españoles que ha invertido en pre-seed/seed en infraestructura de datos y developer tools y lo ha llevado hasta un exit a NVIDIA (illumex, seed liderada en 2021, adquirida en 2026). La categoría 'Developer Tools' existe como tal en el portfolio de Cardumen (Configu en pre-seed, Naboo, Raftt, Reshufle en seed), lo que demuestra que el equipo sabe evaluar producto para desarrolladores sin exigir usuarios. Su discurso público de 2026 gira exactamente sobre 'robust data infrastructure in the age of Generative AI' y sobre identificar 'the core building blocks of the AI era' antes que nadie. Ángulo de contacto recomendado: escribir en español, abrir con illumex y con la analogía entre un catálogo de datos autónomo y un stack de software IA-nativo (ambos son capa de infraestructura invisible que se vuelve indispensable), y enseñar la demo del harness de agentes como prueba de ingeniería, no de tracción. Conviene reconocer de entrada que la startup no es israelí y explicar por qué el corredor España-Israel-Europa juega a favor.",
   "inversiones_relevantes": [
     "illumex (2021, seed liderada por Cardumen como primer inversor; catálogo de datos autónomo con IA) — adquirida por NVIDIA en 2026 por ~75 M USD; prueba directa de que entra pre-tracción en infraestructura de datos para IA y sostiene hasta el exit",
     "Configu (pre-seed, Developer Tools; gestión de configuración como código) — evidencia de que invierte en herramientas para desarrolladores en la ronda más temprana",
@@ -77,17 +91,36 @@
     "https://superscout.co/investor/cardumen-capital"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 21,
+      "etapa": 15,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 9,
+      "ajuste": -4,
+      "bruto": 76,
+      "topes": [],
+      "total": 76
+    },
+    "motivo": "Cofundador de Cardumen, con categoría Developer Tools en cartera (Configu en pre-seed) y el exit de illumex a NVIDIA desde una seed que lideró; pero el deal flow es casi íntegramente israelí, los cheques de 1-3M exigen más señal, sólo hay buzón general y Azagra es el contacto primario del fondo.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "alta",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "alta",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Cofundador de Cardumen, categoría Developer Tools con entradas pre-seed (Configu), pero deal flow casi íntegramente israelí y cheques de 1-3M que exigen más señal; Azagra es el contacto primario del fondo."
+    "motivo_v1": "Cofundador de Cardumen, categoría Developer Tools con entradas pre-seed (Configu), pero deal flow casi íntegramente israelí y cheques de 1-3M que exigen más señal; Azagra es el contacto primario del fondo."
   },
   "nombre_original": "Igor de la Sota",
-  "email_original": "info@cardumencapital.com (buzón general del fondo, público y verificado). Email personal directo: no encontrado; patrón corporativo no confirmado."
+  "email_original": "info@cardumencapital.com (buzón general del fondo, público y verificado). Email personal directo: no encontrado; patrón corporativo no confirmado.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es uno de los pocos GP españoles que ha invertido en pre-seed/seed en infraestructura de datos y developer tools y lo ha llevado hasta un exit a NVIDIA (illumex, seed liderada en 2021, adquirida en 2026). La categoría 'Developer Tools' existe como tal en el portfolio de Cardumen (Configu en pre-seed, Naboo, Raftt, Reshufle en seed), lo que demuestra que el equipo sabe evaluar producto para desarrolladores sin exigir usuarios. Su discurso público de 2026 gira exactamente sobre 'robust data infrastructure in the age of Generative AI' y sobre identificar 'the core building blocks of the AI era' antes que nadie. Ángulo de contacto recomendado: escribir en español, abrir con illumex y con la analogía entre un catálogo de datos autónomo y un stack de software IA-nativo (ambos son capa de infraestructura invisible que se vuelve indispensable), y enseñar la demo del harness de agentes como prueba de ingeniería, no de tracción. Conviene reconocer de entrada que la startup no es israelí y explicar por qué el corredor España-Israel-Europa juega a favor.",
+    "tesis_de_inversion": "Igor invierte en deep tech B2B en fase muy temprana con un fuerte sesgo hacia software de infraestructura: inteligencia artificial, ciberseguridad, big data e infraestructura de datos. Su marco mental es que esas tres áreas son 'los pilares de la digitalización y automatización industrial' (Capital, 31-01-2022). Busca fundadores con ventaja tecnológica real y capacidad de vender fuera de su mercado local; el fondo se describe como 'the most active investor on your cap table', con posiciones minoritarias, asiento o presencia en consejo, apertura de puertas a coinversores internacionales y foco explícito en construir hacia una salida (M&A). Tras la compra de illumex por NVIDIA declaró: 'The success of the Illumex exit underscores the global demand for robust data infrastructure in the age of Generative AI. We are proud to have supported the team from day one in building a platform that now sits at the heart of the world's AI computing network' (PR Newswire, marzo 2026). Su socio Gonzalo Martínez de Azagra resumió la tesis en la misma nota: 'This acquisition validates our DeepTech thesis. By backing visionary founders early, we demonstrate our ability to identify the core building blocks of the AI era'. Es decir: entrar en el 'building block' antes de que haya tracción y sostenerlo hasta el exit.",
+    "etapa_y_ticket": [
+      "Deep tech B2B en etapas tempranas: pre-seed, seed y, con follow-ons, Series A/B. Cheques iniciales típicos de 1-3 M USD (perfil de Superscout: 'check sizes typically range from $1 million to $3 million'). En el Fondo I, el ticket medio acumulado por compañía fue de ~4,2 M€ sobre ~10 compañías (El Economista, 2019). Cardumen DeepTech Fund II (~105 M€ / 120 M USD, cierre definitivo diciembre 2023 - enero 2024) se declara explícitamente como fondo de 'Pre-Seed and Seed' en IA, ciberseguridad, big data y tecnologías de la información (Calcalist/CTech, 17-01-2024), con una cartera objetivo de ~20 compañías."
+    ]
+  }
 }

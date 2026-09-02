@@ -1,8 +1,8 @@
 {
   "id": "adrian-mendoza",
   "nombre": "Adrian Mendoza",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 46,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,31 @@
   "ciudad_base": "Boston, Massachusetts, EE.UU. (oficinas en Boston —207 Newbury Street, 3rd floor, Boston, MA 02116— y San Francisco)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional (fondo pequeño, familiar en origen, que lidera rondas)",
-  "etapa_y_ticket": "Pre-seed, seed, Serie A y algo de Serie B; lidera rondas. VC Sheet cifra el cheque medio en 500.000-5.000.000 USD (https://www.vcsheet.com/fund/mendoza-ventures); Signal NFX indica 250.000-5.000.000 USD con punto dulce de 3M USD (https://signal.nfx.com/investors/adrian-mendoza). Fondo vigente: Fund III, con objetivo declarado de 100M USD; el primer cierre se anunció en enero de 2023 con Bank of America como inversor ancla, y la propia web del fondo declaraba 40M USD levantados sobre ese objetivo de 100M. Truist Ventures se sumó a Bank of America y Grasshopper Bank entre los inversores del tercer fondo. Es un fondo de cartera muy concentrada: 12-15 empresas, con contacto semanal con cada fundador, y ofrecen “100% co-investment access to all deals” a sus LPs.",
+  "etapa_y_ticket": [
+    "Pre-seed, seed, Serie A y algo de Serie B; lidera rondas.",
+    "Cheque 250.000-5.000.000 USD, punto dulce ~3M USD (Signal NFX).",
+    "Fund III: objetivo 100M USD, ~40M levantados según su web; anclas Bank of America y Truist.",
+    "Cartera muy concentrada: 12-15 empresas por fondo."
+  ],
   "linkedin": "https://www.linkedin.com/in/adrianmendozavc",
   "linkedin_nota": "",
   "otros_perfiles": "Web del fondo: https://mendoza-ventures.com/ | Su ficha: https://mendoza-ventures.com/team/adrian-mendoza/ | Cartera: https://mendoza-ventures.com/portfolio/ | Overview/tesis: https://mendoza-ventures.com/overview/ | X/Twitter: https://x.com/AdrianMendozaVC | Signal NFX: https://signal.nfx.com/investors/adrian-mendoza | VC Sheet: https://www.vcsheet.com/fund/mendoza-ventures | Perfil en ALX Business Summit: https://business.wearealx.org/our_team/adrian-mendoza/ | Colaborador habitual de CNBC y columnista en American Banker",
   "email": "partners@mendoza-ventures.com",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "Publicado en la página de contacto del fondo junto al teléfono (617-505-6070) y la dirección física: https://mendoza-ventures.com/contact/ . Es el buzón de los socios, no un formulario genérico, y el formulario web pide identificarse explícitamente como fundador. No se ha localizado un email personal suyo y no se propone patrón inventado.",
-  "tesis_de_inversion": "Mendoza Ventures invierte en “technology companies where there is an opportunity for innovation, modernization, and disruption” en servicios financieros, seguros, manufactura y empresas dual-use, con tres verticales declaradas: IA, ciberseguridad y fintech. El criterio de selección de fundadores es explícito y doble: experiencia de dominio en esos sectores y diversidad. El modelo de cartera es de alta convicción y muy concentrado —12 a 15 empresas por fondo, con implicación semanal del inversor—, y el fondo se apoya en un consejo asesor con perfiles de Neuberger Berman, el estado de Nueva York, CyberArk y Goldman Sachs, además de su propia experiencia operativa. La aportación diferencial que declaran es “operator experience and immigrant perspectives to help founders with go-to-market strategy and AI risk guidance”: acompañan sobre todo en salida al mercado y en riesgo regulatorio de la IA, que es exactamente lo que necesita una empresa que vende IA a bancos y aseguradoras. Su postura pública sobre IA es pragmática y algo escéptica: en CNBC Power Lunch (3 de noviembre de 2025) afirmó que “estamos en un segundo ciclo de hype de la IA” (AI Hype 2.0) y que “data is the new currency”, subrayando la importancia de las fuentes de datos con las que se entrenan los modelos.",
+  "por_que_es_interesante": [
+    "GP latino que lidera rondas desde pre-seed con IA y ciberseguridad como verticales declaradas.",
+    "Precedente en herramientas para equipos de desarrollo: lideró la seed de 2M USD de Wabbi (seguridad continua integrada en el ciclo de desarrollo).",
+    "Cartera concentrada (12-15 empresas por fondo, contacto semanal): relación real, no una lista.",
+    "Ángulo: entrar por gobernanza y seguridad de agentes (trazabilidad, privilegios, retención cero), no por 'stack 90% mejor', que choca con su escepticismo."
+  ],
+  "tesis_de_inversion": [
+    "Innovación y modernización en servicios financieros, seguros, manufactura y dual-use; verticales: IA, ciberseguridad, fintech.",
+    "Fundadores con experiencia de dominio en esos sectores y diversidad.",
+    "Cartera concentrada de 12-15 empresas por fondo con implicación semanal; ayuda en go-to-market y riesgo regulatorio de IA.",
+    "Postura pública: 'AI Hype 2.0' (CNBC, nov-2025) y 'data is the new currency'."
+  ],
   "antecedentes": "Diseñador, tecnólogo y emprendedor con veinte años construyendo productos y equipos tecnológicos. Licenciado en Arquitectura (B.Arch) por la University of Southern California y máster en Arquitectura (M.Arch) por Harvard University: una formación de diseño, no de ingeniería de software, que explica su enfoque de producto. Su carrera pasó por IBM, Disney Imagineering y Fidelity, y por varias startups como cofundador y CTO. Tras una salida tecnológica, fundó Mendoza Ventures en Boston junto a su esposa Senofer Mendoza hace ocho o nueve años, empezando como family office. El fondo se presenta como “the first Latinx-founded VC fund on the East Coast” y como firma a la vez latina y de propiedad femenina. Han levantado tres fondos, tienen oficinas en Boston y San Francisco, y acumulan cuatro salidas. Senofer Mendoza forma parte del National Advisory Committee of Innovation and Entrepreneurship. Reconocimientos de Adrian: Axios lo incluyó en 2022 entre las cinco personas más influyentes de Boston, LA Times lo destacó como visionario tecnológico, y es colaborador habitual de CNBC sobre IA y capital riesgo y columnista de American Banker sobre IA y stablecoins en banca; ha aparecido también en Forbes, Bloomberg y The Boston Globe. Cofundó Mendoza Impact, una 501(c)(3) para apoyar a fundadores y gestores diversos.",
-  "por_que_es_interesante": "Es un GP latino que lidera rondas desde pre-seed, con ciberseguridad e IA como verticales centrales y con una inversión que demuestra apetito por herramientas para equipos de desarrollo: lideró en noviembre de 2021 la seed de más de 2M USD de Wabbi, plataforma de seguridad continua que convierte la seguridad de aplicaciones “de cuello de botella en ventaja estratégica” integrándose en el ciclo de desarrollo; fue el mayor cheque del fondo hasta esa fecha. Su cartera es de solo 12-15 empresas por fondo con contacto semanal, lo que significa que un fundador entra en una relación real y no en una lista. Tiene además un buzón de socios público y una superficie mediática amplia (CNBC, American Banker) que lo hace localizable y contactable. Ángulo de contacto: entrar por la puerta de ciberseguridad y gobernanza de agentes —trazabilidad, privilegios, retención cero de datos, riesgo regulatorio— que es donde él aporta valor y donde tiene precedente (Wabbi), y no por la puerta de “stack 90% mejor”, que chocará con su escepticismo declarado sobre el hype.",
   "inversiones_relevantes": [
     "Wabbi (seed de más de 2M USD liderada por Mendoza Ventures el 2 de noviembre de 2021, sobresuscrita, con Cisco Investments, Work-Bench y NLA Ventures; plataforma de seguridad continua que integra application security en el ciclo de desarrollo, fundada por Brittany Greenfield) — la única inversión de la cartera que vive dentro del flujo de trabajo de los equipos de desarrollo; fue el mayor cheque del fondo hasta esa fecha.",
     "Praxi Data (cartera de IA; inteligencia y clasificación de datos) — infraestructura de datos, adyacente a la capa de gobernanza que necesita un sistema de agentes.",
@@ -77,17 +92,36 @@
     "https://www.cnbc.com/video/2025/11/03/mendoza-ventures-adrian-mendoza-on-the-state-of-ai-and-venture-capital.html"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 7,
+      "etapa": 15,
+      "decision": 12,
+      "espanol": 3,
+      "acceso": 12,
+      "ajuste": -3,
+      "bruto": 46,
+      "topes": [],
+      "total": 46
+    },
+    "motivo": "Lidera desde pre-seed y tiene un precedente dev-adjacent (Wabbi), pero su tesis es modernizar sectores regulados, es escéptico público del hype de IA, el Fund III va por debajo de objetivo y no hay evidencia de español.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Tesis de modernización de sectores regulados; único precedente dev-adjacent (Wabbi); escéptico público del hype de IA; origen/español no confirmados."
+    "motivo_v1": "Tesis de modernización de sectores regulados; único precedente dev-adjacent (Wabbi); escéptico público del hype de IA; origen/español no confirmados."
   },
   "nombre_original": "Adrian Mendoza",
-  "email_original": "partners@mendoza-ventures.com"
+  "email_original": "partners@mendoza-ventures.com",
+  "textos_v1": {
+    "por_que_es_interesante": "Es un GP latino que lidera rondas desde pre-seed, con ciberseguridad e IA como verticales centrales y con una inversión que demuestra apetito por herramientas para equipos de desarrollo: lideró en noviembre de 2021 la seed de más de 2M USD de Wabbi, plataforma de seguridad continua que convierte la seguridad de aplicaciones “de cuello de botella en ventaja estratégica” integrándose en el ciclo de desarrollo; fue el mayor cheque del fondo hasta esa fecha. Su cartera es de solo 12-15 empresas por fondo con contacto semanal, lo que significa que un fundador entra en una relación real y no en una lista. Tiene además un buzón de socios público y una superficie mediática amplia (CNBC, American Banker) que lo hace localizable y contactable. Ángulo de contacto: entrar por la puerta de ciberseguridad y gobernanza de agentes —trazabilidad, privilegios, retención cero de datos, riesgo regulatorio— que es donde él aporta valor y donde tiene precedente (Wabbi), y no por la puerta de “stack 90% mejor”, que chocará con su escepticismo declarado sobre el hype.",
+    "tesis_de_inversion": "Mendoza Ventures invierte en “technology companies where there is an opportunity for innovation, modernization, and disruption” en servicios financieros, seguros, manufactura y empresas dual-use, con tres verticales declaradas: IA, ciberseguridad y fintech. El criterio de selección de fundadores es explícito y doble: experiencia de dominio en esos sectores y diversidad. El modelo de cartera es de alta convicción y muy concentrado —12 a 15 empresas por fondo, con implicación semanal del inversor—, y el fondo se apoya en un consejo asesor con perfiles de Neuberger Berman, el estado de Nueva York, CyberArk y Goldman Sachs, además de su propia experiencia operativa. La aportación diferencial que declaran es “operator experience and immigrant perspectives to help founders with go-to-market strategy and AI risk guidance”: acompañan sobre todo en salida al mercado y en riesgo regulatorio de la IA, que es exactamente lo que necesita una empresa que vende IA a bancos y aseguradoras. Su postura pública sobre IA es pragmática y algo escéptica: en CNBC Power Lunch (3 de noviembre de 2025) afirmó que “estamos en un segundo ciclo de hype de la IA” (AI Hype 2.0) y que “data is the new currency”, subrayando la importancia de las fuentes de datos con las que se entrenan los modelos.",
+    "etapa_y_ticket": [
+      "Pre-seed, seed, Serie A y algo de Serie B; lidera rondas. VC Sheet cifra el cheque medio en 500.000-5.000.000 USD (https://www.vcsheet.com/fund/mendoza-ventures); Signal NFX indica 250.000-5.000.000 USD con punto dulce de 3M USD (https://signal.nfx.com/investors/adrian-mendoza). Fondo vigente: Fund III, con objetivo declarado de 100M USD; el primer cierre se anunció en enero de 2023 con Bank of America como inversor ancla, y la propia web del fondo declaraba 40M USD levantados sobre ese objetivo de 100M. Truist Ventures se sumó a Bank of America y Grasshopper Bank entre los inversores del tercer fondo. Es un fondo de cartera muy concentrada: 12-15 empresas, con contacto semanal con cada fundador, y ofrecen “100% co-investment access to all deals” a sus LPs."
+    ]
+  }
 }

@@ -1,0 +1,184 @@
+{
+ "adeyemi-ajao": {
+  "puntuacion": {"tesis": 10, "etapa": 13, "decision": 20, "espanol": 15, "acceso": 13, "ajuste": 0},
+  "motivo": "Español nativo, GP con 850M USD frescos y 10-15 semillas al año, pero su tesis es automatización de la economía real (logística, nóminas), no infraestructura horizontal ni dev tools; su deal de agentes (HappyRobot) fue Serie B.",
+  "por_que": [
+   "Español de origen (Madrid, Tuenti, Cabify, Jobandtalent) y entrevistado en español en 2026: el vínculo hispanohablante más verificable de la lista.",
+   "Lideró la Serie B de 44M USD de HappyRobot (agentes de IA para logística, fundadores españoles): respalda a técnicos españoles en agentes.",
+   "Capital fresco: 850M USD cerrados en junio de 2026 en dos vehículos; objetivo de 10-15 semillas al año.",
+   "Ángulo: no vender infraestructura horizontal (no es su tesis) sino el coste laboral que elimina el stack en un sector concreto, con el harness como maquinaria."
+  ],
+  "etapa_y_ticket": [
+   "Seed, Serie A y Serie B; objetivo anual 10-15 semillas, 2-3 Series A, 3-4 Series B.",
+   "Cheque personal estimado 100.000-5.000.000 USD (VC Sheet).",
+   "Fondos vigentes: Seed & Series A Fund 4 y Series B Fund 2, 850M USD (jun-2026); 2.600M USD bajo gestión."
+  ]
+ },
+ "adrian-mendoza": {
+  "puntuacion": {"tesis": 7, "etapa": 15, "decision": 12, "espanol": 3, "acceso": 12, "ajuste": -3},
+  "motivo": "Lidera desde pre-seed y tiene un precedente dev-adjacent (Wabbi), pero su tesis es modernizar sectores regulados, es escéptico público del hype de IA, el Fund III va por debajo de objetivo y no hay evidencia de español.",
+  "por_que": [
+   "GP latino que lidera rondas desde pre-seed con IA y ciberseguridad como verticales declaradas.",
+   "Precedente en herramientas para equipos de desarrollo: lideró la seed de 2M USD de Wabbi (seguridad continua integrada en el ciclo de desarrollo).",
+   "Cartera concentrada (12-15 empresas por fondo, contacto semanal): relación real, no una lista.",
+   "Ángulo: entrar por gobernanza y seguridad de agentes (trazabilidad, privilegios, retención cero), no por 'stack 90% mejor', que choca con su escepticismo."
+  ],
+  "etapa_y_ticket": [
+   "Pre-seed, seed, Serie A y algo de Serie B; lidera rondas.",
+   "Cheque 250.000-5.000.000 USD, punto dulce ~3M USD (Signal NFX).",
+   "Fund III: objetivo 100M USD, ~40M levantados según su web; anclas Bank of America y Truist.",
+   "Cartera muy concentrada: 12-15 empresas por fondo."
+  ]
+ },
+ "adriana-tortajada": {
+  "puntuacion": {"tesis": 17, "etapa": 10, "decision": 9, "espanol": 15, "acceso": 9, "ajuste": 0},
+  "motivo": "Mandato deep tech explícito e inversión directa en infraestructura para la economía de agentes (101obex), pero cheques reportados de 2-10M, estructura híbrida fondo de fondos, cierre del vehículo no confirmado y sin vía de contacto publicada.",
+  "por_que": [
+   "Tesis 'Productivity & Infrastructure': software, hardware e infraestructura como 'la capa donde la nueva tecnología cobra ingresos reales'.",
+   "Ya invirtió directamente en 101obex, infraestructura de API para la economía de agentes; es LP de Cantos (pre-seed deep tech).",
+   "Kauffman Fellow que diseñó la política pública de VC en México: puerta a LPs institucionales y a Fondo de Fondos.",
+   "Ángulo: tecnología fundacional y horizonte largo, no go-to-market; confirmar antes el estado del fondo."
+  ],
+  "etapa_y_ticket": [
+   "Etapa temprana, 'partnering from the Seed stage'.",
+   "Estructura híbrida: fondo de fondos más coinversiones directas.",
+   "Vehículo lanzado en enero de 2022 con objetivo de 150M USD; cierre no confirmado.",
+   "Cheques reportados 2-10M USD (probablemente mezcla compromisos a fondos y directos); no publica ticket ni proceso."
+  ]
+ },
+ "alberto-gomez": {
+  "puntuacion": {"tesis": 24, "etapa": 17, "decision": 20, "espanol": 15, "acceso": 12, "ajuste": -2},
+  "motivo": "Ha invertido tres veces en la tesis exacta del cliente (Airflows, TuringDream, TandemTrace) en seed y pre-seed desde Madrid, con criterio publicado de 'pioneer before market validation'. Reservas: sólo buzón general, y posible solapamiento con Airflows/TuringDream.",
+  "por_que": [
+   "Firmó personalmente la entrada de Adara en Airflows (2M€, 2026): 'IA convertida en software determinista y auditable', la tesis del stack IA-nativo.",
+   "Adara respaldó TuringDream (seed 6M€, orquestación multiagente) y TandemTrace (agentes de IA para SecOps): tres precedentes literales.",
+   "Criterio publicado 'Courage: willingness to pioneer before market validation' desactiva la objeción de 'no tenemos usuarios'.",
+   "Ángulo: vender arquitectura (determinismo, auditabilidad, el harness como infraestructura), citando Airflows y TuringDream; preguntar por el solapamiento."
+  ],
+  "etapa_y_ticket": [
+   "Pre-seed y seed como núcleo, con capacidad hasta Serie A y growth.",
+   "Ticket inicial 500.000-5.000.000 € (web del fondo); hasta 2,5M€ iniciales en digital.",
+   "Lidera y co-lidera seeds con frecuencia (Airflows, Wodan, TandemTrace, Adcities).",
+   "Dos patas de fondo: AV4 (digital) y AVE (energía)."
+  ]
+ },
+ "alberto-yepez": {
+  "puntuacion": {"tesis": 12, "etapa": 7, "decision": 20, "espanol": 15, "acceso": 11, "ajuste": 0},
+  "motivo": "Español nativo con apetito por deep tech hispanohablante (Sherpa.ai, Multiverse, Maisa), pero mandato central de ciberseguridad y cheque típico de 5-10M USD en Serie A: demasiado tarde y demasiado grande para un pre-seed.",
+  "por_que": [
+   "Tesis que incluye 'infrastructure software' y IA, no sólo ciberseguridad.",
+   "Español nativo verificado (podcast y posts en español); lideró en 2026 la Serie A de 18M USD de Sherpa.ai (Bilbao).",
+   "Consejo asesor de más de 80 CISOs: canal de validación y primeros clientes empresariales.",
+   "Ángulo: presentar el harness desde gobernanza y seguridad de agentes (trazabilidad, aislamiento, permisos); citar Sherpa.ai."
+  ],
+  "etapa_y_ticket": [
+   "Semilla a Serie B, con foco real en Serie A.",
+   "Cheque típico 5-10M USD; horizonte declarado de 3-5 años hacia venta o salida a bolsa.",
+   "Fondos: Forgepoint I (306M), II (450M, 2019), Cybersecurity Fund III (objetivo 750M, tamaño final no confirmado); Forgepoint Capital International en Londres desde 2024."
+  ]
+ },
+ "alejandro-guerrero": {
+  "puntuacion": {"tesis": 17, "etapa": 19, "decision": 20, "espanol": 8, "acceso": 14, "ajuste": 0},
+  "motivo": "Lidera pre-seed de 1-3M USD y ya co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción) con la tesis 'la IA es un nuevo paradigma de computación'. Reservas: no es fondo deep tech, pide un wedge comercial claro y su fluidez en español no está documentada.",
+  "por_que": [
+   "Tesis del fondo casi literal al discurso del cliente: 'AI is a new computing paradigm' que obliga a reconstruir los sistemas centrales.",
+   "Co-lideró la pre-seed de 2,25M USD de Optimal AI: agentes que automatizan compliance dentro de las herramientas de desarrollo.",
+   "Lidera pre-seed y seed con 1-3M USD y unas 7 inversiones al año; mexicano-estadounidense de primera generación con varias latinoamericanas en cartera.",
+   "Buzón abierto con 'Send us your pitch'. Ángulo: citar su frase del paradigma, enseñar el harness y posicionar la ronda como pre-seed liderada."
+  ],
+  "etapa_y_ticket": [
+   "Pre-seed y seed, liderando la ronda.",
+   "Cheques de 1-3M USD; unas 7 nuevas inversiones al año.",
+   "Fund III de 73M USD (ene-2024); 148M USD levantados en nueve años, 60+ empresas, 5 salidas (AuditBoard)."
+  ]
+ },
+ "alex-rubalcava": {
+  "puntuacion": {"tesis": 17, "etapa": 18, "decision": 14, "espanol": 2, "acceso": 10, "ajuste": 0},
+  "motivo": "Tesis pre-seed deep tech B2B con filtro de eficiencia de ingeniería, lidera y es primer cheque institucional; pero español y origen sin evidencia, cheque de 300-750k y fusión con Amplify.LA (fondo generalista de LA, no Amplify Partners).",
+  "por_que": [
+   "Tesis publicada: pre-seed, B2B, deep tech, riesgo técnico alto y riesgo competitivo bajo.",
+   "Filtro explícito que premia construir software exigente con 25.000-60.000 USD: el argumento de eficiencia del cliente.",
+   "Lidera rondas y suele ser el primer cheque institucional; no espera validación de otros.",
+   "Ángulo: demostración de eficiencia de ingeniería (qué se construyó, con cuánto, en cuánto tiempo) y el harness como explicación mecánica. No confundir con Amplify Partners."
+  ],
+  "etapa_y_ticket": [
+   "Pre-seed y seed, liderando; equipos de 3-4 personas, a veces pre-producto.",
+   "Cheque 300.000-750.000 USD dentro de rondas de 1-3M USD.",
+   "Amplify (LA): Fund VI, tamaño no publicado; 'first partner to 80+ companies'."
+  ]
+ },
+ "alfonso-subiotto-marques": {
+  "puntuacion": {"tesis": 22, "etapa": 16, "decision": 6, "espanol": 15, "acceso": 13, "ajuste": 0},
+  "motivo": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y el evaluador técnico más cualificado del lote; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
+  "por_que": [
+   "Mandato declarado por él mismo: 'invest in developer tools and data infrastructure'; Lorimer tiene 14 compañías en esa categoría y entra 'pre-consensus at pre-seed and seed'.",
+   "Ingeniero de sistemas real: motor vectorizado en CockroachDB, perfiles continuos con eBPF (Polar Signals, hoy Dash0), kernels CUDA, deterministic simulation testing.",
+   "Hispanohablante basado en España con correo público: se le puede escribir directamente y en español.",
+   "Ángulo: arquitectura, no mercado; enseñar el repo y cómo se testea de forma determinista una nube de agentes. Campeón interno, no firmante."
+  ],
+  "etapa_y_ticket": [
+   "Lorimer: pre-seed y seed, 'the first check', pre-consenso.",
+   "Tamaño de fondo y ticket no publicados (gestor emergente, RAISE Global 2026).",
+   "Él es Venture Partner a tiempo parcial: origina y evalúa, no firma."
+  ]
+ },
+ "ana-carolina-mexia-ponce": {
+  "puntuacion": {"tesis": 8, "etapa": 19, "decision": 12, "espanol": 15, "acceso": 13, "ajuste": 0},
+  "motivo": "Ingeniera de software (Stanford, LinkedIn) que invierte en la primera ronda institucional y exige fundador técnico, con email público; pero fondo de 7M USD sin Fondo II confirmado, tesis de industrias tradicionales del corredor EE.UU.-México y cero dev tools en cartera.",
+  "por_que": [
+   "Perfil técnico directo: BS Computer Science Stanford, ingeniera de software en LinkedIn; el fondo se define 'led by engineers' y exige al menos un fundador técnico.",
+   "Invierte en la primera ronda institucional: antes de tracción por definición.",
+   "Email público y newsletter propia (ConteNido) como vía de entrada sustantiva.",
+   "Ángulo: conectar el harness con su tesis del corredor EE.UU.-México (equipos en México construyendo a velocidad de Silicon Valley), no 'infra para el mundo'."
+  ],
+  "etapa_y_ticket": [
+   "Pre-seed exclusivamente: 'first institutional round'.",
+   "Fondo I de 7M USD (ago-2023); Fondo II no confirmado.",
+   "Ticket no publicado; por tamaño del vehículo, seis cifras bajas (~150-400k USD, sin confirmar)."
+  ]
+ },
+ "andres-saborido": {
+  "puntuacion": {"tesis": 9, "etapa": 0, "decision": 14, "espanol": 15, "acceso": 10, "ajuste": -12},
+  "motivo": "Wayra exige producto funcionando, tracción inicial y sinergia con Telefónica, y su modelo 2026 es 'venture client': el arquetipo que el cliente quiere evitar. Sólo tiene sentido como conversación de cliente o piloto a futuro.",
+  "por_que": [
+   "Hispanohablante nativo, 15 años en el ecosistema y 20M€ para desplegar en 2026 con IA y ciberseguridad entre sus prioridades.",
+   "Cheques recientes en deep tech y agentes: LuxQuanta (criptografía cuántica) y Capably (automatización agéntica).",
+   "Determinante en contra: criterios publicados de producto funcionando, tracción inicial y sinergia con el grupo; el valor se mide en contratos con Telefónica.",
+   "Ángulo realista: no ronda de inversión sino piloto o cliente cuando haya producto; contacto de segundo orden."
+  ],
+  "etapa_y_ticket": [
+   "Ha migrado de etapas tempranas a Serie A/B con madurez para colaborar con el grupo.",
+   "20M€ anunciados para 2026 en startups y fondos; tickets históricos hasta 250.000 €, hasta 5M€ en estratégicas.",
+   "Requisitos publicados: producto funcionando, tracción inicial y sinergia con Telefónica."
+  ]
+ },
+ "andres-torrubia": {
+  "puntuacion": {"tesis": 20, "etapa": 0, "decision": 0, "espanol": 15, "acceso": 12, "ajuste": 0},
+  "motivo": "Construyó y publicó en abierto 'dual-agent', un harness multi-modelo con MCP, y es de los técnicos de IA más sólidos de España; pero no hay ni una inversión ángel documentada, así que su valor es de validador y advisor, no de capital.",
+  "por_que": [
+   "Ha construido con sus manos una versión reducida del segundo producto del cliente: dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP, MIT, en GitHub).",
+   "Perfil técnico difícil de igualar en España: CERN, top 0,1% de Kaggle, dos startups fundadas en EE.UU.",
+   "Plataforma de divulgación (podcast Software 2.0, Instituto de IA) que multiplica cualquier respaldo.",
+   "Ángulo: técnico y en abierto (issue o PR en dual-agent, comparar harnesses); pedir opinión de arquitectura y, si engancha, advisorship. No pedir dinero."
+  ],
+  "etapa_y_ticket": [
+   "Sin inversiones ángel documentadas en ninguna fuente pública.",
+   "Sin etapa ni ticket conocidos; cualquier cifra sería inventada."
+  ]
+ },
+ "anna-cachadina-abello": {
+  "puntuacion": {"tesis": 23, "etapa": 17, "decision": 5, "espanol": 15, "acceso": 11, "ajuste": -3},
+  "motivo": "Crane invierte desde 'inception' en infraestructura fundacional y dev tools (Qovery, Encord, Laminar) y ella es ingeniera barcelonesa que ya escribe sobre gobernanza y observabilidad de agentes; pero su título es 'Investor', no decide, el Fondo III no está confirmado y está fuera de región.",
+  "por_que": [
+   "Ingeniera de software (Goldman Sachs), catalana y castellanohablante nativa, en un fondo cuyo mandato es infraestructura fundacional, dev tools y open source desde 'inception'.",
+   "Crane lideró la seed de Qovery (DevOps) y tiene Encord (datos AI-native) y Laminar (observabilidad de agentes) en cartera.",
+   "Su artículo publicado trata exactamente el problema del cliente desde el comprador: quién controla, gobierna y observa la IA en la empresa.",
+   "Ángulo: mensaje técnico en español o catalán conectando el harness con gobernanza y observabilidad de agentes. Campeona interna, no firmante."
+  ],
+  "etapa_y_ticket": [
+   "Crane: de 'inception' a seed ('First to believe. Last to leave.').",
+   "Primeros cheques 750.000-3.000.000 USD con reservas hasta Serie B (Fondo II, 140M USD, 2022).",
+   "Fondo III y vehículo vigente en 2026 no confirmados."
+  ]
+ }
+}

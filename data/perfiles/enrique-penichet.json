@@ -1,8 +1,8 @@
 {
   "id": "enrique-penichet",
   "nombre": "Enrique Penichet",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 72,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Valencia, España",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Pre-seed y seed (early stage) en deep tech. Fondo Frontier Tech cerrado el 2 de diciembre de 2025 con más de 20 M€ y nueve inversiones iniciales ya hechas. Sobre el ticket hay fuentes en conflicto y conviene confirmarlo: vcsheet.com cita un cheque medio de 1-2 M€ en seed y afirma que NO lidera rondas; mintround.com sitúa su rango entre 138.000 € y 1,4 M€ en pre-seed/seed. Lo razonable con un fondo de 20 M€ y una cartera objetivo de deep tech es un primer cheque de varios cientos de miles de euros con reserva de follow-on. Fuentes: https://www.vcsheet.com/who/enrique-penichet y https://mintround.com/investors/enrique-penichet",
+  "etapa_y_ticket": [
+    "Pre-seed y seed en deep tech.",
+    "Fondo Frontier Tech: >20M€ (cierre 2-dic-2025), nueve inversiones iniciales.",
+    "Ticket con fuentes en conflicto: 1-2M€ en seed sin liderar (VC Sheet) o 138k-1,4M€ (Mintround); lo razonable, varios cientos de miles con follow-on. Confirmar."
+  ],
   "linkedin": "https://es.linkedin.com/in/enriquepenichet",
   "linkedin_nota": "",
   "otros_perfiles": "X/Twitter: https://x.com/enriquepenichet | Web del fondo: https://draperb1.vc | Equipo: https://draperb1.vc/team | Portfolio: https://draperb1.vc/portfolio | Medium del fondo: https://medium.com/@draperb1 | X del fondo: @draperb1_vc | Crunchbase: https://www.crunchbase.com/person/enrique-penichet | Ficha docente en UNIR: https://www.unir.net/profesores/enrique-penichet-garcia/ | Ficha en El Referente: https://elreferente.es/emprendedores/enrique-penichet/ | Ponente en B-Venture: https://ediciones.b-venture.com/teams/enrique-penichet/ | Perfil largo en El Español (21 jun 2026): https://www.elespanol.com/invertia/disruptores/ecosistema-startup/inversores/20260621/enrique-penichet-arquitecto-suenos-cambio-ladrillo-capital-riesgo-humano-disruptivo/1003744279065_0.html",
   "email": "enrique@draperb1.vc",
   "email_estado": "patrón inferido (no verificado)",
   "email_fuente": "Mintround (https://mintround.com/investors/enrique-penichet) confirma que su correo está en el dominio @draperb1.vc pero oculta la parte local. La web del fondo no publica ningún email individual: canaliza todo por el formulario 'Send us your deck' (https://share.hsforms.com/1MsG5yb6KSTCINwcc53CnuA3cx7k). No hay ningún correo de otro socio publicado que permita fijar el patrón (podría ser enrique@, epenichet@ o e.penichet@). Usar el formulario como vía principal y el correo solo como respaldo. | patrón inferido, NO verificado: solo está confirmado el dominio, no la parte local",
-  "tesis_de_inversion": "Invierte en pre-seed y seed con una tesis 'frontier tech': inteligencia artificial, computación cuántica, ciberseguridad, espacio y salud, con la estrategia declarada de 'local sourcing for global scaling' —originar en España y escalar a Estados Unidos aprovechando la Draper Venture Network (más de 25 firmas de VC y más de 1.000 participadas)—. Subraya que el mercado americano 'concentra más del 60% del mercado global de software'. Sobre la IA es a la vez entusiasta y disciplinado: 'Estamos ante una nueva ola de innovación... La IA permite ahora desarrollos muy rápidos y baja los costes de lanzamiento', pero advierte que 'la ola de la IA está calentando el ecosistema y las valoraciones, pero no se justifica en muchas propuestas'. Reclama además un marco jurídico europeo estandarizado al estilo Delaware: 'sin ese apoyo no habrá grandes winners digitales europeos'. Su estilo con los fundadores es explícitamente humanista y de acompañamiento: se define no como proveedor de capital sino como 'copiloto que advierte curvas y predice problemas', con 'implicación muy directa y cercana', y dice priorizar personas y relaciones sobre métricas y KPIs. Valora el impacto social y la creación de empleo de sus participadas.",
+  "por_que_es_interesante": [
+    "Dinero fresco y mandato escrito con IA y ciberseguridad: Frontier Tech, >20M€, cerrado el 2-dic-2025, nueve inversiones hechas.",
+    "Invierte pre-seed y seed en deep tech por definición pre-tracción (Sycai, Collimate Space, 8layers).",
+    "Puerta a EE.UU. vía Draper Venture Network (25+ firmas, 1.000+ participadas); valenciano, castellanohablante nativo.",
+    "Ángulo: enfatizar 'frontier' y moat técnico, justificar muy bien la valoración y presentar el salto a EE.UU. desde el día uno."
+  ],
+  "tesis_de_inversion": [
+    "'Frontier tech': IA, computación cuántica, ciberseguridad, espacio y salud; 'local sourcing for global scaling' hacia EE.UU. vía Draper Venture Network.",
+    "Entusiasta y disciplinado con la IA: 'baja los costes de lanzamiento' pero 'calienta las valoraciones sin justificarlas en muchas propuestas'.",
+    "Reclama un marco jurídico europeo tipo Delaware.",
+    "Estilo 'copiloto que advierte curvas'; prioriza personas y relaciones sobre KPIs."
+  ],
   "antecedentes": "Nacido en Valencia, segundo de cuatro hermanos, hijo de un director de banco; pasó por seis colegios distintos entre Torrent, Foyos y Valencia y cursó COU en Oregón (EE.UU.). Es arquitecto por la Universitat Politècnica de València, con prácticas en el estudio de Souto de Moura (Portugal) y proyecto final de carrera realizado en París; después hizo un Executive MBA en el IESE durante la crisis de 2008 y un doctorado sobre modelos de negocio basados en internet. Entre 2002 y 2008 trabajó en el sector inmobiliario: tasador, gestión de pedidos masivos en Cohispania y promoción delegada en promotoras-constructoras; llegó a fundar su propia constructora, especializada en supermercados, que sobrevivió al pinchazo porque no arrastraba agujeros financieros previos. En 2010 dio el salto y cofundó Bbooster Ventures, la primera aceleradora de startups de España y tercera de Europa, con un modelo de cuatro meses y unos comienzos austeros ('3.000 euros de capital social para contratar al electricista que instalara los enchufes'). Tras conocer a Tim Draper en el Draper Summit de 2016 en San Francisco —presentación mediada por el inversor coreano John Nahm— formalizó en noviembre de 2017 la alianza que convirtió Bbooster en Draper B1, con rebranding completo en 2020. En 2022 abrió un vertical Web3. Fue nombrado Inversor del Año en España en 2023. Ha cofundado empresas propias, entre ellas Bquate (distribución digital de música).",
-  "por_que_es_interesante": "Tiene dinero fresco y un mandato escrito que incluye la palabra IA y la palabra ciberseguridad: el fondo Frontier Tech cerró el 2 de diciembre de 2025 con más de 20 M€ respaldados por FondICO Global, el Institut Valencià de Finances y el propio Tim Draper, y solo lleva nueve inversiones hechas —queda cartera por construir—. Invierte en pre-seed y seed en deep tech, es decir, por definición antes de la tracción: Sycai Medical, Collimate Space o 8layers no tenían usuarios cuando entró. Es valenciano, castellanoparlante nativo, y su fondo tiene quince años de historia originando en España. Además aporta algo que un stack IA-nativo necesita: puerta a Estados Unidos vía la Draper Venture Network, en un mercado que él mismo describe como el 60% del software mundial. Ángulo de contacto: enfatizar la parte 'frontier' y el moat técnico, tener muy preparada la justificación de la valoración (es explícitamente escéptico con las valoraciones infladas de IA) y presentar un plan de salto a EE.UU. desde el día uno.",
   "inversiones_relevantes": [
     "Sycai Medical (participada del fondo Frontier Tech, anunciada con el cierre en dic 2025; detección precoz de patologías abdominales con IA sobre imagen médica) — deep tech de IA invertido antes de tener tracción comercial",
     "8layers (una de las nueve primeras inversiones del fondo Frontier Tech) — deep tech en fase inicial",
@@ -88,17 +102,36 @@
     "https://www.unir.net/profesores/enrique-penichet-garcia/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 12,
+      "etapa": 17,
+      "decision": 18,
+      "espanol": 15,
+      "acceso": 10,
+      "ajuste": 0,
+      "bruto": 72,
+      "topes": [],
+      "total": 72
+    },
+    "motivo": "Fondo Frontier Tech recién cerrado (>20M€, dic-2025, respaldado por FondICO, IVF y Tim Draper) con mandato de IA, cuántica y ciberseguridad en pre-seed y sólo nueve inversiones hechas; pero sin ningún precedente de dev tools o infra de software en 60+ participadas, escéptico con las valoraciones de IA y con dudas sobre si lidera.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "alta",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "alta",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Fondo Frontier Tech recién cerrado (>20M€, dic 2025) con mandato IA/cuántica/ciber en pre-seed, pero sin ninguna inversión en dev tools o infra de software en 60+ participadas y escéptico con valoraciones de IA."
+    "motivo_v1": "Fondo Frontier Tech recién cerrado (>20M€, dic 2025) con mandato IA/cuántica/ciber en pre-seed, pero sin ninguna inversión en dev tools o infra de software en 60+ participadas y escéptico con valoraciones de IA."
   },
   "nombre_original": "Enrique Penichet (Enrique Penichet García)",
-  "email_original": "enrique@draperb1.vc (patrón inferido, NO verificado: solo está confirmado el dominio, no la parte local)"
+  "email_original": "enrique@draperb1.vc (patrón inferido, NO verificado: solo está confirmado el dominio, no la parte local)",
+  "textos_v1": {
+    "por_que_es_interesante": "Tiene dinero fresco y un mandato escrito que incluye la palabra IA y la palabra ciberseguridad: el fondo Frontier Tech cerró el 2 de diciembre de 2025 con más de 20 M€ respaldados por FondICO Global, el Institut Valencià de Finances y el propio Tim Draper, y solo lleva nueve inversiones hechas —queda cartera por construir—. Invierte en pre-seed y seed en deep tech, es decir, por definición antes de la tracción: Sycai Medical, Collimate Space o 8layers no tenían usuarios cuando entró. Es valenciano, castellanoparlante nativo, y su fondo tiene quince años de historia originando en España. Además aporta algo que un stack IA-nativo necesita: puerta a Estados Unidos vía la Draper Venture Network, en un mercado que él mismo describe como el 60% del software mundial. Ángulo de contacto: enfatizar la parte 'frontier' y el moat técnico, tener muy preparada la justificación de la valoración (es explícitamente escéptico con las valoraciones infladas de IA) y presentar un plan de salto a EE.UU. desde el día uno.",
+    "tesis_de_inversion": "Invierte en pre-seed y seed con una tesis 'frontier tech': inteligencia artificial, computación cuántica, ciberseguridad, espacio y salud, con la estrategia declarada de 'local sourcing for global scaling' —originar en España y escalar a Estados Unidos aprovechando la Draper Venture Network (más de 25 firmas de VC y más de 1.000 participadas)—. Subraya que el mercado americano 'concentra más del 60% del mercado global de software'. Sobre la IA es a la vez entusiasta y disciplinado: 'Estamos ante una nueva ola de innovación... La IA permite ahora desarrollos muy rápidos y baja los costes de lanzamiento', pero advierte que 'la ola de la IA está calentando el ecosistema y las valoraciones, pero no se justifica en muchas propuestas'. Reclama además un marco jurídico europeo estandarizado al estilo Delaware: 'sin ese apoyo no habrá grandes winners digitales europeos'. Su estilo con los fundadores es explícitamente humanista y de acompañamiento: se define no como proveedor de capital sino como 'copiloto que advierte curvas y predice problemas', con 'implicación muy directa y cercana', y dice priorizar personas y relaciones sobre métricas y KPIs. Valora el impacto social y la creación de empleo de sus participadas.",
+    "etapa_y_ticket": [
+      "Pre-seed y seed (early stage) en deep tech. Fondo Frontier Tech cerrado el 2 de diciembre de 2025 con más de 20 M€ y nueve inversiones iniciales ya hechas. Sobre el ticket hay fuentes en conflicto y conviene confirmarlo: vcsheet.com cita un cheque medio de 1-2 M€ en seed y afirma que NO lidera rondas; mintround.com sitúa su rango entre 138.000 € y 1,4 M€ en pre-seed/seed. Lo razonable con un fondo de 20 M€ y una cartera objetivo de deep tech es un primer cheque de varios cientos de miles de euros con reserva de follow-on. Fuentes: https://www.vcsheet.com/who/enrique-penichet y https://mintround.com/investors/enrique-penichet"
+    ]
+  }
 }

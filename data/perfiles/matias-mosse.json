@@ -1,8 +1,8 @@
 {
   "id": "matias-mosse",
   "nombre": "Matias Mosse",
-  "nivel": "x",
-  "nivel_etiqueta": "4 - Descartado (ver riesgos)",
+  "nivel": 55,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,30 @@
   "ciudad_base": "Miami, Florida, EE.UU.",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional (fondo evergreen / permanent capital, con SPVs de coinversión)",
-  "etapa_y_ticket": "Pre-seed y seed como entrada principal, con seguimiento vía SPV hasta Serie A/B. VC Sheet indica cheques de 250.000 a 2.500.000 USD y confirma que el fondo puede liderar (https://www.vcsheet.com/who/matias-mosse). Signal NFX, más conservador, indica 100.000-1.000.000 USD con punto dulce en 100.000 USD (probablemente refleja sus ángeles/primeros años). Tracxn contabiliza 51 empresas a enero de 2026, con ticket medio de 5,18M USD en las rondas seed en las que participa y 41M USD en las Series A. Fondo inicial de 5M USD en 2017 (incorporando diez inversiones ángel previas); el vehículo actual es evergreen y el fondo no publica su tamaño (una fuente terciaria, superscout.co, cita ~50M USD; no confirmado).",
+  "etapa_y_ticket": [
+    "Pre-seed y seed como entrada, con SPVs hasta Serie A/B; puede liderar.",
+    "Cheques 250.000-2.500.000 USD (VC Sheet); ticket medio en seeds participadas 5,2M USD.",
+    "Vehículo evergreen sin tamaño publicado (~50M USD según fuente terciaria)."
+  ],
   "linkedin": "https://www.linkedin.com/in/matiasmosse/",
   "linkedin_nota": "",
   "otros_perfiles": "Web del fondo: https://starlight.vc/ | Contacto: https://starlight.vc/contact-us/ | X/Twitter del fondo: https://x.com/StarlightVC_ | LinkedIn del fondo: https://www.linkedin.com/company/starlightventures | Crunchbase: https://www.crunchbase.com/person/matias-mosse | Signal NFX: https://signal.nfx.com/investors/matias-mosse | PitchBook: https://pitchbook.com/profiles/investor/110009-35 | Bloomberg: https://www.bloomberg.com/profile/person/20993735 | AngelList: https://angel.co/u/matias-mosse",
   "email": "pitch@starlight.vc",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "El email del fondo para pitches, pitch@starlight.vc, aparece en la página de contacto pública https://starlight.vc/contact-us/ y en resultados de búsqueda; es la vía oficial y verificada, pero no es su email personal. El personal mmosse@starlight.vc se deduce del patrón FLast@starlight.vc documentado por el agregador LeadIQ (https://leadiq.com/c/starlight-ventures/5d0c00041f00001301ecdb5f/email-format); es un agregador de datos, NO una fuente primaria, por lo que se marca como inferido y no verificado. Recomendación: usar pitch@starlight.vc y el formulario de fundadores de la web. | email público del fondo para fundadores). Personal probable: mmosse@starlight.vc",
-  "tesis_de_inversion": "Starlight invierte en “breakthrough science and technology applied to the challenges humanity has no choice but to solve, including the ones we haven’t anticipated yet”. Sus áreas declaradas en la web (2026) son seis y todas de hardware o ciencia: energía de fusión, infraestructura espacial, computación cuántica, materiales críticos, descarbonización industrial y ciencias de la vida. Su marco de riesgo es explícitamente contrario al del venture de software: “Breakthrough innovation often requires meaningful capital risk and uncommon patience”. Buscan “exceptional founders — people with technical rigor, sound judgment, and ability to execute”. La pieza estructural más distintiva es su capital: “permanent by design — free of the structural constraints that force other firms to optimize for timelines rather than outcomes”; el vehículo actual es evergreen, diseñado para que “el horizonte del capital coincida con el horizonte del trabajo”, y se complementa con SPVs de coinversión para seguir a las mejores empresas durante todo el arco. Mosse se ha especializado además en estructurar capital stacks multicapa que combinan venture con project finance, deuda, programas gubernamentales y offtake corporativo, y el fondo se posiciona como líder de opinión sobre cómo financiar deep tech “from lab to scale”.",
+  "por_que_es_interesante": [
+    "Estructura única: vehículo evergreen 'permanent by design' que iguala horizonte del capital y del trabajo.",
+    "Compra riesgo técnico antes de tracción: fusión, cómputo en ADN (Catalog), fotónica cuántica (Ephos).",
+    "Español nativo, Miami, pitch@ público y red de asesores técnicos que evalúan ciencia.",
+    "Ángulo: enmarcar el stack como problema de física del cómputo (energía por token, límites de la arquitectura actual), no como software empresarial."
+  ],
+  "tesis_de_inversion": [
+    "'Breakthrough science and technology applied to the challenges humanity has no choice but to solve'.",
+    "Seis áreas, todas de hardware o ciencia: fusión, infraestructura espacial, cuántica, materiales críticos, descarbonización industrial, ciencias de la vida.",
+    "'Breakthrough innovation often requires meaningful capital risk and uncommon patience'; fundadores con rigor técnico y capacidad de ejecutar.",
+    "Capital stacks multicapa (venture, project finance, deuda, programas públicos, offtake) para deep tech 'from lab to scale'."
+  ],
   "antecedentes": "Argentino. Licenciado en Economía por la Universidad de Buenos Aires (UBA). Fue emprendedor de internet en América Latina desde mediados de los años noventa, en la primera ola de la web en la región, y ha cofundado varias empresas. Fue miembro del consejo de CIPPEC, uno de los principales think tanks de política pública de Argentina, lo que confirma su vínculo institucional continuado con el país. Pasó por inversión en activos reales antes de girar hacia frontier tech. En 2017 fundó Starlight Ventures en Miami junto a Patricia Wexler, arrancando con un fondo de 5M USD que incorporaba diez inversiones ángel previas; desde entonces la firma ha construido una cartera de más de 45-51 empresas en fusión, espacio, cuántica, materiales, descarbonización industrial y biotecnología, con más de 20 asesores técnicos (entre ellos Ramez Naam). Es además Founder & CEO de Star Capital, también con base en Miami. El equipo de inversión actual incluye a Nicolas Piuma, Michelle Wax, Olivia Vigil, Silvana Novidelsky y Romina Ledesma; varios nombres del equipo son hispanohablantes.",
-  "por_que_es_interesante": "Su valor para esta startup no es sectorial sino estructural. Starlight es de los poquísimos vehículos en EE.UU. que declara por escrito capital permanente y “uncommon patience”, y que compra riesgo técnico severo antes de cualquier tracción comercial: entró en Commonwealth Fusion Systems en 2018, cuando no existía ni un reactor ni un cliente. Mosse es argentino, español nativo, opera desde Miami y su red de asesores técnicos es real (evalúan ciencia, no métricas). Si la startup consigue enmarcar su stack IA-nativo como un problema de física del cómputo (energía por token, límites de la arquitectura actual, arquitectura novedosa) y no como software empresarial, el encaje mejora mucho. Ángulo de contacto: escribir en español a pitch@starlight.vc con un memo técnico corto y benchmarks reproducibles; apoyarse en su cartera de computación no convencional (Catalog, almacenamiento de datos en ADN; Ephos, chips fotónicos cuánticos) como precedente de que sí compran arquitecturas de cómputo nuevas.",
   "inversiones_relevantes": [
     "Catalog (Serie B de 35M USD en septiembre de 2021; plataforma de almacenamiento y computación de datos en ADN sintético) — el precedente más útil: una arquitectura de cómputo/almacenamiento radicalmente distinta, sin mercado establecido, financiada por su rareza técnica.",
     "Ephos (participación en la ronda de 7,6M EUR de septiembre de 2024; chips fotónicos para computación cuántica, Milán) — demuestra apetito por hardware de cómputo novedoso y por equipos fuera de EE.UU.",
@@ -79,17 +93,38 @@
     "https://superscout.co/investor/starlight-ventures"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 8,
+      "etapa": 18,
+      "decision": 18,
+      "espanol": 15,
+      "acceso": 12,
+      "ajuste": -6,
+      "bruto": 65,
+      "topes": [
+        "tesis < 10 → máx. 55"
+      ],
+      "total": 55
+    },
+    "motivo": "Capital permanente, 'uncommon patience' y compra de riesgo técnico severo antes de cualquier tracción (Commonwealth Fusion en 2018), argentino en Miami con buzón de pitch público; pero las seis áreas del fondo son hardware o ciencia y la cartera no tiene ninguna empresa de IA ni de software.",
+    "nivel_v1": "x",
     "prioridad_agente": "C",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "x",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Capital permanente y tolerancia al riesgo técnico, pero las seis áreas del fondo son hardware o ciencia y la cartera no tiene ninguna empresa de IA ni software."
+    "motivo_v1": "Capital permanente y tolerancia al riesgo técnico, pero las seis áreas del fondo son hardware o ciencia y la cartera no tiene ninguna empresa de IA ni software."
   },
   "nombre_original": "Matias Mosse",
-  "email_original": "pitch@starlight.vc (email público del fondo para fundadores). Personal probable: mmosse@starlight.vc"
+  "email_original": "pitch@starlight.vc (email público del fondo para fundadores). Personal probable: mmosse@starlight.vc",
+  "textos_v1": {
+    "por_que_es_interesante": "Su valor para esta startup no es sectorial sino estructural. Starlight es de los poquísimos vehículos en EE.UU. que declara por escrito capital permanente y “uncommon patience”, y que compra riesgo técnico severo antes de cualquier tracción comercial: entró en Commonwealth Fusion Systems en 2018, cuando no existía ni un reactor ni un cliente. Mosse es argentino, español nativo, opera desde Miami y su red de asesores técnicos es real (evalúan ciencia, no métricas). Si la startup consigue enmarcar su stack IA-nativo como un problema de física del cómputo (energía por token, límites de la arquitectura actual, arquitectura novedosa) y no como software empresarial, el encaje mejora mucho. Ángulo de contacto: escribir en español a pitch@starlight.vc con un memo técnico corto y benchmarks reproducibles; apoyarse en su cartera de computación no convencional (Catalog, almacenamiento de datos en ADN; Ephos, chips fotónicos cuánticos) como precedente de que sí compran arquitecturas de cómputo nuevas.",
+    "tesis_de_inversion": "Starlight invierte en “breakthrough science and technology applied to the challenges humanity has no choice but to solve, including the ones we haven’t anticipated yet”. Sus áreas declaradas en la web (2026) son seis y todas de hardware o ciencia: energía de fusión, infraestructura espacial, computación cuántica, materiales críticos, descarbonización industrial y ciencias de la vida. Su marco de riesgo es explícitamente contrario al del venture de software: “Breakthrough innovation often requires meaningful capital risk and uncommon patience”. Buscan “exceptional founders — people with technical rigor, sound judgment, and ability to execute”. La pieza estructural más distintiva es su capital: “permanent by design — free of the structural constraints that force other firms to optimize for timelines rather than outcomes”; el vehículo actual es evergreen, diseñado para que “el horizonte del capital coincida con el horizonte del trabajo”, y se complementa con SPVs de coinversión para seguir a las mejores empresas durante todo el arco. Mosse se ha especializado además en estructurar capital stacks multicapa que combinan venture con project finance, deuda, programas gubernamentales y offtake corporativo, y el fondo se posiciona como líder de opinión sobre cómo financiar deep tech “from lab to scale”.",
+    "etapa_y_ticket": [
+      "Pre-seed y seed como entrada principal, con seguimiento vía SPV hasta Serie A/B. VC Sheet indica cheques de 250.000 a 2.500.000 USD y confirma que el fondo puede liderar (https://www.vcsheet.com/who/matias-mosse). Signal NFX, más conservador, indica 100.000-1.000.000 USD con punto dulce en 100.000 USD (probablemente refleja sus ángeles/primeros años). Tracxn contabiliza 51 empresas a enero de 2026, con ticket medio de 5,18M USD en las rondas seed en las que participa y 41M USD en las Series A. Fondo inicial de 5M USD en 2017 (incorporando diez inversiones ángel previas); el vehículo actual es evergreen y el fondo no publica su tamaño (una fuente terciaria, superscout.co, cita ~50M USD; no confirmado)."
+    ]
+  }
 }

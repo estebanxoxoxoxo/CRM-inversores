@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import type { InversorResumen } from "../types/inversor";
+import type { Banda, InversorResumen } from "../types/inversor";
 
 interface Props {
   perfiles: InversorResumen[];
@@ -13,6 +13,25 @@ export function Etiqueta({ clase, children, title }: { clase: string; children: 
       {children}
     </span>
   );
+}
+
+const CLASE_BANDA: Record<Banda, string> = {
+  Indiscutible: "banda-1",
+  "Alto potencial": "banda-2",
+  Reserva: "banda-3",
+  Descartado: "banda-4",
+};
+
+export function Nivel({ nivel, banda, grande = false }: { nivel: number; banda: Banda; grande?: boolean }) {
+  return (
+    <span className={`nivel ${CLASE_BANDA[banda]} ${grande ? "nivel-grande" : ""}`} title={`Nivel ${nivel} de 100 · ${banda}`}>
+      {nivel}
+    </span>
+  );
+}
+
+export function claseBanda(b: Banda): string {
+  return CLASE_BANDA[b];
 }
 
 export function regionCorta(r: string): string {
@@ -29,14 +48,10 @@ export default function ListaInversores({ perfiles, seleccionado, onSeleccionar 
         <li key={p.id}>
           <button type="button" className={`tarjeta ${seleccionado === p.id ? "activa" : ""}`} onClick={() => onSeleccionar(p.id)}>
             <div className="tarjeta-linea1">
-              <Etiqueta clase={`nivel-${p.nivel}`} title={p.nivel_etiqueta}>
-                {p.nivel === "r" ? "R" : p.nivel === "x" ? "X" : p.nivel}
-              </Etiqueta>
+              <Nivel nivel={p.nivel} banda={p.banda} />
               <span className="tarjeta-nombre">{p.nombre}</span>
-              <Etiqueta clase={`prio-${p.prioridad}`} title={`Prioridad ${p.prioridad}`}>
-                {p.prioridad}
-              </Etiqueta>
-              <Etiqueta clase={`conf-${p.confianza}`} title={`Confianza ${p.confianza}`}>
+              <Etiqueta clase={CLASE_BANDA[p.banda]}>{p.banda}</Etiqueta>
+              <Etiqueta clase={`conf-${p.confianza}`} title={`Confianza en las fuentes: ${p.confianza}`}>
                 {p.confianza}
               </Etiqueta>
             </div>

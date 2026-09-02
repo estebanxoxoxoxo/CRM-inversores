@@ -1,8 +1,8 @@
 {
   "id": "rafa-de-haro",
   "nombre": "Rafa de Haro",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 55,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "México",
@@ -11,16 +11,30 @@
   "ciudad_base": "Ciudad de México, México (el fondo abrió además oficina en Bogotá en 2024 y opera todo el mundo hispanohablante, incluido España y el mercado hispano de EE.UU.)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Pre-seed, Seed, Serie A y Serie B. Ticket reportado por directorios: US$100K–US$5M (descubre.vc); prensa regional reporta US$500K–US$4M sobre un vehículo de ~US$130M (latamrepublic.com). Signal NFX registra para él personalmente rondas semilla de US$4-6M (Kuona, dic 2022, US$6M; Territorium, ago 2022, US$4M) y una Serie B (GAIA, 2018, US$15M), lo que sugiere que en la práctica su punto dulce está en semillas ya grandes, no en primeros cheques. Historial de vehículos: VARIV I (2013), VARIV II (2015, 16 empresas), COMETA III (2021). Tamaño exacto de COMETA III no confirmado en fuente primaria.",
+  "etapa_y_ticket": [
+    "Pre-seed, seed, Serie A y B declarados; ticket 100k-5M USD (directorios), 500k-4M (prensa).",
+    "Sus operaciones registradas: semillas de 4-6M USD (Kuona, Territorium) y una Serie B (GAIA).",
+    "COMETA III (2021), tamaño no confirmado; vehículo ~130M USD según prensa."
+  ],
   "linkedin": "https://www.linkedin.com/in/rafadeharo/",
   "linkedin_nota": "",
   "otros_perfiles": "Web del fondo: https://www.cometa.vc/ | Tesis/historia: https://www.cometa.vc/about | Equipo: https://www.cometa.vc/team | Portafolio: https://www.cometa.vc/portfolio | Contacto: https://www.cometa.vc/contact | LinkedIn del fondo: https://www.linkedin.com/company/cometa-vc/ | Bolsa de empleo del portafolio: https://jobs.cometa.vc/ | Signal NFX: https://signal.nfx.com/investors/rafael-de-haro | Nota: la URL de LinkedIn personal es la forma habitual de su perfil pero NO ha podido verificarse por bloqueo de LinkedIn a la consulta automatizada; confirmar antes de usar.",
   "email": "info@cometa.vc",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "Publicado en https://www.cometa.vc/contact, junto con el teléfono (+52) 552 345 1963. Es el correo corporativo, no el personal de Rafa de Haro; el fondo no publica emails individuales de socios ni permite deducir un patrón. La misma página ofrece un formulario con la opción explícita 'Present your project'. | email general del fondo, no personal",
-  "tesis_de_inversion": "Cometa se presenta como 'Technology Investors for the Spanish-Speaking World' y su tesis publicada es una de las más explícitas sobre IA de todo el VC latinoamericano. En su propia web: 'We strategically focus on the intersection where significant human interaction, potentially proprietary data, and high data criticality converge. Cometa invests in AI readiness enablers'. Desglosan cuatro dimensiones: (1) recopilación de datos — cómo se recogen, organizan y almacenan dentro de una empresa o industria; (2) automatización — 'Cometa targets processes that involve medium to high human intervention', midiendo el grado de automatización y adopción de machine learning; (3) datos potencialmente propietarios — soluciones que generan datos propios en industrias donde escasea lo digitalizado; (4) criticidad del dato — industrias donde el dato es crítico para necesidades humanas o de negocio. El mercado objetivo declarado son los 21 países hispanohablantes: US$8 billones de PIB, más de 600M de personas, edad media 31 años y penetración de internet y smartphone del 80%. Sectores efectivos: SaaS, fintech, marketplaces, enterprise, datos y analítica, educación y logística. Importante para calibrar: la tesis es sobre en qué INDUSTRIAS la IA está a punto de rendir, no sobre construir la infraestructura de la IA. No hay en su cartera ni dev tools, ni open source, ni infraestructura de cómputo o agentes.",
+  "por_que_es_interesante": [
+    "Ha hecho el trabajo intelectual de pensar dónde y por qué la IA va a rendir, con vocabulario propio.",
+    "Invirtió antes que casi nadie en México en IA industrial (Kuona, Pulsar) y en seguridad (Hackmetrix); fundador con exit a JPMorgan.",
+    "Declara pre-seed, aunque sus operaciones personales son semillas grandes.",
+    "Ángulo: argumentar que el stack y el harness son el 'AI readiness enabler' que falta para que su tesis sea ejecutable. Expectativas realistas."
+  ],
+  "tesis_de_inversion": [
+    "'Technology Investors for the Spanish-Speaking World'; 'Cometa invests in AI readiness enablers'.",
+    "Cuatro dimensiones: recopilación de datos, automatización de procesos con intervención humana media-alta, datos potencialmente propietarios, criticidad del dato.",
+    "Mercado: 21 países hispanohablantes; sectores SaaS, fintech, marketplaces, enterprise, datos, educación, logística.",
+    "Tesis sobre en qué industrias rendirá la IA, no sobre construir su infraestructura."
+  ],
   "antecedentes": "Abogado por la Universidad Iberoamericana, con especialización en Derecho Internacional en París; MBA por NYU Stern y cursos en Peking University y Harvard Business School. Fue banquero de inversión en el grupo de M&A de JPMorgan en Londres. Emprendió: cofundó Lifedots, adquirida por JPMorgan en 2011. Ha sido profesor de capital de riesgo en el ITAM. En 2012 cofundó VARIV Capital junto a Diego y Ernesto Vargas; el primer vehículo (VARIV I, 2013) invirtió en e-commerce, pagos y logística con más de diez operaciones, y VARIV II (2015) en fintech, marketplaces y empresas enterprise, con dieciséis compañías. En 2019 la firma se rebautizó como Cometa y los hermanos Vargas salieron de los roles operativos; desde 2023 el liderazgo total lo comparten Rafa de Haro y Pepe Bolaños (General Partner desde 2017, incorporado como Principal en 2014). En 2024 abrieron oficina en Bogotá. El equipo actual incluye además a Abel Bezares y Nico Marseillan como Principals. Cometa declara más de 100 fundadores respaldados, 44 empresas, 14 países y más de US$6.000M de valor creado desde 2012.",
-  "por_que_es_interesante": "Es el único fondo mexicano cuya tesis publicada contiene la frase 'Cometa invests in AI readiness enablers'. Eso convierte a Rafa de Haro en un interlocutor que ya ha hecho el trabajo intelectual de pensar dónde y por qué la IA va a rendir, y que tiene vocabulario propio para discutirlo. Además invirtió antes que casi nadie en México en IA industrial (Kuona, Pulsar) y en seguridad y cumplimiento (Hackmetrix), y su firma declara etapa desde pre-seed. Su historia personal —fundador de una startup adquirida por JPMorgan, profesor de VC en el ITAM— hace que entienda de primera mano el riesgo de construir tecnología antes del mercado. El ángulo de contacto tiene que ser una traducción: no vender 'infraestructura de IA' sino argumentar por qué un stack IA-nativo y un harness de agentes son precisamente el 'AI readiness enabler' que falta para que las empresas de su tesis puedan siquiera ejecutarla. Dicho esto, el encaje es parcial y hay que ir con expectativas realistas (ver riesgos).",
   "inversiones_relevantes": [
     "Kuona (semilla, diciembre 2022, ronda de US$6M — IA para pricing y predicción de demanda en retail) — su inversión personal más clara en IA aplicada, registrada en Signal NFX",
     "Pulsar (SaaS/IA industrial) — segunda apuesta de IA de la cartera de Cometa",
@@ -72,17 +86,38 @@
     "https://jobs.cometa.vc/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 9,
+      "etapa": 12,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 9,
+      "ajuste": -3,
+      "bruto": 62,
+      "topes": [
+        "tesis < 10 → máx. 55"
+      ],
+      "total": 55
+    },
+    "motivo": "Único fondo mexicano con la frase 'Cometa invests in AI readiness enablers' y precedentes tempranos en IA industrial (Kuona, Pulsar) y seguridad (Hackmetrix); pero su tesis identifica industrias listas para la IA, no financia su infraestructura, 16 de ~40 posiciones son fintech, no hay dev tools y sus rondas personales son semillas de 4-6M.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Tesis 'AI readiness enablers' identifica industrias, no infraestructura; 16 de ~40 posiciones fintech, cero dev tools; rondas personales de 4-6M."
+    "motivo_v1": "Tesis 'AI readiness enablers' identifica industrias, no infraestructura; 16 de ~40 posiciones fintech, cero dev tools; rondas personales de 4-6M."
   },
   "nombre_original": "Rafa de Haro (Rafael de Haro)",
-  "email_original": "info@cometa.vc (email general del fondo, no personal)"
+  "email_original": "info@cometa.vc (email general del fondo, no personal)",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el único fondo mexicano cuya tesis publicada contiene la frase 'Cometa invests in AI readiness enablers'. Eso convierte a Rafa de Haro en un interlocutor que ya ha hecho el trabajo intelectual de pensar dónde y por qué la IA va a rendir, y que tiene vocabulario propio para discutirlo. Además invirtió antes que casi nadie en México en IA industrial (Kuona, Pulsar) y en seguridad y cumplimiento (Hackmetrix), y su firma declara etapa desde pre-seed. Su historia personal —fundador de una startup adquirida por JPMorgan, profesor de VC en el ITAM— hace que entienda de primera mano el riesgo de construir tecnología antes del mercado. El ángulo de contacto tiene que ser una traducción: no vender 'infraestructura de IA' sino argumentar por qué un stack IA-nativo y un harness de agentes son precisamente el 'AI readiness enabler' que falta para que las empresas de su tesis puedan siquiera ejecutarla. Dicho esto, el encaje es parcial y hay que ir con expectativas realistas (ver riesgos).",
+    "tesis_de_inversion": "Cometa se presenta como 'Technology Investors for the Spanish-Speaking World' y su tesis publicada es una de las más explícitas sobre IA de todo el VC latinoamericano. En su propia web: 'We strategically focus on the intersection where significant human interaction, potentially proprietary data, and high data criticality converge. Cometa invests in AI readiness enablers'. Desglosan cuatro dimensiones: (1) recopilación de datos — cómo se recogen, organizan y almacenan dentro de una empresa o industria; (2) automatización — 'Cometa targets processes that involve medium to high human intervention', midiendo el grado de automatización y adopción de machine learning; (3) datos potencialmente propietarios — soluciones que generan datos propios en industrias donde escasea lo digitalizado; (4) criticidad del dato — industrias donde el dato es crítico para necesidades humanas o de negocio. El mercado objetivo declarado son los 21 países hispanohablantes: US$8 billones de PIB, más de 600M de personas, edad media 31 años y penetración de internet y smartphone del 80%. Sectores efectivos: SaaS, fintech, marketplaces, enterprise, datos y analítica, educación y logística. Importante para calibrar: la tesis es sobre en qué INDUSTRIAS la IA está a punto de rendir, no sobre construir la infraestructura de la IA. No hay en su cartera ni dev tools, ni open source, ni infraestructura de cómputo o agentes.",
+    "etapa_y_ticket": [
+      "Pre-seed, Seed, Serie A y Serie B. Ticket reportado por directorios: US$100K–US$5M (descubre.vc); prensa regional reporta US$500K–US$4M sobre un vehículo de ~US$130M (latamrepublic.com). Signal NFX registra para él personalmente rondas semilla de US$4-6M (Kuona, dic 2022, US$6M; Territorium, ago 2022, US$4M) y una Serie B (GAIA, 2018, US$15M), lo que sugiere que en la práctica su punto dulce está en semillas ya grandes, no en primeros cheques. Historial de vehículos: VARIV I (2013), VARIV II (2015, 16 empresas), COMETA III (2021). Tamaño exacto de COMETA III no confirmado en fuente primaria."
+    ]
+  }
 }

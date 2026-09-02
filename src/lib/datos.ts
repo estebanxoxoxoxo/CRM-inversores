@@ -81,5 +81,5 @@ export function cargarPerfil(id: string): Promise<Inversor> {
 /** Índice completo a partir de los perfiles locales (por si el índice guardado quedara desfasado). */
 export async function reconstruirIndiceLocal(): Promise<Indice> {
   const perfiles = await Promise.all(Object.values(modulosLocales).map(async (c) => InversorSchema.parse((await c()).default)));
-  return { generado: new Date().toISOString().slice(0, 10), total: perfiles.length, perfiles: perfiles.map(resumenDe) };
+  return { generado: new Date().toISOString().slice(0, 10), version: 2, total: perfiles.length, perfiles: perfiles.map(resumenDe) };
 }

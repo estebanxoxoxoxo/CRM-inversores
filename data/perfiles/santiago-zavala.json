@@ -1,8 +1,8 @@
 {
   "id": "santiago-zavala",
   "nombre": "Santiago Zavala",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
+  "nivel": 85,
+  "banda": "Indiscutible",
   "prioridad": "A",
   "confianza": "alta",
   "region": "México",
@@ -11,16 +11,30 @@
   "ciudad_base": "Ciudad de México, México (con presencia frecuente en San Francisco / Palo Alto)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional (con un componente de aceleradora/programa en la pata LatAm)",
-  "etapa_y_ticket": "Pre-seed, seed y Serie A. VC Sheet le atribuye cheques de 100.000 $ a 5 M$ y confirma que lidera rondas. La vía estandarizada de 500 LatAm es distinta y más pequeña: 300.000 $ por compañía dentro de un programa con acompañamiento y acceso a Silicon Valley (en la convocatoria de 2026 se seleccionaron 5 compañías, con periodo de solicitud del 1 al 31 de julio de 2026). Históricamente 500 LatAm empezó con cheques de ~80.000 $ y los fue subiendo. Es decir: hay dos puertas, la del programa (300 k$, estándar) y la de una inversión directa mayor liderada por el fondo.",
+  "etapa_y_ticket": [
+    "Pre-seed, seed y Serie A; lidera rondas; cheques 100k-5M USD (VC Sheet).",
+    "Vía estándar de 500 LatAm: 300.000 USD por compañía en programa con acceso a Silicon Valley (5 seleccionadas en 2026).",
+    "Dos puertas: el programa (300k) o una inversión directa mayor liderada por el fondo."
+  ],
   "linkedin": "https://www.linkedin.com/in/santiago-zavala-47a68b7/",
   "linkedin_nota": "",
   "otros_perfiles": "Web personal y blog (en español): https://www.santiagozavala.com | X/Twitter: https://x.com/dfect | GitHub: https://github.com/DFectuoso | Instagram: @dfectuoso | TikTok: @zavala.santiago | Perfil de profesor en Platzi: https://platzi.com/profes/dfect | 500 LatAm: https://latam.500.co/latam-home-es y https://500.co/latam | Movimiento/hackatones que impulsa: https://www.releasebeforeready.com | Kauffman Fellows: https://www.kauffmanfellows.org/fellows/santiago-zavala | VC Sheet: https://www.vcsheet.com/who/santiago-zavala | Ponente HumanX 2026: https://www.humanx.co/us/speakers/santiago-zavala",
   "email": "nombre@500.co",
   "email_estado": "público (ver fuente)",
   "email_fuente": "https://www.santiagozavala.com (solo enlaza X, Instagram, GitHub, LinkedIn y TikTok) y https://latam.500.co/latam-home-es (dirige a https://latam.aplica.500.co/ como única vía formal). | No encontrado en fuentes públicas. Ni santiagozavala.com, ni su GitHub, ni 500.co, ni las fichas de ponente publican una dirección personal. 500 Global canaliza el deal flow por formulario (https://latam.aplica.500.co/). Existe el patrón habitual  en la firma, pero NO se ha verificado ninguna dirección individual publicada, así que no debe usarse como si estuviera confirmado",
-  "tesis_de_inversion": "Invierte en fase muy temprana en fundadores técnicos de Latinoamérica y su tesis actual gira literalmente sobre agentes de IA y herramientas de desarrollo. En el podcast 'VibeRacing' (4 de febrero de 2026) explica el paso de escribir código línea a línea a 'orquestar agentes inteligentes' —vibecoding—, cuenta por qué nunca dejó de programar pese a ser inversor 'para no perder el ritmo de la tecnología', analiza compañías de 'Prompt Driven Development' y sostiene que el repositorio del futuro será de prompts y no de código fuente; también defiende el 'Go-To-Market Engineering', la idea de que los ingenieros deben ocuparse del ciclo de venta y distribución ahora que la IA abarata la creación técnica. En HumanX 2026 participa en la sesión 'Signal Before the Surge: How to Spot AI Winners Early', dirigida a inversores y fundadores, y en VC Unlocked imparte 'Why OpenClaw Won: An Investor Case Study'. Su marco histórico para LatAm es el del 'missing middle': el hueco de capital semilla que los fondos de la región abandonaron, que es justamente donde él insiste en operar. VC Sheet resume sus intereses como 'AI agents and autonomous coding tools', iteración rápida y lanzar producto imperfecto, y comunidad de builders entre LatAm y San Francisco.",
+  "por_que_es_interesante": [
+    "No habla de IA en abstracto: habla de orquestar agentes, de Claude Code, Codex y OpenClaw, y de que el repositorio del futuro será de prompts.",
+    "Invierte en pre-seed, lidera, 300+ operaciones; toda su historia es respaldar a fundadores técnicos antes de las métricas.",
+    "'Release Before Ready': hackatones de IA en CDMX, Palo Alto, Bogotá, Medellín y SF, una superficie de contacto abierta donde se le conoce construyendo.",
+    "Ángulo: enseñar el harness funcionando (evalúa código y demos, no slides), participar en un Release Before Ready y usar su vocabulario (agentes orquestados, go-to-market engineering)."
+  ],
+  "tesis_de_inversion": [
+    "Fase muy temprana en fundadores técnicos de Latinoamérica; tesis actual sobre agentes de IA y herramientas de desarrollo.",
+    "'Vibecoding': de escribir código a orquestar agentes; 'Prompt Driven Development'; nunca dejó de programar 'para no perder el ritmo'.",
+    "'Go-To-Market Engineering': los ingenieros deben ocuparse de venta y distribución ahora que la IA abarata la creación técnica.",
+    "El 'missing middle' de LatAm: el hueco de capital semilla donde insiste en operar."
+  ],
   "antecedentes": "Programador de formación y de oficio. Entre 2008 y 2011 trabajó como desarrollador de software y organizando comunidades de desarrollo en México, una red que acabó convirtiéndose en un movimiento de 16 ciudades y que es el origen de todo lo demás. En 2011 cofundó Mexican.VC con César Salazar, la primera aceleradora/fondo relevante para startups mexicanas. En agosto de 2012, 500 Startups (hoy 500 Global) adquirió Mexican.VC —cubierto por TechCrunch, Reuters y The Next Web— y ambos fundadores pasaron a ser venture partners de la firma; ese movimiento fundó de facto la operación latinoamericana de 500. Fue Partner de 500 Global entre 2012 y 2021 y desde 2022 es Global Managing Partner, liderando el fondo temático de LatAm y, según su ficha de ponente en HumanX, supervisando además el equipo interno de tecnología de la firma (datos, producto e IT), lo que le mantiene en un rol técnico real. Ha participado en más de 300 inversiones en más de 10 países desde 2012 (su LinkedIn habla de más de 240 operaciones entre Mexican.VC y 500 en México y la región). Es Kauffman Fellow. Es profesor en Platzi, donde imparte cursos sobre inversión en startups, y corredor de ultradistancia. Sigue programando: mantiene GitHub público (DFectuoso) y construye proyectos y herramientas que publica en su web.",
-  "por_que_es_interesante": "Es, de toda la lista, el inversor cuya conversación pública está más cerca del producto del cliente. No habla de IA en abstracto: habla de orquestar agentes, de Claude Code, Codex y OpenClaw como herramientas que usa a diario, de 'Prompt Driven Development' y de que el repositorio del futuro será de prompts. Organiza además 'Release Before Ready', un movimiento de hackatones de IA y creación de producto presentado por 500 Global, con ediciones en Ciudad de México, Palo Alto, Bogotá, Medellín y San Francisco —una superficie de contacto abierta, barata y verificable donde se le puede conocer construyendo, no pitcheando. Invierte en pre-seed, lidera rondas, tiene 300+ operaciones a sus espaldas y su historia entera es la de respaldar a fundadores técnicos antes de que existan métricas. Ángulo de contacto: enseñarle el harness funcionando —él evalúa código y demos, no slides—, participar en un Release Before Ready, y encuadrar el stack IA-nativo en su propio vocabulario (agentes orquestados, prompts como repositorio, go-to-market engineering).",
   "inversiones_relevantes": [
     "Clip (pagos, México) — una de las inversiones tempranas emblemáticas de 500 LatAm, entrada con equipo técnico y sin métricas",
     "Konfío (crédito para pymes, México) — apuesta temprana convertida en referencia del ecosistema",
@@ -81,17 +95,36 @@
     "https://www.kauffmanfellows.org/fellows/santiago-zavala"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 22,
+      "etapa": 19,
+      "decision": 19,
+      "espanol": 15,
+      "acceso": 12,
+      "ajuste": -2,
+      "bruto": 85,
+      "topes": [],
+      "total": 85
+    },
+    "motivo": "Programador en activo cuya conversación pública es la más cercana al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Programador en activo (GitHub público), tesis 2026 sobre orquestación de agentes y prompt driven development, 300+ inversiones pre-tracción, lidera. Reservas: vía estándar de 300k en programa por cohortes y foco LatAm."
+    "motivo_v1": "Programador en activo (GitHub público), tesis 2026 sobre orquestación de agentes y prompt driven development, 300+ inversiones pre-tracción, lidera. Reservas: vía estándar de 300k en programa por cohortes y foco LatAm."
   },
   "nombre_original": "Santiago Zavala",
-  "email_original": "No encontrado en fuentes públicas. Ni santiagozavala.com, ni su GitHub, ni 500.co, ni las fichas de ponente publican una dirección personal. 500 Global canaliza el deal flow por formulario (https://latam.aplica.500.co/). Existe el patrón habitual nombre@500.co en la firma, pero NO se ha verificado ninguna dirección individual publicada, así que no debe usarse como si estuviera confirmado."
+  "email_original": "No encontrado en fuentes públicas. Ni santiagozavala.com, ni su GitHub, ni 500.co, ni las fichas de ponente publican una dirección personal. 500 Global canaliza el deal flow por formulario (https://latam.aplica.500.co/). Existe el patrón habitual nombre@500.co en la firma, pero NO se ha verificado ninguna dirección individual publicada, así que no debe usarse como si estuviera confirmado.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es, de toda la lista, el inversor cuya conversación pública está más cerca del producto del cliente. No habla de IA en abstracto: habla de orquestar agentes, de Claude Code, Codex y OpenClaw como herramientas que usa a diario, de 'Prompt Driven Development' y de que el repositorio del futuro será de prompts. Organiza además 'Release Before Ready', un movimiento de hackatones de IA y creación de producto presentado por 500 Global, con ediciones en Ciudad de México, Palo Alto, Bogotá, Medellín y San Francisco —una superficie de contacto abierta, barata y verificable donde se le puede conocer construyendo, no pitcheando. Invierte en pre-seed, lidera rondas, tiene 300+ operaciones a sus espaldas y su historia entera es la de respaldar a fundadores técnicos antes de que existan métricas. Ángulo de contacto: enseñarle el harness funcionando —él evalúa código y demos, no slides—, participar en un Release Before Ready, y encuadrar el stack IA-nativo en su propio vocabulario (agentes orquestados, prompts como repositorio, go-to-market engineering).",
+    "tesis_de_inversion": "Invierte en fase muy temprana en fundadores técnicos de Latinoamérica y su tesis actual gira literalmente sobre agentes de IA y herramientas de desarrollo. En el podcast 'VibeRacing' (4 de febrero de 2026) explica el paso de escribir código línea a línea a 'orquestar agentes inteligentes' —vibecoding—, cuenta por qué nunca dejó de programar pese a ser inversor 'para no perder el ritmo de la tecnología', analiza compañías de 'Prompt Driven Development' y sostiene que el repositorio del futuro será de prompts y no de código fuente; también defiende el 'Go-To-Market Engineering', la idea de que los ingenieros deben ocuparse del ciclo de venta y distribución ahora que la IA abarata la creación técnica. En HumanX 2026 participa en la sesión 'Signal Before the Surge: How to Spot AI Winners Early', dirigida a inversores y fundadores, y en VC Unlocked imparte 'Why OpenClaw Won: An Investor Case Study'. Su marco histórico para LatAm es el del 'missing middle': el hueco de capital semilla que los fondos de la región abandonaron, que es justamente donde él insiste en operar. VC Sheet resume sus intereses como 'AI agents and autonomous coding tools', iteración rápida y lanzar producto imperfecto, y comunidad de builders entre LatAm y San Francisco.",
+    "etapa_y_ticket": [
+      "Pre-seed, seed y Serie A. VC Sheet le atribuye cheques de 100.000 $ a 5 M$ y confirma que lidera rondas. La vía estandarizada de 500 LatAm es distinta y más pequeña: 300.000 $ por compañía dentro de un programa con acompañamiento y acceso a Silicon Valley (en la convocatoria de 2026 se seleccionaron 5 compañías, con periodo de solicitud del 1 al 31 de julio de 2026). Históricamente 500 LatAm empezó con cheques de ~80.000 $ y los fue subiendo. Es decir: hay dos puertas, la del programa (300 k$, estándar) y la de una inversión directa mayor liderada por el fondo."
+    ]
+  }
 }

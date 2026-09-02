@@ -1,8 +1,8 @@
 {
   "id": "enrique-salem",
   "nombre": "Enrique Salem",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
+  "nivel": 86,
+  "banda": "Indiscutible",
   "prioridad": "A",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,30 @@
   "ciudad_base": "San Francisco / Palo Alto, California, EE.UU. (Bay Area)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Etapa temprana con continuidad hasta growth. La web de BCV dice literalmente que invierte en 'early-stage infrastructure software companies with a specialization in cybersecurity'. Signal NFX reporta seed a Series C con rango de 1M-100M USD y sweet spot de 25M USD; VC Sheet reporta un rango más amplio de 100K a 100M USD en seed, Series A y Series B+. En la práctica lidera semillas (Prophet Security, 11M USD, abril 2024) y Series A (Cogent Security, 42M USD, febrero 2026). BCV gestiona vehículos separados de seed y de growth, así que el ticket es flexible; lo importante es que sí lidera cheques pequeños de semilla en infraestructura y seguridad.",
+  "etapa_y_ticket": [
+    "Etapa temprana con continuidad hasta growth; BCV tiene vehículos separados de seed y growth.",
+    "Lidera seeds (Prophet Security, 11M USD) y Series A (Cogent, 42M USD); punto dulce reportado 25M USD.",
+    "Rango 1-100M USD (Signal); en la práctica sí lidera cheques pequeños de semilla en infra y seguridad."
+  ],
   "linkedin": "https://www.linkedin.com/in/enriquesalem",
   "linkedin_nota": "",
   "otros_perfiles": "Perfil en el fondo: https://baincapitalventures.com/team/enrique-salem/ | Perfil corporativo: https://www.baincapital.com/people/enrique-salem | X/Twitter: https://x.com/enriquesalem | Wikipedia: https://en.wikipedia.org/wiki/Enrique_Salem | Signal NFX: https://signal.nfx.com/investors/enrique-salem | Sus ensayos en BCV: https://baincapitalventures.com/insight/ai-agents-are-armed-for-battle-adapting-security-infrastructure-and-shipping-new-solutions/ | Perfil biográfico en The Alumni Society: https://thealumnisociety.com/enrique-salem/",
   "email": "esalem@baincapital.com",
   "email_estado": "público verificado",
   "email_fuente": "Aparece publicado en su propia ficha de la web del fondo: https://baincapitalventures.com/team/enrique-salem/ . BCV publica el email de todos sus socios con el patrón inicial+apellido@baincapital.com; se ha verificado de forma cruzada con la ficha de su compañero Rak Garg (rgarg@baincapital.com, https://baincapitalventures.com/team/rak-garg/), lo que confirma que no es un patrón deducido sino una política de publicación del fondo. Como alternativa institucional, BCV publica ventures@baincapital.com y bcv@baincapitalventures.com.",
-  "tesis_de_inversion": "Salem invierte en software de infraestructura en etapa temprana, con especialización declarada en ciberseguridad. Su frase en la web de BCV resume el marco: 'Infrastructure software is quite literally the backbone of every business in every sector' y 'Every company is a software company, and it is endlessly exciting to invest in innovative software technologies'. Sobre equipos: 'Look for great people and expect exceptional results. It sounds simple, but it's actually a challenge to find brilliant and committed founders who also have the operational chops to deliver on their vision'. En IA es abiertamente maximalista: 'There isn't anything that we're going to be working on for the next 20 to 30 years that isn't going to be meaningfully impacted by AI' (vídeo de tesis inversora publicado por Straiker). Su ensayo 'AI Agents are Armed for Battle' (BCV, 28-abr-2025) plantea el marco de las 'tres íes': lo que financia debe ser invisible (no rompe el flujo de trabajo), invencible (aguanta la superficie de ataque ampliada) e inexpensive (se paga sola en eficiencia operativa). Y explícitamente pregunta: 'Can we build better software and infrastructure to brace for the generative AI era?'. Prefiere fundadores que empiezan por el problema y no por la tecnología: sobre la Series A de Cogent dijo que lo que le convenció fue que el fundador dijera 'let me explain the problem. What am I solving? And why does it matter?'.",
+  "por_que_es_interesante": [
+    "Mandato literal 'early-stage infrastructure software'; cartera en la capa del cliente: Modal (cómputo serverless para IA), Astronomer, Cogent (agentes), Straiker.",
+    "Invierte antes de la tracción: 'We've known him from pre-founding the company' (Cogent).",
+    "Nacido en Barranquilla, creció hablando español en casa; email público.",
+    "Ángulo: en español, abrir por el problema y no por la tecnología; cuantificar el ahorro de cómputo y latencia ('inexpensive') y presentar el harness como infraestructura para agentes fiables."
+  ],
+  "tesis_de_inversion": [
+    "'Infrastructure software is quite literally the backbone of every business in every sector'; especialización en ciberseguridad.",
+    "Maximalista en IA: nada de los próximos 20-30 años quedará sin impacto de la IA.",
+    "Marco de las 'tres íes' para lo que financia: invisible (no rompe el flujo), invencible (aguanta la superficie de ataque) e inexpensive (se paga sola).",
+    "Prefiere fundadores que empiezan por el problema: 'let me explain the problem, what am I solving and why does it matter'."
+  ],
   "antecedentes": "Nacido el 2 de noviembre de 1965 en Barranquilla, Colombia, hijo de padres palestinos cristianos; emigró de niño a Los Ángeles, donde su padre trabajaba como mecánico de aviones en LAX. Se licenció (BA) en Ciencias de la Computación por Dartmouth College, adonde llegó reclutado para jugar al fútbol americano y con intención de estudiar Derecho. Empezó escribiendo sistemas de trading en Bank of America y fue mánager por primera vez a los 23 años. Fue vicepresidente en Peter Norton Computing, donde dirigió Norton Desktop for Windows, antes de que Symantec comprara la compañía en 1990. Después pasó por Security Pacific Merchant Bank, Ask Jeeves y Oblix. En 2002 se convirtió en CEO de Brightmail (antispam), vendida a Symantec en 2004 por unos 370M USD. Volvió así a Symantec, donde fue COO y finalmente presidente y CEO entre abril de 2009 y julio de 2012 (19 años en total en la compañía; el consejo forzó su salida). Se incorporó a Bain Capital en 2014. Ha sido consejero de Atlassian, DocuSign, FireEye/Mandiant, ForeScout, Rubrik, CloudGenix y BetterCloud. Fue miembro del President's Management Advisory Board de Barack Obama (2011). Premios: Entrepreneur of the Year de Ernst & Young (2004) y Corporate Executive of the Year de Hispanic Net (2007).",
-  "por_que_es_interesante": "Es probablemente el inversor hispanohablante mejor posicionado de EE.UU. para una startup de infraestructura de software IA-nativa: su mandato literal es 'early-stage infrastructure software' y su cartera actual (Modal, cómputo serverless para IA; Astronomer, orquestación de datos con Airflow; Cogent, agentes autónomos; Straiker, seguridad de IA; Adaptive; Dream) es exactamente la capa donde vive el cliente. Hay evidencia dura de que invierte antes de la tracción: sobre Cogent dijo 'We've known him from pre-founding the company', es decir, hizo seguimiento del fundador antes de que existiera la empresa. Revisa entre 400 y 500 pitches de seguridad con IA al año, así que rechaza el ruido y premia la especificidad técnica. Ángulo de contacto: escribirle en español (creció hablándolo en casa), abrir por el problema y no por la tecnología (es su criterio explícito), y encuadrar el stack IA-nativo dentro de su marco de las 'tres íes' —sobre todo 'inexpensive': cuantificar el ahorro de cómputo/latencia frente al stack actual. El harness de agentes se le puede presentar como infraestructura para que los agentes de seguridad y de datos sean fiables, que es su obsesión declarada.",
   "inversiones_relevantes": [
     "Modal (2026, Series C de 355M USD a 4.650M de valoración; cómputo serverless para inferencia, entrenamiento y agentes) — es literalmente la capa de infraestructura de cómputo IA que el cliente quiere reoptimizar",
     "Astronomer (Series D; plataforma gestionada de orquestación de datos y de IA sobre Apache Airflow, ~370M USD levantados) — apuesta por herramientas de desarrollo y orquestación open-source comercializada",
@@ -81,17 +95,36 @@
     "https://aws.amazon.com/startups/events/sftech-week-cybersecurity-talks-with-aws-startups-enrique-salem-and-bain-capital-ventures"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 24,
+      "etapa": 14,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 13,
+      "ajuste": 0,
+      "bruto": 86,
+      "topes": [],
+      "total": 86
+    },
+    "motivo": "Mandato literal 'early-stage infrastructure software', cartera exacta (Modal, Astronomer, Cogent, Straiker), invirtió en Cogent 'pre-founding', creció hablando español y publica su email. Reservas: especialización en ciberseguridad y punto dulce de cheque alto; BCV lidera seeds, pero su cheque natural es Serie A.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Mandato literal 'early-stage infrastructure software'; Modal y Astronomer en cartera; invirtió en Cogent 'pre-founding'; nacido en Barranquilla, español confirmado; email público. Reserva: especialización ciber y punto dulce de cheque alto (BCV cubre seed, él personalmente A/B)."
+    "motivo_v1": "Mandato literal 'early-stage infrastructure software'; Modal y Astronomer en cartera; invirtió en Cogent 'pre-founding'; nacido en Barranquilla, español confirmado; email público. Reserva: especialización ciber y punto dulce de cheque alto (BCV cubre seed, él personalmente A/B)."
   },
   "nombre_original": "Enrique Salem",
-  "email_original": "esalem@baincapital.com"
+  "email_original": "esalem@baincapital.com",
+  "textos_v1": {
+    "por_que_es_interesante": "Es probablemente el inversor hispanohablante mejor posicionado de EE.UU. para una startup de infraestructura de software IA-nativa: su mandato literal es 'early-stage infrastructure software' y su cartera actual (Modal, cómputo serverless para IA; Astronomer, orquestación de datos con Airflow; Cogent, agentes autónomos; Straiker, seguridad de IA; Adaptive; Dream) es exactamente la capa donde vive el cliente. Hay evidencia dura de que invierte antes de la tracción: sobre Cogent dijo 'We've known him from pre-founding the company', es decir, hizo seguimiento del fundador antes de que existiera la empresa. Revisa entre 400 y 500 pitches de seguridad con IA al año, así que rechaza el ruido y premia la especificidad técnica. Ángulo de contacto: escribirle en español (creció hablándolo en casa), abrir por el problema y no por la tecnología (es su criterio explícito), y encuadrar el stack IA-nativo dentro de su marco de las 'tres íes' —sobre todo 'inexpensive': cuantificar el ahorro de cómputo/latencia frente al stack actual. El harness de agentes se le puede presentar como infraestructura para que los agentes de seguridad y de datos sean fiables, que es su obsesión declarada.",
+    "tesis_de_inversion": "Salem invierte en software de infraestructura en etapa temprana, con especialización declarada en ciberseguridad. Su frase en la web de BCV resume el marco: 'Infrastructure software is quite literally the backbone of every business in every sector' y 'Every company is a software company, and it is endlessly exciting to invest in innovative software technologies'. Sobre equipos: 'Look for great people and expect exceptional results. It sounds simple, but it's actually a challenge to find brilliant and committed founders who also have the operational chops to deliver on their vision'. En IA es abiertamente maximalista: 'There isn't anything that we're going to be working on for the next 20 to 30 years that isn't going to be meaningfully impacted by AI' (vídeo de tesis inversora publicado por Straiker). Su ensayo 'AI Agents are Armed for Battle' (BCV, 28-abr-2025) plantea el marco de las 'tres íes': lo que financia debe ser invisible (no rompe el flujo de trabajo), invencible (aguanta la superficie de ataque ampliada) e inexpensive (se paga sola en eficiencia operativa). Y explícitamente pregunta: 'Can we build better software and infrastructure to brace for the generative AI era?'. Prefiere fundadores que empiezan por el problema y no por la tecnología: sobre la Series A de Cogent dijo que lo que le convenció fue que el fundador dijera 'let me explain the problem. What am I solving? And why does it matter?'.",
+    "etapa_y_ticket": [
+      "Etapa temprana con continuidad hasta growth. La web de BCV dice literalmente que invierte en 'early-stage infrastructure software companies with a specialization in cybersecurity'. Signal NFX reporta seed a Series C con rango de 1M-100M USD y sweet spot de 25M USD; VC Sheet reporta un rango más amplio de 100K a 100M USD en seed, Series A y Series B+. En la práctica lidera semillas (Prophet Security, 11M USD, abril 2024) y Series A (Cogent Security, 42M USD, febrero 2026). BCV gestiona vehículos separados de seed y de growth, así que el ticket es flexible; lo importante es que sí lidera cheques pequeños de semilla en infraestructura y seguridad."
+    ]
+  }
 }

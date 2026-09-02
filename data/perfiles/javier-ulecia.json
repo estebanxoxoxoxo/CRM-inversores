@@ -1,8 +1,8 @@
 {
   "id": "javier-ulecia",
   "nombre": "Javier Ulecia",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 75,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Pozuelo de Alarcón (Madrid), España",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Pre-seed, seed y Serie A, siempre en España. La ficha oficial de la gestora en webcapitalriesgo.com declara un rango de 0,5 a 7 M€, articulado en dos tramos: préstamos convertibles de 250.000-500.000 € como primera entrada y rondas de equity de 2 a 6 M€ después (https://www.webcapitalriesgo.com/proyectos/bullnet-gestion-sgeic-s-a/). La propia web del fondo lo describe por generaciones: en los fondos I y II la entrada típica era «a series-A of about 2 million €»; en el fondo III empezaron con «convertible loans of less than 500 K€» pudiendo acumular «up to six or seven million in a single company» (https://bullnetcapital.com/investment-strategy/). El propio Ulecia habla de un ticket medio de 1 a 2 M€ en su charla con Finanziaconnect. Operaciones reales de 2026: FlexiiC (2 M€, liderada) e Impetux Optics (2,5 M€, liderada). Un agregador (superscout.co) atribuye cheques de 3-10 M€, pero contradice a las fuentes primarias y no debe tomarse como referencia.",
+  "etapa_y_ticket": [
+    "Pre-seed, seed y Serie A, siempre en España.",
+    "Entrada con convertible de 250.000-500.000 € y equity de 2-6M€ después; ticket medio 1-2M€; hasta 6-7M€ acumulados por compañía.",
+    "Bullnet Capital IV (81M€, 2022) en fase final: 10 de 17-18 inversiones hechas."
+  ],
   "linkedin": "https://www.linkedin.com/in/javierulecia/",
   "linkedin_nota": "",
   "otros_perfiles": "X/Twitter personal: https://x.com/Julecia | X del fondo: https://x.com/bullnetcapital | LinkedIn del fondo: https://es.linkedin.com/company/bullnet-capital | Crunchbase persona: https://www.crunchbase.com/person/javier-ulecia (devuelve 403 a scrapers; solo accesible en navegador) | Crunchbase fondo: https://www.crunchbase.com/organization/bullnet-gestion | Ficha de ponente MWC Barcelona 2026: https://www.mwcbarcelona.com/agenda/speakers/16877-javier-ulecia | Ficha 4YFN Barcelona 2026: https://www.4yfn.com/agenda/speakers/16877-javier-ulecia | Ficha VCIC (jurado European South, IESE): https://www.vcic.org/javier-ulecia-bullnet-gestion/ | Web del fondo: https://bullnetcapital.com | Entrevistas en vídeo: https://www.youtube.com/watch?v=PrcLi_KyDRA y https://www.youtube.com/watch?v=Bz89LYqrFCg | Charla Follow and Connect (Finanziaconnect): https://www.finanziaconnect.com/blog/conversacion-con-javier-ulecia-bullnet-capital/689800055744/ | No se le ha localizado newsletter, blog personal ni GitHub. Nota: existe otro «Javier Ulecia» en LinkedIn asociado a Axon Partners Group; NO es la misma persona, el perfil correcto es /in/javierulecia/.",
   "email": "julecia@bullnetcapital.com",
   "email_estado": "público verificado",
   "email_fuente": "La ficha pública de BULLNET GESTIÓN, SGEIC, S.A. en webcapitalriesgo.com publica los correos nominales del equipo: julecia@bullnetcapital.com (Javier Ulecia), mcanizo@bullnetcapital.com (Miguel del Cañizo), carenzana@bullnetcapital.com (Carmen Arenzana) y jlgomez@bullnetcapital.com (José Luis Gómez) — https://www.webcapitalriesgo.com/proyectos/bullnet-gestion-sgeic-s-a/. El patrón es inicial del nombre + primer apellido @bullnetcapital.com, confirmado por cuatro direcciones distintas. La web propia del fondo (https://bullnetcapital.com/contact/) NO publica emails: solo teléfono (+34 91 799 72 06), dirección postal y un formulario.",
-  "tesis_de_inversion": "Invierte exclusivamente en deep tech español donde la tecnología es el producto, no la herramienta. Su frase-marca lo resume: «La mayoría de las empresas que se dicen tecnológicas usan tecnología, pero no venden tecnología». Define deep tech como «una empresa con capacidad de innovar y desarrollar productos para la venta... con el grueso del equipo humano compuesto por tecnólogos, y donde la tecnología es en sí misma la propuesta de valor». En su entrevista de septiembre de 2024 en Estrategias de Inversión insiste: «Invertimos en empresas donde la tecnología es la clave del modelo de negocio» y «solamente entramos en proyectos donde de verdad hay una diferenciación tecnológica importante». Busca «alguna pieza diferencial difícilmente replicable» y, muy importante, empresas que «no necesiten decenas y decenas de millones» para llegar a producto. La web del fondo declara el momento exacto de entrada: «We ideally enter when there is a tangible prototype or proof of concept that proves the technology is feasible», es decir, antes de ingresos y antes de mercado. El criterio de defensibilidad es explícito: «breakthrough technology which is the result of a previous R&D effort... difficult to achieve by third parties... sustainable over time and (desirably) legally protectable through patents». Excluye consumer internet, biotecnología farmacéutica pura y proyectos de contenido. Modelo de acompañamiento «mix entre business angel, venture builder y venture capital», con muy pocas participadas por socio y presencia en consejo.",
+  "por_que_es_interesante": [
+    "Exit en dev tools: Códice Software / Plastic SCM (control de versiones distribuido) vendida a Unity en 2020; también LeanXcale (base de datos distribuida) y MLCode desde su fundación.",
+    "Entra 'when there is a tangible prototype or proof of concept', antes de ingresos; sectores declarados incluyen IA y plataformas de software empresarial.",
+    "Email personal verificado y presencia pública (Forbes, Estrategias de Inversión).",
+    "Ángulo: Códice/Plastic SCM y por qué un harness de agentes es la siguiente capa del mismo problema (coordinar trabajo paralelo sobre una base de código). Verificar primero la domiciliación en España."
+  ],
+  "tesis_de_inversion": [
+    "Deep tech español donde la tecnología es el producto: 'la mayoría de las empresas tecnológicas usan tecnología, pero no venden tecnología'.",
+    "Entra con prototipo o prueba de concepto, antes de ingresos y de mercado; busca 'una pieza diferencial difícilmente replicable' y equipos de tecnólogos.",
+    "Defensibilidad: tecnología fruto de I+D previa, difícil de replicar, sostenible y deseablemente patentable; empresas que no necesiten decenas de millones para llegar a producto.",
+    "Excluye consumer, biotech farmacéutica pura y contenido; modelo entre business angel, venture builder y VC con pocas participadas por socio."
+  ],
   "antecedentes": "Nacido en 1962. Ingeniero Aeronáutico por la Universidad Politécnica de Madrid y MBA por HEC París. Su carrera arranca en la industria, no en finanzas: After Sales Engineer en EADS-CASA y después Project Manager / ingeniero de investigación en Renault en París entre 1990 y 1994, donde coincidió con Miguel del Cañizo, su futuro socio. En 1996 entró como Senior Manager en Bain & Company (París y Madrid). Antes de Bullnet cofundó y dirigió Doing, una incubadora especializada en tecnología de banda ancha que no sobrevivió al pinchazo de la burbuja puntocom en 2000. En octubre de 2001 cofundó Bullnet Capital con Miguel del Cañizo; el primer fondo (18 M€) se cerró en marzo de 2003. Desde entonces ha levantado cuatro fondos y un vehículo de continuación, con unos 170 M€ bajo gestión y más de 30 participadas. Ha sido profesor asociado del Instituto de Empresa, jurado recurrente del Venture Capital Investment Competition (VCIC) European South en el IESE y presidente de ASCRI —hoy SpainCap—, la patronal española del capital riesgo, en 2015-2016. Idiomas: español nativo, inglés y francés. Es ponente en MWC Barcelona / 4YFN 2026 en la sesión «What Comes Next in the Spin-out Deep Tech Ecosystem?».",
-  "por_que_es_interesante": "Es el único inversor español con un exit consumado en herramientas de desarrollo puras: Bullnet fue el único accionista institucional de Códice Software (Valladolid), creadora de Plastic SCM —el control de versiones distribuido que competía con Git—, desde su primera ronda en 2009 hasta su venta a Unity Technologies en agosto de 2020; el producto es hoy Unity Version Control. Es decir, ya ha vivido el ciclo completo de un dev tool español vendido a un comprador global. Además, su fondo declara por escrito que entra «when there is a tangible prototype or proof of concept», antes de ingresos, y su cartera lo confirma: entró en MLCode en junio de 2023 con la empresa recién fundada, y en LeanXcale (base de datos distribuida, spin-off de la UPM) en septiembre de 2016, sosteniéndola una década. Sectores declarados incluyen literalmente «inteligencia artificial» y «plataformas de software empresarial». El ángulo de contacto es evidente: escribirle sobre Códice/Plastic SCM y por qué un harness de agentes es la siguiente capa del mismo problema (coordinar trabajo paralelo sobre una base de código), no sobre usuarios.",
   "inversiones_relevantes": [
     "Códice Software / Plastic SCM (inversión desde 2009, fondo Bullnet Capital II; vendida a Unity Technologies el 17 de agosto de 2020, importe no revelado; hoy Unity Version Control) — dev tools puro: control de versiones distribuido para equipos grandes; Bullnet fue el ÚNICO accionista institucional. Es el precedente exacto de una herramienta de desarrollo española sostenida durante 11 años hasta un comprador global",
     "MLCode (inversión en junio de 2023, ronda seed, fondo IV; plataforma de auditoría, gobierno y seguridad de activos de datos para aplicaciones de IA, producto HexaKube para monitorizar LLMs) — entrada prácticamente en la fundación de la empresa, con producto por construir; fundadores repetidores de Netspira y Zhilabs",
@@ -99,17 +113,36 @@
     "https://www.crunchbase.com/organization/bullnet-gestion"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 20,
+      "etapa": 17,
+      "decision": 17,
+      "espanol": 15,
+      "acceso": 14,
+      "ajuste": -8,
+      "bruto": 75,
+      "topes": [],
+      "total": 75
+    },
+    "motivo": "Único inversor español con un exit consumado en dev tools puros (Códice/Plastic SCM a Unity, único accionista institucional desde 2009) y con LeanXcale sostenida una década; Bullnet entra con prototipo y sin ingresos, email verificado. Reservas duras: sólo puede invertir en sociedades domiciliadas en España y el fondo IV está en fase final.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "alta",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "alta",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Bullnet entra con prototipo sin exigir ingresos y tiene exits en dev tools (Códice/Plastic SCM, LeanXcale), email verificado; pero sólo puede invertir legalmente en sociedades domiciliadas en España y el fondo IV está en fase final."
+    "motivo_v1": "Bullnet entra con prototipo sin exigir ingresos y tiene exits en dev tools (Códice/Plastic SCM, LeanXcale), email verificado; pero sólo puede invertir legalmente en sociedades domiciliadas en España y el fondo IV está en fase final."
   },
   "nombre_original": "Javier Ulecia",
-  "email_original": "julecia@bullnetcapital.com"
+  "email_original": "julecia@bullnetcapital.com",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el único inversor español con un exit consumado en herramientas de desarrollo puras: Bullnet fue el único accionista institucional de Códice Software (Valladolid), creadora de Plastic SCM —el control de versiones distribuido que competía con Git—, desde su primera ronda en 2009 hasta su venta a Unity Technologies en agosto de 2020; el producto es hoy Unity Version Control. Es decir, ya ha vivido el ciclo completo de un dev tool español vendido a un comprador global. Además, su fondo declara por escrito que entra «when there is a tangible prototype or proof of concept», antes de ingresos, y su cartera lo confirma: entró en MLCode en junio de 2023 con la empresa recién fundada, y en LeanXcale (base de datos distribuida, spin-off de la UPM) en septiembre de 2016, sosteniéndola una década. Sectores declarados incluyen literalmente «inteligencia artificial» y «plataformas de software empresarial». El ángulo de contacto es evidente: escribirle sobre Códice/Plastic SCM y por qué un harness de agentes es la siguiente capa del mismo problema (coordinar trabajo paralelo sobre una base de código), no sobre usuarios.",
+    "tesis_de_inversion": "Invierte exclusivamente en deep tech español donde la tecnología es el producto, no la herramienta. Su frase-marca lo resume: «La mayoría de las empresas que se dicen tecnológicas usan tecnología, pero no venden tecnología». Define deep tech como «una empresa con capacidad de innovar y desarrollar productos para la venta... con el grueso del equipo humano compuesto por tecnólogos, y donde la tecnología es en sí misma la propuesta de valor». En su entrevista de septiembre de 2024 en Estrategias de Inversión insiste: «Invertimos en empresas donde la tecnología es la clave del modelo de negocio» y «solamente entramos en proyectos donde de verdad hay una diferenciación tecnológica importante». Busca «alguna pieza diferencial difícilmente replicable» y, muy importante, empresas que «no necesiten decenas y decenas de millones» para llegar a producto. La web del fondo declara el momento exacto de entrada: «We ideally enter when there is a tangible prototype or proof of concept that proves the technology is feasible», es decir, antes de ingresos y antes de mercado. El criterio de defensibilidad es explícito: «breakthrough technology which is the result of a previous R&D effort... difficult to achieve by third parties... sustainable over time and (desirably) legally protectable through patents». Excluye consumer internet, biotecnología farmacéutica pura y proyectos de contenido. Modelo de acompañamiento «mix entre business angel, venture builder y venture capital», con muy pocas participadas por socio y presencia en consejo.",
+    "etapa_y_ticket": [
+      "Pre-seed, seed y Serie A, siempre en España. La ficha oficial de la gestora en webcapitalriesgo.com declara un rango de 0,5 a 7 M€, articulado en dos tramos: préstamos convertibles de 250.000-500.000 € como primera entrada y rondas de equity de 2 a 6 M€ después (https://www.webcapitalriesgo.com/proyectos/bullnet-gestion-sgeic-s-a/). La propia web del fondo lo describe por generaciones: en los fondos I y II la entrada típica era «a series-A of about 2 million €»; en el fondo III empezaron con «convertible loans of less than 500 K€» pudiendo acumular «up to six or seven million in a single company» (https://bullnetcapital.com/investment-strategy/). El propio Ulecia habla de un ticket medio de 1 a 2 M€ en su charla con Finanziaconnect. Operaciones reales de 2026: FlexiiC (2 M€, liderada) e Impetux Optics (2,5 M€, liderada). Un agregador (superscout.co) atribuye cheques de 3-10 M€, pero contradice a las fuentes primarias y no debe tomarse como referencia."
+    ]
+  }
 }

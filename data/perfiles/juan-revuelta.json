@@ -1,8 +1,8 @@
 {
   "id": "juan-revuelta",
   "nombre": "Juan Revuelta",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 59,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Madrid, España (oficina en Calle Velázquez 86 A, 1º Izquierda, 28006 Madrid; la firma opera con equipo también en Tel Aviv)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Late-seed y Serie A temprana (NO pre-seed). Ticket inicial de 500.000 € a 3 M€, con reservas de follow-on de 2 a 4 M€. Lidera rondas (así lo indica vcsheet.com). El vehículo vigente es Swanlaab Tech Fund II FCR, lanzado en junio de 2023 con un primer cierre de 45 M€ y un objetivo final de 60-80 M€; su inversor ancla es Fond-ICO Global y cuenta con BBVA como inversor corporativo además de family offices y privados. El fondo anterior (Swanlaab Giza Innvierte Innovation Fund, 2016) fue el primer fondo hispano-israelí de España y estaba respaldado por Innvierte (CDTI). Fuentes: https://swanlaab.com/strategy/ y https://novobrief.com/swanlaab-tech-fund-ii-begins-operations-with-e45-million-first-closing-eyes-early-stage-b2b-startups/10509/",
+  "etapa_y_ticket": [
+    "Late-seed y Serie A temprana; NO pre-seed.",
+    "Ticket inicial 500.000-3.000.000 € con follow-on de 2-4M€; lidera.",
+    "Swanlaab Tech Fund II: primer cierre 45M€ (jun-2023), objetivo 60-80M€; ancla Fond-ICO, BBVA corporativo."
+  ],
   "linkedin": "https://es.linkedin.com/in/juanrevuelta",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha en el fondo: https://swanlaab.com/team/ | Web y estrategia: https://swanlaab.com/ y https://swanlaab.com/strategy/ | Portfolio: https://swanlaab.com/portfolio/ | Crunchbase: https://www.crunchbase.com/person/juan-revuelta | Signal NFX: https://signal.nfx.com/investors/juan-revuelta | vcsheet: https://www.vcsheet.com/who/juan-revuelta | GRID (NMA): https://grid.nma.vc/vc/swanlaab-venture-factory/juan-revuelta | Entrevista en The Startup Oasis: https://startupsoasis.com/juan-revuelta-swanlaab/ | Podcast 'Especial Inversión en Empresas' (Más Que Una Radio): https://open.spotify.com/episode/0Fwkm7Cg0XAXA3PnUcnWTX | 'Café con emprendedores' de la Fundación Bankinter: https://www.fundacionbankinter.org/noticias/swanlaab-cafe-con-emprendedores/ y https://www.youtube.com/watch?v=DbafpM1LrqE | Portal de inversores: swanlaab.valuat.com",
   "email": "info@swanlaab.com",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "https://swanlaab.com/ y https://swanlaab.com/team/ publican info@swanlaab.com y +34 919 957 796 como canales de contacto. La página de equipo NO publica correos individuales, y no hay ningún email de otro socio en abierto del que inferir un patrón fiable, así que no se propone ninguno para él. Canal alternativo: el CTA 'Submit Your Project' de la propia web. | email corporativo del fondo, publicado en su web). Teléfono público: +34 919 957 796. Su correo personal no aparece en ninguna fuente pública",
-  "tesis_de_inversion": "Invierte en software empresarial B2B con base tecnológica profunda y barreras de entrada reales. La web del fondo lo formula así: buscan compañías con 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'. La firma se define como 'venture factory' y no como inversor pasivo: aportan 'capital, strategic expertise, and hands-on support', y él explica que 'el apellido Venture Factory viene precisamente de esa capacidad de apoyo operativo, principalmente con foco en las áreas de marketing y ventas'. Sobre los sectores que le atraen ha citado explícitamente la ciberseguridad —dice que 'seguirá contando con más apoyo y atención'—, la computación cuántica, Web3/blockchain y la IA entendida como herramienta instrumental. Su criterio de selección es primero de equipo: 'invertir en buenos equipos, ambiciosos, sin miedo, honestos', y después de mercado y de ventaja competitiva, lo que él llama la 'secret sauce'. Sobre el ecosistema español su lectura es optimista: la última década 'es la historia de un caso de éxito' y los emprendedores españoles 'no tienen ningún complejo a la hora de competir a nivel internacional'. El emprendedor que más admira de su cartera es Stephen de Vries, fundador de IriusRisk (ciberseguridad, Huesca; invertida en 2017), por su salto de 'humilde analista' a referente mundial en threat modeling. ATENCIÓN: el propio fondo incluye 'market traction' entre los requisitos de su vertical de deep tech y B2B software, y su etapa declarada es late-seed y Serie A.",
+  "por_que_es_interesante": [
+    "Codee (análisis y optimización de código C/C++/Fortran) en Swanlaab II: precedente casi inédito en el VC español; también Sax AI (agentes de KYC), IriusRisk, Nymiz.",
+    "Criterio escrito: 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'.",
+    "Lidera rondas con 500k-3M€; madrileño, castellanohablante nativo.",
+    "Ángulo: barreras de entrada y propiedad del stack, no crecimiento; contactar cuando exista la demo para inversores."
+  ],
+  "tesis_de_inversion": [
+    "Software B2B con base tecnológica profunda y barreras reales; 'venture factory' con apoyo operativo en marketing y ventas.",
+    "Sectores citados: ciberseguridad, computación cuántica, Web3, IA como herramienta instrumental.",
+    "Primero equipo ('ambiciosos, sin miedo, honestos'), luego mercado y 'secret sauce'.",
+    "Incluye 'market traction' entre los requisitos de su vertical deep tech y B2B."
+  ],
   "antecedentes": "Ingeniero de formación y de primera carrera: trabajó como ingeniero en LSI Logic (Alemania) y en Texas Instruments (Francia), dos compañías de semiconductores, antes de pasar al mundo financiero como analista de equity research. Su etapa de capital riesgo empezó en iNova Capital y Tagua Capital, donde acumuló cerca de catorce años, y desde 2013 está en Swanlaab Venture Factory, firma fundada por el neerlandés Mark Kavelaars (más de 28 años entre tecnología, banca y VC, antiguo propietario de International Venture Consultants). Hoy suma más de 17 años de experiencia en capital riesgo en España. Fue pieza clave en la construcción del primer fondo de venture capital hispano-israelí de España: en 2014 Swanlaab firmó el acuerdo con Giza Venture Capital —firma israelí líder desde 1992— y en 2016 se materializó el Swanlaab Giza Innvierte Innovation Fund con respaldo de Innvierte (CDTI). También ha diseñado vehículos de inversión agrotech con foco en transferencia de tecnología. Es miembro del Comité de Inversiones de los fondos Tech y Search de la casa desde su creación. Sus socios actuales son Mark Kavelaars (Founder & Managing Partner), Verónica Trapa (Partner), Ángel Santos (Partner) y Mariluz Santos (COO).",
-  "por_que_es_interesante": "Es el socio de la lista con el perfil de ingeniería de hardware más profundo —LSI Logic y Texas Instruments, semiconductores— y su fondo es de los pocos en España que ha invertido de verdad en herramientas para desarrolladores: Codee, que hace análisis de código y optimización de rendimiento para C/C++/Fortran, está en Swanlaab II. En cartera también hay Sax AI (agentes de IA para KYC bancario, Reino Unido), Dolfin (plataforma AI-native de inteligencia de compensación comercial), Nymiz (enmascarado de datos con IA), IriusRisk (threat modeling automatizado) y Landbot. Su tesis premia exactamente lo que el cliente tiene: barreras de entrada altas y know-how propietario. Es madrileño, castellanoparlante nativo y lidera rondas con cheques de 500.000 € a 3 M€. Ángulo de contacto: hablarle de barreras de entrada y de propiedad del stack, no de crecimiento; y hacerlo cuando exista la demo para inversores, porque su etapa es late-seed, no pre-seed.",
   "inversiones_relevantes": [
     "Codee (Swanlaab II; herramientas para desarrolladores: análisis de código y optimización de rendimiento para C/C++/Fortran) — la inversión más relevante de todo el lote español en dev tools puros de alto rendimiento",
     "Sax AI (Swanlaab II, Reino Unido; agentes de IA para sistemas de KYC bancario) — agentes de IA desplegados en un entorno regulado; demuestra apetito por infraestructura agéntica",
@@ -88,17 +102,36 @@
     "https://pitchbook.com/profiles/fund/23812-75F"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 17,
+      "etapa": 7,
+      "decision": 18,
+      "espanol": 15,
+      "acceso": 10,
+      "ajuste": -8,
+      "bruto": 59,
+      "topes": [],
+      "total": 59
+    },
+    "motivo": "Ingeniero de semiconductores (LSI Logic, TI) cuyo fondo tiene una inversión real en dev tools de alto rendimiento (Codee) y un criterio explícito de barreras de entrada y know-how propietario; pero su etapa es late-seed y Serie A y el fondo lista 'market traction' entre sus requisitos. Posponer hasta tener la demo.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "alta",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "alta",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Tiene Codee (dev tools) y criterio de moat, pero etapa late-seed/Serie A y 'market traction' explícito entre sus criterios. Posponer a después de la demo."
+    "motivo_v1": "Tiene Codee (dev tools) y criterio de moat, pero etapa late-seed/Serie A y 'market traction' explícito entre sus criterios. Posponer a después de la demo."
   },
   "nombre_original": "Juan Revuelta (Juan Revuelta Colomo)",
-  "email_original": "info@swanlaab.com (email corporativo del fondo, publicado en su web). Teléfono público: +34 919 957 796. Su correo personal no aparece en ninguna fuente pública."
+  "email_original": "info@swanlaab.com (email corporativo del fondo, publicado en su web). Teléfono público: +34 919 957 796. Su correo personal no aparece en ninguna fuente pública.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el socio de la lista con el perfil de ingeniería de hardware más profundo —LSI Logic y Texas Instruments, semiconductores— y su fondo es de los pocos en España que ha invertido de verdad en herramientas para desarrolladores: Codee, que hace análisis de código y optimización de rendimiento para C/C++/Fortran, está en Swanlaab II. En cartera también hay Sax AI (agentes de IA para KYC bancario, Reino Unido), Dolfin (plataforma AI-native de inteligencia de compensación comercial), Nymiz (enmascarado de datos con IA), IriusRisk (threat modeling automatizado) y Landbot. Su tesis premia exactamente lo que el cliente tiene: barreras de entrada altas y know-how propietario. Es madrileño, castellanoparlante nativo y lidera rondas con cheques de 500.000 € a 3 M€. Ángulo de contacto: hablarle de barreras de entrada y de propiedad del stack, no de crecimiento; y hacerlo cuando exista la demo para inversores, porque su etapa es late-seed, no pre-seed.",
+    "tesis_de_inversion": "Invierte en software empresarial B2B con base tecnológica profunda y barreras de entrada reales. La web del fondo lo formula así: buscan compañías con 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'. La firma se define como 'venture factory' y no como inversor pasivo: aportan 'capital, strategic expertise, and hands-on support', y él explica que 'el apellido Venture Factory viene precisamente de esa capacidad de apoyo operativo, principalmente con foco en las áreas de marketing y ventas'. Sobre los sectores que le atraen ha citado explícitamente la ciberseguridad —dice que 'seguirá contando con más apoyo y atención'—, la computación cuántica, Web3/blockchain y la IA entendida como herramienta instrumental. Su criterio de selección es primero de equipo: 'invertir en buenos equipos, ambiciosos, sin miedo, honestos', y después de mercado y de ventaja competitiva, lo que él llama la 'secret sauce'. Sobre el ecosistema español su lectura es optimista: la última década 'es la historia de un caso de éxito' y los emprendedores españoles 'no tienen ningún complejo a la hora de competir a nivel internacional'. El emprendedor que más admira de su cartera es Stephen de Vries, fundador de IriusRisk (ciberseguridad, Huesca; invertida en 2017), por su salto de 'humilde analista' a referente mundial en threat modeling. ATENCIÓN: el propio fondo incluye 'market traction' entre los requisitos de su vertical de deep tech y B2B software, y su etapa declarada es late-seed y Serie A.",
+    "etapa_y_ticket": [
+      "Late-seed y Serie A temprana (NO pre-seed). Ticket inicial de 500.000 € a 3 M€, con reservas de follow-on de 2 a 4 M€. Lidera rondas (así lo indica vcsheet.com). El vehículo vigente es Swanlaab Tech Fund II FCR, lanzado en junio de 2023 con un primer cierre de 45 M€ y un objetivo final de 60-80 M€; su inversor ancla es Fond-ICO Global y cuenta con BBVA como inversor corporativo además de family offices y privados. El fondo anterior (Swanlaab Giza Innvierte Innovation Fund, 2016) fue el primer fondo hispano-israelí de España y estaba respaldado por Innvierte (CDTI). Fuentes: https://swanlaab.com/strategy/ y https://novobrief.com/swanlaab-tech-fund-ii-begins-operations-with-e45-million-first-closing-eyes-early-stage-b2b-startups/10509/"
+    ]
+  }
 }

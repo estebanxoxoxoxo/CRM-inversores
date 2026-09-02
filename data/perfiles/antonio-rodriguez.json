@@ -1,8 +1,8 @@
 {
   "id": "antonio-rodriguez",
   "nombre": "Antonio Rodriguez",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 68,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "media",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,30 @@
   "ciudad_base": "Cambridge, Massachusetts, EE.UU. (Matrix tiene oficinas en Cambridge y San Francisco)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Pre-seed, seed y Series A (Matrix se define como 'early-stage venture capital firm, investing from idea through Series A'). Rango de cheque 100.000-10.000.000 USD según Signal NFX y VC Sheet, con sweet spot de 2.000.000 USD (Signal). Signal reporta un tamaño de fondo de referencia de 800M USD (Matrix levantó 800M USD en 2022, repartidos entre un fondo principal y un fondo de oportunidades). Matrix suele liderar y es con frecuencia el primer cheque institucional.",
+  "etapa_y_ticket": [
+    "Pre-seed, seed y Serie A ('from idea through Series A'); lidera y suele ser primer cheque.",
+    "Cheque 100.000-10.000.000 USD, punto dulce ~2M USD.",
+    "Matrix levantó 800M USD en 2022 (fondo principal + oportunidades)."
+  ],
   "linkedin": "https://www.linkedin.com/in/antrod/",
   "linkedin_nota": "",
   "otros_perfiles": "Perfil en el fondo: https://matrix.vc/team/antonio-rodriguez | X/Twitter: https://x.com/antrod | Blog personal ('Bits by Antonio Rodriguez'): https://medium.com/@antrod | Wikipedia: https://en.wikipedia.org/wiki/Antonio_Rodriguez_(entrepreneur) | Signal NFX: https://signal.nfx.com/investors/antonio-rodriguez | VC Sheet: https://www.vcsheet.com/who/antonio-rodriguez | Entrevista en audio (Boston.com Innovation Economy, oct-2010): http://archive.boston.com/business/technology/innoeco/2010/10/vc_conversation_antonio_rodrig.html",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "Matrix Partners no publica emails individuales de sus socios en matrix.vc/team. El único email público del fondo es el genérico info@matrix.vc (pie de página de matrix.vc), junto a los teléfonos +1 650 798 1600 (San Francisco) y +1 617 494 1223 (Cambridge). No hay evidencia de un patrón de dominio verificable para socios individuales (no se ha encontrado ningún email personal de ningún socio de Matrix en fuentes abiertas), por lo que NO se propone ninguno. La vía práctica es X/Twitter (@antrod, canal donde comenta activamente su cartera), LinkedIn o una intro cálida.",
-  "tesis_de_inversion": "Rodriguez invierte en IA y 'frontier tech' desde etapa idea hasta Series A, con un filtro muy explícito contra lo fácilmente clonable. Su criterio más citado: 'One of the biggest product filters for me is, can I look at opportunities where the service isn't something that could be prototyped quickly in a weekend' (entrevista con Owl Labs), que resume como '¿podría copiar esto en un fin de semana?'. Evita mercados SaaS saturados donde la barrera de entrada es mínima y prefiere el punto donde el riesgo dominante es técnico y no competitivo: le atraen empresas donde la pregunta abierta es si la tecnología se puede construir siquiera. Su tesis histórica es la de 'software-defined hardware' —recombinar componentes de gran volumen con software propietario, como Oculus o el Meeting Owl— y la ha extendido a la ola generativa: Luma AI (vídeo y 3D generativo), Suno (música generativa), Sesame, Infinity AI. Sobre equipos, su criterio es la coherencia de visión: 'The most important thing about the leadership team is that they have a shared view amongst themselves for the future'. Matrix, como firma, dice buscar 'founders who have deep technical expertise and a specific vision of the future' y describe su forma de acompañar como 'we engage early, wear well, and are steady'. Invierte con empatía de fundador declarada: él mismo montó y vendió su empresa.",
+  "por_que_es_interesante": [
+    "Filtro explícito a favor de lo que tarda años en construirse: '¿podría clonar esto en un fin de semana?'.",
+    "Invierte desde idea, lidera rondas y suele ser el primer cheque institucional; cartera de frontera pura (Luma AI, Suno, Sesame, CTRL-labs).",
+    "Fundador técnico (Tabblo, ex-CTO HP Consumer Imaging) devuelto a la inversión: entiende el arco de una apuesta larga.",
+    "Ángulo: presentar el stack como barrera técnica (qué es imposible de replicar, qué invariantes lo sostienen) y el harness como infraestructura para creadores técnicos. En inglés."
+  ],
+  "tesis_de_inversion": [
+    "IA y 'frontier tech' desde idea hasta Serie A, con filtro contra lo fácilmente clonable.",
+    "Evita SaaS saturado; prefiere el punto donde el riesgo dominante es técnico, no competitivo.",
+    "'Software-defined hardware' (Oculus, Meeting Owl) extendido a la ola generativa (Luma, Suno, Sesame).",
+    "Equipo: 'a shared view amongst themselves for the future'; Matrix busca 'deep technical expertise and a specific vision of the future'."
+  ],
   "antecedentes": "Nacido en Venezuela; aprendió a programar en un Apple II a los nueve años. A.B. en Social Studies por Harvard University (1996, con honores) y MBA por Stanford Graduate School of Business (1998-2000). Su formación formal no es de ingeniería, pero su trayectoria sí: empezó en ingeniería de startups y llegó a ser CTO de una división de Hewlett-Packard. Trabajó en Abuzz Technologies, la plataforma de preguntas y respuestas fundada por su hermano Andres, adquirida por The New York Times en 1999. En 2000 cofundó Memora con su hermano (servidor doméstico Servio), que cerró con la crisis puntocom. Fue directivo en MyPublisher (fotolibros, hoy parte de Shutterfly). En 2005 fundó y dirigió Tabblo, un sitio de storyboarding e impresión fotográfica respaldado por Matrix, que Hewlett-Packard compró en 2007; tras la venta fue CTO del grupo de imagen y consumo (Consumer Imaging / consumer printing) de HP. En 2010 se incorporó a Matrix Partners como general partner, donde sigue. Su primera inversión en Matrix fue The Echo Nest (vendida a Spotify). Otros exits relevantes: Oculus VR (comprada por Facebook por unos 2.300M USD en 2014) y CTRL-labs (interfaces neuronales, comprada por Facebook/Meta). Fue jurado en la Big Data Conference de los Auto-ID Labs del MIT en 2012.",
-  "por_que_es_interesante": "De los seis, es el que tiene el filtro explícito más alineado con una startup deep tech sin tracción: '¿podría clonar esto en un fin de semana?'. Ese criterio invierte la lógica del inversor que pide usuarios, porque premia justamente lo que tarda años en construirse. Además invierte desde idea, lidera rondas y su cartera reciente es de frontera pura (Luma AI, Suno, Sesame, CTRL-labs, Markforged, Trisk Bio), es decir, empresas cuya tesis fue durante mucho tiempo 'esto quizá no se pueda construir'. Es fundador técnico devuelto a la inversión por el mismo fondo que le financió: entiende el arco de una apuesta larga desde dentro. Ángulo de contacto: presentarle el stack IA-nativo como una barrera técnica, no como un producto —explicitar qué parte es imposible de replicar en un fin de semana, qué invariantes de arquitectura lo sostienen y por qué el riesgo dominante es de ingeniería y no de mercado. Y hablarle del harness de agentes como infraestructura para que otros creadores técnicos puedan construir, que es su patrón repetido (bajar la barrera de creación). Es venezolano de nacimiento, aunque su fluidez en español no está documentada públicamente.",
   "inversiones_relevantes": [
     "CTRL-labs (interfaces neuronales no invasivas, ~67M USD levantados, adquirida por Facebook/Meta en 2019) — apuesta deep tech extrema cuando el producto todavía era un prototipo de laboratorio",
     "Oculus VR (semilla/Series A; adquirida por Facebook en 2014 por ~2.300M USD) — el caso canónico de su tesis 'software-defined hardware' y de invertir antes de que existiera mercado",
@@ -79,17 +93,36 @@
     "https://techcrunch.com/2021/10/29/luma-seed-round/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 15,
+      "etapa": 17,
+      "decision": 20,
+      "espanol": 8,
+      "acceso": 8,
+      "ajuste": 0,
+      "bruto": 68,
+      "topes": [],
+      "total": 68
+    },
+    "motivo": "Matrix invierte de idea a Serie A, lidera y su filtro ('¿se podría clonar en un fin de semana?') premia el moat técnico; pero su especialidad es frontera creativa y hardware (Oculus, CTRL-labs, Suno, Luma), no dev tools; nacido en Venezuela sin español documentado, sin email ni actividad en España/LatAm.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "media",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "media",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Matrix invierte de idea a Serie A y premia lo no clonable, pero su especialidad es frontera creativa y hardware (Oculus, CTRL-labs, Suno, Luma), no dev tools; nacido en Venezuela, español no confirmado; sin actividad en España/LatAm."
+    "motivo_v1": "Matrix invierte de idea a Serie A y premia lo no clonable, pero su especialidad es frontera creativa y hardware (Oculus, CTRL-labs, Suno, Luma), no dev tools; nacido en Venezuela, español no confirmado; sin actividad en España/LatAm."
   },
   "nombre_original": "Antonio Rodriguez",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "De los seis, es el que tiene el filtro explícito más alineado con una startup deep tech sin tracción: '¿podría clonar esto en un fin de semana?'. Ese criterio invierte la lógica del inversor que pide usuarios, porque premia justamente lo que tarda años en construirse. Además invierte desde idea, lidera rondas y su cartera reciente es de frontera pura (Luma AI, Suno, Sesame, CTRL-labs, Markforged, Trisk Bio), es decir, empresas cuya tesis fue durante mucho tiempo 'esto quizá no se pueda construir'. Es fundador técnico devuelto a la inversión por el mismo fondo que le financió: entiende el arco de una apuesta larga desde dentro. Ángulo de contacto: presentarle el stack IA-nativo como una barrera técnica, no como un producto —explicitar qué parte es imposible de replicar en un fin de semana, qué invariantes de arquitectura lo sostienen y por qué el riesgo dominante es de ingeniería y no de mercado. Y hablarle del harness de agentes como infraestructura para que otros creadores técnicos puedan construir, que es su patrón repetido (bajar la barrera de creación). Es venezolano de nacimiento, aunque su fluidez en español no está documentada públicamente.",
+    "tesis_de_inversion": "Rodriguez invierte en IA y 'frontier tech' desde etapa idea hasta Series A, con un filtro muy explícito contra lo fácilmente clonable. Su criterio más citado: 'One of the biggest product filters for me is, can I look at opportunities where the service isn't something that could be prototyped quickly in a weekend' (entrevista con Owl Labs), que resume como '¿podría copiar esto en un fin de semana?'. Evita mercados SaaS saturados donde la barrera de entrada es mínima y prefiere el punto donde el riesgo dominante es técnico y no competitivo: le atraen empresas donde la pregunta abierta es si la tecnología se puede construir siquiera. Su tesis histórica es la de 'software-defined hardware' —recombinar componentes de gran volumen con software propietario, como Oculus o el Meeting Owl— y la ha extendido a la ola generativa: Luma AI (vídeo y 3D generativo), Suno (música generativa), Sesame, Infinity AI. Sobre equipos, su criterio es la coherencia de visión: 'The most important thing about the leadership team is that they have a shared view amongst themselves for the future'. Matrix, como firma, dice buscar 'founders who have deep technical expertise and a specific vision of the future' y describe su forma de acompañar como 'we engage early, wear well, and are steady'. Invierte con empatía de fundador declarada: él mismo montó y vendió su empresa.",
+    "etapa_y_ticket": [
+      "Pre-seed, seed y Series A (Matrix se define como 'early-stage venture capital firm, investing from idea through Series A'). Rango de cheque 100.000-10.000.000 USD según Signal NFX y VC Sheet, con sweet spot de 2.000.000 USD (Signal). Signal reporta un tamaño de fondo de referencia de 800M USD (Matrix levantó 800M USD en 2022, repartidos entre un fondo principal y un fondo de oportunidades). Matrix suele liderar y es con frecuencia el primer cheque institucional."
+    ]
+  }
 }

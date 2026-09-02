@@ -1,9 +1,9 @@
 {
   "id": "guillermo-rauch",
   "nombre": "Guillermo Rauch",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
-  "prioridad": "A",
+  "nivel": 70,
+  "banda": "Alto potencial",
+  "prioridad": "B",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
   "firma": "Vercel (empresa operativa) + inversión ángel a título personal. Las bases de datos mencionan un vehículo llamado 'Rauch Capital', pero no está confirmado en fuente primaria.",
@@ -11,16 +11,30 @@
   "ciudad_base": "San Francisco, California, EE.UU. (nacido y criado en Lanús, Buenos Aires, Argentina)",
   "tipo_inversor": "Business angel",
   "tipo_inversor_detalle": "Business angel",
-  "etapa_y_ticket": "Pre-seed, seed y ocasionalmente Serie A. Ticket de 5.000 a 50.000 USD, con 'sweet spot' en 25.000 USD según Signal/NFX (https://signal.nfx.com/investors/guillermo-rauch). Tasa de liderazgo prácticamente nula: entra como ángel dentro de rondas lideradas por fondos. El volumen es muy alto: 43 inversiones mapeadas en Clera, 76 empresas y 151 operaciones en PrivateMarketView, 94 según Tracxn y 171-175 según PitchBook (las cifras varían mucho entre fuentes; tomar las de PrivateMarketView y Clera como las más verificables).",
+  "etapa_y_ticket": [
+    "Pre-seed y seed, ocasionalmente Serie A; entra como ángel en rondas lideradas por fondos.",
+    "Ticket 5.000-50.000 USD, punto dulce 25.000 USD; nunca lidera.",
+    "Volumen muy alto: 76-175 operaciones según la fuente."
+  ],
   "linkedin": "https://www.linkedin.com/in/rauchg/",
   "linkedin_nota": "",
   "otros_perfiles": "X/Twitter: https://x.com/rauchg | Web y ensayos: https://rauchg.com | GitHub: https://github.com/rauchg (17.100 seguidores, ubicación 'SF') | Signal NFX: https://signal.nfx.com/investors/guillermo-rauch | Cartera mapeada: https://www.getclera.com/investors/guillermo-rauch | https://privatemarketview.com/investors/guillermo-rauch | Artículo propio en LinkedIn: https://www.linkedin.com/pulse/apis-guillermo-rauch-aeupf/",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "Revisadas su web personal (rauchg.com), su perfil de GitHub (github.com/rauchg) y su ficha en VCSift (donde el email aparece enmascarado tras un muro de pago). Ninguna fuente pública muestra una dirección. Vercel no publica emails individuales de empleados con un patrón verificable, por lo que NO se propone patrón inferido. La vía realista de contacto es X/Twitter (@rauchg, muy activo y con DMs abiertos históricamente) o los comentarios en sus posts.",
-  "tesis_de_inversion": "Rauch invierte como operador: cheques pequeños y muy numerosos en infraestructura para desarrolladores, APIs y, desde 2023, IA aplicada al desarrollo de software. Él mismo formuló su tesis original en su ensayo 'On APIs' (LinkedIn, 13 de febrero de 2026): 'When I started angel investing my thesis was: the best companies are going to start out as APIs', y la ilustra con sus tres apuestas seminales: Scale AI ('the API to human intelligence'), Auth0 ('the API to identity') y Clearbit ('the API to business data'). En ese mismo texto actualiza la tesis a la era de los agentes: 'Fast forward to the age of AI, agentic engineering... Your agent will read Markdown. Then, it will run CLIs and call MCP tools... If you're starting now (or starting over), focus on the API. Do it for the agents.' Su ensayo 'The AI Cloud' (rauchg.com, 17 de octubre de 2025) desarrolla la tesis de infraestructura: la nube tradicional (EC2, respuestas de un disparo, React) se sustituye por una nube agéntica (sandboxes para código generado por agentes, respuestas en streaming, AI SDK), y los agentes deben 'repair and optimize, not merely inform'. En el Foro Argentino de Inversiones 2024 resumió su método: 'Hay que leer el océano para saber cuál es la ola que va a crecer', y se declaró 'muy focalizado en inteligencia artificial'. No pide tracción: entra en pre-seed y seed por convicción técnica y por afinidad con el ecosistema open source.",
+  "por_que_es_interesante": [
+    "Escribe y construye sobre 'agentic engineering', sandboxes de agentes y separación modelo/agente: la tesis del cliente en sus propias palabras.",
+    "Cartera confirmada de infraestructura de desarrollador sin usuarios en el momento del cheque: Railway, Tinybird, Upstash, Chroma, Browserbase, Composio, Resend.",
+    "Español nativo con vínculo activo con Argentina (prensa, contratación, Coderhouse).",
+    "Ángulo: técnico y en español, enseñar el harness funcionando, encuadrarlo en 'The AI Cloud' y 'On APIs'; no pedirle que lidere."
+  ],
+  "tesis_de_inversion": [
+    "'The best companies are going to start out as APIs' (Scale AI, Auth0, Clearbit); actualizada a la era de los agentes: 'focus on the API. Do it for the agents'.",
+    "'The AI Cloud' (2025): la nube tradicional se sustituye por una nube agéntica (sandboxes para código generado por agentes, streaming, AI SDK).",
+    "Los agentes deben 'repair and optimize, not merely inform'.",
+    "Entra en pre-seed y seed por convicción técnica y afinidad open source, no por tracción."
+  ],
   "antecedentes": "Nacido en 1987 en Lanús (conurbano bonaerense). Empezó a programar de niño, no terminó la escuela secundaria y se mudó a San Francisco a los 18 años. Fue ingeniero frontend en MooTools y creador de tres proyectos open source de enorme adopción: Mongoose (ODM de MongoDB), Socket.IO (websockets) y, más tarde, Next.js. Cofundó LearnBoost (edtech) y Cloudup, adquirida por Automattic en 2013. En 2015 fundó ZEIT, renombrada Vercel en 2020, la plataforma cloud para frontend y hoy pieza clave del despliegue de aplicaciones generadas con IA. Vercel pasó de una valoración de 3.250 millones de USD (2024) a unos 9.300 millones en la ronda de 2025, y Rauch entró en las listas de multimillonarios de Forbes en marzo de 2026. Productos actuales relevantes: v0 (generación de UI con IA), AI SDK (segundo paquete más descargado de npm según su propio ensayo), Vercel Sandbox, Firewall Agent y Code Review Agent. En paralelo, desde ~2015 ha construido una de las carteras de ángel más grandes del sector dev tools.",
-  "por_que_es_interesante": "Es probablemente el inversor hispanohablante con mejor encaje temático del mundo para un stack IA-nativo y un harness de desarrollo con nube de agentes: literalmente escribe y construye sobre 'agentic engineering', sandboxes de agentes y la separación modelo/agente. Invierte pre-tracción de forma sistemática (pre-seed y seed) y su cartera confirmada está llena de infraestructura de desarrollador sin usuarios en el momento del cheque: Railway, Tinybird, Upstash, Chroma, Browserbase, Composio, Tigris Data, tldraw, Resend. Habla español nativo, mantiene vínculo activo con Argentina (entrevistas en Forbes Argentina, Infobae, El Cronista, El Economista; contrata talento argentino) e incluso invirtió en Coderhouse, edtech argentina. El ángulo de contacto correcto es técnico y en español: enseñarle el harness funcionando, encuadrarlo en su marco de 'The AI Cloud' y 'On APIs' ('do it for the agents'), y no pedirle que lidere.",
   "inversiones_relevantes": [
     "Supabase (2021, Serie A de 30 M USD liderada por Coatue, backend open source Postgres) — confirmado en el anuncio oficial de Supabase; caso puro de infra open source para desarrolladores",
     "Resend (2023, seed de 3 M USD, API de email para desarrolladores) — confirmado en el anuncio oficial; ejemplo de su tesis 'the best companies start out as APIs'",
@@ -77,17 +91,36 @@
     "https://www.lavanguardia.com/neo/ia/20251025/11151086/guillermo-rauch-emprendedor-argentino-34-anos-conquisto-netflix-lidera-plan-valorado-9-300-millones-dolares-revolucionar-ia.html"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 25,
+      "etapa": 18,
+      "decision": 10,
+      "espanol": 15,
+      "acceso": 7,
+      "ajuste": -5,
+      "bruto": 70,
+      "topes": [],
+      "total": 70
+    },
+    "motivo": "El inversor hispanohablante con mejor encaje temático del mundo (Supabase, Resend, Browserbase, Chroma, Railway; tesis 'do it for the agents', 'The AI Cloud'), argentino con vínculo activo con Argentina. Pero es capital simbólico (5-50k USD), nunca lidera, acceso muy difícil como CEO de Vercel y posible solapamiento con la AI Cloud de Vercel: vale como señal.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "El ángel de dev tools de referencia (Supabase, Resend, Browserbase, Chroma), tesis pública 'construye la API para los agentes', argentino. Cheque 5-50k, nunca lidera, acceso difícil y posible solapamiento con la AI Cloud de Vercel: vale como señal, no como capital."
+    "motivo_v1": "El ángel de dev tools de referencia (Supabase, Resend, Browserbase, Chroma), tesis pública 'construye la API para los agentes', argentino. Cheque 5-50k, nunca lidera, acceso difícil y posible solapamiento con la AI Cloud de Vercel: vale como señal, no como capital."
   },
   "nombre_original": "Guillermo Rauch",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "Es probablemente el inversor hispanohablante con mejor encaje temático del mundo para un stack IA-nativo y un harness de desarrollo con nube de agentes: literalmente escribe y construye sobre 'agentic engineering', sandboxes de agentes y la separación modelo/agente. Invierte pre-tracción de forma sistemática (pre-seed y seed) y su cartera confirmada está llena de infraestructura de desarrollador sin usuarios en el momento del cheque: Railway, Tinybird, Upstash, Chroma, Browserbase, Composio, Tigris Data, tldraw, Resend. Habla español nativo, mantiene vínculo activo con Argentina (entrevistas en Forbes Argentina, Infobae, El Cronista, El Economista; contrata talento argentino) e incluso invirtió en Coderhouse, edtech argentina. El ángulo de contacto correcto es técnico y en español: enseñarle el harness funcionando, encuadrarlo en su marco de 'The AI Cloud' y 'On APIs' ('do it for the agents'), y no pedirle que lidere.",
+    "tesis_de_inversion": "Rauch invierte como operador: cheques pequeños y muy numerosos en infraestructura para desarrolladores, APIs y, desde 2023, IA aplicada al desarrollo de software. Él mismo formuló su tesis original en su ensayo 'On APIs' (LinkedIn, 13 de febrero de 2026): 'When I started angel investing my thesis was: the best companies are going to start out as APIs', y la ilustra con sus tres apuestas seminales: Scale AI ('the API to human intelligence'), Auth0 ('the API to identity') y Clearbit ('the API to business data'). En ese mismo texto actualiza la tesis a la era de los agentes: 'Fast forward to the age of AI, agentic engineering... Your agent will read Markdown. Then, it will run CLIs and call MCP tools... If you're starting now (or starting over), focus on the API. Do it for the agents.' Su ensayo 'The AI Cloud' (rauchg.com, 17 de octubre de 2025) desarrolla la tesis de infraestructura: la nube tradicional (EC2, respuestas de un disparo, React) se sustituye por una nube agéntica (sandboxes para código generado por agentes, respuestas en streaming, AI SDK), y los agentes deben 'repair and optimize, not merely inform'. En el Foro Argentino de Inversiones 2024 resumió su método: 'Hay que leer el océano para saber cuál es la ola que va a crecer', y se declaró 'muy focalizado en inteligencia artificial'. No pide tracción: entra en pre-seed y seed por convicción técnica y por afinidad con el ecosistema open source.",
+    "etapa_y_ticket": [
+      "Pre-seed, seed y ocasionalmente Serie A. Ticket de 5.000 a 50.000 USD, con 'sweet spot' en 25.000 USD según Signal/NFX (https://signal.nfx.com/investors/guillermo-rauch). Tasa de liderazgo prácticamente nula: entra como ángel dentro de rondas lideradas por fondos. El volumen es muy alto: 43 inversiones mapeadas en Clera, 76 empresas y 151 operaciones en PrivateMarketView, 94 según Tracxn y 171-175 según PitchBook (las cifras varían mucho entre fuentes; tomar las de PrivateMarketView y Clera como las más verificables)."
+    ]
+  }
 }

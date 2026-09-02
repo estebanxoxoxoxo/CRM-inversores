@@ -1,9 +1,9 @@
 {
   "id": "diana-hu",
   "nombre": "Diana Hu",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
-  "prioridad": "A",
+  "nivel": 71,
+  "banda": "Alto potencial",
+  "prioridad": "B",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
   "firma": "Y Combinator",
@@ -11,16 +11,30 @@
   "ciudad_base": "San Francisco, California, EE.UU.",
   "tipo_inversor": "Aceleradora / programa",
   "tipo_inversor_detalle": "Aceleradora / programa",
-  "etapa_y_ticket": "Pre-seed / idea. El deal estándar de YC es 500.000 USD por empresa aceptada, en dos SAFEs simultáneos: 125.000 USD post-money por un 7% fijo y 375.000 USD en un SAFE uncapped con MFN. YC declara expresamente que la inversión “is not contingent on hitting any milestones” y desembolsa al aceptar, antes de que empiece el batch. Cuatro batches al año. Diana Hu no escribe cheques independientes fuera de YC: su capacidad de inversión pasa por el programa.",
+  "etapa_y_ticket": [
+    "Pre-seed / idea: 500.000 USD por empresa (125k por 7% + 375k en SAFE uncapped con MFN), desembolsado al aceptar.",
+    "Cuatro batches al año; exige sociedad en EE.UU., Canadá, Caimán o Singapur y presencia en la Bahía durante el programa.",
+    "No escribe cheques fuera de YC; no hay garantía de caer en su grupo."
+  ],
   "linkedin": "https://www.linkedin.com/in/sdianahu",
   "linkedin_nota": "",
   "otros_perfiles": "X/Twitter: https://x.com/sdianahu | Perfil en YC: https://www.ycombinator.com/people/diana-hu | Anuncio de su nombramiento: https://www.ycombinator.com/blog/diana-hu-managing-partner | Lightcone Podcast (co-presentadora): https://www.ycombinator.com/library/carousel/Lightcone%20Podcast y https://www.youtube.com/playlist?list=PLQ-uHSnFig5Ob4XXhgSK26Smb4oRhzFmK",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "No hay email personal público de Diana Hu ni de ningún otro socio de YC. Los únicos buzones públicos del fondo son apply@ycombinator.com y demoday@ycombinator.com. Fuentes de terceros (RocketReach) especulan con un patrón nombre@ycombinator.com, pero NO hay ninguna dirección de socio verificada públicamente, así que no se propone patrón. Vías reales: la solicitud abierta a YC y su cuenta de X (@sdianahu).",
-  "tesis_de_inversion": "Como socia de YC invierte en la etapa más temprana posible, sin exigir métricas: el deal estándar es incondicional y se cierra antes de que arranque el batch. Su lente es técnica —viene de visión por computador y ML— y su discurso público de 2025-2026 gira alrededor de los agentes. En el episodio de Lightcone “The AI Agent Economy Is Here” (21-feb-2026) plantea el crecimiento explosivo de las herramientas de desarrollo con IA y si ha llegado el momento de “make something agents want”, una reformulación deliberada del lema fundacional de YC. Sostiene que “AI agents are changing the basic production unit of a startup from a team to a founder” y observa que las empresas de YC pasan de cero a siete cifras de ingresos en tres meses, algo imposible en su propio batch de 2017, precisamente por las herramientas de programación agéntica. Avisa también del riesgo de plataforma: compara lo que vivió cuando Apple lanzó ARKit el primer día de su batch con lo que hoy afrontan los fundadores de IA, y pide que la hoja de ruta no colisione con lo que los laboratorios frontera ya están construyendo. Su cartera de acompañamiento está llena de infraestructura y herramientas para desarrolladores.",
+  "por_que_es_interesante": [
+    "YC publicó en 2026 QM, 'a multiplayer agent harness for work' (MIT): construyen internamente lo que el cliente vende.",
+    "El deal de YC (500k USD) es explícitamente 'not contingent on hitting any milestones': responde de frente a la mala experiencia con inversores que piden usuarios.",
+    "Fundadora técnica (visión por computador, CTO de Escher Reality) que acompaña infra de IA: Reducto, Resend, Activeloop.",
+    "Ángulo: aplicar al batch con la demo del harness, contrastarla con QM, Codex y Claude Code, y llevar benchmarks reproducibles."
+  ],
+  "tesis_de_inversion": [
+    "Etapa más temprana posible y sin métricas: el deal es incondicional y se cierra antes del batch.",
+    "Discurso 2025-26 centrado en agentes: '¿make something agents want?' y 'los agentes cambian la unidad de producción de la startup del equipo al fundador'.",
+    "Empresas de YC pasan de cero a siete cifras en tres meses gracias a la programación agéntica.",
+    "Avisa del riesgo de plataforma: que la hoja de ruta no colisione con lo que construyen los laboratorios frontera."
+  ],
   "antecedentes": "Chilena de origen (así lo indica su ficha oficial en Y Combinator). Cursó el grado y el máster en Ingeniería Eléctrica e Informática (ECE) en Carnegie Mellon, especializándose en visión por computador y aprendizaje automático. Hizo investigación de ML en Intel Labs y dirigió ciencia de datos en OnCue TV, vendida a Verizon. En 2017 cofundó y fue CTO de Escher Reality (YC S17), un backend de realidad aumentada adquirido por Niantic en 2018; después dirigió el equipo de plataforma de AR en Niantic, desplegando AR para más de 100 millones de jugadores de Pokémon GO. Se incorporó a YC como Visiting Group Partner en 2021, pasó a Group Partner a tiempo completo en 2022 y fue promovida a Managing Partner el 11 de junio de 2026. En cuatro años ha trabajado con cerca de 230 empresas repartidas en 18 grupos de batch, ha hecho más de 2.100 horas de office hours y las compañías que ha acompañado suman unos 7.000M USD de valoración. Es además co-presentadora del Lightcone Podcast junto a Garry Tan, Harj Taggar y Jared Friedman.",
-  "por_que_es_interesante": "Es la persona de la lista cuyo trabajo diario está más cerca del producto del cliente. En julio-agosto de 2026 YC liberó como open source QM (Quartermaster), descrito literalmente como “a multiplayer agent harness for work”, con sandboxes por scope, skills compartidas, crons y bucles de codificación intercambiables (Pi, OpenCode, Codex, Claude Code) — es decir, YC construye internamente un harness de agentes y lo publica con licencia MIT. Diana Hu es la socia que más ha empujado la narrativa de “make something agents want” y de que la unidad de producción de una startup pasa del equipo al fundador. Además, YC es el único vehículo de la lista que invierte 500.000 USD sin condicionarlo a ninguna métrica, lo que responde de forma frontal a la mala experiencia del cliente con inversores que piden usuarios. El ángulo: aplicar al batch con la demo del harness, contrastarla explícitamente con QM y con Codex/Claude Code, y llevar benchmarks reproducibles. Su origen chileno facilita el trato, aunque su fluidez en español no está documentada.",
   "inversiones_relevantes": [
     "Reducto (YC, infraestructura de parsing de documentos para pipelines de IA) — dev infra pura acompañada por ella desde etapa idea",
     "Resend (YC W23, API de correo para desarrolladores) — herramienta de desarrollador con fuerte componente open source",
@@ -76,17 +90,36 @@
     "https://podcasts.apple.com/us/podcast/141-diana-hu/id1236907421?i=1000447994300"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 20,
+      "etapa": 20,
+      "decision": 16,
+      "espanol": 9,
+      "acceso": 9,
+      "ajuste": -3,
+      "bruto": 71,
+      "topes": [],
+      "total": 71
+    },
+    "motivo": "YC invierte 500k USD sin condicionarlo a métricas y ella es la socia que más empuja 'make something agents want'; YC incluso publicó QM, un harness multiagente open source. Reservas: sólo vía batch (7% + SAFE, constitución en EE.UU. y presencia en la Bahía), no elige el grupo que te toca, fluidez en español no documentada.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "YC invierte 500k USD sin condicionarlo a métricas; fundadora técnica (CMU, CTO Escher Reality) que acompaña infra de IA (Reducto, Resend, Activeloop); criada en Chile según YC. Única vía: entrar al batch (7% + SAFE) y constituirse en EE.UU./Canadá/Caimán/Singapur."
+    "motivo_v1": "YC invierte 500k USD sin condicionarlo a métricas; fundadora técnica (CMU, CTO Escher Reality) que acompaña infra de IA (Reducto, Resend, Activeloop); criada en Chile según YC. Única vía: entrar al batch (7% + SAFE) y constituirse en EE.UU./Canadá/Caimán/Singapur."
   },
   "nombre_original": "Diana Hu",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "Es la persona de la lista cuyo trabajo diario está más cerca del producto del cliente. En julio-agosto de 2026 YC liberó como open source QM (Quartermaster), descrito literalmente como “a multiplayer agent harness for work”, con sandboxes por scope, skills compartidas, crons y bucles de codificación intercambiables (Pi, OpenCode, Codex, Claude Code) — es decir, YC construye internamente un harness de agentes y lo publica con licencia MIT. Diana Hu es la socia que más ha empujado la narrativa de “make something agents want” y de que la unidad de producción de una startup pasa del equipo al fundador. Además, YC es el único vehículo de la lista que invierte 500.000 USD sin condicionarlo a ninguna métrica, lo que responde de forma frontal a la mala experiencia del cliente con inversores que piden usuarios. El ángulo: aplicar al batch con la demo del harness, contrastarla explícitamente con QM y con Codex/Claude Code, y llevar benchmarks reproducibles. Su origen chileno facilita el trato, aunque su fluidez en español no está documentada.",
+    "tesis_de_inversion": "Como socia de YC invierte en la etapa más temprana posible, sin exigir métricas: el deal estándar es incondicional y se cierra antes de que arranque el batch. Su lente es técnica —viene de visión por computador y ML— y su discurso público de 2025-2026 gira alrededor de los agentes. En el episodio de Lightcone “The AI Agent Economy Is Here” (21-feb-2026) plantea el crecimiento explosivo de las herramientas de desarrollo con IA y si ha llegado el momento de “make something agents want”, una reformulación deliberada del lema fundacional de YC. Sostiene que “AI agents are changing the basic production unit of a startup from a team to a founder” y observa que las empresas de YC pasan de cero a siete cifras de ingresos en tres meses, algo imposible en su propio batch de 2017, precisamente por las herramientas de programación agéntica. Avisa también del riesgo de plataforma: compara lo que vivió cuando Apple lanzó ARKit el primer día de su batch con lo que hoy afrontan los fundadores de IA, y pide que la hoja de ruta no colisione con lo que los laboratorios frontera ya están construyendo. Su cartera de acompañamiento está llena de infraestructura y herramientas para desarrolladores.",
+    "etapa_y_ticket": [
+      "Pre-seed / idea. El deal estándar de YC es 500.000 USD por empresa aceptada, en dos SAFEs simultáneos: 125.000 USD post-money por un 7% fijo y 375.000 USD en un SAFE uncapped con MFN. YC declara expresamente que la inversión “is not contingent on hitting any milestones” y desembolsa al aceptar, antes de que empiece el batch. Cuatro batches al año. Diana Hu no escribe cheques independientes fuera de YC: su capacidad de inversión pasa por el programa."
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "id": "santi-subotovsky",
   "nombre": "Santi Subotovsky",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 55,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,30 @@
   "ciudad_base": "Los Altos / San Mateo, California, EE.UU.",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Etapa temprana de software empresarial B2B, con el punto dulce en Series A y participación ocasional en semilla. Fondo vigente: Emergence VII, 1.000M USD, cerrado en marzo de 2025 (el anterior, Emergence VI, fue de 575M USD en 2021). La propia web del fondo declara un ritmo extremadamente bajo: “Our Partners each make just one investment annually”. Roundfunded le atribuye un cheque típico de 250.000 USD en operaciones pre-seed/seed, dato NO confirmado y probablemente referido solo a posiciones pequeñas; con un fondo de 1.000M USD y una inversión al año por socio, la operación característica de Emergence es una Series A de entre 10 y 30 millones con puesto en el consejo.",
+  "etapa_y_ticket": [
+    "Serie A como punto dulce (10-30M USD con asiento en consejo); participación ocasional en semilla.",
+    "'Our Partners each make just one investment annually'.",
+    "Emergence VII: 1.000M USD (mar-2025)."
+  ],
   "linkedin": "https://www.linkedin.com/in/santisubotovsky",
   "linkedin_nota": "",
   "otros_perfiles": "Perfil en el fondo: https://www.emcap.com/people/santi-subotovsky | Forbes: https://www.forbes.com/profile/santi-subotovsky/ | Kauffman Fellows: https://www.kauffmanfellows.org/fellows/santiago-subotovsky | Autor en TechCrunch: https://techcrunch.com/author/santi-subotovsky/ | Endeavor Argentina: https://www.endeavor.org.ar/tag/santiago-subotovsky/ | Handle de X/Twitter no confirmado en fuentes públicas",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "No se ha localizado ningún email público de Santi Subotovsky ni de ningún otro socio de Emergence Capital. La página /contact de emcap.com devuelve 404 y no hay direcciones publicadas en la web del fondo, prensa ni bios de ponente. No hay evidencia suficiente para proponer un patrón de dominio. Vía recomendada: LinkedIn o intro vía Endeavor / fundadores de cartera.",
-  "tesis_de_inversion": "Emergence busca identificar innovaciones de modelo de negocio que una revolución tecnológica desbloquea antes de que el mercado las adopte: apostaron por el SaaS horizontal con Salesforce (2003) y por el SaaS vertical con Veeva (2008). Su tesis actual es la de los modelos de negocio nativos de IA, articulada en tres frentes: infraestructura de IA, IA del mundo físico y sobre todo AI-Native Services, es decir, empresas que “sell outcomes rather than software” en verticales como reclamaciones de seguros, administración de fondos, agencia de aduanas, ciclo de ingresos sanitario, KYC y cadena de suministro. Subotovsky es la cara de la escuela people-first del fondo: su cita más repetida es “Growing a business takes time. So you'd better be doing it with people you like”, y su método consiste en construir relación con el fundador mucho antes de la ronda. El fondo presume de disciplina extrema: menos de 2.500M USD invertidos en total, más de 9.000M USD de retornos realizados, más de 9 de cada 10 inversiones de etapa temprana levantan siguiente ronda, 1 de cada 5 supera los 1.000M USD de valoración y 1 de cada 10 sale a bolsa. La contrapartida es que cada socio hace una sola inversión nueva al año.",
+  "por_que_es_interesante": [
+    "Credibilidad hispanohablante en software empresarial: argentino, Emprendedor Endeavor, entrevistas en español, historia de Zoom.",
+    "Emergence tiene tesis declarada de infraestructura de IA y ha entrado en Together AI y Physical Intelligence.",
+    "En contra: una inversión nueva por socio al año y Serie A de 10-30M con consejo.",
+    "Ángulo: empezar la relación ahora vía Endeavor o su red argentina y posicionarlo para liderar la Serie A cuando existan demo y primeros clientes."
+  ],
+  "tesis_de_inversion": [
+    "Innovaciones de modelo de negocio que desbloquea una revolución tecnológica antes de que el mercado las adopte (Salesforce 2003, Veeva 2008).",
+    "Tesis actual: modelos de negocio nativos de IA en tres frentes: infraestructura de IA, IA del mundo físico y sobre todo 'AI-Native Services' ('sell outcomes rather than software').",
+    "Escuela people-first: 'Growing a business takes time. So you'd better be doing it with people you like'.",
+    "Disciplina extrema: <2.500M USD invertidos, >9.000M USD retornados, una inversión nueva por socio al año."
+  ],
   "antecedentes": "Argentino. Licenciado en Economía por la Universidad de San Andrés (Buenos Aires) y MBA por la Harvard Business School. Cofundó en Argentina AXG Tecnonexo, plataforma SaaS de e-learning que operó en Latinoamérica y Estados Unidos, y fue seleccionado Emprendedor Endeavor. También cofundó Puente Labs, iniciativa para ayudar a emprendedores latinoamericanos a escalar internacionalmente, y ha estado vinculado a Quasar Ventures (enfoque latinoamericano) y a High Alpha (studio/aceleradora). Antes fue asesor en Aqua Capital Partners, donde participaba en la diligencia de nuevas inversiones tecnológicas. Es Kauffman Fellow. Se incorporó a Emergence Capital en 2010 y es General Partner. Lideró la inversión de Emergence en Zoom, sigue en su consejo, y ha estado detrás de Chorus.ai (vendida a ZoomInfo) y Openpath Security (vendida a Motorola Solutions). Consejos citados por el fondo: Crunchbase, Logik.io, Zipline, Tundra y Class Technologies. Ha entrado tres veces en el Forbes Midas List y es uno de los primeros tres inversores latinoamericanos en conseguirlo. Nota: Bill.com forma parte de la cartera histórica de Emergence, pero no consta que él liderase esa inversión (no confirmado). Textio aparece asociado al fondo, no específicamente a él (no confirmado).",
-  "por_que_es_interesante": "Es el caso más claro de credibilidad hispanohablante en software empresarial: argentino, Emprendedor Endeavor, cofundador de una SaaS en Latinoamérica, con entrevistas en español y una historia —fue el primero en apostar por Eric Yuan cuando Zoom no era nadie— que resuena exactamente con la frustración del cliente ante inversores que exigen tracción. Emergence tiene además tesis declarada de infraestructura de IA y ha entrado recientemente en Together AI y Physical Intelligence, lo que demuestra que el fondo sí toca la capa de infra. El problema es el ajuste de proceso: cada socio hace una sola inversión nueva al año y el punto dulce es la Series A de una empresa B2B con evidencia comercial. La forma correcta de usarlo no es pedirle que lidere la primera ronda, sino empezar la relación ahora —él invierte en personas a lo largo de años— y posicionarlo como candidato a liderar la Series A cuando la demo y los primeros clientes existan. Contactar en español, por Endeavor o por su red argentina.",
   "inversiones_relevantes": [
     "Zoom (lideró la inversión de Emergence en la etapa temprana; sigue en el consejo tras la salida a bolsa) — precedente canónico de apostar por un fundador antes de que hubiera evidencia de mercado",
     "Chorus.ai (inteligencia de conversaciones con ML; vendida a ZoomInfo) — apuesta temprana por producto con base técnica de IA",
@@ -79,17 +93,36 @@
     "https://techcrunch.com/author/santi-subotovsky/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 12,
+      "etapa": 6,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 6,
+      "ajuste": -4,
+      "bruto": 55,
+      "topes": [],
+      "total": 55
+    },
+    "motivo": "Argentino, Endeavor, el primero en apostar por Zoom cuando no era nadie, en un fondo con tesis de infraestructura de IA (Together AI, Physical Intelligence); pero cada socio hace una sola inversión nueva al año, su punto dulce es la Serie A con evidencia comercial y no hay canal frío. Relación a 12-24 meses.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Una inversión nueva por socio al año y punto dulce en Serie A con evidencia comercial; tesis de servicios AI-native vertical. Relación a 12-24 meses."
+    "motivo_v1": "Una inversión nueva por socio al año y punto dulce en Serie A con evidencia comercial; tesis de servicios AI-native vertical. Relación a 12-24 meses."
   },
   "nombre_original": "Santi Subotovsky (Santiago Subotovsky)",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el caso más claro de credibilidad hispanohablante en software empresarial: argentino, Emprendedor Endeavor, cofundador de una SaaS en Latinoamérica, con entrevistas en español y una historia —fue el primero en apostar por Eric Yuan cuando Zoom no era nadie— que resuena exactamente con la frustración del cliente ante inversores que exigen tracción. Emergence tiene además tesis declarada de infraestructura de IA y ha entrado recientemente en Together AI y Physical Intelligence, lo que demuestra que el fondo sí toca la capa de infra. El problema es el ajuste de proceso: cada socio hace una sola inversión nueva al año y el punto dulce es la Series A de una empresa B2B con evidencia comercial. La forma correcta de usarlo no es pedirle que lidere la primera ronda, sino empezar la relación ahora —él invierte en personas a lo largo de años— y posicionarlo como candidato a liderar la Series A cuando la demo y los primeros clientes existan. Contactar en español, por Endeavor o por su red argentina.",
+    "tesis_de_inversion": "Emergence busca identificar innovaciones de modelo de negocio que una revolución tecnológica desbloquea antes de que el mercado las adopte: apostaron por el SaaS horizontal con Salesforce (2003) y por el SaaS vertical con Veeva (2008). Su tesis actual es la de los modelos de negocio nativos de IA, articulada en tres frentes: infraestructura de IA, IA del mundo físico y sobre todo AI-Native Services, es decir, empresas que “sell outcomes rather than software” en verticales como reclamaciones de seguros, administración de fondos, agencia de aduanas, ciclo de ingresos sanitario, KYC y cadena de suministro. Subotovsky es la cara de la escuela people-first del fondo: su cita más repetida es “Growing a business takes time. So you'd better be doing it with people you like”, y su método consiste en construir relación con el fundador mucho antes de la ronda. El fondo presume de disciplina extrema: menos de 2.500M USD invertidos en total, más de 9.000M USD de retornos realizados, más de 9 de cada 10 inversiones de etapa temprana levantan siguiente ronda, 1 de cada 5 supera los 1.000M USD de valoración y 1 de cada 10 sale a bolsa. La contrapartida es que cada socio hace una sola inversión nueva al año.",
+    "etapa_y_ticket": [
+      "Etapa temprana de software empresarial B2B, con el punto dulce en Series A y participación ocasional en semilla. Fondo vigente: Emergence VII, 1.000M USD, cerrado en marzo de 2025 (el anterior, Emergence VI, fue de 575M USD en 2021). La propia web del fondo declara un ritmo extremadamente bajo: “Our Partners each make just one investment annually”. Roundfunded le atribuye un cheque típico de 250.000 USD en operaciones pre-seed/seed, dato NO confirmado y probablemente referido solo a posiciones pequeñas; con un fondo de 1.000M USD y una inversión al año por socio, la operación característica de Emergence es una Series A de entre 10 y 30 millones con puesto en el consejo."
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "id": "patricia-pastor",
   "nombre": "Patricia Pastor",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
+  "nivel": 87,
+  "banda": "Indiscutible",
   "prioridad": "A",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Valencia, España (el fondo opera también desde Miami, EE.UU.)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Pre-seed y seed como núcleo, con capacidad de seguir hasta Serie A. Fondo de 50 M€ objetivo (30 M€ en la fase de captación inicial) para 30-35 operaciones, lo que implica un ticket medio comprometido por compañía de ~1,4-1,7 M€ incluyendo follow-on; el primer cheque en pre-seed/seed es sensiblemente menor (la ronda de BrainGrid, marzo 2026, fue de 1 M$ total con Next Tier como coinversor, no como lead). El fondo es accesible desde 10.000 € para inversores retail, algo inusual en VC español. Fuente: https://blog.gvcgaesco.es/fondo-startups-inteligencia-artificial/ y https://superscout.co/investor/next-tier-ventures",
+  "etapa_y_ticket": [
+    "Pre-seed y seed como núcleo, con capacidad hasta Serie A.",
+    "Fondo objetivo 50M€ (30M€ en captación inicial) para 30-35 operaciones; ~1,4-1,7M€ comprometidos por compañía con follow-on; primer cheque menor (BrainGrid: ronda total de 1M USD como coinversora).",
+    "SETT entró con 9,5M€ (ene-2026); accesible a retail desde 10.000 €."
+  ],
   "linkedin": "https://www.linkedin.com/in/patriciapastorg/",
   "linkedin_nota": "",
   "otros_perfiles": "Web del fondo: https://www.nexttier.vc | Equipo: https://www.nexttier.vc/team | Portfolio: https://www.nexttier.vc/portfolio | Formulario de aplicación: https://www.nexttier.vc/apply | Blog del fondo: https://www.nexttier.vc/blog | Crunchbase: https://www.crunchbase.com/person/patricia-pastor | Entrevista escrita en profundidad (0100 Conferences): https://0100conferences.substack.com/p/next-tier-ventures-building-the-foundations | Vídeo 'Inteligencia Artificial: un cambio de paradigma': https://www.youtube.com/watch?v=ry8GHm07lX0 | Vídeo 'Cómo piensan los expertos': https://www.youtube.com/watch?v=p5fWEcRjG_c | Perfil en The Startup Oasis: https://startupsoasis.com/patricia-pastor-next-tier-ventures/ | Embajadora en España de WeInvest (red de +300 mujeres inversoras)",
   "email": "patricia.pastor@nexttier.vc",
   "email_estado": "patrón inferido (no verificado)",
   "email_fuente": "La página de equipo del fondo (https://www.nexttier.vc/team) publica el correo de Jonathan Sultan (Investor Relations) como jonathan.sultan@nexttier.vc, lo que establece el patrón nombre.apellido@nexttier.vc. El correo de Patricia Pastor no aparece publicado en ninguna fuente. Vía alternativa y preferible: el formulario oficial https://www.nexttier.vc/apply. | patrón inferido, NO verificado",
-  "tesis_de_inversion": "Invierte exclusivamente en startups B2B early-stage (pre-seed y seed) donde la IA es el motor central del producto, no un añadido. Su formulación es literalmente la del cliente: 'We invest in defensible architectures... where AI isn't just an add-on, but the very DNA of the system'. Rechaza explícitamente lo que considera sobrecapitalizado —copilotos horizontales genéricos y aplicaciones prematuras de AGI— y señala como infravalorada la automatización de operaciones internas en sectores tradicionales. Sobre el equipo dice algo muy relevante para una startup técnica sin tracción: 'What truly sets a pre-seed or seed team apart today is Architectural Empathy... brilliant at designing for scale and cost-control from day one', y añade que 'being a model expert is a great start, but we back leaders who think deeply about infrastructure and operational excellence'. Su principal criterio de riesgo es la ausencia de moat: 'If a company's only advantage is access to a specific model or API, it is very difficult to build a durable business'. Defiende la IA soberana: busca fundadores que ayuden a las empresas a dejar de 'alquilar' su tecnología núcleo y a construirla como activo de propiedad intelectual. Y describe el futuro que quiere financiar como 'un mundo donde la IA no solo asiste a los humanos, sino que orquesta servidores de forma independiente y neutraliza amenazas en tiempo real'.",
+  "por_que_es_interesante": [
+    "Cartera con las dos categorías del cliente: BrainGrid ('capa de planificación estructurada para construir software AI-native') y Optiak ('capa de orquestación que unifica modelos, agentes y sistemas').",
+    "Pre-seed por mandato: 30-35 operaciones desde fase inicial; criterio 'Architectural Empathy' (diseñar para escala y coste desde el día uno).",
+    "Su principal riesgo declarado es la ausencia de moat: 'si la única ventaja es acceso a un modelo o API, es muy difícil construir un negocio durable'.",
+    "Ángulo: en español desde Valencia, por la puerta de BrainGrid/Optiak ('vuestra tesis de arquitectura defendible aplicada al stack completo'); formulario del fondo y VDS."
+  ],
+  "tesis_de_inversion": [
+    "B2B early-stage donde la IA es el ADN del sistema: 'We invest in defensible architectures... where AI isn't just an add-on'.",
+    "Rechaza copilotos horizontales genéricos y AGI prematura; infravalorada la automatización de operaciones internas.",
+    "'Architectural Empathy': equipos que diseñan para escala y control de costes desde el día uno; 'being a model expert is a great start, but we back leaders who think deeply about infrastructure'.",
+    "IA soberana: dejar de 'alquilar' la tecnología núcleo; un futuro donde la IA 'orquesta servidores de forma independiente'."
+  ],
   "antecedentes": "Formada en la Universidad CEU Cardenal Herrera (Valencia). Su carrera empieza en el lado público-institucional: lideró la estrategia de innovación del Ayuntamiento de Valencia (VIT Emprende), alineando intereses públicos y privados para articular la comunidad startup valenciana, y formó parte del equipo fundador de Startup Valencia y del evento VDS (Valencia Digital Summit), del que hoy es Chairwoman y que reúne a más de 12.000 asistentes. Pasó después por Plug and Play. Su etapa clave como inversora fue GoHub Ventures, el fondo corporativo de deep tech de Global Omnium, donde fue Managing Director/Managing Partner y convirtió el vehículo en uno de los más activos de España en software y deep tech (inversiones como NeuralSpace, voice AI, 2022). Acumula más de ocho años en capital riesgo y declara haber gestionado una cartera de más de 100 M$ y acompañado a cientos de emprendedores. En 2024 fundó Next Tier Ventures junto a Rubén Colomer (también ex Plug and Play y ex GoHub) y en diciembre de 2024 cerró la alianza con GVC Gaesco para lanzar Next Tier GVC Gaesco S.C.R., S.A.",
-  "por_que_es_interesante": "Es probablemente el encaje más literal de toda la lista española. Su portfolio ya contiene exactamente las dos categorías del cliente: BrainGrid (marzo 2026, pre-seed de 1 M$ liderado por Menlo Ventures, 'la capa de planificación estructurada para construir software SaaS AI-native' — es decir, harness de desarrollo) y Optiak ('capa de orquestación empresarial que unifica modelos, agentes y sistemas corporativos fragmentados' — es decir, infraestructura de agentes). Invierte en pre-seed por mandato: el fondo está diseñado para 30-35 operaciones desde fase inicial, no para comprar tracción. Y su discurso público premia justo lo que el cliente tiene y no puede demostrar todavía con usuarios: 'empatía arquitectónica', diseño para escala y coste desde el día uno, y moat que no dependa de una API ajena. Ángulo de contacto: entrar por la puerta de BrainGrid/Optiak ('vuestra tesis de arquitectura defendible aplicada a un stack IA-nativo completo, no solo a la capa de planificación') y en español, desde Valencia.",
   "inversiones_relevantes": [
     "BrainGrid (2026, pre-seed 1 M$ liderado por Menlo Ventures con Next Tier Ventures y Brainstorm Ventures; capa de planificación estructurada para construir software SaaS AI-native) — es literalmente un harness de desarrollo con IA; el encaje conceptual con el producto del cliente es directo",
     "Optiak (portfolio actual; capa de orquestación empresarial que unifica modelos, agentes y sistemas corporativos fragmentados, con gobernanza y selección automática de modelos) — infraestructura de agentes, la categoría exacta del cliente",
@@ -87,17 +101,36 @@
     "https://ecosistemastartup.com/patricia-pastor-y-next-tier-ventures-el-oasis-de-las-startups/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 25,
+      "etapa": 20,
+      "decision": 17,
+      "espanol": 15,
+      "acceso": 13,
+      "ajuste": -3,
+      "bruto": 87,
+      "topes": [],
+      "total": 87
+    },
+    "motivo": "El encaje más literal de España: único fondo 100% IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), y criterio publicado de 'Architectural Empathy' y moat que no dependa de una API ajena. Reservas: fondo joven de 50M€ que coinvierte más que lidera, email inferido y posible solapamiento con BrainGrid.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Único fondo español 100% IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), criterio publicado de 'Architectural Empathy'. Reservas: fondo joven de 50M€, email inferido, posible solapamiento con BrainGrid."
+    "motivo_v1": "Único fondo español 100% IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), criterio publicado de 'Architectural Empathy'. Reservas: fondo joven de 50M€, email inferido, posible solapamiento con BrainGrid."
   },
   "nombre_original": "Patricia Pastor",
-  "email_original": "patricia.pastor@nexttier.vc (patrón inferido, NO verificado)"
+  "email_original": "patricia.pastor@nexttier.vc (patrón inferido, NO verificado)",
+  "textos_v1": {
+    "por_que_es_interesante": "Es probablemente el encaje más literal de toda la lista española. Su portfolio ya contiene exactamente las dos categorías del cliente: BrainGrid (marzo 2026, pre-seed de 1 M$ liderado por Menlo Ventures, 'la capa de planificación estructurada para construir software SaaS AI-native' — es decir, harness de desarrollo) y Optiak ('capa de orquestación empresarial que unifica modelos, agentes y sistemas corporativos fragmentados' — es decir, infraestructura de agentes). Invierte en pre-seed por mandato: el fondo está diseñado para 30-35 operaciones desde fase inicial, no para comprar tracción. Y su discurso público premia justo lo que el cliente tiene y no puede demostrar todavía con usuarios: 'empatía arquitectónica', diseño para escala y coste desde el día uno, y moat que no dependa de una API ajena. Ángulo de contacto: entrar por la puerta de BrainGrid/Optiak ('vuestra tesis de arquitectura defendible aplicada a un stack IA-nativo completo, no solo a la capa de planificación') y en español, desde Valencia.",
+    "tesis_de_inversion": "Invierte exclusivamente en startups B2B early-stage (pre-seed y seed) donde la IA es el motor central del producto, no un añadido. Su formulación es literalmente la del cliente: 'We invest in defensible architectures... where AI isn't just an add-on, but the very DNA of the system'. Rechaza explícitamente lo que considera sobrecapitalizado —copilotos horizontales genéricos y aplicaciones prematuras de AGI— y señala como infravalorada la automatización de operaciones internas en sectores tradicionales. Sobre el equipo dice algo muy relevante para una startup técnica sin tracción: 'What truly sets a pre-seed or seed team apart today is Architectural Empathy... brilliant at designing for scale and cost-control from day one', y añade que 'being a model expert is a great start, but we back leaders who think deeply about infrastructure and operational excellence'. Su principal criterio de riesgo es la ausencia de moat: 'If a company's only advantage is access to a specific model or API, it is very difficult to build a durable business'. Defiende la IA soberana: busca fundadores que ayuden a las empresas a dejar de 'alquilar' su tecnología núcleo y a construirla como activo de propiedad intelectual. Y describe el futuro que quiere financiar como 'un mundo donde la IA no solo asiste a los humanos, sino que orquesta servidores de forma independiente y neutraliza amenazas en tiempo real'.",
+    "etapa_y_ticket": [
+      "Pre-seed y seed como núcleo, con capacidad de seguir hasta Serie A. Fondo de 50 M€ objetivo (30 M€ en la fase de captación inicial) para 30-35 operaciones, lo que implica un ticket medio comprometido por compañía de ~1,4-1,7 M€ incluyendo follow-on; el primer cheque en pre-seed/seed es sensiblemente menor (la ronda de BrainGrid, marzo 2026, fue de 1 M$ total con Next Tier como coinversor, no como lead). El fondo es accesible desde 10.000 € para inversores retail, algo inusual en VC español. Fuente: https://blog.gvcgaesco.es/fondo-startups-inteligencia-artificial/ y https://superscout.co/investor/next-tier-ventures"
+    ]
+  }
 }

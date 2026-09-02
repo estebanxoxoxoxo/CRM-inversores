@@ -1,8 +1,8 @@
 {
   "id": "cristobal-valenzuela",
   "nombre": "Cristóbal Valenzuela",
-  "nivel": "x",
-  "nivel_etiqueta": "4 - Descartado (ver riesgos)",
+  "nivel": 29,
+  "banda": "Descartado",
   "prioridad": "C",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,29 @@
   "ciudad_base": "Nueva York (Brooklyn), EE.UU. — nacido en Chile en 1989",
   "tipo_inversor": "Business angel",
   "tipo_inversor_detalle": "Business angel (muy poco activo; ver riesgos)",
-  "etapa_y_ticket": "Sin datos públicos de etapa ni ticket. Tracxn registra que 'Cristobal Valenzuela has also founded 1 company and is an angel investor in 1 startup', es decir, una sola inversión ángel registrada. No he encontrado ninguna operación suya documentada con importe, ronda ni fecha. Su participación conocida en el ecosistema chileno es como miembro del consejo asesor (advisory board) de diio, junto a su cofundador Alejandro Matamala, sin que las fuentes confirmen que sea inversión económica. CONCLUSIÓN: no es un inversor activo y no debe presupuestarse un cheque suyo.",
+  "etapa_y_ticket": [
+    "Sin etapa ni ticket públicos; una única inversión ángel registrada (Tracxn).",
+    "Consejo asesor de diio (Chile) sin inversión económica confirmada."
+  ],
   "linkedin": "https://www.linkedin.com/in/cvalenzuelab/",
   "linkedin_nota": "",
   "otros_perfiles": "Web personal y ensayos: https://cvalenzuelab.com | X/Twitter: @c_valenzuelab | GitHub: https://github.com/cvalenzuela | Empresa: https://runwayml.com | Perfil de ponente: https://slush.org/program/cristobal | Wikipedia: https://en.wikipedia.org/wiki/Crist%C3%B3bal_Valenzuela",
   "email": "c@runway.com",
   "email_estado": "público verificado",
   "email_fuente": "Publicado por él mismo en la sección de contacto de su web personal https://cvalenzuelab.com, escrito como 'c [at] runway.com' para evitar scraping. Es su dirección corporativa directa.",
-  "tesis_de_inversion": "No tiene tesis de inversión publicada porque no invierte de forma sistemática. Lo que sí tiene, y es muy útil para calibrar el encaje, es un corpus de ensayos propios sobre hacia dónde va el valor en la IA. El más relevante y a la vez más problemático para el cliente es 'Value Accrues to the Extremes' (septiembre de 2025, https://cvalenzuelab.com/extremes): sostiene que en IA el valor económico se concentra en los extremos —fabricantes de chips y laboratorios de modelos— y que 'the middle disappears', porque la economía de las herramientas tiende a cero, a diferencia de internet, que necesitó miles de empresas intermedias. Añade dos ideas de calado: 'Organizational knowledge is the product. The speed of iteration is the moat' y 'When you outsource critical infrastructure, you outsource your ability to understand', ilustradas con la comparación entre SpaceX y Blue Origin. En 'The Age of the Discontents' (febrero de 2026) defiende que la IA solo es herramienta de rebelión si aumenta la varianza en lugar de converger hacia lo promedio: 'The fight is not between artists and machines. It's between rebels and the systems that convert art, media and entertainment into something safe.' Su foco temático es la IA generativa aplicada a medios, vídeo y simulación de mundos ('world models'), no la infraestructura de desarrollo de software.",
+  "por_que_es_interesante": [
+    "Fundador hispanohablante de mayor perfil en IA generativa; construyó Runway desde la investigación sin tracción durante años.",
+    "Su idea 'the speed of iteration is the moat' y 'externalizar infraestructura es externalizar la capacidad de entender' es aprovechable para el discurso del stack propio.",
+    "En contra: una inversión ángel, sin vehículo, y una tesis pública contraria a las herramientas intermedias.",
+    "Ángulo: validación técnica, asesor o intros al ecosistema chileno; no inversión."
+  ],
+  "tesis_de_inversion": [
+    "Sin tesis de inversión; ensayos propios sobre dónde se acumula el valor en IA.",
+    "'Value Accrues to the Extremes' (2025): el valor va a chips y laboratorios; 'the middle disappears', la economía de las herramientas tiende a cero.",
+    "'Organizational knowledge is the product. The speed of iteration is the moat'.",
+    "Foco: IA generativa para medios, vídeo y world models, no infraestructura de desarrollo."
+  ],
   "antecedentes": "Nacido en Chile en 1989. Licenciado en Economía y Administración de Empresas y máster en Diseño (2012) por la Universidad Adolfo Ibáñez, donde fue ayudante de docencia e investigación y luego profesor adjunto en la Escuela de Diseño. En 2018 completó el programa ITP de la Tisch School of the Arts de la Universidad de Nueva York, donde investigó con Daniel Shiffman y contribuyó a ml5.js, la librería de machine learning para creativos. Ese mismo año fundó Runway junto al también chileno Alejandro Matamala y al griego Anastasis Germanidis, a quienes conoció en el ITP. Runway coeditó en agosto de 2022 el modelo Stable Diffusion junto al grupo CompVis de la LMU de Múnich, con apoyo de Stability AI. Rondas: 2 M USD seed (2018), 8,5 M Serie A (diciembre de 2020), 35 M Serie B (diciembre de 2021), 50 M Serie C liderada por Felicis con Amplify, Coatue, Compound y Lux (diciembre de 2022), 141 M de extensión con Google, Nvidia y Salesforce a 1.500 M USD (junio de 2023), 308 M liderada por General Atlantic a más de 3.000 M (abril de 2025) y una Serie E de 315 M en febrero de 2026 que sitúa la valoración en unos 5.300 M USD, con más de 860 M USD levantados en total. Fue incluido en la lista TIME 100 de las personas más influyentes en IA (septiembre de 2023). Su obra artística se ha expuesto en el Museo de Arte Contemporáneo de Santiago, Lollapalooza y Stanford.",
-  "por_que_es_interesante": "Su interés para el cliente es más como interlocutor y puerta al ecosistema chileno que como fuente de capital. Es el fundador hispanohablante de mayor perfil en IA generativa, construyó Runway desde la investigación pura y sin tracción comercial durante años, y escribe con criterio propio sobre por qué las empresas valiosas construyen su propia infraestructura ('the speed of iteration is the moat'). Ese argumento es aprovechable: un stack IA-nativo propio es, en su marco, precisamente lo que impide 'externalizar la capacidad de entender'. Pero hay que ser tajante en la evaluación: solo tiene una inversión ángel registrada, no tiene vehículo, es CEO de una compañía de 5.300 M USD en plena expansión internacional, y su ensayo más citado argumenta que las herramientas intermedias pierden valor en la era de la IA — es decir, su tesis pública juega en contra del producto del cliente. Contactarle tiene sentido para conseguir validación técnica, un asesor o intros, no una inversión.",
   "inversiones_relevantes": [
     "diio (startup chilena de asistente de ventas con IA, Puerto Varas) — figura como miembro del consejo asesor junto a Alejandro Matamala según Startups Latam (20/05/2024), Emol (22/04/2024) y Startups Españolas (14/02/2026). No está confirmado que sea inversión económica",
     "Tracxn registra una única inversión ángel sin nombrar la compañía: 'is an angel investor in 1 startup' (https://tracxn.com/d/companies/runway/)",
@@ -70,17 +83,36 @@
     "https://privatemarketview.com/investors/guillermo-rauch"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 5,
+      "etapa": 3,
+      "decision": 2,
+      "espanol": 15,
+      "acceso": 9,
+      "ajuste": -5,
+      "bruto": 29,
+      "topes": [],
+      "total": 29
+    },
+    "motivo": "Una sola inversión ángel registrada, sin vehículo, CEO de una compañía de 5.300M USD, foco en medios generativos, y su ensayo 'Value Accrues to the Extremes' sostiene que el valor de las herramientas intermedias tiende a cero. No es capital; a lo sumo validación o intros.",
+    "nivel_v1": "x",
     "prioridad_agente": "C",
     "confianza_agente": "alta",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "alta",
-    "nivel_final": "x",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Una sola inversión ángel registrada, sin vehículo, foco en medios generativos y ensayo público que sostiene que el valor de las herramientas intermedias tiende a cero. No es capital."
+    "motivo_v1": "Una sola inversión ángel registrada, sin vehículo, foco en medios generativos y ensayo público que sostiene que el valor de las herramientas intermedias tiende a cero. No es capital."
   },
   "nombre_original": "Cristóbal Valenzuela",
-  "email_original": "c@runway.com"
+  "email_original": "c@runway.com",
+  "textos_v1": {
+    "por_que_es_interesante": "Su interés para el cliente es más como interlocutor y puerta al ecosistema chileno que como fuente de capital. Es el fundador hispanohablante de mayor perfil en IA generativa, construyó Runway desde la investigación pura y sin tracción comercial durante años, y escribe con criterio propio sobre por qué las empresas valiosas construyen su propia infraestructura ('the speed of iteration is the moat'). Ese argumento es aprovechable: un stack IA-nativo propio es, en su marco, precisamente lo que impide 'externalizar la capacidad de entender'. Pero hay que ser tajante en la evaluación: solo tiene una inversión ángel registrada, no tiene vehículo, es CEO de una compañía de 5.300 M USD en plena expansión internacional, y su ensayo más citado argumenta que las herramientas intermedias pierden valor en la era de la IA — es decir, su tesis pública juega en contra del producto del cliente. Contactarle tiene sentido para conseguir validación técnica, un asesor o intros, no una inversión.",
+    "tesis_de_inversion": "No tiene tesis de inversión publicada porque no invierte de forma sistemática. Lo que sí tiene, y es muy útil para calibrar el encaje, es un corpus de ensayos propios sobre hacia dónde va el valor en la IA. El más relevante y a la vez más problemático para el cliente es 'Value Accrues to the Extremes' (septiembre de 2025, https://cvalenzuelab.com/extremes): sostiene que en IA el valor económico se concentra en los extremos —fabricantes de chips y laboratorios de modelos— y que 'the middle disappears', porque la economía de las herramientas tiende a cero, a diferencia de internet, que necesitó miles de empresas intermedias. Añade dos ideas de calado: 'Organizational knowledge is the product. The speed of iteration is the moat' y 'When you outsource critical infrastructure, you outsource your ability to understand', ilustradas con la comparación entre SpaceX y Blue Origin. En 'The Age of the Discontents' (febrero de 2026) defiende que la IA solo es herramienta de rebelión si aumenta la varianza en lugar de converger hacia lo promedio: 'The fight is not between artists and machines. It's between rebels and the systems that convert art, media and entertainment into something safe.' Su foco temático es la IA generativa aplicada a medios, vídeo y simulación de mundos ('world models'), no la infraestructura de desarrollo de software.",
+    "etapa_y_ticket": [
+      "Sin datos públicos de etapa ni ticket. Tracxn registra que 'Cristobal Valenzuela has also founded 1 company and is an angel investor in 1 startup', es decir, una sola inversión ángel registrada. No he encontrado ninguna operación suya documentada con importe, ronda ni fecha. Su participación conocida en el ecosistema chileno es como miembro del consejo asesor (advisory board) de diio, junto a su cofundador Alejandro Matamala, sin que las fuentes confirmen que sea inversión económica. CONCLUSIÓN: no es un inversor activo y no debe presupuestarse un cheque suyo."
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "id": "sebastien-lefebvre",
   "nombre": "Sébastien Lefebvre",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 68,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "media",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "NO CONFIRMADO. Su ficha personal (https://www.elaia.com/sebastien-lefebvre/) no indica oficina propia; solo lista las tres sedes de la firma: Paris, Barcelona y Tel Aviv. Su trayectoria previa es Montreal - Paris - Londres. La adscripcion a la oficina de Barcelona que aparece en fuentes secundarias NO se ha podido verificar en fuentes primarias. Elaia si tiene oficina en Barcelona y actividad real en Cataluna.",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "DTS3 invierte de 1.000.000 a 13.000.000 EUR en startups B2B de pre-seed y seed en toda Europa, 'partnering with founders at the earliest' (comunicado oficial de cierre final, https://www.elaia.com/wp-content/uploads/2026/03/DTS3-Final-Close-ENG.pdf). A nivel de firma, Elaia declara invertir de pre-seed a Serie B en tecnologia B2B (https://www.elaia.com/philosophy/). Fondos vigentes: DTS3 (deep tech seed) cerrado en marzo de 2026 en 134M EUR - el comunicado habla de 135M EUR en el cuerpo y la web titula 134M EUR -, el doble que el fondo deep tech anterior; y DV5 (Digital Venture) con primer cierre de 120M EUR en febrero de 2026.",
+  "etapa_y_ticket": [
+    "DTS3: pre-seed y seed B2B en toda Europa, 1.000.000-13.000.000 €, 'partnering with founders at the earliest'.",
+    "DTS3 cerrado en 134M€ (mar-2026); DV5 con primer cierre de 120M€ (feb-2026).",
+    "A nivel de firma: pre-seed a Serie B."
+  ],
   "linkedin": "https://www.linkedin.com/in/sebastienl/",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha oficial: https://www.elaia.com/sebastien-lefebvre/ | Equipo: https://www.elaia.com/team/ | Blog de la firma en Medium: https://medium.com/elaia | X de la firma: https://twitter.com/Elaia_Partners | LinkedIn de la firma: https://www.linkedin.com/company/elaia-partners/ | YouTube: https://www.youtube.com/channel/UCo7bK60q-Py9uMRUUMmS0Wg . No se ha localizado blog personal, newsletter, GitHub ni cuenta personal de X.",
   "email": "investor@elaia.com",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "La pagina de contacto oficial https://www.elaia.com/contact/ publica tres buzones: investor@elaia.com (consultas de inversion), press@elaia.com (prensa) y job@elaia.com (empleo). No hay emails individuales de socios publicados, por lo que no se puede inferir un patron fiable para el correo personal de Sébastien Lefebvre. La web no describe un proceso formal de envio de pitch; investor@elaia.com es el canal indicado. | buzon de inversiones de la firma, publico). Personal: no encontrado",
-  "tesis_de_inversion": "Su especialidad declarada en Elaia es 'AI, SaaS, Cloud Infrastructure, Social Media' y opera dentro de la division Deep Tech Seed, es decir, el equipo del fondo DTS3. La tesis de DTS3, tal como la formula el comunicado de cierre final de marzo de 2026, es invertir de 1M a 13M EUR en startups B2B en pre-seed y seed en toda Europa, acompanando a los fundadores \"at the earliest\" - lo mas temprano posible -, y hacerlo apoyandose en una red de alianzas con instituciones europeas de investigacion: PSL, INRIA, CNRS, el Barcelona Supercomputing Center y la Max Planck Foundation. Anne-Sophie Carrese, partner del equipo deep tech, resume la logica: esas alianzas \"give us early visibility into breakthrough technologies and exceptional founding teams\", y anade que tras casi dos decadas respaldando fundadores de deep tech estan viendo \"an acceleration of innovation that rivals any ecosystem in the world... European deep tech is reaching escape velocity\". Xavier Lazarus, Managing Partner, insiste en que \"deep tech investing is in Elaia's DNA\" y que su historial en fondos anteriores valida que este es el momento de escalar. La filosofia general de la firma (https://www.elaia.com/philosophy/) habla de apoyarse en \"talent, vision and dedication\" en lugar de metricas establecidas, con un equipo que mezcla cientificos, emprendedores y perfiles de negocio, y una practica de 'partnering early'.",
+  "por_que_es_interesante": [
+    "Cartera de Elaia en la categoría: Tabnine (código con IA), Giskard (validación de modelos), dottxt (generación estructurada), Vertesia (orquestación de LLMs), Traefik, FlexAI, Qbeast y Nuclia (Barcelona).",
+    "DTS3: 134M€ cerrados en marzo de 2026, 1-13M€ en pre-seed y seed, alianzas con BSC, INRIA, CNRS y Max Planck.",
+    "Su especialidad declarada es IA, SaaS e infraestructura cloud dentro del equipo Deep Tech Seed.",
+    "Ángulo: en inglés o francés, comparación explícita con Tabnine y Giskard y eje 'fiabilidad y control del código generado por agentes'."
+  ],
+  "tesis_de_inversion": [
+    "Deep Tech Seed: 1-13M€ en pre-seed y seed apoyándose en instituciones de investigación (PSL, INRIA, CNRS, BSC, Max Planck) para 'early visibility into breakthrough technologies'.",
+    "'European deep tech is reaching escape velocity'; 'deep tech investing is in Elaia's DNA'.",
+    "Filosofía: 'talent, vision and dedication' en lugar de métricas establecidas; 'partnering early'.",
+    "Su especialidad: AI, SaaS, Cloud Infrastructure."
+  ],
   "antecedentes": "Es ingeniero por la Ecole Superieure des Sciences et Techniques de l'Ingenieur de Nancy (ESSTIN, Francia). Empezo su carrera en Videotron, en Montreal, como arquitecto de planificacion estrategica. Despues fue emprendedor en serie: fundo dos companias y ambas tuvieron salida exitosa. La mas conocida es Mesagraph, plataforma de analisis semantico de conversaciones en redes sociales y television social, adquirida por Twitter en 2014. Tras la venta se traslado a Londres y fue Director of Growth para EMEA en Twitter durante tres anos. Su ficha oficial subraya que \"Sebastien is very active in the startup ecosystem, both as a mentor and business angel\", aunque Elaia no publica el detalle de sus inversiones angel (no confirmado). Actualmente es Partner en Elaia, dentro de la division Deep Tech Seed, con foco en IA, SaaS e infraestructura cloud. Elaia es una gestora fundada en Paris con casi dos decadas de historia, oficinas en Paris, Barcelona y Tel Aviv, mas de 129 companias en cartera e inversiones en Belgica, Canada, Alemania, Israel, Espana, Reino Unido y Estados Unidos.",
-  "por_que_es_interesante": "La cartera de Elaia es probablemente la mas parecida de Europa a lo que construye el cliente: Tabnine (asistente de codigo con IA para empresas), Giskard (plataforma open source de calidad y validacion de modelos de IA), dottxt (hacer que los LLMs sean compatibles con aplicaciones, generacion estructurada), Vertesia (orquestacion de LLMs para empresa), Traefik Labs (stack de red cloud-native, open source), CodeNotary (integridad y confianza en DevOps), FlexAI (plataforma universal de computo para IA), Qbeast (formato open source para data lakes, Barcelona), Nuclia (busqueda con IA sobre datos no estructurados, Barcelona) y Streambased (infraestructura de datos en tiempo real). Sébastien Lefebvre cubre exactamente ese perimetro: IA, SaaS e infraestructura cloud, dentro del fondo DTS3, que invierte de 1M a 13M EUR en pre-seed y seed acompanando \"at the earliest\". Ademas es fundador dos veces con exit, lo que suele traducirse en tolerancia al riesgo tecnico. Angulo de contacto: en ingles o frances, entrando por la comparacion explicita con Tabnine y Giskard, y por el eje 'fiabilidad y control del codigo generado por agentes', que es donde Elaia ya ha desplegado tesis.",
   "inversiones_relevantes": [
     "Tabnine (25M USD en noviembre de 2023 con Atlassian Ventures; asistente de codigo con IA de nivel empresarial) — precedente directo de inversion en herramientas de IA para desarrolladores",
     "Giskard (primera ronda en diciembre de 2022; plataforma open source de calidad y validacion de modelos de IA) — open source + fiabilidad de IA, exactamente el eje del cliente",
@@ -87,17 +101,36 @@
     "https://www.elaia.com/wp-sitemap-posts-page-1.xml"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 22,
+      "etapa": 18,
+      "decision": 18,
+      "espanol": 2,
+      "acceso": 8,
+      "ajuste": 0,
+      "bruto": 68,
+      "topes": [],
+      "total": 68
+    },
+    "motivo": "La cartera de Elaia es probablemente la más parecida de Europa al producto del cliente (Tabnine, Giskard, dottxt, Vertesia, Traefik, FlexAI, Qbeast, Nuclia) y DTS3 (134M€, mar-2026) invierte 1-13M€ en pre-seed y seed 'at the earliest'; fundador dos veces con exit. Pero es francés sin español documentado, base en Barcelona no confirmada, huella pública nula y sólo buzón de inversiones.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "media",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "media",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "DTS3 (134M€, mar-2026) invierte pre-seed/seed 1-13M€ con Tabnine, Giskard y dottxt en cartera, el mejor precedente de dev tools de IA en Europa; pero es francés sin español confirmado, base en Barcelona no confirmada y huella pública nula."
+    "motivo_v1": "DTS3 (134M€, mar-2026) invierte pre-seed/seed 1-13M€ con Tabnine, Giskard y dottxt en cartera, el mejor precedente de dev tools de IA en Europa; pero es francés sin español confirmado, base en Barcelona no confirmada y huella pública nula."
   },
   "nombre_original": "Sébastien Lefebvre",
-  "email_original": "investor@elaia.com (buzon de inversiones de la firma, publico). Personal: no encontrado."
+  "email_original": "investor@elaia.com (buzon de inversiones de la firma, publico). Personal: no encontrado.",
+  "textos_v1": {
+    "por_que_es_interesante": "La cartera de Elaia es probablemente la mas parecida de Europa a lo que construye el cliente: Tabnine (asistente de codigo con IA para empresas), Giskard (plataforma open source de calidad y validacion de modelos de IA), dottxt (hacer que los LLMs sean compatibles con aplicaciones, generacion estructurada), Vertesia (orquestacion de LLMs para empresa), Traefik Labs (stack de red cloud-native, open source), CodeNotary (integridad y confianza en DevOps), FlexAI (plataforma universal de computo para IA), Qbeast (formato open source para data lakes, Barcelona), Nuclia (busqueda con IA sobre datos no estructurados, Barcelona) y Streambased (infraestructura de datos en tiempo real). Sébastien Lefebvre cubre exactamente ese perimetro: IA, SaaS e infraestructura cloud, dentro del fondo DTS3, que invierte de 1M a 13M EUR en pre-seed y seed acompanando \"at the earliest\". Ademas es fundador dos veces con exit, lo que suele traducirse en tolerancia al riesgo tecnico. Angulo de contacto: en ingles o frances, entrando por la comparacion explicita con Tabnine y Giskard, y por el eje 'fiabilidad y control del codigo generado por agentes', que es donde Elaia ya ha desplegado tesis.",
+    "tesis_de_inversion": "Su especialidad declarada en Elaia es 'AI, SaaS, Cloud Infrastructure, Social Media' y opera dentro de la division Deep Tech Seed, es decir, el equipo del fondo DTS3. La tesis de DTS3, tal como la formula el comunicado de cierre final de marzo de 2026, es invertir de 1M a 13M EUR en startups B2B en pre-seed y seed en toda Europa, acompanando a los fundadores \"at the earliest\" - lo mas temprano posible -, y hacerlo apoyandose en una red de alianzas con instituciones europeas de investigacion: PSL, INRIA, CNRS, el Barcelona Supercomputing Center y la Max Planck Foundation. Anne-Sophie Carrese, partner del equipo deep tech, resume la logica: esas alianzas \"give us early visibility into breakthrough technologies and exceptional founding teams\", y anade que tras casi dos decadas respaldando fundadores de deep tech estan viendo \"an acceleration of innovation that rivals any ecosystem in the world... European deep tech is reaching escape velocity\". Xavier Lazarus, Managing Partner, insiste en que \"deep tech investing is in Elaia's DNA\" y que su historial en fondos anteriores valida que este es el momento de escalar. La filosofia general de la firma (https://www.elaia.com/philosophy/) habla de apoyarse en \"talent, vision and dedication\" en lugar de metricas establecidas, con un equipo que mezcla cientificos, emprendedores y perfiles de negocio, y una practica de 'partnering early'.",
+    "etapa_y_ticket": [
+      "DTS3 invierte de 1.000.000 a 13.000.000 EUR en startups B2B de pre-seed y seed en toda Europa, 'partnering with founders at the earliest' (comunicado oficial de cierre final, https://www.elaia.com/wp-content/uploads/2026/03/DTS3-Final-Close-ENG.pdf). A nivel de firma, Elaia declara invertir de pre-seed a Serie B en tecnologia B2B (https://www.elaia.com/philosophy/). Fondos vigentes: DTS3 (deep tech seed) cerrado en marzo de 2026 en 134M EUR - el comunicado habla de 135M EUR en el cuerpo y la web titula 134M EUR -, el doble que el fondo deep tech anterior; y DV5 (Digital Venture) con primer cierre de 120M EUR en febrero de 2026."
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "id": "carlos-gonzalez-cadenas",
   "nombre": "Carlos Gonzalez-Cadenas",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 75,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "media",
   "region": "Fuera de región (excepcional)",
@@ -11,16 +11,30 @@
   "ciudad_base": "Londres, Reino Unido (español de origen; Index tiene oficinas en Londres, San Francisco y Nueva York)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Index invierte de semilla a growth y Carlos entró como socio generalista sin especialización de etapa; en su entrevista con TechCrunch (20-nov-2020) dijo que invierte a lo largo de venture y growth aunque 'todo el mundo en la industria' se está moviendo hacia etapas más tempranas. Su historial personal es marcadamente temprano: su socio Jan Hammer dijo de él que 'the reason you see him in almost all notable pre-seed European rounds of the last two years, is because every founder wants to have him close'. No se ha encontrado un rango de cheque publicado a su nombre. Como referencia de lo que lidera hoy: Index lideró la Series A de 100M USD de Tessl (noviembre de 2024), sobre una semilla previa de 25M USD de boldstart y GV. Como business angel previo hizo más de 50-60 inversiones de cheque pequeño en Europa.",
+  "etapa_y_ticket": [
+    "Index: de semilla a growth; él entró como socio generalista sin etapa fija.",
+    "Referencia de lo que lidera: Serie A de 100M USD de Tessl (nov-2024) sobre semilla previa de 25M.",
+    "Sin rango de cheque publicado a su nombre; como ángel hizo 50-60 cheques pequeños."
+  ],
   "linkedin": "https://www.linkedin.com/in/carlosgonzalezcadenas",
   "linkedin_nota": "",
   "otros_perfiles": "Perfil en el fondo: https://www.indexventures.com/team/carlos-gonzalez-cadenas/ | Sus artículos en Index: https://www.indexventures.com/perspectives/team-member/carlos-gonzalez-cadenas/ | Anuncio de su incorporación: https://www.indexventures.com/perspectives/welcoming-carlos-gonzalez-cadenas-our-newest-partner/ | Entrevista TechCrunch: https://techcrunch.com/2020/11/20/carlos-gonzalez-cadenas-interview/ | Charla sobre gestión de producto en Seedcamp: https://seedcamp.com/views/mastering-the-art-of-product-management-with-carlos-gonzalez-cadenas/ | Perfil como business angel en España: https://startupxplore.com/en/investors/carlos-gonzalez-cadenas | Dealroom: https://app.dealroom.co/investors/carlos_gonzalez_cadenas | Crunchbase: https://www.crunchbase.com/person/carlos-gonzalez-cadenas",
   "email": "c.gonzalez-cadenas@indexventures.com",
   "email_estado": "público verificado",
   "email_fuente": "Publicado en su propia ficha de la web del fondo: https://www.indexventures.com/team/carlos-gonzalez-cadenas/ . Index Ventures publica el email de contacto de sus socios en las fichas individuales de equipo, así que no es un patrón deducido sino una dirección publicada por la firma.",
-  "tesis_de_inversion": "Sus focos declarados en Index desde que entró en enero de 2021 son 'SaaS, Open Source, Security, Financial Services, AI and Infrastructure/DevOps' — es decir, exactamente el perímetro del cliente. Su operación emblemática, y el mejor argumento para contactarle, es Tessl: en el ensayo que coescribió para Index, 'When everyone speaks software: Tessl's vision for AI native development' (14 de noviembre de 2024), defiende que el paso de un desarrollo 'code-centric' a uno 'spec-centric' es el cambio más grande de la historia de la creación de software, y que los desarrolladores se bifurcarán en dos caminos —producto y arquitectura— con 'more creative satisfaction and less tedium'. Su frase más citable de esa pieza: 'Software creation becomes a new form of literacy - as fundamental to expressing ideas and solving problems as writing is today'. Sobre por qué invierte, dijo de Guy Podjarny que es 'one of those rare people who can sweat the details but also sees the big picture', con 'a great track record of catalyzing cultural change in how developers work', y describió Tessl como 'a movement to change how software gets made'. Sobre su forma de acompañar habla de 'moments of truth': coyunturas críticas en las que la experiencia cambia la trayectoria de un negocio, más que involucración operativa diaria. Y sobre sí mismo: 'Having an engineering background and knowing what it takes to build products from scratch and get them to market has made me a better executive, and will hopefully also make me a better investor'.",
+  "por_que_es_interesante": [
+    "Escribió la tesis del cliente: ensayo de Tessl sobre el paso de desarrollo 'code-centric' a 'spec-centric'; lideró su Serie A de 100M USD.",
+    "Focos declarados: 'SaaS, Open Source, Security, Financial Services, AI and Infrastructure/DevOps'.",
+    "Español nativo, email publicado en la web de Index; historial de 50-60 inversiones ángel tempranas en Europa.",
+    "Ángulo: en español, citar el ensayo de Tessl y plantear cómo el harness es la pieza de ejecución de agentes que a la visión spec-centric le falta."
+  ],
+  "tesis_de_inversion": [
+    "'SaaS, Open Source, Security, Financial Services, AI and Infrastructure/DevOps'.",
+    "Tessl: del desarrollo 'code-centric' al 'spec-centric', el mayor cambio en la historia de la creación de software; 'software creation becomes a new form of literacy'.",
+    "Invierte en fundadores que 'sweat the details but also see the big picture' y catalizan cambios culturales en cómo trabajan los desarrolladores.",
+    "Acompaña en 'moments of truth', no con involucración operativa diaria."
+  ],
   "antecedentes": "Español, residente en Londres. Máster en Ingeniería Informática por la Universidad de León (1997-2001) y formación complementaria en la Universitat Pompeu Fabra (Máster en International e-Business y Grado en Comercio Internacional). Fue deputy CEO de Netfocus, una consultora de servicios de TI donde dirigió el área de seguridad digital, adquirida por Hewlett-Packard. En 2008 fundó y dirigió Fogg, un metabuscador de hoteles, que vendió a Skyscanner cinco años después; en Skyscanner fue Chief Product Officer y contribuyó a un crecimiento de cinco veces y a su expansión internacional. Después fue CTO, luego CPO y finalmente COO de GoCardless, la fintech británica de domiciliaciones bancarias, escalándola por encima de 400 empleados; sigue siendo consejero de GoCardless. En paralelo se convirtió en uno de los business angels más prolíficos de Europa, con más de 50-60 inversiones (Codat, cargo.one, Hopin, Shapr3D, Billin en España) hechas de noche y en fines de semana mientras era COO a tiempo completo, e invirtiendo a través de sindicatos españoles como Kibo Ventures y K Fund. Index anunció su fichaje el 11 de noviembre de 2020 y se incorporó como socio en enero de 2021. Consejero de Cradle Bio, Causaly, incident.io, Cutover y GoCardless.",
-  "por_que_es_interesante": "De los seis, es quien más literalmente ha escrito la tesis del cliente. Lideró por Index la Series A de 100M USD de Tessl (noviembre de 2024), la compañía de Guy Podjarny (fundador de Snyk) dedicada al 'AI native software development', y firmó el ensayo que explica por qué el desarrollo pasará de estar centrado en el código a estarlo en la especificación. Un stack IA-nativo con harness de agentes es, en su marco, la infraestructura de ese mundo. Además es español nativo, así que la conversación puede ser en español desde el primer minuto, y publica su email en la web del fondo, lo que elimina la fricción de la intro. Su historial pre-tracción es excepcional: su propio socio en Index dijo que se le veía 'en casi todas las rondas pre-seed notables de Europa' de los dos años previos a su fichaje. Ángulo de contacto: escribirle en español, citar el ensayo de Tessl y plantear explícitamente cómo el producto del cliente encaja o compite con la visión spec-centric, con la parte de agentes como la pieza de ejecución que a Tessl le falta. Reserva: está fuera de la región objetivo (Londres) y hay ambigüedad sobre si su cargo actual es Partner o Venture Partner.",
   "inversiones_relevantes": [
     "Tessl (noviembre 2024, Series A de 100M USD liderada por Index sobre una semilla previa de 25M USD; 'AI native software development' spec-centric, fundada por Guy Podjarny de Snyk) — es la inversión más directamente comparable a lo que construye el cliente; Carlos firmó el ensayo de tesis",
     "incident.io (consejero; gestión de incidentes para equipos de ingeniería) — herramienta de desarrollo pura, vendida a ingenieros",
@@ -80,17 +94,36 @@
     "https://pitchbook.com/newsletter/index-ventures-hires-new-partner"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 24,
+      "etapa": 12,
+      "decision": 15,
+      "espanol": 15,
+      "acceso": 13,
+      "ajuste": -4,
+      "bruto": 75,
+      "topes": [],
+      "total": 75
+    },
+    "motivo": "Foco literal 'AI and Infrastructure/DevOps', lideró la Serie A de 100M USD de Tessl (desarrollo de software IA-nativo) y firmó su ensayo; español nativo con email público. Reservas: Index entra de seed a growth (su deal fue Serie A), ambigüedad Partner vs Venture Partner y base en Londres.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "media",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "media",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Foco literal 'AI and Infrastructure/DevOps', lideró la Serie A de Tessl (desarrollo de software IA-nativo), email público; ambigüedad Partner vs Venture Partner, base Londres, sin mandato España."
+    "motivo_v1": "Foco literal 'AI and Infrastructure/DevOps', lideró la Serie A de Tessl (desarrollo de software IA-nativo), email público; ambigüedad Partner vs Venture Partner, base Londres, sin mandato España."
   },
   "nombre_original": "Carlos Gonzalez-Cadenas",
-  "email_original": "c.gonzalez-cadenas@indexventures.com"
+  "email_original": "c.gonzalez-cadenas@indexventures.com",
+  "textos_v1": {
+    "por_que_es_interesante": "De los seis, es quien más literalmente ha escrito la tesis del cliente. Lideró por Index la Series A de 100M USD de Tessl (noviembre de 2024), la compañía de Guy Podjarny (fundador de Snyk) dedicada al 'AI native software development', y firmó el ensayo que explica por qué el desarrollo pasará de estar centrado en el código a estarlo en la especificación. Un stack IA-nativo con harness de agentes es, en su marco, la infraestructura de ese mundo. Además es español nativo, así que la conversación puede ser en español desde el primer minuto, y publica su email en la web del fondo, lo que elimina la fricción de la intro. Su historial pre-tracción es excepcional: su propio socio en Index dijo que se le veía 'en casi todas las rondas pre-seed notables de Europa' de los dos años previos a su fichaje. Ángulo de contacto: escribirle en español, citar el ensayo de Tessl y plantear explícitamente cómo el producto del cliente encaja o compite con la visión spec-centric, con la parte de agentes como la pieza de ejecución que a Tessl le falta. Reserva: está fuera de la región objetivo (Londres) y hay ambigüedad sobre si su cargo actual es Partner o Venture Partner.",
+    "tesis_de_inversion": "Sus focos declarados en Index desde que entró en enero de 2021 son 'SaaS, Open Source, Security, Financial Services, AI and Infrastructure/DevOps' — es decir, exactamente el perímetro del cliente. Su operación emblemática, y el mejor argumento para contactarle, es Tessl: en el ensayo que coescribió para Index, 'When everyone speaks software: Tessl's vision for AI native development' (14 de noviembre de 2024), defiende que el paso de un desarrollo 'code-centric' a uno 'spec-centric' es el cambio más grande de la historia de la creación de software, y que los desarrolladores se bifurcarán en dos caminos —producto y arquitectura— con 'more creative satisfaction and less tedium'. Su frase más citable de esa pieza: 'Software creation becomes a new form of literacy - as fundamental to expressing ideas and solving problems as writing is today'. Sobre por qué invierte, dijo de Guy Podjarny que es 'one of those rare people who can sweat the details but also sees the big picture', con 'a great track record of catalyzing cultural change in how developers work', y describió Tessl como 'a movement to change how software gets made'. Sobre su forma de acompañar habla de 'moments of truth': coyunturas críticas en las que la experiencia cambia la trayectoria de un negocio, más que involucración operativa diaria. Y sobre sí mismo: 'Having an engineering background and knowing what it takes to build products from scratch and get them to market has made me a better executive, and will hopefully also make me a better investor'.",
+    "etapa_y_ticket": [
+      "Index invierte de semilla a growth y Carlos entró como socio generalista sin especialización de etapa; en su entrevista con TechCrunch (20-nov-2020) dijo que invierte a lo largo de venture y growth aunque 'todo el mundo en la industria' se está moviendo hacia etapas más tempranas. Su historial personal es marcadamente temprano: su socio Jan Hammer dijo de él que 'the reason you see him in almost all notable pre-seed European rounds of the last two years, is because every founder wants to have him close'. No se ha encontrado un rango de cheque publicado a su nombre. Como referencia de lo que lidera hoy: Index lideró la Series A de 100M USD de Tessl (noviembre de 2024), sobre una semilla previa de 25M USD de boldstart y GV. Como business angel previo hizo más de 50-60 inversiones de cheque pequeño en Europa."
+    ]
+  }
 }

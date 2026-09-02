@@ -380,3 +380,79 @@ h2 {
     display: none;
   }
 }
+
+/* Nivel 0-100 y bandas */
+.nivel {
+  display: inline-grid;
+  place-items: center;
+  min-width: 34px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+.nivel-grande {
+  min-width: 56px;
+  height: 56px;
+  font-size: 24px;
+  border-radius: 12px;
+}
+.banda-1 {
+  background: var(--nivel1-fondo);
+  color: var(--nivel1);
+}
+.banda-2 {
+  background: var(--nivel2-fondo);
+  color: var(--nivel2);
+}
+.banda-3 {
+  background: var(--nivelr-fondo);
+  color: var(--nivelr);
+}
+.banda-4 {
+  background: var(--nivelx-fondo);
+  color: var(--nivelx);
+}
+.rango {
+  width: 100%;
+}
+.detalle-cabecera {
+  align-items: center;
+}
+.detalle-titulo {
+  flex: 1;
+}
+.desglose {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.dim {
+  display: grid;
+  grid-template-columns: 150px 1fr 52px;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+}
+.dim-etiqueta {
+  color: var(--tenue);
+}
+.dim-barra {
+  height: 8px;
+  background: #eef0f3;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.dim-relleno {
+  display: block;
+  height: 100%;
+  background: var(--acento);
+  border-radius: 999px;
+}
+.dim-valor {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}

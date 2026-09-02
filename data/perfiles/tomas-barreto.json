@@ -1,8 +1,8 @@
 {
   "id": "tomas-barreto",
   "nombre": "Tomas Barreto",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 51,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,29 @@
   "ciudad_base": "San Francisco, California, EE.UU. Ha vivido en Boston, Raleigh, Caracas y la Bay Area",
   "tipo_inversor": "Fondo operador / solo GP",
   "tipo_inversor_detalle": "Fondo operador / solo GP — en la práctica: Business angel de cheque pequeño + operating partner en un VC institucional (sin autoridad para firmar cheques del fondo)",
-  "etapa_y_ticket": "Como ángel/scout: seed, Series A y Series B, con cheques de 10 K a 50 K USD y un punto dulce de ~25 K USD, según su perfil en Signal NFX (https://signal.nfx.com/investors/tomas-barreto). Como Operating Partner de Kleiner Perkins NO decide inversiones ni tiene ticket propio; el capital del fondo lo despliegan los socios inversores (Mamoon Hamid, Ilya Fushman, Leigh Marie Braswell, Josh Coyne, Aditya Naganath, Aatish Nayak, Ted Schlein). Su papel de Scout en Sequoia terminó en enero de 2023; no está confirmado que siga invirtiendo activamente como ángel en 2026.",
+  "etapa_y_ticket": [
+    "Como ángel/scout: seed a Serie B, 10.000-50.000 USD (punto dulce 25k); scout de Sequoia hasta enero de 2023.",
+    "Como Operating Partner de KP no decide ni tiene ticket propio.",
+    "Actividad inversora actual no confirmada."
+  ],
   "linkedin": "https://www.linkedin.com/in/tomasrb",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha oficial en KP: https://www.kleinerperkins.com/people/tomas-barreto/ (y https://www.kleinerperkins.com/people/specialists/tomas-barreto/) | X/Twitter: https://x.com/tomasrb | Signal NFX: https://signal.nfx.com/investors/tomas-barreto | The Org: https://theorg.com/org/kleiner-perkins/org-chart/tomas-barreto | Ponente en Engineering Leadership Community (ELC/SF ELC): https://sfelc.com/speaker/tomas-barreto | First Round Review: https://review.firstround.com/articles/tomas-barreto/ | Podcast Software Engineering Daily: https://softwareengineeringdaily.com/2021/02/22/okay-engineering-with-tomas-barreto/ | Okay en Y Combinator: https://www.ycombinator.com/companies/okay",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "Kleiner Perkins no publica direcciones de correo individuales en su web (https://www.kleinerperkins.com/people/); la ficha de Tomas solo enlaza X y LinkedIn. No he encontrado ningún email suyo en fuentes primarias (web del fondo, web personal, papers, GitHub, bios de ponente). Los agregadores de contactos comerciales (ContactOut, RocketReach) muestran direcciones ocultas, no verificables, y no se usan como fuente. Canales reales: X (@tomasrb, ha sido históricamente muy accesible por DM) y LinkedIn.",
-  "tesis_de_inversion": "No tiene tesis de inversión publicada, porque no es inversor profesional: es un operador de ingeniería. Su perfil de Signal NFX sitúa su actividad como ángel en seed, Series A y Series B con cheques de 10-50 K USD (punto dulce 25 K USD), y clasifica sus sectores por orden con Developer Tools en cabeza, seguido de Analytics, SaaS, FinTech, Payments, HRTech, salud de consumo y software para pymes. Su tesis implícita, la que ha ejecutado con su propia empresa, es la efectividad de ingeniería medida con datos: Okay descomponía el tiempo de los equipos en Maker Time, Meeting Load y Friction Time y unía datos cuantitativos y cualitativos en un único panel para que los líderes tomasen decisiones basadas en evidencia. Su argumento público de fondo, en Software Engineering Daily (22/02/2021), es que «people in maker professions such as developers and writers are most productive when they can carve out dedicated time for focused work, without the frequent context-switching». En Kleiner Perkins su función declarada es asesorar a las compañías de la cartera sobre contratación de talento técnico, escalado de equipos, velocidad de entrega y mentoría de CTOs. Es, en resumen, un comprador y evaluador natural de un harness de desarrollo, no un firmante de cheques.",
+  "por_que_es_interesante": [
+    "Sabe qué métricas de productividad de ingeniería son reales (Okay: Maker Time, Meeting Load, Friction Time).",
+    "Como Operating Partner asesora a decenas de equipos de ingeniería de la cartera de KP: potencial cliente o design partner.",
+    "Puede llevar la operación a Leigh Marie Braswell o Ilya Fushman, que sí firman; habla español (vivió en Caracas).",
+    "Ángulo: pedirle una sesión técnica y su opinión sobre las métricas, no un cheque."
+  ],
+  "tesis_de_inversion": [
+    "Sin tesis de inversión; operador de ingeniería. Signal lo clasifica con Developer Tools como primer sector.",
+    "Tesis implícita: efectividad de ingeniería medida con datos; 'maker professions are most productive with dedicated focused time'.",
+    "En KP: contratación técnica, escalado de equipos, velocidad de entrega y mentoría de CTOs."
+  ],
   "antecedentes": "Licenciado en Ciencias de la Computación y Economía por Duke University. Vivió en Boston, Raleigh, Caracas y la Bay Area, y la ficha oficial de Kleiner Perkins declara explícitamente que habla inglés y español. Su primer trabajo fue una beca de ingeniería de software en una ONG de educación de matemáticas y ciencias. Fue el quinto ingeniero y decimocuarto empleado de Box, donde pasó más de nueve años: escaló el equipo de ingeniería hasta la salida a bolsa y hasta más de 500 M USD de ingresos, llegando a VP of Engineering con equipos de más de 150 personas y construyendo los cimientos técnicos de la compañía. En 2017 se incorporó a Checkr como su primer VP of Engineering (después VP of Product & Engineering), donde llevó el equipo de ingeniería, producto y diseño de 25 a más de 100 personas. En enero de 2019 cofundó Okay junto a Antoine Boulanger (CEO), a quien conoció en Box: una startup de efectividad de ingeniería usada por Brex, Plaid e Intercom, pasada por Y Combinator, que Stripe adquirió en mayo de 2023. Fue Scout de Sequoia Capital entre 2018 y 2023, advisor de YC Continuity, miembro del CIO Advisory Council de Splunk y advisor e inversor en más de 20 startups, entre ellas Loom, Oura y Modern Treasury. Desde octubre de 2024 es Operating Partner, Engineering en Kleiner Perkins. Fuera del trabajo se interesa por la salud y la longevidad; su artículo más conocido en First Round Review es «Box's VP Engineering on Biohacks For A Better Career».",
-  "por_que_es_interesante": "Es el mejor evaluador posible del producto del cliente y el peor candidato a financiarlo, y conviene tratarlo exactamente así. Cofundó y vendió a Stripe una empresa cuyo objeto era medir y mejorar la efectividad de la ingeniería: es literalmente el problema que ataca un harness de desarrollo con nube de agentes, y sabe qué métricas son reales y cuáles son humo. Hoy, como Operating Partner de Kleiner Perkins, su trabajo consiste en aconsejar a las compañías de la cartera sobre velocidad de entrega y organización de ingeniería, lo que lo convierte en (a) un potencial cliente/design partner con acceso a decenas de equipos de ingeniería de startups de KP y (b) un posible campeón técnico interno que puede llevar la operación a Leigh Marie Braswell o Ilya Fushman, que son quienes sí firman. Habla español según la propia ficha de KP y vivió en Caracas, así que la conversación puede ser en español. El ángulo correcto: pedirle una sesión técnica y su opinión sobre las métricas, no un cheque.",
   "inversiones_relevantes": [
     "Okay (cofundador y CTO, 2019-2023; plataforma de efectividad de ingeniería con clientes como Brex, Plaid e Intercom; adquirida por Stripe en mayo de 2023) — no es una inversión sino su propia empresa, y es el antecedente más relevante: construyó y vendió el producto que mide exactamente lo que el harness del cliente promete mejorar",
     "Loom (advisor e inversor; vídeo asíncrono para equipos, adquirida por Atlassian) — herramienta para equipos técnicos, dentro de su primer sector declarado",
@@ -79,17 +92,36 @@
     "https://people.equilar.com/bio/person/tomas-barreto-kleiner-perkins/20871160"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 18,
+      "etapa": 8,
+      "decision": 3,
+      "espanol": 15,
+      "acceso": 7,
+      "ajuste": 0,
+      "bruto": 51,
+      "topes": [],
+      "total": 51
+    },
+    "motivo": "Cofundó y vendió a Stripe Okay, una empresa de efectividad de ingeniería (el problema exacto del harness), y KP confirma que habla español; pero es Operating Partner sin capacidad de invertir, su actividad ángel (10-50k) no consta desde 2023 y no tiene email. Evaluador y campeón interno en Kleiner Perkins, no capital.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "alta",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "alta",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Construyó y vendió Okay (efectividad de ingeniería, a Stripe) y KP confirma que habla español, pero es Operating Partner sin capacidad de invertir y su actividad ángel (10-50k) no consta desde 2023. Campeón técnico interno en KP."
+    "motivo_v1": "Construyó y vendió Okay (efectividad de ingeniería, a Stripe) y KP confirma que habla español, pero es Operating Partner sin capacidad de invertir y su actividad ángel (10-50k) no consta desde 2023. Campeón técnico interno en KP."
   },
   "nombre_original": "Tomas Barreto",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el mejor evaluador posible del producto del cliente y el peor candidato a financiarlo, y conviene tratarlo exactamente así. Cofundó y vendió a Stripe una empresa cuyo objeto era medir y mejorar la efectividad de la ingeniería: es literalmente el problema que ataca un harness de desarrollo con nube de agentes, y sabe qué métricas son reales y cuáles son humo. Hoy, como Operating Partner de Kleiner Perkins, su trabajo consiste en aconsejar a las compañías de la cartera sobre velocidad de entrega y organización de ingeniería, lo que lo convierte en (a) un potencial cliente/design partner con acceso a decenas de equipos de ingeniería de startups de KP y (b) un posible campeón técnico interno que puede llevar la operación a Leigh Marie Braswell o Ilya Fushman, que son quienes sí firman. Habla español según la propia ficha de KP y vivió en Caracas, así que la conversación puede ser en español. El ángulo correcto: pedirle una sesión técnica y su opinión sobre las métricas, no un cheque.",
+    "tesis_de_inversion": "No tiene tesis de inversión publicada, porque no es inversor profesional: es un operador de ingeniería. Su perfil de Signal NFX sitúa su actividad como ángel en seed, Series A y Series B con cheques de 10-50 K USD (punto dulce 25 K USD), y clasifica sus sectores por orden con Developer Tools en cabeza, seguido de Analytics, SaaS, FinTech, Payments, HRTech, salud de consumo y software para pymes. Su tesis implícita, la que ha ejecutado con su propia empresa, es la efectividad de ingeniería medida con datos: Okay descomponía el tiempo de los equipos en Maker Time, Meeting Load y Friction Time y unía datos cuantitativos y cualitativos en un único panel para que los líderes tomasen decisiones basadas en evidencia. Su argumento público de fondo, en Software Engineering Daily (22/02/2021), es que «people in maker professions such as developers and writers are most productive when they can carve out dedicated time for focused work, without the frequent context-switching». En Kleiner Perkins su función declarada es asesorar a las compañías de la cartera sobre contratación de talento técnico, escalado de equipos, velocidad de entrega y mentoría de CTOs. Es, en resumen, un comprador y evaluador natural de un harness de desarrollo, no un firmante de cheques.",
+    "etapa_y_ticket": [
+      "Como ángel/scout: seed, Series A y Series B, con cheques de 10 K a 50 K USD y un punto dulce de ~25 K USD, según su perfil en Signal NFX (https://signal.nfx.com/investors/tomas-barreto). Como Operating Partner de Kleiner Perkins NO decide inversiones ni tiene ticket propio; el capital del fondo lo despliegan los socios inversores (Mamoon Hamid, Ilya Fushman, Leigh Marie Braswell, Josh Coyne, Aditya Naganath, Aatish Nayak, Ted Schlein). Su papel de Scout en Sequoia terminó en enero de 2023; no está confirmado que siga invirtiendo activamente como ángel en 2026."
+    ]
+  }
 }

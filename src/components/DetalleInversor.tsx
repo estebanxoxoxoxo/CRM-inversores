@@ -1,7 +1,7 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { cargarPerfil } from "../lib/datos";
-import type { Inversor } from "../types/inversor";
-import { Etiqueta } from "./ListaInversores";
+import type { Inversor, Puntuacion } from "../types/inversor";
+import { Etiqueta, Nivel, claseBanda } from "./ListaInversores";
 
 interface Props {
   id: string | null;
@@ -10,7 +10,6 @@ interface Props {
 
 const URL_RE = /(https?:\/\/[^\s)\]]+)/g;
 
-/** Convierte las URLs de un texto en enlaces. */
 function ConEnlaces({ texto }: { texto: string }) {
   const partes = texto.split(URL_RE);
   return (
@@ -65,6 +64,38 @@ function Parrafos({ texto }: { texto: string }) {
   );
 }
 
+const DIMENSIONES: { clave: keyof Puntuacion; etiqueta: string; max: number }[] = [
+  { clave: "tesis", etiqueta: "Tesis y encaje", max: 25 },
+  { clave: "etapa", etiqueta: "Etapa y pre-tracción", max: 20 },
+  { clave: "decision", etiqueta: "Decisión y capital", max: 20 },
+  { clave: "espanol", etiqueta: "Español y cercanía", max: 15 },
+  { clave: "acceso", etiqueta: "Acceso y actividad", max: 15 },
+];
+
+function Desglose({ p }: { p: Puntuacion }) {
+  return (
+    <div className="desglose">
+      {DIMENSIONES.map((d) => (
+        <div key={d.clave} className="dim">
+          <span className="dim-etiqueta">{d.etiqueta}</span>
+          <span className="dim-barra">
+            <span className="dim-relleno" style={{ width: `${(100 * Number(p[d.clave])) / d.max}%` }} />
+          </span>
+          <span className="dim-valor">
+            {String(p[d.clave])}/{d.max}
+          </span>
+        </div>
+      ))}
+      <div className="dim dim-ajuste">
+        <span className="dim-etiqueta">Ajuste</span>
+        <span className="dim-barra" />
+        <span className="dim-valor">{p.ajuste > 0 ? `+${p.ajuste}` : p.ajuste}</span>
+      </div>
+      {p.topes.length > 0 && <p className="tenue pequeno">Bruto {p.bruto}. Topes aplicados: {p.topes.join("; ")}.</p>}
+    </div>
+  );
+}
+
 export default function DetalleInversor({ id, onCerrar }: Props) {
   const [perfil, setPerfil] = useState<Inversor | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -108,15 +139,15 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
   return (
     <section className="detalle">
       <header className="detalle-cabecera">
-        <div>
+        <Nivel nivel={p.nivel} banda={p.banda} grande />
+        <div className="detalle-titulo">
           <h2>{p.nombre}</h2>
           <p className="detalle-sub">
             {p.rol} · <strong>{p.firma}</strong> · {p.ciudad_base}
           </p>
           <p className="detalle-etiquetas">
-            <Etiqueta clase={`nivel-${p.nivel}`}>{p.nivel_etiqueta}</Etiqueta>
-            <Etiqueta clase={`prio-${p.prioridad}`}>Prioridad {p.prioridad}</Etiqueta>
-            <Etiqueta clase={`conf-${p.confianza}`}>Confianza {p.confianza}</Etiqueta>
+            <Etiqueta clase={claseBanda(p.banda)}>{p.banda}</Etiqueta>
+            <Etiqueta clase={`conf-${p.confianza}`}>Fuentes: {p.confianza}</Etiqueta>
             <Etiqueta clase="neutra">{p.region}</Etiqueta>
             <Etiqueta clase="neutra" title={p.tipo_inversor_detalle}>
               {p.tipo_inversor}
@@ -156,18 +187,18 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
         </p>
       )}
 
-      <Seccion titulo="Motivo del nivel (auditoría)">
+      <Seccion titulo={`Nivel ${p.nivel}: motivo y desglose`}>
         <p>{p.auditoria.motivo}</p>
-        <p className="tenue pequeno">
-          Agente: prioridad {p.auditoria.prioridad_agente}, confianza {p.auditoria.confianza_agente} → final: prioridad {p.auditoria.prioridad_final},
-          confianza {p.auditoria.confianza_final}. Auditado el {p.auditoria.fecha}.
-        </p>
+        <Desglose p={p.auditoria.puntuacion} />
       </Seccion>
       <Seccion titulo="Por qué es interesante">
-        <Parrafos texto={p.por_que_es_interesante} />
+        <Lista items={p.por_que_es_interesante} />
+      </Seccion>
+      <Seccion titulo="Tesis de inversión">
+        <Lista items={p.tesis_de_inversion} />
       </Seccion>
       <Seccion titulo="Etapa y ticket">
-        <Parrafos texto={p.etapa_y_ticket} />
+        <Lista items={p.etapa_y_ticket} />
       </Seccion>
       <Seccion titulo="Cómo llegar">
         <Lista items={p.como_llegar} />
@@ -175,13 +206,10 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
       <Seccion titulo="Riesgos y alertas">
         <Lista items={p.riesgos_o_alertas} />
       </Seccion>
-      <Seccion titulo="Tesis de inversión">
-        <Parrafos texto={p.tesis_de_inversion} />
-      </Seccion>
-      <Seccion titulo="Inversiones relevantes">
+      <Seccion titulo="Inversiones relevantes" abierta={false}>
         <Lista items={p.inversiones_relevantes} />
       </Seccion>
-      <Seccion titulo="Señales de encaje">
+      <Seccion titulo="Señales de encaje" abierta={false}>
         <Lista items={p.senales_de_encaje} />
       </Seccion>
       <Seccion titulo="Antecedentes" abierta={false}>
@@ -195,6 +223,13 @@ export default function DetalleInversor({ id, onCerrar }: Props) {
       </Seccion>
       <Seccion titulo={`Fuentes (${p.fuentes.length})`} abierta={false}>
         <Lista items={p.fuentes} />
+      </Seccion>
+      <Seccion titulo="Auditoría anterior (v1)" abierta={false}>
+        <p className="tenue pequeno">
+          Nivel v1: {p.auditoria.nivel_v1} · prioridad del agente {p.auditoria.prioridad_agente}, v1 {p.auditoria.prioridad_v1} · confianza del agente{" "}
+          {p.auditoria.confianza_agente}. Auditado el {p.auditoria.fecha}.
+        </p>
+        <p className="tenue">{p.auditoria.motivo_v1}</p>
       </Seccion>
     </section>
   );

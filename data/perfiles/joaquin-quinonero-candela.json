@@ -1,8 +1,8 @@
 {
   "id": "joaquin-quinonero-candela",
   "nombre": "Joaquín Quiñonero Candela",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 47,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "media",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,28 @@
   "ciudad_base": "Mountain View, California, EE.UU. (español)",
   "tipo_inversor": "Business angel",
   "tipo_inversor_detalle": "Business angel",
-  "etapa_y_ticket": "Seed. Ticket no publicado. Su única inversión documentada es la seed de 13 M USD (11 M €) de Trent AI, anunciada el 7 de abril de 2026, donde figura como ángel individual junto a otros tres. No lidera ni fija términos, no tiene vehículo y no publica criterios de inversión.",
+  "etapa_y_ticket": [
+    "Seed; ticket no publicado; única operación documentada: Trent AI (abril 2026), como ángel individual entre otros tres.",
+    "No lidera, no fija términos, sin vehículo ni criterios publicados."
+  ],
   "linkedin": "https://www.linkedin.com/in/joaquincan/",
   "linkedin_nota": "",
   "otros_perfiles": "Web personal: https://quinonero.net/ | X/Twitter: https://x.com/jquinonero (@jquinonero) | Google Scholar: https://scholar.google.com/citations?user=33ynLk8AAAAJ | Cambridge MLG: https://mlg.eng.cam.ac.uk/people/joaquin-quinonero-candela/ | OpenAI Forum (conversación grabada): https://forum.openai.com/public/resources/in-conversation-with-openais-head-of-recruiting-joaquin-quinonero-candela-2025-07-28",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "Revisadas quinonero.net, su perfil de LinkedIn, su X y su ficha de Google Scholar: ninguna publica dirección de correo. No hay fondo ni dominio corporativo del que deducir un patrón, porque invierte a título personal y su empleador (OpenAI) no publica direcciones nominales.",
-  "tesis_de_inversion": "No tiene tesis de inversión publicada ni vehículo. Su única inversión conocida, sin embargo, es muy diagnóstica: entró en la seed de Trent AI (7 de abril de 2026, 13 M USD, liderada por LocalGlobe y Cambridge Innovation Capital), una compañía londinense de seguridad multi-agente fundada en 2025 y salida de sigilo el mismo día del anuncio. Es decir, seguridad para sistemas agénticos autónomos, con producto sin clientes públicos y en una categoría que apenas existe. Los otros ángeles de la ronda dibujan su círculo: Avinash Bhat (Director en AWS, ex-responsable de infraestructura de datos en Stripe), Ippokratis Pandis (Distinguished Engineer en Databricks) y Tony Jebara (ex-VP de Ingeniería y responsable de IA/ML en Spotify). Los fundadores son también un perfil de investigación pura: Eno Thereska (ex-Distinguished Engineer en Alcion, AWS y Confluent), Neil Lawrence (catedrático DeepMind de Machine Learning en Cambridge, ex-Director de Machine Learning en Amazon) y Zhenwen Dai (ex-AWS y Spotify). Su discurso público, en cambio, sí está muy documentado: gira sobre preparación frente a riesgos catastróficos, IA responsable, equidad, robustez, privacidad y rendición de cuentas —los temas que dirigió en Meta como Distinguished Technical Lead de Responsible AI y luego en OpenAI como Head of Preparedness.",
+  "por_que_es_interesante": [
+    "Entiende el riesgo operativo real de muchos agentes ejecutando código de forma autónoma y puede evaluar el moat sin pedir usuarios.",
+    "Su única inversión (Trent AI, seed 13M USD, seguridad multi-agente salida de sigilo) es diagnóstica de lo que le interesa.",
+    "Español con conexión institucional viva (Consejo Asesor de IA del Gobierno, consejo técnico de Inditex).",
+    "Ángulo: arquitectura de control (cómo el harness limita, verifica y audita a los agentes) y ofrecerle advisorship."
+  ],
+  "tesis_de_inversion": [
+    "Sin tesis publicada ni vehículo; Trent AI (seguridad para sistemas agénticos autónomos, sin clientes públicos) como única señal.",
+    "Coinversores del círculo: ingenieros distinguidos de AWS, Databricks y Spotify; fundadores de perfil de investigación pura.",
+    "Discurso público: preparación frente a riesgos catastróficos, IA responsable, robustez, privacidad y rendición de cuentas."
+  ],
   "antecedentes": "Español. Doctorado en 2004 por la Technical University of Denmark, con investigación posdoctoral en Alemania, entre otros en el Max Planck Institute for Biological Cybernetics. Pasó por Microsoft Research Cambridge (proyecto 'The Path of Go', 2009-2011) y en 2012 coimpartió un curso de machine learning en la Universidad de Cambridge junto a Carl Rasmussen; sigue listado en el Machine Learning Group de Cambridge. Estuvo 9,5 años en Facebook/Meta, donde dirigió el grupo de machine learning aplicado —fue Director de Applied Machine Learning— y terminó como Distinguished Technical Lead de Responsible AI, liderando la estrategia de equidad, robustez, privacidad y rendición de cuentas. Después fue Technical Fellow en LinkedIn, al frente del trabajo de IA y su uso responsable. Se incorporó a OpenAI como Head of Preparedness, el equipo encargado de anticipar y mitigar riesgos catastróficos de la IA; en junio de 2025 anunció públicamente un giro poco convencional: pasar a ser Head of Recruiting de toda OpenAI ('In another unconventional career move, I'm now the Head of Recruiting for all OpenAI'), tras un paréntesis de tres meses programando a diario en un internship de IA para salud. En abril de 2026 la prensa de la ronda de Trent AI lo identifica como 'Member of Technical Staff, OpenAI'. Es Senior Fellow no residente del Belfer Center de Harvard, miembro del consejo de Partnership on AI, miembro del Consejo Asesor de Inteligencia Artificial del Gobierno de España y miembro del Consejo Asesor Técnico de Inditex. Habla español y francés a nivel nativo y alemán a nivel profesional.",
-  "por_que_es_interesante": "Es el perfil de mayor autoridad del lote en seguridad y evaluación de sistemas agénticos, y su única inversión conocida es precisamente en eso: seguridad multi-agente en fase seed, en una compañía recién salida de sigilo y sin clientes públicos. Para una startup que construye un harness de desarrollo con nube de agentes, es el tipo de persona que entiende el riesgo operativo real de que muchos agentes ejecuten código autónomamente —y que puede evaluar el moat sin pedir usuarios. Es español, con conexión institucional viva con España (Consejo Asesor de IA del Gobierno, consejo técnico de Inditex). Ángulo de contacto: no pitch de mercado, sino de arquitectura de control —cómo el harness limita, verifica y audita lo que hacen los agentes— y ofrecerle un rol de advisor. Es una vía de alta señal y baja probabilidad: el retorno realista es credibilidad y puertas, no capital.",
   "inversiones_relevantes": [
     "Trent AI (abr-2026, seed 13 M USD / 11 M €, plataforma de seguridad multi-agente para entornos agénticos, Londres) — única inversión documentada; compañía fundada en 2025, salida de sigilo el día del anuncio, sin clientes públicos: evidencia directa de apuesta deep tech pre-tracción. Liderada por LocalGlobe y Cambridge Innovation Capital; fundada por Eno Thereska, Neil Lawrence (catedrático DeepMind en Cambridge) y Zhenwen Dai; coángeles: Avinash Bhat (AWS), Ippokratis Pandis (Databricks), Tony Jebara (ex-Spotify)",
     "Partnership on AI (miembro del consejo) — no es inversión, pero sitúa su red institucional en gobernanza de IA",
@@ -72,17 +84,36 @@
     "https://www.engadget.com/ai/openai-is-hiring-a-new-head-of-preparedness-to-try-to-predict-and-mitigate-ais-harms-220330486.html"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 18,
+      "etapa": 6,
+      "decision": 3,
+      "espanol": 15,
+      "acceso": 5,
+      "ajuste": 0,
+      "bruto": 47,
+      "topes": [],
+      "total": 47
+    },
+    "motivo": "Máxima autoridad en seguridad y evaluación de sistemas agénticos (Responsible AI en Meta, Preparedness en OpenAI) y su única inversión conocida es seguridad multi-agente pre-tracción (Trent AI, 2026); pero una sola operación, sin vehículo, rol 2026 no confirmado y sin email. Señal alta, probabilidad baja: advisor, no capital.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "media",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "media",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Credibilidad técnica máxima y una inversión en seguridad agéntica (Trent AI), pero una sola operación, sin vehículo, rol 2026 no confirmado y sin email."
+    "motivo_v1": "Credibilidad técnica máxima y una inversión en seguridad agéntica (Trent AI), pero una sola operación, sin vehículo, rol 2026 no confirmado y sin email."
   },
   "nombre_original": "Joaquín Quiñonero Candela",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el perfil de mayor autoridad del lote en seguridad y evaluación de sistemas agénticos, y su única inversión conocida es precisamente en eso: seguridad multi-agente en fase seed, en una compañía recién salida de sigilo y sin clientes públicos. Para una startup que construye un harness de desarrollo con nube de agentes, es el tipo de persona que entiende el riesgo operativo real de que muchos agentes ejecuten código autónomamente —y que puede evaluar el moat sin pedir usuarios. Es español, con conexión institucional viva con España (Consejo Asesor de IA del Gobierno, consejo técnico de Inditex). Ángulo de contacto: no pitch de mercado, sino de arquitectura de control —cómo el harness limita, verifica y audita lo que hacen los agentes— y ofrecerle un rol de advisor. Es una vía de alta señal y baja probabilidad: el retorno realista es credibilidad y puertas, no capital.",
+    "tesis_de_inversion": "No tiene tesis de inversión publicada ni vehículo. Su única inversión conocida, sin embargo, es muy diagnóstica: entró en la seed de Trent AI (7 de abril de 2026, 13 M USD, liderada por LocalGlobe y Cambridge Innovation Capital), una compañía londinense de seguridad multi-agente fundada en 2025 y salida de sigilo el mismo día del anuncio. Es decir, seguridad para sistemas agénticos autónomos, con producto sin clientes públicos y en una categoría que apenas existe. Los otros ángeles de la ronda dibujan su círculo: Avinash Bhat (Director en AWS, ex-responsable de infraestructura de datos en Stripe), Ippokratis Pandis (Distinguished Engineer en Databricks) y Tony Jebara (ex-VP de Ingeniería y responsable de IA/ML en Spotify). Los fundadores son también un perfil de investigación pura: Eno Thereska (ex-Distinguished Engineer en Alcion, AWS y Confluent), Neil Lawrence (catedrático DeepMind de Machine Learning en Cambridge, ex-Director de Machine Learning en Amazon) y Zhenwen Dai (ex-AWS y Spotify). Su discurso público, en cambio, sí está muy documentado: gira sobre preparación frente a riesgos catastróficos, IA responsable, equidad, robustez, privacidad y rendición de cuentas —los temas que dirigió en Meta como Distinguished Technical Lead de Responsible AI y luego en OpenAI como Head of Preparedness.",
+    "etapa_y_ticket": [
+      "Seed. Ticket no publicado. Su única inversión documentada es la seed de 13 M USD (11 M €) de Trent AI, anunciada el 7 de abril de 2026, donde figura como ángel individual junto a otros tres. No lidera ni fija términos, no tiene vehículo y no publica criterios de inversión."
+    ]
+  }
 }

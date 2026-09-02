@@ -1,9 +1,9 @@
 {
   "id": "matias-woloski",
   "nombre": "Matías Woloski",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
-  "prioridad": "A",
+  "nivel": 74,
+  "banda": "Alto potencial",
+  "prioridad": "B",
   "confianza": "alta",
   "region": "Fuera de región (excepcional)",
   "firma": "Inversión ángel a título personal; vinculado a Okta Ventures. Cofundador de Auth0 y de Portal Bosque",
@@ -11,16 +11,30 @@
   "ciudad_base": "Buenos Aires, Argentina (con residencia también asociada a Punta del Este, Uruguay)",
   "tipo_inversor": "Business angel",
   "tipo_inversor_detalle": "Business angel",
-  "etapa_y_ticket": "Pre-seed, seed y Serie A. Ticket de 5.000-50.000 USD con punto dulce en 25.000 USD (Signal NFX: 'Check size $5K - $50K, sweet spot $25K'). Signal registra 20 inversiones; Tracxn le atribuye entre 13 y 15 compañías; Private Market View, 11 posiciones. Entra como ángel dentro de rondas lideradas por fondos, a menudo junto a Okta Ventures.",
+  "etapa_y_ticket": [
+    "Pre-seed, seed y Serie A como ángel dentro de rondas lideradas por fondos, a menudo con Okta Ventures.",
+    "Ticket 5.000-50.000 USD, punto dulce 25.000 USD.",
+    "11-20 posiciones registradas según la fuente."
+  ],
   "linkedin": "https://www.linkedin.com/in/matiaswoloski/",
   "linkedin_nota": "",
   "otros_perfiles": "X/Twitter: https://x.com/woloski (@woloski) | Blog en Auth0: https://auth0.com/blog/authors/matias-woloski/ | Blog en Okta: https://www.okta.com/blog/author/matias-woloski/ | Signal NFX: https://signal.nfx.com/investors/matias-woloski | Crunchbase: https://www.crunchbase.com/person/matias-woloski | Tracxn: https://tracxn.com/d/people/matias-woloski/ | Dealroom: https://app.dealroom.co/investors/matias_woloski | Amazon (autor de libros técnicos): https://www.amazon.com/Matias-Woloski/e/B00BJ4WRFM",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "Revisados su LinkedIn público, X, blogs de Auth0 y Okta, y fichas de inversor (Signal NFX, Crunchbase, Tracxn, Dealroom): ninguna publica dirección de correo. No invierte desde un fondo con dominio propio, por lo que no hay patrón deducible. Su canal público directo es X (@woloski).",
-  "tesis_de_inversion": "Woloski invierte donde ha construido: infraestructura para desarrolladores, identidad y datos. La lectura de su cartera es inequívoca. En mayo de 2019 entró en la Serie A de Vercel (16 M USD) —la compañía que define hoy la infraestructura de desarrollo frontend. En 2021 empezó a invertir sistemáticamente a través de Tinybird (infraestructura de datos en tiempo real). En octubre de 2025 fue ángel en Keycard, la plataforma de identidad y acceso para agentes de IA que salió de sigilo con 38 M USD (seed de 8 M cliderada por a16z y Boldstart, más Serie A de 30 M liderada por Acrew): la lista de ángeles de esa ronda es un quién es quién de identidad e infraestructura —Ian Andrews (CRO de Groq), Ryan Carlson (presidente de Chainguard), Emilio Escobar (CISO de Datadog), Karl McGuinness (ex-Chief Product Architect de Okta) y él. En septiembre de 2025 entró en Luzid (herramientas de automatización de desarrollo basadas en IA para implantaciones empresariales) y en 2025-2026 en Autonoma AI, NanoCo AI y Veria Labs (seed de 3,2 M USD en febrero de 2026, con Y Combinator y Paul Graham como coinversores). Sus coinversores recurrentes son Paul Graham, Guillermo Rauch, Gokul Rajaram, Wences Casares, Zane Lackey y Manu Ginóbili. Su ticket es de 5-50 k USD, punto dulce 25 k, en pre-seed, seed y Serie A. No publica tesis escrita, pero su declaración en el podcast Startupeable resume su filosofía: 'lo que uno aprende durante el tiempo previo a emprender es la única ventaja competitiva que tenemos'.",
+  "por_que_es_interesante": [
+    "Ha construido una plataforma para desarrolladores desde cero y sin tracción (Auth0, 6.500M USD): sabe que la métrica temprana correcta es adopción de developers, no ingresos.",
+    "Keycard (identidad y permisos para agentes de IA, 2025): financia el problema de control de agentes que ejecutan código.",
+    "Coinversores recurrentes: Paul Graham, Guillermo Rauch, Gokul Rajaram, Wences Casares.",
+    "Ángulo: X (@woloski), mensaje técnico y corto sobre identidad, permisos y control de agentes."
+  ],
+  "tesis_de_inversion": [
+    "Invierte donde ha construido: infraestructura para desarrolladores, identidad y datos.",
+    "Cartera: Vercel (Serie A 2019), Tinybird (2021), Keycard (2025), Luzid (2025), Autonoma AI, NanoCo AI, Veria Labs (2026).",
+    "'Lo que uno aprende durante el tiempo previo a emprender es la única ventaja competitiva que tenemos'.",
+    "Sin tesis escrita; patrón inequívoco de developer infrastructure."
+  ],
   "antecedentes": "Argentino. Ingeniero en Informática por la Universidad de Buenos Aires (2000-2008). Trabajó como arquitecto de software y consultor, y fue cofundador de Southworks, la consultora desde la que hacían proyectos de autenticación para clientes empresariales. En 2013 cofundó Auth0 con Eugenio Pace, convirtiendo esos proyectos de consultoría en un producto: una plataforma de identidad orientada a desarrolladores. Auth0 llegó a servir a más de 40 millones de usuarios diarios, se convirtió en el quinto unicornio argentino en 2019 y fue adquirida por Okta en mayo de 2021 por 6.500 M USD. Woloski fue CTO y, tras la adquisición, VP de I+D de la unidad Customer Identity Cloud de Okta y CTO de Auth0 Lab, el equipo de investigación que exploraba autorización de grano fino, web3 e identidad para agentes de IA. Escribió libros técnicos (publicados en Amazon), fue autor habitual de los blogs de Auth0 y Okta, y enseñó Cloud Computing en la Escuela de Innovación del ITBA. Cofundó Portal Bosque, una fundación sin ánimo de lucro en Punta del Este que combina 'naturaleza, arte y tecnología' para repensar la educación. Su rol operativo exacto en 2026 no está confirmado: LinkedIn lo muestra como cofundador de Portal Bosque tras salir de Okta en 2023, mientras que fichas de inversor lo siguen listando como 'CTO / Auth0 Lab at Okta' con Okta Ventures.",
-  "por_que_es_interesante": "Es el mejor encaje temático puro del lote: un CTO fundador de una compañía de infraestructura para desarrolladores de 6.500 M USD, que invierte cheques de 5-50 k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes. Vercel (2019), Tinybird (2021), Keycard (2025, identidad para agentes de IA), Luzid (2025, automatización de desarrollo con IA), Autonoma AI, NanoCo AI, Veria Labs (2026, con Paul Graham). Es alguien que ha vivido en carne propia la construcción de una plataforma para desarrolladores desde cero y sin tracción, y que sabe que la métrica temprana correcta es la adopción de developers, no los ingresos. Es argentino, hablante nativo de español, y opera desde Buenos Aires: la comunicación puede ser íntegramente en español y sin fricción cultural. Ángulo de contacto: X (@woloski), mensaje técnico y corto, enfocado en el problema de infraestructura y en el ángulo de identidad, permisos y control de agentes que ejecutan código —el tema que él mismo está financiando en Keycard.",
   "inversiones_relevantes": [
     "Keycard (oct-2025, 38 M USD: seed de 8 M colideradas por a16z y Boldstart + Serie A de 30 M liderada por Acrew; identidad y control de acceso para agentes de IA) — la inversión más relevante del lote entero: gobierno de permisos de agentes autónomos, compañía salida de sigilo el día del anuncio. Coángeles: CRO de Groq, presidente de Chainguard, CISO de Datadog y ex-Chief Product Architect de Okta",
     "Vercel (may-2019, Serie A de 16 M USD; infraestructura de despliegue para desarrolladores) — entró siete años antes de que Vercel valiera 10.400 M USD, cuando era una herramienta de developers sin negocio establecido",
@@ -83,17 +97,36 @@
     "https://www.crunchbase.com/person/matias-woloski"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 24,
+      "etapa": 18,
+      "decision": 10,
+      "espanol": 15,
+      "acceso": 11,
+      "ajuste": -4,
+      "bruto": 74,
+      "topes": [],
+      "total": 74
+    },
+    "motivo": "CTO fundador de Auth0 que invierte cheques de 5-50k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes (Vercel 2019, Tinybird, Keycard 2025, Luzid, Veria Labs con Paul Graham); argentino, español nativo. Reservas: fuera de región (Buenos Aires), cheque pequeño que no lidera, rol operativo 2026 por confirmar.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Cofundador y ex-CTO de Auth0; ángel recurrente en developer infrastructure (Vercel 2019, Keycard 2025 identidad para agentes, Tinybird), coinvierte con Rauch; español nativo. Fuera de región (Buenos Aires), cheque 5-50k, rol 2026 por confirmar."
+    "motivo_v1": "Cofundador y ex-CTO de Auth0; ángel recurrente en developer infrastructure (Vercel 2019, Keycard 2025 identidad para agentes, Tinybird), coinvierte con Rauch; español nativo. Fuera de región (Buenos Aires), cheque 5-50k, rol 2026 por confirmar."
   },
   "nombre_original": "Matías Woloski",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el mejor encaje temático puro del lote: un CTO fundador de una compañía de infraestructura para desarrolladores de 6.500 M USD, que invierte cheques de 5-50 k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes. Vercel (2019), Tinybird (2021), Keycard (2025, identidad para agentes de IA), Luzid (2025, automatización de desarrollo con IA), Autonoma AI, NanoCo AI, Veria Labs (2026, con Paul Graham). Es alguien que ha vivido en carne propia la construcción de una plataforma para desarrolladores desde cero y sin tracción, y que sabe que la métrica temprana correcta es la adopción de developers, no los ingresos. Es argentino, hablante nativo de español, y opera desde Buenos Aires: la comunicación puede ser íntegramente en español y sin fricción cultural. Ángulo de contacto: X (@woloski), mensaje técnico y corto, enfocado en el problema de infraestructura y en el ángulo de identidad, permisos y control de agentes que ejecutan código —el tema que él mismo está financiando en Keycard.",
+    "tesis_de_inversion": "Woloski invierte donde ha construido: infraestructura para desarrolladores, identidad y datos. La lectura de su cartera es inequívoca. En mayo de 2019 entró en la Serie A de Vercel (16 M USD) —la compañía que define hoy la infraestructura de desarrollo frontend. En 2021 empezó a invertir sistemáticamente a través de Tinybird (infraestructura de datos en tiempo real). En octubre de 2025 fue ángel en Keycard, la plataforma de identidad y acceso para agentes de IA que salió de sigilo con 38 M USD (seed de 8 M cliderada por a16z y Boldstart, más Serie A de 30 M liderada por Acrew): la lista de ángeles de esa ronda es un quién es quién de identidad e infraestructura —Ian Andrews (CRO de Groq), Ryan Carlson (presidente de Chainguard), Emilio Escobar (CISO de Datadog), Karl McGuinness (ex-Chief Product Architect de Okta) y él. En septiembre de 2025 entró en Luzid (herramientas de automatización de desarrollo basadas en IA para implantaciones empresariales) y en 2025-2026 en Autonoma AI, NanoCo AI y Veria Labs (seed de 3,2 M USD en febrero de 2026, con Y Combinator y Paul Graham como coinversores). Sus coinversores recurrentes son Paul Graham, Guillermo Rauch, Gokul Rajaram, Wences Casares, Zane Lackey y Manu Ginóbili. Su ticket es de 5-50 k USD, punto dulce 25 k, en pre-seed, seed y Serie A. No publica tesis escrita, pero su declaración en el podcast Startupeable resume su filosofía: 'lo que uno aprende durante el tiempo previo a emprender es la única ventaja competitiva que tenemos'.",
+    "etapa_y_ticket": [
+      "Pre-seed, seed y Serie A. Ticket de 5.000-50.000 USD con punto dulce en 25.000 USD (Signal NFX: 'Check size $5K - $50K, sweet spot $25K'). Signal registra 20 inversiones; Tracxn le atribuye entre 13 y 15 compañías; Private Market View, 11 posiciones. Entra como ángel dentro de rondas lideradas por fondos, a menudo junto a Okta Ventures."
+    ]
+  }
 }

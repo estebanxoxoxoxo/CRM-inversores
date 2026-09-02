@@ -1,9 +1,9 @@
 {
   "id": "marco-mascorro",
   "nombre": "Marco Mascorro",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
-  "prioridad": "B",
+  "nivel": 78,
+  "banda": "Indiscutible",
+  "prioridad": "A",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
   "firma": "Inversor ángel independiente (mascobot.com). EX-Partner en Andreessen Horowitz (a16z). Advisor en METR. Cofundador de Fellow AI / Fellow Robots.",
@@ -11,16 +11,30 @@
   "ciudad_base": "San Francisco Bay Area, California, EE.UU.",
   "tipo_inversor": "Business angel",
   "tipo_inversor_detalle": "Business angel",
-  "etapa_y_ticket": "Según su propia página de inversión (https://www.mascobot.com/investing): principalmente pre-seed hasta Series A. Ticket ángel no publicado (no confirmado). Durante su etapa en a16z operó con el fondo de IA de la firma —Signal NFX registra rangos de 0,5-40 M$ con punto dulce en 20 M$ y un fondo asociado de 2.200 M$—, pero esos rangos ya NO aplican a su capacidad actual: como ángel independiente el cheque será de orden pequeño y no lidera rondas institucionales. Sí puede coinvertir, abrir puertas y actuar como validador técnico.",
+  "etapa_y_ticket": [
+    "Ángel independiente: pre-seed a Serie A (mascobot.com/investing).",
+    "Ticket no publicado; pequeño, no lidera rondas institucionales; coinvierte y abre puertas.",
+    "Los rangos de a16z (0,5-40M USD) ya no aplican."
+  ],
   "linkedin": "https://www.linkedin.com/in/marcomascorro/",
   "linkedin_nota": "",
   "otros_perfiles": "Web personal: https://www.mascobot.com/ | Página de inversión: https://www.mascobot.com/investing | Blog técnico: https://www.mascobot.com/blog.html | X/Twitter: https://x.com/Mascobot | METR: https://metr.org/team/marco-mascorro/ | Crunchbase: https://www.crunchbase.com/person/marco-mascorro-c5da | Signal NFX: https://signal.nfx.com/investors/marco-mascorro | Perfil MIT Technology Review en español (Innovators Under 35 LatAm 2017): https://www.innovatorsunder35.com/the-list/marco-mascorro/ | Podcast a16z sobre DeepSeek y modelos de razonamiento: https://a16z.com/podcast/deepseek-reasoning-models-and-the-future-of-llms/",
   "email": "m@mascobot.com",
   "email_estado": "público verificado",
   "email_fuente": "Publicado por él mismo en su web personal, tanto en https://www.mascobot.com/ como en https://www.mascobot.com/investing, con el formato ofuscado 'm [at] mascobot.com'. Es fuente primaria y está puesto explícitamente como canal de contacto para founders.",
-  "tesis_de_inversion": "Invierte desde la óptica de fundador técnico: en su página de inversión escribe 'As a founder myself, I learned how hard (and lonely) a job it is to build a company' y explica que replica el tipo de acompañamiento que a él le resultó útil. Su foco declarado es IA e infraestructura de software: modelos de IA a gran escala, nuevas capacidades y arquitecturas de modelos, System 1 y System 2, aprendizaje por refuerzo, agentes, simulación, dev tools y robótica. Su historial lo confirma: en a16z lideró la Series A de Cursor (y siguió hasta la Serie C), y los seeds de Black Forest Labs (el equipo original de Stable Diffusion), Thinking Machines, Waveforms AI y la Series A de Deeptune. Es decir, apuesta por equipos de investigación y por infraestructura de desarrollo antes de que exista producto comercial o tracción: Thinking Machines y Black Forest Labs eran, en el momento de la inversión, equipos con papers y pesos, no con métricas. Como ángel independiente sigue en pre-seed y Series A (Mechanize, Runpod, SF Compute, Embra AI —adquirida por Notion—, Stack AI —adquirida por Asana—, entre otras). No es un inversor de tracción: es un inversor de arquitectura.",
+  "por_que_es_interesante": [
+    "Historial que es el canon del harness: lideró la Serie A de Cursor; seeds de Thinking Machines y Black Forest Labs por convicción arquitectónica.",
+    "Trabajo actual dentro del problema: evaluación de computer-use agents con Harbor, OSWorld y Daytona en escritorios reales en sandbox (2026).",
+    "Origen mexicano documentado y email público.",
+    "Ángulo: en español, benchmarks reproducibles y arquitectura (cómo evalúas tus agentes, en qué entornos, contra qué baseline). No dirigirse a él como socio de a16z."
+  ],
+  "tesis_de_inversion": [
+    "Óptica de fundador técnico: 'as a founder myself, I learned how hard (and lonely) a job it is to build a company'.",
+    "Foco: modelos de IA a gran escala, nuevas arquitecturas, RL, agentes, simulación, dev tools y robótica.",
+    "Apuesta por equipos de investigación e infraestructura de desarrollo antes del producto (Thinking Machines, Black Forest Labs, Cursor).",
+    "Como ángel: Mechanize, Runpod, SF Compute, Embra AI (adquirida por Notion), Stack AI (adquirida por Asana). 'Inversor de arquitectura, no de tracción'."
+  ],
   "antecedentes": "Mexicano. Estudió Ingeniería Mecatrónica en el Tecnológico de Monterrey, campus San Luis Potosí (confirmado por Signal NFX y por la prensa mexicana). Empezó a programar hacia los 12 años con microcontroladores PIC y compitió en FIRST Robotics. Su formación se completó fuera de México: estudió robótica industrial en BMW (Múnich), donde trabajó como ingeniero de diseño de vehículos, y después en Japón. Llegó a Silicon Valley a Singularity University (campus NASA Ames), donde fue AI & Robotics Teaching Fellow y profesor de robótica entre 2012 y 2014, trabajando cerca de Ray Kurzweil y Peter Diamandis. En 2012-2013 cofundó Fellow Robots (después Fellow AI) junto al ex-astronauta de la NASA y profesor de robótica Dan Barry: robots autónomos de retail e inventario —OSHbot y LoweBot, desplegados con Lowe's y con Yamada Denki en Japón— basados en SLAM, V-SLAM y CNNs de la era AlexNet, como CEO. Fue Innovador menor de 35 de América Latina 2017 (MIT Technology Review en español) y entró en la lista Forbes 30 Under 30 de Manufacturing & Industry. Después fue scout y luego Partner en a16z en el eje de IA e infraestructura de software. Actualmente investiga por su cuenta (interpretabilidad, modelos grandes, robótica), es advisor de METR e invierte como ángel.",
-  "por_que_es_interesante": "Es, de los tres perfiles del lote, el que mejor entiende técnicamente lo que el cliente está construyendo y el único con origen hispano plenamente documentado y email público. Su historial de inversión es literalmente el canon del harness de desarrollo con IA: lideró la Series A de Cursor. Y su trabajo actual es evaluación de agentes de uso de ordenador a escala: en marzo de 2026 publicó cómo integró Harbor con OSWorld, Tinker, Daytona y bare metal para evaluar computer-use agents en escritorios Ubuntu y Windows reales en sandbox. Es decir: ya está operando dentro del problema exacto de una nube de agentes. Invierte pre-tracción por convicción arquitectónica (Thinking Machines, Black Forest Labs eran equipos de investigación sin producto). Ángulo de contacto: escribirle en español a m@mascobot.com con benchmarks reproducibles y detalle de arquitectura —cómo evalúas tus agentes, en qué entornos, contra qué baseline—, no con narrativa de mercado. Reserva: hoy es ángel, no fondo.",
   "inversiones_relevantes": [
     "Cursor / Anysphere (Series A liderada por él en a16z, con seguimiento en B y C; editor de código con IA) — es el caso canónico de dev tool AI-native; entró cuando era producto joven, no cuando ya era categoría.",
     "Thinking Machines (seed liderado en a16z; laboratorio de IA de Mira Murati) — inversión en un equipo de investigación sin producto ni tracción: máxima señal de apuesta pre-tracción.",
@@ -84,17 +98,36 @@
     "https://wellfound.com/p/marco-mascorro"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 24,
+      "etapa": 16,
+      "decision": 10,
+      "espanol": 15,
+      "acceso": 13,
+      "ajuste": 0,
+      "bruto": 78,
+      "topes": [],
+      "total": 78
+    },
+    "motivo": "Lideró en a16z la Serie A de Cursor y los seeds de Thinking Machines y Black Forest Labs (equipos sin producto); hoy evalúa agentes de uso de ordenador en sandbox, mexicano confirmado (Tec de Monterrey) con email público. Reserva: ya no está en a16z; es ángel independiente con cheque pequeño y dedicación principal a investigación.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "alta",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "alta",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Lideró en a16z la Serie A de Cursor y los seeds de Thinking Machines y Black Forest Labs; mexicano confirmado (Tec de Monterrey); email público. Hoy ángel independiente con cheque pequeño y dedicación principal a investigación."
+    "motivo_v1": "Lideró en a16z la Serie A de Cursor y los seeds de Thinking Machines y Black Forest Labs; mexicano confirmado (Tec de Monterrey); email público. Hoy ángel independiente con cheque pequeño y dedicación principal a investigación."
   },
   "nombre_original": "Marco Mascorro",
-  "email_original": "m@mascobot.com"
+  "email_original": "m@mascobot.com",
+  "textos_v1": {
+    "por_que_es_interesante": "Es, de los tres perfiles del lote, el que mejor entiende técnicamente lo que el cliente está construyendo y el único con origen hispano plenamente documentado y email público. Su historial de inversión es literalmente el canon del harness de desarrollo con IA: lideró la Series A de Cursor. Y su trabajo actual es evaluación de agentes de uso de ordenador a escala: en marzo de 2026 publicó cómo integró Harbor con OSWorld, Tinker, Daytona y bare metal para evaluar computer-use agents en escritorios Ubuntu y Windows reales en sandbox. Es decir: ya está operando dentro del problema exacto de una nube de agentes. Invierte pre-tracción por convicción arquitectónica (Thinking Machines, Black Forest Labs eran equipos de investigación sin producto). Ángulo de contacto: escribirle en español a m@mascobot.com con benchmarks reproducibles y detalle de arquitectura —cómo evalúas tus agentes, en qué entornos, contra qué baseline—, no con narrativa de mercado. Reserva: hoy es ángel, no fondo.",
+    "tesis_de_inversion": "Invierte desde la óptica de fundador técnico: en su página de inversión escribe 'As a founder myself, I learned how hard (and lonely) a job it is to build a company' y explica que replica el tipo de acompañamiento que a él le resultó útil. Su foco declarado es IA e infraestructura de software: modelos de IA a gran escala, nuevas capacidades y arquitecturas de modelos, System 1 y System 2, aprendizaje por refuerzo, agentes, simulación, dev tools y robótica. Su historial lo confirma: en a16z lideró la Series A de Cursor (y siguió hasta la Serie C), y los seeds de Black Forest Labs (el equipo original de Stable Diffusion), Thinking Machines, Waveforms AI y la Series A de Deeptune. Es decir, apuesta por equipos de investigación y por infraestructura de desarrollo antes de que exista producto comercial o tracción: Thinking Machines y Black Forest Labs eran, en el momento de la inversión, equipos con papers y pesos, no con métricas. Como ángel independiente sigue en pre-seed y Series A (Mechanize, Runpod, SF Compute, Embra AI —adquirida por Notion—, Stack AI —adquirida por Asana—, entre otras). No es un inversor de tracción: es un inversor de arquitectura.",
+    "etapa_y_ticket": [
+      "Según su propia página de inversión (https://www.mascobot.com/investing): principalmente pre-seed hasta Series A. Ticket ángel no publicado (no confirmado). Durante su etapa en a16z operó con el fondo de IA de la firma —Signal NFX registra rangos de 0,5-40 M$ con punto dulce en 20 M$ y un fondo asociado de 2.200 M$—, pero esos rangos ya NO aplican a su capacidad actual: como ángel independiente el cheque será de orden pequeño y no lidera rondas institucionales. Sí puede coinvertir, abrir puertas y actuar como validador técnico."
+    ]
+  }
 }

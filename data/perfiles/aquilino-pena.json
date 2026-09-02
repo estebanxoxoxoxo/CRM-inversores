@@ -1,8 +1,8 @@
 {
   "id": "aquilino-pena",
   "nombre": "Aquilino Peña",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 71,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Madrid, España",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Seed y Serie A, liderando ronda. Con el Fondo IV (120 M€, anunciado el 15 de diciembre de 2025) Kibo declara públicamente un ticket inicial de en torno a 5 M€ en rondas de fase inicial y reserva el 40% del fondo para follow-on (fuentes: webcapitalriesgo.com, Forbes España, El Español, Demócrata). El perfil del fondo en Fund Momentum lo resume como 'Seed/Series A' y define su sweet spot como 'technical European founder building deep tech or AI outside major VC hubs at Seed/Series A'. Operaciones reales de 2025-2026 confirman ese rango: seed de ~21 M€ en Theker (liderada por Kibo), ronda de 9,25 M€ en FOSSA Systems (liderada por Aquilino Peña, que entró al consejo), seed de 17,2 M€ en NeuralTrust (participación, no liderazgo) y ~3,3 M€ en AnyFormat. Conclusión honesta: 5 M€ de primer cheque es un ticket alto; no es un fondo de pre-seed de 200-500 k€.",
+  "etapa_y_ticket": [
+    "Seed y Serie A, liderando ronda.",
+    "Ticket inicial ~5M€ con 40% del fondo reservado a follow-on: no es un fondo de pre-seed.",
+    "Fondo IV Innvierte: 120M€ (anuncio 15-dic-2025), LPs BBVA Spark, familia Mahou, CDTI, FEI; AUM >500M€ en 6 vehículos."
+  ],
   "linkedin": "https://www.linkedin.com/in/aquilinopena",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha en el fondo: https://kiboventures.com/team/aquilino-pena/ | Web del fondo: https://kiboventures.com | Equipo: https://kiboventures.com/team/ | X/Twitter: https://x.com/Aquilino | Substack (prácticamente inactivo, 11 suscriptores y sin archivo de posts visible): https://substack.com/@aquilinopena | Crunchbase: https://www.crunchbase.com/person/aquilino-pea | Perfil de ponente BIGBAN: https://bigbaninvestorscongress.com/ponente/aquilino-pena/ | Perfil de ponente Al Andalus Innovation Venture: https://alandalusinnovation.com/perfil/aquilino-pena/ | Perfil en The Org: https://theorg.com/org/kibo-ventures | Podcast Growth (Product Hackers): https://creators.spotify.com/pod/profile/jos-carlos-cortizo-prez2/episodes/Venture-Capital-para-acelerar-el-crecimiento-con-Aquilino-Pea-de-Kibo-Ventures-e375v12 | Vídeo entrevista en YouTube: https://www.youtube.com/watch?v=qL5nwCOn3Rs",
   "email": "info@kiboventures.com",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "Comprobado sin resultado en https://kiboventures.com/, https://kiboventures.com/team/, https://kiboventures.com/team/aquilino-pena/ y https://kiboventures.com/privacy-policy/ (la política de privacidad solo indica 'Our website address is: https://kiboventures.com' y enlaza a un canal de denuncias, sin email de contacto). Las notas de prensa de SpainCap y la cobertura del Fondo IV tampoco exponen direcciones individuales. | no encontrado. Kibo Ventures no publica ninguna dirección de correo en su web: ni en la home, ni en la página de equipo, ni en la política de privacidad (que omite el contacto GDPR), ni en la ficha de cada socio. Tampoco se ha localizado un  ni ningún nombre@kiboventures.com en prensa, notas de prensa, papers o perfiles de ponente. No hay, por tanto, evidencia suficiente para proponer un patrón; escribir a aquilino@kiboventures.com o apena@kiboventures.com sería especulación pura y así debe tratarse. La vía real de contacto es LinkedIn (es su canal activo) o una intro por cartera",
-  "tesis_de_inversion": "Invierte en seed y Serie A liderando ronda, desde el Fondo IV de 120 M€ (dic-2025) cuyo mandato publicado es literalmente 'deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física y aplicaciones verticales, incluyendo defensa y espacio'. El vehículo co-invertido con CDTI se registra como 'Kibo Ventures Fund IV Innvierte', un fondo declarado deep tech. Su filtro personal lo ha explicado sin rodeos: 'Miramos que el producto tenga una ventaja en algo de +10 en algún aspecto' —diez veces más rápido, mejor o más barato que la alternativa—, 'Buscamos capacidad de ejecución, que sean capaces no tanto de decir sino de hacer', 'Nos gustan más dos o tres fundadores que uno solo' y 'Miramos que esté compensado: debe haber tecnología, pero también marketing y ventas'. Rechaza el corto plazo: 'Montar una compañía para que nos compre alguien es la receta del desastre'. Y sobre el recurso escaso: 'Hay más capital que buenas ideas, el recurso escaso es el talento'. Sobre IA y agentes su posición pública más reciente (LinkedIn, junio de 2026, al invertir en NeuralTrust) es que la compañía está 'at the intersection of two of the industries where we have vast experience: AI and cybersecurity', que 'Agents are already here' y que su papel es asegurarse de que 'they are safe'. También describe a Theker como 'AI-native generalist robots that adapt in real time': el adjetivo 'AI-native' es vocabulario suyo.",
+  "por_que_es_interesante": [
+    "Mandato publicado del Fondo IV casi calcado al cliente: deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física.",
+    "Dinero fresco: primer cierre dic-2025, 120M€ a desplegar en 2026-2029; apuestas técnicas de horizonte largo (lideró Theker ~21M€ y FOSSA 9,25M€).",
+    "Criterio declarado '+10x en algún aspecto': llevarle el benchmark medido y reproducible, no un roadmap.",
+    "Check-list literal: dos o tres fundadores con tecnología, marketing y ventas cubiertos. Referencias: NeuralTrust, Theker, AnyFormat."
+  ],
+  "tesis_de_inversion": [
+    "Fondo IV: 'deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física y aplicaciones verticales, incluyendo defensa y espacio'.",
+    "'Miramos que el producto tenga una ventaja de +10 en algún aspecto'; 'capacidad de ejecución, hacer más que decir'.",
+    "Equipo compensado: tecnología, marketing y ventas; mejor dos o tres fundadores que uno.",
+    "'Agents are already here' y hay que asegurarlos (NeuralTrust, jun-2026); usa el vocabulario 'AI-native'."
+  ],
   "antecedentes": "Licenciado en la doble titulación de Derecho y Administración y Dirección de Empresas (E-3) por la Universidad Pontificia de Comillas – ICADE (1988-1994) y MBA por Harvard Business School (1996-1998). No es ingeniero: la pista de partida sobre formación técnica es incorrecta. Empezó como consultor de estrategia en The Boston Consulting Group (oficinas de Madrid y São Paulo). Fue parte del equipo fundador de Submarino.com, pionero del e-commerce en España y Latinoamérica, responsable de la filial española; la compañía levantó más de 70 M$ y salió a bolsa en Brasil en 2004. Después fue Director de Marketing y Atención al Cliente de eresMas/Wanadoo y Director General del negocio interactivo de Orange, gestionando más de 50 portales (Orange.es, Wanadoo.es, Starmedia.com, Telecinco.com, grupo Hachette) con 40 millones de usuarios únicos al mes. Su último cargo corporativo fue CEO de Mediaedge:cia (mayor agencia de medios de WPP en España y Portugal). Business angel en más de 15 compañías (Volotea, Acierto, Bodeboca, ISDI). En agosto de 2012 cofundó Kibo Ventures con Javier Torremocha y José Mª Amusátegui. Fue Presidente de ASCRI/SpainCap (2020-2022), Presidente del IAB España, miembro del comité ejecutivo de Adigital, consejero de la AEA y director ejecutivo de la EIAA. Consejero de FOSSA Systems desde 2026.",
-  "por_que_es_interesante": "El mandato publicado del Fondo IV (deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física) es casi una descripción del cliente, y el fondo es dinero fresco: primer cierre en diciembre de 2025, con 120 M€ por desplegar en 2026-2029. La evidencia de apuesta pre-tracción existe y es reciente: Kibo lideró la seed de ~21 M€ de Theker (robots generalistas, hardware sin ingresos consolidados) y Aquilino personalmente lideró los 9,25 M€ de FOSSA Systems entrando al consejo; ambas son apuestas técnicas de horizonte largo, no compras de métricas. Su criterio declarado del '+10x en algún aspecto' es exactamente el terreno de un stack que afirma ser ~90% mejor: hay que llevarle el 10x medido y explicado, no un roadmap. Y su vocabulario ya incluye 'AI-native' y 'Agents are already here'. El ángulo de contacto correcto: no vender usuarios sino (a) el benchmark 10x reproducible, (b) por qué el harness de agentes es infraestructura que otros necesitarán, y (c) un equipo de dos o tres fundadores con tecnología, marketing y ventas cubiertos —ese es su check-list literal. Referencias obligadas: NeuralTrust, Theker y AnyFormat.",
   "inversiones_relevantes": [
     "NeuralTrust (junio 2026, seed de 17,2 M€ / 20 M$, Barcelona; seguridad y gobierno de agentes de IA en empresa con TrustGate/TrustGuard/TrustLens) — Kibo PARTICIPÓ, no lideró: la ronda la lideró Alstin Capital con VentureFriends, Seaya, Banc Sabadell, EA Ventures Plug and Play Fund y Finaves. Es la mayor seed de ciberseguridad de la UE y la prueba más directa de que Peña invierte en la capa de agentes",
     "Theker Robotics (dic 2025, seed de ~21 M€ LIDERADA por Kibo; después Serie A de 85 M$, presentada como la mayor ronda de robótica de Europa) — robots generalistas 'AI-native'; ejemplo de cheque grande en fase muy temprana sobre riesgo técnico puro",
@@ -102,17 +116,36 @@
     "https://x.com/Aquilino"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 18,
+      "etapa": 9,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 9,
+      "ajuste": 0,
+      "bruto": 71,
+      "topes": [],
+      "total": 71
+    },
+    "motivo": "Fondo IV (120M€, dic-2025) con mandato literal de deep tech, datos e infraestructura de IA, dinero fresco y criterio del '+10x'; pero primer cheque de ~5M€ en seed/Serie A (no pre-seed de 200-500k), perfil no técnico, historia consumer y sin email público.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "alta",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "alta",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Fondo IV (120M€, dic 2025) con mandato literal de infraestructura de IA y deep tech, pero ticket inicial ~5M€ en seed/Serie A, perfil no técnico e historia consumer. Confirmado que NeuralTrust no la lideró."
+    "motivo_v1": "Fondo IV (120M€, dic 2025) con mandato literal de infraestructura de IA y deep tech, pero ticket inicial ~5M€ en seed/Serie A, perfil no técnico e historia consumer. Confirmado que NeuralTrust no la lideró."
   },
   "nombre_original": "Aquilino Peña",
-  "email_original": "no encontrado. Kibo Ventures no publica ninguna dirección de correo en su web: ni en la home, ni en la página de equipo, ni en la política de privacidad (que omite el contacto GDPR), ni en la ficha de cada socio. Tampoco se ha localizado un info@kiboventures.com ni ningún nombre@kiboventures.com en prensa, notas de prensa, papers o perfiles de ponente. No hay, por tanto, evidencia suficiente para proponer un patrón; escribir a aquilino@kiboventures.com o apena@kiboventures.com sería especulación pura y así debe tratarse. La vía real de contacto es LinkedIn (es su canal activo) o una intro por cartera."
+  "email_original": "no encontrado. Kibo Ventures no publica ninguna dirección de correo en su web: ni en la home, ni en la página de equipo, ni en la política de privacidad (que omite el contacto GDPR), ni en la ficha de cada socio. Tampoco se ha localizado un info@kiboventures.com ni ningún nombre@kiboventures.com en prensa, notas de prensa, papers o perfiles de ponente. No hay, por tanto, evidencia suficiente para proponer un patrón; escribir a aquilino@kiboventures.com o apena@kiboventures.com sería especulación pura y así debe tratarse. La vía real de contacto es LinkedIn (es su canal activo) o una intro por cartera.",
+  "textos_v1": {
+    "por_que_es_interesante": "El mandato publicado del Fondo IV (deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física) es casi una descripción del cliente, y el fondo es dinero fresco: primer cierre en diciembre de 2025, con 120 M€ por desplegar en 2026-2029. La evidencia de apuesta pre-tracción existe y es reciente: Kibo lideró la seed de ~21 M€ de Theker (robots generalistas, hardware sin ingresos consolidados) y Aquilino personalmente lideró los 9,25 M€ de FOSSA Systems entrando al consejo; ambas son apuestas técnicas de horizonte largo, no compras de métricas. Su criterio declarado del '+10x en algún aspecto' es exactamente el terreno de un stack que afirma ser ~90% mejor: hay que llevarle el 10x medido y explicado, no un roadmap. Y su vocabulario ya incluye 'AI-native' y 'Agents are already here'. El ángulo de contacto correcto: no vender usuarios sino (a) el benchmark 10x reproducible, (b) por qué el harness de agentes es infraestructura que otros necesitarán, y (c) un equipo de dos o tres fundadores con tecnología, marketing y ventas cubiertos —ese es su check-list literal. Referencias obligadas: NeuralTrust, Theker y AnyFormat.",
+    "tesis_de_inversion": "Invierte en seed y Serie A liderando ronda, desde el Fondo IV de 120 M€ (dic-2025) cuyo mandato publicado es literalmente 'deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física y aplicaciones verticales, incluyendo defensa y espacio'. El vehículo co-invertido con CDTI se registra como 'Kibo Ventures Fund IV Innvierte', un fondo declarado deep tech. Su filtro personal lo ha explicado sin rodeos: 'Miramos que el producto tenga una ventaja en algo de +10 en algún aspecto' —diez veces más rápido, mejor o más barato que la alternativa—, 'Buscamos capacidad de ejecución, que sean capaces no tanto de decir sino de hacer', 'Nos gustan más dos o tres fundadores que uno solo' y 'Miramos que esté compensado: debe haber tecnología, pero también marketing y ventas'. Rechaza el corto plazo: 'Montar una compañía para que nos compre alguien es la receta del desastre'. Y sobre el recurso escaso: 'Hay más capital que buenas ideas, el recurso escaso es el talento'. Sobre IA y agentes su posición pública más reciente (LinkedIn, junio de 2026, al invertir en NeuralTrust) es que la compañía está 'at the intersection of two of the industries where we have vast experience: AI and cybersecurity', que 'Agents are already here' y que su papel es asegurarse de que 'they are safe'. También describe a Theker como 'AI-native generalist robots that adapt in real time': el adjetivo 'AI-native' es vocabulario suyo.",
+    "etapa_y_ticket": [
+      "Seed y Serie A, liderando ronda. Con el Fondo IV (120 M€, anunciado el 15 de diciembre de 2025) Kibo declara públicamente un ticket inicial de en torno a 5 M€ en rondas de fase inicial y reserva el 40% del fondo para follow-on (fuentes: webcapitalriesgo.com, Forbes España, El Español, Demócrata). El perfil del fondo en Fund Momentum lo resume como 'Seed/Series A' y define su sweet spot como 'technical European founder building deep tech or AI outside major VC hubs at Seed/Series A'. Operaciones reales de 2025-2026 confirman ese rango: seed de ~21 M€ en Theker (liderada por Kibo), ronda de 9,25 M€ en FOSSA Systems (liderada por Aquilino Peña, que entró al consejo), seed de 17,2 M€ en NeuralTrust (participación, no liderazgo) y ~3,3 M€ en AnyFormat. Conclusión honesta: 5 M€ de primer cheque es un ticket alto; no es un fondo de pre-seed de 200-500 k€."
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "id": "oscar-salazar",
   "nombre": "Oscar Salazar Gaitán",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 65,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "media",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,29 @@
   "ciudad_base": "Nueva York, EE.UU. (origen mexicano; actividad entre EE.UU., México, Brasil y Europa)",
   "tipo_inversor": "Business angel",
   "tipo_inversor_detalle": "Business angel",
-  "etapa_y_ticket": "Pre-seed y seed, mayoritariamente rondas semilla de 1,5-3 M USD en las que entra como ángel junto a fondos europeos y latinoamericanos. No publica ticket. CB Insights le atribuye 16 inversiones y PitchBook 21; el rango habitual de un ángel de su perfil en rondas de ese tamaño es de decenas de miles de USD, pero NO está confirmado públicamente. Nunca lidera ni fija precio: su nombre aparece como ángel de referencia técnica.",
+  "etapa_y_ticket": [
+    "Pre-seed y seed como ángel en rondas de 1,5-3M USD lideradas por fondos europeos o latinoamericanos.",
+    "Ticket no publicado (previsiblemente decenas de miles de USD); nunca lidera.",
+    "16-21 inversiones según CB Insights y PitchBook; última confirmada junio de 2024."
+  ],
   "linkedin": "",
   "linkedin_nota": "",
   "otros_perfiles": "Ficha en el fondo: https://consello.com/leaders/oscar-salazar/ | Nota de nombramiento: https://consello.com/news/consello-appoints-oscar-salazar-president-of-consello-tech/ | The Org: https://theorg.com/org/consello/org-chart/oscar-salazar | Crunchbase: https://www.crunchbase.com/person/oscar-salazar | CB Insights: https://www.cbinsights.com/investor/oscar-salazar | PitchBook: https://pitchbook.com/profiles/investor/135958-51 | Ficha de conferenciante (ES): https://www.divulga.com.mx/conferencista/oscar-salazar/ | World Retail Congress 2026: https://www.worldretailcongress.com/speakers/oscar-salazar\n\nLinkedIn personal no localizado en fuentes públicas (verificado por el orquestador).",
   "email": "info@consello.com",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "https://consello.com/leaders/oscar-salazar/ publica únicamente el buzón corporativo info@consello.com. No hay email personal en ninguna fuente pública (web del fondo, prensa, papers, fichas de conferenciante). No se propone patrón porque Consello no publica direcciones nominales de ningún socio. | no encontrado. El único buzón público asociado es el genérico del fondo:  (Consello, 590 Madison Avenue, Nueva York, NY 10022; tel. +1 212-884-9304",
-  "tesis_de_inversion": "Salazar no publica una tesis escrita, pero su cartera dibuja un patrón nítido y muy alineado con deep tech: entra en fase semilla en compañías de infraestructura de datos e IA de base científica y código abierto, normalmente europeas o latinoamericanas, y normalmente antes de que tengan clientes de referencia. Los dos casos mejor documentados son Qbeast (spin-off del Barcelona Supercomputing Center, indexación open source para data lakes; seed de 2,5-2,65 M € en febrero de 2023 liderada por Elaia, con Inveready y Sabadell Venture Capital) y Giskard (plataforma open source de calidad y testing de modelos de IA; primera ronda de 1,5 M € en diciembre de 2022 liderada por Elaia con Bessemer). En ambos casos el titular de prensa fue precisamente su nombre: 'Uber's founding CTO is backing Qbeast's data lake engineering platform' (Tech.eu). Su discurso público se centra en transformación digital de industrias legacy y en el papel de la IA: en el anuncio de Consello Tech afirma que 'Predictive analytics and strategic use of data science and machine learning is required to change the face of financial and advisory services', y en entrevistas en español ha sostenido que la inteligencia artificial será la punta de lanza de la disrupción tecnológica en transporte, educación y salud.",
+  "por_que_es_interesante": [
+    "Qbeast y Giskard: infraestructura open source de datos e IA, financiada antes de clientes de referencia; su nombre encabezó las notas de prensa.",
+    "Doctor en telecomunicaciones y arquitecto del sistema original de Uber: evalúa arquitectura sin pedir usuarios.",
+    "Español nativo con presencia mediática en México y España.",
+    "Ángulo: diagrama del harness y por qué el stack actual no escala, replicando el marco 'open source que mejora la capa de datos' que ya compró dos veces."
+  ],
+  "tesis_de_inversion": [
+    "Sin tesis escrita; patrón nítido: semilla en infraestructura de datos e IA de base científica y open source, antes de clientes de referencia.",
+    "Qbeast (seed 2,5M€ liderada por Elaia, 2023) y Giskard (1,5M€ liderada por Elaia con Bessemer, 2022).",
+    "Discurso: transformación digital de industrias legacy; 'predictive analytics and strategic use of data science and ML' como motor de cambio."
+  ],
   "antecedentes": "Mexicano. Licenciado en Ciencias por la Universidad de Colima (México), M.Sc. en Ingeniería Eléctrica y de Computación por la University of Calgary (Canadá) y doctorado en Telecomunicaciones por ParisTech (Francia). Fue el Founding CTO y tercer cofundador de Uber junto a Garrett Camp y Travis Kalanick: construyó los prototipos de la app de pasajero, la de conductor y el motor de despacho, y diseñó la arquitectura inicial. Salió de Uber poco después del lanzamiento. Fundó Citivox (plataforma para que ONG y ciudadanos reporten fraude electoral, crimen y problemas de infraestructura), Pager (telemedicina bajo demanda, 'el Uber de la salud') y RIDE (carpooling corporativo). Ha sido inversor, asesor o fundador en Pager, Rubicon Global, Cornershop, Voyager Digital, Frete.com, Socure, Clover Health y Halan (Egipto, donde además entró al consejo). Ocupa asientos de consejo en Cargo X, Rubicon, nirvanaHealth y Food Delivery Brands (matriz de Telepizza). Desde febrero de 2023 es Partner de Consello y Presidente de Consello Tech, el brazo tecnológico del grupo de asesoría financiera fundado por Declan Kelly, donde dirige la construcción de plataformas de ML y IA generativa para asesoría de inversión.",
-  "por_que_es_interesante": "Es el perfil del lote con la evidencia más limpia de apuesta deep tech pre-tracción: puso su nombre en Qbeast —spin-off de un centro de supercomputación, indexación open source de data lakes, sin producto comercial maduro— y en Giskard —testing open source de modelos de IA, ronda de 1,5 M € en 2022, cuando la categoría no existía. Ambas son compañías de infraestructura con moat técnico y horizonte largo, exactamente el tipo que el cliente dice que los inversores generalistas rechazan. Además es doctor en telecomunicaciones y arquitecto del sistema original de Uber: puede evaluar una demo de arquitectura sin pedir usuarios. Es hablante nativo de español con presencia mediática en México y España. Ángulo de contacto: entrar por la arquitectura, no por el mercado — enseñarle el diagrama del harness de agentes y el argumento de por qué el stack actual no escala, replicando el marco 'infraestructura open source que mejora el rendimiento de la capa de datos' que ya compró dos veces.",
   "inversiones_relevantes": [
     "Qbeast (feb-2023, seed 2,5-2,65 M €, indexación open source para data lakes, spin-off del Barcelona Supercomputing Center) — deep tech puro, español, open source, sin escala comercial; su nombre encabezó el titular de prensa de la ronda",
     "Giskard (dic-2022, seed 1,5 M €, plataforma open source de testing/QA y guardrails de modelos de IA) — invirtió en evaluación de modelos antes de que la categoría existiera; coinvirtió con Julien Chaumond (CTO de Hugging Face) y Charles Gorintin (CTO de Alan)",
@@ -76,17 +89,36 @@
     "https://www.bsc.es/news/bsc-news/qbeast-raises-%E2%82%AC25m-make-data-lakes-fast-and-easy-use"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 22,
+      "etapa": 17,
+      "decision": 8,
+      "espanol": 15,
+      "acceso": 6,
+      "ajuste": -3,
+      "bruto": 65,
+      "topes": [],
+      "total": 65
+    },
+    "motivo": "La evidencia más limpia de apuesta deep tech pre-tracción del lote: puso su nombre en Qbeast (spin-off del BSC, indexación open source) y Giskard (testing open source de modelos) cuando no había categoría; arquitecto original de Uber, mexicano. Pero cuatro o cinco operaciones en cinco años (última 2024), sin vehículo, ticket desconocido, sin LinkedIn ni email, y dedicación a Consello.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "media",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "media",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Qbeast y Giskard son infra open source de datos e IA pre-tracción y es arquitecto de sistemas real, mexicano; pero cuatro o cinco operaciones en cinco años (última confirmada jun-2024), sin vehículo, ticket desconocido, sin LinkedIn localizable y dedicación a Consello."
+    "motivo_v1": "Qbeast y Giskard son infra open source de datos e IA pre-tracción y es arquitecto de sistemas real, mexicano; pero cuatro o cinco operaciones en cinco años (última confirmada jun-2024), sin vehículo, ticket desconocido, sin LinkedIn localizable y dedicación a Consello."
   },
   "nombre_original": "Oscar Salazar Gaitán",
-  "email_original": "no encontrado. El único buzón público asociado es el genérico del fondo: info@consello.com (Consello, 590 Madison Avenue, Nueva York, NY 10022; tel. +1 212-884-9304)"
+  "email_original": "no encontrado. El único buzón público asociado es el genérico del fondo: info@consello.com (Consello, 590 Madison Avenue, Nueva York, NY 10022; tel. +1 212-884-9304)",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el perfil del lote con la evidencia más limpia de apuesta deep tech pre-tracción: puso su nombre en Qbeast —spin-off de un centro de supercomputación, indexación open source de data lakes, sin producto comercial maduro— y en Giskard —testing open source de modelos de IA, ronda de 1,5 M € en 2022, cuando la categoría no existía. Ambas son compañías de infraestructura con moat técnico y horizonte largo, exactamente el tipo que el cliente dice que los inversores generalistas rechazan. Además es doctor en telecomunicaciones y arquitecto del sistema original de Uber: puede evaluar una demo de arquitectura sin pedir usuarios. Es hablante nativo de español con presencia mediática en México y España. Ángulo de contacto: entrar por la arquitectura, no por el mercado — enseñarle el diagrama del harness de agentes y el argumento de por qué el stack actual no escala, replicando el marco 'infraestructura open source que mejora el rendimiento de la capa de datos' que ya compró dos veces.",
+    "tesis_de_inversion": "Salazar no publica una tesis escrita, pero su cartera dibuja un patrón nítido y muy alineado con deep tech: entra en fase semilla en compañías de infraestructura de datos e IA de base científica y código abierto, normalmente europeas o latinoamericanas, y normalmente antes de que tengan clientes de referencia. Los dos casos mejor documentados son Qbeast (spin-off del Barcelona Supercomputing Center, indexación open source para data lakes; seed de 2,5-2,65 M € en febrero de 2023 liderada por Elaia, con Inveready y Sabadell Venture Capital) y Giskard (plataforma open source de calidad y testing de modelos de IA; primera ronda de 1,5 M € en diciembre de 2022 liderada por Elaia con Bessemer). En ambos casos el titular de prensa fue precisamente su nombre: 'Uber's founding CTO is backing Qbeast's data lake engineering platform' (Tech.eu). Su discurso público se centra en transformación digital de industrias legacy y en el papel de la IA: en el anuncio de Consello Tech afirma que 'Predictive analytics and strategic use of data science and machine learning is required to change the face of financial and advisory services', y en entrevistas en español ha sostenido que la inteligencia artificial será la punta de lanza de la disrupción tecnológica en transporte, educación y salud.",
+    "etapa_y_ticket": [
+      "Pre-seed y seed, mayoritariamente rondas semilla de 1,5-3 M USD en las que entra como ángel junto a fondos europeos y latinoamericanos. No publica ticket. CB Insights le atribuye 16 inversiones y PitchBook 21; el rango habitual de un ángel de su perfil en rondas de ese tamaño es de decenas de miles de USD, pero NO está confirmado públicamente. Nunca lidera ni fija precio: su nombre aparece como ángel de referencia técnica."
+    ]
+  }
 }

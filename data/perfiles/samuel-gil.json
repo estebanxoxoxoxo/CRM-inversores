@@ -1,8 +1,8 @@
 {
   "id": "samuel-gil",
   "nombre": "Samuel Gil",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
+  "nivel": 81,
+  "banda": "Indiscutible",
   "prioridad": "A",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Madrid, España (JME tiene además oficina en Barcelona desde el Fondo III)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Seed como etapa declarada, con entradas reales en pre-seed. La web del fondo dice literalmente: 'We invest from €100k to €3m' y describe su histórico como 'investing between €0.5-2m since 2012' (https://www.jme.vc/). El fondo declara 'over €120m AUM' repartidos en cuatro fondos desde 2012; el vehículo vigente es JME Ventures IV, FCRE, registrado en la CNMV en noviembre de 2024 (folleto informativo en cnmv.es). Co-lidera rondas con frecuencia: en Altan co-lideró un pre-seed de 2,5 M$ junto a VentureFriends (sept. 2025). El tamaño exacto del Fondo IV no está publicado: no confirmado.",
+  "etapa_y_ticket": [
+    "Seed declarado, con entradas reales en pre-seed; co-lidera con frecuencia.",
+    "'We invest from €100k to €3m'; histórico de 0,5-2M€ desde 2012.",
+    "JME Ventures IV (CNMV, nov-2024), tamaño no publicado; >120M€ AUM en cuatro fondos."
+  ],
   "linkedin": "https://es.linkedin.com/in/samuelgil",
   "linkedin_nota": "",
   "otros_perfiles": "Newsletter propia 'Suma Positiva' (la fuente más valiosa para entenderle): https://www.sumapositiva.com — archivo en https://www.sumapositiva.com/archive | X/Twitter: https://x.com/samuelgil (~38,9K posts) | Web del fondo: https://www.jme.vc/ | Crunchbase: https://www.crunchbase.com/person/samuel-gil | Signal NFX: https://signal.nfx.com/investors/samuel-gil | Kauffman Fellows: https://www.kauffmanfellows.org/fellows/samuel-gil | LinkedIn del fondo: https://es.linkedin.com/company/jme-venture-capital | Podcast Product Hackers #147: https://producthackers.com/es/podcast/147-suma-positiva-venture-capital-samuel-gil/ | Entrevista Views by Pol #37: https://www.viewsbypol.com/p/37-samuel-gil-desentranando-la-artesania | Entrevista larga en Jot Down (2021): https://www.jotdown.es/2021/09/samuel-gil/",
   "email": "nombre@jme.vc",
   "email_estado": "público (ver fuente)",
   "email_fuente": "https://www.jme.vc/ — la única vía de contacto publicada por el fondo es el formulario https://form.typeform.com/to/xewK4oit. Ninguna fuente pública consultada (web del fondo, prensa, CNMV, Crunchbase, podcasts) expone una dirección individual de Samuel Gil. Los agregadores tipo RocketReach/ContactOut aparecen en resultados de búsqueda pero son bases de datos de scraping de pago, no fuentes públicas verificables, y no se han usado. | No encontrado como dirección individual pública. La vía de entrada oficial y explícita que publica el propio fondo es un typeform: https://form.typeform.com/to/xewK4oit . Vía alternativa real y muy usada en el ecosistema: responder directamente a un envío de la newsletter Suma Positiva (Substack entrega la respuesta al autor). No se ha localizado ningún  publicado en fuentes primarias, por lo que NO se propone patrón: hacerlo sería inventar",
-  "tesis_de_inversion": "Invierte en seed (con entradas en pre-seed) en tecnología española o fundada por españoles, con tickets de 100 K€ a 3 M€. Su criterio es explícitamente humano y no métrico: 'Si has hecho los deberes, valoro más la intuición que las decisiones basadas puramente en datos', y lo primero que busca es 'entender de dónde sale el insight. ¿Qué han hecho previamente los founders? ¿Por qué están bien posicionados?' (Views by Pol #37, 19/03/2024). En fundadores busca 'una gran orientación hacia la acción. Ingenio puesto en marcha para resolver problemas concretos' y personas 'capaces de evolucionar con la compañía y construir grandes equipos alrededor suyo'. Su visión de IA es la parte más relevante y está documentada semana a semana en Suma Positiva: sostiene que 'en un mundo de abundancia de agentes, las herramientas de workflow deben cambiar' y que 'si no puedes convertirte en una empresa de agentes, tu negocio tiene futuro reducido' (#264, 07/03/2026). Sobre modelos de negocio en la era agéntica escribe: 'Si vendes la herramienta, compites contra los modelos. Si vendes el trabajo...' y 'Programar es inteligencia. Decidir qué programar es juicio' (#265, 14/03/2026). ATENCIÓN a un matiz que va contra el discurso del cliente: también ha dicho que 'la velocidad de ejecución e ir de prisa es más importante que la ventaja competitiva super defendible'. No es un inversor de moat: es un inversor de velocidad y de insight.",
+  "por_que_es_interesante": [
+    "Ya respaldó con dinero la tesis exacta: Altan (pre-seed 2,5M USD co-liderada, sept-2025), agentes que diseñan, construyen y despliegan software de producción.",
+    "Escribe cada semana sobre el fin del SaaS CRUD, 'vender trabajo, no software' y copilots que se vuelven autopilots (Suma Positiva #264, #265).",
+    "Su filtro es el insight y el porqué del equipo, no las métricas: 'valoro más la intuición que las decisiones puramente basadas en datos'.",
+    "Ángulo: responder a una edición concreta de Suma Positiva explicando en qué se parece y en qué se diferencia el harness de Altan; llevar arquitectura e historia del equipo."
+  ],
+  "tesis_de_inversion": [
+    "Seed y pre-seed en tecnología española o de españoles, 100k-3M€; 'entender de dónde sale el insight' antes que los datos.",
+    "Fundadores con orientación a la acción, ingenio y capacidad de construir equipos.",
+    "IA: 'si no puedes convertirte en una empresa de agentes, tu negocio tiene futuro reducido'; 'si vendes la herramienta, compites contra los modelos; si vendes el trabajo...'.",
+    "Matiz contra el discurso del cliente: 'la velocidad de ejecución es más importante que la ventaja competitiva super defendible'."
+  ],
   "antecedentes": "Ingeniero de Telecomunicación por la Universidad Politécnica de Madrid; Master of Science in Information Technology por la Universidad de Stuttgart (Alemania); Executive MBA por IESE Business School; titular de la certificación CFA. Antes del capital riesgo trabajó como consultor tecnológico en Accenture y como Energy Trading Manager en Iberdrola. Su primera etapa inversora fue como Investment Manager en Faraday Venture Partners. En 2014 se incorporó a JME Ventures, el vehículo de venture capital ligado a la Fundación José Manuel Entrecanales (presidente de Acciona): 'Estoy infinitamente agradecido a José Manuel Entrecanales por haberme dado la oportunidad de entrar en JME en el año 2014' (El Español, 09/02/2023). Fue director de inversiones y, en febrero-abril de 2023, se anunció su nombramiento como CEO dentro del relevo generacional del fondo; hoy figura como CEO & General Partner. Es Kauffman Fellow. Desde 2016-2017 escribe 'Suma Positiva', newsletter semanal en español que ronda los 26.000-30.000 suscriptores y que se ha convertido en su principal herramienta de marca personal y de originación de dealflow. El equipo actual de JME lo completan Lourdes Álvarez de Toledo (Partner), Iván Landabaso (Partner), Pepe Vilanova (Principal), Jordi Noguera (Associate) y Jaime Santamaría (CFO).",
-  "por_que_es_interesante": "Es, probablemente, el inversor español que mejor entiende de forma explícita la tesis exacta del cliente, y ya la ha respaldado con dinero. En septiembre de 2025 JME co-lideró el pre-seed de 2,5 M$ de Altan (Barcelona), una plataforma 'agent-native' que orquesta equipos de agentes de IA —ingenieros full-stack, diseñadores UX, product managers— para diseñar, construir y desplegar software listo para producción que después opera solo. Es literalmente un harness de desarrollo con nube de agentes, financiado en pre-seed, sin tracción de mercado. Además, Samuel escribe cada semana sobre exactamente este problema: la revolución agéntica, el fin del SaaS CRUD, 'vender trabajo, no software', copilots que se convierten en autopilots. El ángulo de contacto es evidente y no admite genéricos: escribirle un correo (o responder a Suma Positiva) que dialogue con una edición concreta —#264 o #265— y le explique en qué se parece y en qué se diferencia el harness del cliente respecto a Altan. Su filtro declarado es el insight y el porqué del equipo, no las métricas: hay que llevar la arquitectura y la historia de por qué estos fundadores, no un dashboard.",
   "inversiones_relevantes": [
     "Altan (sept. 2025, pre-seed 2,5 M$ co-liderado por JME y VentureFriends; Barcelona; plataforma agent-native que orquesta equipos de agentes de IA para diseñar, construir y desplegar software listo para producción) — es el deal más parecido que existe en España a lo que hace el cliente: cheque de co-líder a una compañía de un año, sin tracción, puramente tesis. Cita obligada en el primer contacto (y posible conflicto a abordar de frente).",
     "QuiverAI (feb. 2026, ronda de 8,3 M$ liderada por Andreessen Horowitz con Mission, Kfund y JME) — demuestra que JME entra pronto en IA y que sus compañías atraen después a fondos de primer nivel de EE. UU.",
@@ -89,17 +103,36 @@
     "https://elreferente.es/directorio/jme-venture-capital/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 22,
+      "etapa": 19,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 11,
+      "ajuste": -6,
+      "bruto": 81,
+      "topes": [],
+      "total": 81
+    },
+    "motivo": "Co-lideró en pre-seed (2,5M USD, sin tracción) Altan, una plataforma agent-native que orquesta agentes para construir y desplegar software de producción, y escribe cada semana sobre la revolución agéntica en Suma Positiva; Fondo IV casi íntegramente IA. Reservas serias: conflicto de cartera con Altan y su afirmación de que la velocidad importa más que el moat.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Co-lideró la pre-seed de 2,5M de Altan (agentes que construyen software de producción) sin tracción; Fondo IV casi íntegramente IA; ingeniero que escribe sobre la revolución agéntica. Reservas serias: conflicto de cartera con Altan y su cita de que la velocidad importa más que el moat."
+    "motivo_v1": "Co-lideró la pre-seed de 2,5M de Altan (agentes que construyen software de producción) sin tracción; Fondo IV casi íntegramente IA; ingeniero que escribe sobre la revolución agéntica. Reservas serias: conflicto de cartera con Altan y su cita de que la velocidad importa más que el moat."
   },
   "nombre_original": "Samuel Gil",
-  "email_original": "No encontrado como dirección individual pública. La vía de entrada oficial y explícita que publica el propio fondo es un typeform: https://form.typeform.com/to/xewK4oit . Vía alternativa real y muy usada en el ecosistema: responder directamente a un envío de la newsletter Suma Positiva (Substack entrega la respuesta al autor). No se ha localizado ningún nombre@jme.vc publicado en fuentes primarias, por lo que NO se propone patrón: hacerlo sería inventar."
+  "email_original": "No encontrado como dirección individual pública. La vía de entrada oficial y explícita que publica el propio fondo es un typeform: https://form.typeform.com/to/xewK4oit . Vía alternativa real y muy usada en el ecosistema: responder directamente a un envío de la newsletter Suma Positiva (Substack entrega la respuesta al autor). No se ha localizado ningún nombre@jme.vc publicado en fuentes primarias, por lo que NO se propone patrón: hacerlo sería inventar.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es, probablemente, el inversor español que mejor entiende de forma explícita la tesis exacta del cliente, y ya la ha respaldado con dinero. En septiembre de 2025 JME co-lideró el pre-seed de 2,5 M$ de Altan (Barcelona), una plataforma 'agent-native' que orquesta equipos de agentes de IA —ingenieros full-stack, diseñadores UX, product managers— para diseñar, construir y desplegar software listo para producción que después opera solo. Es literalmente un harness de desarrollo con nube de agentes, financiado en pre-seed, sin tracción de mercado. Además, Samuel escribe cada semana sobre exactamente este problema: la revolución agéntica, el fin del SaaS CRUD, 'vender trabajo, no software', copilots que se convierten en autopilots. El ángulo de contacto es evidente y no admite genéricos: escribirle un correo (o responder a Suma Positiva) que dialogue con una edición concreta —#264 o #265— y le explique en qué se parece y en qué se diferencia el harness del cliente respecto a Altan. Su filtro declarado es el insight y el porqué del equipo, no las métricas: hay que llevar la arquitectura y la historia de por qué estos fundadores, no un dashboard.",
+    "tesis_de_inversion": "Invierte en seed (con entradas en pre-seed) en tecnología española o fundada por españoles, con tickets de 100 K€ a 3 M€. Su criterio es explícitamente humano y no métrico: 'Si has hecho los deberes, valoro más la intuición que las decisiones basadas puramente en datos', y lo primero que busca es 'entender de dónde sale el insight. ¿Qué han hecho previamente los founders? ¿Por qué están bien posicionados?' (Views by Pol #37, 19/03/2024). En fundadores busca 'una gran orientación hacia la acción. Ingenio puesto en marcha para resolver problemas concretos' y personas 'capaces de evolucionar con la compañía y construir grandes equipos alrededor suyo'. Su visión de IA es la parte más relevante y está documentada semana a semana en Suma Positiva: sostiene que 'en un mundo de abundancia de agentes, las herramientas de workflow deben cambiar' y que 'si no puedes convertirte en una empresa de agentes, tu negocio tiene futuro reducido' (#264, 07/03/2026). Sobre modelos de negocio en la era agéntica escribe: 'Si vendes la herramienta, compites contra los modelos. Si vendes el trabajo...' y 'Programar es inteligencia. Decidir qué programar es juicio' (#265, 14/03/2026). ATENCIÓN a un matiz que va contra el discurso del cliente: también ha dicho que 'la velocidad de ejecución e ir de prisa es más importante que la ventaja competitiva super defendible'. No es un inversor de moat: es un inversor de velocidad y de insight.",
+    "etapa_y_ticket": [
+      "Seed como etapa declarada, con entradas reales en pre-seed. La web del fondo dice literalmente: 'We invest from €100k to €3m' y describe su histórico como 'investing between €0.5-2m since 2012' (https://www.jme.vc/). El fondo declara 'over €120m AUM' repartidos en cuatro fondos desde 2012; el vehículo vigente es JME Ventures IV, FCRE, registrado en la CNMV en noviembre de 2024 (folleto informativo en cnmv.es). Co-lidera rondas con frecuencia: en Altan co-lideró un pre-seed de 2,5 M$ junto a VentureFriends (sept. 2025). El tamaño exacto del Fondo IV no está publicado: no confirmado."
+    ]
+  }
 }

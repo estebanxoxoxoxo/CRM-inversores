@@ -1,8 +1,8 @@
 {
   "id": "alejandro-guerrero",
   "nombre": "Alejandro Guerrero",
-  "nivel": "1",
-  "nivel_etiqueta": "1 - Indiscutible (pureza)",
+  "nivel": 78,
+  "banda": "Indiscutible",
   "prioridad": "A",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,30 @@
   "ciudad_base": "San Francisco, California, EE.UU. (el fondo está anclado en Los Ángeles y San Francisco; su ficha de equipo lo sitúa en San Francisco)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional (fondo pequeño / micro-VC que lidera)",
-  "etapa_y_ticket": "Pre-seed y seed, liderando la ronda. La web del fondo declara cheques de 1M a 3M USD y unas 7 nuevas inversiones al año (https://www.actoneventures.com/). VC Sheet, con datos algo más antiguos, cifra el cheque en 300.000-1.000.000 USD (https://www.vcsheet.com/who/alejandro-alex-guerrero); la diferencia refleja el salto de tamaño entre fondos. Fondo vigente: Act One Ventures Fund III, 73M USD, cerrado en enero de 2024 (más del triple que el Fund II, de 23M USD), con 148M USD de capital total levantado en nueve años, más de 60 empresas en cartera y 5 salidas, entre ellas AuditBoard (vendida a Hg por 3.150M USD en 2024).",
+  "etapa_y_ticket": [
+    "Pre-seed y seed, liderando la ronda.",
+    "Cheques de 1-3M USD; unas 7 nuevas inversiones al año.",
+    "Fund III de 73M USD (ene-2024); 148M USD levantados en nueve años, 60+ empresas, 5 salidas (AuditBoard)."
+  ],
   "linkedin": "https://www.linkedin.com/in/alguerrero/",
   "linkedin_nota": "",
   "otros_perfiles": "Web del fondo: https://www.actoneventures.com/ | Equipo: https://www.actoneventures.com/team | Cartera: https://www.actoneventures.com/portfolio | X/Twitter: https://x.com/aguerrerovc | LinkedIn del fondo: https://www.linkedin.com/company/act-one-ventures-lp/ | Podcast LA Venture (dot.LA): https://dot.la/act-one-ventures-diversity-rider-2654856118.html | Perfil VC Sheet: https://www.vcsheet.com/who/alejandro-alex-guerrero",
   "email": "info@actoneventures.com",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "Publicado en la página de contacto del fondo: https://www.actoneventures.com/contact . Es el buzón corporativo, no su email personal; el fondo no publica direcciones individuales y no hay evidencia pública de un patrón, por lo que NO se propone uno inventado. La página invita directamente a los fundadores a enviar su pitch por ahí. | buzón público del fondo, con la invitación explícita “Send us your pitch”",
-  "tesis_de_inversion": "Act One Ventures invierte en “extraordinary founders building AI-native enterprise platforms” con una premisa que la web enuncia sin ambigüedad: “AI isn’t just another wave of software, it’s a new computing paradigm” que está reconstruyendo desde cero los sistemas centrales de las empresas. La formulación del Fund III es más operativa: buscan empresas que construyen la siguiente generación de plataformas empresariales “using AI-native systems with strong data leverage, deep automation, and a clear wedge into critical workflows”, en fintech y pagos, comercio y logística, y compliance y riesgo. El modelo es de convicción y no de dispersión: “fewer bets, deeper relationships”, unas siete nuevas inversiones al año, liderando pre-seed y seed y siguiendo de cerca a la empresa con una red de operating partners (entre ellos David Chaiken, exarquitecto jefe de Pinterest y exCTO de Altiscale y SAP, que aporta criterio técnico real). Alrededor del 70% de la cartera está liderada por mujeres y fundadores de grupos infrarrepresentados, y el 60% de las empresas ha llegado a Serie B o C. Guerrero es además el autor del Diversity Rider, un anexo de term sheet que reserva parte de cada ronda para inversores infrarrepresentados.",
+  "por_que_es_interesante": [
+    "Tesis del fondo casi literal al discurso del cliente: 'AI is a new computing paradigm' que obliga a reconstruir los sistemas centrales.",
+    "Co-lideró la pre-seed de 2,25M USD de Optimal AI: agentes que automatizan compliance dentro de las herramientas de desarrollo.",
+    "Lidera pre-seed y seed con 1-3M USD y unas 7 inversiones al año; mexicano-estadounidense de primera generación con varias latinoamericanas en cartera.",
+    "Buzón abierto con 'Send us your pitch'. Ángulo: citar su frase del paradigma, enseñar el harness y posicionar la ronda como pre-seed liderada."
+  ],
+  "tesis_de_inversion": [
+    "'AI isn't just another wave of software, it's a new computing paradigm' que reconstruye desde cero los sistemas centrales de las empresas.",
+    "Fund III: plataformas empresariales AI-native con data leverage, automatización profunda y 'a clear wedge into critical workflows' (fintech y pagos, comercio y logística, compliance y riesgo).",
+    "'Fewer bets, deeper relationships': ~7 inversiones al año, liderando pre-seed y seed, con operating partners técnicos (ex-arquitecto jefe de Pinterest).",
+    "Autor del Diversity Rider; ~70% de la cartera liderada por fundadores infrarrepresentados."
+  ],
   "antecedentes": "Mexicano-estadounidense de primera generación, criado en un hogar de bajos ingresos; en el podcast LA Venture atribuye su trayectoria a mentores que “abrieron la puerta” y le guiaron a través de ella cuando él mismo no veía su propio potencial. Antes de invertir fundó dos empresas de software: fue CEO y fundador de UniqApp y cofundador de Live Entertainment Network. Entró en el mundo del capital riesgo como Associate en el UCLA VC Fund, donde conoció a Michael Silton —fundador y CEO de Rainmaker Systems (empresa cotizada) y de UniDirect Systems (vendida a Avnet)—, que fue quien le propuso levantar un fondo juntos. Fundaron Act One Ventures en 2015 en Los Ángeles. En 2020, tras el asesinato de George Floyd, creó el Diversity Rider, lanzado con diez firmas fundadoras entre las que estaban Greycroft y First Round Capital; el motivo, en sus palabras: “I just didn’t want this moment to be like thoughts and prayers”. Ha impulsado además esfuerzos concretos para meter dinero en manos de inversores negros y latinos, como la operación con Richie Serna (CEO de Finix, empresa de su cartera) que reservó 3M USD de una Serie B para inversores negros y latinx. El equipo del fondo incluye a Israel Muñoz como Principal, procedente de L’ATTITUDE y de Acrew Capital.",
-  "por_que_es_interesante": "Es el encaje más accionable de este lote. Su tesis de fondo dice literalmente que la IA es “un nuevo paradigma de computación” que obliga a reconstruir los sistemas centrales desde cero: es la misma frase que sostiene un stack IA-nativo. Lidera pre-seed —no acompaña— con cheques de 1 a 3 millones, y ya tiene en cartera una inversión de developer tools con agentes: Optimal AI, cuya pre-seed de 2,25M USD colideró en febrero de 2025, construye “agentes de IA que automatizan flujos de compliance directamente dentro de las herramientas de desarrollo que los equipos de ingeniería ya usan cada día”. Es mexicano-estadounidense de primera generación, ha construido su carrera abriendo puertas a fundadores latinos y su fondo tiene ya varias empresas latinoamericanas en cartera (Jelou, Kriptos, Glitzi, GroWrk, Lapzo). Y publica un buzón abierto con la invitación “Send us your pitch”. Ángulo de contacto: escribirle citando su propia frase del paradigma de computación, enseñar el harness y posicionar la operación como pre-seed liderada, mencionando Optimal AI como precedente en su propia cartera.",
   "inversiones_relevantes": [
     "Optimal AI (pre-seed de 2,25M USD, 20 de febrero de 2025, colíder junto a Chingona Ventures; agentes de IA que automatizan revisión de código y flujos de compliance dentro de las herramientas de desarrollo, con retención cero de datos) — LA referencia: developer tools + agentes + pre-seed + sin tracción.",
     "AuditBoard (seed liderada por Guerrero; plataforma de gestión de auditoría; vendida a Hg por 3.150M USD en 2024) — su gran salida; le da credibilidad y capital reputacional para levantar el siguiente fondo. Además arrastra una anécdota útil: le dijeron que “the market is too small”.",
@@ -77,17 +91,36 @@
     "https://www.crunchbase.com/person/alejandro-guerrero"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 17,
+      "etapa": 19,
+      "decision": 20,
+      "espanol": 8,
+      "acceso": 14,
+      "ajuste": 0,
+      "bruto": 78,
+      "topes": [],
+      "total": 78
+    },
+    "motivo": "Lidera pre-seed de 1-3M USD y ya co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción) con la tesis 'la IA es un nuevo paradigma de computación'. Reservas: no es fondo deep tech, pide un wedge comercial claro y su fluidez en español no está documentada.",
+    "nivel_v1": "1",
     "prioridad_agente": "A",
     "confianza_agente": "alta",
-    "prioridad_final": "A",
+    "prioridad_v1": "A",
     "confianza_final": "alta",
-    "nivel_final": "1",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Lidera pre-seed 1-3M; co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción); tesis 'AI es nuevo paradigma de computación'. Reserva: no es fondo deep tech y pide un wedge comercial claro."
+    "motivo_v1": "Lidera pre-seed 1-3M; co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción); tesis 'AI es nuevo paradigma de computación'. Reserva: no es fondo deep tech y pide un wedge comercial claro."
   },
   "nombre_original": "Alejandro Guerrero",
-  "email_original": "info@actoneventures.com (buzón público del fondo, con la invitación explícita “Send us your pitch”)"
+  "email_original": "info@actoneventures.com (buzón público del fondo, con la invitación explícita “Send us your pitch”)",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el encaje más accionable de este lote. Su tesis de fondo dice literalmente que la IA es “un nuevo paradigma de computación” que obliga a reconstruir los sistemas centrales desde cero: es la misma frase que sostiene un stack IA-nativo. Lidera pre-seed —no acompaña— con cheques de 1 a 3 millones, y ya tiene en cartera una inversión de developer tools con agentes: Optimal AI, cuya pre-seed de 2,25M USD colideró en febrero de 2025, construye “agentes de IA que automatizan flujos de compliance directamente dentro de las herramientas de desarrollo que los equipos de ingeniería ya usan cada día”. Es mexicano-estadounidense de primera generación, ha construido su carrera abriendo puertas a fundadores latinos y su fondo tiene ya varias empresas latinoamericanas en cartera (Jelou, Kriptos, Glitzi, GroWrk, Lapzo). Y publica un buzón abierto con la invitación “Send us your pitch”. Ángulo de contacto: escribirle citando su propia frase del paradigma de computación, enseñar el harness y posicionar la operación como pre-seed liderada, mencionando Optimal AI como precedente en su propia cartera.",
+    "tesis_de_inversion": "Act One Ventures invierte en “extraordinary founders building AI-native enterprise platforms” con una premisa que la web enuncia sin ambigüedad: “AI isn’t just another wave of software, it’s a new computing paradigm” que está reconstruyendo desde cero los sistemas centrales de las empresas. La formulación del Fund III es más operativa: buscan empresas que construyen la siguiente generación de plataformas empresariales “using AI-native systems with strong data leverage, deep automation, and a clear wedge into critical workflows”, en fintech y pagos, comercio y logística, y compliance y riesgo. El modelo es de convicción y no de dispersión: “fewer bets, deeper relationships”, unas siete nuevas inversiones al año, liderando pre-seed y seed y siguiendo de cerca a la empresa con una red de operating partners (entre ellos David Chaiken, exarquitecto jefe de Pinterest y exCTO de Altiscale y SAP, que aporta criterio técnico real). Alrededor del 70% de la cartera está liderada por mujeres y fundadores de grupos infrarrepresentados, y el 60% de las empresas ha llegado a Serie B o C. Guerrero es además el autor del Diversity Rider, un anexo de term sheet que reserva parte de cada ronda para inversores infrarrepresentados.",
+    "etapa_y_ticket": [
+      "Pre-seed y seed, liderando la ronda. La web del fondo declara cheques de 1M a 3M USD y unas 7 nuevas inversiones al año (https://www.actoneventures.com/). VC Sheet, con datos algo más antiguos, cifra el cheque en 300.000-1.000.000 USD (https://www.vcsheet.com/who/alejandro-alex-guerrero); la diferencia refleja el salto de tamaño entre fondos. Fondo vigente: Act One Ventures Fund III, 73M USD, cerrado en enero de 2024 (más del triple que el Fund II, de 23M USD), con 148M USD de capital total levantado en nueve años, más de 60 empresas en cartera y 5 salidas, entre ellas AuditBoard (vendida a Hg por 3.150M USD en 2024)."
+    ]
+  }
 }

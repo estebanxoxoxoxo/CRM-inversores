@@ -1,8 +1,8 @@
 {
   "id": "bernardo-hernandez",
   "nombre": "Bernardo Hernández",
-  "nivel": "x",
-  "nivel_etiqueta": "4 - Descartado (ver riesgos)",
+  "nivel": 38,
+  "banda": "Descartado",
   "prioridad": "C",
   "confianza": "alta",
   "region": "EE.UU. (hispanohablante)",
@@ -11,16 +11,29 @@
   "ciudad_base": "Nueva York, EE.UU. (residencia declarada en 2026; antes Madrid, España; nacido en Salamanca)",
   "tipo_inversor": "Business angel",
   "tipo_inversor_detalle": "Business angel (vehículo personal Solón Inversiones); no gestiona fondo de terceros en la actualidad",
-  "etapa_y_ticket": "No publica etapa ni ticket. Históricamente ha entrado como business angel en fase semilla y pre-semilla de startups españolas (Tuenti, Glovo, Wallapop, Fever, Paack, Citibox) y ocasionalmente en compañías estadounidenses (Stripe, Chalk.ai). Entre 2016 y 2020 fue General/Venture Partner de Headline (e.ventures), fondo global con oficinas en Berlín, París, San Francisco, Tokio y São Paulo, donde sí participaba en tickets institucionales. Dato de alerta: PitchBook registra su última inversión el 22 de agosto de 2023 (Founderz), es decir, no hay operaciones documentadas públicamente en 2024-2026.",
+  "etapa_y_ticket": [
+    "Ángel en seed y pre-seed de startups españolas (Tuenti, Glovo, Wallapop, Fever) y alguna estadounidense (Stripe, Chalk.ai).",
+    "Sin etapa ni ticket publicados; vehículo personal Solón Inversiones.",
+    "Última inversión registrada: agosto de 2023 (Founderz)."
+  ],
   "linkedin": "https://www.linkedin.com/in/bernardohernandez/",
   "linkedin_nota": "",
   "otros_perfiles": "Web personal: https://bernardohernandez.com | X/Twitter: https://x.com/berniehernie | Instagram: @berniehernie | Flickr: https://www.flickr.com/photos/bernzo/ | Wikipedia (es): https://es.wikipedia.org/wiki/Bernardo_Hernández_González | Ficha de conferenciante: https://grupobcc.com/speakers/bernardo-hernandez/ | Startupxplore: https://startupxplore.com/es/inversores/bernardo-hernandez",
   "email": "bernardo.hernandez@gmail.com",
   "email_estado": "público verificado",
   "email_fuente": "Publicado por él mismo, junto con su dirección postal (C. Santa Engracia 14, 28010 Madrid), en la sección de contacto de su web personal https://bernardohernandez.com",
-  "tesis_de_inversion": "Bernardo Hernández no publica una tesis formalizada: invierte como ángel con criterio de producto y distribución, muy influido por sus años como directivo de producto y marketing en Google. Su patrón histórico es claro: marketplaces y plataformas de consumo con efectos de red en España y Europa (idealista, Tuenti, Wallapop, Glovo, Fever, Paack, Citibox), más alguna posición en infraestructura estadounidense (Stripe, Chalk.ai). Su discurso público reciente sí se ha desplazado hacia la tecnología profunda: es asesor senior de SandboxAQ (IA y computación cuántica, spin-off de Alphabet) desde 2023 y asesor de OpenChip (proyecto español de chips), y da conferencias sobre 'cómo la inteligencia artificial, el quantum computing y la tecnología blockchain están transformando' el mundo empresarial. En 2024-2025 cofundó Pensero AI, una plataforma IA-nativa y privacy-first que mide en tiempo real el rendimiento de los equipos de ingeniería 'para que los managers no tengan que hacerlo', con una seed de unos 5-6 M USD en agosto de 2025 liderada por Mighty Capital. Al incorporarse al consejo asesor de la agencia Annie Bonnie (abril de 2026) declaró que 'las marcas necesitan socios capaces de entender tecnología, cultura y crecimiento al mismo tiempo'. En mayo de 2026 advirtió que el ritmo del cambio tecnológico supera la capacidad de preparación de las organizaciones.",
+  "por_que_es_interesante": [
+    "Pensero AI (cofundador) mide el rendimiento de equipos de ingeniería con IA: piensa a diario en el mismo problema y es usuario potencial del stack.",
+    "Asesor senior de SandboxAQ (IA + cuántica) y OpenChip: apetito por deep tech.",
+    "Red enorme en el ecosistema español; email personal público.",
+    "Ángulo: socio estratégico y puerta de entrada, con posible cheque ángel; no inversor principal."
+  ],
+  "tesis_de_inversion": [
+    "Sin tesis formal; invierte con criterio de producto y distribución aprendido en Google.",
+    "Patrón: marketplaces y plataformas de consumo con efectos de red en España y Europa.",
+    "Giro reciente a deep tech vía advisories (SandboxAQ, OpenChip) y Pensero AI (rendimiento de ingeniería, seed 5-6M USD, 2025)."
+  ],
   "antecedentes": "Nacido en Salamanca el 29 de diciembre de 1970. Licenciado en Ciencias Económicas y Empresariales (especialidad Finanzas) por ICADE-Universidad Pontificia Comillas (1993) y máster en Finanzas por Boston College (1995); es Chartered Financial Analyst (CFA) y doctor honoris causa en Arquitectura y Tecnología por la Universidad Camilo José Cela (2010). Empezó como analista y gestor de activos en Fidelity Investments, BBVA y Putnam Investments. En 2000 cofundó idealista.com, hoy el mayor portal inmobiliario de España, Italia y Portugal, del que salió en 2015. Entre 2005 y 2013 trabajó en Google, con responsabilidades globales en marketing y producto, y dirigió la adquisición e integración de Zagat. De 2013 a 2015 fue CEO de Flickr y vicepresidente senior de producto en Yahoo!. En 2015 fundó Verse (pagos móviles), que dirigió hasta su adquisición por Block (antes Square) en junio de 2020. Ha sido presidente del consejo de Tuenti y General/Venture Partner de Headline (e.ventures) entre 2016 y 2020. Actualmente es consejero de Mapfre USA (desde 2018), asesor senior de SandboxAQ (desde 2023) y de OpenChip, patrono de la Fundación Princesa de Girona y, desde 2024, cofundador de Pensero AI, con base en Nueva York. Premio Nacional de Innovación 2023 (categoría Trayectoria Profesional), GQ Hombre del Año 2013 y Premio Alan Turing LGTBIQ 2018.",
-  "por_que_es_interesante": "El ángulo más fuerte no es su cartera pasada sino lo que está construyendo ahora: Pensero AI es una plataforma IA-nativa que mide el rendimiento de equipos de ingeniería, es decir, un producto que vive exactamente en la misma capa que un harness de desarrollo con nube de agentes. Está pensando a diario en cómo cambia la productividad de ingeniería con IA, y su empresa es un usuario potencial obvio de un stack IA-nativo. Añade a eso su papel de asesor en SandboxAQ (IA + cuántica) y en OpenChip (chips), que muestra apetito por deep tech, y su enorme red en el ecosistema español. Pero hay que ser honesto: su historial inversor real es consumer y marketplaces, no infraestructura, y no se le documentan operaciones desde agosto de 2023. Lo razonable es contactarle como socio estratégico y puerta de entrada al ecosistema español, con la posibilidad de un cheque ángel, no como inversor principal.",
   "inversiones_relevantes": [
     "Chalk.ai (inversión ángel; plataforma de datos y feature engineering para machine learning) — la única posición documentada suya que se acerca a infraestructura de datos/IA",
     "Stripe (inversión ángel; infraestructura de pagos) — muestra apetito por infraestructura de desarrollador, aunque en fase ya avanzada",
@@ -72,17 +85,36 @@
     "https://www.crunchbase.com/funding_round/pensero-ai-seed--95a9dfe8"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 6,
+      "etapa": 8,
+      "decision": 4,
+      "espanol": 15,
+      "acceso": 10,
+      "ajuste": -5,
+      "bruto": 38,
+      "topes": [],
+      "total": 38
+    },
+    "motivo": "Cartera histórica consumer y marketplaces, sin operaciones documentadas desde agosto de 2023, sin fondo y operador a tiempo completo en Pensero AI, que vive en la misma capa que el harness (posible solapamiento). Puerta al ecosistema español, no capital.",
+    "nivel_v1": "x",
     "prioridad_agente": "C",
     "confianza_agente": "alta",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "alta",
-    "nivel_final": "x",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Cartera consumer (idealista, Tuenti, Glovo), sin operaciones desde 2023, sin fondo, operador a tiempo completo en Pensero AI con posible solapamiento."
+    "motivo_v1": "Cartera consumer (idealista, Tuenti, Glovo), sin operaciones desde 2023, sin fondo, operador a tiempo completo en Pensero AI con posible solapamiento."
   },
   "nombre_original": "Bernardo Hernández",
-  "email_original": "bernardo.hernandez@gmail.com"
+  "email_original": "bernardo.hernandez@gmail.com",
+  "textos_v1": {
+    "por_que_es_interesante": "El ángulo más fuerte no es su cartera pasada sino lo que está construyendo ahora: Pensero AI es una plataforma IA-nativa que mide el rendimiento de equipos de ingeniería, es decir, un producto que vive exactamente en la misma capa que un harness de desarrollo con nube de agentes. Está pensando a diario en cómo cambia la productividad de ingeniería con IA, y su empresa es un usuario potencial obvio de un stack IA-nativo. Añade a eso su papel de asesor en SandboxAQ (IA + cuántica) y en OpenChip (chips), que muestra apetito por deep tech, y su enorme red en el ecosistema español. Pero hay que ser honesto: su historial inversor real es consumer y marketplaces, no infraestructura, y no se le documentan operaciones desde agosto de 2023. Lo razonable es contactarle como socio estratégico y puerta de entrada al ecosistema español, con la posibilidad de un cheque ángel, no como inversor principal.",
+    "tesis_de_inversion": "Bernardo Hernández no publica una tesis formalizada: invierte como ángel con criterio de producto y distribución, muy influido por sus años como directivo de producto y marketing en Google. Su patrón histórico es claro: marketplaces y plataformas de consumo con efectos de red en España y Europa (idealista, Tuenti, Wallapop, Glovo, Fever, Paack, Citibox), más alguna posición en infraestructura estadounidense (Stripe, Chalk.ai). Su discurso público reciente sí se ha desplazado hacia la tecnología profunda: es asesor senior de SandboxAQ (IA y computación cuántica, spin-off de Alphabet) desde 2023 y asesor de OpenChip (proyecto español de chips), y da conferencias sobre 'cómo la inteligencia artificial, el quantum computing y la tecnología blockchain están transformando' el mundo empresarial. En 2024-2025 cofundó Pensero AI, una plataforma IA-nativa y privacy-first que mide en tiempo real el rendimiento de los equipos de ingeniería 'para que los managers no tengan que hacerlo', con una seed de unos 5-6 M USD en agosto de 2025 liderada por Mighty Capital. Al incorporarse al consejo asesor de la agencia Annie Bonnie (abril de 2026) declaró que 'las marcas necesitan socios capaces de entender tecnología, cultura y crecimiento al mismo tiempo'. En mayo de 2026 advirtió que el ritmo del cambio tecnológico supera la capacidad de preparación de las organizaciones.",
+    "etapa_y_ticket": [
+      "No publica etapa ni ticket. Históricamente ha entrado como business angel en fase semilla y pre-semilla de startups españolas (Tuenti, Glovo, Wallapop, Fever, Paack, Citibox) y ocasionalmente en compañías estadounidenses (Stripe, Chalk.ai). Entre 2016 y 2020 fue General/Venture Partner de Headline (e.ventures), fondo global con oficinas en Berlín, París, San Francisco, Tokio y São Paulo, donde sí participaba en tickets institucionales. Dato de alerta: PitchBook registra su última inversión el 22 de agosto de 2023 (Founderz), es decir, no hay operaciones documentadas públicamente en 2024-2026."
+    ]
+  }
 }

@@ -1,8 +1,8 @@
 {
   "id": "pep-martorell",
   "nombre": "Josep Maria 'Pep' Martorell Rodon",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 57,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Barcelona, España (Invivo Partners, Passeig de Gràcia 54)",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Pre-seed, seed y Serie A. Tickets iniciales de 2-4 M€ con follow-ons de hasta 10 M€ (según la propia web de Invivo Partners). Fondo Invivo Ventures AI: objetivo 100 M€, la web del gestor lo sitúa como 'launching H1 2026'. NO CONFIRMADO el primer cierre del fondo de IA: ni la nota de prensa de septiembre de 2025 ni la web del gestor anuncian cierre; el gestor sí tiene cerrados Invivo Ventures (60 M€, 2024) e Invivo Ventures III (objetivo 100 M€).",
+  "etapa_y_ticket": [
+    "Pre-seed, seed y Serie A; tickets iniciales 2-4M€ con follow-on hasta 10M€ (web del gestor).",
+    "Invivo Ventures AI: objetivo 100M€, 'launching H1 2026'; primer cierre no confirmado, sin operaciones anunciadas.",
+    "El gestor sí tiene cerrados Invivo Ventures (60M€, 2024) e Invivo Ventures III en marcha."
+  ],
   "linkedin": "https://www.linkedin.com/in/josepmariamartorellrodon/",
   "linkedin_nota": "",
   "otros_perfiles": "Newsletter propio (la fuente más valiosa): https://pepmartorell.substack.com — 'DeepTech & Science', en español, más de 4.000 suscriptores, tres análisis semanales y un vídeo los domingos | X/Twitter: https://x.com/pepmartorell | Perfil histórico en el BSC: https://www.bsc.es/martorell-josep-maria | Esade Do Better: https://dobetter.esade.edu/en/author/josep-m-martorell | Web del fondo: https://invivo.partners | Entrevista en vídeo 'Un café con... Pep Martorell': https://www.youtube.com/watch?v=m4Qvuc3Fvtg | Podcast 'Hacia Afuera' con Omar Espejel, ep. 100: https://zeno.fm/podcast/hacia-afuera/episodes/100-pep-martorell-ex-barcelona-supercomputing-center-ciencia-poder-y-desigualdad-en-la-era-de-la-ia/ | Ponente en bizkaIA Summit 2026: https://bizkaiasummit.com/ponentes-2026/pep-martorell/",
   "email": "info@invivo.partners",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "https://invivo.partners — el gestor publica info@invivo.partners junto con la dirección (Passeig de Gràcia 54, Barcelona). No hay emails individuales de socios publicados, por lo que no se puede inferir un patrón con evidencia. La vía realista es LinkedIn o responder a su Substack. | buzón general publicado por el gestor). Email individual no localizado en fuentes públicas",
-  "tesis_de_inversion": "Martorell lidera Invivo Ventures AI, presentado como «el primer fondo en España totalmente dedicado a acelerar la innovación en la intersección de la inteligencia artificial y la ciencia avanzada»: biotecnología, computación cuántica, fotónica, nuevos materiales, nanotecnología y robótica. La tesis, en palabras del managing partner Luis Pareras, es rotunda: «Our bold thesis is simple: in the near future, no deeptech company will survive without integrating AI». Martorell la formula en español como «la IA es crítica para la supervivencia del deeptech» y «ninguna empresa en la frontera de la ciencia sobrevivirá sin integrar una plataforma de IA», sea cual sea su campo. En su entrevista con Saúl Gordillo lo resume: «la tecnología profunda ya no sobrevivirá sin utilizar la IA como plataforma». Busca fases iniciales «donde la frontera científica se encuentra con la inteligencia artificial», priorizando compañías con una estrategia creíble de IA integrada, y ve un multiplicador en el marco europeo: «el AI Act, el Chips Act y miles de millones de euros públicos». Es escéptico con el hype: anticipa un «punto de crítica y desilusión», señala rendimientos decrecientes en los modelos de lenguaje y demandas de cómputo insostenibles.",
+  "por_que_es_interesante": [
+    "Doctor en Informática que operó MareNostrum 5: puede evaluar 'nuestro stack funciona un 90% mejor' sin benchmarks de terceros.",
+    "Su Substack trata el comportamiento autónomo de agentes y sus fallos: no hay que explicarle el harness.",
+    "Viene de spin-offs del BSC, donde lo normal es invertir sin tracción y con años de I+D.",
+    "Ángulo: 'infraestructura de software IA-nativa que hace posible la ingeniería y la ciencia de frontera', no 'herramienta para desarrolladores'."
+  ],
+  "tesis_de_inversion": [
+    "'El primer fondo en España dedicado a la intersección de la IA y la ciencia avanzada': biotech, cuántica, fotónica, materiales, nanotecnología, robótica.",
+    "'Ninguna empresa en la frontera de la ciencia sobrevivirá sin integrar una plataforma de IA'.",
+    "Prioriza compañías con estrategia creíble de IA integrada; ve multiplicador en el marco europeo (AI Act, Chips Act, fondos públicos).",
+    "Escéptico con el hype: anticipa desilusión, rendimientos decrecientes de los LLM y demandas de cómputo insostenibles."
+  ],
   "antecedentes": "Licenciado en Ciencias Físicas por la Universitat de Barcelona y doctor en Informática por la Universitat Ramon Llull. Director General de Recerca de la Generalitat de Catalunya entre 2011 y 2016, bajo la orientación del profesor Andreu Mas-Colell, en plena crisis presupuestaria, centrado en colaboraciones internacionales e infraestructuras de investigación. De 2016 a junio de 2025 fue Director Asociado (director associat) del Barcelona Supercomputing Center - Centro Nacional de Supercomputación, el mayor centro de supercomputación de Europa: durante su etapa el BSC pasó de unos 400 a más de 1.300 profesionales y se pusieron en marcha el MareNostrum 5 y los primeros ordenadores cuánticos de España. Dirigió también la estrategia de innovación y transferencia del centro, con 14 spin-offs lanzadas que levantaron más de 40 M€ y generaron más de 400 empleos altamente cualificados. Le sucedió en el cargo Cristian Canton, ex director de IA en Meta. Desde septiembre de 2025 es Partner en Invivo Partners para lanzar el fondo de IA. Compagina la inversión con docencia en Esade Business School, mentoría de startups en Barcelona y una actividad divulgadora intensa (newsletter, vídeos, conferencias). CORRECCIÓN a la pista de partida: no consta que fuera Secretario de Universidades e Investigación de la Generalitat; el cargo verificado es Director General de Recerca (2011-2016).",
-  "por_que_es_interesante": "Es, con diferencia, el inversor español con más credenciales técnicas para evaluar una afirmación del tipo «nuestro stack funciona un 90% mejor»: viene de dirigir la operación del MareNostrum 5 y de los primeros ordenadores cuánticos españoles, es doctor en Informática y escribe cada semana sobre modelos, agentes autónomos, cómputo distribuido frente a centralizado y ejecución local de IA. En su Substack trata explícitamente el «comportamiento autónomo de agentes de IA» y sus comportamientos no deseados, así que el concepto de un harness con nube de agentes no hay que explicárselo. Además viene de un mundo —spin-offs del BSC— donde lo normal es invertir sin tracción, con años de I+D por delante. La reserva importante es el mandato: el fondo se anuncia en la intersección de IA y ciencia avanzada (biotech, cuántica, fotónica, materiales), no en dev tools. El ángulo correcto no es «herramienta para desarrolladores» sino «infraestructura de software IA-nativa que hace posible la ingeniería y la ciencia de frontera», que es literalmente su tesis.",
   "inversiones_relevantes": [
     "NOTA: no se ha localizado ninguna inversión firmada por Pep Martorell como inversor de VC; se incorporó a Invivo Partners en septiembre de 2025 y el fondo de IA aún no ha anunciado operaciones. Lo que sigue son referencias del gestor y de su etapa previa.",
     "Invivo Ventures AI / InvivoAI (anunciado sept-2025, objetivo 100 M€, 'launching H1 2026') — primer fondo español declarado en la intersección IA + ciencia avanzada; es el vehículo que él dirige.",
@@ -82,17 +96,36 @@
     "https://www.mtconsulting.es/agencia-conferenciantes/contratar-pep-martorell"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 12,
+      "etapa": 14,
+      "decision": 9,
+      "espanol": 15,
+      "acceso": 11,
+      "ajuste": -4,
+      "bruto": 57,
+      "topes": [],
+      "total": 57
+    },
+    "motivo": "El inversor español con más credenciales para auditar un claim de rendimiento (dirigió MareNostrum 5 y los primeros cuánticos españoles; escribe cada semana sobre agentes autónomos y cómputo); pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es IA + ciencia avanzada (biotech, cuántica, fotónica), no dev tools. Reactivar cuando cierre.",
+    "nivel_v1": "r",
     "prioridad_agente": "B",
     "confianza_agente": "alta",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "alta",
-    "nivel_final": "r",
-    "cambio_prioridad": true,
-    "cambio_confianza": false,
-    "motivo": "Físico, ex-BSC, escribe sobre agentes y cómputo, pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es 'IA + ciencia avanzada'. Reactivar cuando cierre el fondo."
+    "motivo_v1": "Físico, ex-BSC, escribe sobre agentes y cómputo, pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es 'IA + ciencia avanzada'. Reactivar cuando cierre el fondo."
   },
   "nombre_original": "Josep Maria 'Pep' Martorell Rodon",
-  "email_original": "info@invivo.partners (buzón general publicado por el gestor). Email individual no localizado en fuentes públicas."
+  "email_original": "info@invivo.partners (buzón general publicado por el gestor). Email individual no localizado en fuentes públicas.",
+  "textos_v1": {
+    "por_que_es_interesante": "Es, con diferencia, el inversor español con más credenciales técnicas para evaluar una afirmación del tipo «nuestro stack funciona un 90% mejor»: viene de dirigir la operación del MareNostrum 5 y de los primeros ordenadores cuánticos españoles, es doctor en Informática y escribe cada semana sobre modelos, agentes autónomos, cómputo distribuido frente a centralizado y ejecución local de IA. En su Substack trata explícitamente el «comportamiento autónomo de agentes de IA» y sus comportamientos no deseados, así que el concepto de un harness con nube de agentes no hay que explicárselo. Además viene de un mundo —spin-offs del BSC— donde lo normal es invertir sin tracción, con años de I+D por delante. La reserva importante es el mandato: el fondo se anuncia en la intersección de IA y ciencia avanzada (biotech, cuántica, fotónica, materiales), no en dev tools. El ángulo correcto no es «herramienta para desarrolladores» sino «infraestructura de software IA-nativa que hace posible la ingeniería y la ciencia de frontera», que es literalmente su tesis.",
+    "tesis_de_inversion": "Martorell lidera Invivo Ventures AI, presentado como «el primer fondo en España totalmente dedicado a acelerar la innovación en la intersección de la inteligencia artificial y la ciencia avanzada»: biotecnología, computación cuántica, fotónica, nuevos materiales, nanotecnología y robótica. La tesis, en palabras del managing partner Luis Pareras, es rotunda: «Our bold thesis is simple: in the near future, no deeptech company will survive without integrating AI». Martorell la formula en español como «la IA es crítica para la supervivencia del deeptech» y «ninguna empresa en la frontera de la ciencia sobrevivirá sin integrar una plataforma de IA», sea cual sea su campo. En su entrevista con Saúl Gordillo lo resume: «la tecnología profunda ya no sobrevivirá sin utilizar la IA como plataforma». Busca fases iniciales «donde la frontera científica se encuentra con la inteligencia artificial», priorizando compañías con una estrategia creíble de IA integrada, y ve un multiplicador en el marco europeo: «el AI Act, el Chips Act y miles de millones de euros públicos». Es escéptico con el hype: anticipa un «punto de crítica y desilusión», señala rendimientos decrecientes en los modelos de lenguaje y demandas de cómputo insostenibles.",
+    "etapa_y_ticket": [
+      "Pre-seed, seed y Serie A. Tickets iniciales de 2-4 M€ con follow-ons de hasta 10 M€ (según la propia web de Invivo Partners). Fondo Invivo Ventures AI: objetivo 100 M€, la web del gestor lo sitúa como 'launching H1 2026'. NO CONFIRMADO el primer cierre del fondo de IA: ni la nota de prensa de septiembre de 2025 ni la web del gestor anuncian cierre; el gestor sí tiene cerrados Invivo Ventures (60 M€, 2024) e Invivo Ventures III (objetivo 100 M€)."
+    ]
+  }
 }

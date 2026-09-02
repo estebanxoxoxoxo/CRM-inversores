@@ -1,8 +1,8 @@
 {
   "id": "yolanda-perez",
   "nombre": "Yolanda Pérez Sáez",
-  "nivel": "2",
-  "nivel_etiqueta": "2 - Alto potencial",
+  "nivel": 64,
+  "banda": "Alto potencial",
   "prioridad": "B",
   "confianza": "alta",
   "region": "España",
@@ -11,16 +11,30 @@
   "ciudad_base": "Barcelona, España (BStartup: Avda. Diagonal 407, 08008 Barcelona; hubs en Madrid y Barcelona, equipos en Valencia, Bilbao, San Sebastián y Málaga)",
   "tipo_inversor": "Corporate VC",
   "tipo_inversor_detalle": "Corporate VC (vehículo de inversión de un banco; opera como fondo evergreen, sin presión de desinversión)",
-  "etapa_y_ticket": "BStartup 10 invierte en etapa muy temprana (seed y pre-tracción), con tickets de 100.000 a 150.000 euros por proyecto según la propia documentación del programa; la dirección de inversiones ha citado también un rango de 100.000 a 200.000 euros. Invierte anualmente en más de 10 startups a cambio de participación en capital, con el porcentaje determinado por la valoración post-money de la ronda. Es un fondo evergreen con capacidad de vehículo de hasta 10 millones de euros. Para etapas posteriores el grupo utiliza Sabadell Venture Capital (177 startups). Acumulado: 105 inversiones directas vía BStartup 10 desde 2014.",
+  "etapa_y_ticket": [
+    "Seed y pre-tracción; 100.000-150.000 € por proyecto (hasta 200.000 €).",
+    "Más de 10 startups al año; evergreen con vehículo de hasta 10M€; Sabadell Venture Capital para etapas posteriores.",
+    "Comité de inversión bancario."
+  ],
   "linkedin": "https://es.linkedin.com/in/yolanda-p%C3%A9rez-s%C3%A1ez-1421176",
   "linkedin_nota": "",
   "otros_perfiles": "Web del programa: https://bstartup.bancsabadell.com/ | Página de inversión: https://bstartup.bancsabadell.com/en/inversion/ | Equipo: https://bstartup.bancsabadell.com/en/bstartup-team/ | LinkedIn de BStartup: https://www.linkedin.com/company/bstartup-banco-sabadell | Crunchbase: https://www.crunchbase.com/person/yolanda-p%C3%A9rez | Ficha en El Referente: https://elreferente.es/emprendedores/yolanda-perez/ | Publica activamente en LinkedIn sobre las convocatorias de BStartup Health y BStartup. No se le ha encontrado cuenta de X/Twitter, blog personal ni newsletter propia.",
   "email": "bstartup@bancsabadell.com",
   "email_estado": "buzón general del fondo (público)",
   "email_fuente": "El email institucional bstartup@bancsabadell.com aparece publicado como contacto oficial del programa junto con la dirección (Avda. Diagonal 407, Barcelona 08008) y el teléfono 902 323 000, recogido en el directorio de Capital-Riesgo.es (https://capital-riesgo.es/es/directory/bstartup/) y en las páginas de contacto del propio programa. NO se ha localizado ningún email personal suyo. Banco Sabadell no publica emails nominales de sus directivos, por lo que tampoco se propone un patrón inferido. Para contacto directo, LinkedIn es la vía más fiable. | email institucional del programa, público y verificado — NO es su email personal",
-  "tesis_de_inversion": "Pérez dirige un vehículo declaradamente agnóstico de sector que invierte en compañías tecnológicas y científicas en fases muy iniciales, mayoritariamente B2B aunque con casos B2C de éxito. Los criterios publicados de BStartup 10 buscan compañías 'ambiciosas con visión global, con una fuerte base técnica o científica, mentalidad de producto y capacidad de ejecutar rápido' — una formulación que prioriza el fundamento técnico sobre la métrica comercial. En sus declaraciones subraya el interés por empresas que atacan huecos de mercado en lugar de seguir modas, y las verticales prioritarias que ella misma señala son salud (más de 20 inversiones), sostenibilidad y DeepTech, con presencia declarada en IA, computación cuántica, climate tech y transferencia tecnológica. El software representa alrededor del 60% de las inversiones. Un rasgo diferencial importante: es un fondo evergreen, sin presión de desinversión en un horizonte fijo, lo que en teoría permite horizontes largos. Sobre fundadores, su tesis es explícita: 'Los emprendedores más exitosos saben preguntar y escuchar', y valora resiliencia, capacidad de construir equipo, alfabetización financiera, conocimiento técnico y habilidad para atraer talento complementario. Sobre competitividad europea afirma: 'Si queremos ser competitivos... tenemos que encontrar un equilibrio'.",
+  "por_que_es_interesante": [
+    "Precedente exacto: BStartup 10 lideró con Inveready los 520.000 € de Qbeast, tecnología de infraestructura de datos '100 veces más rápida' sin producto maduro.",
+    "Criterios publicados: 'fuerte base técnica o científica, mentalidad de producto y capacidad de ejecutar rápido'.",
+    "Fondo evergreen sin presión de desinversión; 105 inversiones directas desde 2014; buzón público.",
+    "Ángulo: tecnología profunda con transferencia de conocimiento (invocar Qbeast), no SaaS; coinversor de acompañamiento."
+  ],
+  "tesis_de_inversion": [
+    "Agnóstico de sector, compañías tecnológicas y científicas en fases muy iniciales, mayoritariamente B2B.",
+    "'Ambiciosas, con visión global, fuerte base técnica o científica, mentalidad de producto y capacidad de ejecutar rápido'.",
+    "Verticales prioritarias: salud, sostenibilidad y deep tech (IA, cuántica, climate, transferencia tecnológica); ~60% software.",
+    "Fundadores: 'saben preguntar y escuchar'; resiliencia, equipo, alfabetización financiera, conocimiento técnico."
+  ],
   "antecedentes": "Desarrolló buena parte de su carrera en Barcelona Activa, la agencia de desarrollo económico del Ayuntamiento de Barcelona, donde fue directora de territorio y comercio, y directora de crecimiento empresarial, incubadoras y parque tecnológico. Se incorporó a Banco Sabadell en septiembre de 2013 para crear BStartup, la primera unidad bancaria en España dedicada específicamente a startups, y es su directora desde la creación del programa en 2013 — trece años de continuidad al frente de la misma iniciativa. Actualmente es directora de BStartup y de Hub Empresa y subdirectora de Banco Sabadell. Forma parte del consejo de administración y del comité de inversión de BStartup 10, el vehículo de inversión en etapa temprana del banco. Fuera del banco, es miembro del consejo empresarial del Vall d'Hebron Institute of Oncology (VHIO) y del consejo asesor del Asturias Startup Fund. Bajo su dirección, BStartup ha alcanzado 105 inversiones directas a través de BStartup 10, más de 6.000 clientes startup, y el grupo ha canalizado más de 1.000 millones de euros de financiación bancaria a startups y scaleups entre 2013 y 2023, con casi 500 millones solo en 2025.",
-  "por_que_es_interesante": "Es el perfil español del lote con evidencia más clara y documentada de invertir ANTES de la tracción y en tecnología profunda de infraestructura: BStartup 10 lideró junto a Inveready la primera ronda de 520.000 euros de Qbeast, spin-off del Barcelona Supercomputing Center que acelera el procesamiento de grandes volúmenes de datos. José Carol, director operativo de BStartup, justificó esa inversión diciendo que era 'una spin-off del Barcelona Supercomputing Center liderada por un equipo brillante que tras años de desarrollo ha conseguido una tecnología que evalúa cualquier tipo de dato 100 veces más rápido', y que querían seguir apoyando la transferencia de conocimiento del ámbito académico. Ese es un cheque a tecnología de infraestructura de datos sin producto comercial maduro. Además es un fondo evergreen sin presión de exit y con criterios que citan expresamente 'fuerte base técnica o científica'. Ángulo de contacto: presentar el stack IA-nativo como tecnología profunda con transferencia de conocimiento, no como SaaS; el precedente Qbeast es la referencia exacta que hay que invocar. La limitación seria es el tamaño del ticket (100-200K euros), que lo convierte en coinversor, no en líder de una ronda ambiciosa.",
   "inversiones_relevantes": [
     "Qbeast (primera ronda de 520.000 euros liderada por Inveready y BStartup; spin-off del Barcelona Supercomputing Center, análisis aproximado de grandes volúmenes de datos, 100x más rápido) — el precedente exacto: infraestructura de datos profunda financiada antes de tener mercado, con cita pública sobre apoyar la transferencia de conocimiento académico",
     "Qbeast, ronda semilla posterior de 2,5M euros liderada por Elaia con entrada de Sabadell Venture Capital y Oscar Salazar (ex-CTO de Uber) — demuestra el camino de continuidad BStartup 10 → Sabadell Venture Capital",
@@ -82,17 +96,36 @@
     "https://www.hpcwire.com/off-the-wire/qbeast-announces-2-7m-seed-round/"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 13,
+      "etapa": 17,
+      "decision": 10,
+      "espanol": 15,
+      "acceso": 12,
+      "ajuste": -3,
+      "bruto": 64,
+      "topes": [],
+      "total": 64
+    },
+    "motivo": "BStartup 10 invierte pre-tracción con criterio explícito de 'fuerte base técnica o científica' y lideró con Inveready la primera ronda de Qbeast (spin-off del BSC, infraestructura de datos sin producto comercial); vehículo evergreen sin presión de exit. Reservas: ticket de 100-200k€ (coinversor, no líder), vehículo bancario con comité, y ella dirige el programa más que originar deals.",
+    "nivel_v1": "2",
     "prioridad_agente": "B",
     "confianza_agente": "alta",
-    "prioridad_final": "B",
+    "prioridad_v1": "B",
     "confianza_final": "alta",
-    "nivel_final": "2",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "BStartup 10 invierte pre-tracción con criterio de base técnica o científica y coinvirtió en Qbeast (spin-off del BSC); pero ticket de 100-200k, vehículo bancario con comité y ella dirige el programa más que originar deals."
+    "motivo_v1": "BStartup 10 invierte pre-tracción con criterio de base técnica o científica y coinvirtió en Qbeast (spin-off del BSC); pero ticket de 100-200k, vehículo bancario con comité y ella dirige el programa más que originar deals."
   },
   "nombre_original": "Yolanda Pérez Sáez",
-  "email_original": "bstartup@bancsabadell.com (email institucional del programa, público y verificado — NO es su email personal)"
+  "email_original": "bstartup@bancsabadell.com (email institucional del programa, público y verificado — NO es su email personal)",
+  "textos_v1": {
+    "por_que_es_interesante": "Es el perfil español del lote con evidencia más clara y documentada de invertir ANTES de la tracción y en tecnología profunda de infraestructura: BStartup 10 lideró junto a Inveready la primera ronda de 520.000 euros de Qbeast, spin-off del Barcelona Supercomputing Center que acelera el procesamiento de grandes volúmenes de datos. José Carol, director operativo de BStartup, justificó esa inversión diciendo que era 'una spin-off del Barcelona Supercomputing Center liderada por un equipo brillante que tras años de desarrollo ha conseguido una tecnología que evalúa cualquier tipo de dato 100 veces más rápido', y que querían seguir apoyando la transferencia de conocimiento del ámbito académico. Ese es un cheque a tecnología de infraestructura de datos sin producto comercial maduro. Además es un fondo evergreen sin presión de exit y con criterios que citan expresamente 'fuerte base técnica o científica'. Ángulo de contacto: presentar el stack IA-nativo como tecnología profunda con transferencia de conocimiento, no como SaaS; el precedente Qbeast es la referencia exacta que hay que invocar. La limitación seria es el tamaño del ticket (100-200K euros), que lo convierte en coinversor, no en líder de una ronda ambiciosa.",
+    "tesis_de_inversion": "Pérez dirige un vehículo declaradamente agnóstico de sector que invierte en compañías tecnológicas y científicas en fases muy iniciales, mayoritariamente B2B aunque con casos B2C de éxito. Los criterios publicados de BStartup 10 buscan compañías 'ambiciosas con visión global, con una fuerte base técnica o científica, mentalidad de producto y capacidad de ejecutar rápido' — una formulación que prioriza el fundamento técnico sobre la métrica comercial. En sus declaraciones subraya el interés por empresas que atacan huecos de mercado en lugar de seguir modas, y las verticales prioritarias que ella misma señala son salud (más de 20 inversiones), sostenibilidad y DeepTech, con presencia declarada en IA, computación cuántica, climate tech y transferencia tecnológica. El software representa alrededor del 60% de las inversiones. Un rasgo diferencial importante: es un fondo evergreen, sin presión de desinversión en un horizonte fijo, lo que en teoría permite horizontes largos. Sobre fundadores, su tesis es explícita: 'Los emprendedores más exitosos saben preguntar y escuchar', y valora resiliencia, capacidad de construir equipo, alfabetización financiera, conocimiento técnico y habilidad para atraer talento complementario. Sobre competitividad europea afirma: 'Si queremos ser competitivos... tenemos que encontrar un equilibrio'.",
+    "etapa_y_ticket": [
+      "BStartup 10 invierte en etapa muy temprana (seed y pre-tracción), con tickets de 100.000 a 150.000 euros por proyecto según la propia documentación del programa; la dirección de inversiones ha citado también un rango de 100.000 a 200.000 euros. Invierte anualmente en más de 10 startups a cambio de participación en capital, con el porcentaje determinado por la valoración post-money de la ronda. Es un fondo evergreen con capacidad de vehículo de hasta 10 millones de euros. Para etapas posteriores el grupo utiliza Sabadell Venture Capital (177 startups). Acumulado: 105 inversiones directas vía BStartup 10 desde 2014."
+    ]
+  }
 }

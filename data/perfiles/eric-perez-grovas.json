@@ -1,8 +1,8 @@
 {
   "id": "eric-perez-grovas",
   "nombre": "Eric Pérez-Grovas",
-  "nivel": "r",
-  "nivel_etiqueta": "3 - Reserva (encaje parcial)",
+  "nivel": 45,
+  "banda": "Reserva",
   "prioridad": "C",
   "confianza": "alta",
   "region": "México",
@@ -11,16 +11,30 @@
   "ciudad_base": "Ciudad de México, México",
   "tipo_inversor": "VC institucional",
   "tipo_inversor_detalle": "VC institucional",
-  "etapa_y_ticket": "Pre-Seed, Seed y Serie A; la web declara que están cómodos siendo el primer inversor institucional ('comfortable being first institutional investors'). Signal NFX registra para él tickets de US$250K a US$3,0M con punto dulce en US$1,6M, y participación también en Series B y C vía follow-on. AUM total de la firma: más de US$180M en tres fondos; el tercer fondo se levantó con objetivo de US$100M (anunciado en octubre de 2021 al rebautizarse de Jaguar Ventures a Wollef). 43-44 inversiones, 101 fundadores, cinco unicornios.",
+  "etapa_y_ticket": [
+    "Pre-seed, seed y Serie A; primer inversor institucional.",
+    "Ticket 250.000-3.000.000 USD, punto dulce 1,6M USD; follow-on hasta Series B y C.",
+    "AUM >180M USD en tres fondos; tercer fondo con objetivo 100M USD (2021)."
+  ],
   "linkedin": "https://www.linkedin.com/in/ericperezgrovas/",
   "linkedin_nota": "",
   "otros_perfiles": "Web del fondo: http://www.wollefvc.com | Equipo: http://www.wollefvc.com/team | Portafolio: http://www.wollefvc.com/companies | X del fondo: https://x.com/WollefVC | LinkedIn del fondo: https://www.linkedin.com/company/wollef/ | Signal NFX: https://signal.nfx.com/investors/eric-perez-grovas | Podcast Startupeable (18 oct 2023): 'Eric Perez Grovas, Wollef | Dejar McKinsey por Mercado Libre; MBA para Emprender; y Lecciones de Invertir en Nubank' | AVISO: el dominio wollef.com ya NO pertenece al fondo (redirige a un mercado de dominios); el sitio vigente es wollefvc.com. La URL de LinkedIn personal es la forma habitual del perfil pero no pudo verificarse por bloqueo de LinkedIn a la consulta automatizada.",
   "email": "",
   "email_estado": "no encontrado",
   "email_fuente": "El sitio del fondo (wollefvc.com) no publica ninguna dirección de correo, ni general ni de socios; solo remite a LinkedIn y X. No existe email público de ningún socio del que deducir un patrón, por lo que NO se propone patrón inferido.",
-  "tesis_de_inversion": "Wollef resume su tesis en una frase que repite en todos sus materiales: 'We take a risk on those who risk it all' / 'We invest in those who risk it all'. Se posicionan como socios muy tempranos —Pre-Seed, Seed y Serie A— y declaran estar cómodos siendo el primer inversor institucional de una compañía. Sus valores declarados son honestidad, mente abierta y coraje, y presumen de no ser 'políticamente correctos' y de dar feedback sincero (Cristóbal Perdomo, cofundador). En la práctica, su tesis es sobre EQUIPO y apetito de riesgo del fundador más que sobre tecnología: no publican verticales tecnológicas prioritarias ni una tesis sobre IA, infraestructura o herramientas para desarrolladores. Los sectores efectivos que declaran son fintech, SaaS, marketplace, logística, foodtech, proptech y e-commerce. Sí han desplegado capital de forma consistente en IA aplicada desde 2022-2024 (Kleva, Mi Chamba, Zumma, Kunzapp, Ginia, Pulsar), siempre como producto vertical para una industria concreta y nunca como capa de infraestructura. Eric aporta específicamente la lente de marketplaces, e-commerce y consumo, coherente con haber montado MercadoLibre México y con presidir la AMVO.",
+  "por_que_es_interesante": [
+    "Pre-seed y seed, 'comfortable being first institutional investors', ticket 250k-3M USD con punto dulce 1,6M.",
+    "Lideró la seed de Kleva ('autonomous voice AI' para cobranza bancaria).",
+    "Marca construida sobre el riesgo del fundador ('invertimos en quien se lo juega todo').",
+    "Ángulo: impacto económico en su cartera (un stack que construye software 90% mejor cambia la estructura de costes), no arquitectura."
+  ],
+  "tesis_de_inversion": [
+    "'We take a risk on those who risk it all': tesis sobre equipo y apetito de riesgo, no sobre tecnología.",
+    "Sin verticales tecnológicas prioritarias ni tesis de IA o infraestructura publicadas.",
+    "Sectores efectivos: fintech, SaaS, marketplaces, logística, foodtech, proptech, e-commerce; IA aplicada vertical desde 2022 (Kleva, Mi Chamba, Pulsar).",
+    "Su lente personal: marketplaces, e-commerce y consumo (MercadoLibre México, AMVO)."
+  ],
   "antecedentes": "Ingeniero Industrial con especialidad en Finanzas por el Tecnológico de Monterrey, graduado con honores; después MBA y Máster en Administración Pública (MPA) por Stanford University. Su hito fundacional es haber abierto y dirigido MercadoLibre México desde 1999, la operación mexicana del que sería el mayor grupo de comercio electrónico de la región. Antes y después trabajó en consultoría estratégica en McKinsey & Co. y en Bain & Co., en proyectos de planeación estratégica en México, Estados Unidos y Sudamérica. Ha sido director ejecutivo, inversor y asesor en múltiples compañías de internet. Es consejero de Walmart de México y Centroamérica (Walmex) y ha presidido la AMVO (Asociación Mexicana de Venta Online). Es mentor de Endeavor México y ha ocupado asientos en consejos de Konfío, Kinedu, Aviva, Conekta y Aventones. En 2013 cofundó Jaguar Ventures con el argentino Cristóbal Perdomo; en octubre de 2021 la firma se rebautizó Wollef mientras levantaba su tercer fondo con objetivo de US$100M, incorporando a Luis Garza como socio (ex CEO/fundador de Advenio, Kinedu y Aldea). En noviembre de 2023 la firma celebró diez años con más de US$180M gestionados, 44 empresas en más de 22 países y cinco unicornios: Nubank, Kavak, Konfío, Loft y Jeeves.",
-  "por_que_es_interesante": "Su etapa y su cheque encajan mecánicamente bien: Pre-Seed y Seed, primer inversor institucional, ticket de US$250K a US$3M con punto dulce en US$1,6M — suficiente para financiar una fase de construcción larga sin exigir métricas de mercado. Y sí ha invertido en agentes de IA: lideró la semilla de Kleva, una plataforma de cobranza con IA de voz autónoma vendida a bancos, que la propia Wollef describe como 'autonomous voice AI'. Su marca gira en torno al riesgo ('invertimos en quien se lo juega todo'), lo que da un marco narrativo favorable a una apuesta pre-tracción. Dicho esto, el encaje temático es débil: ni él ni el fondo tienen tesis, portafolio ni discurso público sobre deep tech, infraestructura de IA o herramientas para desarrolladores. Si se le contacta, el ángulo debe ser el impacto económico —un stack que hace que el software se construya 90% mejor cambia la estructura de costes de todo su portafolio— y no la arquitectura. Es un contacto de segunda ronda, útil como coinversor, no como líder de una ronda deep tech.",
   "inversiones_relevantes": [
     "Kleva (2024, semilla liderada por Wollef — plataforma de cobranza con 'autonomous voice AI' para bancos; US$1,55M y expansión a México en 2026) — el precedente más directo de inversión en agentes de IA operando en producción",
     "Mi Chamba (2024/2025, pre-semilla de US$2,25M liderada por Wollef — gestor de tareas nativo de WhatsApp con IA) — coinvertida con Nido Ventures; muestra apetito por producto de IA en fase muy temprana",
@@ -74,17 +88,38 @@
     "https://startupeable.com (podcast, 18/10/2023: 'Eric Perez Grovas, Wollef | Dejar McKinsey por Mercado Libre; MBA para Emprender; y Lecciones de Invertir en Nubank')"
   ],
   "auditoria": {
+    "version": 2,
     "fecha": "2026-09-02",
-    "auditor": "orquestador (Claude), revisión manual perfil a perfil",
+    "auditor": "orquestador (Claude), revisión manual perfil a perfil, segunda pasada con rúbrica numérica",
+    "criterio": "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), español y cercanía (0-15), acceso y actividad (0-15), ajuste (-15/+5). Topes: tesis<6 → máx. 45; tesis<10 → máx. 55; decisión≤8 (no firma cheque) → máx. 69; etapa≤7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥78, Alto potencial 60-77, Reserva 45-59, Descartado <45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados.",
+    "puntuacion": {
+      "tesis": 4,
+      "etapa": 17,
+      "decision": 20,
+      "espanol": 15,
+      "acceso": 7,
+      "ajuste": 0,
+      "bruto": 63,
+      "topes": [
+        "tesis < 6 → máx. 45"
+      ],
+      "total": 45
+    },
+    "motivo": "Etapa y cheque encajan (pre-seed y seed, primer institucional, 250k-3M USD) y lideró Kleva (voz IA), pero ni él ni Wollef tienen tesis, cartera ni discurso en deep tech, infraestructura o dev tools; sesgo fintech y e-commerce. Coinversor de segunda ronda, no líder deep tech.",
+    "nivel_v1": "r",
     "prioridad_agente": "C",
     "confianza_agente": "alta",
-    "prioridad_final": "C",
+    "prioridad_v1": "C",
     "confianza_final": "alta",
-    "nivel_final": "r",
-    "cambio_prioridad": false,
-    "cambio_confianza": false,
-    "motivo": "Cómodo como primer institucional y lideró Kleva (voz IA), pero sin tesis tecnológica, cero dev tools/infra y sesgo fintech/e-commerce."
+    "motivo_v1": "Cómodo como primer institucional y lideró Kleva (voz IA), pero sin tesis tecnológica, cero dev tools/infra y sesgo fintech/e-commerce."
   },
   "nombre_original": "Eric Pérez-Grovas",
-  "email_original": "no encontrado"
+  "email_original": "no encontrado",
+  "textos_v1": {
+    "por_que_es_interesante": "Su etapa y su cheque encajan mecánicamente bien: Pre-Seed y Seed, primer inversor institucional, ticket de US$250K a US$3M con punto dulce en US$1,6M — suficiente para financiar una fase de construcción larga sin exigir métricas de mercado. Y sí ha invertido en agentes de IA: lideró la semilla de Kleva, una plataforma de cobranza con IA de voz autónoma vendida a bancos, que la propia Wollef describe como 'autonomous voice AI'. Su marca gira en torno al riesgo ('invertimos en quien se lo juega todo'), lo que da un marco narrativo favorable a una apuesta pre-tracción. Dicho esto, el encaje temático es débil: ni él ni el fondo tienen tesis, portafolio ni discurso público sobre deep tech, infraestructura de IA o herramientas para desarrolladores. Si se le contacta, el ángulo debe ser el impacto económico —un stack que hace que el software se construya 90% mejor cambia la estructura de costes de todo su portafolio— y no la arquitectura. Es un contacto de segunda ronda, útil como coinversor, no como líder de una ronda deep tech.",
+    "tesis_de_inversion": "Wollef resume su tesis en una frase que repite en todos sus materiales: 'We take a risk on those who risk it all' / 'We invest in those who risk it all'. Se posicionan como socios muy tempranos —Pre-Seed, Seed y Serie A— y declaran estar cómodos siendo el primer inversor institucional de una compañía. Sus valores declarados son honestidad, mente abierta y coraje, y presumen de no ser 'políticamente correctos' y de dar feedback sincero (Cristóbal Perdomo, cofundador). En la práctica, su tesis es sobre EQUIPO y apetito de riesgo del fundador más que sobre tecnología: no publican verticales tecnológicas prioritarias ni una tesis sobre IA, infraestructura o herramientas para desarrolladores. Los sectores efectivos que declaran son fintech, SaaS, marketplace, logística, foodtech, proptech y e-commerce. Sí han desplegado capital de forma consistente en IA aplicada desde 2022-2024 (Kleva, Mi Chamba, Zumma, Kunzapp, Ginia, Pulsar), siempre como producto vertical para una industria concreta y nunca como capa de infraestructura. Eric aporta específicamente la lente de marketplaces, e-commerce y consumo, coherente con haber montado MercadoLibre México y con presidir la AMVO.",
+    "etapa_y_ticket": [
+      "Pre-Seed, Seed y Serie A; la web declara que están cómodos siendo el primer inversor institucional ('comfortable being first institutional investors'). Signal NFX registra para él tickets de US$250K a US$3,0M con punto dulce en US$1,6M, y participación también en Series B y C vía follow-on. AUM total de la firma: más de US$180M en tres fondos; el tercer fondo se levantó con objetivo de US$100M (anunciado en octubre de 2021 al rebautizarse de Jaguar Ventures a Wollef). 43-44 inversiones, 101 fundadores, cinco unicornios."
+    ]
+  }
 }

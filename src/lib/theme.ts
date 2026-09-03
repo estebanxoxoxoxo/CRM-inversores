@@ -1,26 +1,39 @@
-/** Colour theme: follows the system by default; an explicit choice is stored per browser and stamped on <html>. */
-export const THEMES = ["system", "light", "dark"] as const;
-export type Theme = (typeof THEMES)[number];
+/** Colour theme: follows the system until the user picks one; the choice is stored per browser and stamped on <html>. */
+export type Theme = "light" | "dark";
 
 const STORAGE_KEY = "theme";
+const DARK_QUERY = "(prefers-color-scheme: dark)";
 
-export function readTheme(): Theme {
+/** The stored choice, or null when the system decides. */
+export function storedTheme(): Theme | null {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
-    return THEMES.includes(stored as Theme) ? (stored as Theme) : "system";
+    return stored === "light" || stored === "dark" ? stored : null;
   } catch {
-    return "system";
+    return null;
   }
 }
 
-/** Applies the theme to the document and persists it. "system" removes the attribute so prefers-color-scheme decides. */
-export function applyTheme(theme: Theme): void {
-  if (theme === "system") delete document.documentElement.dataset.theme;
-  else document.documentElement.dataset.theme = theme;
+/** The theme actually in effect: the stored choice, else the system preference. */
+export function resolveTheme(): Theme {
+  return storedTheme() ?? (window.matchMedia(DARK_QUERY).matches ? "dark" : "light");
+}
+
+/** Stamps the theme on the document (or nothing, so prefers-color-scheme decides) and persists it. */
+export function applyTheme(theme: Theme | null): void {
+  if (theme) document.documentElement.dataset.theme = theme;
+  else delete document.documentElement.dataset.theme;
   try {
-    if (theme === "system") localStorage.removeItem(STORAGE_KEY);
-    else localStorage.setItem(STORAGE_KEY, theme);
+    if (theme) localStorage.setItem(STORAGE_KEY, theme);
+    else localStorage.removeItem(STORAGE_KEY);
   } catch {
     /* storage unavailable: the choice lasts for the session */
   }
+}
+
+/** Calls back when the system preference changes. Returns the unsubscribe function. */
+export function onSystemThemeChange(listener: () => void): () => void {
+  const query = window.matchMedia(DARK_QUERY);
+  query.addEventListener("change", listener);
+  return () => query.removeEventListener("change", listener);
 }

@@ -71,7 +71,7 @@
   "name": "Diego Oppenheimer",
   "personalWebsite": "https://www.doppenheimer.com",
   "priority": "A",
-  "rating": "approved",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Guardrails AI (cofundador e inversor; open source para fiabilidad y validación de salidas de LLM) — demuestra apetito por infraestructura técnica profunda sin producto comercial maduro",
@@ -113,7 +113,7 @@
     "Work-Bench: pre-seed y seed, ticket 2-5M USD con punto dulce 3M; lidera seeds de infraestructura empresarial en Nueva York.",
     "Sectores: IA, analytics, infraestructura empresarial, deep tech."
   ],
-  "updatedAt": "2026-09-03T07:58:32.120Z",
+  "updatedAt": "2026-09-03T13:58:03.270Z",
   "whyInteresting": [
     "Dos vehículos en pre-seed y seed de infra de IA y dev tools: AI Tinkerers Fund (decide él) y Work-Bench (2-5M USD, lidera).",
     "No pide usuarios: el AI Tinkerers Fund selecciona por demo funcionando; lema 'working code beats hype, demos over slides'.",

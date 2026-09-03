@@ -23,8 +23,8 @@ npm run typecheck                         # tipos de la app y de los scripts
 ## Tema claro y oscuro
 
 Todos los colores salen de los tokens de `src/index.css`; el bloque oscuro sólo redefine tokens. Por defecto la app
-sigue al sistema (`prefers-color-scheme`); el selector "Sistema / Claro / Oscuro" de la cabecera guarda la elección en
-`localStorage` y la aplica antes del primer render (`src/lib/theme.ts`).
+sigue al sistema (`prefers-color-scheme`); la pill sol / luna de la cabecera guarda la elección en `localStorage` y la
+aplica antes del primer render (`src/lib/theme.ts`).
 
 ## Calificación manual
 

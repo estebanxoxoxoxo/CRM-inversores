@@ -8,9 +8,11 @@ import {
   INVESTOR_TYPE_LABELS,
   RATING_LABELS,
   REGION_LABELS,
-  SCORE_DIMENSIONS,
+  SCORE_DIMENSION_LABELS,
+  formatScore,
+  scoreWeightLabel,
 } from "../lib/labels";
-import type { Investor, Score } from "../types/investor";
+import { SCORE_DIMENSIONS, SCORE_MAX, type Investor, type Score } from "../types/investor";
 import { Badge, LevelBadge } from "./Badges";
 import RatingDialog from "./RatingDialog";
 
@@ -79,13 +81,15 @@ function ScoreBreakdown({ score }: { score: Score }) {
   return (
     <div className="breakdown">
       {SCORE_DIMENSIONS.map((dimension) => (
-        <div key={dimension.key} className="dimension">
-          <span className="dimension-label">{dimension.label}</span>
+        <div key={dimension} className="dimension" title={`Peso en el nivel: ${scoreWeightLabel(dimension)}`}>
+          <span className="dimension-label">
+            {SCORE_DIMENSION_LABELS[dimension]} <span className="dimension-weight">{scoreWeightLabel(dimension)}</span>
+          </span>
           <span className="dimension-bar">
-            <span className="dimension-fill" style={{ width: `${(100 * score[dimension.key]) / dimension.max}%` }} />
+            <span className="dimension-fill" style={{ width: `${(100 * score[dimension]) / SCORE_MAX}%` }} />
           </span>
           <span className="dimension-value">
-            {score[dimension.key]}/{dimension.max}
+            {formatScore(score[dimension])}/{SCORE_MAX}
           </span>
         </div>
       ))}

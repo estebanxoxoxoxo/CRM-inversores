@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Tesis pre-seed deep tech B2B con filtro de eficiencia de ingeniería, lidera y es primer cheque institucional; pero español y origen sin evidencia, cheque de 300-750k y fusión con Amplify.LA (fondo generalista de LA, no Amplify Partners).",
     "score": {
-      "access": 10,
+      "access": 6.7,
       "caps": [],
-      "decision": 14,
-      "raw": 61,
-      "spanish": 2,
-      "stage": 18,
-      "thesis": 17,
-      "total": 61
+      "decision": 7,
+      "raw": 64,
+      "spanish": 1.3,
+      "stage": 9,
+      "thesis": 6.8,
+      "total": 64
     },
     "status": "reviewed"
   },
@@ -69,7 +69,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (fondo pre-seed pequeño)",
-  "level": 61,
+  "level": 64,
   "linkedin": "https://www.linkedin.com/in/alex-rubalcava-10696/",
   "name": "Alex Rubalcava",
   "personalWebsite": "",
@@ -121,7 +121,7 @@
     "Cheque 300.000-750.000 USD dentro de rondas de 1-3M USD.",
     "Amplify (LA): Fund VI, tamaño no publicado; 'first partner to 80+ companies'."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Tesis publicada: pre-seed, B2B, deep tech, riesgo técnico alto y riesgo competitivo bajo.",
     "Filtro explícito que premia construir software exigente con 25.000-60.000 USD: el argumento de eficiencia del cliente.",

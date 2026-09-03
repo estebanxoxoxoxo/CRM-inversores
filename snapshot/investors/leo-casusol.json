@@ -3,14 +3,16 @@
     "date": "2026-09-02",
     "reason": "Focos declarados (cloud infrastructure, DevSecOps, Kubernetes, AI/ML) y preferencia por plataformas sobre point solutions, peruano nativo y en el mismo fondo que Yépez; pero cheques de 5-30M USD en Series A/B, ninguna semilla documentada, sólo cuatro operaciones desde 2021 y sin email. Contacto de segunda ronda.",
     "score": {
-      "access": 7,
-      "caps": [],
-      "decision": 18,
-      "raw": 62,
-      "spanish": 15,
-      "stage": 4,
-      "thesis": 18,
-      "total": 62
+      "access": 4.7,
+      "caps": [
+        "requires_traction"
+      ],
+      "decision": 9,
+      "raw": 65,
+      "spanish": 10,
+      "stage": 2,
+      "thesis": 7.2,
+      "total": 64
     },
     "status": "reviewed"
   },
@@ -62,7 +64,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 62,
+  "level": 64,
   "linkedin": "https://www.linkedin.com/in/leonciocasusol/",
   "name": "Leo Casusol",
   "personalWebsite": "",
@@ -110,7 +112,7 @@
     "Cheque 5-30M USD, punto dulce 17M USD; cuatro operaciones registradas (Lynx, Lumu, Cinchy, Rafay).",
     "Forgepoint Cybersecurity Fund III en despliegue; AUM >1.000M USD."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Sus focos son exactamente la capa del cliente; prefiere 'platform plays than point solutions'.",
     "CIO de carrera (Cyxtera, Verizon Business, Terremark): entiende integración y despliegue en gran empresa.",

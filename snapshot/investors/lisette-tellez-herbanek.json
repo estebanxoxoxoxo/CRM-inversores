@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Ingeniera (MIT CS) que declara invertir en deep/frontier tech y tiene PLCs.ai (generación de código con IA), MarkeTeam.ai (agentes autónomos) y memQ en cartera; pero el fondo exige MVP completo y tracción inicial, cheques de 200k-2M en seed/Serie A, Fund II de 2021 sin Fund III, sin evidencia de español y sin email.",
     "score": {
-      "access": 7,
+      "access": 4.7,
       "caps": [],
-      "decision": 17,
-      "raw": 50,
-      "spanish": 3,
-      "stage": 8,
-      "thesis": 15,
-      "total": 50
+      "decision": 8.5,
+      "raw": 53,
+      "spanish": 2,
+      "stage": 4,
+      "thesis": 6,
+      "total": 53
     },
     "status": "reviewed"
   },
@@ -61,7 +61,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 50,
+  "level": 53,
   "linkedin": "https://www.linkedin.com/in/lisettellez/",
   "name": "Lisette Tellez Herbanek",
   "personalWebsite": "",
@@ -115,7 +115,7 @@
     "Asiento de consejo u observador en todas las participadas; follow-ons por desempeño.",
     "Fund II de 40M USD (2021); Fund III no público."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Una de las pocas inversoras latinas con formación real de ingeniería de software que firma deep tech, no SaaS genérico.",
     "Cartera conectada: PLCs.ai (generación de código con IA), Itopia (automatización sobre Google Cloud), MarkeTeam.ai (agentes autónomos, liderada por Ocean Azul), memQ (redes cuánticas, co-liderada 2026).",

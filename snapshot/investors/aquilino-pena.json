@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Fondo IV (120M€, dic-2025) con mandato literal de deep tech, datos e infraestructura de IA, dinero fresco y criterio del '+10x'; pero primer cheque de ~5M€ en seed/Serie A (no pre-seed de 200-500k), perfil no técnico, historia consumer y sin email público.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 20,
-      "raw": 71,
-      "spanish": 15,
-      "stage": 9,
-      "thesis": 18,
-      "total": 71
+      "decision": 10,
+      "raw": 75,
+      "spanish": 10,
+      "stage": 4.5,
+      "thesis": 7.2,
+      "total": 75
     },
     "status": "reviewed"
   },
@@ -75,7 +75,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 71,
+  "level": 75,
   "linkedin": "https://www.linkedin.com/in/aquilinopena",
   "name": "Aquilino Peña",
   "personalWebsite": "",
@@ -143,7 +143,7 @@
     "Ticket inicial ~5M€ con 40% del fondo reservado a follow-on: no es un fondo de pre-seed.",
     "Fondo IV Innvierte: 120M€ (anuncio 15-dic-2025), LPs BBVA Spark, familia Mahou, CDTI, FEI; AUM >500M€ en 6 vehículos."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Mandato publicado del Fondo IV casi calcado al cliente: deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física.",
     "Dinero fresco: primer cierre dic-2025, 120M€ a desplegar en 2026-2029; apuestas técnicas de horizonte largo (lideró Theker ~21M€ y FOSSA 9,25M€).",

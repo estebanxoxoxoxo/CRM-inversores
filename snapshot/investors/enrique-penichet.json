@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Fondo Frontier Tech recién cerrado (>20M€, dic-2025, respaldado por FondICO, IVF y Tim Draper) con mandato de IA, cuántica y ciberseguridad en pre-seed y sólo nueve inversiones hechas; pero sin ningún precedente de dev tools o infra de software en 60+ participadas, escéptico con las valoraciones de IA y con dudas sobre si lidera.",
     "score": {
-      "access": 10,
+      "access": 6.7,
       "caps": [],
-      "decision": 18,
-      "raw": 72,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 12,
-      "total": 72
+      "decision": 9,
+      "raw": 76,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 4.8,
+      "total": 76
     },
     "status": "reviewed"
   },
@@ -73,7 +73,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 72,
+  "level": 76,
   "linkedin": "https://es.linkedin.com/in/enriquepenichet",
   "name": "Enrique Penichet",
   "personalWebsite": "",
@@ -129,7 +129,7 @@
     "Fondo Frontier Tech: >20M€ (cierre 2-dic-2025), nueve inversiones iniciales.",
     "Ticket con fuentes en conflicto: 1-2M€ en seed sin liderar (VC Sheet) o 138k-1,4M€ (Mintround); lo razonable, varios cientos de miles con follow-on. Confirmar."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Dinero fresco y mandato escrito con IA y ciberseguridad: Frontier Tech, >20M€, cerrado el 2-dic-2025, nueve inversiones hechas.",
     "Invierte pre-seed y seed en deep tech por definición pre-tracción (Sycai, Collimate Space, 8layers).",

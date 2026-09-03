@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "M12 declara 'Deep Tech & Systems' y developer tools, entró en la seed pre-producto de 60M USD de Entire (red git para agentes) y ella modera paneles sobre 'agentic SDLC'; pero eso la hace inversora de un competidor directo del harness, su centro real es Serie A/B, el fondo está alineado con Azure, sin español documentado y sin email.",
     "score": {
-      "access": 6,
+      "access": 4,
       "caps": [],
-      "decision": 20,
-      "raw": 61,
-      "spanish": 3,
-      "stage": 10,
-      "thesis": 22,
-      "total": 61
+      "decision": 10,
+      "raw": 64,
+      "spanish": 2,
+      "stage": 5,
+      "thesis": 8.8,
+      "total": 64
     },
     "status": "reviewed"
   },
@@ -60,7 +60,7 @@
   ],
   "investorType": "corporate_vc",
   "investorTypeDetail": "Corporate VC",
-  "level": 61,
+  "level": 64,
   "linkedin": "https://www.linkedin.com/in/michellehgonzalez/",
   "name": "Michelle Gonzalez",
   "personalWebsite": "",
@@ -121,7 +121,7 @@
     "Fondo principal 5-10M USD (hasta ~20M); M12 GitHub Fund 0,5-1M USD en pre-seed/seed de dev tools.",
     "Evergreen del balance de Microsoft: ~150-250M USD desplegados al año; Microsoft único LP."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "M12 invirtió pre-producto en Entire (red git distribuida para agentes de IA): la capa exacta del harness.",
     "Modera paneles sobre 'agentic and AI coding infrastructure' y organiza comidas de fundadores del 'agentic SDLC'.",

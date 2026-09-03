@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Co-lideró con General Catalyst la 'semilla' de 12M USD de Primero AI y tiene interlocución con FEMSA, Bimbo y Aeroméxico; pero su punto dulce es 10M USD, Kaszek no tiene tesis ni cartera en dev tools o infraestructura, lee la IA como adopción corporativa y no tiene canal frío. Radar para la ronda siguiente.",
     "score": {
-      "access": 5,
+      "access": 3.3,
       "caps": [
         "thesis_below_10"
       ],
-      "decision": 20,
-      "raw": 57,
-      "spanish": 15,
-      "stage": 9,
-      "thesis": 8,
+      "decision": 10,
+      "raw": 60,
+      "spanish": 10,
+      "stage": 4.5,
+      "thesis": 3.2,
       "total": 55
     },
     "status": "reviewed"
@@ -110,7 +110,7 @@
     "Para él: 500k-25M USD, punto dulce 10M USD; su 'semilla' de Primero AI fue de 12M.",
     "975M USD levantados en 2023 en dos fondos; 131 compañías."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Kaszek pone semillas muy grandes en IA empresarial con poco recorrido comercial (Primero AI, 12M USD, 2026).",
     "Red corporativa (FEMSA, Bimbo, Aeroméxico, Kimberly-Clark): compradores potenciales del stack.",

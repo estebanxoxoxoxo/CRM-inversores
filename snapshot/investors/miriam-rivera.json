@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Su método (decision analysis y market mapping) está diseñado para decir sí sin datos de PMF, lidera pre-seed y seed con ~1M USD y ya invirtió en Okahu (dev tools para agentes), markovML y Hevo; 'Spanish-speaking first'. Bloqueo: Ulu rechaza automáticamente empresas no constituidas en EE.UU.",
     "score": {
-      "access": 11,
+      "access": 7.3,
       "caps": [],
-      "decision": 20,
-      "raw": 82,
-      "spanish": 15,
-      "stage": 19,
-      "thesis": 17,
-      "total": 82
+      "decision": 10,
+      "raw": 86,
+      "spanish": 10,
+      "stage": 9.5,
+      "thesis": 6.8,
+      "total": 86
     },
     "status": "reviewed"
   },
@@ -66,7 +66,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 82,
+  "level": 86,
   "linkedin": "https://www.linkedin.com/in/miriamrivera/",
   "name": "Miriam Rivera",
   "personalWebsite": "",
@@ -123,7 +123,7 @@
     "Ticket 750.000-1.000.000 USD, punto dulce ~875k.",
     "Ulu Fund IV: 208M USD; 'US-focused only'."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "El market mapping sustituye las métricas de usuarios por un modelo probabilístico del mercado: evalúa estructura y razonamiento, no MRR.",
     "Precedente directo: Okahu ('dev tools to find & fix issues in AI agents'), markovML, Hevo, AltitudeIQ.",

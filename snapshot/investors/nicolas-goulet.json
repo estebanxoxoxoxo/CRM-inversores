@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Socio 'de ingeniero' de Adara (MIT), con foco declarado en infraestructura software y IA aplicada y la tesis del cliente ya validada en casa (Airflows, TuringDream, AppFactor); pero es el socio con menor huella en IA, tres operaciones recientes, las tesis las firma Gómez, y Adara ya está cubierta por Gómez y Pillado.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 20,
-      "raw": 79,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 18,
-      "total": 79
+      "decision": 10,
+      "raw": 83,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 7.2,
+      "total": 83
     },
     "status": "reviewed"
   },
@@ -67,7 +67,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 79,
+  "level": 83,
   "linkedin": "https://es.linkedin.com/in/ngoulet",
   "name": "Nico Goulet",
   "personalWebsite": "",
@@ -114,7 +114,7 @@
     "A él Signal le atribuye 100k-5M USD con punto dulce ~1,5M.",
     "Adara lidera y co-lidera seeds."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Receptivo a arquitectura y horizonte largo: máster experimental en el MIT, fundador que fracasó (CityHop) y gestor que sobrevivió al crash de 2000.",
     "Criterio publicado: visión grande, ejecución rápida y 'the courage to stay the course'; 'founders I backed in 2015 should still be calling me in 2030'.",

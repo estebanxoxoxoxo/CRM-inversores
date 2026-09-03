@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Cofundó y vendió a Stripe Okay, una empresa de efectividad de ingeniería (el problema exacto del harness), y KP confirma que habla español; pero es Operating Partner sin capacidad de invertir, su actividad ángel (10-50k) no consta desde 2023 y no tiene email. Evaluador y campeón interno en Kleiner Perkins, no capital.",
     "score": {
-      "access": 7,
+      "access": 4.7,
       "caps": [],
-      "decision": 3,
-      "raw": 51,
-      "spanish": 15,
-      "stage": 8,
-      "thesis": 18,
-      "total": 51
+      "decision": 1.5,
+      "raw": 54,
+      "spanish": 10,
+      "stage": 4,
+      "thesis": 7.2,
+      "total": 54
     },
     "status": "reviewed"
   },
@@ -66,7 +66,7 @@
   ],
   "investorType": "operator_fund",
   "investorTypeDetail": "Fondo operador / solo GP — en la práctica: Business angel de cheque pequeño + operating partner en un VC institucional (sin autoridad para firmar cheques del fondo)",
-  "level": 51,
+  "level": 54,
   "linkedin": "https://www.linkedin.com/in/tomasrb",
   "name": "Tomas Barreto",
   "personalWebsite": "",
@@ -115,7 +115,7 @@
     "Como Operating Partner de KP no decide ni tiene ticket propio.",
     "Actividad inversora actual no confirmada."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Sabe qué métricas de productividad de ingeniería son reales (Okay: Maker Time, Meeting Load, Friction Time).",
     "Como Operating Partner asesora a decenas de equipos de ingeniería de la cartera de KP: potencial cliente o design partner.",

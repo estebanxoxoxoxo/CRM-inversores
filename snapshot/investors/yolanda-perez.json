@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "BStartup 10 invierte pre-tracción con criterio explícito de 'fuerte base técnica o científica' y lideró con Inveready la primera ronda de Qbeast (spin-off del BSC, infraestructura de datos sin producto comercial); vehículo evergreen sin presión de exit. Reservas: ticket de 100-200k€ (coinversor, no líder), vehículo bancario con comité, y ella dirige el programa más que originar deals.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [],
-      "decision": 10,
-      "raw": 67,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 13,
-      "total": 67
+      "decision": 5,
+      "raw": 71,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 5.2,
+      "total": 71
     },
     "status": "reviewed"
   },
@@ -69,7 +69,7 @@
   ],
   "investorType": "corporate_vc",
   "investorTypeDetail": "Corporate VC (vehículo de inversión de un banco; opera como fondo evergreen, sin presión de desinversión)",
-  "level": 67,
+  "level": 71,
   "linkedin": "https://es.linkedin.com/in/yolanda-p%C3%A9rez-s%C3%A1ez-1421176",
   "name": "Yolanda Pérez Sáez",
   "personalWebsite": "",
@@ -119,7 +119,7 @@
     "Más de 10 startups al año; evergreen con vehículo de hasta 10M€; Sabadell Venture Capital para etapas posteriores.",
     "Comité de inversión bancario."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Precedente exacto: BStartup 10 lideró con Inveready los 520.000 € de Qbeast, tecnología de infraestructura de datos '100 veces más rápida' sin producto maduro.",
     "Criterios publicados: 'fuerte base técnica o científica, mentalidad de producto y capacidad de ejecutar rápido'.",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Una sola inversión ángel registrada, sin vehículo, CEO de una compañía de 5.300M USD, foco en medios generativos, y su ensayo 'Value Accrues to the Extremes' sostiene que el valor de las herramientas intermedias tiende a cero. No es capital; a lo sumo validación o intros.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 2,
-      "raw": 34,
-      "spanish": 15,
-      "stage": 3,
-      "thesis": 5,
-      "total": 34
+      "decision": 1,
+      "raw": 36,
+      "spanish": 10,
+      "stage": 1.5,
+      "thesis": 2,
+      "total": 36
     },
     "status": "reviewed"
   },
@@ -62,7 +62,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel (muy poco activo; ver riesgos)",
-  "level": 34,
+  "level": 36,
   "linkedin": "https://www.linkedin.com/in/cvalenzuelab/",
   "name": "Cristóbal Valenzuela",
   "personalWebsite": "https://cvalenzuelab.com",
@@ -104,7 +104,7 @@
     "Sin etapa ni ticket públicos; una única inversión ángel registrada (Tracxn).",
     "Consejo asesor de diio (Chile) sin inversión económica confirmada."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Fundador hispanohablante de mayor perfil en IA generativa; construyó Runway desde la investigación sin tracción durante años.",
     "Su idea 'the speed of iteration is the moat' y 'externalizar infraestructura es externalizar la capacidad de entender' es aprovechable para el discurso del stack propio.",

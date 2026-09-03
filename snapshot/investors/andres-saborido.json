@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Wayra exige producto funcionando, tracción inicial y sinergia con Telefónica, y su modelo 2026 es 'venture client': el arquetipo que el cliente quiere evitar. Sólo tiene sentido como conversación de cliente o piloto a futuro.",
     "score": {
-      "access": 10,
+      "access": 6.7,
       "caps": [],
-      "decision": 14,
-      "raw": 48,
-      "spanish": 15,
+      "decision": 7,
+      "raw": 51,
+      "spanish": 10,
       "stage": 0,
-      "thesis": 9,
-      "total": 48
+      "thesis": 3.6,
+      "total": 51
     },
     "status": "reviewed"
   },
@@ -65,7 +65,7 @@
   ],
   "investorType": "corporate_vc",
   "investorTypeDetail": "Corporate VC",
-  "level": 48,
+  "level": 51,
   "linkedin": "https://www.linkedin.com/in/andr%C3%A9s-saborido/",
   "name": "Andrés Saborido",
   "personalWebsite": "",
@@ -116,7 +116,7 @@
     "20M€ anunciados para 2026 en startups y fondos; tickets históricos hasta 250.000 €, hasta 5M€ en estratégicas.",
     "Requisitos publicados: producto funcionando, tracción inicial y sinergia con Telefónica."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Hispanohablante nativo, 15 años en el ecosistema y 20M€ para desplegar en 2026 con IA y ciberseguridad entre sus prioridades.",
     "Cheques recientes en deep tech y agentes: LuxQuanta (criptografía cuántica) y Capably (automatización agéntica).",

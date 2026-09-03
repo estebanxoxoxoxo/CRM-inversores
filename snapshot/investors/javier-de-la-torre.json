@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "Su tesis tecnológica (la UI de SaaS se convierte en CLI, API o herramienta MCP; soberanía es poder elegir proveedor de modelo) es el argumento de moat de un stack IA-nativo, y construyó CARTO durante catorce años; pero no hay ninguna inversión ángel documentada ni etapa ni ticket. Validador y puente, no capital.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
       "decision": 0,
-      "raw": 44,
-      "spanish": 15,
+      "raw": 46,
+      "spanish": 10,
       "stage": 0,
-      "thesis": 20,
-      "total": 44
+      "thesis": 8,
+      "total": 46
     },
     "status": "reviewed"
   },
   "background": "Formación y trayectoria de científico de datos aplicado a la biodiversidad. En 2007-2008 fundó Vizzuality, consultora y estudio geoespacial dedicado a conectar la ciencia con la formulación de políticas mediante mejor uso de datos (trabajos con GBIF, conservación y biodiversidad). De esa experiencia —la necesidad de herramientas mejores para analizar datos de localización a gran escala— nació CARTO, que fundó en Madrid en 2012 junto a Sergio Álvarez con la visión de 'democratizar el análisis y la visualización de datos'. CARTO empezó como CartoDB, con un fuerte componente open source, y se ha convertido en una de las plataformas de Location Intelligence de referencia mundial, con sede central en Nueva York y oficinas en Madrid y Sevilla. Sus inversores incluyen Insight Partners, Accel, Salesforce Ventures, Hearst, el European Innovation Council (EIC), Earlybird y Kibo Ventures; la financiación acumulada citada habitualmente ronda los 31 M$ (verificar, ha habido rondas posteriores). Desde 2019 ocupa el puesto de Chief Strategy Officer, cediendo la operación del día a día. En paralelo es Director del Open Geospatial Consortium desde 2021, patrono de la Tierra Pura Foundation desde 2020 y asesor de la European Biodiversity Observation Network. Sigue programando: su GitHub tiene 85 repositorios y proyectos personales recientes como hacienda-cli (un CLI en TypeScript para la sede electrónica de la AEAT) e iceberg-geo-testbed.",
-  "band": "discarded",
+  "band": "reserve",
   "baseCity": "Madrid, España (su perfil de GitHub declara Madrid; CARTO tiene sede central en Nueva York y oficinas en Madrid y Sevilla, y él se mueve entre ambas)",
   "confidence": "medium",
   "contactSources": {
@@ -72,7 +72,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 44,
+  "level": 46,
   "linkedin": "https://es.linkedin.com/in/jatorre",
   "name": "Javier de la Torre",
   "personalWebsite": "",
@@ -121,7 +121,7 @@
     "Sin inversiones ángel documentadas (AngelFlow lo etiqueta como ángel sin listar ninguna operación).",
     "Sin etapa ni ticket conocidos."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Reorientó CARTO hacia la 'Agentic Enterprise' con servidor MCP propio; impulsó GeoParquet y geometría en Apache Iceberg: construye la capa que el cliente vende.",
     "Su tesis pública sobre agentes, formatos abiertos y elección de proveedor es literalmente el argumento de moat del stack.",

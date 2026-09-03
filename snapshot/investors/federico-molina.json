@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Hispanohablante nativo, equipo fundador de Auth0 y socio con decisión en NXTP, fondo con especialización en Developer Tools & Infrastructure (Auth0, Vercel) que entra pre-seed desde 500k USD; pero el Fund III es de 2023 con capacidad no confirmada, es Partner desde 2025 sin deals liderados, perfil de marketing y está fuera de región (Buenos Aires).",
     "score": {
-      "access": 10,
+      "access": 6.7,
       "caps": [],
-      "decision": 14,
-      "raw": 73,
-      "spanish": 15,
-      "stage": 16,
-      "thesis": 18,
-      "total": 73
+      "decision": 7,
+      "raw": 77,
+      "spanish": 10,
+      "stage": 8,
+      "thesis": 7.2,
+      "total": 77
     },
     "status": "reviewed"
   },
@@ -65,7 +65,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (más actividad paralela como business angel)",
-  "level": 73,
+  "level": 77,
   "linkedin": "https://www.linkedin.com/in/federicomolina86/",
   "name": "Federico Molina",
   "personalWebsite": "",
@@ -112,7 +112,7 @@
     "NXTP Fund III: 98M USD (nov-2023), casi tres años desplegándose; Fund IV no confirmado.",
     "Él es Partner desde 2025; además ángel activo."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Construyó desde dentro una compañía de dev tools de éxito global (Auth0, growth y analítica): entiende producto y comprador desarrollador sin traducción.",
     "NXTP tiene Auth0 y Vercel en cartera y 'deep domain expertise in Developer Tools & Infrastructure'; acompaña 'from idea through execution'.",

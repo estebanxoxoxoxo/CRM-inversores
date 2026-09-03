@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "'Pre seed for deep-tech founders': lidera pre-seeds con tickets hasta 500k USD, nombra dev tools como vertical y busca usuarios técnicos, SDK/API y 'anomalías' fuera del hype; en ningún punto pide tracción. Reservas: Fund II (20M) sin cierre confirmado, tesis deep tech nueva en 2025, excluye solo founders.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [],
-      "decision": 15,
-      "raw": 86,
-      "spanish": 15,
-      "stage": 20,
-      "thesis": 24,
-      "total": 86
+      "decision": 7.5,
+      "raw": 91,
+      "spanish": 10,
+      "stage": 10,
+      "thesis": 9.6,
+      "total": 91
     },
     "status": "reviewed"
   },
@@ -68,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 86,
+  "level": 91,
   "linkedin": "https://www.linkedin.com/in/javiersamb/",
   "name": "Javier Sánchez Aldana",
   "personalWebsite": "",
@@ -113,7 +113,7 @@
     "Fund II (2025): objetivo 20M USD para ~25 inversiones; directorios reportan 250-750k USD; cierre no confirmado.",
     "Fund I: ~4M USD en 16 empresas con cheques de 50-150k USD."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Su tesis busca exactamente el perfil del cliente: middleware técnico, usuarios ingenieros, distribución por API/SDK, repo en GitHub como señal positiva, software-first.",
     "Lidera rondas pre-seed: pone precio y términos antes de que exista tracción; menciona dev tools de forma explícita.",

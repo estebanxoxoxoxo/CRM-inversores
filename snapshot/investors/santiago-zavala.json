@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Programador en activo cuya conversación pública está pegada al producto: orquestar agentes, Claude Code y Codex a diario, 'Prompt Driven Development', el repositorio del futuro será de prompts; 300+ inversiones pre-tracción, lidera, y organiza hackatones 'Release Before Ready'. Reservas: la vía estándar es un programa por cohortes de 300k USD con foco en LatAm.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [],
-      "decision": 19,
-      "raw": 87,
-      "spanish": 15,
-      "stage": 19,
-      "thesis": 22,
-      "total": 87
+      "decision": 9.5,
+      "raw": 92,
+      "spanish": 10,
+      "stage": 9.5,
+      "thesis": 8.8,
+      "total": 92
     },
     "status": "reviewed"
   },
@@ -72,7 +72,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (con un componente de aceleradora/programa en la pata LatAm)",
-  "level": 87,
+  "level": 92,
   "linkedin": "https://www.linkedin.com/in/santiago-zavala-47a68b7/",
   "name": "Santiago Zavala",
   "personalWebsite": "https://www.santiagozavala.com",
@@ -122,7 +122,7 @@
     "Vía estándar de 500 LatAm: 300.000 USD por compañía en programa con acceso a Silicon Valley (5 seleccionadas en 2026).",
     "Dos puertas: el programa (300k) o una inversión directa mayor liderada por el fondo."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "No habla de IA en abstracto: habla de orquestar agentes, de Claude Code, Codex y OpenClaw, y de que el repositorio del futuro será de prompts.",
     "Invierte en pre-seed, lidera, 300+ operaciones; toda su historia es respaldar a fundadores técnicos antes de las métricas.",

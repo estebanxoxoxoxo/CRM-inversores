@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Invierte en la primera ronda institucional con preferencia por fundadores técnicos y entiende la cadena del silicio (800M USD de compras en Tesla y Apple), con email público; pero su cartera es IA aplicada vertical sin dev tools, el fondo no publica tamaño ni ticket y Mexia es el contacto primario de Nido.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [
         "thesis_below_10"
       ],
-      "decision": 12,
-      "raw": 67,
-      "spanish": 15,
-      "stage": 19,
-      "thesis": 8,
+      "decision": 6,
+      "raw": 71,
+      "spanish": 10,
+      "stage": 9.5,
+      "thesis": 3.2,
       "total": 55
     },
     "status": "reviewed"
@@ -112,7 +112,7 @@
     "Pre-seed exclusivamente: primera ronda institucional.",
     "Tamaño de fondo y ticket no confirmados; por las rondas en que aparece, cientos de miles de USD (inferencia)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Entiende la cadena de valor del silicio y no se asusta ante ciclos de producto largos.",
     "Primera ronda institucional y al menos un fundador técnico: puede evaluar infraestructura sin usuarios.",

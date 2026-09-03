@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Lidera desde pre-seed y tiene un precedente dev-adjacent (Wabbi), pero su tesis es modernizar sectores regulados, es escéptico público del hype de IA, el Fund III va por debajo de objetivo y no hay evidencia de español.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [],
-      "decision": 12,
-      "raw": 49,
-      "spanish": 3,
-      "stage": 15,
-      "thesis": 7,
-      "total": 49
+      "decision": 6,
+      "raw": 52,
+      "spanish": 2,
+      "stage": 7.5,
+      "thesis": 2.8,
+      "total": 52
     },
     "status": "reviewed"
   },
@@ -68,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (fondo pequeño, familiar en origen, que lidera rondas)",
-  "level": 49,
+  "level": 52,
   "linkedin": "https://www.linkedin.com/in/adrianmendozavc",
   "name": "Adrian Mendoza",
   "personalWebsite": "",
@@ -116,7 +116,7 @@
     "Fund III: objetivo 100M USD, ~40M levantados según su web; anclas Bank of America y Truist.",
     "Cartera muy concentrada: 12-15 empresas por fondo."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "GP latino que lidera rondas desde pre-seed con IA y ciberseguridad como verticales declaradas.",
     "Precedente en herramientas para equipos de desarrollo: lideró la seed de 2M USD de Wabbi (seguridad continua integrada en el ciclo de desarrollo).",

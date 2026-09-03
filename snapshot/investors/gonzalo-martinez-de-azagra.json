@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "GP español cuyo fondo declara 'Developer Tools' por escrito e invierte formalmente en pre-seed y seed; lideró la seed de 13M USD de illumex (capa semántica para IA), adquirida por NVIDIA. Reservas: deal flow mayoritariamente israelí, el texto del fondo espera 'validación de mercado y de-risking', sólo buzón general y dos socios deben aprobar.",
     "score": {
-      "access": 10,
+      "access": 6.7,
       "caps": [],
-      "decision": 20,
-      "raw": 83,
-      "spanish": 15,
-      "stage": 16,
-      "thesis": 22,
-      "total": 83
+      "decision": 10,
+      "raw": 87,
+      "spanish": 10,
+      "stage": 8,
+      "thesis": 8.8,
+      "total": 87
     },
     "status": "reviewed"
   },
@@ -70,7 +70,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 83,
+  "level": 87,
   "linkedin": "https://es.linkedin.com/in/gonzalomartinezdeazagra",
   "name": "Gonzalo Martínez de Azagra",
   "personalWebsite": "",
@@ -116,7 +116,7 @@
     "Ticket inicial 750.000-4.000.000 USD según ronda.",
     "Proceso: dos socios deben acordar abrir due diligence."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Cardumen declara 'Developer Tools' como área de inversión e invierte en pre-seed y seed, no sólo Serie A.",
     "Lideró la seed de illumex (capa semántica para que la IA entienda datos de empresa), vendida a NVIDIA por ~60M USD: infraestructura profunda para IA, liderada en seed, con comprador estratégico.",

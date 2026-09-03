@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Co-lideró en pre-seed (2,5M USD, sin tracción) Altan, una plataforma agent-native que orquesta agentes para construir y desplegar software de producción, y escribe cada semana sobre la revolución agéntica en Suma Positiva; Fondo IV casi íntegramente IA. Reservas serias: conflicto de cartera con Altan y su afirmación de que la velocidad importa más que el moat.",
     "score": {
-      "access": 11,
+      "access": 7.3,
       "caps": [],
-      "decision": 20,
-      "raw": 87,
-      "spanish": 15,
-      "stage": 19,
-      "thesis": 22,
-      "total": 87
+      "decision": 10,
+      "raw": 92,
+      "spanish": 10,
+      "stage": 9.5,
+      "thesis": 8.8,
+      "total": 92
     },
     "status": "reviewed"
   },
@@ -70,7 +70,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 87,
+  "level": 92,
   "linkedin": "https://es.linkedin.com/in/samuelgil",
   "name": "Samuel Gil",
   "personalWebsite": "https://www.sumapositiva.com",
@@ -129,7 +129,7 @@
     "'We invest from €100k to €3m'; histórico de 0,5-2M€ desde 2012.",
     "JME Ventures IV (CNMV, nov-2024), tamaño no publicado; >120M€ AUM en cuatro fondos."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Ya respaldó con dinero la tesis exacta: Altan (pre-seed 2,5M USD co-liderada, sept-2025), agentes que diseñan, construyen y despliegan software de producción.",
     "Escribe cada semana sobre el fin del SaaS CRUD, 'vender trabajo, no software' y copilots que se vuelven autopilots (Suma Positiva #264, #265).",

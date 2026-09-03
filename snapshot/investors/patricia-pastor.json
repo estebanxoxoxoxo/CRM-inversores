@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Encaje literal: fondo español dedicado 100% a IA B2B con licencia CNMV, 30-35 operaciones desde pre-seed, cartera con BrainGrid (harness de desarrollo IA-nativo) y Optiak (orquestación de agentes), y criterio publicado de 'Architectural Empathy' y moat que no dependa de una API ajena. Reservas: fondo joven de 50M€ que coinvierte más que lidera, email inferido y posible solapamiento con BrainGrid.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [],
-      "decision": 17,
-      "raw": 90,
-      "spanish": 15,
-      "stage": 20,
-      "thesis": 25,
-      "total": 90
+      "decision": 8.5,
+      "raw": 95,
+      "spanish": 10,
+      "stage": 10,
+      "thesis": 10,
+      "total": 95
     },
     "status": "reviewed"
   },
@@ -74,7 +74,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 90,
+  "level": 95,
   "linkedin": "https://www.linkedin.com/in/patriciapastorg/",
   "name": "Patricia Pastor",
   "personalWebsite": "",
@@ -128,7 +128,7 @@
     "Fondo objetivo 50M€ (30M€ en captación inicial) para 30-35 operaciones; ~1,4-1,7M€ comprometidos por compañía con follow-on; primer cheque menor (BrainGrid: ronda total de 1M USD como coinversora).",
     "SETT entró con 9,5M€ (ene-2026); accesible a retail desde 10.000 €."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Cartera con las dos categorías del cliente: BrainGrid ('capa de planificación estructurada para construir software AI-native') y Optiak ('capa de orquestación que unifica modelos, agentes y sistemas').",
     "Pre-seed por mandato: 30-35 operaciones desde fase inicial; criterio 'Architectural Empathy' (diseñar para escala y coste desde el día uno).",

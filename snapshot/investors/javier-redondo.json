@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Entiende el producto desde dentro: gestionó Ray en Anyscale y Kafka en Confluent y publicó las tesis 'MCP is the new WWW' y de sistemas de build; español nativo con email público. Pero Scale declara que no invierte en seed, lidera Series A/B con cheques de 5-50M y pide clientes firmados y 0,5-5M ARR. Reservar para la Serie A.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [
         "requires_traction"
       ],
-      "decision": 20,
-      "raw": 75,
-      "spanish": 15,
-      "stage": 3,
-      "thesis": 24,
+      "decision": 10,
+      "raw": 79,
+      "spanish": 10,
+      "stage": 1.5,
+      "thesis": 9.6,
       "total": 64
     },
     "status": "reviewed"
@@ -118,7 +118,7 @@
     "Cheques iniciales 5-50M USD; exige 'signed customers and repeatable demand' (0,5-5M USD de ARR).",
     "Fondo VIII de 900M USD; Norteamérica, Europa e Israel."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Ha gestionado producto de infraestructura distribuida para IA (Ray, Kafka) y escribe las dos mitades del harness: protocolos de agentes (MCP) y sistemas de build.",
     "Español nativo (ICAI, Madrid) y email público: cero fricción de idioma ni de intro.",

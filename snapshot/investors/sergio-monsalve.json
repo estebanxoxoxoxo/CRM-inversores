@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Criterio escrito contra la tracción ('your journey and vision even more than your results'), lidera seeds de 200k-2M USD, Potato AI (agentes científicos autónomos) en cartera y tesis 'tools that 10x the output of everyone'; nacido en México, buzón público. Reservas: tesis de human enablement (no infraestructura), fondo de ~26M sin Fund II confirmado y sin infra en cartera.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [],
-      "decision": 16,
-      "raw": 73,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 13,
-      "total": 73
+      "decision": 8,
+      "raw": 77,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 5.2,
+      "total": 77
     },
     "status": "reviewed"
   },
@@ -67,7 +67,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (fondo pequeno y tematico, tipo 'solo GP' ampliado)",
-  "level": 73,
+  "level": 77,
   "linkedin": "https://www.linkedin.com/in/sergiomonsalve/",
   "name": "Sergio Monsalve",
   "personalWebsite": "https://monsalve.people.stanford.edu/",
@@ -121,7 +121,7 @@
     "Ticket 200.000-2.000.000 USD, punto dulce 1M USD.",
     "Fondo ~26M USD (Forbes 2023); Fund II no confirmado."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Roble invierte en 'tools that 10x the output of everyone' en la intersección humano-IA; primer vertical: productividad en el trabajo.",
     "Criterio de entrada escrito contra la tracción: 'We want to hear about your journey and vision for the future even more than your results'.",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Muy bien conectado en el ecosistema dev tools (Vercel, Neon, Clerk, Together AI, Braintrust, Supabase), pero HyperGrowth no despliega capital (sweat equity en Series A-E post-PMF), su cheque ángel es de 5-25k con una sola inversión documentada y su especialidad es exactamente lo que el cliente aún no tiene: crecimiento y usuarios.",
     "score": {
-      "access": 8,
+      "access": 5.3,
       "caps": [],
-      "decision": 3,
-      "raw": 46,
-      "spanish": 15,
-      "stage": 10,
-      "thesis": 10,
-      "total": 46
+      "decision": 1.5,
+      "raw": 49,
+      "spanish": 10,
+      "stage": 5,
+      "thesis": 4,
+      "total": 49
     },
     "status": "reviewed"
   },
@@ -64,7 +64,7 @@
   ],
   "investorType": "operator_fund",
   "investorTypeDetail": "Fondo operador / solo GP",
-  "level": 46,
+  "level": 49,
   "linkedin": "https://www.linkedin.com/in/mgonto/",
   "name": "Martín Gontovnikas",
   "personalWebsite": "https://gon.to/",
@@ -106,7 +106,7 @@
     "Ángel: pre-seed a Serie A, 5.000-25.000 USD (punto dulce 15k); única inversión documentada: Upstash (seed, 2022).",
     "HyperGrowth Partners: sin capital, cobra en equity por asesoría a B2B SaaS de Serie A a E."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Red y reconocimiento del terreno: trabaja con Vercel, Neon, Clerk, Together AI, n8n, Braintrust, Ashby, Supabase, Retool.",
     "Argentino con presencia habitual en podcasts en español.",

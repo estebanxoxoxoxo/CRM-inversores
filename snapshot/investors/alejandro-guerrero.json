@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Lidera pre-seed de 1-3M USD y ya co-lideró Optimal AI (agentes en dev tools, pre-seed sin tracción) con la tesis 'la IA es un nuevo paradigma de computación'. Reservas: no es fondo deep tech, pide un wedge comercial claro y su fluidez en español no está documentada.",
     "score": {
-      "access": 14,
+      "access": 9.3,
       "caps": [],
-      "decision": 20,
-      "raw": 78,
-      "spanish": 8,
-      "stage": 19,
-      "thesis": 17,
-      "total": 78
+      "decision": 10,
+      "raw": 82,
+      "spanish": 5.3,
+      "stage": 9.5,
+      "thesis": 6.8,
+      "total": 82
     },
     "status": "reviewed"
   },
@@ -68,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (fondo pequeño / micro-VC que lidera)",
-  "level": 78,
+  "level": 82,
   "linkedin": "https://www.linkedin.com/in/alguerrero/",
   "name": "Alejandro Guerrero",
   "personalWebsite": "",
@@ -114,7 +114,7 @@
     "Cheques de 1-3M USD; unas 7 nuevas inversiones al año.",
     "Fund III de 73M USD (ene-2024); 148M USD levantados en nueve años, 60+ empresas, 5 salidas (AuditBoard)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Tesis del fondo casi literal al discurso del cliente: 'AI is a new computing paradigm' que obliga a reconstruir los sistemas centrales.",
     "Co-lideró la pre-seed de 2,25M USD de Optimal AI: agentes que automatizan compliance dentro de las herramientas de desarrollo.",

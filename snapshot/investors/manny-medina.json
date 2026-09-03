@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Su tesis es literalmente infraestructura de IA (datos y workflows, despliegue e inferencia, optimización de cómputo y redes) en seed y Serie A, con Hedgehog (open networking para IA) en 2026; cubano de nacimiento, español materno, preside el comité y construyó dos compañías de infraestructura. Reservas: fondo pequeño y en captación (Form D 20,2M frente a 75M objetivo) y no confundir con el Manny Medina de Outreach.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [],
-      "decision": 16,
-      "raw": 86,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 25,
-      "total": 86
+      "decision": 8,
+      "raw": 91,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 10,
+      "total": 91
     },
     "status": "reviewed"
   },
@@ -68,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (fondo early-stage de tamaño pequeño, gestionado por una familia de operadores) con una aceleradora/plataforma asociada (eMerge Americas)",
-  "level": 86,
+  "level": 91,
   "linkedin": "https://www.linkedin.com/in/manny-medina-612b06207/",
   "name": "Manuel D. \"Manny\" Medina",
   "personalWebsite": "",
@@ -120,7 +120,7 @@
     "Mínimo ~1M USD por operación; objetivo ~46 startups.",
     "Fondo: objetivo 75M USD; Form D (sept-2025) declara 20,2M USD vendidos; en captación."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Primera línea de su tesis: 'software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference'.",
     "Toda su carrera vendió 'picks and shovels' (Terremark, Cyxtera): el moat técnico y el horizonte largo le resultan naturales.",

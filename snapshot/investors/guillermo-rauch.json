@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "Encaje temático máximo (Supabase, Resend, Browserbase, Chroma, Railway; tesis 'do it for the agents', 'The AI Cloud'), argentino con vínculo activo con Argentina. Pero es capital simbólico (5-50k USD), nunca lidera, acceso muy difícil como CEO de Vercel y posible solapamiento con la AI Cloud de Vercel: vale como señal.",
     "score": {
-      "access": 7,
+      "access": 4.7,
       "caps": [],
-      "decision": 10,
-      "raw": 75,
-      "spanish": 15,
-      "stage": 18,
-      "thesis": 25,
-      "total": 75
+      "decision": 5,
+      "raw": 79,
+      "spanish": 10,
+      "stage": 9,
+      "thesis": 10,
+      "total": 79
     },
     "status": "reviewed"
   },
   "background": "Nacido en 1987 en Lanús (conurbano bonaerense). Empezó a programar de niño, no terminó la escuela secundaria y se mudó a San Francisco a los 18 años. Fue ingeniero frontend en MooTools y creador de tres proyectos open source de enorme adopción: Mongoose (ODM de MongoDB), Socket.IO (websockets) y, más tarde, Next.js. Cofundó LearnBoost (edtech) y Cloudup, adquirida por Automattic en 2013. En 2015 fundó ZEIT, renombrada Vercel en 2020, la plataforma cloud para frontend y hoy pieza clave del despliegue de aplicaciones generadas con IA. Vercel pasó de una valoración de 3.250 millones de USD (2024) a unos 9.300 millones en la ronda de 2025, y Rauch entró en las listas de multimillonarios de Forbes en marzo de 2026. Productos actuales relevantes: v0 (generación de UI con IA), AI SDK (segundo paquete más descargado de npm según su propio ensayo), Vercel Sandbox, Firewall Agent y Code Review Agent. En paralelo, desde ~2015 ha construido una de las carteras de ángel más grandes del sector dev tools.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "San Francisco, California, EE.UU. (nacido y criado en Lanús, Buenos Aires, Argentina)",
   "confidence": "high",
   "contactSources": {
@@ -63,11 +63,11 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 75,
+  "level": 79,
   "linkedin": "https://www.linkedin.com/in/rauchg/",
   "name": "Guillermo Rauch",
   "personalWebsite": "https://rauchg.com",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
@@ -113,7 +113,7 @@
     "Ticket 5.000-50.000 USD, punto dulce 25.000 USD; nunca lidera.",
     "Volumen muy alto: 76-175 operaciones según la fuente."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Escribe y construye sobre 'agentic engineering', sandboxes de agentes y separación modelo/agente: la tesis del cliente en sus propias palabras.",
     "Cartera confirmada de infraestructura de desarrollador sin usuarios en el momento del cheque: Railway, Tinybird, Upstash, Chroma, Browserbase, Composio, Resend.",

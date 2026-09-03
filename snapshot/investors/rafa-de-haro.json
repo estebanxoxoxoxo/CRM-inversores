@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Fondo mexicano con la frase 'Cometa invests in AI readiness enablers' y precedentes tempranos en IA industrial (Kuona, Pulsar) y seguridad (Hackmetrix); pero su tesis identifica industrias listas para la IA, no financia su infraestructura, 16 de ~40 posiciones son fintech, no hay dev tools y sus rondas personales son semillas de 4-6M.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [
         "thesis_below_10"
       ],
-      "decision": 20,
-      "raw": 65,
-      "spanish": 15,
-      "stage": 12,
-      "thesis": 9,
+      "decision": 10,
+      "raw": 69,
+      "spanish": 10,
+      "stage": 6,
+      "thesis": 3.6,
       "total": 55
     },
     "status": "reviewed"
@@ -113,7 +113,7 @@
     "Sus operaciones registradas: semillas de 4-6M USD (Kuona, Territorium) y una Serie B (GAIA).",
     "COMETA III (2021), tamaño no confirmado; vehículo ~130M USD según prensa."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Ha hecho el trabajo intelectual de pensar dónde y por qué la IA va a rendir, con vocabulario propio.",
     "Invirtió antes que casi nadie en México en IA industrial (Kuona, Pulsar) y en seguridad (Hackmetrix); fundador con exit a JPMorgan.",

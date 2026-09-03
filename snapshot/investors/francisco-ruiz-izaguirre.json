@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "La tesis de Carabela está escrita como una descripción del cliente: pre-seed deep tech B2B para 'engineers, developers, scientists', distribuido vía SDK, repo de GitHub o API, liderando con hasta 500k USD; seis años en AWS y escribe contra los 'AI wrappers'. Reservas: Fund II (20M) sin cierre confirmado, exige fundadores latinoamericanos y no invierte en solo founders.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [],
-      "decision": 15,
-      "raw": 86,
-      "spanish": 15,
-      "stage": 20,
-      "thesis": 24,
-      "total": 86
+      "decision": 7.5,
+      "raw": 91,
+      "spanish": 10,
+      "stage": 10,
+      "thesis": 9.6,
+      "total": 91
     },
     "status": "reviewed"
   },
@@ -69,7 +69,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (fondo pequeño de pre-seed; la firma nació como red de ángeles y aceleradora en 2013)",
-  "level": 86,
+  "level": 91,
   "linkedin": "https://www.linkedin.com/in/franco5/",
   "name": "Francisco Ruiz Izaguirre",
   "personalWebsite": "",
@@ -117,7 +117,7 @@
     "Fund II (vintage 2025): objetivo 20M USD, cartera objetivo 25 compañías, cheque medio ~500k USD; cierre no confirmado.",
     "Fund I (2020, ~4,5M USD): 16 compañías, mitad pre-seed y mitad seed."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Tesis literal: producto para 'technical end-users' desplegado con documentación técnica; bienvenida explícita a 'SDK, GitHub Repo or API'.",
     "'We back the bold—deep tech founders building what others don't yet understand'; busca 'anomalías' fuera del hype.",

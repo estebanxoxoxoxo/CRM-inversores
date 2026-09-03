@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Mandato literal 'developer tools and data infrastructure' en Lorimer, fondo de primer cheque pre-consenso, y un evaluador técnico de primer nivel; pero es Venture Partner a tiempo parcial sin firma de cheque y el fondo no publica tamaño ni ticket.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [
         "no_check_writer"
       ],
-      "decision": 6,
-      "raw": 72,
-      "spanish": 15,
-      "stage": 16,
-      "thesis": 22,
+      "decision": 3,
+      "raw": 76,
+      "spanish": 10,
+      "stage": 8,
+      "thesis": 8.8,
       "total": 69
     },
     "status": "reviewed"
@@ -117,7 +117,7 @@
     "Tamaño de fondo y ticket no publicados (gestor emergente, RAISE Global 2026).",
     "Él es Venture Partner a tiempo parcial: origina y evalúa, no firma."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Mandato declarado por él mismo: 'invest in developer tools and data infrastructure'; Lorimer tiene 14 compañías en esa categoría y entra 'pre-consensus at pre-seed and seed'.",
     "Ingeniero de sistemas real: motor vectorizado en CockroachDB, perfiles continuos con eBPF (Polar Signals, hoy Dash0), kernels CUDA, deterministic simulation testing.",

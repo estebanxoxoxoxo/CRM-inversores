@@ -3,14 +3,16 @@
     "date": "2026-09-02",
     "reason": "Evidencia limpia de apuesta deep tech pre-tracción: puso su nombre en Qbeast (spin-off del BSC, indexación open source) y Giskard (testing open source de modelos) cuando no había categoría; arquitecto original de Uber, mexicano. Pero cuatro o cinco operaciones en cinco años (última 2024), sin vehículo, ticket desconocido, sin LinkedIn ni email, y dedicación a Consello.",
     "score": {
-      "access": 6,
-      "caps": [],
-      "decision": 8,
-      "raw": 68,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 22,
-      "total": 68
+      "access": 4,
+      "caps": [
+        "no_check_writer"
+      ],
+      "decision": 4,
+      "raw": 72,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 8.8,
+      "total": 69
     },
     "status": "reviewed"
   },
@@ -66,7 +68,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 68,
+  "level": 69,
   "linkedin": "",
   "name": "Oscar Salazar Gaitán",
   "personalWebsite": "",
@@ -114,7 +116,7 @@
     "Ticket no publicado (previsiblemente decenas de miles de USD); nunca lidera.",
     "16-21 inversiones según CB Insights y PitchBook; última confirmada junio de 2024."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Qbeast y Giskard: infraestructura open source de datos e IA, financiada antes de clientes de referencia; su nombre encabezó las notas de prensa.",
     "Doctor en telecomunicaciones y arquitecto del sistema original de Uber: evalúa arquitectura sin pedir usuarios.",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Big Sur nombra 'AI-native software' y sistemas expertos en su tesis, invirtió en Axiomatic AI (infraestructura de inteligencia verificada) y lidera pre-seed y seed en deep tech con un fondo nuevo (BSV IV Ariadne, 100M€ objetivo, 40M€ de la SETT); pero su cartera deep tech es sobre todo hardware y física, sin dev tools, y en 2020 dijo que no hacían apuestas de infraestructura.",
     "score": {
-      "access": 11,
+      "access": 7.3,
       "caps": [],
-      "decision": 20,
-      "raw": 80,
-      "spanish": 15,
-      "stage": 18,
-      "thesis": 16,
-      "total": 80
+      "decision": 10,
+      "raw": 84,
+      "spanish": 10,
+      "stage": 9,
+      "thesis": 6.4,
+      "total": 84
     },
     "status": "reviewed"
   },
@@ -67,7 +67,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 80,
+  "level": 84,
   "linkedin": "https://es.linkedin.com/in/josemiguelherrero",
   "name": "José Miguel Herrero",
   "personalWebsite": "",
@@ -125,7 +125,7 @@
     "Ticket 500k-3M USD con punto dulce ~2,5M USD; con BSV IV lidera rondas de 8-9,4M€.",
     "BSV IV Ariadne: objetivo 100M€, primer cierre realizado, 40M€ de la SETT."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Tesis 'Internet Power' con 'AI-native software' y 'expert systems'; Axiomatic AI en cartera ('the intelligence infrastructure for verified science & engineering').",
     "Invierte sistemáticamente pre-tracción y lidera: Arq Quantum (pre-seed), Nanopower (9,4M€ liderada), LuxQuanta (8M€ liderada).",

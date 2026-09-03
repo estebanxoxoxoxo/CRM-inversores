@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "PhD del MIT, fundador de hardware financiado por DARPA y Principal en el mayor fondo deep tech del mundo, cómodo con equipos sin producto; pero su foco es cómputo de próxima generación y physical AI, no dev tools, es Principal sin firma, los cheques de DCVC son de 5-25M y su español no está documentado.",
     "score": {
-      "access": 8,
+      "access": 5.3,
       "caps": [],
-      "decision": 7,
-      "raw": 42,
-      "spanish": 2,
-      "stage": 12,
-      "thesis": 13,
-      "total": 42
+      "decision": 3.5,
+      "raw": 44,
+      "spanish": 1.3,
+      "stage": 6,
+      "thesis": 5.2,
+      "total": 44
     },
     "status": "reviewed"
   },
@@ -70,7 +70,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 42,
+  "level": 44,
   "linkedin": "https://www.linkedin.com/in/jjlopezphd/",
   "name": "Dr. Josué J. López",
   "personalWebsite": "",
@@ -122,7 +122,7 @@
     "112 inversiones en seed (ronda media 15,6M) y 113 en Serie A.",
     "Él es Principal: origina y defiende, no firma; sin actividad ángel documentada."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Relación más limpia con el riesgo técnico puro: DCVC existe para financiar ciencia antes de que haya mercado.",
     "Ángulo válido: 'next-generation compute'; si el 90% de eficiencia se demuestra con benchmarks de cómputo, energía o latencia, entra en su tesis (Mythic, SF Compute).",

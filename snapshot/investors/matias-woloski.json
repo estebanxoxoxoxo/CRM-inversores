@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "CTO fundador de Auth0 que invierte cheques de 5-50k USD en pre-seed y seed exactamente en infraestructura de desarrollo e identidad de agentes (Vercel 2019, Tinybird, Keycard 2025, Luzid, Veria Labs con Paul Graham); argentino, español nativo. Reservas: fuera de región (Buenos Aires), cheque pequeño que no lidera, rol operativo 2026 por confirmar.",
     "score": {
-      "access": 11,
+      "access": 7.3,
       "caps": [],
-      "decision": 10,
-      "raw": 78,
-      "spanish": 15,
-      "stage": 18,
-      "thesis": 24,
-      "total": 78
+      "decision": 5,
+      "raw": 82,
+      "spanish": 10,
+      "stage": 9,
+      "thesis": 9.6,
+      "total": 82
     },
     "status": "reviewed"
   },
@@ -68,7 +68,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 78,
+  "level": 82,
   "linkedin": "https://www.linkedin.com/in/matiaswoloski/",
   "name": "Matías Woloski",
   "personalWebsite": "",
@@ -120,7 +120,7 @@
     "Ticket 5.000-50.000 USD, punto dulce 25.000 USD.",
     "11-20 posiciones registradas según la fuente."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Ha construido una plataforma para desarrolladores desde cero y sin tracción (Auth0, 6.500M USD): sabe que la métrica temprana correcta es adopción de developers, no ingresos.",
     "Keycard (identidad y permisos para agentes de IA, 2025): financia el problema de control de agentes que ejecutan código.",

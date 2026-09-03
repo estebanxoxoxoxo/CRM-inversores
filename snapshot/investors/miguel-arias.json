@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Operador técnico que dejó Kfund en junio de 2026 para construir infraestructura de IA ('esta ola no pienso vivirla desde la grada'), con historial de 130+ inversiones tempranas en Wayra; pero hoy no dispone de capital institucional, su ticket ángel no es público y su propio proyecto puede solapar con el harness. Puerta de entrada, no capital.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 5,
-      "raw": 55,
-      "spanish": 15,
-      "stage": 12,
-      "thesis": 14,
-      "total": 55
+      "decision": 2.5,
+      "raw": 58,
+      "spanish": 10,
+      "stage": 6,
+      "thesis": 5.6,
+      "total": 58
     },
     "status": "reviewed"
   },
@@ -68,7 +68,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 55,
+  "level": 58,
   "linkedin": "https://www.linkedin.com/in/miguelarias/",
   "name": "Miguel Arias",
   "personalWebsite": "https://emprenderagolpes.com",
@@ -116,7 +116,7 @@
     "Como ángel: pre-seed y seed; ticket no publicado.",
     "Ya no gestiona Leadwind (250M USD, Serie A-C) ni ningún vehículo de Kfund."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Entiende sin traducción el stack IA-nativo y el harness: está construyendo 'un proyecto de infraestructura digital para IA'.",
     "Historial pre-tracción: 130+ inversiones tempranas en Wayra/Open Future (ciber, datos, IA) y nFlux AI y Voicemod desde Kfund.",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Credenciales sobradas para auditar un claim de rendimiento (dirigió MareNostrum 5 y los primeros cuánticos españoles; escribe cada semana sobre agentes autónomos y cómputo); pero el fondo Invivo AI no tiene cierre confirmado ni operaciones y su mandato es IA + ciencia avanzada (biotech, cuántica, fotónica), no dev tools. Reactivar cuando cierre.",
     "score": {
-      "access": 11,
+      "access": 7.3,
       "caps": [],
-      "decision": 9,
-      "raw": 61,
-      "spanish": 15,
-      "stage": 14,
-      "thesis": 12,
-      "total": 61
+      "decision": 4.5,
+      "raw": 64,
+      "spanish": 10,
+      "stage": 7,
+      "thesis": 4.8,
+      "total": 64
     },
     "status": "reviewed"
   },
@@ -67,7 +67,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 61,
+  "level": 64,
   "linkedin": "https://www.linkedin.com/in/josepmariamartorellrodon/",
   "name": "Josep Maria 'Pep' Martorell Rodon",
   "personalWebsite": "https://pepmartorell.substack.com",
@@ -120,7 +120,7 @@
     "Invivo Ventures AI: objetivo 100M€, 'launching H1 2026'; primer cierre no confirmado, sin operaciones anunciadas.",
     "El gestor sí tiene cerrados Invivo Ventures (60M€, 2024) e Invivo Ventures III en marcha."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Doctor en Informática que operó MareNostrum 5: puede evaluar 'nuestro stack funciona un 90% mejor' sin benchmarks de terceros.",
     "Su Substack trata el comportamiento autónomo de agentes y sus fallos: no hay que explicarle el harness.",

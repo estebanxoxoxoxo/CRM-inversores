@@ -59,13 +59,15 @@ Buscá personas que no estén en la lista de excluidos de la sección 8.
 
 Cada perfil lleva una puntuación propuesta en `audit.score` y un motivo en `audit.reason` que explique el nivel en términos absolutos: encaje y reservas. Un humano revisa y confirma; por eso `audit.status` va siempre en `"pending"`.
 
-- `thesis` (0-25): tesis explícita en infraestructura de IA, dev tools o deep tech de software, con inversiones documentadas que la respalden. Menos de 10 cuando el foco es adyacente; menos de 6 cuando no hay evidencia.
-- `stage` (0-20): invierte en pre-seed o seed, antes de la tracción. 7 o menos cuando sólo entra en Serie A o exige tracción.
-- `decision` (0-20): firma el cheque (GP, managing partner, angel con capital propio). 8 o menos cuando no decide: principal, venture partner, scout, asociado.
-- `spanish` (0-15): fluidez en español documentada y cercanía con el ecosistema hispanohablante.
-- `access` (0-15): accesible y activo en 2024-2026: email público, eventos, programas, intros por portfolio.
+Cada dimensión se puntúa de 0 a 10, con un decimal como máximo. El nivel (0-100) es el promedio ponderado con estos pesos:
 
-La suma máxima es 95. Topes que aplica el servidor sobre la suma: thesis < 6 → máximo 45; thesis < 10 → máximo 55; decision ≤ 8 → máximo 69; stage ≤ 7 → máximo 64. Bandas resultantes: indiscutible ≥ 78, alto potencial 60-77, reserva 45-59, descartado < 45. Los perfiles indiscutibles tienen que quedar, con honestidad, en 78 o más; los de muchísimo potencial en 60-77, con la reserva explicada.
+- `thesis` (peso 26): tesis explícita en infraestructura de IA, dev tools o deep tech de software, con inversiones documentadas que la respalden. Menos de 4 cuando el foco es adyacente; menos de 2,4 cuando no hay evidencia.
+- `stage` (peso 21): invierte en pre-seed o seed, antes de la tracción. 3,5 o menos cuando sólo entra en Serie A o exige tracción.
+- `decision` (peso 21): firma el cheque (GP, managing partner, angel con capital propio). 4 o menos cuando no decide: principal, venture partner, scout, asociado.
+- `spanish` (peso 16): fluidez en español documentada y cercanía con el ecosistema hispanohablante.
+- `access` (peso 16): accesible y activo en 2024-2026: email público, eventos, programas, intros por portfolio.
+
+Topes que aplica el servidor sobre el promedio: thesis < 2,4 → máximo 45; thesis < 4 → máximo 55; decision ≤ 4 → máximo 69; stage ≤ 3,5 → máximo 64. Bandas resultantes: indiscutible ≥ 78, alto potencial 60-77, reserva 45-59, descartado < 45. Los perfiles indiscutibles tienen que quedar, con honestidad, en 78 o más; los de muchísimo potencial en 60-77, con la reserva explicada.
 
 ## 6. Formato de salida: el tipo exacto
 

@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Ingeniera de software (Stanford, LinkedIn) que invierte en la primera ronda institucional y exige fundador técnico, con email público; pero fondo de 7M USD sin Fondo II confirmado, tesis de industrias tradicionales del corredor EE.UU.-México y cero dev tools en cartera.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [
         "thesis_below_10"
       ],
-      "decision": 12,
-      "raw": 67,
-      "spanish": 15,
-      "stage": 19,
-      "thesis": 8,
+      "decision": 6,
+      "raw": 71,
+      "spanish": 10,
+      "stage": 9.5,
+      "thesis": 3.2,
       "total": 55
     },
     "status": "reviewed"
@@ -114,7 +114,7 @@
     "Fondo I de 7M USD (ago-2023); Fondo II no confirmado.",
     "Ticket no publicado; por tamaño del vehículo, seis cifras bajas (~150-400k USD, sin confirmar)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Perfil técnico directo: BS Computer Science Stanford, ingeniera de software en LinkedIn; el fondo se define 'led by engineers' y exige al menos un fundador técnico.",
     "Invierte en la primera ronda institucional: antes de tracción por definición.",

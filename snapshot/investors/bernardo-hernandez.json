@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "Cartera histórica consumer y marketplaces, sin operaciones documentadas desde agosto de 2023, sin fondo y operador a tiempo completo en Pensero AI, que vive en la misma capa que el harness (posible solapamiento). Puerta al ecosistema español, no capital.",
     "score": {
-      "access": 10,
+      "access": 6.7,
       "caps": [],
-      "decision": 4,
-      "raw": 43,
-      "spanish": 15,
-      "stage": 8,
-      "thesis": 6,
-      "total": 43
+      "decision": 2,
+      "raw": 46,
+      "spanish": 10,
+      "stage": 4,
+      "thesis": 2.4,
+      "total": 46
     },
     "status": "reviewed"
   },
   "background": "Nacido en Salamanca el 29 de diciembre de 1970. Licenciado en Ciencias Económicas y Empresariales (especialidad Finanzas) por ICADE-Universidad Pontificia Comillas (1993) y máster en Finanzas por Boston College (1995); es Chartered Financial Analyst (CFA) y doctor honoris causa en Arquitectura y Tecnología por la Universidad Camilo José Cela (2010). Empezó como analista y gestor de activos en Fidelity Investments, BBVA y Putnam Investments. En 2000 cofundó idealista.com, hoy el mayor portal inmobiliario de España, Italia y Portugal, del que salió en 2015. Entre 2005 y 2013 trabajó en Google, con responsabilidades globales en marketing y producto, y dirigió la adquisición e integración de Zagat. De 2013 a 2015 fue CEO de Flickr y vicepresidente senior de producto en Yahoo!. En 2015 fundó Verse (pagos móviles), que dirigió hasta su adquisición por Block (antes Square) en junio de 2020. Ha sido presidente del consejo de Tuenti y General/Venture Partner de Headline (e.ventures) entre 2016 y 2020. Actualmente es consejero de Mapfre USA (desde 2018), asesor senior de SandboxAQ (desde 2023) y de OpenChip, patrono de la Fundación Princesa de Girona y, desde 2024, cofundador de Pensero AI, con base en Nueva York. Premio Nacional de Innovación 2023 (categoría Trayectoria Profesional), GQ Hombre del Año 2013 y Premio Alan Turing LGTBIQ 2018.",
-  "band": "discarded",
+  "band": "reserve",
   "baseCity": "Nueva York, EE.UU. (residencia declarada en 2026; antes Madrid, España; nacido en Salamanca)",
   "confidence": "high",
   "contactSources": {
@@ -62,7 +62,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel (vehículo personal Solón Inversiones); no gestiona fondo de terceros en la actualidad",
-  "level": 43,
+  "level": 46,
   "linkedin": "https://www.linkedin.com/in/bernardohernandez/",
   "name": "Bernardo Hernández",
   "personalWebsite": "https://bernardohernandez.com",
@@ -107,7 +107,7 @@
     "Sin etapa ni ticket publicados; vehículo personal Solón Inversiones.",
     "Última inversión registrada: agosto de 2023 (Founderz)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Pensero AI (cofundador) mide el rendimiento de equipos de ingeniería con IA: piensa a diario en el mismo problema y es usuario potencial del stack.",
     "Asesor senior de SandboxAQ (IA + cuántica) y OpenChip: apetito por deep tech.",

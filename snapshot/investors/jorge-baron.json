@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Tesis personal de infraestructura ('la capa debajo de la tecnología visible', 'critical software') en Adara, con 42Crunch, Bigle y TandemTrace trabajados; ingeniero español en Madrid. Pero es Principal sin decisión final y solapa con Gómez, Pillado y Goulet: una sola vía de entrada a Adara.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [
         "no_check_writer"
       ],
-      "decision": 7,
-      "raw": 70,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 22,
+      "decision": 3.5,
+      "raw": 74,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 8.8,
       "total": 69
     },
     "status": "reviewed"
@@ -136,7 +136,7 @@
     "A él Signal le atribuye 100k-5M USD con punto dulce ~1,5M en seed y Serie A.",
     "Principal: no firma; origina y defiende en comité."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Puerta operativa a Adara: único Principal, origina y evalúa en etapa temprana; tesis personal literal de infraestructura de software.",
     "Ha trabajado deals de IA-nativa y agentes (42Crunch, Bigle, Articul8, TandemTrace).",

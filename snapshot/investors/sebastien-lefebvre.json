@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "La cartera de Elaia es muy parecida al producto del cliente (Tabnine, Giskard, dottxt, Vertesia, Traefik, FlexAI, Qbeast, Nuclia) y DTS3 (134M€, mar-2026) invierte 1-13M€ en pre-seed y seed 'at the earliest'; fundador dos veces con exit. Pero es francés sin español documentado, base en Barcelona no confirmada, huella pública nula y sólo buzón de inversiones.",
     "score": {
-      "access": 8,
+      "access": 5.3,
       "caps": [],
-      "decision": 18,
-      "raw": 68,
-      "spanish": 2,
-      "stage": 18,
-      "thesis": 22,
-      "total": 68
+      "decision": 9,
+      "raw": 71,
+      "spanish": 1.3,
+      "stage": 9,
+      "thesis": 8.8,
+      "total": 71
     },
     "status": "reviewed"
   },
@@ -67,7 +67,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 68,
+  "level": 71,
   "linkedin": "https://www.linkedin.com/in/sebastienl/",
   "name": "Sébastien Lefebvre",
   "personalWebsite": "",
@@ -123,7 +123,7 @@
     "DTS3 cerrado en 134M€ (mar-2026); DV5 con primer cierre de 120M€ (feb-2026).",
     "A nivel de firma: pre-seed a Serie B."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Cartera de Elaia en la categoría: Tabnine (código con IA), Giskard (validación de modelos), dottxt (generación estructurada), Vertesia (orquestación de LLMs), Traefik, FlexAI, Qbeast y Nuclia (Barcelona).",
     "DTS3: 134M€ cerrados en marzo de 2026, 1-13M€ en pre-seed y seed, alianzas con BSC, INRIA, CNRS y Max Planck.",

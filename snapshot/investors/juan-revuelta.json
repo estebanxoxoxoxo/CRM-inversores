@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Ingeniero de semiconductores (LSI Logic, TI) cuyo fondo tiene una inversión real en dev tools de alto rendimiento (Codee) y un criterio explícito de barreras de entrada y know-how propietario; pero su etapa es late-seed y Serie A y el fondo lista 'market traction' entre sus requisitos. Posponer hasta tener la demo.",
     "score": {
-      "access": 10,
+      "access": 6.7,
       "caps": [
         "requires_traction"
       ],
-      "decision": 18,
-      "raw": 67,
-      "spanish": 15,
-      "stage": 7,
-      "thesis": 17,
+      "decision": 9,
+      "raw": 71,
+      "spanish": 10,
+      "stage": 3.5,
+      "thesis": 6.8,
       "total": 64
     },
     "status": "reviewed"
@@ -131,7 +131,7 @@
     "Ticket inicial 500.000-3.000.000 € con follow-on de 2-4M€; lidera.",
     "Swanlaab Tech Fund II: primer cierre 45M€ (jun-2023), objetivo 60-80M€; ancla Fond-ICO, BBVA corporativo."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Codee (análisis y optimización de código C/C++/Fortran) en Swanlaab II: precedente poco frecuente en el VC español; también Sax AI (agentes de KYC), IriusRisk, Nymiz.",
     "Criterio escrito: 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'.",

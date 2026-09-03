@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "Puerta europea de Pear, fondo que invierte por mandato en pre-seed antes del PMF y lista 'AI tooling e infrastructure' y 'developer tools' entre sus verticales; pasado real en dev tools (3scale, adquirida por Red Hat), castellano y catalán nativos, ángel en pre-seed (Traza). Reservas: rol Partner vs Visiting Partner sin cerrar, especialidad GTM, decisión en la Bahía y sin email.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 13,
-      "raw": 74,
-      "spanish": 15,
-      "stage": 19,
-      "thesis": 18,
-      "total": 74
+      "decision": 6.5,
+      "raw": 78,
+      "spanish": 10,
+      "stage": 9.5,
+      "thesis": 7.2,
+      "total": 78
     },
     "status": "reviewed"
   },
   "background": "Nacido en Barcelona. Ingeniero mecánico por la Universitat Politècnica de Catalunya (UPC) y Máster en Management, Technology and Economics por la ETH de Zúrich. Empezó como Product Manager en Hilti y fue Head of Business Development en 3scale (gestión de APIs, adquirida por Red Hat) — un antecedente directo de developer tools e infraestructura. Se trasladó a Silicon Valley en 2008 y fue cofundador y Co-CEO de Chartboost, plataforma de monetización y publicidad para juegos móviles respaldada por Sequoia, donde estuvo diez años y lideró la expansión internacional abriendo oficinas en Ámsterdam, Tokio, Pekín y Barcelona; Chartboost fue vendida a Zynga (2021). En enero de 2022 Pear VC anunció Pear Europe con él al frente, y volvió a Barcelona para dirigir la práctica EMEA del fondo. Es ponente habitual (MWC Barcelona, Slush, Startup Grind).",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Barcelona, España (Pear VC tiene sede en San Francisco, 600 Townsend St., y Menlo Park, 241 El Camino Real)",
   "confidence": "medium",
   "contactSources": {
@@ -70,11 +70,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 74,
+  "level": 78,
   "linkedin": "https://www.linkedin.com/in/joseluisagell/",
   "name": "Pepe Agell",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -124,7 +124,7 @@
     "AUM ~800M USD; Fund IV 432M (2023); 34 inversiones en 2025.",
     "Como ángel: tickets pequeños (Traza, pre-seed 2,1M USD)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Pear no pide tracción: PearX está diseñado para compañías sin PMF, con 250k-2M USD.",
     "Verticales oficiales: 'AI (applications, tooling, infrastructure)' y 'Enterprise Tech (data platforms, cybersecurity, developer tools)'.",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Foco literal 'AI and Infrastructure/DevOps', lideró la Serie A de 100M USD de Tessl (desarrollo de software IA-nativo) y firmó su ensayo; español nativo con email público. Reservas: Index entra de seed a growth (su deal fue Serie A), ambigüedad Partner vs Venture Partner y base en Londres.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [],
-      "decision": 15,
-      "raw": 79,
-      "spanish": 15,
-      "stage": 12,
-      "thesis": 24,
-      "total": 79
+      "decision": 7.5,
+      "raw": 83,
+      "spanish": 10,
+      "stage": 6,
+      "thesis": 9.6,
+      "total": 83
     },
     "status": "reviewed"
   },
@@ -66,7 +66,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 79,
+  "level": 83,
   "linkedin": "https://www.linkedin.com/in/carlosgonzalezcadenas",
   "name": "Carlos Gonzalez-Cadenas",
   "personalWebsite": "",
@@ -117,7 +117,7 @@
     "Referencia de lo que lidera: Serie A de 100M USD de Tessl (nov-2024) sobre semilla previa de 25M.",
     "Sin rango de cheque publicado a su nombre; como ángel hizo 50-60 cheques pequeños."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Escribió la tesis del cliente: ensayo de Tessl sobre el paso de desarrollo 'code-centric' a 'spec-centric'; lideró su Serie A de 100M USD.",
     "Focos declarados: 'SaaS, Open Source, Security, Financial Services, AI and Infrastructure/DevOps'.",

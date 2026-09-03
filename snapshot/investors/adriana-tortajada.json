@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Mandato deep tech explícito e inversión directa en infraestructura para la economía de agentes (101obex), pero cheques reportados de 2-10M, estructura híbrida fondo de fondos, cierre del vehículo no confirmado y sin vía de contacto publicada.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 9,
-      "raw": 60,
-      "spanish": 15,
-      "stage": 10,
-      "thesis": 17,
-      "total": 60
+      "decision": 4.5,
+      "raw": 63,
+      "spanish": 10,
+      "stage": 5,
+      "thesis": 6.8,
+      "total": 63
     },
     "status": "reviewed"
   },
@@ -68,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (plataforma híbrida: fondo de fondos + coinversiones directas)",
-  "level": 60,
+  "level": 63,
   "linkedin": "https://www.linkedin.com/in/adriana-tortajada-2784869b/",
   "name": "Adriana Tortajada",
   "personalWebsite": "",
@@ -114,7 +114,7 @@
     "Vehículo lanzado en enero de 2022 con objetivo de 150M USD; cierre no confirmado.",
     "Cheques reportados 2-10M USD (probablemente mezcla compromisos a fondos y directos); no publica ticket ni proceso."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Tesis 'Productivity & Infrastructure': software, hardware e infraestructura como 'la capa donde la nueva tecnología cobra ingresos reales'.",
     "Ya invirtió directamente en 101obex, infraestructura de API para la economía de agentes; es LP de Cantos (pre-seed deep tech).",

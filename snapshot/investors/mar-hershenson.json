@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Española, doctora en ingeniería eléctrica con 14 patentes y gestora de un fondo cuyo producto principal (PearX) escribe 500k-2M USD a equipos sin tracción; publica 'Investing before the idea' y fue seed de Vals AI (evaluación de modelos). Reservas: fondo generalista, PearX exige 12 semanas en la Bahía, Fondo V no confirmado.",
     "score": {
-      "access": 11,
+      "access": 7.3,
       "caps": [],
-      "decision": 20,
-      "raw": 87,
-      "spanish": 15,
-      "stage": 20,
-      "thesis": 21,
-      "total": 87
+      "decision": 10,
+      "raw": 92,
+      "spanish": 10,
+      "stage": 10,
+      "thesis": 8.4,
+      "total": 92
     },
     "status": "reviewed"
   },
@@ -64,7 +64,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (con aceleradora propia: PearX)",
-  "level": 87,
+  "level": 92,
   "linkedin": "https://www.linkedin.com/in/mar-hershenson-b21395/",
   "name": "Mar Hershenson",
   "personalWebsite": "",
@@ -114,7 +114,7 @@
     "PearX (12 semanas, dos cohortes al año): 500.000-2.000.000 USD + 1M USD en créditos; rango personal 1-5M USD.",
     "Pear Fund IV: 432M USD (jun-2023); Fondo V no anunciado."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "PearX: cheques de 500k-2M USD más créditos de nube a equipos sin producto ni tracción; el blog publica 'Investing before the idea'.",
     "Capaz de evaluar una arquitectura en la primera reunión (PhD EE Stanford, fundadora de semiconductores).",

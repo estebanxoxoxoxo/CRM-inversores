@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "Una puerta pre-seed institucional en España para una startup sin tracción: K Founders Preseed II (20M€) existe para empresas de menos de seis meses, sin DD técnica, con decisión en tres semanas, y ya respaldó 2501 y Causa Prima. Reservas: ticket ~300k, co-invierte sin liderar, fondo generalista y su foco personal es logística, foodtech y fintech.",
     "score": {
-      "access": 14,
+      "access": 9.3,
       "caps": [],
-      "decision": 14,
-      "raw": 75,
-      "spanish": 15,
-      "stage": 20,
-      "thesis": 12,
-      "total": 75
+      "decision": 7,
+      "raw": 79,
+      "spanish": 10,
+      "stage": 10,
+      "thesis": 4.8,
+      "total": 79
     },
     "status": "reviewed"
   },
   "background": "Formación: según su perfil de LinkedIn cursó estudios universitarios entre 2010 y 2015 —Derecho y ADE en Valencia, según la reseña de El Referente— y en 2016-2017 completó el Máster en Venture Capital & Private Equity dirigido por la Fundación Rafael del Pino junto al Instituto de Capital Riesgo, que aparece explícitamente en su LinkedIn. Perfil de formación jurídico-empresarial, no técnico ni de ingeniería (dato relevante y confirmado por dos fuentes independientes). Primer empleo: analista en BlueBull Ventures, boutique de M&A especializada en startups y alta tecnología; su propia bio en kfund.vc lo dice literalmente: 'Before joining K I was an analyst at BlueBull Ventures, an M&A boutique specializing in startups and high tech'. Estuvo allí aproximadamente un año antes del máster. Entró en Kfund como analista y ha hecho toda su carrera inversora dentro de la casa: la ficha oficial lo describe como 'Analyst turned Investment Team Member' y añade 'I'm now part of K Fund's investment team, with a strong focus on areas such as logistics, foodtech and fintech. I also lead our pre-seed investment program, K Founders'. Kfund lo promovió a Partner junto a Jaime Novoa, destacando que 'Marc has been instrumental in shaping our investment strategy, diligently organizing internal teams and processes'. Desde 2020 es el responsable de K Founders y desde junio de 2024 codirige el equipo pre-seed dedicado (inicialmente con Isabel Salgueiro).",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Madrid, España",
   "confidence": "medium",
   "contactSources": {
@@ -71,11 +71,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 75,
+  "level": 79,
   "linkedin": "https://www.linkedin.com/in/marcclementeyeves/",
   "name": "Marc Clemente Yeves",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -136,7 +136,7 @@
     "K Founders Preseed II (abr-2026): ~20M€, ticket inicial ~300.000 €; follow-on de 200k a 2M€ desde los fondos mayores.",
     "Kfund suele co-invertir con leads tier-one, no liderar."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Vehículo diseñado para decir sí antes de que existan usuarios: nota convertible, sin consejo, sin DD exhaustiva, 'three weeks from first meeting to money in the bank'.",
     "Apetito reciente por infraestructura de agentes: 2501 (flotas de agentes para AIOps) y Causa Prima (red agente a agente).",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Seedcamp es 'Europe's Original First Check Investor' y declara por escrito invertir pre-producto y pre-tracción; lideró en 2026 la pre-seed de Embedd diciendo que 'el stack de software actual nunca fue diseñado' para la siguiente fase de la IA; hondureño con español fluido. Reservas: Londres (fuera de región), filtro Europa/Israel y mandato 2026 inclinado a physical AI.",
     "score": {
-      "access": 11,
+      "access": 7.3,
       "caps": [],
-      "decision": 20,
-      "raw": 86,
-      "spanish": 15,
-      "stage": 20,
-      "thesis": 20,
-      "total": 86
+      "decision": 10,
+      "raw": 90,
+      "spanish": 10,
+      "stage": 10,
+      "thesis": 8,
+      "total": 90
     },
     "status": "reviewed"
   },
@@ -67,7 +67,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 86,
+  "level": 90,
   "linkedin": "https://www.linkedin.com/in/carloseduardoespinal/",
   "name": "Carlos Eduardo Espinal",
   "personalWebsite": "",
@@ -118,7 +118,7 @@
     "Cheque habitual 350.000-1.250.000 USD (media ~1M USD en Fund VII); 100-120 compañías por fondo.",
     "Fund VII 220M USD + Select 100M USD (Serie B+); observador hasta Serie A, sin asiento de consejo."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Fondo que declara invertir 'pre-product and pre-revenue'; Fund VII (220M USD, 2026) con ~35 primeros cheques al año.",
     "Su cita de 2026 al liderar Embedd es el argumento del cliente: el stack actual no fue diseñado para la siguiente fase de la IA.",

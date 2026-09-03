@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Su ensayo 'The End of Coding?' (mayo 2026) es prácticamente el pitch del cliente (del código a 'intención, restricciones, arquitectura y verificación'; el riesgo pasa a 'specification errors') y respaldó Alinia AI (guardrails) junto a Delangue, Wolf y Vinyals; español de Barcelona con email público. Pero una sola inversión, sin vehículo y C-level en Expedia desde diciembre de 2025: advisor, no capital.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [],
-      "decision": 3,
-      "raw": 56,
-      "spanish": 15,
-      "stage": 6,
-      "thesis": 20,
-      "total": 56
+      "decision": 1.5,
+      "raw": 59,
+      "spanish": 10,
+      "stage": 3,
+      "thesis": 8,
+      "total": 59
     },
     "status": "reviewed"
   },
@@ -66,7 +66,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 56,
+  "level": 59,
   "linkedin": "https://www.linkedin.com/in/xamat/",
   "name": "Xavier Amatriain",
   "personalWebsite": "https://amatria.in",
@@ -108,7 +108,7 @@
     "Pre-seed como ángel individual; única inversión documentada: Alinia AI (jun-2024).",
     "Ticket no publicado (previsiblemente <100k USD); no lidera, sin vehículo."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Tesis pública escrita: el código como representación intermedia 'producida, inspeccionada, probada y modificada por agentes'; riesgo de 'specification errors'.",
     "Firma apuestas de infraestructura de IA sin tracción cuando el problema le convence (Alinia AI, pre-seed 2,4M USD, con Delangue, Wolf, Vinyals, Preston-Werner).",

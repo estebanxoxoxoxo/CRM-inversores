@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Su mandato coincide punto por punto: pre-seed y seed exclusivos, 500k-3M USD, cofundador técnico obligatorio, 'AI-native tools for power users' y 'companies OpenAI won't kill', con un test de rearquitectura de costes que es el marco natural para el '90% mejor'. Reservas: tamaño del fondo y cierre no públicos, sin inversiones verificables aún, herencia colombiana materna pero español no documentado, sin email.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 14,
-      "raw": 70,
-      "spanish": 5,
-      "stage": 20,
-      "thesis": 22,
-      "total": 70
+      "decision": 7,
+      "raw": 73,
+      "spanish": 3.3,
+      "stage": 10,
+      "thesis": 8.8,
+      "total": 73
     },
     "status": "reviewed"
   },
@@ -67,7 +67,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (fondo emergente de dos socias)",
-  "level": 70,
+  "level": 73,
   "linkedin": "https://www.linkedin.com/in/vanessalarco/",
   "name": "Vanessa Larco",
   "personalWebsite": "",
@@ -118,7 +118,7 @@
     "Tamaño del fondo y fecha de cierre no públicos; sin lista pública de primeras inversiones.",
     "Cambio radical respecto a NEA (2-50M USD, Series A/B)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Mandato entero alineado: pre-seed/seed, 500k-3M USD, fundadores técnicos, herramientas IA-nativas; acaba de levantar y despliega.",
     "'Companies OpenAI won't kill': exige el foso que el cliente quiere discutir; test de si el producto rearquitectura la estructura de costes.",

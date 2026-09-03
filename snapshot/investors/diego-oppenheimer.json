@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Encaje completo en todas las dimensiones: hispanohablante nativo, fundador de una plataforma de MLOps vendida a DataRobot, GP de un fondo pre-seed que selecciona por demo funcionando y Venture Partner en Work-Bench (seed 2-5M USD, lidera infra empresarial); escribe ahora mismo sobre cómo los agentes reorganizan la ingeniería; email público. Reserva: el fondo pre-seed no publica tamaño.",
     "score": {
-      "access": 15,
+      "access": 10,
       "caps": [],
-      "decision": 15,
-      "raw": 89,
-      "spanish": 15,
-      "stage": 19,
-      "thesis": 25,
-      "total": 89
+      "decision": 7.5,
+      "raw": 94,
+      "spanish": 10,
+      "stage": 9.5,
+      "thesis": 10,
+      "total": 94
     },
     "status": "reviewed"
   },
@@ -64,7 +64,7 @@
   ],
   "investorType": "operator_fund",
   "investorTypeDetail": "Fondo operador / solo GP (AI Tinkerers Fund, pre-seed) y Venture Partner en VC institucional (Work-Bench, seed)",
-  "level": 89,
+  "level": 94,
   "linkedin": "https://www.linkedin.com/in/doppenheimer/",
   "name": "Diego Oppenheimer",
   "personalWebsite": "https://www.doppenheimer.com",
@@ -111,7 +111,7 @@
     "Work-Bench: pre-seed y seed, ticket 2-5M USD con punto dulce 3M; lidera seeds de infraestructura empresarial en Nueva York.",
     "Sectores: IA, analytics, infraestructura empresarial, deep tech."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Dos vehículos en pre-seed y seed de infra de IA y dev tools: AI Tinkerers Fund (decide él) y Work-Bench (2-5M USD, lidera).",
     "No pide usuarios: el AI Tinkerers Fund selecciona por demo funcionando; lema 'working code beats hype, demos over slides'.",

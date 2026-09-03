@@ -8,8 +8,9 @@
  * - `audit` is the hand-edited part: reason and the five per-dimension score inputs. Derived values (`score.raw`,
  *   `score.caps`, `score.total`, and `level`, `band`, `priority` at the root) are recomputed by `deriveInvestor()`
  *   on every write (scripts) and every read (app). They are never edited.
- * - `level` is the score total, 0 to SCORE_TOTAL_MAX. `band` derives from it (`BAND_THRESHOLDS`) and is "unaudited"
- *   while `audit.status` is "pending". `priority` A/B/C derives from the level.
+ * - `level` is 0-100: the weighted average of the five 0-10 scores (`SCORE_WEIGHTS`), capped by `CAP_RULES`.
+ *   `band` derives from it (`BAND_THRESHOLDS`) and is "unaudited" while `audit.status` is "pending". `priority`
+ *   A/B/C derives from the level.
  * - `confidence` rates the sources, not the fit.
  * - `rating` is the team's manual verdict, set from the app; the ingest endpoint always stores null.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
@@ -36,17 +37,27 @@ export const RATINGS = ["approved", "doubtful", "rejected", "filler"] as const;
 export const RatingSchema = z.enum(RATINGS);
 export type Rating = z.infer<typeof RatingSchema>;
 
-/** Maximum points per scored dimension. They add up to SCORE_TOTAL_MAX. */
-export const SCORE_MAX = { thesis: 25, stage: 20, decision: 20, spanish: 15, access: 15 } as const;
-export const SCORE_TOTAL_MAX = 95;
+/** Every dimension is scored 0-10 (one decimal allowed); the level is their weighted average on a 0-100 scale. */
+export const SCORE_MAX = 10;
+export const SCORE_TOTAL_MAX = 100;
+/** Weight of each dimension in the level, in percent. They add up to 100. */
+export const SCORE_WEIGHTS = { thesis: 26, stage: 21, decision: 21, spanish: 16, access: 16 } as const;
+export type ScoreDimension = keyof typeof SCORE_WEIGHTS;
+export const SCORE_DIMENSIONS = Object.keys(SCORE_WEIGHTS) as ScoreDimension[];
 
-/** Hand-edited score inputs: the five dimensions of the rubric. */
+const ScoreValueSchema = z
+  .number()
+  .min(0)
+  .max(SCORE_MAX)
+  .refine((value) => Math.abs(value * 10 - Math.round(value * 10)) < 1e-6, "at most one decimal");
+
+/** Hand-edited score inputs: the five rubric dimensions, 0-10 each. */
 export const ScoreInputSchema = z.object({
-  thesis: z.number().int().min(0).max(SCORE_MAX.thesis),
-  stage: z.number().int().min(0).max(SCORE_MAX.stage),
-  decision: z.number().int().min(0).max(SCORE_MAX.decision),
-  spanish: z.number().int().min(0).max(SCORE_MAX.spanish),
-  access: z.number().int().min(0).max(SCORE_MAX.access),
+  thesis: ScoreValueSchema,
+  stage: ScoreValueSchema,
+  decision: ScoreValueSchema,
+  spanish: ScoreValueSchema,
+  access: ScoreValueSchema,
 });
 export type ScoreInput = z.infer<typeof ScoreInputSchema>;
 
@@ -59,8 +70,17 @@ export const ScoreSchema = ScoreInputSchema.extend({
 export type Score = z.infer<typeof ScoreSchema>;
 export type Cap = z.infer<typeof CapSchema>;
 
+/** Cap conditions on the 0-10 scale, and the maximum level each one imposes. */
+export const CAP_RULES = {
+  thesis_below_6: { dimension: "thesis", below: 2.4, max: 45 },
+  thesis_below_10: { dimension: "thesis", below: 4, max: 55 },
+  no_check_writer: { dimension: "decision", atMost: 4, max: 69 },
+  requires_traction: { dimension: "stage", atMost: 3.5, max: 64 },
+} as const;
+
 export function computeScore(input: ScoreInput): Score {
-  const raw = input.thesis + input.stage + input.decision + input.spanish + input.access;
+  const weighted = SCORE_DIMENSIONS.reduce((sum, dimension) => sum + SCORE_WEIGHTS[dimension] * input[dimension], 0);
+  const raw = Math.round(weighted / SCORE_MAX);
   const caps: Cap[] = [];
   let total = raw;
   const cap = (applies: boolean, max: number, code: Cap) => {
@@ -69,11 +89,11 @@ export function computeScore(input: ScoreInput): Score {
       caps.push(code);
     }
   };
-  cap(input.thesis < 6, 45, "thesis_below_6");
-  cap(input.thesis < 10, 55, "thesis_below_10");
-  cap(input.decision <= 8, 69, "no_check_writer");
-  cap(input.stage <= 7, 64, "requires_traction");
-  total = Math.max(0, Math.min(100, Math.round(total)));
+  cap(input.thesis < CAP_RULES.thesis_below_6.below, CAP_RULES.thesis_below_6.max, "thesis_below_6");
+  cap(input.thesis < CAP_RULES.thesis_below_10.below, CAP_RULES.thesis_below_10.max, "thesis_below_10");
+  cap(input.decision <= CAP_RULES.no_check_writer.atMost, CAP_RULES.no_check_writer.max, "no_check_writer");
+  cap(input.stage <= CAP_RULES.requires_traction.atMost, CAP_RULES.requires_traction.max, "requires_traction");
+  total = Math.max(0, Math.min(SCORE_TOTAL_MAX, total));
   return { ...input, raw, caps, total };
 }
 

@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "Argentino, Endeavor, el primero en apostar por Zoom cuando no era nadie, en un fondo con tesis de infraestructura de IA (Together AI, Physical Intelligence); pero cada socio hace una sola inversión nueva al año, su punto dulce es la Serie A con evidencia comercial y no hay canal frío. Relación a 12-24 meses.",
     "score": {
-      "access": 6,
+      "access": 4,
       "caps": [],
-      "decision": 20,
-      "raw": 59,
-      "spanish": 15,
-      "stage": 6,
-      "thesis": 12,
-      "total": 59
+      "decision": 10,
+      "raw": 62,
+      "spanish": 10,
+      "stage": 3,
+      "thesis": 4.8,
+      "total": 62
     },
     "status": "reviewed"
   },
   "background": "Argentino. Licenciado en Economía por la Universidad de San Andrés (Buenos Aires) y MBA por la Harvard Business School. Cofundó en Argentina AXG Tecnonexo, plataforma SaaS de e-learning que operó en Latinoamérica y Estados Unidos, y fue seleccionado Emprendedor Endeavor. También cofundó Puente Labs, iniciativa para ayudar a emprendedores latinoamericanos a escalar internacionalmente, y ha estado vinculado a Quasar Ventures (enfoque latinoamericano) y a High Alpha (studio/aceleradora). Antes fue asesor en Aqua Capital Partners, donde participaba en la diligencia de nuevas inversiones tecnológicas. Es Kauffman Fellow. Se incorporó a Emergence Capital en 2010 y es General Partner. Lideró la inversión de Emergence en Zoom, sigue en su consejo, y ha estado detrás de Chorus.ai (vendida a ZoomInfo) y Openpath Security (vendida a Motorola Solutions). Consejos citados por el fondo: Crunchbase, Logik.io, Zipline, Tundra y Class Technologies. Ha entrado tres veces en el Forbes Midas List y es uno de los primeros tres inversores latinoamericanos en conseguirlo. Nota: Bill.com forma parte de la cartera histórica de Emergence, pero no consta que él liderase esa inversión (no confirmado). Textio aparece asociado al fondo, no específicamente a él (no confirmado).",
-  "band": "reserve",
+  "band": "high_potential",
   "baseCity": "Los Altos / San Mateo, California, EE.UU.",
   "confidence": "medium",
   "contactSources": {
@@ -63,11 +63,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 59,
+  "level": 62,
   "linkedin": "https://www.linkedin.com/in/santisubotovsky",
   "name": "Santi Subotovsky",
   "personalWebsite": "",
-  "priority": "C",
+  "priority": "B",
   "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
@@ -114,7 +114,7 @@
     "'Our Partners each make just one investment annually'.",
     "Emergence VII: 1.000M USD (mar-2025)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Credibilidad hispanohablante en software empresarial: argentino, Emprendedor Endeavor, entrevistas en español, historia de Zoom.",
     "Emergence tiene tesis declarada de infraestructura de IA y ha entrado en Together AI y Physical Intelligence.",

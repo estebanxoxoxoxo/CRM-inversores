@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Matrix invierte de idea a Serie A, lidera y su filtro ('¿se podría clonar en un fin de semana?') premia el moat técnico; pero su especialidad es frontera creativa y hardware (Oculus, CTRL-labs, Suno, Luma), no dev tools; nacido en Venezuela sin español documentado, sin email ni actividad en España/LatAm.",
     "score": {
-      "access": 8,
+      "access": 5.3,
       "caps": [],
-      "decision": 20,
-      "raw": 68,
-      "spanish": 8,
-      "stage": 17,
-      "thesis": 15,
-      "total": 68
+      "decision": 10,
+      "raw": 71,
+      "spanish": 5.3,
+      "stage": 8.5,
+      "thesis": 6,
+      "total": 71
     },
     "status": "reviewed"
   },
@@ -65,7 +65,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 68,
+  "level": 71,
   "linkedin": "https://www.linkedin.com/in/antrod/",
   "name": "Antonio Rodriguez",
   "personalWebsite": "https://medium.com/@antrod",
@@ -115,7 +115,7 @@
     "Cheque 100.000-10.000.000 USD, punto dulce ~2M USD.",
     "Matrix levantó 800M USD en 2022 (fondo principal + oportunidades)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Filtro explícito a favor de lo que tarda años en construirse: '¿podría clonar esto en un fin de semana?'.",
     "Invierte desde idea, lidera rondas y suele ser el primer cheque institucional; cartera de frontera pura (Luma AI, Suno, Sesame, CTRL-labs).",

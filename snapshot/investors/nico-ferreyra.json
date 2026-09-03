@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Ángel con foco literal 'early stage developer & data tools' y cartera en el vecindario exacto (Browserbase, Dosu, Bland, Equals), 50+ cheques de 25-50k en pre-seed; nacido en Córdoba, Argentina. Reservas: emigró de niño y su español no está documentado, no lidera y su valor añadido es GTM.",
     "score": {
-      "access": 10,
+      "access": 6.7,
       "caps": [],
-      "decision": 10,
-      "raw": 70,
-      "spanish": 8,
-      "stage": 18,
-      "thesis": 24,
-      "total": 70
+      "decision": 5,
+      "raw": 74,
+      "spanish": 5.3,
+      "stage": 9,
+      "thesis": 9.6,
+      "total": 74
     },
     "status": "reviewed"
   },
@@ -66,7 +66,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 70,
+  "level": 74,
   "linkedin": "https://www.linkedin.com/in/nicoaferr",
   "name": "Nico Ferreyra",
   "personalWebsite": "https://nicoaferr.com/",
@@ -117,7 +117,7 @@
     "Ticket 25.000-50.000 USD; no lidera ni fija términos.",
     "50+ startups en cartera."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Ficha en devtoolangels.com: 'early stage developer & data tools', cheques de 25-50k USD.",
     "Firma antes de la tracción: Browserbase (infra de navegador para agentes) y Bland eran productos sin usuarios al levantar.",

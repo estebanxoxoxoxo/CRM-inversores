@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Arquetipo del inversor de infraestructura profunda con horizonte de décadas (Prime Intellect, Zama), nacido en Ciudad de México; pero su vehículo con decisión es neurotecnología, en PLC Rails sólo es Research Partner, la cartera ángel es cripto-céntrica, la última operación personal es de enero de 2025 y no hay español documentado.",
     "score": {
-      "access": 6,
+      "access": 4,
       "caps": [],
-      "decision": 8,
-      "raw": 47,
-      "spanish": 8,
-      "stage": 13,
-      "thesis": 12,
-      "total": 47
+      "decision": 4,
+      "raw": 49,
+      "spanish": 5.3,
+      "stage": 6.5,
+      "thesis": 4.8,
+      "total": 49
     },
     "status": "reviewed"
   },
@@ -63,7 +63,7 @@
   ],
   "investorType": "operator_fund",
   "investorTypeDetail": "Fondo operador / solo GP (PL Capital, vehículos verticales) + Business angel",
-  "level": 47,
+  "level": 49,
   "linkedin": "https://www.linkedin.com/in/jbenetcs",
   "name": "Juan Benet",
   "personalWebsite": "http://juan.benet.ai",
@@ -111,7 +111,7 @@
     "PL Capital: PLC Neurotech (GP) y PLC Rails (Research Partner, no decide); tamaños no publicados.",
     "Operación reciente del gestor: seed de 6M USD en Belfort (sept-2025)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Financia ciencia aplicada sin producto comercial: Prime Intellect (entrenamiento descentralizado) y Zama (criptografía homomórfica).",
     "Discurso sobre bienes públicos, open source y sistemas de conocimiento afín a un stack abierto.",

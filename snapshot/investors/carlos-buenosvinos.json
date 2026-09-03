@@ -3,14 +3,16 @@
     "date": "2026-09-02",
     "reason": "Foco ángel declarado en 'B2B SaaS, developer tools' con 'Agents, AI' como primer interés, email de dominio propio y credibilidad técnica máxima (autor de DDD in PHP, 4 veces CTO/CPO); pero no decide en Encomenda, trabaja a tiempo completo en IFCO y su ticket personal es pequeño y no publicado.",
     "score": {
-      "access": 14,
-      "caps": [],
-      "decision": 7,
-      "raw": 68,
-      "spanish": 15,
-      "stage": 12,
-      "thesis": 20,
-      "total": 68
+      "access": 9.3,
+      "caps": [
+        "no_check_writer"
+      ],
+      "decision": 3.5,
+      "raw": 72,
+      "spanish": 10,
+      "stage": 6,
+      "thesis": 8,
+      "total": 69
     },
     "status": "reviewed"
   },
@@ -67,7 +69,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel (con rol de Venture Partner en un VC institucional)",
-  "level": 68,
+  "level": 69,
   "linkedin": "https://www.linkedin.com/in/carlosbuenosvinos",
   "name": "Carlos Buenosvinos",
   "personalWebsite": "https://carlosbuenosvinos.com/",
@@ -114,7 +116,7 @@
     "Vía Encomenda: pre-seed y seed, ticket inicial 100.000-500.000 € con seguimiento hasta 2-3M€ (no decide él).",
     "Como ángel personal: ticket no publicado; previsiblemente 10.000-50.000 € (sin confirmar)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Foco ángel literal: 'B2B SaaS, developer tools, and supply chain'; intereses que empiezan por 'Agents, AI, Automatization'.",
     "Puede validar la arquitectura en una llamada y abrir Encomenda (pre-seed/seed 100-500k€) y la red de Carlos Blanco y Nuclio.",

@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Áreas oficiales 'AI Enablement, Developer Platforms, Memory & Inference' en un fondo pre-seed (Flybridge VII, 100M USD, 40+ inversiones al año), colombiano confirmado y con podcast propio como vía de entrada; pero es Associate y no decide. Tope aplicado por no firmar cheque.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [
         "no_check_writer"
       ],
-      "decision": 6,
-      "raw": 75,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 24,
+      "decision": 3,
+      "raw": 79,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 9.6,
       "total": 69
     },
     "status": "reviewed"
@@ -121,7 +121,7 @@
     "Fund VII de 100M USD (sept-2025), Nueva York y Boston; 40+ inversiones al año.",
     "Él es Associate: sin cheque propio."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Sus tres áreas declaradas (AI enablement, developer platforms, memory & inference) describen casi exactamente el producto.",
     "Flybridge hace pre-seed hasta 250k USD vía Next Wave y seeds de 1-3M en compañías sin ingresos, 40+ al año: umbral de entrada bajo.",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "GP de un fondo que declara hacer el 80% de sus inversiones pre-producto ('zero billion-dollar markets'), con apuestas de infraestructura no obvia (Solana desde el inicio, DoubleZero), mexicano nativo y email público. Reserva: su práctica formal es fintech y cripto; el socio natural de infra de IA en Foundation es Ashu Garg.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [],
-      "decision": 20,
-      "raw": 79,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 14,
-      "total": 79
+      "decision": 10,
+      "raw": 83,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 5.6,
+      "total": 83
     },
     "status": "reviewed"
   },
@@ -66,7 +66,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 79,
+  "level": 83,
   "linkedin": "https://www.linkedin.com/in/gonzalezrodolfo/",
   "name": "Rodolfo Gonzalez",
   "personalWebsite": "",
@@ -114,7 +114,7 @@
     "Cheques personales 1-10M USD, punto dulce 5,5M USD; 46 empresas a su nombre.",
     "Foundation Capital XI: 600M USD (mar-2025)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Foundation Capital: 80% de inversiones pre-ingresos y pre-producto; doctrina de dimensionar mercados que aún no existen.",
     "Historial de infraestructura profunda no obvia: Solana desde el principio y DoubleZero ('compute and storage scaled exponentially; network performance hasn't').",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Español nativo, GP con 850M USD frescos y 10-15 semillas al año, pero su tesis es automatización de la economía real (logística, nóminas), no infraestructura horizontal ni dev tools; su deal de agentes (HappyRobot) fue Serie B.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [],
-      "decision": 20,
-      "raw": 71,
-      "spanish": 15,
-      "stage": 13,
-      "thesis": 10,
-      "total": 71
+      "decision": 10,
+      "raw": 75,
+      "spanish": 10,
+      "stage": 6.5,
+      "thesis": 4,
+      "total": 75
     },
     "status": "reviewed"
   },
@@ -63,7 +63,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 71,
+  "level": 75,
   "linkedin": "https://www.linkedin.com/in/adeyemiajao",
   "name": "Adeyemi \"Ade\" Ajao",
   "personalWebsite": "",
@@ -110,7 +110,7 @@
     "Cheque personal estimado 100.000-5.000.000 USD (VC Sheet).",
     "Fondos vigentes: Seed & Series A Fund 4 y Series B Fund 2, 850M USD (jun-2026); 2.600M USD bajo gestión."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Español de origen (Madrid, Tuenti, Cabify, Jobandtalent) y entrevistado en español en 2026: vínculo hispanohablante plenamente verificable.",
     "Lideró la Serie B de 44M USD de HappyRobot (agentes de IA para logística, fundadores españoles): respalda a técnicos españoles en agentes.",

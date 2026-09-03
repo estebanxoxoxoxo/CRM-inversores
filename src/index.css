@@ -685,6 +685,10 @@ textarea {
 .dimension-label {
   color: var(--muted);
 }
+.dimension-weight {
+  font-size: 11px;
+  opacity: 0.75;
+}
 .dimension-bar {
   height: 8px;
   background: var(--track);

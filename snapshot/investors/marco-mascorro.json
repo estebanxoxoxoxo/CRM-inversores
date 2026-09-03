@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Lideró en a16z la Serie A de Cursor y los seeds de Thinking Machines y Black Forest Labs (equipos sin producto); hoy evalúa agentes de uso de ordenador en sandbox, mexicano confirmado (Tec de Monterrey) con email público. Reserva: ya no está en a16z; es ángel independiente con cheque pequeño y dedicación principal a investigación.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [],
-      "decision": 10,
-      "raw": 78,
-      "spanish": 15,
-      "stage": 16,
-      "thesis": 24,
-      "total": 78
+      "decision": 5,
+      "raw": 82,
+      "spanish": 10,
+      "stage": 8,
+      "thesis": 9.6,
+      "total": 82
     },
     "status": "reviewed"
   },
@@ -67,7 +67,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 78,
+  "level": 82,
   "linkedin": "https://www.linkedin.com/in/marcomascorro/",
   "name": "Marco Mascorro",
   "personalWebsite": "https://www.mascobot.com",
@@ -122,7 +122,7 @@
     "Ticket no publicado; pequeño, no lidera rondas institucionales; coinvierte y abre puertas.",
     "Los rangos de a16z (0,5-40M USD) ya no aplican."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Historial que es el canon del harness: lideró la Serie A de Cursor; seeds de Thinking Machines y Black Forest Labs por convicción arquitectónica.",
     "Trabajo actual dentro del problema: evaluación de computer-use agents con Harbor, OSWorld y Daytona en escritorios reales en sandbox (2026).",

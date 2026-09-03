@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "Lidera seed y Serie A (0,5-5M USD) con IA aplicada a dominios técnicos duros (Axion Ray, Doxel) y es vicepresidente de SomosVC con email público; pero su tesis escrita exige CAC bajo e 'instant-payback', no tiene historial en dev tools y su español no está documentado.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [],
-      "decision": 18,
-      "raw": 58,
-      "spanish": 3,
-      "stage": 15,
-      "thesis": 10,
-      "total": 58
+      "decision": 9,
+      "raw": 61,
+      "spanish": 2,
+      "stage": 7.5,
+      "thesis": 4,
+      "total": 61
     },
     "status": "reviewed"
   },
   "background": "Nacido y criado en Mission, Texas, en el Valle del Río Grande, en la frontera con México. Mexicano-americano por ambas ramas familiares. Perdió a su padre a los dieciocho años. Fue pastor de cabras durante unos seis años en su infancia, experiencia sobre la que ha escrito dos libros junto a su hermano Ricco («How a Goat Became Mayor and the Political Spring That Followed» y «How Goats Can Fight Poverty»). Ruta académica poco convencional y bien documentada: cursos de crédito dual en South Texas College, luego BBA por el Business Honors Program de McCombs (UT Austin, promoción 2016) y Juris Doctor por Harvard Law School (2019). Se incorporó a Amplo hacia 2018 y ascendió de Senior Associate a Principal y luego a Partner, liderando la práctica Seed/Series A. Ha originado o liderado alrededor de 13 inversiones. Reconocimientos: Forbes 30 Under 30 en Venture Capital (2024) y lista de Rising Stars de venture capital de Business Insider (edición 2026). Vicepresidente y miembro del consejo de LatinxVC / SomosVC, dedicado a incorporar más latinos y latinas al capital riesgo. Es uno de los hispanos más jóvenes en incorporarse al profesorado de Harvard Law School, donde imparte «Applying Legal Skills to VC Business Diligence».",
-  "band": "reserve",
+  "band": "high_potential",
   "baseCity": "Austin, Texas (según su ficha en Signal NFX, que lista «Amplo VC, Austin, Texas»). La sede corporativa de Collective Global está en Nueva York (66 Hudson Blvd). Su ciudad de residencia exacta en 2026 es «no confirmado». Originario de Mission, Texas (Valle del Río Grande, frontera con México).",
   "confidence": "high",
   "contactSources": {
@@ -53,11 +53,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 58,
+  "level": 61,
   "linkedin": "https://www.linkedin.com/in/samuel-garcia-0a3274a6/",
   "name": "Samuel D. \"Sam\" Garcia",
   "personalWebsite": "",
-  "priority": "C",
+  "priority": "B",
   "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
@@ -117,7 +117,7 @@
     "Ticket 100.000-5.000.000 USD, punto dulce 1,5M USD.",
     "Amplo (dentro de Collective Global): primer fondo ~100M USD; Collective Global >1.000M USD en tres estrategias."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Etapa y ticket compatibles con una primera ronda institucional: pre-seed a Serie A, 0,5-5M USD, punto dulce 1,5M.",
     "Tolerancia a ciclos de venta largos en IA técnica: Axion Ray (calidad e ingeniería para Boeing, Cummins), Doxel, Crosby Health (pre-seed).",

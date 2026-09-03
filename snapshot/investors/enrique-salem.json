@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Mandato literal 'early-stage infrastructure software', cartera exacta (Modal, Astronomer, Cogent, Straiker), invirtió en Cogent 'pre-founding', creció hablando español y publica su email. Reservas: especialización en ciberseguridad y punto dulce de cheque alto; BCV lidera seeds, pero su cheque natural es Serie A.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [],
-      "decision": 20,
-      "raw": 86,
-      "spanish": 15,
-      "stage": 14,
-      "thesis": 24,
-      "total": 86
+      "decision": 10,
+      "raw": 91,
+      "spanish": 10,
+      "stage": 7,
+      "thesis": 9.6,
+      "total": 91
     },
     "status": "reviewed"
   },
@@ -65,7 +65,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 86,
+  "level": 91,
   "linkedin": "https://www.linkedin.com/in/enriquesalem",
   "name": "Enrique Salem",
   "personalWebsite": "",
@@ -117,7 +117,7 @@
     "Lidera seeds (Prophet Security, 11M USD) y Series A (Cogent, 42M USD); punto dulce reportado 25M USD.",
     "Rango 1-100M USD (Signal); en la práctica sí lidera cheques pequeños de semilla en infra y seguridad."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Mandato literal 'early-stage infrastructure software'; cartera en la capa del cliente: Modal (cómputo serverless para IA), Astronomer, Cogent (agentes), Straiker.",
     "Invierte antes de la tracción: 'We've known him from pre-founding the company' (Cogent).",

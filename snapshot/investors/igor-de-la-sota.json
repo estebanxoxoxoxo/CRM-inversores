@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Cofundador de Cardumen, con categoría Developer Tools en cartera (Configu en pre-seed) y el exit de illumex a NVIDIA desde una seed que lideró; pero el deal flow es casi íntegramente israelí, los cheques de 1-3M exigen más señal, sólo hay buzón general y Azagra es el contacto primario del fondo.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 20,
-      "raw": 80,
-      "spanish": 15,
-      "stage": 15,
-      "thesis": 21,
-      "total": 80
+      "decision": 10,
+      "raw": 84,
+      "spanish": 10,
+      "stage": 7.5,
+      "thesis": 8.4,
+      "total": 84
     },
     "status": "reviewed"
   },
@@ -64,7 +64,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 80,
+  "level": 84,
   "linkedin": "https://www.linkedin.com/in/igordelasota/",
   "name": "Igor de la Sota",
   "personalWebsite": "",
@@ -114,7 +114,7 @@
     "Cheques iniciales 1-3M USD; ticket acumulado medio ~4,2M€ por compañía en el Fondo I.",
     "DeepTech Fund II: ~105M€ (cierre ene-2024), ~20 compañías objetivo, declarado pre-seed y seed."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Uno de los pocos GP españoles que ha llevado una inversión pre-seed/seed de infraestructura de datos hasta un exit a NVIDIA (illumex).",
     "La categoría 'Developer Tools' existe en el portfolio (Configu, Naboo, Raftt, Reshuffle): saben evaluar producto para desarrolladores sin usuarios.",

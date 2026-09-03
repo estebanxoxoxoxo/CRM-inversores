@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Cartera muy solapada con el cliente (consejero de Cursor, Convex, Braintrust, Distributional, Fivetran) y el precedente intelectual perfecto ('The Cost of Cloud'); fundador técnico que valora benchmarks y arquitectura. Pero nacido en España sin español documentado, entra en Series A/B, acceso en frío casi imposible y conflicto potencial por el consejo de Cursor.",
     "score": {
-      "access": 5,
+      "access": 3.3,
       "caps": [],
-      "decision": 20,
-      "raw": 66,
-      "spanish": 6,
-      "stage": 10,
-      "thesis": 25,
-      "total": 66
+      "decision": 10,
+      "raw": 69,
+      "spanish": 4,
+      "stage": 5,
+      "thesis": 10,
+      "total": 69
     },
     "status": "reviewed"
   },
@@ -62,7 +62,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 66,
+  "level": 69,
   "linkedin": "https://www.linkedin.com/in/martincasado/",
   "name": "Martin Casado",
   "personalWebsite": "",
@@ -115,7 +115,7 @@
     "Rango 500k-100M USD (VC Sheet); el pre-seed de a16z lo canalizan otros socios y programas (Speedrun).",
     "Lidera la práctica de infraestructura (>1.250M USD) y co-lidera el Machine Age Fund (1.100M USD, 2026)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Consejero de Cursor (harness de programación con IA), Braintrust y Distributional (evals e infra de agentes): el problema exacto del cliente.",
     "'The Cost of Cloud, a Trillion Dollar Paradox': reoptimizar el stack de cómputo libera cientos de miles de millones; encaja con 'stack ~90% mejor'.",

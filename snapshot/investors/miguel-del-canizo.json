@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "La doctrina escrita de Bullnet coincide con lo que busca el cliente (innovación científica por encima de tracción, entrada con prototipo, pilotos bienvenidos pero no exigidos) y tiene exits en dev tools (Códice, LeanXcale); físico y fotónico que lee arquitectura. Pero sólo invierte en sociedades domiciliadas en España, el fondo IV está en fase final, no tiene LinkedIn ni huella pública y la atribución de deals es inferida.",
     "score": {
-      "access": 6,
+      "access": 4,
       "caps": [],
-      "decision": 17,
-      "raw": 75,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 20,
-      "total": 75
+      "decision": 8.5,
+      "raw": 79,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 8,
+      "total": 79
     },
     "status": "reviewed"
   },
   "background": "Ingeniero de Telecomunicación por la Universidad Politécnica de Madrid, con un MSc in Advanced Materials, Nanotechnology and Photonics, y doctorando en Física de la Materia Condensada en la Universidad Autónoma de Madrid —un perfil académico inusualmente profundo para un socio de capital riesgo español. Su carrera previa incluye Renault, Hewlett Packard (donde fue director del negocio de telecomunicaciones en España) y la cofundación de Doing, una incubadora centrada en tecnología de banda ancha, donde fue CTO. En 2001 fundó Bullnet Capital junto a Javier Ulecia (Ingeniero Aeronáutico por la UPM, MBA por HEC París, ex Bain & Company, Renault y EADS-CASA, y presidente de ASCRI en 2015-2016). El equipo actual lo completan Isaac Mendoza (General Partner, físico por la Complutense y MBA por el IE, con más de 20 años en Amazon, Vodafone, NEC, Bell Labs/Lucent y Accenture), Carmen Arenzana (directora financiera), José Luis Gómez (Investment Manager, ingeniero informático con máster en finanzas) y Jorge Fernández (Investment Associate, ingeniero biomédico por el Imperial College London, ex Philips). Habla español, inglés y francés.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Madrid, España (Parque Empresarial 'La Finca', Pº del Club Deportivo 1, edificio 3, 28223 Pozuelo de Alarcón)",
   "confidence": "medium",
   "contactSources": {
@@ -69,11 +69,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 75,
+  "level": 79,
   "linkedin": "",
   "name": "Miguel del Cañizo",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -120,7 +120,7 @@
     "Sólo compañías radicadas en España (restricción legal).",
     "Bullnet IV (28M€ del FEI, 2024) en fase final; Bullnet Opportunity Fund (20-25M€, 2025) para startups recientes."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Bullnet prioriza la innovación científica sobre la tracción comercial y entra cuando la tecnología 'aún no es una versión comercial'.",
     "Historial con exit en dev tools e infraestructura: Códice/Plastic SCM (2009-2020, Unity) y LeanXcale (2017).",

@@ -81,15 +81,15 @@ nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores
   "date": "2026-09-02",
   "reason": "...",                 // por qué tiene ese nivel, en términos absolutos
   "score": {
-    "thesis": 25, "stage": 10, "decision": 20, "spanish": 6, "access": 5,   // entradas editables
-    "raw": 66, "caps": [], "total": 66                                      // derivados: no editar
+    "thesis": 10, "stage": 5, "decision": 10, "spanish": 4, "access": 3.3,  // entradas editables, 0-10 con un decimal
+    "raw": 68, "caps": [], "total": 68                                      // derivados: no editar
   }
 }
 ```
 
-Rúbrica sobre 95 puntos: tesis y encaje 0-25, etapa y pre-tracción 0-20, capacidad de decidir y capital 0-20, español y
-cercanía 0-15, acceso y actividad 0-15. Topes: tesis < 6 → máx. 45; tesis < 10 → máx. 55; decisión ≤ 8 → máx. 69;
-etapa ≤ 7 → máx. 64. Bandas: `undisputed` ≥ 78, `high_potential` 60-77, `reserve` 45-59, `discarded` < 45, y
+Rúbrica: cinco dimensiones de 0 a 10 (un decimal) y nivel 0-100 como promedio ponderado con pesos tesis 26, etapa 21,
+decisión 21, español 16, acceso 16. Topes: tesis < 2,4 → máx. 45; tesis < 4 → máx. 55; decisión ≤ 4 → máx. 69;
+etapa ≤ 3,5 → máx. 64. Bandas: `undisputed` ≥ 78, `high_potential` 60-77, `reserve` 45-59, `discarded` < 45, y
 `unaudited` mientras el estado sea `pending`. `level`, `band` y `priority` (A/B/C) de la raíz se derivan de aquí.
 
 Reglas de redacción: cada ficha se escribe en términos absolutos, sin comparaciones con otros perfiles. Origen y español

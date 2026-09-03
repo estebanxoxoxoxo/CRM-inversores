@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "Etapa y cheque encajan (pre-seed y seed, primer institucional, 250k-3M USD) y lideró Kleva (voz IA), pero ni él ni Wollef tienen tesis, cartera ni discurso en deep tech, infraestructura o dev tools; sesgo fintech y e-commerce. Coinversor de segunda ronda, no líder deep tech.",
     "score": {
-      "access": 7,
+      "access": 4.7,
       "caps": [
         "thesis_below_6"
       ],
-      "decision": 20,
-      "raw": 63,
-      "spanish": 15,
-      "stage": 17,
-      "thesis": 4,
+      "decision": 10,
+      "raw": 67,
+      "spanish": 10,
+      "stage": 8.5,
+      "thesis": 1.6,
       "total": 45
     },
     "status": "reviewed"
@@ -114,7 +114,7 @@
     "Ticket 250.000-3.000.000 USD, punto dulce 1,6M USD; follow-on hasta Series B y C.",
     "AUM >180M USD en tres fondos; tercer fondo con objetivo 100M USD (2021)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Pre-seed y seed, 'comfortable being first institutional investors', ticket 250k-3M USD con punto dulce 1,6M.",
     "Lideró la seed de Kleva ('autonomous voice AI' para cobranza bancaria).",

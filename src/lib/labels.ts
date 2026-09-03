@@ -1,5 +1,5 @@
 /** Spanish UI labels for the English codes of the investor type. Everything the user reads comes from here. */
-import { BAND_THRESHOLDS, SCORE_MAX, SCORE_TOTAL_MAX, type AuditStatus, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
+import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type AuditStatus, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
 
 export const RATING_LABELS: Record<Rating, string> = {
   approved: "Aprobado",
@@ -71,17 +71,22 @@ export const EMAIL_STATUS_LABELS: Record<EmailStatus, string> = {
   not_found: "no encontrado",
 };
 
+/** Scores are shown with a comma decimal, and without decimals when whole. */
+export const formatScore = (value: number): string => value.toLocaleString("es-AR", { maximumFractionDigits: 1 });
+
 export const CAP_LABELS: Record<Cap, string> = {
-  thesis_below_6: "tesis < 6 → máx. 45",
-  thesis_below_10: "tesis < 10 → máx. 55",
-  no_check_writer: "no firma cheque → máx. 69",
-  requires_traction: "Serie A o exige tracción → máx. 64",
+  thesis_below_6: `tesis < ${formatScore(CAP_RULES.thesis_below_6.below)} → máx. ${CAP_RULES.thesis_below_6.max}`,
+  thesis_below_10: `tesis < ${formatScore(CAP_RULES.thesis_below_10.below)} → máx. ${CAP_RULES.thesis_below_10.max}`,
+  no_check_writer: `no firma cheque (decisión ≤ ${formatScore(CAP_RULES.no_check_writer.atMost)}) → máx. ${CAP_RULES.no_check_writer.max}`,
+  requires_traction: `Serie A o exige tracción (etapa ≤ ${formatScore(CAP_RULES.requires_traction.atMost)}) → máx. ${CAP_RULES.requires_traction.max}`,
 };
 
-export const SCORE_DIMENSIONS: { key: keyof typeof SCORE_MAX; label: string; max: number }[] = [
-  { key: "thesis", label: "Tesis y encaje", max: SCORE_MAX.thesis },
-  { key: "stage", label: "Etapa y pre-tracción", max: SCORE_MAX.stage },
-  { key: "decision", label: "Decisión y capital", max: SCORE_MAX.decision },
-  { key: "spanish", label: "Español y cercanía", max: SCORE_MAX.spanish },
-  { key: "access", label: "Acceso y actividad", max: SCORE_MAX.access },
-];
+export const SCORE_DIMENSION_LABELS: Record<ScoreDimension, string> = {
+  thesis: "Tesis y encaje",
+  stage: "Etapa y pre-tracción",
+  decision: "Decisión y capital",
+  spanish: "Español y cercanía",
+  access: "Acceso y actividad",
+};
+
+export const scoreWeightLabel = (dimension: ScoreDimension): string => `${SCORE_WEIGHTS[dimension]}%`;

@@ -3,15 +3,15 @@
     "date": "2026-09-02",
     "reason": "PhD en ingeniería por Cambridge, invierte pre-tracción en ciencia y LifeX participó en Zylon/PrivateGPT (infra de IA open source, equipo español); pero el mandato del fondo es longevidad, salud y clima, y declara evitar riesgo técnico y de mercado a la vez. La vía es su cheque ángel y sus intros, no LifeX.",
     "score": {
-      "access": 12,
+      "access": 8,
       "caps": [
         "thesis_below_10"
       ],
-      "decision": 12,
-      "raw": 63,
-      "spanish": 15,
-      "stage": 15,
-      "thesis": 9,
+      "decision": 6,
+      "raw": 67,
+      "spanish": 10,
+      "stage": 7.5,
+      "thesis": 3.6,
       "total": 55
     },
     "status": "reviewed"
@@ -114,7 +114,7 @@
     "Ticket no publicado; media implícita ~1M USD; como ángel, tickets pequeños en más de 100 startups.",
     "Analizan ~6.000 oportunidades al año, unas 250 españolas."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Entiende estructuralmente la apuesta pre-tracción: financia biología computacional y hardware fotónico sin clientes; cofundó una spin-off de fotónica (iPronics).",
     "Precedente en infra de IA open source: LifeX participó en la pre-seed de Zylon/PrivateGPT (equipo técnico español).",

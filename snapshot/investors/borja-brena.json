@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Nauta tiene un vertical real 'DevTools & Infra' (Napptive, NetBird, Nhost, Kubermatic, Xonai) y él cubre España y Portugal; pero exigen producto operativo, doctrina estricta de eficiencia de capital, prefieren GenAI vertical, el último fondo confirmado es de 2021 y sólo hay buzón general.",
     "score": {
-      "access": 9,
+      "access": 6,
       "caps": [],
-      "decision": 15,
-      "raw": 66,
-      "spanish": 15,
-      "stage": 10,
-      "thesis": 17,
-      "total": 66
+      "decision": 7.5,
+      "raw": 70,
+      "spanish": 10,
+      "stage": 5,
+      "thesis": 6.8,
+      "total": 70
     },
     "status": "reviewed"
   },
@@ -64,7 +64,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 66,
+  "level": 70,
   "linkedin": "https://www.linkedin.com/in/borjabrena/",
   "name": "Borja Breña",
   "personalWebsite": "",
@@ -118,7 +118,7 @@
     "Ticket medio 1-5M€; a él Signal le atribuye 1-6M USD con punto dulce 3M.",
     "Último cierre confirmado: Nauta IV, 190M€ (nov-2021) + sidecar 55M€; Nauta V no confirmado."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "'DevTools & Infra' es vertical formal con cartera real: Napptive y Trackingplan (España), NetBird, Kubermatic, Xonai, BoxyHQ.",
     "Socio responsable de España y Portugal, ingeniero de telecomunicación, español nativo: las participadas españolas más cercanas caen en su territorio.",

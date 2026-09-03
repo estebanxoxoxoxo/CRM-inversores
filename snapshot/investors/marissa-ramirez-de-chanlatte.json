@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Playground entra pre-formación ('between improbable and impossible') y ella puede auditar el claim del 90% leyendo arquitectura (PhD BAIR, HPC en Oak Ridge y LBNL); pero su mandato es cuántica y cómputo físico con vínculo obligatorio a Nuevo México, es Principal, latina confirmada sin español documentado y sin email.",
     "score": {
-      "access": 7,
+      "access": 4.7,
       "caps": [],
-      "decision": 11,
-      "raw": 52,
-      "spanish": 3,
-      "stage": 19,
-      "thesis": 12,
-      "total": 52
+      "decision": 5.5,
+      "raw": 55,
+      "spanish": 2,
+      "stage": 9.5,
+      "thesis": 4.8,
+      "total": 55
     },
     "status": "reviewed"
   },
@@ -62,7 +62,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 52,
+  "level": 55,
   "linkedin": "https://www.linkedin.com/in/marissa-ramirez-de-chanlatte-398702196/",
   "name": "Marissa Ramirez de Chanlatte, PhD",
   "personalWebsite": "https://marissachanlatte.github.io/",
@@ -118,7 +118,7 @@
     "Playground Fund IV: 475M USD (may-2026); Genesis Fund: 50M USD (cuántica y cómputo avanzado, Nuevo México).",
     "Ticket no publicado; referencia: seed de 4M USD liderada (Photon Queue)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Capaz de auditar rendimiento, paralelismo y eficiencia de cómputo por sí misma; ex-COO de una startup de IA pre-producto.",
     "Playground invierte pre-formación y lidera (ella lideró la seed de 4M USD de Photon Queue en 2026).",

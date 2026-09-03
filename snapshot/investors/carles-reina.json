@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Solo GP con fondo cerrado de 15M USD, pre-seed en IA y Altan en cartera, decide en días; pero su criterio central es 'Momentum' comercial (deploys semanales y clientes), ticket fijo de 300-350k, y dedicación parcial (VP en ElevenLabs). Un pitch pre-tracción choca con su filtro.",
     "score": {
-      "access": 13,
+      "access": 8.7,
       "caps": [],
-      "decision": 13,
-      "raw": 69,
-      "spanish": 15,
-      "stage": 14,
-      "thesis": 14,
-      "total": 69
+      "decision": 6.5,
+      "raw": 73,
+      "spanish": 10,
+      "stage": 7,
+      "thesis": 5.6,
+      "total": 73
     },
     "status": "reviewed"
   },
@@ -76,7 +76,7 @@
   ],
   "investorType": "operator_fund",
   "investorTypeDetail": "Fondo operador / solo GP",
-  "level": 69,
+  "level": 73,
   "linkedin": "https://www.linkedin.com/in/carlesreina/",
   "name": "Carles Reina",
   "personalWebsite": "",
@@ -149,7 +149,7 @@
     "Cheque fijo 300.000-350.000 USD; cartera objetivo de 30-35 startups; acompaña o co-lidera rondas de 1-2M USD.",
     "Baobab Ventures: 15M USD, cierre único (nov-2025); antes 74 inversiones ángel desde 2017."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Solo GP: decide él, sin comité, en días; fondo íntegramente cerrado (15M USD) con 75-80% por desplegar.",
     "Ya tiene Altan AI ('agentic application builder') y Wabi AI en cartera: la tesis del cliente no le es exótica.",

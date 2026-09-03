@@ -3,19 +3,19 @@
     "date": "2026-09-02",
     "reason": "Encaje temático máximo: co-lideró el seed de Corridor (seguridad para código generado por IA, clientes como Cursor) en Conviction, fondo de primer cheque AI-native; pero sin evidencia alguna de origen hispano o español, título 'Investor' no confirmado como Partner y sin email.",
     "score": {
-      "access": 7,
+      "access": 4.7,
       "caps": [],
-      "decision": 9,
-      "raw": 59,
-      "spanish": 1,
-      "stage": 18,
-      "thesis": 24,
-      "total": 59
+      "decision": 4.5,
+      "raw": 62,
+      "spanish": 0.7,
+      "stage": 9,
+      "thesis": 9.6,
+      "total": 62
     },
     "status": "reviewed"
   },
   "background": "Formación: B.S. y M.S. en Computer Science por Stanford, con foco en inteligencia artificial. Fue remera del equipo de Stanford y del equipo nacional de EE.UU. Su primera etapa profesional fue técnica y de investigación: fue reclutada por su profesor Alex Stamos para el Stanford Internet Observatory, donde trabajó como research analyst y special projects manager, y fue project manager de la Election Integrity Partnership (informe 'The Long Fuse' sobre desinformación en las elecciones de 2020) y del Virality Project. De ahí pasó a Bridgewater Associates (desde octubre de 2022) como investment associate en el equipo de macro/IA, donde, en sus propias palabras, construyó 'AI systems to beat markets'. En marzo de 2025 se incorporó al equipo de inversión de Conviction, el fondo de IA de Sarah Guo en San Francisco; según el reportaje de Colossus sobre Conviction, en ese momento sopesaba también una oferta de OpenAI como application engineer. En agosto de 2025 co-lideró con Mike Vernal el seed de Corridor y firmó el memo público de inversión del fondo.",
-  "band": "reserve",
+  "band": "high_potential",
   "baseCity": "San Francisco, California, EE.UU.",
   "confidence": "medium",
   "contactSources": {
@@ -63,11 +63,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 59,
+  "level": 62,
   "linkedin": "https://www.linkedin.com/in/igarciacamargo/",
   "name": "Isabella Garcia-Camargo",
   "personalWebsite": "",
-  "priority": "C",
+  "priority": "B",
   "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
@@ -110,7 +110,7 @@
     "Tickets 1-25M USD (web del fondo); ejemplo liderado: seed 5,4M USD en Corridor.",
     "Fondo I 101M (2022), Fondo II 230M, tercer vehículo en marcha (~1.000M gestionados)."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Su deal firmado, Corridor (seed 5,4M USD, 2025), es infraestructura de seguridad para código generado por IA con clientes como Cursor.",
     "Ingeniera (M.S. CS en IA, sistemas de IA en Bridgewater): evalúa profundidad técnica, no métricas.",

@@ -3,14 +3,14 @@
     "date": "2026-09-02",
     "reason": "Máxima autoridad en seguridad y evaluación de sistemas agénticos (Responsible AI en Meta, Preparedness en OpenAI) y su única inversión conocida es seguridad multi-agente pre-tracción (Trent AI, 2026); pero una sola operación, sin vehículo, rol 2026 no confirmado y sin email. Señal alta, probabilidad baja: advisor, no capital.",
     "score": {
-      "access": 5,
+      "access": 3.3,
       "caps": [],
-      "decision": 3,
-      "raw": 47,
-      "spanish": 15,
-      "stage": 6,
-      "thesis": 18,
-      "total": 47
+      "decision": 1.5,
+      "raw": 49,
+      "spanish": 10,
+      "stage": 3,
+      "thesis": 7.2,
+      "total": 49
     },
     "status": "reviewed"
   },
@@ -61,7 +61,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 47,
+  "level": 49,
   "linkedin": "https://www.linkedin.com/in/joaquincan/",
   "name": "Joaquín Quiñonero Candela",
   "personalWebsite": "https://quinonero.net/",
@@ -104,7 +104,7 @@
     "Seed; ticket no publicado; única operación documentada: Trent AI (abril 2026), como ángel individual entre otros tres.",
     "No lidera, no fija términos, sin vehículo ni criterios publicados."
   ],
-  "updatedAt": "2026-09-03T14:17:27.583Z",
+  "updatedAt": "2026-09-03T14:29:31.296Z",
   "whyInteresting": [
     "Entiende el riesgo operativo real de muchos agentes ejecutando código de forma autónoma y puede evaluar el moat sin pedir usuarios.",
     "Su única inversión (Trent AI, seed 13M USD, seguridad multi-agente salida de sigilo) es diagnóstica de lo que le interesa.",

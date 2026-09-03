@@ -21,7 +21,7 @@ export const BAND_LABELS: Record<Band, string> = {
 };
 
 export const BAND_RANGES: Record<Band, string> = {
-  undisputed: `${BAND_THRESHOLDS.undisputed}-100`,
+  undisputed: `${BAND_THRESHOLDS.undisputed}-${SCORE_TOTAL_MAX}`,
   high_potential: `${BAND_THRESHOLDS.high_potential}-${BAND_THRESHOLDS.undisputed - 1}`,
   reserve: `${BAND_THRESHOLDS.reserve}-${BAND_THRESHOLDS.high_potential - 1}`,
   discarded: `0-${BAND_THRESHOLDS.reserve - 1}`,

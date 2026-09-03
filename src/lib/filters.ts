@@ -5,6 +5,7 @@ import {
   InvestorTypeSchema,
   RATINGS,
   RegionSchema,
+  SCORE_TOTAL_MAX,
   type Band,
   type Confidence,
   type EmailStatus,
@@ -69,7 +70,7 @@ export function filtersFromUrl(): Filters {
   const sort = params.get("sort");
   if (SORT_KEYS.includes(sort as SortKey)) filters.sort = sort as SortKey;
   const min = Number(params.get("min"));
-  if (Number.isFinite(min) && min > 0) filters.minLevel = Math.min(100, Math.max(0, min));
+  if (Number.isFinite(min) && min > 0) filters.minLevel = Math.min(SCORE_TOTAL_MAX, Math.max(0, min));
   for (const { key, param, options } of LIST_FILTERS) {
     const value = params.get(param);
     if (value) (filters as unknown as Record<ListFilterKey, string[]>)[key] = value.split("|").filter((v) => options.includes(v));

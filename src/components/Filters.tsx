@@ -1,6 +1,6 @@
 import { DEFAULT_FILTERS, EMPTY_FILTERS, RATING_FILTER_OPTIONS, ratingOf, type Filters, type ListFilterKey, type RatingFilter, type SortKey } from "../lib/filters";
 import { BAND_LABELS, BAND_RANGES, CONFIDENCE_LABELS, EMAIL_STATUS_LABELS, INVESTOR_TYPE_LABELS, RATING_LABELS, REGION_LABELS, UNRATED, UNRATED_LABEL } from "../lib/labels";
-import { BANDS, ConfidenceSchema, EmailStatusSchema, InvestorTypeSchema, RegionSchema, type Investor } from "../types/investor";
+import { BANDS, ConfidenceSchema, EmailStatusSchema, InvestorTypeSchema, RegionSchema, SCORE_TOTAL_MAX, type Investor } from "../types/investor";
 
 interface Props {
   filters: Filters;
@@ -54,7 +54,7 @@ export default function FiltersPanel({ filters, onChange, investors }: Props) {
         <input
           type="range"
           min={0}
-          max={100}
+          max={SCORE_TOTAL_MAX}
           step={1}
           value={filters.minLevel}
           onChange={(e) => onChange({ ...filters, minLevel: Number(e.target.value) })}

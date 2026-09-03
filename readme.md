@@ -15,10 +15,8 @@ suscribe a la colección entera y refleja cualquier cambio en vivo.
 npm run dev                               # la app, suscripta a investors
 npm run recalculate                       # valida cada documento y reescribe los valores derivados que cambiaron
 npm run import -- <archivo.json|carpeta>  # alta de inversores nuevos desde un JSON de investigación (auditoría pendiente)
-npm run snapshot                          # copia de recupero: investors/* -> snapshot/investors/<id>.json (commitear)
-npm run restore                           # vuelve a escribir en Firestore lo que hay en snapshot/ (--prune borra lo que no esté)
 npm run backup                            # copia completa de investors al bucket de Storage, verificada (--list las enumera)
-npm run restore -- --backup <nombre>.json # vuelve a escribir en Firestore una copia del bucket
+npm run restore -- <nombre>.json          # vuelve a escribir en Firestore una copia del bucket (--prune borra lo que no esté)
 npm run typecheck                         # tipos de la app y de los scripts
 ```
 
@@ -55,7 +53,7 @@ El prompt se construye en `src/prompt-builder/`:
 
 La rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `CAP_RULES`, `BAND_THRESHOLDS`,
 `INGEST_MAX_PER_REQUEST`), así que el prompt nunca se desfasa del servidor. `npm run prompt -- [cantidad]` renderiza
-el prompt desde el snapshot a un archivo en la carpeta temporal del sistema, para inspeccionarlo sin el navegador.
+el prompt desde la base a un archivo en la carpeta temporal del sistema, para inspeccionarlo sin el navegador.
 
 `POST /api/investors` (`api/investors.ts`, función de Vercel) recibe `{ "investors": [ ... ] }` con
 `Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, fuerza la
@@ -70,16 +68,13 @@ en el prompt es `VITE_APP_URL` si está definida y, si no, el origen de la pági
 
 ## Recupero ante desastres
 
-Dos copias independientes, ninguna es fuente de verdad:
+`npm run backup` sube toda la colección como un único JSON a `backups/investors/<fecha>.json` en el bucket de Storage,
+lo vuelve a descargar y comprueba que sea byte a byte igual a lo leído. Antes de una tarea riesgosa: `npm run backup`.
+`npm run backup -- --list` enumera las copias.
 
-- `snapshot/investors/` en el repo: un archivo por perfil con las claves ordenadas, así `git diff` muestra qué cambió
-  entre dos snapshots. Antes de una tarea riesgosa: `npm run snapshot` y commit.
-- El bucket de Storage: `npm run backup` sube toda la colección como un único JSON a `backups/investors/<fecha>.json`,
-  lo vuelve a descargar y comprueba que sea byte a byte igual a lo leído. `npm run backup -- --list` enumera las copias.
-
-Si la base se daña: `npm run restore` (desde el snapshot) o `npm run restore -- --backup <nombre>.json` (desde el
-bucket); `--prune` elimina además los documentos que no estén en la copia. Las reglas de Storage deben permitir leer y
-escribir `backups/**` con el SDK web. No se guardan copias locales fuera del repo.
+Si la base se daña: `npm run restore -- <nombre>.json`; `--prune` elimina además los documentos que no estén en la
+copia. Las reglas de Storage deben permitir leer y escribir `backups/**` con el SDK web. No hay copias en el repo ni
+en disco: la única fuente de verdad es Firestore y las copias viven en el bucket.
 
 Editar un perfil = editarlo en Firestore. La app recalcula lo derivado al leer, así que un documento editado a mano
 nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores derivados guardados alineados.
@@ -91,7 +86,7 @@ nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores
 - `src/lib/labels.ts` — etiquetas en español para cada código (bandas, regiones, tipos, estados, topes, rúbrica).
 - `src/lib/investors.ts` — suscripción a Firestore. `src/context/` — el contexto que expone la colección.
 - `src/lib/filters.ts` — filtros, orden y URL. `src/components/` — filtros, lista, ficha y badges.
-- `scripts/` — `recalculate.ts`, `import-profiles.ts`, `snapshot.ts`, `restore.ts`; `scripts/lib/firestore.ts` conecta con la
+- `scripts/` — `recalculate.ts`, `import-profiles.ts`, `backup.ts`, `restore.ts`, `prompt-preview.ts`; `scripts/lib/firestore.ts` conecta con la
   config de `.env` y `scripts/lib/spanish-values.ts` traduce los valores en español de los JSON de investigación.
 
 ## Auditoría dentro del perfil

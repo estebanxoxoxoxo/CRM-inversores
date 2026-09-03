@@ -1,36 +1,21 @@
 /**
- * Restores Firestore from a backup: the snapshot committed in the repo (snapshot/investors/<id>.json) or an archive
- * in the Storage bucket (see `npm run backup`).
+ * Restores Firestore from a backup in the Storage bucket (see `npm run backup`).
  *
- *   npm run restore                               from the snapshot in the repo
- *   npm run restore -- --backup <name>.json       from backups/investors/<name>.json in the bucket
- *   npm run restore -- [...] --prune              also delete documents of `investors` that are not in the source
+ *   npm run restore -- <name>.json           writes every document of backups/investors/<name>.json
+ *   npm run restore -- <name>.json --prune   also deletes documents of `investors` that are not in the backup
  *
  * Every document is validated first; nothing is written if any fails. Documents keep their stored `updatedAt`.
  */
-import fs from "node:fs";
-import path from "node:path";
 import { collection, doc, getDocs, writeBatch, type Firestore } from "firebase/firestore";
 import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src/types/investor";
 import { downloadBackup, type BackupDocument } from "./lib/backup";
 import { connect, explainError } from "./lib/firestore";
 
-const SNAPSHOT_DIR = path.resolve(import.meta.dirname, "..", "snapshot", COLLECTION);
 const prune = process.argv.includes("--prune");
-const backupIndex = process.argv.indexOf("--backup");
-const backupName = backupIndex > -1 ? process.argv[backupIndex + 1] : "";
-if (backupIndex > -1 && !backupName) {
-  console.error("Usage: npm run restore -- --backup <name>.json");
+const name = process.argv.slice(2).find((argument) => !argument.startsWith("--"));
+if (!name) {
+  console.error("Usage: npm run restore -- <name>.json [--prune]   (npm run backup -- --list shows the names)");
   process.exit(1);
-}
-
-function readSnapshot(): BackupDocument[] {
-  const files = fs.existsSync(SNAPSHOT_DIR) ? fs.readdirSync(SNAPSHOT_DIR).filter((file) => file.endsWith(".json")) : [];
-  if (!files.length) {
-    console.error(`No snapshot found in ${SNAPSHOT_DIR}. Run npm run snapshot first.`);
-    process.exit(1);
-  }
-  return files.map((file) => ({ id: file.replace(/\.json$/, ""), data: JSON.parse(fs.readFileSync(path.join(SNAPSHOT_DIR, file), "utf8")) as Record<string, unknown> }));
 }
 
 function validate(documents: BackupDocument[]): Investor[] {
@@ -74,22 +59,15 @@ async function write(db: Firestore, investors: Investor[]): Promise<void> {
       if (++batched >= 400) await flush();
     }
     await flush();
-    console.log(`Pruned ${stale.length} document(s) not present in the source.`);
+    console.log(`Pruned ${stale.length} document(s) not present in the backup.`);
   }
 }
 
 const db = connect();
 (async () => {
-  let documents: BackupDocument[];
-  if (backupName) {
-    const archive = await downloadBackup(backupName);
-    console.log(`Backup ${backupName}: ${archive.count} documents created ${archive.createdAt}.`);
-    documents = archive.documents;
-  } else {
-    documents = readSnapshot();
-    console.log(`Snapshot: ${documents.length} documents.`);
-  }
-  await write(db, validate(documents));
+  const archive = await downloadBackup(name);
+  console.log(`Backup ${name}: ${archive.count} documents created ${archive.createdAt}.`);
+  await write(db, validate(archive.documents));
   process.exit(0);
 })().catch((e: unknown) => {
   console.error("ERROR:", explainError(e));

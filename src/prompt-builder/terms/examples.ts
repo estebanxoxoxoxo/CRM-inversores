@@ -3,8 +3,8 @@
  * reviewed, level above EXAMPLE_MIN_LEVEL, and not rated rejected or filler by the team.
  */
 import type { Investor, Rating } from "../../types/investor";
-import { codeBlock, paragraphs } from "../format";
-import type { Term } from "../types";
+import { codeBlock, paragraphs } from "../format/markdown";
+import type { Term } from "../types/term";
 
 /** A profile is an example when its level is strictly above this. */
 export const EXAMPLE_MIN_LEVEL = 80;

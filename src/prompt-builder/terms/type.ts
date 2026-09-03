@@ -1,6 +1,6 @@
 /** Term "Formato de salida: el tipo exacto": the type source verbatim (an input) plus the notes to fill an object. */
-import { bullets, codeBlock, paragraphs } from "../format";
-import type { Term } from "../types";
+import { bullets, codeBlock, paragraphs } from "../format/markdown";
+import type { Term } from "../types/term";
 
 export const INTRO =
   "Cada perfil es un objeto que valida contra `InvestorSchema` del siguiente archivo TypeScript (esquema zod). Los valores de los enums van " +

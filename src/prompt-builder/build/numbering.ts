@@ -3,7 +3,7 @@
  * the aggregator; the context's `sectionNumber` lets one term refer to another ("el tipo de la sección 6") without
  * hardcoding the number, so reordering the terms renumbers headings and references together.
  */
-import type { Term, TermId } from "./types";
+import type { Term, TermId } from "../types/term";
 
 export function numberTerms(terms: readonly Term[]): Map<TermId, number> {
   const numbers = new Map<TermId, number>();

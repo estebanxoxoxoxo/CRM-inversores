@@ -1,6 +1,6 @@
 /** Term "Perfiles excluidos": every investor already in the database, one line each, so none is repeated. */
 import type { Investor } from "../../types/investor";
-import type { Term } from "../types";
+import type { Term } from "../types/term";
 
 export const NO_LINKEDIN = "sin LinkedIn";
 export const NO_EMAIL = "sin email";

@@ -1,6 +1,7 @@
 /** Section "Descubrimiento de candidatos": how to find new people. */
-import { numbered, paragraphs, quotedList } from "../format";
-import type { PromptContext, Term } from "../types";
+import { numbered, paragraphs, quotedList } from "../format/markdown";
+import type { PromptContext } from "../types/prompt";
+import type { Term } from "../types/term";
 
 export const intro = (ctx: PromptContext): string => `Buscá personas que no estén en la lista de excluidos de la sección ${ctx.sectionNumber("exclusions")}.`;
 

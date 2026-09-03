@@ -1,5 +1,5 @@
 /** Term: closing line with the generation date. Unnumbered. */
-import type { Term } from "../types";
+import type { Term } from "../types/term";
 
 export const generatedOn = (date: string): string => `Documento generado el ${date}.`;
 

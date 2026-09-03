@@ -1,7 +1,5 @@
-import type { Investor } from "../types/investor";
-
-/** Every term of the prompt, in document order. Numbered terms carry a title; opening and footer do not. */
-export type TermId = "opening" | "request" | "context" | "discovery" | "research" | "rubric" | "type" | "endpoint" | "exclusions" | "examples" | "footer";
+import type { Investor } from "../../types/investor";
+import type { TermId } from "./term";
 
 /** The inputs of a prompt. Gathered by index.ts from the app (investors, count) and the environment (the rest). */
 export interface PromptInput {
@@ -23,13 +21,4 @@ export interface PromptInput {
 export interface PromptContext extends PromptInput {
   /** Number of a numbered term in the final document. Throws for unnumbered or unknown terms. */
   sectionNumber: (id: TermId) => number;
-}
-
-/** One piece of the prompt. The aggregator (build.ts) renders every term in order and joins them literally. */
-export interface Term {
-  id: TermId;
-  /** Heading without the number. Present only on numbered terms. */
-  title?: (ctx: PromptContext) => string;
-  /** Body in Markdown, without the heading. */
-  render: (ctx: PromptContext) => string;
 }

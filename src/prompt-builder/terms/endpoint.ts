@@ -1,7 +1,8 @@
 /** Term "Envío de perfiles: endpoint". URL and token are inputs; the batch limit comes from the type contract. */
 import { INGEST_MAX_PER_REQUEST } from "../../types/investor";
-import { bullets, codeBlock, paragraphs } from "../format";
-import type { PromptContext, Term } from "../types";
+import { bullets, codeBlock, paragraphs } from "../format/markdown";
+import type { PromptContext } from "../types/prompt";
+import type { Term } from "../types/term";
 
 export const request = (ctx: PromptContext): string =>
   codeBlock("", `POST ${ctx.endpoint}\nAuthorization: Bearer ${ctx.token}\nContent-Type: application/json\n\n{ "investors": [ { ...perfil 1... }, { ...perfil 2... } ] }`);

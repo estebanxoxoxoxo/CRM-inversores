@@ -4,13 +4,14 @@
  *   inputs/   where each input comes from: count (dialog), environment (endpoint URL and token), type-source
  *             (the investor type file), date. The investors come from the app's live subscription.
  *   terms/    one file per piece of the prompt, every paragraph an exported constant
- *   numbering.ts   section numbers and cross-references
- *   build.ts       the aggregator: renders every term in order and joins them literally
+ *   build/    the aggregator (build.ts) and the numbering of sections with cross-references (numbering.ts)
+ *   format/   Markdown helpers shared by the terms
+ *   types/    Term and TermId (term.ts), PromptInput and PromptContext (prompt.ts)
  *
  * This entry point gathers the inputs and runs the build.
  */
 import type { Investor } from "../types/investor";
-import { buildPrompt } from "./build";
+import { buildPrompt } from "./build/build";
 import { DEFAULT_COUNT, clampCount } from "./inputs/count";
 import { today } from "./inputs/date";
 import { ingestEndpoint, ingestToken, tokenOrPlaceholder } from "./inputs/environment";

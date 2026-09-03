@@ -3,8 +3,8 @@
  * what the server computes; only the wording lives here.
  */
 import { BAND_THRESHOLDS, CAP_RULES, SCORE_MAX, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension } from "../../types/investor";
-import { bullets, decimal, paragraphs } from "../format";
-import type { Term } from "../types";
+import { bullets, decimal, paragraphs } from "../format/markdown";
+import type { Term } from "../types/term";
 
 export const INTRO =
   "Cada perfil lleva una puntuación propuesta en `audit.score` y un motivo en `audit.reason` que explique el nivel en términos absolutos: " +

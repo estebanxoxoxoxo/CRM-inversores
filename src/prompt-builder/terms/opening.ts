@@ -1,5 +1,5 @@
 /** Term: title and opening paragraph. Unnumbered. Says who the model is, the objective and what the document holds. */
-import type { Term } from "../types";
+import type { Term } from "../types/term";
 import { EXAMPLE_MIN_LEVEL } from "./examples";
 
 export const TITLE = "Búsqueda de nuevos inversores deep tech / dev tools hispanohablantes";

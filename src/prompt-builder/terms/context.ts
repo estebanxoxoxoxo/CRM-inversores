@@ -1,6 +1,6 @@
 /** Section "Contexto del cliente y criterio de pureza". */
-import { bullets, paragraphs } from "../format";
-import type { Term } from "../types";
+import { bullets, paragraphs } from "../format/markdown";
+import type { Term } from "../types/term";
 
 export const CLIENT =
   "Startup hispanohablante que construye (a) un stack de software IA-nativo, con demo para inversores en unos meses, y (b) un harness " +

@@ -1,6 +1,6 @@
 /** Section "Investigación profunda de cada persona seleccionada": one constant per instruction, rendered numbered. */
-import { numbered } from "../format";
-import type { Term } from "../types";
+import { numbered } from "../format/markdown";
+import type { Term } from "../types/term";
 
 export const SEARCH =
   "Buscá en la web en inglés y español, con un mínimo de 8 a 12 búsquedas por persona: web del fondo, LinkedIn a través de buscadores, " +

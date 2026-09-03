@@ -41,7 +41,7 @@ fuente del tipo, el endpoint de ingesta con su token, todos los perfiles existen
 email) y los perfiles con nivel mayor a 80 como ejemplos.
 
 El prompt se construye en `src/prompt-builder/` como una suma de términos: cada archivo de `terms/` es un término, y el
-agregador `build.ts` los renderiza en orden y los junta literalmente, separados por una línea en blanco.
+agregador `build/build.ts` los renderiza en orden y los junta literalmente, separados por una línea en blanco.
 
 - `terms/` — un archivo por término, en orden de aparición: `opening` (título y párrafo inicial), `request` (el pedido),
   `context`, `discovery`, `research`, `rubric` (pesos, topes y bandas leídos del tipo), `type` (el tipo incrustado tal
@@ -51,8 +51,11 @@ agregador `build.ts` los renderiza en orden y los junta literalmente, separados 
 - `inputs/` — de dónde sale cada entrada: `count` (la cantidad del diálogo, con valor por defecto y máximo),
   `environment` (URL del endpoint y token), `type-source` (el archivo del tipo, leído tal cual), `date`. Los perfiles
   llegan de la suscripción de la app.
-- `numbering.ts` — numera los términos con título y resuelve las referencias cruzadas ("el tipo de la sección 6"), así
-  que mover un término en `build.ts` renumera títulos y referencias a la vez.
+- `build/` — `build.ts`, el agregador, con la lista de términos en orden; `numbering.ts` numera los términos con título y
+  resuelve las referencias cruzadas ("el tipo de la sección 6"), así que mover un término renumera títulos y
+  referencias a la vez.
+- `format/markdown.ts` — ayudantes de Markdown que usan los términos (cita, listas, bloques de código, decimal con coma).
+- `types/` — `term.ts` (un término y sus ids) y `prompt.ts` (las entradas y el contexto que recibe cada término).
 - `index.ts` — punto de entrada: reúne las entradas y ejecuta la unión.
 
 Como la rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `CAP_RULES`, `BAND_THRESHOLDS`,

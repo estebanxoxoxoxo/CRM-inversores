@@ -1,6 +1,7 @@
 /** Section "El pedido": the founder's request, one constant per idea, quoted in this order. */
-import { paragraphs, quote } from "../format";
-import type { PromptContext, Term } from "../types";
+import { paragraphs, quote } from "../format/markdown";
+import type { PromptContext } from "../types/prompt";
+import type { Term } from "../types/term";
 
 export const IMPORTANCE =
   "Quiero plantearte el trabajo de tu vida. Es lo más importante que te pedí hasta ahora; el nivel de importancia de esta tarea " +

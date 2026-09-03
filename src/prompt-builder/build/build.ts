@@ -14,21 +14,22 @@
  *   9. examples                    perfiles de ejemplo
  *   footer                         fecha de generación
  *
- * Move a term here and every heading and cross-reference follows (see numbering.ts).
+ * Move a term here and every heading and cross-reference follows (see numbering.ts, next to this file).
  */
 import { numberTerms, sectionNumberOf } from "./numbering";
-import { context } from "./terms/context";
-import { discovery } from "./terms/discovery";
-import { endpoint } from "./terms/endpoint";
-import { examples } from "./terms/examples";
-import { exclusions } from "./terms/exclusions";
-import { footer } from "./terms/footer";
-import { opening } from "./terms/opening";
-import { request } from "./terms/request";
-import { research } from "./terms/research";
-import { rubric } from "./terms/rubric";
-import { type } from "./terms/type";
-import type { PromptContext, PromptInput, Term, TermId } from "./types";
+import { context } from "../terms/context";
+import { discovery } from "../terms/discovery";
+import { endpoint } from "../terms/endpoint";
+import { examples } from "../terms/examples";
+import { exclusions } from "../terms/exclusions";
+import { footer } from "../terms/footer";
+import { opening } from "../terms/opening";
+import { request } from "../terms/request";
+import { research } from "../terms/research";
+import { rubric } from "../terms/rubric";
+import { type } from "../terms/type";
+import type { PromptContext, PromptInput } from "../types/prompt";
+import type { Term, TermId } from "../types/term";
 
 export const TERMS: readonly Term[] = [opening, request, context, discovery, research, rubric, type, endpoint, exclusions, examples, footer];
 

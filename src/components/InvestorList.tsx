@@ -31,7 +31,9 @@ export default function InvestorList({ investors, selectedId, onSelect }: Props)
             <div className="card-line2">
               <span className="card-firm">{investor.firm}</span>
               <span className="separator">·</span>
-              <span>{investor.role}</span>
+              <span className="card-role" title={investor.role}>
+                {investor.role}
+              </span>
             </div>
             <div className="card-line3">
               <span>{REGION_SHORT_LABELS[investor.region]}</span>

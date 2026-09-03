@@ -110,7 +110,10 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
+    // Escape closes the panel, unless a dialog (e.g. the rating dialog) is open: then it only closes the dialog.
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && !document.querySelector("dialog[open]")) onClose();
+    };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);

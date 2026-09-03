@@ -3,6 +3,7 @@ import FiltersPanel from "./components/Filters";
 import FindMoreButton from "./components/FindMoreButton";
 import InvestorDetail from "./components/InvestorDetail";
 import InvestorList from "./components/InvestorList";
+import ThemeSwitch from "./components/ThemeSwitch";
 import { useInvestors } from "./context/investors";
 import { applyFilters, filtersFromUrl, filtersToUrl, type Filters } from "./lib/filters";
 
@@ -40,6 +41,7 @@ export default function App() {
           )}
         </p>
         <FindMoreButton />
+        <ThemeSwitch />
       </header>
       {error && (
         <div className="error-notice">

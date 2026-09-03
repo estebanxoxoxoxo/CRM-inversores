@@ -77,6 +77,7 @@
   "name": "Rocío Pillado",
   "personalWebsite": "",
   "priority": "A",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "AppFactor (2026, seed de 4M USD colidera Adara + Tensor Ventures; plataforma de IA que mapea el parque de aplicaciones, analiza deuda tecnica, genera documentacion y tests y refactoriza a arquitecturas modernas) — dev tool de IA para ingenieria, el precedente mas cercano al cliente",
@@ -126,7 +127,7 @@
     "Rondas recientes lideradas o co-lideradas: Wodan 2M€ pre-seed, Airflows 2M€, AppFactor 4M USD, TuringDream 6M€.",
     "AUM ~350M€."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Adara invirtió en la categoría exacta en los últimos doce meses: AppFactor (seed 4M USD), Airflows (2M€ liderada), TuringDream (6M€ seed), Wodan (pre-seed 2M€).",
     "Criterio publicado 'Courage: willingness to operate ahead of market readiness' resuelve de antemano la objeción de la tracción.",

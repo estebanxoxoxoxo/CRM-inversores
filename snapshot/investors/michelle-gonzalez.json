@@ -67,6 +67,7 @@
   "name": "Michelle Gonzalez",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Entire (2026, seed de 60 M USD liderada por Felicis con M12 participando, valoración ~300 M USD; red git distribuida y base de datos compatible con git que unifica código y razonamiento de agentes, capa semántica multi-agente e interfaz AI-native para el SDLC, fundada por el ex-CEO de GitHub Thomas Dohmke) — es la prueba directa de que M12 firma cheques grandes pre-producto en la capa exacta del harness de agentes del cliente; también el mayor riesgo de conflicto competitivo.",
@@ -122,7 +123,7 @@
     "Fondo principal 5-10M USD (hasta ~20M); M12 GitHub Fund 0,5-1M USD en pre-seed/seed de dev tools.",
     "Evergreen del balance de Microsoft: ~150-250M USD desplegados al año; Microsoft único LP."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "M12 invirtió pre-producto en Entire (red git distribuida para agentes de IA): la capa exacta del harness.",
     "Modera paneles sobre 'agentic and AI coding infrastructure' y organiza comidas de fundadores del 'agentic SDLC'.",

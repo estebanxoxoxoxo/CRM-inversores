@@ -69,6 +69,7 @@
   "name": "Marissa Ramirez de Chanlatte, PhD",
   "personalWebsite": "https://marissachanlatte.github.io/",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Photon Queue (2026, ronda semilla sobresuscrita de $4M liderada por Playground Global; memoria cuántica de fotones a temperatura ambiente sin criogenia, spinout de 2024 de la Universidad de Illinois Urbana-Champaign con sede en Champaign, Illinois; coinversores: Cerberus Capital Management, Illinois Ventures, Roadrunner Venture Studios y MFV Partners) — es la PRIMERA inversión del Genesis Fund y la lideró ella personalmente; prueba que firma cheques en hardware de física profunda con cero tracción comercial y que sabe combinar capital privado con dinero público no dilutivo ($500K del New Mexico Economic Development Department).",
@@ -119,7 +120,7 @@
     "Playground Fund IV: 475M USD (may-2026); Genesis Fund: 50M USD (cuántica y cómputo avanzado, Nuevo México).",
     "Ticket no publicado; referencia: seed de 4M USD liderada (Photon Queue)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Capaz de auditar rendimiento, paralelismo y eficiencia de cómputo por sí misma; ex-COO de una startup de IA pre-producto.",
     "Playground invierte pre-formación y lidera (ella lideró la seed de 4M USD de Photon Queue en 2026).",

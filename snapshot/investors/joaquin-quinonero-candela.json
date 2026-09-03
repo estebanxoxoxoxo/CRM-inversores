@@ -68,6 +68,7 @@
   "name": "Joaquín Quiñonero Candela",
   "personalWebsite": "https://quinonero.net/",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Trent AI (abr-2026, seed 13 M USD / 11 M €, plataforma de seguridad multi-agente para entornos agénticos, Londres) — única inversión documentada; compañía fundada en 2025, salida de sigilo el día del anuncio, sin clientes públicos: evidencia directa de apuesta deep tech pre-tracción. Liderada por LocalGlobe y Cambridge Innovation Capital; fundada por Eno Thereska, Neil Lawrence (catedrático DeepMind en Cambridge) y Zhenwen Dai; coángeles: Avinash Bhat (AWS), Ippokratis Pandis (Databricks), Tony Jebara (ex-Spotify)",
@@ -105,7 +106,7 @@
     "Seed; ticket no publicado; única operación documentada: Trent AI (abril 2026), como ángel individual entre otros tres.",
     "No lidera, no fija términos, sin vehículo ni criterios publicados."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Entiende el riesgo operativo real de muchos agentes ejecutando código de forma autónoma y puede evaluar el moat sin pedir usuarios.",
     "Su única inversión (Trent AI, seed 13M USD, seguridad multi-agente salida de sigilo) es diagnóstica de lo que le interesa.",

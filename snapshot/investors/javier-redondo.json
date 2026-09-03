@@ -74,6 +74,7 @@
   "name": "Javier Redondo",
   "personalWebsite": "https://javierredondo.com",
   "priority": "B",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Permit.io (2024, Series A de 8 M USD liderada por Scale, autorización full-stack as-a-service con núcleo open source OPAL/OPA) — infraestructura para desarrolladores con motor open source; co-inversores NFX, Verissimo, Roosh, Firestreak",
@@ -119,7 +120,7 @@
     "Cheques iniciales 5-50M USD; exige 'signed customers and repeatable demand' (0,5-5M USD de ARR).",
     "Fondo VIII de 900M USD; Norteamérica, Europa e Israel."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Ha gestionado producto de infraestructura distribuida para IA (Ray, Kafka) y escribe las dos mitades del harness: protocolos de agentes (MCP) y sistemas de build.",
     "Español nativo (ICAI, Madrid) y email público: cero fricción de idioma ni de intro.",

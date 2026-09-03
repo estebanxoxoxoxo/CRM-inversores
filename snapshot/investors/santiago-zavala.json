@@ -79,6 +79,7 @@
   "name": "Santiago Zavala",
   "personalWebsite": "https://www.santiagozavala.com",
   "priority": "A",
+  "rating": null,
   "region": "mexico",
   "relevantInvestments": [
     "Clip (pagos, México) — una de las inversiones tempranas emblemáticas de 500 LatAm, entrada con equipo técnico y sin métricas",
@@ -123,7 +124,7 @@
     "Vía estándar de 500 LatAm: 300.000 USD por compañía en programa con acceso a Silicon Valley (5 seleccionadas en 2026).",
     "Dos puertas: el programa (300k) o una inversión directa mayor liderada por el fondo."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "No habla de IA en abstracto: habla de orquestar agentes, de Claude Code, Codex y OpenClaw, y de que el repositorio del futuro será de prompts.",
     "Invierte en pre-seed, lidera, 300+ operaciones; toda su historia es respaldar a fundadores técnicos antes de las métricas.",

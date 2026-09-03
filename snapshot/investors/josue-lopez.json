@@ -77,6 +77,7 @@
   "name": "Dr. Josué J. López",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Kyber Photonics (cofundador y CEO, ~2020-2022; lidar-on-a-chip apoyado por DARPA y Activate) — su propia empresa: prueba de que ha construido hardware profundo desde cero con financiación no dilutiva y sin mercado hecho",
@@ -123,7 +124,7 @@
     "112 inversiones en seed (ronda media 15,6M) y 113 en Serie A.",
     "Él es Principal: origina y defiende, no firma; sin actividad ángel documentada."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Relación más limpia con el riesgo técnico puro: DCVC existe para financiar ciencia antes de que haya mercado.",
     "Ángulo válido: 'next-generation compute'; si el 90% de eficiencia se demuestra con benchmarks de cómputo, energía o latencia, entra en su tesis (Mythic, SF Compute).",

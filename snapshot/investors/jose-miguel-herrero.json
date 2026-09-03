@@ -74,6 +74,7 @@
   "name": "José Miguel Herrero",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Axiomatic AI (marzo 2026, seed 18 M$ liderada por Engine Ventures con Kleiner Perkins; 'intelligence infrastructure for verified science & engineering': modelos frontera + verificación formal para diseño de hardware) — el precedente más directo de inversión en infraestructura de IA pre-tracción; equipo 60% España.",
@@ -126,7 +127,7 @@
     "Ticket 500k-3M USD con punto dulce ~2,5M USD; con BSV IV lidera rondas de 8-9,4M€.",
     "BSV IV Ariadne: objetivo 100M€, primer cierre realizado, 40M€ de la SETT."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Tesis 'Internet Power' con 'AI-native software' y 'expert systems'; Axiomatic AI en cartera ('the intelligence infrastructure for verified science & engineering').",
     "Invierte sistemáticamente pre-tracción y lidera: Arq Quantum (pre-seed), Nanopower (9,4M€ liderada), LuxQuanta (8M€ liderada).",

@@ -70,6 +70,7 @@
   "name": "Guillermo Rauch",
   "personalWebsite": "https://rauchg.com",
   "priority": "B",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Supabase (2021, Serie A de 30 M USD liderada por Coatue, backend open source Postgres) — confirmado en el anuncio oficial de Supabase; caso puro de infra open source para desarrolladores",
@@ -114,7 +115,7 @@
     "Ticket 5.000-50.000 USD, punto dulce 25.000 USD; nunca lidera.",
     "Volumen muy alto: 76-175 operaciones según la fuente."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Escribe y construye sobre 'agentic engineering', sandboxes de agentes y separación modelo/agente: la tesis del cliente en sus propias palabras.",
     "Cartera confirmada de infraestructura de desarrollador sin usuarios en el momento del cheque: Railway, Tinybird, Upstash, Chroma, Browserbase, Composio, Resend.",

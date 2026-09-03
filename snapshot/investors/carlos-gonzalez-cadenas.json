@@ -73,6 +73,7 @@
   "name": "Carlos Gonzalez-Cadenas",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "out_of_region",
   "relevantInvestments": [
     "Tessl (noviembre 2024, Series A de 100M USD liderada por Index sobre una semilla previa de 25M USD; 'AI native software development' spec-centric, fundada por Guy Podjarny de Snyk) — es la inversión más directamente comparable a lo que construye el cliente; Carlos firmó el ensayo de tesis",
@@ -118,7 +119,7 @@
     "Referencia de lo que lidera: Serie A de 100M USD de Tessl (nov-2024) sobre semilla previa de 25M.",
     "Sin rango de cheque publicado a su nombre; como ángel hizo 50-60 cheques pequeños."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Escribió la tesis del cliente: ensayo de Tessl sobre el paso de desarrollo 'code-centric' a 'spec-centric'; lideró su Serie A de 100M USD.",
     "Focos declarados: 'SaaS, Open Source, Security, Financial Services, AI and Infrastructure/DevOps'.",

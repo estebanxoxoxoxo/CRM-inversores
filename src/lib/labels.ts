@@ -1,5 +1,16 @@
 /** Spanish UI labels for the English codes of the investor type. Everything the user reads comes from here. */
-import { BAND_THRESHOLDS, SCORE_MAX, type AuditStatus, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Region } from "../types/investor";
+import { BAND_THRESHOLDS, SCORE_MAX, type AuditStatus, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
+
+export const RATING_LABELS: Record<Rating, string> = {
+  approved: "Aprobado",
+  doubtful: "Dudoso",
+  rejected: "Desaprobado",
+  filler: "Relleno",
+};
+
+/** Value used by the filters for investors without a rating. */
+export const UNRATED = "unrated";
+export const UNRATED_LABEL = "Sin calificar";
 
 export const BAND_LABELS: Record<Band, string> = {
   undisputed: "Indiscutible",

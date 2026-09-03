@@ -71,6 +71,7 @@
   "name": "Javier Soltero",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Metaplane (ángel primero; Serie A liderada por Felicis en marzo de 2024, ronda de 13,8-16M USD; observabilidad de datos de extremo a extremo) — su inversión insignia; ocupó asiento en el consejo y la empresa fue adquirida por Datadog el 23 de abril de 2025. Demuestra convicción en infraestructura invisible de datos, comprada por calidad de producto.",
@@ -112,7 +113,7 @@
     "Sin presupuesto propio como Senior Venture Partner; cheques ángel personales pequeños.",
     "Estado actual en Felicis no confirmado; empleo principal en Metaplane by Datadog."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Construyó las tres capas que un fondo no sabe evaluar: infraestructura open source (Hyperic), herramientas de desarrollador y productividad a escala (Outlook, Workspace).",
     "Criterio declarado de producto e ingeniería, no de tracción; sus cheques documentados son infraestructura invisible (Metaplane, adquirida por Datadog).",

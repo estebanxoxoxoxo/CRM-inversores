@@ -73,6 +73,7 @@
   "name": "María Gutiérrez Peñaloza",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "mexico",
   "relevantInvestments": [
     "Desteia (2023, pre-seed; 'the platform and API to expand into global markets', datos e inteligencia de cadena de suministro) — la participada más cercana a un producto de infraestructura/API vendido a perfiles técnicos",
@@ -113,7 +114,7 @@
     "Pre-seed exclusivamente: primera ronda institucional.",
     "Tamaño de fondo y ticket no confirmados; por las rondas en que aparece, cientos de miles de USD (inferencia)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Entiende la cadena de valor del silicio y no se asusta ante ciclos de producto largos.",
     "Primera ronda institucional y al menos un fundador técnico: puede evaluar infraestructura sin usuarios.",

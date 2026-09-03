@@ -69,6 +69,7 @@
   "name": "Cristóbal Valenzuela",
   "personalWebsite": "https://cvalenzuelab.com",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "diio (startup chilena de asistente de ventas con IA, Puerto Varas) — figura como miembro del consejo asesor junto a Alejandro Matamala según Startups Latam (20/05/2024), Emol (22/04/2024) y Startups Españolas (14/02/2026). No está confirmado que sea inversión económica",
@@ -105,7 +106,7 @@
     "Sin etapa ni ticket públicos; una única inversión ángel registrada (Tracxn).",
     "Consejo asesor de diio (Chile) sin inversión económica confirmada."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Fundador hispanohablante de mayor perfil en IA generativa; construyó Runway desde la investigación sin tracción durante años.",
     "Su idea 'the speed of iteration is the moat' y 'externalizar infraestructura es externalizar la capacidad de entender' es aprovechable para el discurso del stack propio.",

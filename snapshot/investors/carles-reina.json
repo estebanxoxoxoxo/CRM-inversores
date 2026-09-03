@@ -83,6 +83,7 @@
   "name": "Carles Reina",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Altan AI (2025-2026, cartera de Baobab Ventures; 'agentic application builder' / constructor de aplicaciones agénticas) — la inversión más cercana a la tesis del cliente: infraestructura para construir software con agentes",
@@ -150,7 +151,7 @@
     "Cheque fijo 300.000-350.000 USD; cartera objetivo de 30-35 startups; acompaña o co-lidera rondas de 1-2M USD.",
     "Baobab Ventures: 15M USD, cierre único (nov-2025); antes 74 inversiones ángel desde 2017."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Solo GP: decide él, sin comité, en días; fondo íntegramente cerrado (15M USD) con 75-80% por desplegar.",
     "Ya tiene Altan AI ('agentic application builder') y Wabi AI en cartera: la tesis del cliente no le es exótica.",

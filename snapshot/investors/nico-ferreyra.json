@@ -73,6 +73,7 @@
   "name": "Nico Ferreyra",
   "personalWebsite": "https://nicoaferr.com/",
   "priority": "B",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Browserbase (2024, seed/Serie A, infraestructura de navegador headless para agentes de IA) — es literalmente la categoría del cliente: infra para que los agentes operen software; entró junto a CRV, Kleiner Perkins, Okta Ventures y ángeles como Guillermo Rauch y Patrick Collison",
@@ -118,7 +119,7 @@
     "Ticket 25.000-50.000 USD; no lidera ni fija términos.",
     "50+ startups en cartera."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Ficha en devtoolangels.com: 'early stage developer & data tools', cheques de 25-50k USD.",
     "Firma antes de la tracción: Browserbase (infra de navegador para agentes) y Bland eran productos sin usuarios al levantar.",

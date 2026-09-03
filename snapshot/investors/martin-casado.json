@@ -69,6 +69,7 @@
   "name": "Martin Casado",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Cursor / Anysphere (consejo actual; a16z invirtió desde 2023, rondas sucesivas hasta valoraciones multimillonarias) — harness de programación con IA: el producto más cercano al del cliente en su cartera",
@@ -116,7 +117,7 @@
     "Rango 500k-100M USD (VC Sheet); el pre-seed de a16z lo canalizan otros socios y programas (Speedrun).",
     "Lidera la práctica de infraestructura (>1.250M USD) y co-lidera el Machine Age Fund (1.100M USD, 2026)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Consejero de Cursor (harness de programación con IA), Braintrust y Distributional (evals e infra de agentes): el problema exacto del cliente.",
     "'The Cost of Cloud, a Trillion Dollar Paradox': reoptimizar el stack de cómputo libera cientos de miles de millones; encaja con 'stack ~90% mejor'.",

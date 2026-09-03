@@ -20,6 +20,14 @@ npm run restore                           # vuelve a escribir en Firestore lo qu
 npm run typecheck                         # tipos de la app y de los scripts
 ```
 
+## Calificación manual
+
+Desde la ficha, "Calificar perfil" abre un diálogo con Aprobado, Dudoso, Desaprobado y Relleno, más "Descalificar" si
+ya tenía una. Se guarda en `rating` del documento (`approved`, `doubtful`, `rejected`, `filler` o `null`), es la única
+escritura que hace la app y se refleja en vivo: borde de 3px en la tarjeta del listado (verde, azul oscuro, rojo, gris
+oscuro), badge en la ficha y primer grupo de filtros. El endpoint de ingesta siempre deja `rating` en `null`; los
+perfiles calificados como desaprobado o relleno no se usan como ejemplos en el prompt.
+
 ## Buscar más perfiles
 
 El botón "Buscar más perfiles" (arriba a la derecha) copia al portapapeles un prompt completo para pegar en un chat de

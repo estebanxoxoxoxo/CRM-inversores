@@ -53,10 +53,11 @@ export function prepareSubmission(raw: unknown, now: string): Investor {
   const audit = (submitted.audit && typeof submitted.audit === "object" ? submitted.audit : {}) as Doc;
   const score = (audit.score && typeof audit.score === "object" ? audit.score : {}) as Doc;
   const contactSources = (submitted.contactSources && typeof submitted.contactSources === "object" ? submitted.contactSources : {}) as Doc;
-  const { level: _level, band: _band, priority: _priority, updatedAt: _updatedAt, ...rest } = submitted;
+  const { level: _level, band: _band, priority: _priority, rating: _rating, updatedAt: _updatedAt, ...rest } = submitted;
   void _level;
   void _band;
   void _priority;
+  void _rating;
   void _updatedAt;
   const { raw: _raw, caps: _caps, total: _total, ...scoreInput } = score;
   void _raw;
@@ -76,6 +77,7 @@ export function prepareSubmission(raw: unknown, now: string): Investor {
       reason: audit.reason ?? "",
       score: { thesis: 0, stage: 0, decision: 0, spanish: 0, access: 0, otherAspects: 0, otherAspectsReason: "", ...scoreInput },
     },
+    rating: null,
     updatedAt: now,
   });
 }

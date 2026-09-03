@@ -80,6 +80,7 @@
   "name": "Enrique Penichet",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Sycai Medical (participada del fondo Frontier Tech, anunciada con el cierre en dic 2025; detección precoz de patologías abdominales con IA sobre imagen médica) — deep tech de IA invertido antes de tener tracción comercial",
@@ -130,7 +131,7 @@
     "Fondo Frontier Tech: >20M€ (cierre 2-dic-2025), nueve inversiones iniciales.",
     "Ticket con fuentes en conflicto: 1-2M€ en seed sin liderar (VC Sheet) o 138k-1,4M€ (Mintround); lo razonable, varios cientos de miles con follow-on. Confirmar."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Dinero fresco y mandato escrito con IA y ciberseguridad: Frontier Tech, >20M€, cerrado el 2-dic-2025, nueve inversiones hechas.",
     "Invierte pre-seed y seed en deep tech por definición pre-tracción (Sycai, Collimate Space, 8layers).",

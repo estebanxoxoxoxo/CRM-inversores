@@ -82,6 +82,7 @@
   "name": "Aquilino Peña",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "NeuralTrust (junio 2026, seed de 17,2 M€ / 20 M$, Barcelona; seguridad y gobierno de agentes de IA en empresa con TrustGate/TrustGuard/TrustLens) — Kibo PARTICIPÓ, no lideró: la ronda la lideró Alstin Capital con VentureFriends, Seaya, Banc Sabadell, EA Ventures Plug and Play Fund y Finaves. Es la mayor seed de ciberseguridad de la UE y la prueba más directa de que Peña invierte en la capa de agentes",
@@ -144,7 +145,7 @@
     "Ticket inicial ~5M€ con 40% del fondo reservado a follow-on: no es un fondo de pre-seed.",
     "Fondo IV Innvierte: 120M€ (anuncio 15-dic-2025), LPs BBVA Spark, familia Mahou, CDTI, FEI; AUM >500M€ en 6 vehículos."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Mandato publicado del Fondo IV casi calcado al cliente: deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física.",
     "Dinero fresco: primer cierre dic-2025, 120M€ a desplegar en 2026-2029; apuestas técnicas de horizonte largo (lideró Theker ~21M€ y FOSSA 9,25M€).",

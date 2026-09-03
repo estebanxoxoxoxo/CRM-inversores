@@ -74,6 +74,7 @@
   "name": "Carlos Buenosvinos",
   "personalWebsite": "https://carlosbuenosvinos.com/",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "VoiceB.ai (via Encomenda; plataforma de agentes de voz con IA para ventas empresariales que atiende llamadas, cualifica leads y gestiona objeciones) — su inversion mas cercana a sistemas agenticos en produccion",
@@ -115,7 +116,7 @@
     "Vía Encomenda: pre-seed y seed, ticket inicial 100.000-500.000 € con seguimiento hasta 2-3M€ (no decide él).",
     "Como ángel personal: ticket no publicado; previsiblemente 10.000-50.000 € (sin confirmar)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Foco ángel literal: 'B2B SaaS, developer tools, and supply chain'; intereses que empiezan por 'Agents, AI, Automatization'.",
     "Puede validar la arquitectura en una llamada y abrir Encomenda (pre-seed/seed 100-500k€) y la red de Carlos Blanco y Nuclio.",

@@ -78,6 +78,7 @@
   "name": "Marc Clemente Yeves",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "2501 (destacada por Kfund como una de las cinco compañías del primer fondo K Founders Preseed; ronda de 9,3-12 M$ liderada por Cusp Capital en diciembre de 2025; plataforma de AIOps con 'fleets of autonomous agents' para infraestructura IT y cloud) — es la inversión pre-seed más cercana a un harness de agentes en toda la cartera",
@@ -137,7 +138,7 @@
     "K Founders Preseed II (abr-2026): ~20M€, ticket inicial ~300.000 €; follow-on de 200k a 2M€ desde los fondos mayores.",
     "Kfund suele co-invertir con leads tier-one, no liderar."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Vehículo diseñado para decir sí antes de que existan usuarios: nota convertible, sin consejo, sin DD exhaustiva, 'three weeks from first meeting to money in the bank'.",
     "Apetito reciente por infraestructura de agentes: 2501 (flotas de agentes para AIOps) y Causa Prima (red agente a agente).",

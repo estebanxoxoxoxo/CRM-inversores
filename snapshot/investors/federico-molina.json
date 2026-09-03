@@ -72,6 +72,7 @@
   "name": "Federico Molina",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "out_of_region",
   "relevantInvestments": [
     "Auth0 (participada histórica de NXTP; identidad y autenticación para desarrolladores; adquirida por Okta por 6.500M USD en 2021) — Molina fue miembro del equipo fundador y Head of Marketing & Analytics: conoce la categoría desde dentro, no como espectador",
@@ -113,7 +114,7 @@
     "NXTP Fund III: 98M USD (nov-2023), casi tres años desplegándose; Fund IV no confirmado.",
     "Él es Partner desde 2025; además ángel activo."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Construyó desde dentro una compañía de dev tools de éxito global (Auth0, growth y analítica): entiende producto y comprador desarrollador sin traducción.",
     "NXTP tiene Auth0 y Vercel en cartera y 'deep domain expertise in Developer Tools & Infrastructure'; acompaña 'from idea through execution'.",

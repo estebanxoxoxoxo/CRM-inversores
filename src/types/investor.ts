@@ -11,6 +11,7 @@
  * - `level` is 0-100. `band` derives from it (`BAND_THRESHOLDS`) and is "unaudited" while `audit.status` is
  *   "pending". `priority` A/B/C derives from the level.
  * - `confidence` rates the sources, not the fit.
+ * - `rating` is the team's manual verdict, set from the app; the ingest endpoint always stores null.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
  * - Free-text content (name, theses, research) is written in Spanish because that is what the UI shows.
  */
@@ -29,6 +30,11 @@ export const RegionSchema = z.enum(["us_hispanic", "spain", "mexico", "out_of_re
 export const InvestorTypeSchema = z.enum(["institutional_vc", "business_angel", "operator_fund", "corporate_vc", "accelerator"]);
 export const EmailStatusSchema = z.enum(["public_verified", "public_sourced", "firm_general_mailbox", "inferred_pattern", "not_found"]);
 export const CapSchema = z.enum(["thesis_below_6", "thesis_below_10", "no_check_writer", "requires_traction"]);
+
+/** Manual team rating, set from the app. `null` means not rated yet. */
+export const RATINGS = ["approved", "doubtful", "rejected", "filler"] as const;
+export const RatingSchema = z.enum(RATINGS);
+export type Rating = z.infer<typeof RatingSchema>;
 
 /** Maximum points per scored dimension. */
 export const SCORE_MAX = { thesis: 25, stage: 20, decision: 20, spanish: 15, access: 15 } as const;
@@ -134,7 +140,9 @@ export const InvestorSchema = z.object({
   sources: z.array(z.string()),
   contactSources: ContactSourcesSchema,
   audit: AuditSchema,
-  /** ISO timestamp of the last write, set by the scripts. */
+  /** Manual team rating from the app (approved / doubtful / rejected / filler); null until someone rates it. */
+  rating: RatingSchema.nullable().default(null),
+  /** ISO timestamp of the last write. */
   updatedAt: z.string(),
 });
 

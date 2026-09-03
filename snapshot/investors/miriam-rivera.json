@@ -73,6 +73,7 @@
   "name": "Miriam Rivera",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Okahu (2023-2024, seed; observabilidad de IA - 'dev tools to find & fix issues in AI agents', Redwood City) — precedente directisimo: Ulu ya invirtio en herramientas para desarrolladores de agentes de IA",
@@ -124,7 +125,7 @@
     "Ticket 750.000-1.000.000 USD, punto dulce ~875k.",
     "Ulu Fund IV: 208M USD; 'US-focused only'."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "El market mapping sustituye las métricas de usuarios por un modelo probabilístico del mercado: evalúa estructura y razonamiento, no MRR.",
     "Precedente directo: Okahu ('dev tools to find & fix issues in AI agents'), markovML, Hevo, AltitudeIQ.",

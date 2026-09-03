@@ -73,6 +73,7 @@
   "name": "Tomas Barreto",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Okay (cofundador y CTO, 2019-2023; plataforma de efectividad de ingeniería con clientes como Brex, Plaid e Intercom; adquirida por Stripe en mayo de 2023) — no es una inversión sino su propia empresa, y es el antecedente más relevante: construyó y vendió el producto que mide exactamente lo que el harness del cliente promete mejorar",
@@ -116,7 +117,7 @@
     "Como Operating Partner de KP no decide ni tiene ticket propio.",
     "Actividad inversora actual no confirmada."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Sabe qué métricas de productividad de ingeniería son reales (Okay: Maker Time, Meeting Load, Friction Time).",
     "Como Operating Partner asesora a decenas de equipos de ingeniería de la cartera de KP: potencial cliente o design partner.",

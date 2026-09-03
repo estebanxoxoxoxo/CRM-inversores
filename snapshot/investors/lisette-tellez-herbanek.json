@@ -68,6 +68,7 @@
   "name": "Lisette Tellez Herbanek",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "PLCs.ai (ronda seed de $4M; fundada en 2024, Nueva York; plataforma de IA que genera, revisa y documenta código de controladores lógicos programables y lógica de automatización industrial) — es la inversión MÁS relevante del portafolio para el cliente: prueba de que el fondo respalda generación de código con IA en dominios donde la corrección importa. Coinversores: Avila Ventures e ICI Fund.",
@@ -116,7 +117,7 @@
     "Asiento de consejo u observador en todas las participadas; follow-ons por desempeño.",
     "Fund II de 40M USD (2021); Fund III no público."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Una de las pocas inversoras latinas con formación real de ingeniería de software que firma deep tech, no SaaS genérico.",
     "Cartera conectada: PLCs.ai (generación de código con IA), Itopia (automatización sobre Google Cloud), MarkeTeam.ai (agentes autónomos, liderada por Ocean Azul), memQ (redes cuánticas, co-liderada 2026).",

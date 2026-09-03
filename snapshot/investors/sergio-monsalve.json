@@ -74,6 +74,7 @@
   "name": "Sergio Monsalve",
   "personalWebsite": "https://monsalve.people.stanford.edu/",
   "priority": "B",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Potato AI (2025, seed de 4,5M USD liderada por Draper Associates; agentes cientificos autonomos que leen papers, disenan y ejecutan experimentos con resultados reproducibles) — precedente directo de inversion en sistemas agenticos autonomos y tecnicamente profundos",
@@ -122,7 +123,7 @@
     "Ticket 200.000-2.000.000 USD, punto dulce 1M USD.",
     "Fondo ~26M USD (Forbes 2023); Fund II no confirmado."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Roble invierte en 'tools that 10x the output of everyone' en la intersección humano-IA; primer vertical: productividad en el trabajo.",
     "Criterio de entrada escrito contra la tracción: 'We want to hear about your journey and vision for the future even more than your results'.",

@@ -69,6 +69,7 @@
   "name": "Bernardo Hernández",
   "personalWebsite": "https://bernardohernandez.com",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Chalk.ai (inversión ángel; plataforma de datos y feature engineering para machine learning) — la única posición documentada suya que se acerca a infraestructura de datos/IA",
@@ -108,7 +109,7 @@
     "Sin etapa ni ticket publicados; vehículo personal Solón Inversiones.",
     "Última inversión registrada: agosto de 2023 (Founderz)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Pensero AI (cofundador) mide el rendimiento de equipos de ingeniería con IA: piensa a diario en el mismo problema y es usuario potencial del stack.",
     "Asesor senior de SandboxAQ (IA + cuántica) y OpenChip: apetito por deep tech.",

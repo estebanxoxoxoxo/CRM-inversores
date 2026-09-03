@@ -75,6 +75,7 @@
   "name": "Javier Sánchez Aldana",
   "personalWebsite": "",
   "priority": "A",
+  "rating": null,
   "region": "mexico",
   "relevantInvestments": [
     "Rocketbot (Fondo I, seed — RPA/automatización de procesos, Chile) — la inversión más cercana a software de infraestructura para usuarios técnicos en el Fondo I",
@@ -114,7 +115,7 @@
     "Fund II (2025): objetivo 20M USD para ~25 inversiones; directorios reportan 250-750k USD; cierre no confirmado.",
     "Fund I: ~4M USD en 16 empresas con cheques de 50-150k USD."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Su tesis busca exactamente el perfil del cliente: middleware técnico, usuarios ingenieros, distribución por API/SDK, repo en GitHub como señal positiva, software-first.",
     "Lidera rondas pre-seed: pone precio y términos antes de que exista tracción; menciona dev tools de forma explícita.",

@@ -3,21 +3,27 @@ import {
   ConfidenceSchema,
   EmailStatusSchema,
   InvestorTypeSchema,
+  RATINGS,
   RegionSchema,
   type Band,
   type Confidence,
   type EmailStatus,
   type Investor,
   type InvestorType,
+  type Rating,
   type Region,
 } from "../types/investor";
-import { REGION_LABELS } from "./labels";
+import { REGION_LABELS, UNRATED } from "./labels";
 
 export type SortKey = "level" | "name" | "firm" | "region";
 const SORT_KEYS: readonly SortKey[] = ["level", "name", "firm", "region"];
 
+export type RatingFilter = Rating | typeof UNRATED;
+export const RATING_FILTER_OPTIONS: readonly RatingFilter[] = [...RATINGS, UNRATED];
+
 export interface Filters {
   text: string;
+  ratings: RatingFilter[];
   bands: Band[];
   minLevel: number;
   regions: Region[];
@@ -28,10 +34,11 @@ export interface Filters {
   sort: SortKey;
 }
 
-export type ListFilterKey = "bands" | "regions" | "confidences" | "types" | "emailStatuses";
+export type ListFilterKey = "ratings" | "bands" | "regions" | "confidences" | "types" | "emailStatuses";
 
 export const EMPTY_FILTERS: Filters = {
   text: "",
+  ratings: [],
   bands: [],
   minLevel: 0,
   regions: [],
@@ -47,6 +54,7 @@ export const DEFAULT_FILTERS: Filters = { ...EMPTY_FILTERS, bands: ["undisputed"
 
 /** List filters and their URL parameter. Values are validated against the enum on the way in. */
 const LIST_FILTERS: { key: ListFilterKey; param: string; options: readonly string[] }[] = [
+  { key: "ratings", param: "rating", options: RATING_FILTER_OPTIONS },
   { key: "bands", param: "band", options: BandSchema.options },
   { key: "regions", param: "region", options: RegionSchema.options },
   { key: "confidences", param: "confidence", options: ConfidenceSchema.options },
@@ -87,9 +95,12 @@ function normalize(s: string): string {
   return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 }
 
+export const ratingOf = (investor: Investor): RatingFilter => investor.rating ?? UNRATED;
+
 export function applyFilters(investors: Investor[], filters: Filters): Investor[] {
   const terms = normalize(filters.text.trim()).split(/\s+/).filter(Boolean);
   const matching = investors.filter((investor) => {
+    if (filters.ratings.length && !filters.ratings.includes(ratingOf(investor))) return false;
     if (filters.bands.length && !filters.bands.includes(investor.band)) return false;
     if (investor.level < filters.minLevel) return false;
     if (filters.regions.length && !filters.regions.includes(investor.region)) return false;

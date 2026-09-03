@@ -75,6 +75,7 @@
   "name": "Manuel D. \"Manny\" Medina",
   "personalWebsite": "",
   "priority": "A",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Hedgehog (última inversión registrada, 1 de mayo de 2026; plataforma de open networking para infraestructura cloud distribuida optimizada para cargas de IA) — el caso más parecido al del cliente: open source, infraestructura, usuario técnico, tesis antes que tracción",
@@ -121,7 +122,7 @@
     "Mínimo ~1M USD por operación; objetivo ~46 startups.",
     "Fondo: objetivo 75M USD; Form D (sept-2025) declara 20,2M USD vendidos; en captación."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Primera línea de su tesis: 'software and systems that power AI at scale, including data and workflow infrastructure, model deployment and inference'.",
     "Toda su carrera vendió 'picks and shovels' (Terremark, Cyxtera): el moat técnico y el horizonte largo le resultan naturales.",

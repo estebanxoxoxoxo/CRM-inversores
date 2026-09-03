@@ -75,6 +75,7 @@
   "name": "Adriana Tortajada",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "mexico",
   "relevantInvestments": [
     "101obex (inversión directa — 'virtual API infrastructure where integrations evolve live for the agent economy') — precedente directo de inversión en infraestructura para la economía de agentes; el gancho más fuerte del contacto",
@@ -115,7 +116,7 @@
     "Vehículo lanzado en enero de 2022 con objetivo de 150M USD; cierre no confirmado.",
     "Cheques reportados 2-10M USD (probablemente mezcla compromisos a fondos y directos); no publica ticket ni proceso."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Tesis 'Productivity & Infrastructure': software, hardware e infraestructura como 'la capa donde la nueva tecnología cobra ingresos reales'.",
     "Ya invirtió directamente en 101obex, infraestructura de API para la economía de agentes; es LP de Cantos (pre-seed deep tech).",

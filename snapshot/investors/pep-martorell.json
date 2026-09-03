@@ -74,6 +74,7 @@
   "name": "Josep Maria 'Pep' Martorell Rodon",
   "personalWebsite": "https://pepmartorell.substack.com",
   "priority": "C",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "NOTA: no se ha localizado ninguna inversión firmada por Pep Martorell como inversor de VC; se incorporó a Invivo Partners en septiembre de 2025 y el fondo de IA aún no ha anunciado operaciones. Lo que sigue son referencias del gestor y de su etapa previa.",
@@ -121,7 +122,7 @@
     "Invivo Ventures AI: objetivo 100M€, 'launching H1 2026'; primer cierre no confirmado, sin operaciones anunciadas.",
     "El gestor sí tiene cerrados Invivo Ventures (60M€, 2024) e Invivo Ventures III en marcha."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Doctor en Informática que operó MareNostrum 5: puede evaluar 'nuestro stack funciona un 90% mejor' sin benchmarks de terceros.",
     "Su Substack trata el comportamiento autónomo de agentes y sus fallos: no hay que explicarle el harness.",

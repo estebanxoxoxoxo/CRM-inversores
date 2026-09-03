@@ -76,6 +76,7 @@
   "name": "Alfonso Subiotto Marqués",
   "personalWebsite": "https://www.asubiotto.com",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Polar Signals (Lorimer, Dev Tools/Data & Infra; continuous profiling con eBPF, código abierto, integrada en Dash0 en agosto de 2026) — la compañía donde él mismo trabajaba: prueba de que el fondo respalda infraestructura open source de bajo nivel",
@@ -118,7 +119,7 @@
     "Tamaño de fondo y ticket no publicados (gestor emergente, RAISE Global 2026).",
     "Él es Venture Partner a tiempo parcial: origina y evalúa, no firma."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Mandato declarado por él mismo: 'invest in developer tools and data infrastructure'; Lorimer tiene 14 compañías en esa categoría y entra 'pre-consensus at pre-seed and seed'.",
     "Ingeniero de sistemas real: motor vectorizado en CockroachDB, perfiles continuos con eBPF (Polar Signals, hoy Dash0), kernels CUDA, deterministic simulation testing.",

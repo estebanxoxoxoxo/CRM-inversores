@@ -79,6 +79,7 @@
   "name": "Javier Ulecia",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Códice Software / Plastic SCM (inversión desde 2009, fondo Bullnet Capital II; vendida a Unity Technologies el 17 de agosto de 2020, importe no revelado; hoy Unity Version Control) — dev tools puro: control de versiones distribuido para equipos grandes; Bullnet fue el ÚNICO accionista institucional. Es el precedente exacto de una herramienta de desarrollo española sostenida durante 11 años hasta un comprador global",
@@ -141,7 +142,7 @@
     "Entrada con convertible de 250.000-500.000 € y equity de 2-6M€ después; ticket medio 1-2M€; hasta 6-7M€ acumulados por compañía.",
     "Bullnet Capital IV (81M€, 2022) en fase final: 10 de 17-18 inversiones hechas."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Exit en dev tools: Códice Software / Plastic SCM (control de versiones distribuido) vendida a Unity en 2020; también LeanXcale (base de datos distribuida) y MLCode desde su fundación.",
     "Entra 'when there is a tangible prototype or proof of concept', antes de ingresos; sectores declarados incluyen IA y plataformas de software empresarial.",

@@ -71,6 +71,7 @@
   "name": "Igor de la Sota",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "illumex (2021, seed liderada por Cardumen como primer inversor; catálogo de datos autónomo con IA) — adquirida por NVIDIA en 2026 por ~75 M USD; prueba directa de que entra pre-tracción en infraestructura de datos para IA y sostiene hasta el exit",
@@ -115,7 +116,7 @@
     "Cheques iniciales 1-3M USD; ticket acumulado medio ~4,2M€ por compañía en el Fondo I.",
     "DeepTech Fund II: ~105M€ (cierre ene-2024), ~20 compañías objetivo, declarado pre-seed y seed."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Uno de los pocos GP españoles que ha llevado una inversión pre-seed/seed de infraestructura de datos hasta un exit a NVIDIA (illumex).",
     "La categoría 'Developer Tools' existe en el portfolio (Configu, Naboo, Raftt, Reshuffle): saben evaluar producto para desarrolladores sin usuarios.",

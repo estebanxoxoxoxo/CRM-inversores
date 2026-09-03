@@ -2,8 +2,8 @@
  * Data access: the app subscribes to the whole `investors` collection and receives every change live.
  * Derived values are recomputed on read. Documents that fail validation are reported, not silently dropped.
  */
-import { collection, onSnapshot, type Unsubscribe } from "firebase/firestore";
-import { COLLECTION, deriveInvestor, describeError, type Investor } from "../types/investor";
+import { collection, doc, onSnapshot, updateDoc, type Unsubscribe } from "firebase/firestore";
+import { COLLECTION, deriveInvestor, describeError, type Investor, type Rating } from "../types/investor";
 import { getDb, isFirebaseConfigured } from "./firebase";
 
 /** Error with a user-facing message and, when known, what to do about it. */
@@ -38,6 +38,16 @@ export function toDataError(e: unknown): DataError {
     return new DataError("Sin conexión con Firestore.", "Comprobá la red y que el proyecto de Firebase del .env sea el correcto.");
   }
   return new DataError(`Error al leer Firestore: ${message}`, "");
+}
+
+/** Writes the team's rating (or clears it with null). The subscription reflects the change. */
+export async function setRating(id: string, rating: Rating | null): Promise<void> {
+  try {
+    await updateDoc(doc(getDb(), COLLECTION, id), { rating, updatedAt: new Date().toISOString() });
+  } catch (e) {
+    const error = toDataError(e);
+    throw new DataError(`No se pudo guardar la calificación de ${id}.`, error.help || error.message);
+  }
 }
 
 /**

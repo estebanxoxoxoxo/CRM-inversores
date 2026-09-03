@@ -70,6 +70,7 @@
   "name": "Juan Benet",
   "personalWebsite": "http://juan.benet.ai",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Prime Intellect (infraestructura de entrenamiento descentralizado de modelos de IA) — la inversión suya con mayor cercanía a la tesis del cliente: infraestructura de IA profunda, pre-comercial",
@@ -112,7 +113,7 @@
     "PL Capital: PLC Neurotech (GP) y PLC Rails (Research Partner, no decide); tamaños no publicados.",
     "Operación reciente del gestor: seed de 6M USD en Belfort (sept-2025)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Financia ciencia aplicada sin producto comercial: Prime Intellect (entrenamiento descentralizado) y Zama (criptografía homomórfica).",
     "Discurso sobre bienes públicos, open source y sistemas de conocimiento afín a un stack abierto.",

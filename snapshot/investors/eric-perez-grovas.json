@@ -76,6 +76,7 @@
   "name": "Eric Pérez-Grovas",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "mexico",
   "relevantInvestments": [
     "Kleva (2024, semilla liderada por Wollef — plataforma de cobranza con 'autonomous voice AI' para bancos; US$1,55M y expansión a México en 2026) — el precedente más directo de inversión en agentes de IA operando en producción",
@@ -115,7 +116,7 @@
     "Ticket 250.000-3.000.000 USD, punto dulce 1,6M USD; follow-on hasta Series B y C.",
     "AUM >180M USD en tres fondos; tercer fondo con objetivo 100M USD (2021)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Pre-seed y seed, 'comfortable being first institutional investors', ticket 250k-3M USD con punto dulce 1,6M.",
     "Lideró la seed de Kleva ('autonomous voice AI' para cobranza bancaria).",

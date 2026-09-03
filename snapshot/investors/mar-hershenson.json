@@ -71,6 +71,7 @@
   "name": "Mar Hershenson",
   "personalWebsite": "",
   "priority": "A",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Vals AI (semilla vía Pear; Series A de 40M USD liderada por a16z en agosto de 2026 a 400M de valoración) — evaluación y benchmarking de modelos de IA: infraestructura pura y prueba de apetito por herramientas para desarrolladores de IA",
@@ -115,7 +116,7 @@
     "PearX (12 semanas, dos cohortes al año): 500.000-2.000.000 USD + 1M USD en créditos; rango personal 1-5M USD.",
     "Pear Fund IV: 432M USD (jun-2023); Fondo V no anunciado."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "PearX: cheques de 500k-2M USD más créditos de nube a equipos sin producto ni tracción; el blog publica 'Investing before the idea'.",
     "Capaz de evaluar una arquitectura en la primera reunión (PhD EE Stanford, fundadora de semiconductores).",

@@ -77,6 +77,7 @@
   "name": "Samuel Gil",
   "personalWebsite": "https://www.sumapositiva.com",
   "priority": "A",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Altan (sept. 2025, pre-seed 2,5 M$ co-liderado por JME y VentureFriends; Barcelona; plataforma agent-native que orquesta equipos de agentes de IA para diseñar, construir y desplegar software listo para producción) — es el deal más parecido que existe en España a lo que hace el cliente: cheque de co-líder a una compañía de un año, sin tracción, puramente tesis. Cita obligada en el primer contacto (y posible conflicto a abordar de frente).",
@@ -130,7 +131,7 @@
     "'We invest from €100k to €3m'; histórico de 0,5-2M€ desde 2012.",
     "JME Ventures IV (CNMV, nov-2024), tamaño no publicado; >120M€ AUM en cuatro fondos."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Ya respaldó con dinero la tesis exacta: Altan (pre-seed 2,5M USD co-liderada, sept-2025), agentes que diseñan, construyen y despliegan software de producción.",
     "Escribe cada semana sobre el fin del SaaS CRUD, 'vender trabajo, no software' y copilots que se vuelven autopilots (Suma Positiva #264, #265).",

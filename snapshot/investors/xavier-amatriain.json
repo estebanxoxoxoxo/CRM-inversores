@@ -73,6 +73,7 @@
   "name": "Xavier Amatriain",
   "personalWebsite": "https://amatria.in",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Alinia AI (jun-2024, pre-seed 2,4 M USD / 2,2 M €, plataforma de alineación, gobernanza y guardrails para IA generativa, Barcelona + NYC) — única inversión documentada; es infraestructura de IA en fase pre-seed sin producto comercial maduro, liderada por Speedinvest y Precursor con KFund, y con Clément Delangue, Thomas Wolf, Oriol Vinyals y Tom Preston-Werner como coinversores ángeles",
@@ -109,7 +110,7 @@
     "Pre-seed como ángel individual; única inversión documentada: Alinia AI (jun-2024).",
     "Ticket no publicado (previsiblemente <100k USD); no lidera, sin vehículo."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Tesis pública escrita: el código como representación intermedia 'producida, inspeccionada, probada y modificada por agentes'; riesgo de 'specification errors'.",
     "Firma apuestas de infraestructura de IA sin tracción cuando el problema le convence (Alinia AI, pre-seed 2,4M USD, con Delangue, Wolf, Vinyals, Preston-Werner).",

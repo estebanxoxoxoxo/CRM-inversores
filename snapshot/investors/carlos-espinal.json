@@ -74,6 +74,7 @@
   "name": "Carlos Eduardo Espinal",
   "personalWebsite": "",
   "priority": "A",
+  "rating": null,
   "region": "out_of_region",
   "relevantInvestments": [
     "Embedd (2026, pre-seed 2,7M USD liderado por Seedcamp, software de infraestructura para 'physical AI' / máquinas inteligentes) — el caso más reciente y más parecido al cliente: cheque líder en pre-seed a una tesis de 'el stack de software actual no sirve para lo que viene'",
@@ -119,7 +120,7 @@
     "Cheque habitual 350.000-1.250.000 USD (media ~1M USD en Fund VII); 100-120 compañías por fondo.",
     "Fund VII 220M USD + Select 100M USD (Serie B+); observador hasta Serie A, sin asiento de consejo."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Fondo que declara invertir 'pre-product and pre-revenue'; Fund VII (220M USD, 2026) con ~35 primeros cheques al año.",
     "Su cita de 2026 al liderar Embedd es el argumento del cliente: el stack actual no fue diseñado para la siguiente fase de la IA.",

@@ -40,7 +40,7 @@ export function buildResearchPrompt(investors: Investor[], options: PromptOption
   const endpoint = ingestEndpoint();
   const excluded = investors.map((i) => `- ${i.name} · ${i.linkedin || "sin LinkedIn"} · ${i.email || "sin email"}`);
   const examples = investors
-    .filter((i) => i.audit.status === "reviewed" && i.level > EXAMPLE_MIN_LEVEL)
+    .filter((i) => i.audit.status === "reviewed" && i.level > EXAMPLE_MIN_LEVEL && i.rating !== "rejected" && i.rating !== "filler")
     .map((investor) => {
       const { updatedAt: _updatedAt, ...profile } = investor;
       void _updatedAt;

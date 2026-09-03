@@ -75,6 +75,7 @@
   "name": "Jorge Barón",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "42Crunch (2020, seguridad de APIs; Adara: las APIs son 'the foundational execution layer for the digital economy and increasingly for AI agents') — deal que analizó siendo analista y que sigue figurando en su ficha; es infraestructura crítica pura y el puente más directo con agentes",
@@ -135,7 +136,7 @@
     "A él Signal le atribuye 100k-5M USD con punto dulce ~1,5M en seed y Serie A.",
     "Principal: no firma; origina y defiende en comité."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Puerta operativa a Adara: único Principal, origina y evalúa en etapa temprana; tesis personal literal de infraestructura de software.",
     "Ha trabajado deals de IA-nativa y agentes (42Crunch, Bigle, Articul8, TandemTrace).",

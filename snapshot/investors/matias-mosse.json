@@ -77,6 +77,7 @@
   "name": "Matias Mosse",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Catalog (Serie B de 35M USD en septiembre de 2021; plataforma de almacenamiento y computación de datos en ADN sintético) — el precedente más útil: una arquitectura de cómputo/almacenamiento radicalmente distinta, sin mercado establecido, financiada por su rareza técnica.",
@@ -121,7 +122,7 @@
     "Cheques 250.000-2.500.000 USD (VC Sheet); ticket medio en seeds participadas 5,2M USD.",
     "Vehículo evergreen sin tamaño publicado (~50M USD según fuente terciaria)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Estructura única: vehículo evergreen 'permanent by design' que iguala horizonte del capital y del trabajo.",
     "Compra riesgo técnico antes de tracción: fusión, cómputo en ADN (Catalog), fotónica cuántica (Ephos).",

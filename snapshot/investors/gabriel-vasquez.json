@@ -71,6 +71,7 @@
   "name": "Gabriel Vasquez",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Dentio (pre-seed, 2,3M USD, anunciada el 16 de febrero de 2026, liderada por a16z; IA para automatizar tareas administrativas en clínicas dentales, Suecia) — prueba de que lidera pre-seeds de 2 millones fuera de EE.UU., sin tracción.",
@@ -107,7 +108,7 @@
     "Signal: 500k-40M USD con punto dulce 20M; fondo de referencia 2.200M USD.",
     "Inusual en a16z: dos de sus cuatro operaciones documentadas son pre-seed."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Su trabajo es encontrar equipos técnicos fuera de Silicon Valley y meterlos en a16z; escribe pre-seeds de verdad (Dentio, Carecode).",
     "Ensayo 'Rise of the Borderless Founder' (2026): 'Your background is your moat'; red de cenas como puerta real.",

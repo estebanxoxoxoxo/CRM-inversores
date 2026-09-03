@@ -72,6 +72,7 @@
   "name": "Enrique Salem",
   "personalWebsite": "",
   "priority": "A",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Modal (2026, Series C de 355M USD a 4.650M de valoración; cómputo serverless para inferencia, entrenamiento y agentes) — es literalmente la capa de infraestructura de cómputo IA que el cliente quiere reoptimizar",
@@ -118,7 +119,7 @@
     "Lidera seeds (Prophet Security, 11M USD) y Series A (Cogent, 42M USD); punto dulce reportado 25M USD.",
     "Rango 1-100M USD (Signal); en la práctica sí lidera cheques pequeños de semilla en infra y seguridad."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Mandato literal 'early-stage infrastructure software'; cartera en la capa del cliente: Modal (cómputo serverless para IA), Astronomer, Cogent (agentes), Straiker.",
     "Invierte antes de la tracción: 'We've known him from pre-founding the company' (Cogent).",

@@ -73,6 +73,7 @@
   "name": "Anna Cachadiña Abelló",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "out_of_region",
   "relevantInvestments": [
     "Qovery (2021, semilla de 4M USD LIDERADA por Crane; plataforma de despliegue en la nube / automatización de DevOps; levantó 13M USD más en septiembre de 2025) — dev tools puro y con Crane como líder, la prueba más sólida de apetito del fondo por la categoría",
@@ -119,7 +120,7 @@
     "Primeros cheques 750.000-3.000.000 USD con reservas hasta Serie B (Fondo II, 140M USD, 2022).",
     "Fondo III y vehículo vigente en 2026 no confirmados."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Ingeniera de software (Goldman Sachs), catalana y castellanohablante nativa, en un fondo cuyo mandato es infraestructura fundacional, dev tools y open source desde 'inception'.",
     "Crane lideró la seed de Qovery (DevOps) y tiene Encord (datos AI-native) y Laminar (observabilidad de agentes) en cartera.",

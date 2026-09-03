@@ -76,6 +76,7 @@
   "name": "Yolanda Pérez Sáez",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Qbeast (primera ronda de 520.000 euros liderada por Inveready y BStartup; spin-off del Barcelona Supercomputing Center, análisis aproximado de grandes volúmenes de datos, 100x más rápido) — el precedente exacto: infraestructura de datos profunda financiada antes de tener mercado, con cita pública sobre apoyar la transferencia de conocimiento académico",
@@ -120,7 +121,7 @@
     "Más de 10 startups al año; evergreen con vehículo de hasta 10M€; Sabadell Venture Capital para etapas posteriores.",
     "Comité de inversión bancario."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Precedente exacto: BStartup 10 lideró con Inveready los 520.000 € de Qbeast, tecnología de infraestructura de datos '100 veces más rápida' sin producto maduro.",
     "Criterios publicados: 'fuerte base técnica o científica, mentalidad de producto y capacidad de ejecutar rápido'.",

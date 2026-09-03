@@ -79,6 +79,7 @@
   "name": "Javier de la Torre",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "NO CONFIRMADO: no se ha encontrado ninguna inversión ángel concreta de Javier de la Torre en fuentes públicas (AngelFlow lo etiqueta como business angel pero no lista ninguna operación; Dealroom y Crunchbase están tras muro de pago/Cloudflare y no se ha podido verificar)",
@@ -122,7 +123,7 @@
     "Sin inversiones ángel documentadas (AngelFlow lo etiqueta como ángel sin listar ninguna operación).",
     "Sin etapa ni ticket conocidos."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Reorientó CARTO hacia la 'Agentic Enterprise' con servidor MCP propio; impulsó GeoParquet y geometría en Apache Iceberg: construye la capa que el cliente vende.",
     "Su tesis pública sobre agentes, formatos abiertos y elección de proveedor es literalmente el argumento de moat del stack.",

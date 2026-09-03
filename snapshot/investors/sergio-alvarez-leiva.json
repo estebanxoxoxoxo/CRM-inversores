@@ -75,6 +75,7 @@
   "name": "Sergio Álvarez Leiva",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "MITO (marzo 2026, pre-seed de 4,5M USD liderado por Lightspeed con Kibo, Sequoia, scouts de a16z y angeles de Roblox y GitHub; plataforma IA-nativa de creacion de video con copiloto y colaboracion en tiempo real) — memo firmado por el; entrada pre-traccion en producto IA-nativo descrito como 'foundational infrastructure'",
@@ -122,7 +123,7 @@
     "K3: >70M€ (jun-2024); Leadwind (250M USD) para growth deep tech.",
     "Su capacidad de decisión en comité no está confirmada."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Sabe de primera mano que un producto de infraestructura para desarrolladores tarda años en tener métricas y que el moat está en la arquitectura y la experiencia de desarrollador.",
     "Su memo de MITO evalúa productos IA-nativos por cómo redefinen el proceso, no por tracción, y usa el marco de 'infraestructura fundacional'.",

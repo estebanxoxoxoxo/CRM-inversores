@@ -73,6 +73,7 @@
   "name": "Alberto Yépez",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Sherpa.ai (Series A de 18M USD liderada por Forgepoint en julio de 2026; Bilbao, España; IA con aprendizaje federado y preservación de la privacidad) — prueba de que invierte en deep tech de IA fundada por españoles",
@@ -115,7 +116,7 @@
     "Cheque típico 5-10M USD; horizonte declarado de 3-5 años hacia venta o salida a bolsa.",
     "Fondos: Forgepoint I (306M), II (450M, 2019), Cybersecurity Fund III (objetivo 750M, tamaño final no confirmado); Forgepoint Capital International en Londres desde 2024."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Tesis que incluye 'infrastructure software' y IA, no sólo ciberseguridad.",
     "Español nativo verificado (podcast y posts en español); lideró en 2026 la Serie A de 18M USD de Sherpa.ai (Bilbao).",

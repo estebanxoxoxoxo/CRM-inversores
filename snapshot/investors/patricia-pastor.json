@@ -81,6 +81,7 @@
   "name": "Patricia Pastor",
   "personalWebsite": "",
   "priority": "A",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "BrainGrid (2026, pre-seed 1 M$ liderado por Menlo Ventures con Next Tier Ventures y Brainstorm Ventures; capa de planificación estructurada para construir software SaaS AI-native) — es literalmente un harness de desarrollo con IA; el encaje conceptual con el producto del cliente es directo",
@@ -129,7 +130,7 @@
     "Fondo objetivo 50M€ (30M€ en captación inicial) para 30-35 operaciones; ~1,4-1,7M€ comprometidos por compañía con follow-on; primer cheque menor (BrainGrid: ronda total de 1M USD como coinversora).",
     "SETT entró con 9,5M€ (ene-2026); accesible a retail desde 10.000 €."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Cartera con las dos categorías del cliente: BrainGrid ('capa de planificación estructurada para construir software AI-native') y Optiak ('capa de orquestación que unifica modelos, agentes y sistemas').",
     "Pre-seed por mandato: 30-35 operaciones desde fase inicial; criterio 'Architectural Empathy' (diseñar para escala y coste desde el día uno).",

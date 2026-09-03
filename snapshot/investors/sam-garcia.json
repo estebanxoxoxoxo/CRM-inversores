@@ -60,6 +60,7 @@
   "name": "Samuel D. \"Sam\" Garcia",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Axion Ray (seed feb 2023, 8M USD; Serie A mar 2024, 17,5M USD liderada por Bessemer con RTX Ventures y participación de Amplo) — Plataforma de IA de observabilidad e «integrity intelligence» que detecta problemas emergentes de calidad e ingeniería para fabricantes como Boeing, Cummins, Pratt & Whitney, Denso y Baxter. Es la prueba más fuerte de que Garcia respalda IA aplicada a dominios técnicos duros, con ciclo de venta empresarial largo y valor concentrado en el motor de modelo, no en la interfaz. Ocupa asiento de consejo.",
@@ -118,7 +119,7 @@
     "Ticket 100.000-5.000.000 USD, punto dulce 1,5M USD.",
     "Amplo (dentro de Collective Global): primer fondo ~100M USD; Collective Global >1.000M USD en tres estrategias."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Etapa y ticket compatibles con una primera ronda institucional: pre-seed a Serie A, 0,5-5M USD, punto dulce 1,5M.",
     "Tolerancia a ciclos de venta largos en IA técnica: Axion Ray (calidad e ingeniería para Boeing, Cummins), Doxel, Crosby Health (pre-seed).",

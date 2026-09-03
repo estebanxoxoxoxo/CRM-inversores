@@ -75,6 +75,7 @@
   "name": "Alberto Gómez",
   "personalWebsite": "",
   "priority": "A",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Airflows (2026, ronda de 2 M€ liderada por Adara con Armilar; plataforma que convierte IA en software determinista y auditable para empresa) — post firmado por el propio Alberto Gómez; es el caso más cercano al 'stack IA-nativo' del cliente",
@@ -123,7 +124,7 @@
     "Lidera y co-lidera seeds con frecuencia (Airflows, Wodan, TandemTrace, Adcities).",
     "Dos patas de fondo: AV4 (digital) y AVE (energía)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Firmó personalmente la entrada de Adara en Airflows (2M€, 2026): 'IA convertida en software determinista y auditable', la tesis del stack IA-nativo.",
     "Adara respaldó TuringDream (seed 6M€, orquestación multiagente) y TandemTrace (agentes de IA para SecOps): tres precedentes literales.",

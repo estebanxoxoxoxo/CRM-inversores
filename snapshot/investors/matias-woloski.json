@@ -75,6 +75,7 @@
   "name": "Matías Woloski",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "out_of_region",
   "relevantInvestments": [
     "Keycard (oct-2025, 38 M USD: seed de 8 M colideradas por a16z y Boldstart + Serie A de 30 M liderada por Acrew; identidad y control de acceso para agentes de IA) — una inversión muy relevante: gobierno de permisos de agentes autónomos, compañía salida de sigilo el día del anuncio. Coángeles: CRO de Groq, presidente de Chainguard, CISO de Datadog y ex-Chief Product Architect de Okta",
@@ -121,7 +122,7 @@
     "Ticket 5.000-50.000 USD, punto dulce 25.000 USD.",
     "11-20 posiciones registradas según la fuente."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Ha construido una plataforma para desarrolladores desde cero y sin tracción (Auth0, 6.500M USD): sabe que la métrica temprana correcta es adopción de developers, no ingresos.",
     "Keycard (identidad y permisos para agentes de IA, 2025): financia el problema de control de agentes que ejecutan código.",

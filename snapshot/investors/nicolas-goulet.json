@@ -74,6 +74,7 @@
   "name": "Nico Goulet",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "AlienVault (exit a AT&T en 2018; plataforma de seguridad open source) — exit grande en infraestructura de seguridad, asociado explícitamente a Goulet",
@@ -115,7 +116,7 @@
     "A él Signal le atribuye 100k-5M USD con punto dulce ~1,5M.",
     "Adara lidera y co-lidera seeds."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Receptivo a arquitectura y horizonte largo: máster experimental en el MIT, fundador que fracasó (CityHop) y gestor que sobrevivió al crash de 2000.",
     "Criterio publicado: visión grande, ejecución rápida y 'the courage to stay the course'; 'founders I backed in 2015 should still be calling me in 2030'.",

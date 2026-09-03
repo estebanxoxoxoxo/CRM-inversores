@@ -71,6 +71,7 @@
   "name": "Borja Breña",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Napptive (España, 2022, vertical Dev Tools & Infra de Nauta; plataforma de tooling que simplifica el diseño, desarrollo y mantenimiento de aplicaciones cloud-native) — la participada española más cercana a un harness de desarrollo; cae en la geografía de Breña.",
@@ -119,7 +120,7 @@
     "Ticket medio 1-5M€; a él Signal le atribuye 1-6M USD con punto dulce 3M.",
     "Último cierre confirmado: Nauta IV, 190M€ (nov-2021) + sidecar 55M€; Nauta V no confirmado."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "'DevTools & Infra' es vertical formal con cartera real: Napptive y Trackingplan (España), NetBird, Kubermatic, Xonai, BoxyHQ.",
     "Socio responsable de España y Portugal, ingeniero de telecomunicación, español nativo: las participadas españolas más cercanas caen en su territorio.",

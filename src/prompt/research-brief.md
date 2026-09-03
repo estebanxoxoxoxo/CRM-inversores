@@ -80,6 +80,7 @@ Notas para armar cada objeto:
 
 - `id`: slug del nombre en minúsculas, sin acentos, con guiones (por ejemplo `mar-hershenson`).
 - No envíes `level`, `band`, `priority`, `score.raw`, `score.caps`, `score.total` ni `updatedAt`: los calcula el servidor. Si los enviás, se ignoran.
+- No envíes `rating`: es la calificación manual del equipo y el servidor la deja en `null`.
 - `audit`: `{ "status": "pending", "date": "AAAA-MM-DD", "reason": "...", "score": { "thesis": n, "stage": n, "decision": n, "spanish": n, "access": n, "otherAspects": n, "otherAspectsReason": "..." } }`.
 - Las listas son arrays de strings. `background` y `deepResearch` son texto con párrafos separados por líneas en blanco.
 - `linkedin` y `personalWebsite`: URL completa o cadena vacía. `email`: dirección o cadena vacía, coherente con `emailStatus`.

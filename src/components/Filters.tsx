@@ -1,5 +1,5 @@
-import { DEFAULT_FILTERS, EMPTY_FILTERS, type Filters, type ListFilterKey, type SortKey } from "../lib/filters";
-import { BAND_LABELS, BAND_RANGES, CONFIDENCE_LABELS, EMAIL_STATUS_LABELS, INVESTOR_TYPE_LABELS, REGION_LABELS } from "../lib/labels";
+import { DEFAULT_FILTERS, EMPTY_FILTERS, RATING_FILTER_OPTIONS, ratingOf, type Filters, type ListFilterKey, type RatingFilter, type SortKey } from "../lib/filters";
+import { BAND_LABELS, BAND_RANGES, CONFIDENCE_LABELS, EMAIL_STATUS_LABELS, INVESTOR_TYPE_LABELS, RATING_LABELS, REGION_LABELS, UNRATED, UNRATED_LABEL } from "../lib/labels";
 import { BANDS, ConfidenceSchema, EmailStatusSchema, InvestorTypeSchema, RegionSchema, type Investor } from "../types/investor";
 
 interface Props {
@@ -47,6 +47,7 @@ export default function FiltersPanel({ filters, onChange, investors }: Props) {
           </button>
         </div>
       </div>
+      {group("Calificación", "ratings", RATING_FILTER_OPTIONS, ratingOf, (v: RatingFilter) => (v === UNRATED ? UNRATED_LABEL : RATING_LABELS[v]))}
       {group("Banda", "bands", BANDS, (i) => i.band, (v) => `${BAND_LABELS[v]} (${BAND_RANGES[v]})`)}
       <fieldset className="group">
         <legend>Nivel mínimo: {filters.minLevel}</legend>

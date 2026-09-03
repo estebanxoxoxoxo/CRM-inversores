@@ -7,6 +7,7 @@ import {
   EMAIL_STATUS_LABELS,
   INVESTOR_TYPE_LABELS,
   OTHER_ASPECTS_HELP,
+  RATING_LABELS,
   REGION_LABELS,
   RUBRIC_FULL,
   RUBRIC_SHORT,
@@ -14,6 +15,7 @@ import {
 } from "../lib/labels";
 import type { Investor, Score } from "../types/investor";
 import { Badge, LevelBadge } from "./Badges";
+import RatingDialog from "./RatingDialog";
 
 interface Props {
   investor: Investor | null;
@@ -138,6 +140,7 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
             {investor.role} · <strong>{investor.firm}</strong> · {investor.baseCity}
           </p>
           <p className="detail-badges">
+            {investor.rating && <Badge className={`rating-${investor.rating}`}>{RATING_LABELS[investor.rating]}</Badge>}
             <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>
             <Badge className={`confidence-${investor.confidence}`}>Fuentes: {CONFIDENCE_LABELS[investor.confidence]}</Badge>
             <Badge className="neutral">{REGION_LABELS[investor.region]}</Badge>
@@ -146,9 +149,12 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
             </Badge>
           </p>
         </div>
-        <button type="button" className="close" onClick={onClose} aria-label="Cerrar">
-          ×
-        </button>
+        <div className="detail-actions">
+          <RatingDialog investor={investor} />
+          <button type="button" className="close" onClick={onClose} aria-label="Cerrar">
+            ×
+          </button>
+        </div>
       </header>
 
       <div className="contact">

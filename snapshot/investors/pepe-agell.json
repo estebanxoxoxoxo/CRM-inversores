@@ -77,6 +77,7 @@
   "name": "Pepe Agell",
   "personalWebsite": "",
   "priority": "B",
+  "rating": null,
   "region": "spain",
   "relevantInvestments": [
     "Traza (31 oct 2025, pre-seed de 2,1 M$ liderado por Base10 Partners con Kfund, scouts de a16z, Clara Ventures, Masia Ventures y ángeles; automatiza flujos de compras con IA) — invierte como ángel a título personal en pre-seed puro de producto IA",
@@ -125,7 +126,7 @@
     "AUM ~800M USD; Fund IV 432M (2023); 34 inversiones en 2025.",
     "Como ángel: tickets pequeños (Traza, pre-seed 2,1M USD)."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Pear no pide tracción: PearX está diseñado para compañías sin PMF, con 250k-2M USD.",
     "Verticales oficiales: 'AI (applications, tooling, infrastructure)' y 'Enterprise Tech (data platforms, cybersecurity, developer tools)'.",

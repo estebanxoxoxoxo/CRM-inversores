@@ -72,6 +72,7 @@
   "name": "Iñaki Berenguer",
   "personalWebsite": "",
   "priority": "C",
+  "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
     "Zylon / PrivateGPT (2023-2024, pre-seed de 3,2M USD liderada por Felicis con participación de LifeX Ventures y Zypsy; Madrid) — es la capa API open source para IA privada sobre modelos locales (RAG, tools, MCP). Demuestra que LifeX sí escribe cheques en infraestructura de IA open source cuando el equipo es técnico y español. Fuentes: elreferente.es (ronda pre-semilla de Zylon), marketing4ecommerce.net.",
@@ -115,7 +116,7 @@
     "Ticket no publicado; media implícita ~1M USD; como ángel, tickets pequeños en más de 100 startups.",
     "Analizan ~6.000 oportunidades al año, unas 250 españolas."
   ],
-  "updatedAt": "2026-09-02T17:05:45.163Z",
+  "updatedAt": "2026-09-03T07:55:53.171Z",
   "whyInteresting": [
     "Entiende estructuralmente la apuesta pre-tracción: financia biología computacional y hardware fotónico sin clientes; cofundó una spin-off de fotónica (iPronics).",
     "Precedente en infra de IA open source: LifeX participó en la pre-seed de Zylon/PrivateGPT (equipo técnico español).",

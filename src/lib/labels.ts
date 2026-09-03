@@ -85,15 +85,3 @@ export const SCORE_DIMENSIONS: { key: keyof typeof SCORE_MAX; label: string; max
   { key: "spanish", label: "Español y cercanía", max: SCORE_MAX.spanish },
   { key: "access", label: "Acceso y actividad", max: SCORE_MAX.access },
 ];
-
-export const RUBRIC_SHORT =
-  `Rúbrica sobre ${SCORE_TOTAL_MAX}: tesis 25, etapa 20, decisión 20, español 15, acceso 15; ` +
-  `bandas Indiscutible ≥${BAND_THRESHOLDS.undisputed}, Alto potencial ${BAND_RANGES.high_potential}, Reserva ${BAND_RANGES.reserve}, Descartado <${BAND_THRESHOLDS.reserve}.`;
-
-export const RUBRIC_FULL =
-  `Rúbrica sobre ${SCORE_TOTAL_MAX} puntos: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), ` +
-  "español y cercanía (0-15), acceso y actividad (0-15). " +
-  "Topes: tesis < 6 → máx. 45; tesis < 10 → máx. 55; decisión ≤ 8 (no firma cheque) → máx. 69; " +
-  "etapa ≤ 7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥ 78, Alto potencial 60-77, Reserva 45-59, " +
-  "Descartado < 45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados; " +
-  "cada ficha se redacta en términos absolutos, sin comparaciones con otros perfiles.";

@@ -8,8 +8,6 @@ import {
   INVESTOR_TYPE_LABELS,
   RATING_LABELS,
   REGION_LABELS,
-  RUBRIC_FULL,
-  RUBRIC_SHORT,
   SCORE_DIMENSIONS,
 } from "../lib/labels";
 import type { Investor, Score } from "../types/investor";
@@ -187,9 +185,7 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
       <Section title={`Nivel ${investor.level}: motivo y desglose`}>
         <p>{audit.status === "pending" ? "Auditoría pendiente: este perfil todavía no fue revisado ni puntuado." : audit.reason}</p>
         <ScoreBreakdown score={audit.score} />
-        <p className="muted small" title={RUBRIC_FULL}>
-          Revisado el {audit.date}. {RUBRIC_SHORT}
-        </p>
+        <p className="muted small">Revisado el {audit.date}.</p>
       </Section>
       <Section title="Por qué es interesante">
         <BulletList items={investor.whyInteresting} />

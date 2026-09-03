@@ -6,8 +6,6 @@
       "access": 8,
       "caps": [],
       "decision": 18,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 68,
       "spanish": 2,
       "stage": 18,
@@ -125,7 +123,7 @@
     "DTS3 cerrado en 134M€ (mar-2026); DV5 con primer cierre de 120M€ (feb-2026).",
     "A nivel de firma: pre-seed a Serie B."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Cartera de Elaia en la categoría: Tabnine (código con IA), Giskard (validación de modelos), dottxt (generación estructurada), Vertesia (orquestación de LLMs), Traefik, FlexAI, Qbeast y Nuclia (Barcelona).",
     "DTS3: 134M€ cerrados en marzo de 2026, 1-13M€ en pre-seed y seed, alianzas con BSC, INRIA, CNRS y Max Planck.",

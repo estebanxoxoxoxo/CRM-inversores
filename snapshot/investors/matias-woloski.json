@@ -6,18 +6,16 @@
       "access": 11,
       "caps": [],
       "decision": 10,
-      "otherAspects": -4,
-      "otherAspectsReason": "Fuera de región (Buenos Aires); rol operativo en 2026 por confirmar.",
-      "raw": 74,
+      "raw": 78,
       "spanish": 15,
       "stage": 18,
       "thesis": 24,
-      "total": 74
+      "total": 78
     },
     "status": "reviewed"
   },
   "background": "Argentino. Ingeniero en Informática por la Universidad de Buenos Aires (2000-2008). Trabajó como arquitecto de software y consultor, y fue cofundador de Southworks, la consultora desde la que hacían proyectos de autenticación para clientes empresariales. En 2013 cofundó Auth0 con Eugenio Pace, convirtiendo esos proyectos de consultoría en un producto: una plataforma de identidad orientada a desarrolladores. Auth0 llegó a servir a más de 40 millones de usuarios diarios, se convirtió en el quinto unicornio argentino en 2019 y fue adquirida por Okta en mayo de 2021 por 6.500 M USD. Woloski fue CTO y, tras la adquisición, VP de I+D de la unidad Customer Identity Cloud de Okta y CTO de Auth0 Lab, el equipo de investigación que exploraba autorización de grano fino, web3 e identidad para agentes de IA. Escribió libros técnicos (publicados en Amazon), fue autor habitual de los blogs de Auth0 y Okta, y enseñó Cloud Computing en la Escuela de Innovación del ITBA. Cofundó Portal Bosque, una fundación sin ánimo de lucro en Punta del Este que combina 'naturaleza, arte y tecnología' para repensar la educación. Su rol operativo exacto en 2026 no está confirmado: LinkedIn lo muestra como cofundador de Portal Bosque tras salir de Okta en 2023, mientras que fichas de inversor lo siguen listando como 'CTO / Auth0 Lab at Okta' con Okta Ventures.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Buenos Aires, Argentina (con residencia también asociada a Punta del Este, Uruguay)",
   "confidence": "high",
   "contactSources": {
@@ -70,11 +68,11 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 74,
+  "level": 78,
   "linkedin": "https://www.linkedin.com/in/matiaswoloski/",
   "name": "Matías Woloski",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "out_of_region",
   "relevantInvestments": [
@@ -122,7 +120,7 @@
     "Ticket 5.000-50.000 USD, punto dulce 25.000 USD.",
     "11-20 posiciones registradas según la fuente."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Ha construido una plataforma para desarrolladores desde cero y sin tracción (Auth0, 6.500M USD): sabe que la métrica temprana correcta es adopción de developers, no ingresos.",
     "Keycard (identidad y permisos para agentes de IA, 2025): financia el problema de control de agentes que ejecutan código.",

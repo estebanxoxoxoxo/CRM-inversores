@@ -6,18 +6,16 @@
       "access": 7,
       "caps": [],
       "decision": 18,
-      "otherAspects": -9,
-      "otherAspectsReason": "Sin ninguna semilla documentada y sólo cuatro operaciones desde 2021.",
-      "raw": 53,
+      "raw": 62,
       "spanish": 15,
       "stage": 4,
       "thesis": 18,
-      "total": 53
+      "total": 62
     },
     "status": "reviewed"
   },
   "background": "Nacido en el norte de Perú; se trasladó a Arequipa para estudiar y obtuvo una doble titulación en ingeniería electrónica e informática. Tiene un BASc por la Universidad Católica de Santa María (Arequipa) y un MBA por la Universidad Nacional de San Agustín. Empezó en automatización industrial en Siemens y fue profesor antes de pasar al sector minero. En 2000 fue Chief Technology Architect y fundador de Quadrem, el primer mercado electrónico global para la minería, respaldado por 21 grandes mineras con 150M USD de financiación (Quadrem fue adquirida por Ariba y después por SAP). Entre 2003 y 2011 fue CIO de Terremark Worldwide, donde lideró la transformación de proveedor de colocation a proveedor integrado de servicios de TI; Verizon compró Terremark y él continuó como CIO en Verizon Business. Fue después CIO de Liquidity Services (Nasdaq: LQDT). Junto a BC Partners y Medina Capital participó en la creación de Cyxtera Technologies, una compañía de 2.800M USD respaldada por private equity, de la que fue miembro del equipo fundador, arquitecto de negocio y tecnología, y CIO global. Se incorporó a Forgepoint Capital en 2020 como Venture Partner, fue promovido a Partner en marzo de 2022 y hoy figura como Managing Director. Es consejero de Cinchy, Rafay Systems y SolCyber, y board observer de Secure Code Warrior.",
-  "band": "reserve",
+  "band": "high_potential",
   "baseCity": "San Mateo, California, EE.UU. (sede de Forgepoint; Signal NFX le sitúa en Plano, Texas — dato no confirmado por el fondo)",
   "confidence": "medium",
   "contactSources": {
@@ -64,11 +62,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 53,
+  "level": 62,
   "linkedin": "https://www.linkedin.com/in/leonciocasusol/",
   "name": "Leo Casusol",
   "personalWebsite": "",
-  "priority": "C",
+  "priority": "B",
   "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
@@ -112,7 +110,7 @@
     "Cheque 5-30M USD, punto dulce 17M USD; cuatro operaciones registradas (Lynx, Lumu, Cinchy, Rafay).",
     "Forgepoint Cybersecurity Fund III en despliegue; AUM >1.000M USD."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Sus focos son exactamente la capa del cliente; prefiere 'platform plays than point solutions'.",
     "CIO de carrera (Cyxtera, Verizon Business, Terremark): entiende integración y despliegue en gran empresa.",

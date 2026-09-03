@@ -6,8 +6,6 @@
       "access": 14,
       "caps": [],
       "decision": 14,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 75,
       "spanish": 15,
       "stage": 20,
@@ -138,7 +136,7 @@
     "K Founders Preseed II (abr-2026): ~20M€, ticket inicial ~300.000 €; follow-on de 200k a 2M€ desde los fondos mayores.",
     "Kfund suele co-invertir con leads tier-one, no liderar."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Vehículo diseñado para decir sí antes de que existan usuarios: nota convertible, sin consejo, sin DD exhaustiva, 'three weeks from first meeting to money in the bank'.",
     "Apetito reciente por infraestructura de agentes: 2501 (flotas de agentes para AIOps) y Causa Prima (red agente a agente).",

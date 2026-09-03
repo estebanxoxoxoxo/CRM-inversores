@@ -6,8 +6,6 @@
       "access": 14,
       "caps": [],
       "decision": 7,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 68,
       "spanish": 15,
       "stage": 12,
@@ -116,7 +114,7 @@
     "Vía Encomenda: pre-seed y seed, ticket inicial 100.000-500.000 € con seguimiento hasta 2-3M€ (no decide él).",
     "Como ángel personal: ticket no publicado; previsiblemente 10.000-50.000 € (sin confirmar)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Foco ángel literal: 'B2B SaaS, developer tools, and supply chain'; intereses que empiezan por 'Agents, AI, Automatization'.",
     "Puede validar la arquitectura en una llamada y abrir Encomenda (pre-seed/seed 100-500k€) y la red de Carlos Blanco y Nuclio.",

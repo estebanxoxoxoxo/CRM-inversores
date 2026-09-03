@@ -6,8 +6,6 @@
       "access": 13,
       "caps": [],
       "decision": 20,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 86,
       "spanish": 15,
       "stage": 14,
@@ -119,7 +117,7 @@
     "Lidera seeds (Prophet Security, 11M USD) y Series A (Cogent, 42M USD); punto dulce reportado 25M USD.",
     "Rango 1-100M USD (Signal); en la práctica sí lidera cheques pequeños de semilla en infra y seguridad."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Mandato literal 'early-stage infrastructure software'; cartera en la capa del cliente: Modal (cómputo serverless para IA), Astronomer, Cogent (agentes), Straiker.",
     "Invierte antes de la tracción: 'We've known him from pre-founding the company' (Cogent).",

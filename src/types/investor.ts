@@ -5,11 +5,11 @@
  * including its audit. The zod schema validates at runtime (scripts and app) and the TypeScript type is inferred
  * from it.
  *
- * - `audit` is the hand-edited part: reason, per-dimension score inputs and the "other aspects" reason. Derived
- *   values (`score.raw`, `score.caps`, `score.total`, and `level`, `band`, `priority` at the root) are recomputed by
- *   `deriveInvestor()` on every write (scripts) and every read (app). They are never edited.
- * - `level` is 0-100. `band` derives from it (`BAND_THRESHOLDS`) and is "unaudited" while `audit.status` is
- *   "pending". `priority` A/B/C derives from the level.
+ * - `audit` is the hand-edited part: reason and the five per-dimension score inputs. Derived values (`score.raw`,
+ *   `score.caps`, `score.total`, and `level`, `band`, `priority` at the root) are recomputed by `deriveInvestor()`
+ *   on every write (scripts) and every read (app). They are never edited.
+ * - `level` is the score total, 0 to SCORE_TOTAL_MAX. `band` derives from it (`BAND_THRESHOLDS`) and is "unaudited"
+ *   while `audit.status` is "pending". `priority` A/B/C derives from the level.
  * - `confidence` rates the sources, not the fit.
  * - `rating` is the team's manual verdict, set from the app; the ingest endpoint always stores null.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
@@ -36,19 +36,17 @@ export const RATINGS = ["approved", "doubtful", "rejected", "filler"] as const;
 export const RatingSchema = z.enum(RATINGS);
 export type Rating = z.infer<typeof RatingSchema>;
 
-/** Maximum points per scored dimension. */
+/** Maximum points per scored dimension. They add up to SCORE_TOTAL_MAX. */
 export const SCORE_MAX = { thesis: 25, stage: 20, decision: 20, spanish: 15, access: 15 } as const;
-export const OTHER_ASPECTS_RANGE = { min: -15, max: 5 } as const;
+export const SCORE_TOTAL_MAX = 95;
 
-/** Hand-edited score inputs. `otherAspectsReason` is mandatory when `otherAspects` is not 0. */
+/** Hand-edited score inputs: the five dimensions of the rubric. */
 export const ScoreInputSchema = z.object({
   thesis: z.number().int().min(0).max(SCORE_MAX.thesis),
   stage: z.number().int().min(0).max(SCORE_MAX.stage),
   decision: z.number().int().min(0).max(SCORE_MAX.decision),
   spanish: z.number().int().min(0).max(SCORE_MAX.spanish),
   access: z.number().int().min(0).max(SCORE_MAX.access),
-  otherAspects: z.number().int().min(OTHER_ASPECTS_RANGE.min).max(OTHER_ASPECTS_RANGE.max),
-  otherAspectsReason: z.string(),
 });
 export type ScoreInput = z.infer<typeof ScoreInputSchema>;
 
@@ -62,7 +60,7 @@ export type Score = z.infer<typeof ScoreSchema>;
 export type Cap = z.infer<typeof CapSchema>;
 
 export function computeScore(input: ScoreInput): Score {
-  const raw = input.thesis + input.stage + input.decision + input.spanish + input.access + input.otherAspects;
+  const raw = input.thesis + input.stage + input.decision + input.spanish + input.access;
   const caps: Cap[] = [];
   let total = raw;
   const cap = (applies: boolean, max: number, code: Cap) => {
@@ -166,7 +164,6 @@ export function deriveInvestor(raw: unknown): Investor {
   const audit = (doc.audit ?? {}) as Record<string, unknown>;
   const status = AuditStatusSchema.parse(audit.status);
   const input = ScoreInputSchema.parse(audit.score ?? {});
-  if (input.otherAspects !== 0 && !input.otherAspectsReason.trim()) throw new Error("otherAspects is not 0 but otherAspectsReason is empty");
   if (status === "reviewed") {
     if (!String(audit.reason ?? "").trim()) throw new Error("reviewed audit without a reason");
     for (const key of ["whyInteresting", "investmentThesis", "stageAndTicket"] as const) {

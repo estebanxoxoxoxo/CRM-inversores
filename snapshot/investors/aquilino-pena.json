@@ -6,8 +6,6 @@
       "access": 9,
       "caps": [],
       "decision": 20,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 71,
       "spanish": 15,
       "stage": 9,
@@ -145,7 +143,7 @@
     "Ticket inicial ~5M€ con 40% del fondo reservado a follow-on: no es un fondo de pre-seed.",
     "Fondo IV Innvierte: 120M€ (anuncio 15-dic-2025), LPs BBVA Spark, familia Mahou, CDTI, FEI; AUM >500M€ en 6 vehículos."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Mandato publicado del Fondo IV casi calcado al cliente: deep tech, datos, infraestructura de IA, ciberseguridad, robótica, IA física.",
     "Dinero fresco: primer cierre dic-2025, 120M€ a desplegar en 2026-2029; apuestas técnicas de horizonte largo (lideró Theker ~21M€ y FOSSA 9,25M€).",

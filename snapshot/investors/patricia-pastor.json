@@ -6,13 +6,11 @@
       "access": 13,
       "caps": [],
       "decision": 17,
-      "otherAspects": -3,
-      "otherAspectsReason": "Posible solapamiento de cartera con BrainGrid (harness de desarrollo IA-nativo).",
-      "raw": 87,
+      "raw": 90,
       "spanish": 15,
       "stage": 20,
       "thesis": 25,
-      "total": 87
+      "total": 90
     },
     "status": "reviewed"
   },
@@ -76,7 +74,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 87,
+  "level": 90,
   "linkedin": "https://www.linkedin.com/in/patriciapastorg/",
   "name": "Patricia Pastor",
   "personalWebsite": "",
@@ -130,7 +128,7 @@
     "Fondo objetivo 50M€ (30M€ en captación inicial) para 30-35 operaciones; ~1,4-1,7M€ comprometidos por compañía con follow-on; primer cheque menor (BrainGrid: ronda total de 1M USD como coinversora).",
     "SETT entró con 9,5M€ (ene-2026); accesible a retail desde 10.000 €."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Cartera con las dos categorías del cliente: BrainGrid ('capa de planificación estructurada para construir software AI-native') y Optiak ('capa de orquestación que unifica modelos, agentes y sistemas').",
     "Pre-seed por mandato: 30-35 operaciones desde fase inicial; criterio 'Architectural Empathy' (diseñar para escala y coste desde el día uno).",

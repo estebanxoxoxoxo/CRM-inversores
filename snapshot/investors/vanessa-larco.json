@@ -6,8 +6,6 @@
       "access": 9,
       "caps": [],
       "decision": 14,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 70,
       "spanish": 5,
       "stage": 20,
@@ -120,7 +118,7 @@
     "Tamaño del fondo y fecha de cierre no públicos; sin lista pública de primeras inversiones.",
     "Cambio radical respecto a NEA (2-50M USD, Series A/B)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Mandato entero alineado: pre-seed/seed, 500k-3M USD, fundadores técnicos, herramientas IA-nativas; acaba de levantar y despliega.",
     "'Companies OpenAI won't kill': exige el foso que el cliente quiere discutir; test de si el producto rearquitectura la estructura de costes.",

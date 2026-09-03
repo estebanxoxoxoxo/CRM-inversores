@@ -4,15 +4,15 @@
     "reason": "Tesis personal de infraestructura ('la capa debajo de la tecnología visible', 'critical software') en Adara, con 42Crunch, Bigle y TandemTrace trabajados; ingeniero español en Madrid. Pero es Principal sin decisión final y solapa con Gómez, Pillado y Goulet: una sola vía de entrada a Adara.",
     "score": {
       "access": 9,
-      "caps": [],
+      "caps": [
+        "no_check_writer"
+      ],
       "decision": 7,
-      "otherAspects": -8,
-      "otherAspectsReason": "Redundancia: Adara ya cubierta por Gómez, Pillado y Goulet; una sola vía de entrada al fondo.",
-      "raw": 62,
+      "raw": 70,
       "spanish": 15,
       "stage": 17,
       "thesis": 22,
-      "total": 62
+      "total": 69
     },
     "status": "reviewed"
   },
@@ -70,7 +70,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 62,
+  "level": 69,
   "linkedin": "https://es.linkedin.com/in/jorge-baron",
   "name": "Jorge Barón",
   "personalWebsite": "",
@@ -136,7 +136,7 @@
     "A él Signal le atribuye 100k-5M USD con punto dulce ~1,5M en seed y Serie A.",
     "Principal: no firma; origina y defiende en comité."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Puerta operativa a Adara: único Principal, origina y evalúa en etapa temprana; tesis personal literal de infraestructura de software.",
     "Ha trabajado deals de IA-nativa y agentes (42Crunch, Bigle, Articul8, TandemTrace).",

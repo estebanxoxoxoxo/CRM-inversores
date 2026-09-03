@@ -6,13 +6,11 @@
       "access": 6,
       "caps": [],
       "decision": 8,
-      "otherAspects": -3,
-      "otherAspectsReason": "Cadencia baja: última inversión confirmada en junio de 2024.",
-      "raw": 65,
+      "raw": 68,
       "spanish": 15,
       "stage": 17,
       "thesis": 22,
-      "total": 65
+      "total": 68
     },
     "status": "reviewed"
   },
@@ -68,7 +66,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 65,
+  "level": 68,
   "linkedin": "",
   "name": "Oscar Salazar Gaitán",
   "personalWebsite": "",
@@ -116,7 +114,7 @@
     "Ticket no publicado (previsiblemente decenas de miles de USD); nunca lidera.",
     "16-21 inversiones según CB Insights y PitchBook; última confirmada junio de 2024."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Qbeast y Giskard: infraestructura open source de datos e IA, financiada antes de clientes de referencia; su nombre encabezó las notas de prensa.",
     "Doctor en telecomunicaciones y arquitecto del sistema original de Uber: evalúa arquitectura sin pedir usuarios.",

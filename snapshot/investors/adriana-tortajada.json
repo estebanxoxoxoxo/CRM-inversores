@@ -6,8 +6,6 @@
       "access": 9,
       "caps": [],
       "decision": 9,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 60,
       "spanish": 15,
       "stage": 10,
@@ -116,7 +114,7 @@
     "Vehículo lanzado en enero de 2022 con objetivo de 150M USD; cierre no confirmado.",
     "Cheques reportados 2-10M USD (probablemente mezcla compromisos a fondos y directos); no publica ticket ni proceso."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Tesis 'Productivity & Infrastructure': software, hardware e infraestructura como 'la capa donde la nueva tecnología cobra ingresos reales'.",
     "Ya invirtió directamente en 101obex, infraestructura de API para la economía de agentes; es LP de Cantos (pre-seed deep tech).",

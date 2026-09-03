@@ -6,13 +6,11 @@
       "access": 7,
       "caps": [],
       "decision": 17,
-      "otherAspects": -3,
-      "otherAspectsReason": "El fondo exige MVP completo y tracción inicial.",
-      "raw": 47,
+      "raw": 50,
       "spanish": 3,
       "stage": 8,
       "thesis": 15,
-      "total": 47
+      "total": 50
     },
     "status": "reviewed"
   },
@@ -63,7 +61,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 47,
+  "level": 50,
   "linkedin": "https://www.linkedin.com/in/lisettellez/",
   "name": "Lisette Tellez Herbanek",
   "personalWebsite": "",
@@ -117,7 +115,7 @@
     "Asiento de consejo u observador en todas las participadas; follow-ons por desempeño.",
     "Fund II de 40M USD (2021); Fund III no público."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Una de las pocas inversoras latinas con formación real de ingeniería de software que firma deep tech, no SaaS genérico.",
     "Cartera conectada: PLCs.ai (generación de código con IA), Itopia (automatización sobre Google Cloud), MarkeTeam.ai (agentes autónomos, liderada por Ocean Azul), memQ (redes cuánticas, co-liderada 2026).",

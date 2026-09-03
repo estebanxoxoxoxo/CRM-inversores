@@ -6,13 +6,11 @@
       "access": 12,
       "caps": [],
       "decision": 18,
-      "otherAspects": -5,
-      "otherAspectsReason": "Su tesis escrita exige CAC bajo e 'instant-payback'.",
-      "raw": 53,
+      "raw": 58,
       "spanish": 3,
       "stage": 15,
       "thesis": 10,
-      "total": 53
+      "total": 58
     },
     "status": "reviewed"
   },
@@ -55,7 +53,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 53,
+  "level": 58,
   "linkedin": "https://www.linkedin.com/in/samuel-garcia-0a3274a6/",
   "name": "Samuel D. \"Sam\" Garcia",
   "personalWebsite": "",
@@ -119,7 +117,7 @@
     "Ticket 100.000-5.000.000 USD, punto dulce 1,5M USD.",
     "Amplo (dentro de Collective Global): primer fondo ~100M USD; Collective Global >1.000M USD en tres estrategias."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Etapa y ticket compatibles con una primera ronda institucional: pre-seed a Serie A, 0,5-5M USD, punto dulce 1,5M.",
     "Tolerancia a ciclos de venta largos en IA técnica: Axion Ray (calidad e ingeniería para Boeing, Cummins), Doxel, Crosby Health (pre-seed).",

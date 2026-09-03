@@ -96,7 +96,7 @@ function normalise(research: Record<string, unknown>): Record<string, unknown> {
       status: "pending",
       date: now.slice(0, 10),
       reason: "",
-      score: { thesis: 0, stage: 0, decision: 0, spanish: 0, access: 0, otherAspects: 0, otherAspectsReason: "" },
+      score: { thesis: 0, stage: 0, decision: 0, spanish: 0, access: 0 },
     },
     updatedAt: now,
   };

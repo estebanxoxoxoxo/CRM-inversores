@@ -4,20 +4,20 @@
     "reason": "Ingeniero de semiconductores (LSI Logic, TI) cuyo fondo tiene una inversión real en dev tools de alto rendimiento (Codee) y un criterio explícito de barreras de entrada y know-how propietario; pero su etapa es late-seed y Serie A y el fondo lista 'market traction' entre sus requisitos. Posponer hasta tener la demo.",
     "score": {
       "access": 10,
-      "caps": [],
+      "caps": [
+        "requires_traction"
+      ],
       "decision": 18,
-      "otherAspects": -8,
-      "otherAspectsReason": "Incluye 'market traction' entre los requisitos de su vertical deep tech y B2B.",
-      "raw": 59,
+      "raw": 67,
       "spanish": 15,
       "stage": 7,
       "thesis": 17,
-      "total": 59
+      "total": 64
     },
     "status": "reviewed"
   },
   "background": "Ingeniero de formación y de primera carrera: trabajó como ingeniero en LSI Logic (Alemania) y en Texas Instruments (Francia), dos compañías de semiconductores, antes de pasar al mundo financiero como analista de equity research. Su etapa de capital riesgo empezó en iNova Capital y Tagua Capital, donde acumuló cerca de catorce años, y desde 2013 está en Swanlaab Venture Factory, firma fundada por el neerlandés Mark Kavelaars (más de 28 años entre tecnología, banca y VC, antiguo propietario de International Venture Consultants). Hoy suma más de 17 años de experiencia en capital riesgo en España. Fue pieza clave en la construcción del primer fondo de venture capital hispano-israelí de España: en 2014 Swanlaab firmó el acuerdo con Giza Venture Capital —firma israelí líder desde 1992— y en 2016 se materializó el Swanlaab Giza Innvierte Innovation Fund con respaldo de Innvierte (CDTI). También ha diseñado vehículos de inversión agrotech con foco en transferencia de tecnología. Es miembro del Comité de Inversiones de los fondos Tech y Search de la casa desde su creación. Sus socios actuales son Mark Kavelaars (Founder & Managing Partner), Verónica Trapa (Partner), Ángel Santos (Partner) y Mariluz Santos (COO).",
-  "band": "reserve",
+  "band": "high_potential",
   "baseCity": "Madrid, España (oficina en Calle Velázquez 86 A, 1º Izquierda, 28006 Madrid; la firma opera con equipo también en Tel Aviv)",
   "confidence": "high",
   "contactSources": {
@@ -75,11 +75,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 59,
+  "level": 64,
   "linkedin": "https://es.linkedin.com/in/juanrevuelta",
   "name": "Juan Revuelta",
   "personalWebsite": "",
-  "priority": "C",
+  "priority": "B",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -131,7 +131,7 @@
     "Ticket inicial 500.000-3.000.000 € con follow-on de 2-4M€; lidera.",
     "Swanlaab Tech Fund II: primer cierre 45M€ (jun-2023), objetivo 60-80M€; ancla Fond-ICO, BBVA corporativo."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Codee (análisis y optimización de código C/C++/Fortran) en Swanlaab II: precedente poco frecuente en el VC español; también Sax AI (agentes de KYC), IriusRisk, Nymiz.",
     "Criterio escrito: 'high-tech product with significant entry barriers' y 'proprietary knowhow around deep-tech scientific innovation'.",

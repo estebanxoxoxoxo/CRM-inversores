@@ -1,5 +1,5 @@
 /** Spanish UI labels for the English codes of the investor type. Everything the user reads comes from here. */
-import { BAND_THRESHOLDS, SCORE_MAX, type AuditStatus, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
+import { BAND_THRESHOLDS, SCORE_MAX, SCORE_TOTAL_MAX, type AuditStatus, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
 
 export const RATING_LABELS: Record<Rating, string> = {
   approved: "Aprobado",
@@ -86,18 +86,13 @@ export const SCORE_DIMENSIONS: { key: keyof typeof SCORE_MAX; label: string; max
   { key: "access", label: "Acceso y actividad", max: SCORE_MAX.access },
 ];
 
-export const OTHER_ASPECTS_HELP =
-  "Otros aspectos: puntos que se suman o restan (-15 a +5) por circunstancias concretas que las cinco dimensiones no miden: " +
-  "conflicto de cartera con un competidor, filtros legales o geográficos, redundancia con otro contacto del mismo fondo, " +
-  "estado del fondo, o bonus por un deal directamente comparable.";
-
 export const RUBRIC_SHORT =
-  "Rúbrica: tesis 25, etapa 20, decisión 20, español 15, acceso 15, otros aspectos -15/+5; " +
+  `Rúbrica sobre ${SCORE_TOTAL_MAX}: tesis 25, etapa 20, decisión 20, español 15, acceso 15; ` +
   `bandas Indiscutible ≥${BAND_THRESHOLDS.undisputed}, Alto potencial ${BAND_RANGES.high_potential}, Reserva ${BAND_RANGES.reserve}, Descartado <${BAND_THRESHOLDS.reserve}.`;
 
 export const RUBRIC_FULL =
-  "Rúbrica 0-100: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), " +
-  "español y cercanía (0-15), acceso y actividad (0-15), otros aspectos (-15/+5) con motivo obligatorio. " +
+  `Rúbrica sobre ${SCORE_TOTAL_MAX} puntos: tesis y encaje temático (0-25), etapa y pre-tracción (0-20), capacidad de decidir y capital (0-20), ` +
+  "español y cercanía (0-15), acceso y actividad (0-15). " +
   "Topes: tesis < 6 → máx. 45; tesis < 10 → máx. 55; decisión ≤ 8 (no firma cheque) → máx. 69; " +
   "etapa ≤ 7 (Serie A o exige tracción) → máx. 64. Bandas: Indiscutible ≥ 78, Alto potencial 60-77, Reserva 45-59, " +
   "Descartado < 45. Origen y español sólo con autoidentificación pública o hechos biográficos documentados; " +

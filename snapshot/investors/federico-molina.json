@@ -6,13 +6,11 @@
       "access": 10,
       "caps": [],
       "decision": 14,
-      "otherAspects": -4,
-      "otherAspectsReason": "Fuera de región (Buenos Aires).",
-      "raw": 69,
+      "raw": 73,
       "spanish": 15,
       "stage": 16,
       "thesis": 18,
-      "total": 69
+      "total": 73
     },
     "status": "reviewed"
   },
@@ -67,7 +65,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (más actividad paralela como business angel)",
-  "level": 69,
+  "level": 73,
   "linkedin": "https://www.linkedin.com/in/federicomolina86/",
   "name": "Federico Molina",
   "personalWebsite": "",
@@ -114,7 +112,7 @@
     "NXTP Fund III: 98M USD (nov-2023), casi tres años desplegándose; Fund IV no confirmado.",
     "Él es Partner desde 2025; además ángel activo."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Construyó desde dentro una compañía de dev tools de éxito global (Auth0, growth y analítica): entiende producto y comprador desarrollador sin traducción.",
     "NXTP tiene Auth0 y Vercel en cartera y 'deep domain expertise in Developer Tools & Infrastructure'; acompaña 'from idea through execution'.",

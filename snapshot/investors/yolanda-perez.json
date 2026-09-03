@@ -6,13 +6,11 @@
       "access": 12,
       "caps": [],
       "decision": 10,
-      "otherAspects": -3,
-      "otherAspectsReason": "Vehículo bancario con comité; proceso menos discrecional que un fondo independiente.",
-      "raw": 64,
+      "raw": 67,
       "spanish": 15,
       "stage": 17,
       "thesis": 13,
-      "total": 64
+      "total": 67
     },
     "status": "reviewed"
   },
@@ -71,7 +69,7 @@
   ],
   "investorType": "corporate_vc",
   "investorTypeDetail": "Corporate VC (vehículo de inversión de un banco; opera como fondo evergreen, sin presión de desinversión)",
-  "level": 64,
+  "level": 67,
   "linkedin": "https://es.linkedin.com/in/yolanda-p%C3%A9rez-s%C3%A1ez-1421176",
   "name": "Yolanda Pérez Sáez",
   "personalWebsite": "",
@@ -121,7 +119,7 @@
     "Más de 10 startups al año; evergreen con vehículo de hasta 10M€; Sabadell Venture Capital para etapas posteriores.",
     "Comité de inversión bancario."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Precedente exacto: BStartup 10 lideró con Inveready los 520.000 € de Qbeast, tecnología de infraestructura de datos '100 veces más rápida' sin producto maduro.",
     "Criterios publicados: 'fuerte base técnica o científica, mentalidad de producto y capacidad de ejecutar rápido'.",

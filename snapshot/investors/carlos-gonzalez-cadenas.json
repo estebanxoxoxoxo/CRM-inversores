@@ -6,18 +6,16 @@
       "access": 13,
       "caps": [],
       "decision": 15,
-      "otherAspects": -4,
-      "otherAspectsReason": "Fuera de región (Londres).",
-      "raw": 75,
+      "raw": 79,
       "spanish": 15,
       "stage": 12,
       "thesis": 24,
-      "total": 75
+      "total": 79
     },
     "status": "reviewed"
   },
   "background": "Español, residente en Londres. Máster en Ingeniería Informática por la Universidad de León (1997-2001) y formación complementaria en la Universitat Pompeu Fabra (Máster en International e-Business y Grado en Comercio Internacional). Fue deputy CEO de Netfocus, una consultora de servicios de TI donde dirigió el área de seguridad digital, adquirida por Hewlett-Packard. En 2008 fundó y dirigió Fogg, un metabuscador de hoteles, que vendió a Skyscanner cinco años después; en Skyscanner fue Chief Product Officer y contribuyó a un crecimiento de cinco veces y a su expansión internacional. Después fue CTO, luego CPO y finalmente COO de GoCardless, la fintech británica de domiciliaciones bancarias, escalándola por encima de 400 empleados; sigue siendo consejero de GoCardless. En paralelo se convirtió en uno de los business angels más prolíficos de Europa, con más de 50-60 inversiones (Codat, cargo.one, Hopin, Shapr3D, Billin en España) hechas de noche y en fines de semana mientras era COO a tiempo completo, e invirtiendo a través de sindicatos españoles como Kibo Ventures y K Fund. Index anunció su fichaje el 11 de noviembre de 2020 y se incorporó como socio en enero de 2021. Consejero de Cradle Bio, Causaly, incident.io, Cutover y GoCardless.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Londres, Reino Unido (español de origen; Index tiene oficinas en Londres, San Francisco y Nueva York)",
   "confidence": "medium",
   "contactSources": {
@@ -68,11 +66,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 75,
+  "level": 79,
   "linkedin": "https://www.linkedin.com/in/carlosgonzalezcadenas",
   "name": "Carlos Gonzalez-Cadenas",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "out_of_region",
   "relevantInvestments": [
@@ -119,7 +117,7 @@
     "Referencia de lo que lidera: Serie A de 100M USD de Tessl (nov-2024) sobre semilla previa de 25M.",
     "Sin rango de cheque publicado a su nombre; como ángel hizo 50-60 cheques pequeños."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Escribió la tesis del cliente: ensayo de Tessl sobre el paso de desarrollo 'code-centric' a 'spec-centric'; lideró su Serie A de 100M USD.",
     "Focos declarados: 'SaaS, Open Source, Security, Financial Services, AI and Infrastructure/DevOps'.",

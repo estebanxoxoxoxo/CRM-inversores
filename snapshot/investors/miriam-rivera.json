@@ -6,18 +6,16 @@
       "access": 11,
       "caps": [],
       "decision": 20,
-      "otherAspects": -8,
-      "otherAspectsReason": "Ulu rechaza automáticamente empresas no constituidas en EE.UU.",
-      "raw": 74,
+      "raw": 82,
       "spanish": 15,
       "stage": 19,
       "thesis": 17,
-      "total": 74
+      "total": 82
     },
     "status": "reviewed"
   },
   "background": "Nacida en Nueva York de padres puertorriquenos; aprendio ingles viendo Barrio Sesamo y se autodescribe como 'an inner-city, Spanish-speaking-first, free-lunch kid born out of wedlock to a mother who initially had less than an 8th-grade education'. Tiene cuatro titulos de Stanford (licenciatura, master, JD y MBA - el JD/MBA conjunto). Entro en Google en la epoca temprana, contratada bajo Eric Schmidt; alli llego a Deputy General Counsel y VP, y fue autora del acuerdo de servicios tecnologicos que se convirtio en el modelo de partnerships de ingresos de Google (miles de millones en facturacion); acompanando el crecimiento de ingresos de la compania desde ~85M USD hasta ~10.000M USD. Dejo Google en 2006. En 2008 cofundo Ulu Ventures en Palo Alto junto a su marido Clint Korver (PhD en Engineering-Economic Systems por Stanford, emprendedor en serie). Ulu es el mayor fondo liderado por una latina en EE.UU. Fondos: Fund III de 138M USD y Fund IV cerrado en 208M USD en febrero de 2025, llevando el AUM por encima de 400M USD. Entre los LPs de Fund IV hay doce fundaciones, incluidas MacArthur Foundation, Ford Foundation, CalWellness y Marguerite Casey Foundation. Es coautora del libro 'Latinas in VC'.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Palo Alto, California, EE.UU.",
   "confidence": "high",
   "contactSources": {
@@ -68,11 +66,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 74,
+  "level": 82,
   "linkedin": "https://www.linkedin.com/in/miriamrivera/",
   "name": "Miriam Rivera",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
@@ -125,7 +123,7 @@
     "Ticket 750.000-1.000.000 USD, punto dulce ~875k.",
     "Ulu Fund IV: 208M USD; 'US-focused only'."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "El market mapping sustituye las métricas de usuarios por un modelo probabilístico del mercado: evalúa estructura y razonamiento, no MRR.",
     "Precedente directo: Okahu ('dev tools to find & fix issues in AI agents'), markovML, Hevo, AltitudeIQ.",

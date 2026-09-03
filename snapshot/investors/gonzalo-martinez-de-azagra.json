@@ -6,13 +6,11 @@
       "access": 10,
       "caps": [],
       "decision": 20,
-      "otherAspects": -3,
-      "otherAspectsReason": "Deal flow mayoritariamente israelí; el texto del fondo espera validación de mercado y de-risking tecnológico.",
-      "raw": 80,
+      "raw": 83,
       "spanish": 15,
       "stage": 16,
       "thesis": 22,
-      "total": 80
+      "total": 83
     },
     "status": "reviewed"
   },
@@ -72,7 +70,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 80,
+  "level": 83,
   "linkedin": "https://es.linkedin.com/in/gonzalomartinezdeazagra",
   "name": "Gonzalo Martínez de Azagra",
   "personalWebsite": "",
@@ -118,7 +116,7 @@
     "Ticket inicial 750.000-4.000.000 USD según ronda.",
     "Proceso: dos socios deben acordar abrir due diligence."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Cardumen declara 'Developer Tools' como área de inversión e invierte en pre-seed y seed, no sólo Serie A.",
     "Lideró la seed de illumex (capa semántica para que la IA entienda datos de empresa), vendida a NVIDIA por ~60M USD: infraestructura profunda para IA, liderada en seed, con comprador estratégico.",

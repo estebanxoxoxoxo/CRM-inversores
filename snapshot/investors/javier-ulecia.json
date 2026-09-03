@@ -6,18 +6,16 @@
       "access": 14,
       "caps": [],
       "decision": 17,
-      "otherAspects": -8,
-      "otherAspectsReason": "Restricción legal: sólo sociedades domiciliadas en España; fondo IV en fase final de inversión.",
-      "raw": 75,
+      "raw": 83,
       "spanish": 15,
       "stage": 17,
       "thesis": 20,
-      "total": 75
+      "total": 83
     },
     "status": "reviewed"
   },
   "background": "Nacido en 1962. Ingeniero Aeronáutico por la Universidad Politécnica de Madrid y MBA por HEC París. Su carrera arranca en la industria, no en finanzas: After Sales Engineer en EADS-CASA y después Project Manager / ingeniero de investigación en Renault en París entre 1990 y 1994, donde coincidió con Miguel del Cañizo, su futuro socio. En 1996 entró como Senior Manager en Bain & Company (París y Madrid). Antes de Bullnet cofundó y dirigió Doing, una incubadora especializada en tecnología de banda ancha que no sobrevivió al pinchazo de la burbuja puntocom en 2000. En octubre de 2001 cofundó Bullnet Capital con Miguel del Cañizo; el primer fondo (18 M€) se cerró en marzo de 2003. Desde entonces ha levantado cuatro fondos y un vehículo de continuación, con unos 170 M€ bajo gestión y más de 30 participadas. Ha sido profesor asociado del Instituto de Empresa, jurado recurrente del Venture Capital Investment Competition (VCIC) European South en el IESE y presidente de ASCRI —hoy SpainCap—, la patronal española del capital riesgo, en 2015-2016. Idiomas: español nativo, inglés y francés. Es ponente en MWC Barcelona / 4YFN 2026 en la sesión «What Comes Next in the Spin-out Deep Tech Ecosystem?».",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Pozuelo de Alarcón (Madrid), España",
   "confidence": "high",
   "contactSources": {
@@ -74,11 +72,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 75,
+  "level": 83,
   "linkedin": "https://www.linkedin.com/in/javierulecia/",
   "name": "Javier Ulecia",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -142,7 +140,7 @@
     "Entrada con convertible de 250.000-500.000 € y equity de 2-6M€ después; ticket medio 1-2M€; hasta 6-7M€ acumulados por compañía.",
     "Bullnet Capital IV (81M€, 2022) en fase final: 10 de 17-18 inversiones hechas."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Exit en dev tools: Códice Software / Plastic SCM (control de versiones distribuido) vendida a Unity en 2020; también LeanXcale (base de datos distribuida) y MLCode desde su fundación.",
     "Entra 'when there is a tangible prototype or proof of concept', antes de ingresos; sectores declarados incluyen IA y plataformas de software empresarial.",

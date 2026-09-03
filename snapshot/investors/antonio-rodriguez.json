@@ -6,8 +6,6 @@
       "access": 8,
       "caps": [],
       "decision": 20,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 68,
       "spanish": 8,
       "stage": 17,
@@ -117,7 +115,7 @@
     "Cheque 100.000-10.000.000 USD, punto dulce ~2M USD.",
     "Matrix levantó 800M USD en 2022 (fondo principal + oportunidades)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Filtro explícito a favor de lo que tarda años en construirse: '¿podría clonar esto en un fin de semana?'.",
     "Invierte desde idea, lidera rondas y suele ser el primer cheque institucional; cartera de frontera pura (Luma AI, Suno, Sesame, CTRL-labs).",

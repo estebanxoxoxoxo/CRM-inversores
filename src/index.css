@@ -701,14 +701,6 @@ textarea {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-.dimension-other-text {
-  height: auto;
-  background: none;
-  border-radius: 0;
-  font-size: 12px;
-  color: var(--muted);
-  line-height: 1.3;
-}
 
 /* Dialogs */
 .dialog {

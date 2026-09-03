@@ -82,14 +82,13 @@ nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores
   "reason": "...",                 // por qué tiene ese nivel, en términos absolutos
   "score": {
     "thesis": 25, "stage": 10, "decision": 20, "spanish": 6, "access": 5,   // entradas editables
-    "otherAspects": -6, "otherAspectsReason": "...",                        // entrada editable, motivo obligatorio si != 0
-    "raw": 60, "caps": [], "total": 60                                      // derivados: no editar
+    "raw": 66, "caps": [], "total": 66                                      // derivados: no editar
   }
 }
 ```
 
-Rúbrica: tesis y encaje 0-25, etapa y pre-tracción 0-20, capacidad de decidir y capital 0-20, español y cercanía 0-15,
-acceso y actividad 0-15, otros aspectos -15/+5. Topes: tesis < 6 → máx. 45; tesis < 10 → máx. 55; decisión ≤ 8 → máx. 69;
+Rúbrica sobre 95 puntos: tesis y encaje 0-25, etapa y pre-tracción 0-20, capacidad de decidir y capital 0-20, español y
+cercanía 0-15, acceso y actividad 0-15. Topes: tesis < 6 → máx. 45; tesis < 10 → máx. 55; decisión ≤ 8 → máx. 69;
 etapa ≤ 7 → máx. 64. Bandas: `undisputed` ≥ 78, `high_potential` 60-77, `reserve` 45-59, `discarded` < 45, y
 `unaudited` mientras el estado sea `pending`. `level`, `band` y `priority` (A/B/C) de la raíz se derivan de aquí.
 

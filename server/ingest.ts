@@ -75,7 +75,7 @@ export function prepareSubmission(raw: unknown, now: string): Investor {
       status: "pending",
       date: typeof audit.date === "string" && audit.date ? audit.date : now.slice(0, 10),
       reason: audit.reason ?? "",
-      score: { thesis: 0, stage: 0, decision: 0, spanish: 0, access: 0, otherAspects: 0, otherAspectsReason: "", ...scoreInput },
+      score: { thesis: 0, stage: 0, decision: 0, spanish: 0, access: 0, ...scoreInput },
     },
     rating: null,
     updatedAt: now,

@@ -6,18 +6,16 @@
       "access": 13,
       "caps": [],
       "decision": 13,
-      "otherAspects": -10,
-      "otherAspectsReason": "Su criterio central es el momentum comercial (deploys semanales y clientes), incompatible con un pitch pre-tracción; dedicación parcial (VP en ElevenLabs).",
-      "raw": 59,
+      "raw": 69,
       "spanish": 15,
       "stage": 14,
       "thesis": 14,
-      "total": 59
+      "total": 69
     },
     "status": "reviewed"
   },
   "background": "Perfil comercial y operativo, no de ingeniería. Catalán, con español y catalán como lenguas nativas (declarado en LinkedIn). Su formación aparece en agregadores como London Metropolitan University; NO está confirmada en fuente primaria y debe tratarse como no confirmada. Su carrera es una cadena de incorporaciones muy tempranas a compañías que después escalaron: empleado europeo/internacional temprano en Uber (Uber EMEA, operaciones, contribuyendo a construir la región de Reino Unido e Irlanda); VP of Product en Jobandtalent, el unicornio español de trabajo temporal (dato de su ficha en Concept Ventures); VP of Operations y séptimo empleado de Tractable AI (~2016-2019), donde dirigió la expansión operativa global en Europa, EE. UU. y Japón; VP of Customers & Strategy y décimo empleado de Sonantic (~2020-2021), la startup británica de voz sintética adquirida por Spotify por unos 90 M$; y desde 2023 VP of Revenue (después VP of Sales y GTM Lead) de ElevenLabs. NO es cofundador de ElevenLabs, aunque algunas fuentes secundarias lo insinúan: fue su primer inversor y su cuarto empleado, y construyó la función go-to-market desde cero. Es además Venture Partner de Concept Ventures (Londres), donde asesora en estrategias de go-to-market. Business angel desde 2017 (74 inversiones declaradas), empezando por un cheque semilla en Revolut. En noviembre de 2025 lanzó Baobab Ventures, su primer fondo propio, como solo GP.",
-  "band": "reserve",
+  "band": "high_potential",
   "baseCity": "Londres, Reino Unido (fondo 'remote-first'; vínculo personal y operativo permanente con Barcelona, España — Sifted y Superscout describen el fondo como 'Londres y Barcelona', y su ficha en Concept Ventures dice que cultiva baobabs y plantas exóticas 'in London and Barcelona')",
   "confidence": "high",
   "contactSources": {
@@ -78,11 +76,11 @@
   ],
   "investorType": "operator_fund",
   "investorTypeDetail": "Fondo operador / solo GP",
-  "level": 59,
+  "level": 69,
   "linkedin": "https://www.linkedin.com/in/carlesreina/",
   "name": "Carles Reina",
   "personalWebsite": "",
-  "priority": "C",
+  "priority": "B",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -151,7 +149,7 @@
     "Cheque fijo 300.000-350.000 USD; cartera objetivo de 30-35 startups; acompaña o co-lidera rondas de 1-2M USD.",
     "Baobab Ventures: 15M USD, cierre único (nov-2025); antes 74 inversiones ángel desde 2017."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Solo GP: decide él, sin comité, en días; fondo íntegramente cerrado (15M USD) con 75-80% por desplegar.",
     "Ya tiene Altan AI ('agentic application builder') y Wabi AI en cartera: la tesis del cliente no le es exótica.",

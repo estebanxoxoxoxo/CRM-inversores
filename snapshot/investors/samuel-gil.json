@@ -6,13 +6,11 @@
       "access": 11,
       "caps": [],
       "decision": 20,
-      "otherAspects": -6,
-      "otherAspectsReason": "Conflicto de cartera con Altan; su afirmación de que la velocidad importa más que el moat.",
-      "raw": 81,
+      "raw": 87,
       "spanish": 15,
       "stage": 19,
       "thesis": 22,
-      "total": 81
+      "total": 87
     },
     "status": "reviewed"
   },
@@ -72,7 +70,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 81,
+  "level": 87,
   "linkedin": "https://es.linkedin.com/in/samuelgil",
   "name": "Samuel Gil",
   "personalWebsite": "https://www.sumapositiva.com",
@@ -131,7 +129,7 @@
     "'We invest from €100k to €3m'; histórico de 0,5-2M€ desde 2012.",
     "JME Ventures IV (CNMV, nov-2024), tamaño no publicado; >120M€ AUM en cuatro fondos."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Ya respaldó con dinero la tesis exacta: Altan (pre-seed 2,5M USD co-liderada, sept-2025), agentes que diseñan, construyen y despliegan software de producción.",
     "Escribe cada semana sobre el fin del SaaS CRUD, 'vender trabajo, no software' y copilots que se vuelven autopilots (Suma Positiva #264, #265).",

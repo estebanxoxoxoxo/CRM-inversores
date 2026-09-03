@@ -6,8 +6,6 @@
       "access": 7,
       "caps": [],
       "decision": 9,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 59,
       "spanish": 1,
       "stage": 18,
@@ -112,7 +110,7 @@
     "Tickets 1-25M USD (web del fondo); ejemplo liderado: seed 5,4M USD en Corridor.",
     "Fondo I 101M (2022), Fondo II 230M, tercer vehículo en marcha (~1.000M gestionados)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Su deal firmado, Corridor (seed 5,4M USD, 2025), es infraestructura de seguridad para código generado por IA con clientes como Cursor.",
     "Ingeniera (M.S. CS en IA, sistemas de IA en Bridgewater): evalúa profundidad técnica, no métricas.",

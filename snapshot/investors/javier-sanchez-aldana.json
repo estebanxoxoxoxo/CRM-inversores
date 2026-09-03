@@ -6,13 +6,11 @@
       "access": 12,
       "caps": [],
       "decision": 15,
-      "otherAspects": -2,
-      "otherAspectsReason": "Exige fundadores latinoamericanos y no invierte en solo founders.",
-      "raw": 84,
+      "raw": 86,
       "spanish": 15,
       "stage": 20,
       "thesis": 24,
-      "total": 84
+      "total": 86
     },
     "status": "reviewed"
   },
@@ -70,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 84,
+  "level": 86,
   "linkedin": "https://www.linkedin.com/in/javiersamb/",
   "name": "Javier Sánchez Aldana",
   "personalWebsite": "",
@@ -115,7 +113,7 @@
     "Fund II (2025): objetivo 20M USD para ~25 inversiones; directorios reportan 250-750k USD; cierre no confirmado.",
     "Fund I: ~4M USD en 16 empresas con cheques de 50-150k USD."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Su tesis busca exactamente el perfil del cliente: middleware técnico, usuarios ingenieros, distribución por API/SDK, repo en GitHub como señal positiva, software-first.",
     "Lidera rondas pre-seed: pone precio y términos antes de que exista tracción; menciona dev tools de forma explícita.",

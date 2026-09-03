@@ -6,18 +6,16 @@
       "access": 11,
       "caps": [],
       "decision": 9,
-      "otherAspects": -4,
-      "otherAspectsReason": "El fondo Invivo AI no tiene cierre confirmado ni operaciones.",
-      "raw": 57,
+      "raw": 61,
       "spanish": 15,
       "stage": 14,
       "thesis": 12,
-      "total": 57
+      "total": 61
     },
     "status": "reviewed"
   },
   "background": "Licenciado en Ciencias Físicas por la Universitat de Barcelona y doctor en Informática por la Universitat Ramon Llull. Director General de Recerca de la Generalitat de Catalunya entre 2011 y 2016, bajo la orientación del profesor Andreu Mas-Colell, en plena crisis presupuestaria, centrado en colaboraciones internacionales e infraestructuras de investigación. De 2016 a junio de 2025 fue Director Asociado (director associat) del Barcelona Supercomputing Center - Centro Nacional de Supercomputación, el mayor centro de supercomputación de Europa: durante su etapa el BSC pasó de unos 400 a más de 1.300 profesionales y se pusieron en marcha el MareNostrum 5 y los primeros ordenadores cuánticos de España. Dirigió también la estrategia de innovación y transferencia del centro, con 14 spin-offs lanzadas que levantaron más de 40 M€ y generaron más de 400 empleos altamente cualificados. Le sucedió en el cargo Cristian Canton, ex director de IA en Meta. Desde septiembre de 2025 es Partner en Invivo Partners para lanzar el fondo de IA. Compagina la inversión con docencia en Esade Business School, mentoría de startups en Barcelona y una actividad divulgadora intensa (newsletter, vídeos, conferencias). CORRECCIÓN a la pista de partida: no consta que fuera Secretario de Universidades e Investigación de la Generalitat; el cargo verificado es Director General de Recerca (2011-2016).",
-  "band": "reserve",
+  "band": "high_potential",
   "baseCity": "Barcelona, España (Invivo Partners, Passeig de Gràcia 54)",
   "confidence": "high",
   "contactSources": {
@@ -69,11 +67,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 57,
+  "level": 61,
   "linkedin": "https://www.linkedin.com/in/josepmariamartorellrodon/",
   "name": "Josep Maria 'Pep' Martorell Rodon",
   "personalWebsite": "https://pepmartorell.substack.com",
-  "priority": "C",
+  "priority": "B",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -122,7 +120,7 @@
     "Invivo Ventures AI: objetivo 100M€, 'launching H1 2026'; primer cierre no confirmado, sin operaciones anunciadas.",
     "El gestor sí tiene cerrados Invivo Ventures (60M€, 2024) e Invivo Ventures III en marcha."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Doctor en Informática que operó MareNostrum 5: puede evaluar 'nuestro stack funciona un 90% mejor' sin benchmarks de terceros.",
     "Su Substack trata el comportamiento autónomo de agentes y sus fallos: no hay que explicarle el harness.",

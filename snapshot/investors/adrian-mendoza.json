@@ -6,13 +6,11 @@
       "access": 12,
       "caps": [],
       "decision": 12,
-      "otherAspects": -3,
-      "otherAspectsReason": "Escepticismo público declarado sobre el hype de la IA ('AI Hype 2.0', CNBC 2025).",
-      "raw": 46,
+      "raw": 49,
       "spanish": 3,
       "stage": 15,
       "thesis": 7,
-      "total": 46
+      "total": 49
     },
     "status": "reviewed"
   },
@@ -70,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (fondo pequeño, familiar en origen, que lidera rondas)",
-  "level": 46,
+  "level": 49,
   "linkedin": "https://www.linkedin.com/in/adrianmendozavc",
   "name": "Adrian Mendoza",
   "personalWebsite": "",
@@ -118,7 +116,7 @@
     "Fund III: objetivo 100M USD, ~40M levantados según su web; anclas Bank of America y Truist.",
     "Cartera muy concentrada: 12-15 empresas por fondo."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "GP latino que lidera rondas desde pre-seed con IA y ciberseguridad como verticales declaradas.",
     "Precedente en herramientas para equipos de desarrollo: lideró la seed de 2M USD de Wabbi (seguridad continua integrada en el ciclo de desarrollo).",

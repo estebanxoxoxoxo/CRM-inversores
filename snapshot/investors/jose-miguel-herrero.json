@@ -6,18 +6,16 @@
       "access": 11,
       "caps": [],
       "decision": 20,
-      "otherAspects": -3,
-      "otherAspectsReason": "Su cita de 2020 contra las apuestas de infraestructura ('no hacemos apuestas porque son muy arriesgadas').",
-      "raw": 77,
+      "raw": 80,
       "spanish": 15,
       "stage": 18,
       "thesis": 16,
-      "total": 77
+      "total": 80
     },
     "status": "reviewed"
   },
   "background": "Formación técnica sólida en California: B.S. en Electrical Engineering & Computer Science y M.S. en Electrical Engineering por Santa Clara University, más MBA en Finanzas y Operaciones Internacionales por la Haas School of Business (UC Berkeley). Es uno de los pioneros del ecosistema tecnológico español: fundó LaNetro en 1996, una de las primeras grandes compañías españolas de internet (luego LaNetro Zed), y vivió de primera mano el boom y el pinchazo puntocom. Después fue presidente y CEO de una compañía cotizada en el Nasdaq (Escala Group), y montó una firma de M&A centrada en tecnología, acumulando experiencia relevante en fusiones y adquisiciones a ambos lados del Atlántico. En 2012 funda Big Sur Ventures en Madrid, donde es Founder & Managing Partner. El fondo suma más de 13 años de actividad y más de 50-70 compañías en etapa temprana. Su socio Sergio Choclán figura como Partner en la web del equipo (confirmado), junto a Carlos Galve e Ismael Almazán (Partners), Diego Cervera (Principal), Joaquín Azpilicueta (Operating Partner), Francisco Berlanga (Venture Partner), Beatriz Triguero (Head of Legal), Eduardo Montes (Board Member) y Valentina Delgado (Investor Relations). Es miembro de Founders Pledge.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Madrid, España",
   "confidence": "high",
   "contactSources": {
@@ -69,11 +67,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 77,
+  "level": 80,
   "linkedin": "https://es.linkedin.com/in/josemiguelherrero",
   "name": "José Miguel Herrero",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -127,7 +125,7 @@
     "Ticket 500k-3M USD con punto dulce ~2,5M USD; con BSV IV lidera rondas de 8-9,4M€.",
     "BSV IV Ariadne: objetivo 100M€, primer cierre realizado, 40M€ de la SETT."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Tesis 'Internet Power' con 'AI-native software' y 'expert systems'; Axiomatic AI en cartera ('the intelligence infrastructure for verified science & engineering').",
     "Invierte sistemáticamente pre-tracción y lidera: Arq Quantum (pre-seed), Nanopower (9,4M€ liderada), LuxQuanta (8M€ liderada).",

@@ -6,13 +6,11 @@
       "access": 12,
       "caps": [],
       "decision": 19,
-      "otherAspects": -2,
-      "otherAspectsReason": "Vía estándar por programa de cohortes (300k USD) y foco geográfico en LatAm.",
-      "raw": 85,
+      "raw": 87,
       "spanish": 15,
       "stage": 19,
       "thesis": 22,
-      "total": 85
+      "total": 87
     },
     "status": "reviewed"
   },
@@ -74,7 +72,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (con un componente de aceleradora/programa en la pata LatAm)",
-  "level": 85,
+  "level": 87,
   "linkedin": "https://www.linkedin.com/in/santiago-zavala-47a68b7/",
   "name": "Santiago Zavala",
   "personalWebsite": "https://www.santiagozavala.com",
@@ -124,7 +122,7 @@
     "Vía estándar de 500 LatAm: 300.000 USD por compañía en programa con acceso a Silicon Valley (5 seleccionadas en 2026).",
     "Dos puertas: el programa (300k) o una inversión directa mayor liderada por el fondo."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "No habla de IA en abstracto: habla de orquestar agentes, de Claude Code, Codex y OpenClaw, y de que el repositorio del futuro será de prompts.",
     "Invierte en pre-seed, lidera, 300+ operaciones; toda su historia es respaldar a fundadores técnicos antes de las métricas.",

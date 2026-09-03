@@ -6,18 +6,16 @@
       "access": 10,
       "caps": [],
       "decision": 14,
-      "otherAspects": -12,
-      "otherAspectsReason": "Modelo venture client: exige producto funcionando, tracción inicial y sinergia con Telefónica.",
-      "raw": 36,
+      "raw": 48,
       "spanish": 15,
       "stage": 0,
       "thesis": 9,
-      "total": 36
+      "total": 48
     },
     "status": "reviewed"
   },
   "background": "Licenciado en Administración de Empresas con especialización en Tecnología y Nuevos Negocios por la Universidad Nacional de La Plata (Argentina). Es miembro del equipo fundador de Wayra: lanzó la operación de Wayra Argentina en 2011 y dirige Wayra España desde 2014. Como Global COO fue responsable de la actividad de inversión directa de Wayra en Brasil, España, Reino Unido y Alemania, ha participado en más de 300 acuerdos de inversión y ha impulsado el crecimiento de ecosistemas de inversión semilla en América Latina y Europa. Bajo su dirección, Wayra España ha impulsado más de 500 proyectos y cerrado coinversiones con fondos internacionales. Fue reconocido como Joven Líder Iberoamericano por la Fundación Carolina y nombrado Emerging Leader de Global Corporate Venturing por el GCV Institute en 2021. En febrero de 2026 Telefónica lo nombró CEO de Wayra, en sustitución de Irene Gómez. Wayra, creada en 2011, ha invertido en unas 1.200 startups con más de 520 activas, 218 de ellas colaborando con Telefónica y generando una facturación conjunta superior a 700 millones de euros, con una inversión acumulada superior a 260 millones de euros.",
-  "band": "discarded",
+  "band": "reserve",
   "baseCity": "Madrid, España (Wayra opera hubs en España, Alemania, Reino Unido y Brasil; el hub de Barcelona cumplió 15 años en 2026)",
   "confidence": "high",
   "contactSources": {
@@ -67,7 +65,7 @@
   ],
   "investorType": "corporate_vc",
   "investorTypeDetail": "Corporate VC",
-  "level": 36,
+  "level": 48,
   "linkedin": "https://www.linkedin.com/in/andr%C3%A9s-saborido/",
   "name": "Andrés Saborido",
   "personalWebsite": "",
@@ -118,7 +116,7 @@
     "20M€ anunciados para 2026 en startups y fondos; tickets históricos hasta 250.000 €, hasta 5M€ en estratégicas.",
     "Requisitos publicados: producto funcionando, tracción inicial y sinergia con Telefónica."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Hispanohablante nativo, 15 años en el ecosistema y 20M€ para desplegar en 2026 con IA y ciberseguridad entre sus prioridades.",
     "Cheques recientes en deep tech y agentes: LuxQuanta (criptografía cuántica) y Capably (automatización agéntica).",

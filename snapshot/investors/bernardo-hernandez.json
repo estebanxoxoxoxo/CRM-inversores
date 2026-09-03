@@ -6,13 +6,11 @@
       "access": 10,
       "caps": [],
       "decision": 4,
-      "otherAspects": -5,
-      "otherAspectsReason": "Posible solapamiento con Pensero AI, su empresa actual, que opera en la misma capa que el harness.",
-      "raw": 38,
+      "raw": 43,
       "spanish": 15,
       "stage": 8,
       "thesis": 6,
-      "total": 38
+      "total": 43
     },
     "status": "reviewed"
   },
@@ -64,7 +62,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel (vehículo personal Solón Inversiones); no gestiona fondo de terceros en la actualidad",
-  "level": 38,
+  "level": 43,
   "linkedin": "https://www.linkedin.com/in/bernardohernandez/",
   "name": "Bernardo Hernández",
   "personalWebsite": "https://bernardohernandez.com",
@@ -109,7 +107,7 @@
     "Sin etapa ni ticket publicados; vehículo personal Solón Inversiones.",
     "Última inversión registrada: agosto de 2023 (Founderz)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Pensero AI (cofundador) mide el rendimiento de equipos de ingeniería con IA: piensa a diario en el mismo problema y es usuario potencial del stack.",
     "Asesor senior de SandboxAQ (IA + cuántica) y OpenChip: apetito por deep tech.",

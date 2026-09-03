@@ -6,8 +6,6 @@
       "access": 12,
       "caps": [],
       "decision": 3,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 56,
       "spanish": 15,
       "stage": 6,
@@ -110,7 +108,7 @@
     "Pre-seed como ángel individual; única inversión documentada: Alinia AI (jun-2024).",
     "Ticket no publicado (previsiblemente <100k USD); no lidera, sin vehículo."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Tesis pública escrita: el código como representación intermedia 'producida, inspeccionada, probada y modificada por agentes'; riesgo de 'specification errors'.",
     "Firma apuestas de infraestructura de IA sin tracción cuando el problema le convence (Alinia AI, pre-seed 2,4M USD, con Delangue, Wolf, Vinyals, Preston-Werner).",

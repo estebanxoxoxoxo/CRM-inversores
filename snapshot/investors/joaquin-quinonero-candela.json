@@ -6,8 +6,6 @@
       "access": 5,
       "caps": [],
       "decision": 3,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 47,
       "spanish": 15,
       "stage": 6,
@@ -106,7 +104,7 @@
     "Seed; ticket no publicado; única operación documentada: Trent AI (abril 2026), como ángel individual entre otros tres.",
     "No lidera, no fija términos, sin vehículo ni criterios publicados."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Entiende el riesgo operativo real de muchos agentes ejecutando código de forma autónoma y puede evaluar el moat sin pedir usuarios.",
     "Su única inversión (Trent AI, seed 13M USD, seguridad multi-agente salida de sigilo) es diagnóstica de lo que le interesa.",

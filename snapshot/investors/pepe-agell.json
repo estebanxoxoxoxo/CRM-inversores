@@ -6,8 +6,6 @@
       "access": 9,
       "caps": [],
       "decision": 13,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 74,
       "spanish": 15,
       "stage": 19,
@@ -126,7 +124,7 @@
     "AUM ~800M USD; Fund IV 432M (2023); 34 inversiones en 2025.",
     "Como ángel: tickets pequeños (Traza, pre-seed 2,1M USD)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Pear no pide tracción: PearX está diseñado para compañías sin PMF, con 250k-2M USD.",
     "Verticales oficiales: 'AI (applications, tooling, infrastructure)' y 'Enterprise Tech (data platforms, cybersecurity, developer tools)'.",

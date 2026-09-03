@@ -4,15 +4,15 @@
     "reason": "Co-lideró con General Catalyst la 'semilla' de 12M USD de Primero AI y tiene interlocución con FEMSA, Bimbo y Aeroméxico; pero su punto dulce es 10M USD, Kaszek no tiene tesis ni cartera en dev tools o infraestructura, lee la IA como adopción corporativa y no tiene canal frío. Radar para la ronda siguiente.",
     "score": {
       "access": 5,
-      "caps": [],
+      "caps": [
+        "thesis_below_10"
+      ],
       "decision": 20,
-      "otherAspects": -5,
-      "otherAspectsReason": "Sin canal frío y lectura de la IA como adopción corporativa, no infraestructura.",
-      "raw": 52,
+      "raw": 57,
       "spanish": 15,
       "stage": 9,
       "thesis": 8,
-      "total": 52
+      "total": 55
     },
     "status": "reviewed"
   },
@@ -65,7 +65,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 52,
+  "level": 55,
   "linkedin": "https://www.linkedin.com/in/nicolasberman/",
   "name": "Nicolás Berman",
   "personalWebsite": "",
@@ -110,7 +110,7 @@
     "Para él: 500k-25M USD, punto dulce 10M USD; su 'semilla' de Primero AI fue de 12M.",
     "975M USD levantados en 2023 en dos fondos; 131 compañías."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Kaszek pone semillas muy grandes en IA empresarial con poco recorrido comercial (Primero AI, 12M USD, 2026).",
     "Red corporativa (FEMSA, Bimbo, Aeroméxico, Kimberly-Clark): compradores potenciales del stack.",

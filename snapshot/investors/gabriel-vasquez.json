@@ -6,8 +6,6 @@
       "access": 10,
       "caps": [],
       "decision": 20,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 59,
       "spanish": 1,
       "stage": 18,
@@ -108,7 +106,7 @@
     "Signal: 500k-40M USD con punto dulce 20M; fondo de referencia 2.200M USD.",
     "Inusual en a16z: dos de sus cuatro operaciones documentadas son pre-seed."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Su trabajo es encontrar equipos técnicos fuera de Silicon Valley y meterlos en a16z; escribe pre-seeds de verdad (Dentio, Carecode).",
     "Ensayo 'Rise of the Borderless Founder' (2026): 'Your background is your moat'; red de cenas como puerta real.",

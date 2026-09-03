@@ -8,9 +8,7 @@
         "thesis_below_10"
       ],
       "decision": 12,
-      "otherAspects": -3,
-      "otherAspectsReason": "Declara evitar asumir a la vez riesgo tecnológico, de ingeniería y de mercado.",
-      "raw": 60,
+      "raw": 63,
       "spanish": 15,
       "stage": 15,
       "thesis": 9,
@@ -116,7 +114,7 @@
     "Ticket no publicado; media implícita ~1M USD; como ángel, tickets pequeños en más de 100 startups.",
     "Analizan ~6.000 oportunidades al año, unas 250 españolas."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Entiende estructuralmente la apuesta pre-tracción: financia biología computacional y hardware fotónico sin clientes; cofundó una spin-off de fotónica (iPronics).",
     "Precedente en infra de IA open source: LifeX participó en la pre-seed de Zylon/PrivateGPT (equipo técnico español).",

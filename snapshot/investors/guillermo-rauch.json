@@ -6,13 +6,11 @@
       "access": 7,
       "caps": [],
       "decision": 10,
-      "otherAspects": -5,
-      "otherAspectsReason": "Posible solapamiento competitivo con la AI Cloud de Vercel (sandboxes, agentes de código, AI SDK).",
-      "raw": 70,
+      "raw": 75,
       "spanish": 15,
       "stage": 18,
       "thesis": 25,
-      "total": 70
+      "total": 75
     },
     "status": "reviewed"
   },
@@ -65,7 +63,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel",
-  "level": 70,
+  "level": 75,
   "linkedin": "https://www.linkedin.com/in/rauchg/",
   "name": "Guillermo Rauch",
   "personalWebsite": "https://rauchg.com",
@@ -115,7 +113,7 @@
     "Ticket 5.000-50.000 USD, punto dulce 25.000 USD; nunca lidera.",
     "Volumen muy alto: 76-175 operaciones según la fuente."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Escribe y construye sobre 'agentic engineering', sandboxes de agentes y separación modelo/agente: la tesis del cliente en sus propias palabras.",
     "Cartera confirmada de infraestructura de desarrollador sin usuarios en el momento del cheque: Railway, Tinybird, Upstash, Chroma, Browserbase, Composio, Resend.",

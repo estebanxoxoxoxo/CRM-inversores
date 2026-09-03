@@ -6,8 +6,6 @@
       "access": 12,
       "caps": [],
       "decision": 0,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 47,
       "spanish": 15,
       "stage": 0,
@@ -126,7 +124,7 @@
     "Sin inversiones ángel documentadas en ninguna fuente pública.",
     "Sin etapa ni ticket conocidos; cualquier cifra sería inventada."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Ha construido con sus manos una versión reducida del segundo producto del cliente: dual-agent (Claude Code + Codex CLI + ChatGPT Pro vía MCP, MIT, en GitHub).",
     "Perfil técnico difícil de igualar en España: CERN, top 0,1% de Kaggle, dos startups fundadas en EE.UU.",

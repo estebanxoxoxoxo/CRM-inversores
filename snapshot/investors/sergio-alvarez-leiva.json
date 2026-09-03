@@ -6,18 +6,16 @@
       "access": 12,
       "caps": [],
       "decision": 11,
-      "otherAspects": -4,
-      "otherAspectsReason": "Posible conflicto con Tinybird si el stack toca datos en tiempo real; cargo de GP no confirmado.",
-      "raw": 74,
+      "raw": 78,
       "spanish": 15,
       "stage": 17,
       "thesis": 23,
-      "total": 74
+      "total": 78
     },
     "status": "reviewed"
   },
   "background": "Es fundador tecnico y de producto con mas de una decada construyendo herramientas de datos para desarrolladores. Cofundo Vizzuality (visualizacion y ciencia de datos aplicada, con clientes como organismos ambientales y de conservacion), de la que se escindio CARTO, la plataforma de inteligencia de localizacion; en CARTO fue Chief Product Officer entre 2012 y 2017. Formo parte de los equipos de producto y tecnologia de Zara.com (Inditex) durante casi tres anos. Cofundo Tinybird junto a Jorge Sancha; Tinybird es infraestructura de datos para equipos de software - convierte datos a cualquier escala en APIs REST seguras en tiempo real, con ClickHouse gestionado, ingestion, SQL, integracion con Kafka y migraciones de esquema sin downtime - y esta respaldada por Balderton Capital, CRV, Singular y Crane; su web sigue listandolo como Co-Founder and COO. Tambien participo en Instituto Tramontana (formacion en diseno y producto digital en Madrid). Se incorporo a K Fund el 27 de febrero de 2024, anunciado en el post 'Bienvenido Sergio' (https://www.kfund.vc/post/bienvenido-sergio), que destaca mas de 10 anos creando productos digitales y su paso reciente por Inditex. En K Fund trabaja en producto, diseno, gestion de equipos y company building con las participadas, y firma memos de inversion.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Madrid, España",
   "confidence": "medium",
   "contactSources": {
@@ -70,11 +68,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional (K Fund) + perfil de operador-fundador",
-  "level": 74,
+  "level": 78,
   "linkedin": "https://www.linkedin.com/in/saleiva/",
   "name": "Sergio Álvarez Leiva",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -123,7 +121,7 @@
     "K3: >70M€ (jun-2024); Leadwind (250M USD) para growth deep tech.",
     "Su capacidad de decisión en comité no está confirmada."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Sabe de primera mano que un producto de infraestructura para desarrolladores tarda años en tener métricas y que el moat está en la arquitectura y la experiencia de desarrollador.",
     "Su memo de MITO evalúa productos IA-nativos por cómo redefinen el proceso, no por tracción, y usa el marco de 'infraestructura fundacional'.",

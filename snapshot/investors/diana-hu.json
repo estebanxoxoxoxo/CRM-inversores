@@ -6,13 +6,11 @@
       "access": 9,
       "caps": [],
       "decision": 16,
-      "otherAspects": -3,
-      "otherAspectsReason": "Condiciones del batch de YC: 7% + SAFE, constitución en EE.UU./Canadá/Caimán/Singapur y presencia en la Bahía.",
-      "raw": 71,
+      "raw": 74,
       "spanish": 9,
       "stage": 20,
       "thesis": 20,
-      "total": 71
+      "total": 74
     },
     "status": "reviewed"
   },
@@ -63,7 +61,7 @@
   ],
   "investorType": "accelerator",
   "investorTypeDetail": "Aceleradora / programa",
-  "level": 71,
+  "level": 74,
   "linkedin": "https://www.linkedin.com/in/sdianahu",
   "name": "Diana Hu",
   "personalWebsite": "",
@@ -111,7 +109,7 @@
     "Cuatro batches al año; exige sociedad en EE.UU., Canadá, Caimán o Singapur y presencia en la Bahía durante el programa.",
     "No escribe cheques fuera de YC; no hay garantía de caer en su grupo."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "YC publicó en 2026 QM, 'a multiplayer agent harness for work' (MIT): construyen internamente lo que el cliente vende.",
     "El deal de YC (500k USD) es explícitamente 'not contingent on hitting any milestones': responde de frente a la mala experiencia con inversores que piden usuarios.",

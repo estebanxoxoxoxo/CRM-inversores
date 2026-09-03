@@ -6,7 +6,6 @@ import {
   CONFIDENCE_LABELS,
   EMAIL_STATUS_LABELS,
   INVESTOR_TYPE_LABELS,
-  OTHER_ASPECTS_HELP,
   RATING_LABELS,
   REGION_LABELS,
   RUBRIC_FULL,
@@ -92,11 +91,6 @@ function ScoreBreakdown({ score }: { score: Score }) {
           </span>
         </div>
       ))}
-      <div className="dimension dimension-other" title={OTHER_ASPECTS_HELP}>
-        <span className="dimension-label">Otros aspectos</span>
-        <span className="dimension-bar dimension-other-text">{score.otherAspectsReason || "Ninguno."}</span>
-        <span className="dimension-value">{score.otherAspects > 0 ? `+${score.otherAspects}` : score.otherAspects}</span>
-      </div>
       {score.caps.length > 0 && (
         <p className="muted small">
           Bruto {score.raw}. Topes aplicados: {score.caps.map((cap) => CAP_LABELS[cap]).join("; ")}.

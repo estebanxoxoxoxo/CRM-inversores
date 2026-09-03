@@ -6,18 +6,16 @@
       "access": 6,
       "caps": [],
       "decision": 8,
-      "otherAspects": -3,
-      "otherAspectsReason": "Cartera ángel cripto-céntrica y ritmo de inversión bajo (última operación personal enero 2025).",
-      "raw": 44,
+      "raw": 47,
       "spanish": 8,
       "stage": 13,
       "thesis": 12,
-      "total": 44
+      "total": 47
     },
     "status": "reviewed"
   },
   "background": "Nacido en marzo de 1988 en Ciudad de México y trasladado a San Diego siendo adolescente. Estudió Ciencias de la Computación en la Universidad de Stanford. Fue CTO de Loki Studios, startup de videojuegos que pasó por Y Combinator (verano de 2013) y fue adquirida por Yahoo!. En 2014 fundó Protocol Labs, laboratorio de I+D que creó IPFS (InterPlanetary File System), libp2p y Filecoin, esta última con una de las mayores recaudaciones de la historia de las ICOs (2017). Protocol Labs, con sede en Palo Alto, ha levantado unos 204 M USD según Tracxn y en 2023 recortó 89 puestos (~21% de la plantilla) en un ajuste que él mismo justificó como preparación para un ciclo económico prolongado. Actualmente sigue como fundador y CEO y ha extendido su actividad a la inversión estructurada a través de PL Capital y sus verticales (PLC Neurotech, PLC Rails y un venture studio), gestionados por Protocol VC LLC. Es una figura central del movimiento de bienes públicos digitales (Funding the Commons) y de la ciencia descentralizada (DeSci), a la que definió como 'un movimiento que busca construir infraestructura pública para financiar... usando el stack Web3'. Su patrimonio estimado se sitúa entre 400 y 500 M USD según estimaciones de prensa especializada (dato no auditado).",
-  "band": "discarded",
+  "band": "reserve",
   "baseCity": "San Francisco / Palo Alto, California, EE.UU. (nacido en Ciudad de México en 1988; se mudó a San Diego siendo adolescente)",
   "confidence": "medium",
   "contactSources": {
@@ -65,7 +63,7 @@
   ],
   "investorType": "operator_fund",
   "investorTypeDetail": "Fondo operador / solo GP (PL Capital, vehículos verticales) + Business angel",
-  "level": 44,
+  "level": 47,
   "linkedin": "https://www.linkedin.com/in/jbenetcs",
   "name": "Juan Benet",
   "personalWebsite": "http://juan.benet.ai",
@@ -113,7 +111,7 @@
     "PL Capital: PLC Neurotech (GP) y PLC Rails (Research Partner, no decide); tamaños no publicados.",
     "Operación reciente del gestor: seed de 6M USD en Belfort (sept-2025)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Financia ciencia aplicada sin producto comercial: Prime Intellect (entrenamiento descentralizado) y Zama (criptografía homomórfica).",
     "Discurso sobre bienes públicos, open source y sistemas de conocimiento afín a un stack abierto.",

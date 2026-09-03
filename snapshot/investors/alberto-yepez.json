@@ -8,8 +8,6 @@
         "requires_traction"
       ],
       "decision": 20,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 65,
       "spanish": 15,
       "stage": 7,
@@ -116,7 +114,7 @@
     "Cheque típico 5-10M USD; horizonte declarado de 3-5 años hacia venta o salida a bolsa.",
     "Fondos: Forgepoint I (306M), II (450M, 2019), Cybersecurity Fund III (objetivo 750M, tamaño final no confirmado); Forgepoint Capital International en Londres desde 2024."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Tesis que incluye 'infrastructure software' y IA, no sólo ciberseguridad.",
     "Español nativo verificado (podcast y posts en español); lideró en 2026 la Serie A de 18M USD de Sherpa.ai (Bilbao).",

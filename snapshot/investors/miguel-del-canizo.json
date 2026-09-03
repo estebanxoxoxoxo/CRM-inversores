@@ -6,13 +6,11 @@
       "access": 6,
       "caps": [],
       "decision": 17,
-      "otherAspects": -8,
-      "otherAspectsReason": "Restricción legal: sólo sociedades domiciliadas en España; fondo IV en fase final.",
-      "raw": 67,
+      "raw": 75,
       "spanish": 15,
       "stage": 17,
       "thesis": 20,
-      "total": 67
+      "total": 75
     },
     "status": "reviewed"
   },
@@ -71,7 +69,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 67,
+  "level": 75,
   "linkedin": "",
   "name": "Miguel del Cañizo",
   "personalWebsite": "",
@@ -122,7 +120,7 @@
     "Sólo compañías radicadas en España (restricción legal).",
     "Bullnet IV (28M€ del FEI, 2024) en fase final; Bullnet Opportunity Fund (20-25M€, 2025) para startups recientes."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Bullnet prioriza la innovación científica sobre la tracción comercial y entra cuando la tecnología 'aún no es una versión comercial'.",
     "Historial con exit en dev tools e infraestructura: Códice/Plastic SCM (2009-2020, Unity) y LeanXcale (2017).",

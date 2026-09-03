@@ -6,8 +6,6 @@
       "access": 8,
       "caps": [],
       "decision": 7,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 42,
       "spanish": 2,
       "stage": 12,
@@ -124,7 +122,7 @@
     "112 inversiones en seed (ronda media 15,6M) y 113 en Serie A.",
     "Él es Principal: origina y defiende, no firma; sin actividad ángel documentada."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Relación más limpia con el riesgo técnico puro: DCVC existe para financiar ciencia antes de que haya mercado.",
     "Ángulo válido: 'next-generation compute'; si el 90% de eficiencia se demuestra con benchmarks de cómputo, energía o latencia, entra en su tesis (Mythic, SF Compute).",

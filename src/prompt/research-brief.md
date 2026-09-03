@@ -55,7 +55,7 @@ Buscá personas que no estén en la lista de excluidos de la sección 8.
 11. `sources`: mínimo 6 URLs consultadas. `confidence` califica la calidad y cantidad de las fuentes (`high`, `medium`, `low`), no el encaje.
 12. Cada ficha se redacta en términos absolutos: nunca comparar con otros perfiles ("el mejor de la lista", "mejor que X"), porque la base crece y esas frases envejecen mal.
 
-## 5. Rúbrica de auditoría (0-100)
+## 5. Rúbrica de auditoría
 
 Cada perfil lleva una puntuación propuesta en `audit.score` y un motivo en `audit.reason` que explique el nivel en términos absolutos: encaje y reservas. Un humano revisa y confirma; por eso `audit.status` va siempre en `"pending"`.
 
@@ -64,9 +64,8 @@ Cada perfil lleva una puntuación propuesta en `audit.score` y un motivo en `aud
 - `decision` (0-20): firma el cheque (GP, managing partner, angel con capital propio). 8 o menos cuando no decide: principal, venture partner, scout, asociado.
 - `spanish` (0-15): fluidez en español documentada y cercanía con el ecosistema hispanohablante.
 - `access` (0-15): accesible y activo en 2024-2026: email público, eventos, programas, intros por portfolio.
-- `otherAspects` (-15 a +5): puntos que se suman o restan por circunstancias concretas que las cinco dimensiones no miden: conflicto de cartera con un competidor, filtros legales o geográficos, redundancia con otro contacto del mismo fondo, estado del fondo, o bonus por un deal directamente comparable. Si no es 0, `otherAspectsReason` es obligatorio.
 
-Topes que aplica el servidor sobre la suma: thesis < 6 → máximo 45; thesis < 10 → máximo 55; decision ≤ 8 → máximo 69; stage ≤ 7 → máximo 64. Bandas resultantes: indiscutible ≥ 78, alto potencial 60-77, reserva 45-59, descartado < 45. Los perfiles indiscutibles tienen que quedar, con honestidad, en 78 o más; los de muchísimo potencial en 60-77, con la reserva explicada.
+La suma máxima es 95. Topes que aplica el servidor sobre la suma: thesis < 6 → máximo 45; thesis < 10 → máximo 55; decision ≤ 8 → máximo 69; stage ≤ 7 → máximo 64. Bandas resultantes: indiscutible ≥ 78, alto potencial 60-77, reserva 45-59, descartado < 45. Los perfiles indiscutibles tienen que quedar, con honestidad, en 78 o más; los de muchísimo potencial en 60-77, con la reserva explicada.
 
 ## 6. Formato de salida: el tipo exacto
 
@@ -81,7 +80,7 @@ Notas para armar cada objeto:
 - `id`: slug del nombre en minúsculas, sin acentos, con guiones (por ejemplo `mar-hershenson`).
 - No envíes `level`, `band`, `priority`, `score.raw`, `score.caps`, `score.total` ni `updatedAt`: los calcula el servidor. Si los enviás, se ignoran.
 - No envíes `rating`: es la calificación manual del equipo y el servidor la deja en `null`.
-- `audit`: `{ "status": "pending", "date": "AAAA-MM-DD", "reason": "...", "score": { "thesis": n, "stage": n, "decision": n, "spanish": n, "access": n, "otherAspects": n, "otherAspectsReason": "..." } }`.
+- `audit`: `{ "status": "pending", "date": "AAAA-MM-DD", "reason": "...", "score": { "thesis": n, "stage": n, "decision": n, "spanish": n, "access": n } }`.
 - Las listas son arrays de strings. `background` y `deepResearch` son texto con párrafos separados por líneas en blanco.
 - `linkedin` y `personalWebsite`: URL completa o cadena vacía. `email`: dirección o cadena vacía, coherente con `emailStatus`.
 

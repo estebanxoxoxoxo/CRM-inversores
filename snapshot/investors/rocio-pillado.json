@@ -6,13 +6,11 @@
       "access": 11,
       "caps": [],
       "decision": 19,
-      "otherAspects": -4,
-      "otherAspectsReason": "Posible solapamiento de cartera con Airflows y TuringDream; no lidera personalmente esos deals.",
-      "raw": 83,
+      "raw": 87,
       "spanish": 15,
       "stage": 18,
       "thesis": 24,
-      "total": 83
+      "total": 87
     },
     "status": "reviewed"
   },
@@ -72,7 +70,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 83,
+  "level": 87,
   "linkedin": "https://www.linkedin.com/in/rociopillado/",
   "name": "Rocío Pillado",
   "personalWebsite": "",
@@ -127,7 +125,7 @@
     "Rondas recientes lideradas o co-lideradas: Wodan 2M€ pre-seed, Airflows 2M€, AppFactor 4M USD, TuringDream 6M€.",
     "AUM ~350M€."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Adara invirtió en la categoría exacta en los últimos doce meses: AppFactor (seed 4M USD), Airflows (2M€ liderada), TuringDream (6M€ seed), Wodan (pre-seed 2M€).",
     "Criterio publicado 'Courage: willingness to operate ahead of market readiness' resuelve de antemano la objeción de la tracción.",

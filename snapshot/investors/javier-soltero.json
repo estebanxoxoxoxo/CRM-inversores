@@ -6,8 +6,6 @@
       "access": 6,
       "caps": [],
       "decision": 5,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 58,
       "spanish": 15,
       "stage": 12,
@@ -113,7 +111,7 @@
     "Sin presupuesto propio como Senior Venture Partner; cheques ángel personales pequeños.",
     "Estado actual en Felicis no confirmado; empleo principal en Metaplane by Datadog."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Construyó las tres capas que un fondo no sabe evaluar: infraestructura open source (Hyperic), herramientas de desarrollador y productividad a escala (Outlook, Workspace).",
     "Criterio declarado de producto e ingeniería, no de tracción; sus cheques documentados son infraestructura invisible (Metaplane, adquirida por Datadog).",

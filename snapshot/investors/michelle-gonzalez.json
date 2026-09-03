@@ -6,18 +6,16 @@
       "access": 6,
       "caps": [],
       "decision": 20,
-      "otherAspects": -10,
-      "otherAspectsReason": "M12 ya invirtió en Entire, competidor directo del harness; fondo alineado con Azure.",
-      "raw": 51,
+      "raw": 61,
       "spanish": 3,
       "stage": 10,
       "thesis": 22,
-      "total": 51
+      "total": 61
     },
     "status": "reviewed"
   },
   "background": "Michelle Gonzalez es Corporate Vice President y Global Head de M12 desde julio de 2021 (anuncio oficial del 28/07/2021 en m12.vc). Antes fue Managing Partner de Area 120, la incubadora interna de Google, donde realineó la estrategia hacia áreas temáticas del núcleo de Google y logró un número récord de proyectos 'spin in' convertidos en productos de Google; también trabajó en la Oficina del CEO de Google en proyectos especiales sobre startups e innovación. Previamente fue entrepreneur-in-residence e inversora en Comcast Ventures, con foco en VR/AR e inteligencia artificial, y gestionó despliegue de capital hacia fundadores seed negros y latinos a través del Catalyst Fund de Comcast. Fue Partner en IBM Ventures (IA, blockchain, computación cuántica) y durante más de siete años ejecutiva senior de producto y negocio en Apple, liderando producto para News, Books y el negocio de Movies fuera de EE.UU. Empezó su carrera en McKinsey & Co. y trabajó en cine y medios en Los Ángeles. Formación: B.A. en Administración de Empresas (Economía) por la University of Oklahoma y J.D. por Yale Law School. Creció en la frontera del sur de Texas y vive en el Bay Area con su hija. En 2010 cofundó el Influencer Series, comunidad de liderazgo tecnológico con más de 90 mesas redondas y 4.000+ fundadores, inversores y ejecutivos. Asientos de consejo: SpyCloud, Databook y TaskUs (NASDAQ: TASK); observadora en Evisort y GrowthSpace.",
-  "band": "reserve",
+  "band": "high_potential",
   "baseCity": "San Francisco (Bay Area), EE.UU.",
   "confidence": "high",
   "contactSources": {
@@ -62,11 +60,11 @@
   ],
   "investorType": "corporate_vc",
   "investorTypeDetail": "Corporate VC",
-  "level": 51,
+  "level": 61,
   "linkedin": "https://www.linkedin.com/in/michellehgonzalez/",
   "name": "Michelle Gonzalez",
   "personalWebsite": "",
-  "priority": "C",
+  "priority": "B",
   "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
@@ -123,7 +121,7 @@
     "Fondo principal 5-10M USD (hasta ~20M); M12 GitHub Fund 0,5-1M USD en pre-seed/seed de dev tools.",
     "Evergreen del balance de Microsoft: ~150-250M USD desplegados al año; Microsoft único LP."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "M12 invirtió pre-producto en Entire (red git distribuida para agentes de IA): la capa exacta del harness.",
     "Modera paneles sobre 'agentic and AI coding infrastructure' y organiza comidas de fundadores del 'agentic SDLC'.",

@@ -4,15 +4,15 @@
     "reason": "Crane invierte desde 'inception' en infraestructura fundacional y dev tools (Qovery, Encord, Laminar) y ella es ingeniera barcelonesa que ya escribe sobre gobernanza y observabilidad de agentes; pero su título es 'Investor', no decide, el Fondo III no está confirmado y está fuera de región.",
     "score": {
       "access": 11,
-      "caps": [],
+      "caps": [
+        "no_check_writer"
+      ],
       "decision": 5,
-      "otherAspects": -3,
-      "otherAspectsReason": "Fuera de región (Londres).",
-      "raw": 68,
+      "raw": 71,
       "spanish": 15,
       "stage": 17,
       "thesis": 23,
-      "total": 68
+      "total": 69
     },
     "status": "reviewed"
   },
@@ -68,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 68,
+  "level": 69,
   "linkedin": "https://uk.linkedin.com/in/anna-cachadina-abello",
   "name": "Anna Cachadiña Abelló",
   "personalWebsite": "",
@@ -120,7 +120,7 @@
     "Primeros cheques 750.000-3.000.000 USD con reservas hasta Serie B (Fondo II, 140M USD, 2022).",
     "Fondo III y vehículo vigente en 2026 no confirmados."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Ingeniera de software (Goldman Sachs), catalana y castellanohablante nativa, en un fondo cuyo mandato es infraestructura fundacional, dev tools y open source desde 'inception'.",
     "Crane lideró la seed de Qovery (DevOps) y tiene Encord (datos AI-native) y Laminar (observabilidad de agentes) en cartera.",

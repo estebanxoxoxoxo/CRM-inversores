@@ -6,18 +6,16 @@
       "access": 9,
       "caps": [],
       "decision": 20,
-      "otherAspects": -6,
-      "otherAspectsReason": "Redundancia: Adara ya cubierta por Gómez y Pillado; el socio con menor huella en IA.",
-      "raw": 73,
+      "raw": 79,
       "spanish": 15,
       "stage": 17,
       "thesis": 18,
-      "total": 73
+      "total": 79
     },
     "status": "reviewed"
   },
   "background": "Creció en una isla del Mediterráneo, de raíces irlandesa y canadiense pero criado en español. Estudió ingeniería aeroespacial en la École Centrale de Paris y después un máster en el Gas Turbine Lab del MIT (investigación experimental de flujo en turbobombas con 20 años); completó un MBA en INSEAD. Empezó en Andersen Consulting (París) y pasó ocho años en Monitor Company en Madrid, donde llegó a socio y construyó parte de la práctica europea. En 1997 fundó CityHop, una startup de logística urbana que fracasó, y en 2000 NETfractal, un fondo de fase temprana que sobrevivió al crash puntocom. Con esa experiencia cofundó Adara con Alberto Gómez para cubrir el vacío de capital tecnológico temprano en España (su ficha data el arranque en 2002; el fondo se constituye formalmente en Madrid en 2005). En Adara ha participado en los exits de AlienVault (AT&T) y PlayGiga (Facebook) y en 2019 consiguió un compromiso de 6 M€ de COFIDES para el fondo Adara Ventures III. Las compañías que su ficha asocia a él son AdCities, BeonX, Elastix, EyeSquad, Eluviant, Plenit, LoopUp, Scalefast y Seedtag. Signal NFX registra operaciones recientes suyas en Adcities (seed, dic 2025), IntelexVision (Serie A, ene 2025) y BEONx (Serie A, 2020). Aviador con 38 años de vuelo y más de 1.000 horas, propietario de un Yak-52; también agricultor y kitesurfista.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Madrid, España",
   "confidence": "high",
   "contactSources": {
@@ -69,11 +67,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 73,
+  "level": 79,
   "linkedin": "https://es.linkedin.com/in/ngoulet",
   "name": "Nico Goulet",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "spain",
   "relevantInvestments": [
@@ -116,7 +114,7 @@
     "A él Signal le atribuye 100k-5M USD con punto dulce ~1,5M.",
     "Adara lidera y co-lidera seeds."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Receptivo a arquitectura y horizonte largo: máster experimental en el MIT, fundador que fracasó (CityHop) y gestor que sobrevivió al crash de 2000.",
     "Criterio publicado: visión grande, ejecución rápida y 'the courage to stay the course'; 'founders I backed in 2015 should still be calling me in 2030'.",

@@ -6,18 +6,16 @@
       "access": 13,
       "caps": [],
       "decision": 20,
-      "otherAspects": -2,
-      "otherAspectsReason": "El socio natural de infraestructura de IA en Foundation es Ashu Garg.",
-      "raw": 77,
+      "raw": 79,
       "spanish": 15,
       "stage": 17,
       "thesis": 14,
-      "total": 77
+      "total": 79
     },
     "status": "reviewed"
   },
   "background": "Nacido y criado en Ciudad de México. A los 17 años cofundó su primera empresa, Mexplosion, para organizar las clasificatorias mexicanas de los World Cyber Games de 2001 (e-sports). Estudió Marketing en el ITESM (Tec de Monterrey) y Relaciones Internacionales en la UNAM. Trabajó en McKinsey con bancos y aseguradoras latinoamericanas, experiencia operativa que sigue siendo su ventaja diferencial declarada en fintech. Hizo un MBA en MIT Sloan con concentraciones en finanzas y emprendimiento. Fundó después YouVest, una plataforma de crowdfunding para empresas sociales. Se incorporó a Foundation Capital en torno a 2015 (Signal NFX fecha su entrada en 2015) y ascendió hasta General Partner, siendo hoy uno de los cuatro socios generales del fondo. Foundation Capital, fundado en 1995, tiene en su histórico Uber, Netflix, Cerebras Systems, Anyscale, Truepill, Jasper AI, Brave, Mode, Genies y Solana. Rodolfo es el responsable de la práctica cripto y una de las voces del fondo en el ecosistema Solana, donde entró desde el principio.",
-  "band": "high_potential",
+  "band": "undisputed",
   "baseCity": "Austin, Texas, EE.UU. (la ficha oficial del fondo dice “Based in Austin”; Crunchbase/Signal NFX todavía lo listan en San Francisco, California, y el fondo tiene sede en Palo Alto/San Francisco)",
   "confidence": "high",
   "contactSources": {
@@ -68,11 +66,11 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 77,
+  "level": 79,
   "linkedin": "https://www.linkedin.com/in/gonzalezrodolfo/",
   "name": "Rodolfo Gonzalez",
   "personalWebsite": "",
-  "priority": "B",
+  "priority": "A",
   "rating": null,
   "region": "us_hispanic",
   "relevantInvestments": [
@@ -116,7 +114,7 @@
     "Cheques personales 1-10M USD, punto dulce 5,5M USD; 46 empresas a su nombre.",
     "Foundation Capital XI: 600M USD (mar-2025)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Foundation Capital: 80% de inversiones pre-ingresos y pre-producto; doctrina de dimensionar mercados que aún no existen.",
     "Historial de infraestructura profunda no obvia: Solana desde el principio y DoubleZero ('compute and storage scaled exponentially; network performance hasn't').",

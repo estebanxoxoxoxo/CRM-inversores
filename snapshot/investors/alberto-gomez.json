@@ -6,13 +6,11 @@
       "access": 12,
       "caps": [],
       "decision": 20,
-      "otherAspects": -2,
-      "otherAspectsReason": "Posible solapamiento de cartera con Airflows y TuringDream; parte de las operaciones 2026 las firma Ross Strachan.",
-      "raw": 86,
+      "raw": 88,
       "spanish": 15,
       "stage": 17,
       "thesis": 24,
-      "total": 86
+      "total": 88
     },
     "status": "reviewed"
   },
@@ -70,7 +68,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 86,
+  "level": 88,
   "linkedin": "https://es.linkedin.com/in/albertogomezarreaza",
   "name": "Alberto Gómez",
   "personalWebsite": "",
@@ -124,7 +122,7 @@
     "Lidera y co-lidera seeds con frecuencia (Airflows, Wodan, TandemTrace, Adcities).",
     "Dos patas de fondo: AV4 (digital) y AVE (energía)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Firmó personalmente la entrada de Adara en Airflows (2M€, 2026): 'IA convertida en software determinista y auditable', la tesis del stack IA-nativo.",
     "Adara respaldó TuringDream (seed 6M€, orquestación multiagente) y TandemTrace (agentes de IA para SecOps): tres precedentes literales.",

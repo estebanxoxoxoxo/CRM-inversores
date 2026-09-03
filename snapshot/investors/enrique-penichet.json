@@ -6,8 +6,6 @@
       "access": 10,
       "caps": [],
       "decision": 18,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 72,
       "spanish": 15,
       "stage": 17,
@@ -131,7 +129,7 @@
     "Fondo Frontier Tech: >20M€ (cierre 2-dic-2025), nueve inversiones iniciales.",
     "Ticket con fuentes en conflicto: 1-2M€ en seed sin liderar (VC Sheet) o 138k-1,4M€ (Mintround); lo razonable, varios cientos de miles con follow-on. Confirmar."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Dinero fresco y mandato escrito con IA y ciberseguridad: Frontier Tech, >20M€, cerrado el 2-dic-2025, nueve inversiones hechas.",
     "Invierte pre-seed y seed en deep tech por definición pre-tracción (Sycai, Collimate Space, 8layers).",

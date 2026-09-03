@@ -6,13 +6,11 @@
       "access": 7,
       "caps": [],
       "decision": 11,
-      "otherAspects": -6,
-      "otherAspectsReason": "Genesis Fund exige vínculo con Nuevo México y su foco es hardware cuántico.",
-      "raw": 46,
+      "raw": 52,
       "spanish": 3,
       "stage": 19,
       "thesis": 12,
-      "total": 46
+      "total": 52
     },
     "status": "reviewed"
   },
@@ -64,7 +62,7 @@
   ],
   "investorType": "institutional_vc",
   "investorTypeDetail": "VC institucional",
-  "level": 46,
+  "level": 52,
   "linkedin": "https://www.linkedin.com/in/marissa-ramirez-de-chanlatte-398702196/",
   "name": "Marissa Ramirez de Chanlatte, PhD",
   "personalWebsite": "https://marissachanlatte.github.io/",
@@ -120,7 +118,7 @@
     "Playground Fund IV: 475M USD (may-2026); Genesis Fund: 50M USD (cuántica y cómputo avanzado, Nuevo México).",
     "Ticket no publicado; referencia: seed de 4M USD liderada (Photon Queue)."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Capaz de auditar rendimiento, paralelismo y eficiencia de cómputo por sí misma; ex-COO de una startup de IA pre-producto.",
     "Playground invierte pre-formación y lidera (ella lideró la seed de 4M USD de Photon Queue en 2026).",

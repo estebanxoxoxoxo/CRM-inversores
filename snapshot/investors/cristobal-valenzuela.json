@@ -6,13 +6,11 @@
       "access": 9,
       "caps": [],
       "decision": 2,
-      "otherAspects": -5,
-      "otherAspectsReason": "Su ensayo 'Value Accrues to the Extremes' argumenta que las herramientas intermedias pierden valor: tesis pública contraria al producto.",
-      "raw": 29,
+      "raw": 34,
       "spanish": 15,
       "stage": 3,
       "thesis": 5,
-      "total": 29
+      "total": 34
     },
     "status": "reviewed"
   },
@@ -64,7 +62,7 @@
   ],
   "investorType": "business_angel",
   "investorTypeDetail": "Business angel (muy poco activo; ver riesgos)",
-  "level": 29,
+  "level": 34,
   "linkedin": "https://www.linkedin.com/in/cvalenzuelab/",
   "name": "Cristóbal Valenzuela",
   "personalWebsite": "https://cvalenzuelab.com",
@@ -106,7 +104,7 @@
     "Sin etapa ni ticket públicos; una única inversión ángel registrada (Tracxn).",
     "Consejo asesor de diio (Chile) sin inversión económica confirmada."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Fundador hispanohablante de mayor perfil en IA generativa; construyó Runway desde la investigación sin tracción durante años.",
     "Su idea 'the speed of iteration is the moat' y 'externalizar infraestructura es externalizar la capacidad de entender' es aprovechable para el discurso del stack propio.",

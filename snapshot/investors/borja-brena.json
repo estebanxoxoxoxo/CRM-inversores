@@ -6,8 +6,6 @@
       "access": 9,
       "caps": [],
       "decision": 15,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 66,
       "spanish": 15,
       "stage": 10,
@@ -120,7 +118,7 @@
     "Ticket medio 1-5M€; a él Signal le atribuye 1-6M USD con punto dulce 3M.",
     "Último cierre confirmado: Nauta IV, 190M€ (nov-2021) + sidecar 55M€; Nauta V no confirmado."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "'DevTools & Infra' es vertical formal con cartera real: Napptive y Trackingplan (España), NetBird, Kubermatic, Xonai, BoxyHQ.",
     "Socio responsable de España y Portugal, ingeniero de telecomunicación, español nativo: las participadas españolas más cercanas caen en su territorio.",

@@ -6,8 +6,6 @@
       "access": 13,
       "caps": [],
       "decision": 20,
-      "otherAspects": 0,
-      "otherAspectsReason": "",
       "raw": 71,
       "spanish": 15,
       "stage": 13,
@@ -112,7 +110,7 @@
     "Cheque personal estimado 100.000-5.000.000 USD (VC Sheet).",
     "Fondos vigentes: Seed & Series A Fund 4 y Series B Fund 2, 850M USD (jun-2026); 2.600M USD bajo gestión."
   ],
-  "updatedAt": "2026-09-03T07:55:53.171Z",
+  "updatedAt": "2026-09-03T14:17:27.583Z",
   "whyInteresting": [
     "Español de origen (Madrid, Tuenti, Cabify, Jobandtalent) y entrevistado en español en 2026: vínculo hispanohablante plenamente verificable.",
     "Lideró la Serie B de 44M USD de HappyRobot (agentes de IA para logística, fundadores españoles): respalda a técnicos españoles en agentes.",

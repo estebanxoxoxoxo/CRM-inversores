@@ -83,7 +83,7 @@ function ScoreBreakdown({ score }: { score: Score }) {
       {SCORE_DIMENSIONS.map((dimension) => (
         <div key={dimension} className="dimension" title={`Peso en el nivel: ${scoreWeightLabel(dimension)}`}>
           <span className="dimension-label">
-            {SCORE_DIMENSION_LABELS[dimension]} <span className="dimension-weight">{scoreWeightLabel(dimension)}</span>
+            {SCORE_DIMENSION_LABELS[dimension]} <span className="dimension-weight">({scoreWeightLabel(dimension)})</span>
           </span>
           <span className="dimension-bar">
             <span className="dimension-fill" style={{ width: `${(100 * score[dimension]) / SCORE_MAX}%` }} />

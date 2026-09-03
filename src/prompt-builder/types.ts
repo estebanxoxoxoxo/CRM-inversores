@@ -1,13 +1,13 @@
 import type { Investor } from "../types/investor";
 
-/** Stable ids of the numbered sections. Sections refer to each other through `PromptContext.sectionNumber`. */
-export type SectionId = "request" | "context" | "discovery" | "research" | "rubric" | "type" | "endpoint" | "exclusions" | "examples";
+/** Every term of the prompt, in document order. Numbered terms carry a title; opening and footer do not. */
+export type TermId = "opening" | "request" | "context" | "discovery" | "research" | "rubric" | "type" | "endpoint" | "exclusions" | "examples" | "footer";
 
-/** Everything a section may need. Built once per prompt by build.ts; sections are pure functions of it. */
-export interface PromptContext {
+/** The inputs of a prompt. Gathered by index.ts from the app (investors, count) and the environment (the rest). */
+export interface PromptInput {
   /** How many undisputed and how many high-potential investors are requested. */
   count: number;
-  /** Every investor in the database, used for exclusions and examples. */
+  /** Every investor in the database, for exclusions and examples. */
   investors: Investor[];
   /** Full URL of the ingest endpoint. */
   endpoint: string;
@@ -15,14 +15,21 @@ export interface PromptContext {
   token: string;
   /** Generation date, YYYY-MM-DD. */
   date: string;
-  /** Number of a section in the final document, so cross-references survive reordering. */
-  sectionNumber: (id: SectionId) => number;
+  /** Source code of src/types/investor.ts, embedded verbatim. */
+  typeSource: string;
 }
 
-export interface PromptSection {
-  id: SectionId;
-  /** Heading without the number. May depend on the context (counts). */
-  title: (ctx: PromptContext) => string;
+/** What a term receives when rendering: the inputs plus the numbering, so cross-references survive reordering. */
+export interface PromptContext extends PromptInput {
+  /** Number of a numbered term in the final document. Throws for unnumbered or unknown terms. */
+  sectionNumber: (id: TermId) => number;
+}
+
+/** One piece of the prompt. The aggregator (build.ts) renders every term in order and joins them literally. */
+export interface Term {
+  id: TermId;
+  /** Heading without the number. Present only on numbered terms. */
+  title?: (ctx: PromptContext) => string;
   /** Body in Markdown, without the heading. */
   render: (ctx: PromptContext) => string;
 }

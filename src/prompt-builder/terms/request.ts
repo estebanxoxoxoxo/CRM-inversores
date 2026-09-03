@@ -1,6 +1,6 @@
 /** Section "El pedido": the founder's request, one constant per idea, quoted in this order. */
 import { paragraphs, quote } from "../format";
-import type { PromptContext, PromptSection } from "../types";
+import type { PromptContext, Term } from "../types";
 
 export const IMPORTANCE =
   "Quiero plantearte el trabajo de tu vida. Es lo más importante que te pedí hasta ahora; el nivel de importancia de esta tarea " +
@@ -21,7 +21,7 @@ export const quantity = (count: number): string => `Quiero ${count} perfiles que
 export const delivery = (ctx: PromptContext): string =>
   `Cada perfil se entrega con el tipo de la sección ${ctx.sectionNumber("type")} y se envía a la base por el endpoint de la sección ${ctx.sectionNumber("endpoint")}.`;
 
-export const requestSection: PromptSection = {
+export const request: Term = {
   id: "request",
   title: () => "El pedido",
   render: (ctx) => paragraphs(quote([IMPORTANCE, PAST_EXPERIENCE, REGIONS, PURITY, quantity(ctx.count)]), delivery(ctx)),

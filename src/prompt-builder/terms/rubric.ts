@@ -4,7 +4,7 @@
  */
 import { BAND_THRESHOLDS, CAP_RULES, SCORE_MAX, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension } from "../../types/investor";
 import { bullets, decimal, paragraphs } from "../format";
-import type { PromptSection } from "../types";
+import type { Term } from "../types";
 
 export const INTRO =
   "Cada perfil lleva una puntuación propuesta en `audit.score` y un motivo en `audit.reason` que explique el nivel en términos absolutos: " +
@@ -47,7 +47,7 @@ export const bands = (): string => {
   );
 };
 
-export const rubricSection: PromptSection = {
+export const rubric: Term = {
   id: "rubric",
   title: () => "Rúbrica de auditoría",
   render: () => paragraphs(INTRO, scale(), dimensions(), `${caps()} ${bands()}`),

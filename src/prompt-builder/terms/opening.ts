@@ -1,6 +1,6 @@
-/** Title and preamble of the document. Not numbered. */
-import { EXAMPLE_MIN_LEVEL } from "../config";
-import type { PromptContext } from "../types";
+/** Term: title and opening paragraph. Unnumbered. Says who the model is, the objective and what the document holds. */
+import type { Term } from "../types";
+import { EXAMPLE_MIN_LEVEL } from "./examples";
 
 export const TITLE = "Búsqueda de nuevos inversores deep tech / dev tools hispanohablantes";
 
@@ -18,6 +18,7 @@ export const READ_EVERYTHING = "Leelo entero antes de empezar.";
 
 export const LANGUAGE = "Todo el contenido que produzcas va en español; los nombres de empresas, fondos y citas textuales pueden ir en su idioma original.";
 
-export function renderIntro(ctx: PromptContext): string {
-  return `# ${TITLE}\n\n${[ROLE, objective(ctx.count), CONTENTS, READ_EVERYTHING, LANGUAGE].join(" ")}`;
-}
+export const opening: Term = {
+  id: "opening",
+  render: (ctx) => `# ${TITLE}\n\n${[ROLE, objective(ctx.count), CONTENTS, READ_EVERYTHING, LANGUAGE].join(" ")}`,
+};

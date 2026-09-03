@@ -1,6 +1,6 @@
 /** Section "Contexto del cliente y criterio de pureza". */
 import { bullets, paragraphs } from "../format";
-import type { PromptSection } from "../types";
+import type { Term } from "../types";
 
 export const CLIENT =
   "Startup hispanohablante que construye (a) un stack de software IA-nativo, con demo para inversores en unos meses, y (b) un harness " +
@@ -30,7 +30,7 @@ export const objective = (count: number): string =>
   "criterio de pureza; si no llegás a esas cantidades con ese estándar, entregá menos y decilo. Es preferible entregar menos perfiles " +
   "indiscutibles que completar la cantidad con perfiles mediocres. Si dudás, no lo envíes o dejalo claro en riesgos.";
 
-export const contextSection: PromptSection = {
+export const context: Term = {
   id: "context",
   title: () => "Contexto del cliente y criterio de pureza",
   render: (ctx) => paragraphs(CLIENT, PURITY, `${REGIONS_INTRO}\n\n${bullets(REGIONS)}`, objective(ctx.count)),

@@ -1,11 +1,15 @@
 /**
- * Step 4 — the examples: the reviewed profiles above EXAMPLE_MIN_LEVEL (and not rated rejected or filler), as full
- * JSON, to show the expected quality. Selection rules live in config.ts.
+ * Term "Perfiles de ejemplo": the best profiles as full JSON, the quality bar. The selection rules live here:
+ * reviewed, level above EXAMPLE_MIN_LEVEL, and not rated rejected or filler by the team.
  */
-import type { Investor } from "../types/investor";
-import { EXAMPLE_EXCLUDED_RATINGS, EXAMPLE_MIN_LEVEL } from "./config";
-import { codeBlock, paragraphs } from "./format";
-import type { PromptSection } from "./types";
+import type { Investor, Rating } from "../../types/investor";
+import { codeBlock, paragraphs } from "../format";
+import type { Term } from "../types";
+
+/** A profile is an example when its level is strictly above this. */
+export const EXAMPLE_MIN_LEVEL = 80;
+/** Profiles with these team ratings are never used as examples. */
+export const EXAMPLE_EXCLUDED_RATINGS: readonly Rating[] = ["rejected", "filler"];
 
 export const INTRO =
   "Son el estándar de calidad esperado. Fijate en la concreción de `deepResearch`, en las listas breves de `whyInteresting`, " +
@@ -23,10 +27,8 @@ export const exampleBlock = (investor: Investor): string => {
   return codeBlock("json", JSON.stringify(profile, null, 2));
 };
 
-export const renderExamples = (investors: Investor[]): string => paragraphs(INTRO, selectExamples(investors).map(exampleBlock).join("\n\n"));
-
-export const examplesSection: PromptSection = {
+export const examples: Term = {
   id: "examples",
   title: (ctx) => `Perfiles de ejemplo (nivel superior a ${EXAMPLE_MIN_LEVEL}, ${selectExamples(ctx.investors).length} perfiles)`,
-  render: (ctx) => renderExamples(ctx.investors),
+  render: (ctx) => paragraphs(INTRO, selectExamples(ctx.investors).map(exampleBlock).join("\n\n")),
 };

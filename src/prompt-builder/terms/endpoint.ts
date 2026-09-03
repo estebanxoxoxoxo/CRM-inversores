@@ -1,22 +1,7 @@
-/**
- * Step 5 — the endpoint: where and how to send the profiles. Reads the deployment URL (VITE_APP_URL, else the current
- * origin) and the token (VITE_INGEST_TOKEN) from the environment; the batch limit comes from the type contract.
- */
-import { ingestToken } from "../lib/api";
-import { INGEST_MAX_PER_REQUEST } from "../types/investor";
-import { MISSING_TOKEN } from "./config";
-import { bullets, codeBlock, paragraphs } from "./format";
-import type { PromptContext, PromptSection } from "./types";
-
-export { ingestToken };
-
-/** Public URL of the ingest endpoint. A chat outside the machine cannot reach localhost, hence VITE_APP_URL. */
-export function ingestEndpoint(): string {
-  const base = (import.meta.env.VITE_APP_URL as string | undefined) || window.location.origin;
-  return `${base.replace(/\/+$/, "")}/api/investors`;
-}
-
-export const tokenOrPlaceholder = (token: string): string => token || MISSING_TOKEN;
+/** Term "Envío de perfiles: endpoint". URL and token are inputs; the batch limit comes from the type contract. */
+import { INGEST_MAX_PER_REQUEST } from "../../types/investor";
+import { bullets, codeBlock, paragraphs } from "../format";
+import type { PromptContext, Term } from "../types";
 
 export const request = (ctx: PromptContext): string =>
   codeBlock("", `POST ${ctx.endpoint}\nAuthorization: Bearer ${ctx.token}\nContent-Type: application/json\n\n{ "investors": [ { ...perfil 1... }, { ...perfil 2... } ] }`);
@@ -40,7 +25,7 @@ export const curl = (ctx: PromptContext): string =>
 
 export const FALLBACK = "Si no podés hacer peticiones HTTP, entregá el cuerpo JSON completo en un bloque de código, listo para enviarlo con el comando anterior.";
 
-export const endpointSection: PromptSection = {
+export const endpoint: Term = {
   id: "endpoint",
   title: () => "Envío de perfiles: endpoint",
   render: (ctx) => paragraphs(request(ctx), bullets([batching(), RESPONSE, EXAMPLE_LABEL]), curl(ctx), FALLBACK),

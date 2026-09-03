@@ -1,6 +1,6 @@
 /** Section "Investigación profunda de cada persona seleccionada": one constant per instruction, rendered numbered. */
 import { numbered } from "../format";
-import type { PromptSection } from "../types";
+import type { Term } from "../types";
 
 export const SEARCH =
   "Buscá en la web en inglés y español, con un mínimo de 8 a 12 búsquedas por persona: web del fondo, LinkedIn a través de buscadores, " +
@@ -60,7 +60,7 @@ export const ABSOLUTE_TERMS =
 
 export const STEPS = [SEARCH, CONFIRM, ORIGIN, EMAIL, PERSONAL_WEBSITE, HONESTY, DEEP_RESEARCH, BACKGROUND, SUMMARIES, LISTS, SOURCES_AND_CONFIDENCE, ABSOLUTE_TERMS];
 
-export const researchSection: PromptSection = {
+export const research: Term = {
   id: "research",
   title: () => "Investigación profunda de cada persona seleccionada",
   render: () => numbered(STEPS),

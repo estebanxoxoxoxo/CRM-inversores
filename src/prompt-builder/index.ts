@@ -1,23 +1,23 @@
 /**
- * "Buscar más perfiles" prompt, built in six steps, one file each:
+ * "Buscar más perfiles" prompt.
  *
- *   1. ask.ts         what we ask the model (text under ask/)
- *   2. type.ts        the investor type, embedded verbatim
- *   3. exclusions.ts  every existing investor, so none is repeated
- *   4. examples.ts    the best profiles, as the quality bar
- *   5. endpoint.ts    where to send the result (URL and token from the environment)
- *   6. build.ts       joins all of the above, literally, into the final string
+ *   inputs/   where each input comes from: count (dialog), environment (endpoint URL and token), type-source
+ *             (the investor type file), date. The investors come from the app's live subscription.
+ *   terms/    one file per piece of the prompt, every paragraph an exported constant
+ *   numbering.ts   section numbers and cross-references
+ *   build.ts       the aggregator: renders every term in order and joins them literally
  *
- * Parameters live in config.ts. This entry point gathers the inputs (investors from the app, count from the dialog)
- * and runs the build.
+ * This entry point gathers the inputs and runs the build.
  */
 import type { Investor } from "../types/investor";
-import { buildPrompt, clampCount } from "./build";
-import { DEFAULT_COUNT } from "./config";
-import { ingestEndpoint, ingestToken, tokenOrPlaceholder } from "./endpoint";
-import { selectExamples } from "./examples";
+import { buildPrompt } from "./build";
+import { DEFAULT_COUNT, clampCount } from "./inputs/count";
+import { today } from "./inputs/date";
+import { ingestEndpoint, ingestToken, tokenOrPlaceholder } from "./inputs/environment";
+import { TYPE_SOURCE } from "./inputs/type-source";
+import { selectExamples } from "./terms/examples";
 
-export { DEFAULT_COUNT, MAX_COUNT } from "./config";
+export { DEFAULT_COUNT, MAX_COUNT } from "./inputs/count";
 
 export interface PromptOptions {
   /** Undisputed and high-potential investors requested, each. */
@@ -37,6 +37,6 @@ export function buildResearchPrompt(investors: Investor[], options: PromptOption
   const count = clampCount(options.count);
   const token = ingestToken();
   const endpoint = ingestEndpoint();
-  const text = buildPrompt({ count, investors, endpoint, token: tokenOrPlaceholder(token), date: new Date().toISOString().slice(0, 10) });
+  const text = buildPrompt({ count, investors, endpoint, token: tokenOrPlaceholder(token), date: today(), typeSource: TYPE_SOURCE });
   return { text, count, excluded: investors.length, examples: selectExamples(investors).length, endpoint, hasToken: Boolean(token) };
 }

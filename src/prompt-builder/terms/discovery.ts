@@ -1,6 +1,6 @@
 /** Section "Descubrimiento de candidatos": how to find new people. */
 import { numbered, paragraphs, quotedList } from "../format";
-import type { PromptContext, PromptSection } from "../types";
+import type { PromptContext, Term } from "../types";
 
 export const intro = (ctx: PromptContext): string => `Buscá personas que no estén en la lista de excluidos de la sección ${ctx.sectionNumber("exclusions")}.`;
 
@@ -66,7 +66,7 @@ export const NOTES =
   'Sé honesto: si no podés confirmar la fluidez en español, decilo ("origen sólo, fluidez no confirmada"). No rellenes con generalistas ' +
   "de consumo o fintech. Llevá una lista de considerados y rechazados con el motivo, para no volver a investigarlos.";
 
-export const discoverySection: PromptSection = {
+export const discovery: Term = {
   id: "discovery",
   title: () => "Descubrimiento de candidatos",
   render: (ctx) => paragraphs(intro(ctx), numbered([FUNDS, queries(), sources(), NOTES])),

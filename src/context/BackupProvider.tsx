@@ -40,7 +40,7 @@ export default function BackupProvider({ children }: { children: ReactNode }) {
   const create = useCallback(async () => {
     if (!ingestToken()) {
       setError("No se puede hacer backup desde la app: definí VITE_INGEST_TOKEN.");
-      return;
+      return false;
     }
     setRunning(true);
     setError(null);
@@ -48,8 +48,10 @@ export default function BackupProvider({ children }: { children: ReactNode }) {
       const { backup } = await apiRequest<{ backup: BackupInfo }>("/api/backup", authorizedInit({ method: "POST" }));
       setLatest(backup);
       setStatus("ready");
+      return true;
     } catch (e) {
       setError(`No se pudo crear el backup: ${explain(e)}`);
+      return false;
     } finally {
       setRunning(false);
     }

@@ -1,5 +1,5 @@
 /** Spanish UI labels for the English codes of the investor type. Everything the user reads comes from here. */
-import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type AuditStatus, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
+import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
 
 export const RATING_LABELS: Record<Rating, string> = {
   approved: "Aprobado",
@@ -36,8 +36,6 @@ export const BAND_CLASS: Record<Band, string> = {
   discarded: "band-4",
   unaudited: "band-0",
 };
-
-export const AUDIT_STATUS_LABELS: Record<AuditStatus, string> = { reviewed: "revisado", pending: "pendiente" };
 
 export const REGION_LABELS: Record<Region, string> = {
   us_hispanic: "EE.UU. (hispanohablante)",

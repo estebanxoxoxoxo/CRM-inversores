@@ -96,7 +96,11 @@ reescribe los desfasados en su forma canónica.
 - `src/lib/investors.ts` — suscripción a Firestore. `src/context/` — el contexto que expone la colección.
 - `src/lib/filters.ts` — filtros, orden y URL. `src/components/` — filtros, lista, ficha y badges.
 - `src/lib/backup.ts` — copias en el bucket, compartido por la app y los scripts. `src/lib/json.ts` — claves ordenadas.
-- `scripts/` — `integrity.ts`, `backup.ts`, `restore.ts`; `scripts/lib/firestore.ts` conecta con la config de `.env`.
+  `src/lib/api.ts` — llamadas de la app a sus propias funciones (`/api/*`) con el token.
+- `api/` — funciones de Vercel: `investors.ts` (ingesta) y `backup.ts`. `server/` — lo que comparten: `firestore.ts`
+  (inicialización con las variables de entorno), `auth.ts` (token), `ingest.ts` (validación y deduplicación).
+- `scripts/` — `integrity.ts`, `backup.ts`, `restore.ts`; `scripts/lib/firestore.ts` carga `.env` y reutiliza la
+  inicialización de `server/firestore.ts`.
 
 ## Auditoría dentro del perfil
 

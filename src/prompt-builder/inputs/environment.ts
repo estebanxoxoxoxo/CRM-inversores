@@ -7,7 +7,7 @@ import { ingestToken } from "../../lib/api";
 export { ingestToken };
 
 /** Shown in place of the token when VITE_INGEST_TOKEN is not configured. */
-export const MISSING_TOKEN = "<VITE_INGEST_TOKEN no configurado>";
+const MISSING_TOKEN = "<VITE_INGEST_TOKEN no configurado>";
 
 export function ingestEndpoint(): string {
   const base = (import.meta.env.VITE_APP_URL as string | undefined) || window.location.origin;

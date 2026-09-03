@@ -25,7 +25,7 @@ export interface InvestorsSnapshot {
   invalid: InvalidDocument[];
 }
 
-export function toDataError(e: unknown): DataError {
+function toDataError(e: unknown): DataError {
   if (e instanceof DataError) return e;
   const message = describeError(e);
   if (/permission|PERMISSION_DENIED|insufficient/i.test(message)) {

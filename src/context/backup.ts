@@ -9,11 +9,11 @@ export interface BackupState {
   running: boolean;
   /** Last error, from the initial query or from a backup attempt. */
   error: string | null;
-  /** Creates and verifies a backup; resolves when `latest` has been updated. */
-  create: () => Promise<void>;
+  /** Creates and verifies a backup; resolves to true when `latest` has been updated, false on error. */
+  create: () => Promise<boolean>;
 }
 
-export const INITIAL_BACKUP_STATE: BackupState = { status: "loading", latest: null, running: false, error: null, create: async () => {} };
+const INITIAL_BACKUP_STATE: BackupState = { status: "loading", latest: null, running: false, error: null, create: async () => false };
 
 export const BackupContext = createContext<BackupState>(INITIAL_BACKUP_STATE);
 

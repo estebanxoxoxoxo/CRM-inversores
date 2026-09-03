@@ -8,7 +8,7 @@ import { getBytes, getMetadata, getStorage, listAll, ref, uploadBytes, type Full
 import { COLLECTION } from "../types/investor";
 import { sortKeys } from "./json";
 
-export const BACKUP_FOLDER = `backups/${COLLECTION}`;
+const BACKUP_FOLDER = `backups/${COLLECTION}`;
 
 export interface BackupDocument {
   id: string;
@@ -34,12 +34,12 @@ export interface BackupInfo {
   count: number | null;
 }
 
-export const backupName = (createdAt: string): string => `${createdAt.replace(/[:.]/g, "-").slice(0, 19)}.json`;
+const backupName = (createdAt: string): string => `${createdAt.replace(/[:.]/g, "-").slice(0, 19)}.json`;
 
 /** Canonical JSON of the archive: keys sorted so two backups of the same data are byte-identical. */
-export const serialize = (archive: BackupArchive): string => JSON.stringify(sortKeys(archive), null, 2) + "\n";
+const serialize = (archive: BackupArchive): string => JSON.stringify(sortKeys(archive), null, 2) + "\n";
 
-export function buildArchive(documents: BackupDocument[], createdAt: string): BackupArchive {
+function buildArchive(documents: BackupDocument[], createdAt: string): BackupArchive {
   const sorted = [...documents].sort((a, b) => a.id.localeCompare(b.id));
   return { collection: COLLECTION, createdAt, count: sorted.length, documents: sorted };
 }

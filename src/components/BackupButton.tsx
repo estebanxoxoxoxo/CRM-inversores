@@ -15,8 +15,7 @@ export default function BackupButton() {
   }, [confirmation]);
 
   const run = async () => {
-    await create();
-    setConfirmation("Backup verificado.");
+    if (await create()) setConfirmation("Backup verificado.");
   };
 
   const summary = error

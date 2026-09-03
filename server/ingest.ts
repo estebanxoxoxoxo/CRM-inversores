@@ -34,7 +34,7 @@ const normaliseLinkedin = (url: string) =>
     .replace(/\/+$/, "");
 
 /** Accepts `{ investors: [...] }`, a bare array or a single object. */
-export function parsePayload(body: unknown): unknown[] {
+function parsePayload(body: unknown): unknown[] {
   if (Array.isArray(body)) return body;
   if (body && typeof body === "object") {
     const investors = (body as Doc).investors;
@@ -45,7 +45,7 @@ export function parsePayload(body: unknown): unknown[] {
 }
 
 /** Fills what the server owns, drops derived values and validates. Throws with a readable message. */
-export function prepareSubmission(raw: unknown, now: string): Investor {
+function prepareSubmission(raw: unknown, now: string): Investor {
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) throw new Error("each investor must be an object");
   const submitted = raw as Doc;
   const audit = (submitted.audit && typeof submitted.audit === "object" ? submitted.audit : {}) as Doc;

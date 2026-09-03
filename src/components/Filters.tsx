@@ -30,7 +30,7 @@ export default function FiltersPanel({ filters, onChange, investors }: Props) {
 
   return (
     <aside className="filters">
-      <div className="filters-header">
+      <div>
         <input
           type="search"
           className="search"

@@ -14,13 +14,13 @@ import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src
 import { connect, explainError } from "./lib/firestore";
 import { sortKeys } from "../src/lib/json";
 
-export interface StaleDocument {
+interface StaleDocument {
   id: string;
   canonical: Investor;
   differences: string[];
 }
 
-export interface IntegrityReport {
+interface IntegrityReport {
   total: number;
   valid: number;
   invalid: { id: string; error: string }[];
@@ -30,7 +30,7 @@ export interface IntegrityReport {
 const isObject = (value: unknown): value is Record<string, unknown> => Boolean(value) && typeof value === "object" && !Array.isArray(value);
 
 /** Paths where `stored` and `canonical` differ, with both values for scalars. `updatedAt` is ignored. */
-export function differences(stored: unknown, canonical: unknown, path = ""): string[] {
+function differences(stored: unknown, canonical: unknown, path = ""): string[] {
   if (isObject(stored) && isObject(canonical)) {
     const keys = new Set([...Object.keys(stored), ...Object.keys(canonical)]);
     keys.delete("updatedAt");
@@ -44,7 +44,7 @@ export function differences(stored: unknown, canonical: unknown, path = ""): str
   return JSON.stringify(sortKeys(stored)) === JSON.stringify(sortKeys(canonical)) ? [] : [`${path}: ${JSON.stringify(stored)} → ${JSON.stringify(canonical)}`];
 }
 
-export async function checkIntegrity(db: Firestore): Promise<IntegrityReport> {
+async function checkIntegrity(db: Firestore): Promise<IntegrityReport> {
   const snapshot = await getDocs(collection(db, COLLECTION));
   const report: IntegrityReport = { total: snapshot.size, valid: 0, invalid: [], stale: [] };
   for (const document of snapshot.docs) {
@@ -62,7 +62,7 @@ export async function checkIntegrity(db: Firestore): Promise<IntegrityReport> {
 }
 
 /** Rewrites every stale document in its canonical form. Returns how many were written. */
-export async function fixStale(db: Firestore, stale: StaleDocument[]): Promise<number> {
+async function fixStale(db: Firestore, stale: StaleDocument[]): Promise<number> {
   const now = new Date().toISOString();
   let batch = writeBatch(db);
   let batched = 0;
@@ -78,26 +78,24 @@ export async function fixStale(db: Firestore, stale: StaleDocument[]): Promise<n
   return stale.length;
 }
 
-if (process.argv[1] && process.argv[1].replace(/\\/g, "/").endsWith("scripts/integrity.ts")) {
-  const fix = process.argv.includes("--fix");
-  const db = connect();
-  (async () => {
-    const report = await checkIntegrity(db);
-    console.log(`Integrity of ${COLLECTION}: ${report.total} documents, ${report.valid} valid, ${report.invalid.length} invalid, ${report.stale.length} stale.`);
-    for (const { id, error } of report.invalid) console.log(`  INVALID ${id}: ${error}`);
-    for (const { id, differences: diff } of report.stale) console.log(`  STALE ${id}: ${diff.join("; ")}`);
-    let unresolved = report.invalid.length + report.stale.length;
-    if (fix && report.stale.length) {
-      const written = await fixStale(db, report.stale);
-      console.log(`Rewrote ${written} stale document(s) in canonical form.`);
-      unresolved = report.invalid.length;
-    } else if (report.stale.length) {
-      console.log("Run with --fix to rewrite the stale documents.");
-    }
-    await terminate(db);
-    process.exitCode = unresolved ? 1 : 0;
-  })().catch((e: unknown) => {
-    console.error("ERROR:", explainError(e));
-    process.exit(1);
-  });
-}
+const fix = process.argv.includes("--fix");
+const db = connect();
+(async () => {
+  const report = await checkIntegrity(db);
+  console.log(`Integrity of ${COLLECTION}: ${report.total} documents, ${report.valid} valid, ${report.invalid.length} invalid, ${report.stale.length} stale.`);
+  for (const { id, error } of report.invalid) console.log(`  INVALID ${id}: ${error}`);
+  for (const { id, differences: diff } of report.stale) console.log(`  STALE ${id}: ${diff.join("; ")}`);
+  let unresolved = report.invalid.length + report.stale.length;
+  if (fix && report.stale.length) {
+    const written = await fixStale(db, report.stale);
+    console.log(`Rewrote ${written} stale document(s) in canonical form.`);
+    unresolved = report.invalid.length;
+  } else if (report.stale.length) {
+    console.log("Run with --fix to rewrite the stale documents.");
+  }
+  await terminate(db);
+  process.exitCode = unresolved ? 1 : 0;
+})().catch((e: unknown) => {
+  console.error("ERROR:", explainError(e));
+  process.exit(1);
+});

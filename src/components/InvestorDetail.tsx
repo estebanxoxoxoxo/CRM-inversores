@@ -189,7 +189,6 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
       <Section title={`Nivel ${investor.level}: motivo y desglose`}>
         <p>{audit.status === "pending" ? "Auditoría pendiente: este perfil todavía no fue revisado ni puntuado." : audit.reason}</p>
         <ScoreBreakdown score={audit.score} />
-        <p className="muted small">Revisado el {audit.date}.</p>
       </Section>
       <Section title="Por qué es interesante">
         <BulletList items={investor.whyInteresting} />
@@ -229,6 +228,7 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
         <h4 className="subheading">Otras vías y perfiles</h4>
         <BulletList items={contactSources.other} />
       </Section>
+      <p className="muted small detail-footer">Revisado el {audit.date}.</p>
     </section>
   );
 }

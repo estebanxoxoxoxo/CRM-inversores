@@ -12,7 +12,8 @@
     "recalculate": "tsx scripts/recalculate.ts",
     "import": "tsx scripts/import-profiles.ts",
     "snapshot": "tsx scripts/snapshot.ts",
-    "restore": "tsx scripts/restore.ts"
+    "restore": "tsx scripts/restore.ts",
+    "prompt": "tsx scripts/prompt-preview.ts"
   },
   "dependencies": {
     "firebase": "^12.18.0",

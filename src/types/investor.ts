@@ -19,6 +19,8 @@
 import { z } from "zod";
 
 export const COLLECTION = "investors";
+/** Maximum number of investors accepted by one call to the ingest endpoint. */
+export const INGEST_MAX_PER_REQUEST = 20;
 
 export const BANDS = ["undisputed", "high_potential", "reserve", "discarded", "unaudited"] as const;
 export const BandSchema = z.enum(BANDS);

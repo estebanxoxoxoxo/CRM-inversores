@@ -1,7 +1,7 @@
 import { useRef, useState, type FormEvent } from "react";
 import { useInvestors } from "../context/investors";
 import { copyText } from "../lib/clipboard";
-import { DEFAULT_COUNT, MAX_COUNT, buildResearchPrompt } from "../lib/prompt";
+import { DEFAULT_COUNT, MAX_COUNT, buildResearchPrompt } from "../prompt-builder";
 
 /** Asks how many new investors to look for, then copies the research prompt to the clipboard. */
 export default function FindMoreButton() {

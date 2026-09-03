@@ -6,9 +6,7 @@
  * email. Valid, new profiles are written in one batch; nothing existing is ever overwritten.
  */
 import { collection, doc, getDocs, writeBatch, type Firestore } from "firebase/firestore";
-import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src/types/investor";
-
-export const MAX_PER_REQUEST = 20;
+import { COLLECTION, INGEST_MAX_PER_REQUEST, deriveInvestor, describeError, type Investor } from "../src/types/investor";
 
 export class IngestError extends Error {
   readonly status: number;
@@ -117,7 +115,7 @@ function duplicateOf(index: Index, investor: Investor): string | null {
 export async function ingestInvestors(db: Firestore, body: unknown, dryRun: boolean): Promise<IngestResult> {
   const items = parsePayload(body);
   if (!items.length) throw new IngestError(400, "No investors in the payload");
-  if (items.length > MAX_PER_REQUEST) throw new IngestError(400, `At most ${MAX_PER_REQUEST} investors per request`);
+  if (items.length > INGEST_MAX_PER_REQUEST) throw new IngestError(400, `At most ${INGEST_MAX_PER_REQUEST} investors per request`);
 
   const existing = await getDocs(collection(db, COLLECTION));
   const index = indexOf(

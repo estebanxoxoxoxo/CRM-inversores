@@ -36,11 +36,24 @@ perfiles calificados como desaprobado o relleno no se usan como ejemplos en el p
 
 ## Buscar más perfiles
 
-El botón "Buscar más perfiles" (arriba a la derecha) copia al portapapeles un prompt completo para pegar en un chat de
-IA: el pedido original, la metodología de descubrimiento e investigación, la rúbrica, el código fuente del tipo, el
-endpoint de ingesta con su token, todos los perfiles existentes como excluidos (nombre, LinkedIn, email) y los perfiles
-con nivel mayor a 80 como ejemplos. El texto estático vive en `src/prompt/research-brief.md`; lo dinámico lo arma
-`src/lib/prompt.ts` desde la colección en vivo.
+El botón "Buscar más perfiles" (arriba a la derecha) pregunta cuántos perfiles buscar y copia al portapapeles un prompt
+completo para pegar en un chat de IA: el pedido, la metodología de descubrimiento e investigación, la rúbrica, el código
+fuente del tipo, el endpoint de ingesta con su token, todos los perfiles existentes como excluidos (nombre, LinkedIn,
+email) y los perfiles con nivel mayor a 80 como ejemplos.
+
+El prompt se construye en `src/prompt-builder/`:
+
+- `sections/` — un archivo por aspecto: `intro`, `request` (el pedido, un párrafo por constante), `context`,
+  `discovery`, `research`, `rubric`, `output-format`, `endpoint`, `exclusions`, `examples`, `footer`. Cada texto es una
+  constante exportada; cambiar una idea es cambiar una constante.
+- `sections.ts` — el orden del documento. Reordenar renumera los títulos y las referencias cruzadas ("sección 6").
+- `config.ts` — parámetros: cantidad por defecto y máxima, nivel mínimo de los ejemplos, calificaciones excluidas.
+- `assemble.ts` — ensambla intro, secciones numeradas y pie en una sola cadena. Puro, sin acceso al entorno.
+- `environment.ts` — URL del endpoint y token desde el entorno. `index.ts` — punto de entrada de la app.
+
+La rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `CAP_RULES`, `BAND_THRESHOLDS`,
+`INGEST_MAX_PER_REQUEST`), así que el prompt nunca se desfasa del servidor. `npm run prompt -- [cantidad]` renderiza
+el prompt desde el snapshot a `prompt-preview.md` para inspeccionarlo sin el navegador.
 
 `POST /api/investors` (`api/investors.ts`, función de Vercel) recibe `{ "investors": [ ... ] }` con
 `Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, fuerza la

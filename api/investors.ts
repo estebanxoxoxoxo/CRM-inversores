@@ -7,8 +7,8 @@
  */
 import { timingSafeEqual } from "node:crypto";
 import { getDb, isFirebaseConfigured } from "../server/firestore";
-import { IngestError, MAX_PER_REQUEST, ingestInvestors } from "../server/ingest";
-import { describeError } from "../src/types/investor";
+import { IngestError, ingestInvestors } from "../server/ingest";
+import { INGEST_MAX_PER_REQUEST, describeError } from "../src/types/investor";
 
 const json = (body: unknown, status = 200): Response => Response.json(body, { status });
 
@@ -25,7 +25,7 @@ function isAuthorized(request: Request): boolean {
 export function GET(): Response {
   return json({
     usage: 'POST { "investors": [ ... ] } with header "Authorization: Bearer <token>"; add ?dryRun=1 to validate without writing.',
-    maxPerRequest: MAX_PER_REQUEST,
+    maxPerRequest: INGEST_MAX_PER_REQUEST,
   });
 }
 

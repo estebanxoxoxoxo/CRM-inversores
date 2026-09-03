@@ -17,6 +17,8 @@ npm run recalculate                       # valida cada documento y reescribe lo
 npm run import -- <archivo.json|carpeta>  # alta de inversores nuevos desde un JSON de investigación (auditoría pendiente)
 npm run snapshot                          # copia de recupero: investors/* -> snapshot/investors/<id>.json (commitear)
 npm run restore                           # vuelve a escribir en Firestore lo que hay en snapshot/ (--prune borra lo que no esté)
+npm run backup                            # copia completa de investors al bucket de Storage, verificada (--list las enumera)
+npm run restore -- --backup <nombre>.json # vuelve a escribir en Firestore una copia del bucket
 npm run typecheck                         # tipos de la app y de los scripts
 ```
 
@@ -53,7 +55,7 @@ El prompt se construye en `src/prompt-builder/`:
 
 La rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `CAP_RULES`, `BAND_THRESHOLDS`,
 `INGEST_MAX_PER_REQUEST`), así que el prompt nunca se desfasa del servidor. `npm run prompt -- [cantidad]` renderiza
-el prompt desde el snapshot a `prompt-preview.md` para inspeccionarlo sin el navegador.
+el prompt desde el snapshot a un archivo en la carpeta temporal del sistema, para inspeccionarlo sin el navegador.
 
 `POST /api/investors` (`api/investors.ts`, función de Vercel) recibe `{ "investors": [ ... ] }` con
 `Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, fuerza la
@@ -68,10 +70,16 @@ en el prompt es `VITE_APP_URL` si está definida y, si no, el origen de la pági
 
 ## Recupero ante desastres
 
-`snapshot/investors/` es una copia versionada de la colección, no una fuente de verdad. Antes de una tarea riesgosa:
-`npm run snapshot` y commit. Si la base se daña: `npm run restore` (agrega `--prune` para eliminar también los
-documentos que no estén en el snapshot). Los archivos se escriben con las claves ordenadas, así que `git diff`
-muestra exactamente qué cambió entre dos snapshots.
+Dos copias independientes, ninguna es fuente de verdad:
+
+- `snapshot/investors/` en el repo: un archivo por perfil con las claves ordenadas, así `git diff` muestra qué cambió
+  entre dos snapshots. Antes de una tarea riesgosa: `npm run snapshot` y commit.
+- El bucket de Storage: `npm run backup` sube toda la colección como un único JSON a `backups/investors/<fecha>.json`,
+  lo vuelve a descargar y comprueba que sea byte a byte igual a lo leído. `npm run backup -- --list` enumera las copias.
+
+Si la base se daña: `npm run restore` (desde el snapshot) o `npm run restore -- --backup <nombre>.json` (desde el
+bucket); `--prune` elimina además los documentos que no estén en la copia. Las reglas de Storage deben permitir leer y
+escribir `backups/**` con el SDK web. No se guardan copias locales fuera del repo.
 
 Editar un perfil = editarlo en Firestore. La app recalcula lo derivado al leer, así que un documento editado a mano
 nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores derivados guardados alineados.

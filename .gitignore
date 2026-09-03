@@ -14,9 +14,3 @@ dist
 .idea
 .DS_Store
 *.log
-
-# Local database backups (not a source of truth)
-backups/
-
-# Local render of the research prompt (npm run prompt)
-prompt-preview.md

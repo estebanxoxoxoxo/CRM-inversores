@@ -27,6 +27,9 @@ export function connect(): Firestore {
 
 export function explainError(e: unknown): string {
   const message = e instanceof Error ? e.message : String(e);
+  if (/storage\/unauthorized|storage\/unauthenticated/i.test(message)) {
+    return `${message}\nStorage rules do not allow this operation from the web SDK. Check Storage > Rules for backups/**.`;
+  }
   if (/permission|PERMISSION_DENIED|insufficient/i.test(message)) {
     return `${message}\nFirestore rules do not allow this operation from the web SDK. Check Firestore > Rules for investors/*.`;
   }

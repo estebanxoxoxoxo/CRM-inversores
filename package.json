@@ -13,6 +13,7 @@
     "import": "tsx scripts/import-profiles.ts",
     "snapshot": "tsx scripts/snapshot.ts",
     "restore": "tsx scripts/restore.ts",
+    "backup": "tsx scripts/backup.ts",
     "prompt": "tsx scripts/prompt-preview.ts"
   },
   "dependencies": {

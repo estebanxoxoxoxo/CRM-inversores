@@ -1,10 +1,11 @@
 /**
  * Renders the research prompt from the committed snapshot, without the browser, so every section can be inspected.
  *
- * Usage: npm run prompt -- [count]   → writes prompt-preview.md at the project root (ignored by git)
+ * Usage: npm run prompt -- [count]   → writes the prompt to a file in the system temp folder and prints its path
  */
 import "dotenv/config";
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { assemblePrompt } from "../src/prompt-builder/assemble";
 import { DEFAULT_COUNT, MISSING_TOKEN } from "../src/prompt-builder/config";
@@ -30,6 +31,6 @@ const text = assemblePrompt({
   typeSource: fs.readFileSync(path.join(root, "src", "types", "investor.ts"), "utf8"),
 });
 
-const target = path.join(root, "prompt-preview.md");
+const target = path.join(os.tmpdir(), `investor-crm-prompt-${count}.md`);
 fs.writeFileSync(target, text, "utf8");
 console.log(`Prompt for ${count} + ${count} investors written to ${target} (${Math.round(text.length / 1024)} KB, ${investors.length} exclusions).`);

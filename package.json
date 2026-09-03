@@ -9,9 +9,9 @@
     "preview": "vite preview",
     "lint": "oxlint",
     "typecheck": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.scripts.json --noEmit",
-    "recalculate": "tsx scripts/recalculate.ts",
-    "restore": "tsx scripts/restore.ts",
-    "backup": "tsx scripts/backup.ts"
+    "integrity": "tsx scripts/integrity.ts",
+    "backup": "tsx scripts/backup.ts",
+    "restore": "tsx scripts/restore.ts"
   },
   "dependencies": {
     "firebase": "^12.18.0",

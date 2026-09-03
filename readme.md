@@ -13,7 +13,7 @@ suscribe a la colección entera y refleja cualquier cambio en vivo.
 
 ```bash
 npm run dev                               # la app, suscripta a investors
-npm run recalculate                       # valida cada documento y reescribe los valores derivados que cambiaron
+npm run integrity                         # valida cada documento contra el tipo y reporta inválidos y desfasados (--fix reescribe los desfasados)
 npm run backup                            # copia completa de investors al bucket de Storage, verificada (--list las enumera)
 npm run restore -- <nombre>.json          # vuelve a escribir en Firestore una copia del bucket (--prune borra lo que no esté)
 npm run typecheck                         # tipos de la app y de los scripts
@@ -75,7 +75,9 @@ copia. Las reglas de Storage deben permitir leer y escribir `backups/**` con el 
 en disco: la única fuente de verdad es Firestore y las copias viven en el bucket.
 
 Editar un perfil = editarlo en Firestore. La app recalcula lo derivado al leer, así que un documento editado a mano
-nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores derivados guardados alineados.
+nunca muestra un nivel desfasado. `npm run integrity` comprueba toda la colección contra el tipo: reporta los documentos
+inválidos (no cumplen el tipo) y los desfasados (valores derivados viejos o campos que el tipo no define); con `--fix`
+reescribe los desfasados en su forma canónica.
 
 ## Estructura
 
@@ -84,7 +86,7 @@ nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores
 - `src/lib/labels.ts` — etiquetas en español para cada código (bandas, regiones, tipos, estados, topes, rúbrica).
 - `src/lib/investors.ts` — suscripción a Firestore. `src/context/` — el contexto que expone la colección.
 - `src/lib/filters.ts` — filtros, orden y URL. `src/components/` — filtros, lista, ficha y badges.
-- `scripts/` — `recalculate.ts`, `backup.ts`, `restore.ts`; `scripts/lib/` conecta con la config de `.env`, serializa con claves
+- `scripts/` — `integrity.ts`, `backup.ts`, `restore.ts`; `scripts/lib/` conecta con la config de `.env`, serializa con claves
   ordenadas y maneja las copias del bucket.
 
 ## Auditoría dentro del perfil

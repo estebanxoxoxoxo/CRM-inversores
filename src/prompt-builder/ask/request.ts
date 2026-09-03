@@ -19,7 +19,7 @@ export const PURITY =
 export const quantity = (count: number): string => `Quiero ${count} perfiles que sean indiscutibles en su pureza y ${count} que tengan muchísimo potencial.`;
 
 export const delivery = (ctx: PromptContext): string =>
-  `Cada perfil se entrega con el tipo de la sección ${ctx.sectionNumber("output")} y se envía a la base por el endpoint de la sección ${ctx.sectionNumber("endpoint")}.`;
+  `Cada perfil se entrega con el tipo de la sección ${ctx.sectionNumber("type")} y se envía a la base por el endpoint de la sección ${ctx.sectionNumber("endpoint")}.`;
 
 export const requestSection: PromptSection = {
   id: "request",

@@ -40,18 +40,23 @@ completo para pegar en un chat de IA: el pedido, la metodología de descubrimien
 fuente del tipo, el endpoint de ingesta con su token, todos los perfiles existentes como excluidos (nombre, LinkedIn,
 email) y los perfiles con nivel mayor a 80 como ejemplos.
 
-El prompt se construye en `src/prompt-builder/`:
+El prompt se construye en `src/prompt-builder/` en seis pasos, un archivo por paso:
 
-- `sections/` — un archivo por aspecto: `intro`, `request` (el pedido, un párrafo por constante), `context`,
-  `discovery`, `research`, `rubric`, `output-format`, `endpoint`, `exclusions`, `examples`, `footer`. Cada texto es una
-  constante exportada; cambiar una idea es cambiar una constante.
-- `sections.ts` — el orden del documento. Reordenar renumera los títulos y las referencias cruzadas ("sección 6").
-- `config.ts` — parámetros: cantidad por defecto y máxima, nivel mínimo de los ejemplos, calificaciones excluidas.
-- `assemble.ts` — ensambla intro, secciones numeradas y pie en una sola cadena. Puro, sin acceso al entorno.
-- `environment.ts` — URL del endpoint y token desde el entorno. `index.ts` — punto de entrada de la app.
+1. `ask.ts` — el pedido: todo lo que se le dice al modelo. El texto vive en `ask/`, un archivo por tema (`intro`,
+   `request`, `context`, `discovery`, `research`, `rubric`), cada párrafo como constante exportada: cambiar una idea es
+   cambiar una constante. La rúbrica lee pesos, topes y bandas del tipo.
+2. `type.ts` — el tipo: el código fuente de `src/types/investor.ts` incrustado tal cual, más las notas para armar cada
+   objeto.
+3. `exclusions.ts` — los excluidos: todos los perfiles de la base, una línea por perfil.
+4. `examples.ts` — los ejemplos: los perfiles revisados con nivel mayor a 80 (sin desaprobados ni relleno), en JSON.
+5. `endpoint.ts` — el endpoint: URL y token desde el entorno, límite por petición desde el tipo, modo de prueba y `curl`.
+6. `build.ts` — la unión: junta apertura, las nueve secciones numeradas y el pie, literalmente y en ese orden. Los
+   números y las referencias cruzadas ("sección 6") se calculan aquí, así que reordenar no rompe nada.
 
-La rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `CAP_RULES`, `BAND_THRESHOLDS`,
-`INGEST_MAX_PER_REQUEST`), así que el prompt nunca se desfasa del servidor.
+`config.ts` tiene los parámetros (cantidad por defecto y máxima, nivel mínimo de los ejemplos, calificaciones
+excluidas) y `index.ts` es el punto de entrada: recibe los perfiles del contexto y la cantidad del diálogo, y ejecuta
+la unión. Como la rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `CAP_RULES`, `BAND_THRESHOLDS`,
+`INGEST_MAX_PER_REQUEST`), el prompt nunca se desfasa del servidor.
 
 `POST /api/investors` (`api/investors.ts`, función de Vercel) recibe `{ "investors": [ ... ] }` con
 `Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, fuerza la

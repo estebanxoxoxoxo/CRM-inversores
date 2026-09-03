@@ -1,5 +1,7 @@
 import react from "@vitejs/plugin-react";
+import fs from "node:fs";
 import type { IncomingMessage, ServerResponse } from "node:http";
+import path from "node:path";
 import { createServerModuleRunner, defineConfig, loadEnv, type Plugin } from "vite";
 
 type Handler = (request: Request) => Response | Promise<Response>;
@@ -11,17 +13,22 @@ function sendJson(res: ServerResponse, status: number, body: unknown): void {
 }
 
 /**
- * Serves /api/investors under `npm run dev` with the same handlers Vercel runs in production (api/investors.ts),
- * so the ingest endpoint works locally. The module is loaded through Vite, so edits apply without a restart.
+ * Serves /api/<name> under `npm run dev` with the same handlers Vercel runs in production (api/<name>.ts), so the
+ * API works locally. Modules are loaded through Vite, so edits apply without a restart.
  */
 function localApi(): Plugin {
   return {
     name: "local-api",
     configureServer(server) {
       const runner = createServerModuleRunner(server.environments.ssr);
-      server.middlewares.use("/api/investors", async (req: IncomingMessage, res: ServerResponse) => {
+      server.middlewares.use("/api", async (req: IncomingMessage, res: ServerResponse) => {
         try {
-          const handlers = (await runner.import("/api/investors.ts")) as Record<string, Handler | undefined>;
+          const name = (req.url ?? "/").split("?")[0].replace(/^\/+|\/+$/g, "");
+          if (!/^[a-z0-9-]+$/.test(name) || !fs.existsSync(path.resolve("api", `${name}.ts`))) {
+            sendJson(res, 404, { error: `No API function named ${name || "(none)"}` });
+            return;
+          }
+          const handlers = (await runner.import(`/api/${name}.ts`)) as Record<string, Handler | undefined>;
           const method = req.method ?? "GET";
           const handler = handlers[method];
           if (!handler) {
@@ -36,8 +43,8 @@ function localApi(): Plugin {
           const chunks: Buffer[] = [];
           for await (const chunk of req) chunks.push(chunk as Buffer);
           const hasBody = chunks.length > 0 && method !== "GET" && method !== "HEAD";
-          const path = (req as IncomingMessage & { originalUrl?: string }).originalUrl ?? req.url ?? "/api/investors";
-          const request = new Request(`http://${req.headers.host ?? "localhost"}${path}`, { method, headers, body: hasBody ? Buffer.concat(chunks) : undefined });
+          const url = (req as IncomingMessage & { originalUrl?: string }).originalUrl ?? `/api/${name}`;
+          const request = new Request(`http://${req.headers.host ?? "localhost"}${url}`, { method, headers, body: hasBody ? Buffer.concat(chunks) : undefined });
           const response = await handler(request);
           res.statusCode = response.status;
           response.headers.forEach((value, key) => res.setHeader(key, value));

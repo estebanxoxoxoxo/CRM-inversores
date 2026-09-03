@@ -12,7 +12,7 @@
 import { collection, doc, getDocs, terminate, writeBatch, type Firestore } from "firebase/firestore";
 import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src/types/investor";
 import { connect, explainError } from "./lib/firestore";
-import { sortKeys } from "./lib/json";
+import { sortKeys } from "../src/lib/json";
 
 export interface StaleDocument {
   id: string;

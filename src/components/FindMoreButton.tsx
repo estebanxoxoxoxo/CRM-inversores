@@ -41,7 +41,7 @@ export default function FindMoreButton() {
   };
 
   return (
-    <div className="header-actions">
+    <>
       {feedback && <span className={`small ${feedback.error ? "error" : "muted"}`}>{feedback.text}</span>}
       <button type="button" className="primary" disabled={status !== "ready"} onClick={open} title="Copia al portapapeles el prompt para buscar perfiles nuevos en un chat de IA">
         Buscar más perfiles
@@ -67,6 +67,6 @@ export default function FindMoreButton() {
           </div>
         </form>
       </dialog>
-    </div>
+    </>
   );
 }

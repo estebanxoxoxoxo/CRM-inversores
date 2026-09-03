@@ -8,7 +8,7 @@
  */
 import { collection, doc, getDocs, writeBatch, type Firestore } from "firebase/firestore";
 import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src/types/investor";
-import { downloadBackup, type BackupDocument } from "./lib/backup";
+import { downloadBackup, type BackupDocument } from "../src/lib/backup";
 import { connect, explainError } from "./lib/firestore";
 
 const prune = process.argv.includes("--prune");

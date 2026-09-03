@@ -222,7 +222,11 @@ textarea {
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+}
+.header-actions .small {
+  text-align: right;
 }
 .layout {
   display: grid;

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import BackupButton from "./components/BackupButton";
 import FiltersPanel from "./components/Filters";
 import FindMoreButton from "./components/FindMoreButton";
 import InvestorDetail from "./components/InvestorDetail";
@@ -40,8 +41,11 @@ export default function App() {
             "Cargando desde Firestore…"
           )}
         </p>
-        <FindMoreButton />
-        <ThemeSwitch />
+        <div className="header-actions">
+          <BackupButton />
+          <FindMoreButton />
+          <ThemeSwitch />
+        </div>
       </header>
       {error && (
         <div className="error-notice">

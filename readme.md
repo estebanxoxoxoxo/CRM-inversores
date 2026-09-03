@@ -59,15 +59,19 @@ auditoría a `pending`, recalcula lo derivado, rechaza duplicados por id, nombre
 nuevos; nunca sobreescribe. `?dryRun=1` valida sin escribir. Variables: `VITE_INGEST_TOKEN` (obligatoria) y
 `VITE_APP_URL` (opcional; en Vercel se toma de `VERCEL_PROJECT_PRODUCTION_URL`).
 
-En desarrollo, `npm run dev` también sirve `/api/investors` con el mismo handler (plugin `localApi` en
-`vite.config.ts`), así que se puede probar con `curl` contra `http://localhost:5173/api/investors`. El endpoint que va
+En desarrollo, `npm run dev` también sirve cada `api/<nombre>.ts` en `/api/<nombre>` con el mismo handler (plugin
+`localApi` en `vite.config.ts`), así que se puede probar con `curl` contra `http://localhost:5173/api/investors`. El endpoint que va
 en el prompt es `VITE_APP_URL` si está definida y, si no, el origen de la página: un chat externo no puede llegar a
 `localhost`, así que en local conviene definir `VITE_APP_URL` con la URL del deploy.
 
 ## Recupero ante desastres
 
-`npm run backup` sube toda la colección como un único JSON a `backups/investors/<fecha>.json` en el bucket de Storage,
-lo vuelve a descargar y comprueba que sea byte a byte igual a lo leído. Antes de una tarea riesgosa: `npm run backup`.
+El botón "Hacer backup" de la cabecera y `npm run backup` hacen lo mismo con el mismo código (`src/lib/backup.ts`):
+suben toda la colección como un único JSON a `backups/investors/<fecha>.json` en el bucket de Storage, lo vuelven a
+descargar y comprueban que sea byte a byte igual a lo leído. Desde la app corre en el servidor a través de
+`/api/backup` (`api/backup.ts`; `POST` con el token crea, `GET` devuelve el último), así la verificación no depende de la
+configuración CORS del bucket. La cabecera muestra la fecha del último backup: se consulta al cargar
+(`src/context/BackupProvider.tsx`) y se actualiza al crear uno. Antes de una tarea riesgosa: backup.
 `npm run backup -- --list` enumera las copias.
 
 Si la base se daña: `npm run restore -- <nombre>.json`; `--prune` elimina además los documentos que no estén en la
@@ -86,8 +90,8 @@ reescribe los desfasados en su forma canónica.
 - `src/lib/labels.ts` — etiquetas en español para cada código (bandas, regiones, tipos, estados, topes, rúbrica).
 - `src/lib/investors.ts` — suscripción a Firestore. `src/context/` — el contexto que expone la colección.
 - `src/lib/filters.ts` — filtros, orden y URL. `src/components/` — filtros, lista, ficha y badges.
-- `scripts/` — `integrity.ts`, `backup.ts`, `restore.ts`; `scripts/lib/` conecta con la config de `.env`, serializa con claves
-  ordenadas y maneja las copias del bucket.
+- `src/lib/backup.ts` — copias en el bucket, compartido por la app y los scripts. `src/lib/json.ts` — claves ordenadas.
+- `scripts/` — `integrity.ts`, `backup.ts`, `restore.ts`; `scripts/lib/firestore.ts` conecta con la config de `.env`.
 
 ## Auditoría dentro del perfil
 

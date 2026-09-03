@@ -5,22 +5,12 @@
  * duplicates and writes the new ones to Firestore with the audit pending. Requires `Authorization: Bearer
  * <VITE_INGEST_TOKEN>`. Add `?dryRun=1` to validate without writing.
  */
-import { timingSafeEqual } from "node:crypto";
+import { isAuthorized, tokenConfigured } from "../server/auth";
 import { getDb, isFirebaseConfigured } from "../server/firestore";
 import { IngestError, ingestInvestors } from "../server/ingest";
 import { INGEST_MAX_PER_REQUEST, describeError } from "../src/types/investor";
 
 const json = (body: unknown, status = 200): Response => Response.json(body, { status });
-
-function isAuthorized(request: Request): boolean {
-  const expected = process.env.VITE_INGEST_TOKEN ?? "";
-  const header = request.headers.get("authorization") ?? "";
-  const presented = header.startsWith("Bearer ") ? header.slice(7).trim() : "";
-  if (!expected || !presented) return false;
-  const a = Buffer.from(expected);
-  const b = Buffer.from(presented);
-  return a.length === b.length && timingSafeEqual(a, b);
-}
 
 export function GET(): Response {
   return json({
@@ -30,7 +20,7 @@ export function GET(): Response {
 }
 
 export async function POST(request: Request): Promise<Response> {
-  if (!process.env.VITE_INGEST_TOKEN) return json({ error: "VITE_INGEST_TOKEN is not configured on the server" }, 500);
+  if (!tokenConfigured()) return json({ error: "VITE_INGEST_TOKEN is not configured on the server" }, 500);
   if (!isAuthorized(request)) return json({ error: "Unauthorized" }, 401);
   if (!isFirebaseConfigured()) return json({ error: "Firebase is not configured on the server" }, 500);
 

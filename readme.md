@@ -14,7 +14,6 @@ suscribe a la colección entera y refleja cualquier cambio en vivo.
 ```bash
 npm run dev                               # la app, suscripta a investors
 npm run recalculate                       # valida cada documento y reescribe los valores derivados que cambiaron
-npm run import -- <archivo.json|carpeta>  # alta de inversores nuevos desde un JSON de investigación (auditoría pendiente)
 npm run backup                            # copia completa de investors al bucket de Storage, verificada (--list las enumera)
 npm run restore -- <nombre>.json          # vuelve a escribir en Firestore una copia del bucket (--prune borra lo que no esté)
 npm run typecheck                         # tipos de la app y de los scripts
@@ -52,8 +51,7 @@ El prompt se construye en `src/prompt-builder/`:
 - `environment.ts` — URL del endpoint y token desde el entorno. `index.ts` — punto de entrada de la app.
 
 La rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `CAP_RULES`, `BAND_THRESHOLDS`,
-`INGEST_MAX_PER_REQUEST`), así que el prompt nunca se desfasa del servidor. `npm run prompt -- [cantidad]` renderiza
-el prompt desde la base a un archivo en la carpeta temporal del sistema, para inspeccionarlo sin el navegador.
+`INGEST_MAX_PER_REQUEST`), así que el prompt nunca se desfasa del servidor.
 
 `POST /api/investors` (`api/investors.ts`, función de Vercel) recibe `{ "investors": [ ... ] }` con
 `Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, fuerza la
@@ -86,8 +84,8 @@ nunca muestra un nivel desfasado; `npm run recalculate` deja además los valores
 - `src/lib/labels.ts` — etiquetas en español para cada código (bandas, regiones, tipos, estados, topes, rúbrica).
 - `src/lib/investors.ts` — suscripción a Firestore. `src/context/` — el contexto que expone la colección.
 - `src/lib/filters.ts` — filtros, orden y URL. `src/components/` — filtros, lista, ficha y badges.
-- `scripts/` — `recalculate.ts`, `import-profiles.ts`, `backup.ts`, `restore.ts`, `prompt-preview.ts`; `scripts/lib/firestore.ts` conecta con la
-  config de `.env` y `scripts/lib/spanish-values.ts` traduce los valores en español de los JSON de investigación.
+- `scripts/` — `recalculate.ts`, `backup.ts`, `restore.ts`; `scripts/lib/` conecta con la config de `.env`, serializa con claves
+  ordenadas y maneja las copias del bucket.
 
 ## Auditoría dentro del perfil
 

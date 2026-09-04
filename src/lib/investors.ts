@@ -3,7 +3,7 @@
  * Derived values are recomputed on read. Documents that fail validation are reported, not silently dropped.
  */
 import { collection, doc, onSnapshot, updateDoc, type Unsubscribe } from "firebase/firestore";
-import { COLLECTION, deriveInvestor, describeError, type Investor, type Rating } from "../types/investor";
+import { COLLECTION, deriveInvestor, describeError, type ConnectionAsked, type Investor, type Rating } from "../types/investor";
 import { getDb, isFirebaseConfigured } from "./firebase";
 
 /** Error with a user-facing message and, when known, what to do about it. */
@@ -47,6 +47,16 @@ export async function setRating(id: string, rating: Rating | null): Promise<void
   } catch (e) {
     const error = toDataError(e);
     throw new DataError(`No se pudo guardar la calificación de ${id}.`, error.help || error.message);
+  }
+}
+
+/** Writes the connection state (false, "requested" or "accepted"). The subscription reflects the change. */
+export async function setConnection(id: string, connectionAsked: ConnectionAsked): Promise<void> {
+  try {
+    await updateDoc(doc(getDb(), COLLECTION, id), { connectionAsked, updatedAt: new Date().toISOString() });
+  } catch (e) {
+    const error = toDataError(e);
+    throw new DataError(`No se pudo guardar la conexión de ${id}.`, error.help || error.message);
   }
 }
 

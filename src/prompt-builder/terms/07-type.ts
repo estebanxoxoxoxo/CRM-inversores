@@ -13,13 +13,15 @@ export const NOTE_DERIVED = "No envíes `level`, `band`, `priority`, `score.raw`
 export const NOTE_RATING =
   "No envíes `rating`: es el veredicto del equipo, lo pone una persona desde la aplicación y el servidor lo deja en `null`. " +
   "Que tu auditoría esté completa no lo cambia: son dos ejes distintos.";
+export const NOTE_CONNECTION =
+  "No envíes `connectionAsked`: es el estado de conexión del equipo con el inversor, lo pone una persona desde la aplicación y el servidor lo deja en `false`.";
 export const NOTE_AUDIT =
   '`audit`: `{ "status": "reviewed", "date": "AAAA-MM-DD", "reason": "...", "score": { "thesis": n, "stage": n, "decision": n, "spanish": n, "access": n } }`. ' +
   'El estado es `"reviewed"` cuando tu auditoría está completa, que es lo normal; `"pending"` sólo si la dejás a medias, y entonces el perfil queda sin banda ni prioridad.';
 export const NOTE_TEXT = "Las listas son arrays de strings. `background` y `deepResearch` son texto con párrafos separados por líneas en blanco.";
 export const NOTE_URLS = "`linkedin` y `personalWebsite`: URL completa o cadena vacía. `email`: dirección o cadena vacía, coherente con `emailStatus`.";
 
-export const NOTES = [NOTE_ID, NOTE_DERIVED, NOTE_RATING, NOTE_AUDIT, NOTE_TEXT, NOTE_URLS];
+export const NOTES = [NOTE_ID, NOTE_DERIVED, NOTE_RATING, NOTE_CONNECTION, NOTE_AUDIT, NOTE_TEXT, NOTE_URLS];
 
 export const type: Term = {
   id: "type",

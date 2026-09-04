@@ -14,6 +14,7 @@ import {
 } from "../lib/labels";
 import { SCORE_DIMENSIONS, SCORE_MAX, type Investor, type Score } from "../types/investor";
 import { Badge, LevelBadge } from "./Badges";
+import ConnectionDialog from "./ConnectionDialog";
 import RatingDialog from "./RatingDialog";
 
 interface Props {
@@ -149,6 +150,7 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
           </p>
         </div>
         <div className="detail-actions">
+          <ConnectionDialog investor={investor} />
           <RatingDialog investor={investor} />
           <button type="button" className="close" onClick={onClose} aria-label="Cerrar">
             ×

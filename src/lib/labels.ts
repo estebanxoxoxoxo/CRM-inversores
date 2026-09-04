@@ -1,5 +1,5 @@
 /** Spanish UI labels for the English codes of the investor type. Everything the user reads comes from here. */
-import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
+import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type ConnectionState, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
 
 export const RATING_LABELS: Record<Rating, string> = {
   approved: "Aprobado",
@@ -7,6 +7,12 @@ export const RATING_LABELS: Record<Rating, string> = {
   rejected: "Desaprobado",
   filler: "Relleno",
 };
+
+export const CONNECTION_LABELS: Record<ConnectionState, string> = {
+  requested: "Conexión pedida",
+  accepted: "Conexión aceptada",
+};
+export const CONNECTION_NONE_LABEL = "Ninguno";
 
 /** Value used by the filters for investors without a rating. */
 export const UNRATED = "unrated";

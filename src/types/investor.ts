@@ -18,6 +18,8 @@
  * - `confidence` rates the sources, not the fit.
  * - `rating` is the team's verdict on the profile and the only human gate: set from the app, it stays null however
  *   complete the audit is. Agent audit and human verdict are two different axes; do not read one as the other.
+ * - `connectionAsked` is the team's connection state with the investor, set from the app: `false` (no action yet),
+ *   `"requested"` or `"accepted"`. The ingest endpoint always stores it as `false`.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
  * - Free-text content (name, theses, research) is written in Spanish because that is what the UI shows.
  */
@@ -44,6 +46,13 @@ export const CapSchema = z.enum(["thesis_below_6", "thesis_below_10", "no_check_
 export const RATINGS = ["approved", "doubtful", "rejected", "filler"] as const;
 export const RatingSchema = z.enum(RATINGS);
 export type Rating = z.infer<typeof RatingSchema>;
+
+/** Connection state with the investor, set from the app. `false` means no connection action yet. */
+export const CONNECTION_STATES = ["requested", "accepted"] as const;
+export const ConnectionStateSchema = z.enum(CONNECTION_STATES);
+export type ConnectionState = z.infer<typeof ConnectionStateSchema>;
+export const ConnectionAskedSchema = z.union([z.literal(false), ConnectionStateSchema]);
+export type ConnectionAsked = z.infer<typeof ConnectionAskedSchema>;
 
 /** Every dimension is scored 0-10 (one decimal allowed); the level is their weighted average on a 0-100 scale. */
 export const SCORE_MAX = 10;
@@ -168,6 +177,8 @@ export const InvestorSchema = z.object({
   audit: AuditSchema,
   /** Manual team rating from the app (approved / doubtful / rejected / filler); null until someone rates it. */
   rating: RatingSchema.nullable().default(null),
+  /** Connection state set from the app: false (none), "requested" or "accepted". */
+  connectionAsked: ConnectionAskedSchema.default(false),
   /** ISO timestamp of the last write. */
   updatedAt: z.string(),
 });

@@ -33,6 +33,10 @@ escritura que hace la app y se refleja en vivo: borde de 3px en la tarjeta del l
 oscuro), badge en la ficha y primer grupo de filtros. El endpoint de ingesta siempre deja `rating` en `null`; los
 perfiles calificados como desaprobado o relleno no se usan como ejemplos en el prompt.
 
+Al lado izquierdo de "Calificar perfil", el botón "Conexión" abre un diálogo con Conexión pedida, Conexión aceptada y
+Ninguno. Se guarda en `connectionAsked` del documento (`false`, `"requested"` o `"accepted"`) y se ve centrado arriba
+de la tarjeta en el listado. El endpoint de ingesta siempre deja `connectionAsked` en `false`.
+
 ## Buscar más perfiles
 
 El botón "Buscar más perfiles" (arriba a la derecha) pregunta cuántos perfiles buscar y copia al portapapeles un prompt

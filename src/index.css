@@ -483,6 +483,23 @@ textarea {
 .card.rating-filler {
   border-color: var(--rating-filler);
 }
+/* Connection state: small pill at the top of the card, centered (the card is a flex column) */
+.card-connection {
+  align-self: center;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.connection-requested {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.connection-accepted {
+  background: var(--rating-approved-bg);
+  color: var(--rating-approved);
+}
 .card-line1 {
   display: flex;
   align-items: center;
@@ -632,6 +649,8 @@ textarea {
 .detail-actions {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 8px;
   align-self: flex-start;
 }
@@ -797,6 +816,38 @@ textarea {
   background: var(--panel-hover);
 }
 .rating-option:disabled {
+  opacity: 0.6;
+}
+.connection-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  margin: 12px 0 16px;
+}
+.connection-option {
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 3px solid transparent;
+  background: var(--neutral-bg);
+  color: var(--text);
+  font-weight: 600;
+}
+.connection-option.connection-requested {
+  border-color: var(--accent);
+}
+.connection-option.connection-accepted {
+  border-color: var(--rating-approved);
+}
+.connection-option.connection-none {
+  border-color: var(--border);
+}
+.connection-option.current {
+  background: var(--accent-soft);
+}
+.connection-option:hover {
+  background: var(--panel-hover);
+}
+.connection-option:disabled {
   opacity: 0.6;
 }
 

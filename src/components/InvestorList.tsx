@@ -1,4 +1,4 @@
-import { BAND_CLASS, BAND_LABELS, CONFIDENCE_LABELS, INVESTOR_TYPE_LABELS, RATING_LABELS, REGION_SHORT_LABELS } from "../lib/labels";
+import { BAND_CLASS, BAND_LABELS, CONFIDENCE_LABELS, CONNECTION_LABELS, INVESTOR_TYPE_LABELS, RATING_LABELS, REGION_SHORT_LABELS } from "../lib/labels";
 import type { Investor } from "../types/investor";
 import { Badge, LevelBadge } from "./Badges";
 
@@ -20,6 +20,7 @@ export default function InvestorList({ investors, selectedId, onSelect }: Props)
             title={investor.rating ? `Calificación: ${RATING_LABELS[investor.rating]}` : undefined}
             onClick={() => onSelect(investor.id)}
           >
+            {investor.connectionAsked && <span className={`card-connection connection-${investor.connectionAsked}`}>{CONNECTION_LABELS[investor.connectionAsked]}</span>}
             <div className="card-line1">
               <LevelBadge level={investor.level} band={investor.band} />
               <span className="card-name">{investor.name}</span>

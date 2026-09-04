@@ -523,6 +523,21 @@ textarea {
   align-items: center;
   gap: 7px;
 }
+.card-line1-side {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  flex: 1;
+}
+.card-line1-badges {
+  flex: none;
+}
+/* With a chip both sides claim an equal half, so the chip sits centred in the row. */
+.card-line1:has(.card-connection) .card-line1-badges {
+  flex: 1;
+  justify-content: flex-end;
+}
 .card-line1 .badge[class*="confidence-"] {
   text-transform: capitalize;
 }

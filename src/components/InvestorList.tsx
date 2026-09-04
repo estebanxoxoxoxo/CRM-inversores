@@ -32,9 +32,11 @@ export default function InvestorList({ investors, selectedId, onSelect }: Props)
             onClick={() => onSelect(investor.id)}
           >
             <div className="card-line1">
-              <LevelBadge level={investor.level} band={investor.band} />
-              <span className="card-name" title={investor.name}>
-                {investor.name}
+              <span className="card-line1-side">
+                <LevelBadge level={investor.level} band={investor.band} />
+                <span className="card-name" title={investor.name}>
+                  {investor.name}
+                </span>
               </span>
               {investor.connectionAsked && (
                 <span className={`card-connection connection-${investor.connectionAsked}`}>
@@ -42,10 +44,12 @@ export default function InvestorList({ investors, selectedId, onSelect }: Props)
                   {CONNECTION_LABELS[investor.connectionAsked]}
                 </span>
               )}
-              <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>
-              <Badge className={`confidence-${investor.confidence}`} title={`Confianza en las fuentes: ${CONFIDENCE_LABELS[investor.confidence]}`}>
-                {CONFIDENCE_LABELS[investor.confidence]}
-              </Badge>
+              <span className="card-line1-side card-line1-badges">
+                <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>
+                <Badge className={`confidence-${investor.confidence}`} title={`Confianza en las fuentes: ${CONFIDENCE_LABELS[investor.confidence]}`}>
+                  {CONFIDENCE_LABELS[investor.confidence]}
+                </Badge>
+              </span>
             </div>
             <div className="card-line2">
               <span className="card-firm">{investor.firm}</span>

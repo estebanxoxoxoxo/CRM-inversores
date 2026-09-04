@@ -31,15 +31,17 @@ export default function InvestorList({ investors, selectedId, onSelect }: Props)
             title={investor.rating ? `Calificación: ${RATING_LABELS[investor.rating]}` : undefined}
             onClick={() => onSelect(investor.id)}
           >
-            {investor.connectionAsked && (
-              <span className={`card-connection connection-${investor.connectionAsked}`}>
-                <LinkedinIcon />
-                {CONNECTION_LABELS[investor.connectionAsked]}
-              </span>
-            )}
             <div className="card-line1">
               <LevelBadge level={investor.level} band={investor.band} />
-              <span className="card-name">{investor.name}</span>
+              <span className="card-name" title={investor.name}>
+                {investor.name}
+              </span>
+              {investor.connectionAsked && (
+                <span className={`card-connection connection-${investor.connectionAsked}`}>
+                  <LinkedinIcon />
+                  {CONNECTION_LABELS[investor.connectionAsked]}
+                </span>
+              )}
               <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>
               <Badge className={`confidence-${investor.confidence}`} title={`Confianza en las fuentes: ${CONFIDENCE_LABELS[investor.confidence]}`}>
                 {CONFIDENCE_LABELS[investor.confidence]}

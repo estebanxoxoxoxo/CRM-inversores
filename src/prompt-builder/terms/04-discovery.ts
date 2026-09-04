@@ -257,29 +257,105 @@ export const QUERIES = [
 
 export const queries = (): string => `Buscá en español y en inglés, variando muchas consultas. Ejemplos: ${quotedList(QUERIES)}.`;
 
-/** Where to look. */
-export const SOURCES = [
-  "Dealflow.es",
-  "El Referente",
-  "Expansión",
-  "Cinco Días",
-  "TechCrunch",
-  "Sifted",
-  "Startupxplore",
-  "Crunchbase",
-  "Signal NFX",
-  "AngelList",
-  "Contxto",
-  "Whitepaper.mx",
-  "Latitud",
-  "Startupeable",
-  "LinkedIn a través de buscadores",
-  "X/Twitter",
-  "podcasts (20VC, Invest Like the Best, Itnig, Dealflow.es, Latitud, Startupeable)",
-  "newsletters y blogs propios de los inversores",
+/** Where to look, by scope. Only sources that exist. Rendered as a sub-list under the numbered item. */
+export const SOURCE_GROUPS: { scope: string; items: string[] }[] = [
+  {
+    scope: "Datos y directorios de inversores",
+    items: [
+      "Crunchbase",
+      "PitchBook",
+      "Dealroom",
+      "Tracxn",
+      "Signal NFX",
+      "OpenVC (directorio de inversores filtrable por tesis)",
+      "AngelList",
+      "Landscape.vc",
+      "LinkedIn a través de buscadores",
+      "X/Twitter",
+    ],
+  },
+  {
+    scope: "Asociaciones y redes de inversores",
+    items: [
+      "ASCRI (Asociación Española de Capital, Crecimiento e Inversión) y su directorio de socios",
+      "AEBAN (Asociación Española de Business Angels)",
+      "AMEXCAP (Asociación Mexicana de Capital Privado)",
+      "LAVCA (Association for Private Capital Investment in Latin America) y su directorio",
+      "LatinxVC y su informe State of Latinx VC",
+      "VC Include",
+      "Endeavor (Miami, México, España)",
+      "Keiretsu Forum España",
+      "BigBan Angels",
+      "ESADE BAN",
+      "IESE Business Angels",
+    ],
+  },
+  {
+    scope: "España",
+    items: [
+      "Dealflow.es",
+      "El Referente",
+      "Startupxplore",
+      "Novobrief",
+      "Loogic",
+      "Expansión",
+      "Cinco Días",
+      "El Español (Invertia y D+I)",
+      "Business Insider España",
+      "Emprendedores",
+      "South Summit y Spain Tech Week (listas de inversores asistentes)",
+    ],
+  },
+  {
+    scope: "México",
+    items: ["Contxto", "Whitepaper.mx", "Expansión (México)", "El Economista (México)", "El Financiero Bloomberg", "Startupeable", "MassChallenge México", "Endeavor México"],
+  },
+  {
+    scope: "Latinos en San Francisco y Silicon Valley",
+    items: [
+      "Techqueria",
+      "Latinas in Tech",
+      "Stanford Latino Entrepreneurship Initiative (SLEI) y LBAN",
+      "Latino Community Foundation",
+      "Latino Startup Alliance",
+      "Silicon Valley Latino",
+      "L'Attitude (conferencia)",
+      "las páginas de equipo de los fondos de Sand Hill Road y San Francisco, buscando socios de origen hispano o latinoamericano",
+    ],
+  },
+  {
+    scope: "Latinos en Estados Unidos en general",
+    items: [
+      "Bloomberg Línea",
+      "Forbes México y Forbes Centroamérica",
+      "Latino Leaders",
+      "Hispanic Executive",
+      "US Hispanic Chamber of Commerce",
+      "Google for Startups Latino Founders Fund (mentores e inversores)",
+      "Crunchbase News (listas de inversores y fundadores latinos)",
+      "Latitud",
+    ],
+  },
+  {
+    scope: "Mundo árabe: hispanohablantes en el Golfo y cobertura en español",
+    items: [
+      "Atalayar",
+      "El Correo del Golfo",
+      "Casa Árabe",
+      "ICEX (oficinas en Dubái y Riad; informes sobre inversores del Golfo)",
+      "MAGNiTT (datos de venture capital en MENA)",
+      "Wamda",
+      "Hub71 (Abu Dabi) y DIFC Innovation Hub (Dubái)",
+      "comunidades de españoles y latinos en Dubái, Abu Dabi y Riad en LinkedIn",
+    ],
+  },
+  {
+    scope: "Podcasts y newsletters",
+    items: ["20VC", "Invest Like the Best", "Itnig", "Kapital", "Cracks (Oso Trava)", "Dealflow.es", "Latitud", "Startupeable", "newsletters y blogs propios de los inversores"],
+  },
 ];
 
-export const sources = (): string => `Fuentes de descubrimiento: ${SOURCES.join(", ")}.`;
+export const sources = (): string => `Fuentes de descubrimiento, por ámbito:\n${SOURCE_GROUPS.map((group) => `   - ${group.scope}: ${group.items.join(", ")}.`).join("\n")}`;
 
 export const NOTES =
   "Para cada candidato anotá origen o evidencia de español, foco, etapa y ticket, formación técnica, por qué encaja y confianza. " +

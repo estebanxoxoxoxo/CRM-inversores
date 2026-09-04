@@ -8,6 +8,9 @@ interface Props {
   investors: Investor[];
 }
 
+/** "Sin auditar" no es una banda por la que se filtre: los pendientes se avisan en la cabecera. */
+const FILTERABLE_BANDS = BANDS.filter((band) => band !== "unaudited");
+
 export default function FiltersPanel({ filters, onChange, investors }: Props) {
   const toggle = (key: ListFilterKey, value: string) => {
     const current = filters[key] as string[];
@@ -48,7 +51,7 @@ export default function FiltersPanel({ filters, onChange, investors }: Props) {
         </div>
       </div>
       {group("Calificación", "ratings", RATING_FILTER_OPTIONS, ratingOf, (v: RatingFilter) => (v === UNRATED ? UNRATED_LABEL : RATING_LABELS[v]))}
-      {group("Banda", "bands", BANDS, (i) => i.band, (v) => `${BAND_LABELS[v]} (${BAND_RANGES[v]})`)}
+      {group("Banda", "bands", FILTERABLE_BANDS, (i) => i.band, (v) => `${BAND_LABELS[v]} (${BAND_RANGES[v]})`)}
       <fieldset className="group">
         <legend>Nivel mínimo: {filters.minLevel}</legend>
         <input
@@ -71,6 +74,7 @@ export default function FiltersPanel({ filters, onChange, investors }: Props) {
         <label className="option">
           <input type="checkbox" checked={filters.withLinkedin} onChange={(e) => onChange({ ...filters, withLinkedin: e.target.checked })} />
           <span className="option-label">Sólo con LinkedIn</span>
+          <span className="option-count">{investors.filter((investor) => investor.linkedin).length}</span>
         </label>
         <label className="option option-select">
           <span className="option-label">Orden</span>

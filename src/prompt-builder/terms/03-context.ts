@@ -20,9 +20,11 @@ export const REGIONS_INTRO = "Regiones, en orden de prioridad:";
 
 export const REGIONS = [
   "Estados Unidos hispanohablante (prioridad máxima): partners, GPs, principals y angels en Estados Unidos de origen español, hispano o latinoamericano, o con fluidez en español verificable.",
-  "España: inversores radicados en España, o españoles en el exterior que invierten activamente en España.",
-  "México: inversores radicados en México o que invierten activamente en México.",
-  "Fuera de región (excepcional): sólo para encajes excepcionales, por ejemplo un inversor hispanohablante en Londres con la tesis exacta, y diciéndolo explícitamente.",
+  "Argentina:  partners, GPs, principals y angels radicados en Argentina o argentinos en el exterior que invierten activamente.",
+  "España:  partners, GPs, principals y angels radicados en España, o españoles en el exterior que invierten activamente.",
+  "México:  partners, GPs, principals y angels radicados en México o que invierten activamente.",
+  "Mundo árabe de habla hispana:  partners, GPs, principals y angels con fondos de países árabes de habla hispana o que invierten activamente.",
+  "Fuera de región (excepcional):  partners, GPs, principals y angels sólamente para encajes excepcionales, por ejemplo un inversor hispanohablante en Londres con la tesis exacta, y diciéndolo explícitamente.",
 ];
 
 export const objective = (count: number): string =>

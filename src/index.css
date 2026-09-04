@@ -218,6 +218,14 @@ textarea {
   margin: 0;
   color: var(--muted);
 }
+/* Aviso de perfiles sin auditar: ocupa el hueco entre la información y las acciones, centrado en él. */
+.header-pending {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+  color: var(--error);
+  font-weight: 600;
+}
 .header-actions {
   margin-left: auto;
   display: flex;

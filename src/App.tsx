@@ -23,6 +23,7 @@ export default function App() {
   }, [selectedId]);
 
   const visible = useMemo(() => applyFilters(investors, filters), [investors, filters]);
+  const pending = useMemo(() => investors.filter((investor) => investor.audit.status === "pending").length, [investors]);
   const selected = useMemo(() => investors.find((investor) => investor.id === selectedId) ?? null, [investors, selectedId]);
   const close = useCallback(() => setSelectedId(null), []);
 
@@ -41,6 +42,11 @@ export default function App() {
             "Cargando desde Firestore…"
           )}
         </p>
+        {pending > 0 && (
+          <p className="header-pending" role="status">
+            {pending === 1 ? "1 perfil sin auditar" : `${pending} perfiles sin auditar`}
+          </p>
+        )}
         <div className="header-actions">
           <BackupButton />
           <FindMoreButton />

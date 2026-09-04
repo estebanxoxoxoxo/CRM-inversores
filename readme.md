@@ -43,11 +43,11 @@ email) y los perfiles con nivel mayor a 80 como ejemplos.
 El prompt se construye en `src/prompt-builder/` como una suma de términos: cada archivo de `terms/` es un término, y el
 agregador `build/build.ts` los renderiza en orden y los junta literalmente, separados por una línea en blanco.
 
-- `terms/` — un archivo por término, en orden de aparición: `opening` (título y párrafo inicial), `request` (el pedido),
-  `context`, `discovery`, `research`, `rubric` (pesos, topes y bandas leídos del tipo), `type` (el tipo incrustado tal
-  cual), `endpoint`, `exclusions` (todos los perfiles de la base), `examples` (los revisados con nivel mayor a 80,
-  sin desaprobados ni relleno; las reglas viven ahí) y `footer` (fecha). Cada párrafo es una constante exportada:
-  cambiar una idea es cambiar una constante.
+- `terms/` — un archivo por término, con el orden como prefijo numérico: `01-opening` (título y párrafo inicial),
+  `02-request` (el pedido), `03-context`, `04-discovery`, `05-research`, `06-rubric` (pesos, topes y bandas leídos del
+  tipo), `07-type` (el tipo incrustado tal cual), `08-endpoint`, `09-exclusions` (todos los perfiles de la base),
+  `10-examples` (los revisados con nivel mayor a 80, sin desaprobados ni relleno; las reglas viven ahí) y `11-footer`
+  (fecha). Cada párrafo es una constante exportada: cambiar una idea es cambiar una constante.
 - `inputs/` — de dónde sale cada entrada: `count` (la cantidad del diálogo, con valor por defecto y máximo),
   `environment` (URL del endpoint y token), `type-source` (el archivo del tipo, leído tal cual), `date`. Los perfiles
   llegan de la suscripción de la app.

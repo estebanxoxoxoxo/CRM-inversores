@@ -14,20 +14,21 @@
  *   9. examples                    perfiles de ejemplo
  *   footer                         fecha de generación
  *
- * Move a term here and every heading and cross-reference follows (see numbering.ts, next to this file).
+ * The files in terms/ carry the same order as a numeric prefix (01-opening … 11-footer). Move a term here and every
+ * heading and cross-reference follows (see numbering.ts, next to this file).
  */
 import { numberTerms, sectionNumberOf } from "./numbering";
-import { context } from "../terms/context";
-import { discovery } from "../terms/discovery";
-import { endpoint } from "../terms/endpoint";
-import { examples } from "../terms/examples";
-import { exclusions } from "../terms/exclusions";
-import { footer } from "../terms/footer";
-import { opening } from "../terms/opening";
-import { request } from "../terms/request";
-import { research } from "../terms/research";
-import { rubric } from "../terms/rubric";
-import { type } from "../terms/type";
+import { context } from "../terms/03-context";
+import { discovery } from "../terms/04-discovery";
+import { endpoint } from "../terms/08-endpoint";
+import { examples } from "../terms/10-examples";
+import { exclusions } from "../terms/09-exclusions";
+import { footer } from "../terms/11-footer";
+import { opening } from "../terms/01-opening";
+import { request } from "../terms/02-request";
+import { research } from "../terms/05-research";
+import { rubric } from "../terms/06-rubric";
+import { type } from "../terms/07-type";
 import type { PromptContext, PromptInput } from "../types/prompt";
 import type { Term, TermId } from "../types/term";
 

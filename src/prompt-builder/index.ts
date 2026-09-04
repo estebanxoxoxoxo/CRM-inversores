@@ -16,7 +16,7 @@ import { DEFAULT_COUNT, clampCount } from "./inputs/count";
 import { today } from "./inputs/date";
 import { ingestEndpoint, ingestToken, tokenOrPlaceholder } from "./inputs/environment";
 import { TYPE_SOURCE } from "./inputs/type-source";
-import { selectExamples } from "./terms/examples";
+import { selectExamples } from "./terms/10-examples";
 
 export { DEFAULT_COUNT, MAX_COUNT } from "./inputs/count";
 

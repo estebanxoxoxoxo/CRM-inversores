@@ -14,7 +14,8 @@ export const batching = (): string =>
 export const RESPONSE =
   'Respuesta: `{ "dryRun": boolean, "created": [ { "id", "name" } ], "rejected": [ { "id", "name", "reason" } ] }`. Un perfil se rechaza si no ' +
   "valida contra el tipo (el motivo dice qué campo falla) o si ya existe uno con el mismo id, nombre, LinkedIn o email. Los perfiles creados " +
-  "quedan con auditoría pendiente hasta que un humano los revise; nunca se sobreescribe un perfil existente.";
+  "quedan con tu auditoría guardada como `reviewed` y sin veredicto del equipo (`rating` en `null`), a la espera de que una persona los califique; " +
+  "nunca se sobreescribe un perfil existente.";
 
 export const EXAMPLE_LABEL = "Ejemplo:";
 

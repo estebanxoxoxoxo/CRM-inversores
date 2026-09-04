@@ -2,8 +2,8 @@
  * Vercel function: POST /api/investors
  *
  * Receives investor profiles produced by the research prompt, validates them against the canonical type, rejects
- * duplicates and writes the new ones to Firestore with the audit pending. Requires `Authorization: Bearer
- * <VITE_INGEST_TOKEN>`. Add `?dryRun=1` to validate without writing.
+ * duplicates and writes the new ones to Firestore with the agent's audit stored as "reviewed" and no team verdict
+ * (`rating` null). Requires `Authorization: Bearer <VITE_INGEST_TOKEN>`. Add `?dryRun=1` to validate without writing.
  */
 import { isAuthorized, tokenConfigured } from "../server/auth";
 import { getDb, isFirebaseConfigured } from "../server/firestore";

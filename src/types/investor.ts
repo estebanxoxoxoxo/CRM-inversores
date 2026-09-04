@@ -5,14 +5,19 @@
  * including its audit. The zod schema validates at runtime (scripts and app) and the TypeScript type is inferred
  * from it.
  *
- * - `audit` is the hand-edited part: reason and the five per-dimension score inputs. Derived values (`score.raw`,
- *   `score.caps`, `score.total`, and `level`, `band`, `priority` at the root) are recomputed by `deriveInvestor()`
- *   on every write (scripts) and every read (app). They are never edited.
+ * - `audit` is the research agent's judgement, not the team's: reason and the five per-dimension score inputs,
+ *   written by whoever produced the profile (the research agent through the ingest endpoint, or a person editing by
+ *   hand). Derived values (`score.raw`, `score.caps`, `score.total`, and `level`, `band`, `priority` at the root)
+ *   are recomputed by `deriveInvestor()` on every write (scripts) and every read (app). They are never edited.
+ * - `audit.status` says whether that audit is complete, not whether a person agreed with it. "reviewed" means the
+ *   audit block holds a reason and the five scores, which `deriveInvestor()` enforces; "pending" means it does not
+ *   and the profile is still a draft. An agent audit that is complete ships as "reviewed".
  * - `level` is 0-100: the weighted average of the five 0-10 scores (`SCORE_WEIGHTS`), capped by `CAP_RULES`.
  *   `band` derives from it (`BAND_THRESHOLDS`) and is "unaudited" while `audit.status` is "pending". `priority`
  *   A/B/C derives from the level.
  * - `confidence` rates the sources, not the fit.
- * - `rating` is the team's manual verdict, set from the app; the ingest endpoint always stores null.
+ * - `rating` is the team's verdict on the profile and the only human gate: set from the app, it stays null however
+ *   complete the audit is. Agent audit and human verdict are two different axes; do not read one as the other.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
  * - Free-text content (name, theses, research) is written in Spanish because that is what the UI shows.
  */
@@ -34,7 +39,8 @@ export const InvestorTypeSchema = z.enum(["institutional_vc", "business_angel", 
 export const EmailStatusSchema = z.enum(["public_verified", "public_sourced", "firm_general_mailbox", "inferred_pattern", "not_found"]);
 export const CapSchema = z.enum(["thesis_below_6", "thesis_below_10", "no_check_writer", "requires_traction"]);
 
-/** Manual team rating, set from the app. `null` means not rated yet. */
+/** The team's verdict, set by a person from the app. `null` means no human has judged the profile yet, whatever
+ * its audit says. This is the human gate; `audit.status` is not. */
 export const RATINGS = ["approved", "doubtful", "rejected", "filler"] as const;
 export const RatingSchema = z.enum(RATINGS);
 export type Rating = z.infer<typeof RatingSchema>;
@@ -116,7 +122,7 @@ export function priorityOf(level: number, status: AuditStatus): Priority {
 
 export const AuditSchema = z.object({
   status: AuditStatusSchema,
-  /** Date (YYYY-MM-DD) of the last manual review. */
+  /** Date (YYYY-MM-DD) the audit was written, by an agent or by hand. Not the date of a human sign-off. */
   date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   /** Why the profile has its level: fit and reservations, in absolute terms. */
   reason: z.string(),

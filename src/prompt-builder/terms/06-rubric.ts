@@ -7,8 +7,11 @@ import { bullets, decimal, paragraphs } from "../format/markdown";
 import type { Term } from "../types/term";
 
 export const INTRO =
-  "Cada perfil lleva una puntuación propuesta en `audit.score` y un motivo en `audit.reason` que explique el nivel en términos absolutos: " +
-  'encaje y reservas. Un humano revisa y confirma; por eso `audit.status` va siempre en `"pending"`.';
+  "Cada perfil lleva una puntuación en `audit.score` y un motivo en `audit.reason` que explique el nivel en términos absolutos: " +
+  "encaje y reservas. La auditoría es tuya, no del equipo: la escribís vos al terminar la investigación. " +
+  'Si está completa (motivo redactado y las cinco dimensiones puntuadas), `audit.status` va en `"reviewed"`; ' +
+  '`"pending"` es sólo para un perfil que dejás a medias, y hace que el nivel no muestre banda ni prioridad. ' +
+  "El veredicto del equipo es otra cosa y vive en `rating`, que vos nunca enviás y queda en `null` hasta que una persona lo emita.";
 
 export const scale = (): string =>
   `Cada dimensión se puntúa de 0 a ${SCORE_MAX}, con un decimal como máximo. El nivel (0-${SCORE_TOTAL_MAX}) es el promedio ponderado con estos pesos:`;

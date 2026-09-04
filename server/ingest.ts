@@ -1,9 +1,15 @@
 /**
  * Ingestion of investor profiles submitted by the research prompt (POST /api/investors).
  *
- * Every submission is normalised (id from the name, audit forced to "pending", derived fields recomputed), validated
+ * Every submission is normalised (id from the name, audit forced to "reviewed", derived fields recomputed), validated
  * against the canonical type and checked for duplicates against the whole collection by id, name, LinkedIn and
  * email. Valid, new profiles are written in one batch; nothing existing is ever overwritten.
+ *
+ * The audit that arrives here is the research agent's: its five scores and its reason. Storing it as "reviewed" only
+ * states that the audit block is complete, and `deriveInvestor()` enforces exactly that (a reviewed audit needs a
+ * reason and non-empty `whyInteresting`, `investmentThesis` and `stageAndTicket`), so an incomplete agent audit is
+ * rejected rather than written. The team's verdict is a separate axis and lives in `rating`, which this endpoint
+ * always stores as null: a profile can be fully audited by an agent and still have no human judgement on it.
  */
 import { collection, doc, getDocs, writeBatch, type Firestore } from "firebase/firestore";
 import { COLLECTION, INGEST_MAX_PER_REQUEST, deriveInvestor, describeError, type Investor } from "../src/types/investor";
@@ -70,7 +76,7 @@ function prepareSubmission(raw: unknown, now: string): Investor {
     personalWebsite: submitted.personalWebsite ?? "",
     contactSources: { email: contactSources.email ?? [], linkedin: contactSources.linkedin ?? [], other: contactSources.other ?? [] },
     audit: {
-      status: "pending",
+      status: "reviewed",
       date: typeof audit.date === "string" && audit.date ? audit.date : now.slice(0, 10),
       reason: audit.reason ?? "",
       score: { thesis: 0, stage: 0, decision: 0, spanish: 0, access: 0, ...scoreInput },

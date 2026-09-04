@@ -10,9 +10,12 @@ export const NOTES_INTRO = "Notas para armar cada objeto:";
 
 export const NOTE_ID = "`id`: slug del nombre en minúsculas, sin acentos, con guiones (por ejemplo `mar-hershenson`).";
 export const NOTE_DERIVED = "No envíes `level`, `band`, `priority`, `score.raw`, `score.caps`, `score.total` ni `updatedAt`: los calcula el servidor. Si los enviás, se ignoran.";
-export const NOTE_RATING = "No envíes `rating`: es la calificación manual del equipo y el servidor la deja en `null`.";
+export const NOTE_RATING =
+  "No envíes `rating`: es el veredicto del equipo, lo pone una persona desde la aplicación y el servidor lo deja en `null`. " +
+  "Que tu auditoría esté completa no lo cambia: son dos ejes distintos.";
 export const NOTE_AUDIT =
-  '`audit`: `{ "status": "pending", "date": "AAAA-MM-DD", "reason": "...", "score": { "thesis": n, "stage": n, "decision": n, "spanish": n, "access": n } }`.';
+  '`audit`: `{ "status": "reviewed", "date": "AAAA-MM-DD", "reason": "...", "score": { "thesis": n, "stage": n, "decision": n, "spanish": n, "access": n } }`. ' +
+  'El estado es `"reviewed"` cuando tu auditoría está completa, que es lo normal; `"pending"` sólo si la dejás a medias, y entonces el perfil queda sin banda ni prioridad.';
 export const NOTE_TEXT = "Las listas son arrays de strings. `background` y `deepResearch` son texto con párrafos separados por líneas en blanco.";
 export const NOTE_URLS = "`linkedin` y `personalWebsite`: URL completa o cadena vacía. `email`: dirección o cadena vacía, coherente con `emailStatus`.";
 

@@ -3,7 +3,7 @@ import type { TermId } from "./term";
 
 /** The inputs of a prompt. Gathered by index.ts from the app (investors, count) and the environment (the rest). */
 export interface PromptInput {
-  /** How many undisputed and how many high-potential investors are requested. */
+  /** How many new investors are requested in total. Bands are an outcome of the rubric, never a quota. */
   count: number;
   /** Every investor in the database, for exclusions and examples. */
   investors: Investor[];

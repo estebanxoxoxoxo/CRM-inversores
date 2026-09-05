@@ -20,7 +20,10 @@ export const PURITY =
   "Quiero que la pureza sea absoluta: que de verdad busques que cada perfil sea hiperatractivo como inversor para algo profundo, " +
   "a largo plazo y en línea con inversiones en IA con fortísimo moat.";
 
-export const quantity = (count: number): string => `Quiero ${count} perfiles que sean indiscutibles en su pureza y ${count} que tengan muchísimo potencial.`;
+export const quantity = (count: number): string =>
+  `Quiero hasta ${count} perfiles nuevos y quiero que todos vayan a buscar ser indiscutibles. No reserves un cupo para perfiles de menor pureza: ` +
+  "buscá siempre lo mejor que exista, y si alguno de los que investigaste no llega a indiscutible pero igual es muy bueno, mandámelo también. " +
+  "Prefiero pocos impecables antes que muchos mezclados.";
 
 export const delivery = (ctx: PromptContext): string =>
   `Cada perfil se entrega con el tipo de la sección ${ctx.sectionNumber("type")} y se envía a la base por el endpoint de la sección ${ctx.sectionNumber("endpoint")}.`;

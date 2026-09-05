@@ -11,6 +11,12 @@ export const CONFIRM =
   "dev tools, open source, ciberseguridad o datos, formación técnica, y origen y fluidez en español citando evidencia: nacimiento, estudios, " +
   "entrevistas o contenido en español.";
 
+export const INSTITUTION_RESCUE =
+  "Si al investigar a una persona descubrís que ella no encaja pero su institución sí, no cierres la institución: volvé al equipo, " +
+  "elegí al siguiente mejor candidato y investigalo. Sólo se descarta una institución que encaja cuando revisaste a todos sus " +
+  "inversores y ninguno cumple. Si en el camino identificaste quién sería la puerta correcta, dejalo anotado con nombre aunque no " +
+  "llegues a investigarlo.";
+
 export const ORIGIN =
   "Origen y español: sólo con autoidentificación pública o hechos biográficos documentados. Nunca inferir por apellido. Si no hay evidencia, " +
   "el perfil lo dice explícitamente y no puede ser indiscutible.";
@@ -58,7 +64,21 @@ export const ABSOLUTE_TERMS =
   'Cada ficha se redacta en términos absolutos: nunca comparar con otros perfiles ("el mejor de la lista", "mejor que X"), porque la base ' +
   "crece y esas frases envejecen mal.";
 
-export const STEPS = [SEARCH, CONFIRM, ORIGIN, EMAIL, PERSONAL_WEBSITE, HONESTY, DEEP_RESEARCH, BACKGROUND, SUMMARIES, LISTS, SOURCES_AND_CONFIDENCE, ABSOLUTE_TERMS];
+export const STEPS = [
+  SEARCH,
+  CONFIRM,
+  INSTITUTION_RESCUE,
+  ORIGIN,
+  EMAIL,
+  PERSONAL_WEBSITE,
+  HONESTY,
+  DEEP_RESEARCH,
+  BACKGROUND,
+  SUMMARIES,
+  LISTS,
+  SOURCES_AND_CONFIDENCE,
+  ABSOLUTE_TERMS,
+];
 
 export const research: Term = {
   id: "research",

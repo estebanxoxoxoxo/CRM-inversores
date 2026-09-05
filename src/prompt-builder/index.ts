@@ -21,7 +21,7 @@ import { selectExamples } from "./terms/10-examples";
 export { DEFAULT_COUNT, MAX_COUNT } from "./inputs/count";
 
 export interface PromptOptions {
-  /** Undisputed and high-potential investors requested, each. */
+  /** New investors requested in total. Not a per-band quota. */
   count: number;
 }
 

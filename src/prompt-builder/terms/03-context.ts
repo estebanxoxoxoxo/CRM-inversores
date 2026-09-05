@@ -13,8 +13,9 @@ export const PURITY =
   "Una persona entra sólo si hay evidencia real de que (1) invierte en deep tech, infraestructura de IA, dev tools, infraestructura de " +
   "datos, ciberseguridad, infraestructura enterprise u open source; (2) invierte temprano (pre-seed, seed, como mucho Serie A) o como " +
   "business angel; y (3) idealmente tiene formación técnica (ingeniería, ciencias de la computación, doctorado) o fundó u operó una " +
-  "empresa de infraestructura o IA. Si un fondo es relevante, la ficha es de la persona concreta más relevante para infraestructura de " +
-  "IA y dev tools, no del fondo.";
+  "empresa de infraestructura o IA. Si un fondo es relevante, la ficha es siempre de una persona concreta y nunca del fondo; y cuando el " +
+  "fondo encaja de verdad, no es de una sola persona: identificá de una a tres personas de ese fondo, las de mejor calidad para " +
+  "infraestructura de IA y dev tools, y hacé una ficha de cada una.";
 
 export const REGIONS_INTRO = "Regiones, en orden de prioridad:";
 
@@ -28,9 +29,12 @@ export const REGIONS = [
 ];
 
 export const objective = (count: number): string =>
-  `Objetivo: ${count} perfiles indiscutibles y ${count} con muchísimo potencial, todos nuevos. Cada perfil enviado tiene que superar el ` +
-  "criterio de pureza; si no llegás a esas cantidades con ese estándar, entregá menos y decilo. Es preferible entregar menos perfiles " +
-  "indiscutibles que completar la cantidad con perfiles mediocres. Si dudás, no lo envíes o dejalo claro en riesgos.";
+  `Objetivo: hasta ${count} perfiles nuevos, buscando siempre el máximo de pureza posible. No hay cupos por banda. La banda es el ` +
+  "resultado de la rúbrica, no un objetivo de búsqueda: nunca busques a propósito perfiles menos puros para llenar una segunda " +
+  "categoría. Cada perfil enviado tiene que superar el criterio de pureza; los que lo superan pero no llegan a indiscutible se envían " +
+  "igual, porque salieron de buscar lo mejor y no de conformarse. Si con ese estándar no llegás al número, entregá menos y decilo: es " +
+  "preferible entregar menos perfiles excelentes que completar la cantidad con perfiles mediocres. Si dudás, no lo envíes o dejalo " +
+  "claro en riesgos.";
 
 export const context: Term = {
   id: "context",

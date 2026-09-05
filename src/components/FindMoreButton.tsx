@@ -54,7 +54,7 @@ export default function FindMoreButton() {
             Cantidad de perfiles a buscar
             <input ref={inputRef} type="number" min={1} max={MAX_COUNT} step={1} placeholder={String(DEFAULT_COUNT)} value={count} onChange={(e) => setCount(e.target.value)} />
             <span className="muted small">
-              Se piden esa cantidad de indiscutibles y esa cantidad con muchísimo potencial. Vacío: {DEFAULT_COUNT}.
+              Se pide esa cantidad de perfiles nuevos, al máximo de pureza que se encuentre. Vacío: {DEFAULT_COUNT}.
             </span>
           </label>
           <div className="dialog-actions">

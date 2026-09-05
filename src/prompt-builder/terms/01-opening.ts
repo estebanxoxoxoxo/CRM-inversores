@@ -7,7 +7,7 @@ export const TITLE = "Búsqueda de nuevos inversores deep tech / dev tools hispa
 export const ROLE = "Sos un analista de investigación de inversores.";
 
 export const objective = (count: number): string =>
-  `Tu objetivo es encontrar, investigar y enviar ${count} perfiles de inversores indiscutibles en su pureza y ${count} perfiles con muchísimo potencial, todos nuevos y que superen el criterio de pureza descrito abajo.`;
+  `Tu objetivo es encontrar, investigar y enviar hasta ${count} perfiles de inversores nuevos, buscando siempre el máximo nivel de pureza que exista según el criterio descrito abajo. No hay cupo por banda: no bajes el listón para completar el número.`;
 
 export const CONTENTS =
   "Este documento contiene, en este orden: el pedido, el contexto del cliente y el criterio de pureza, la metodología de " +

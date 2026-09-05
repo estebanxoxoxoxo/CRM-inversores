@@ -11,6 +11,16 @@ export const FUNDS =
   "tech de frontera. Buscá también fondos nuevos de 2024-2026 enfocados en IA, agentes, infraestructura, cuántica, semiconductores, " +
   "ciberseguridad o developer tools; solo GPs; y angels técnicos: fundadores y CTOs que firman cheques en deep tech.";
 
+export const INSTITUTIONS =
+  "Cualificá primero la institución y después a las personas. Cuando un fondo, vehículo o sindicato encaja de verdad con el cliente " +
+  "(tesis en la capa, etapa temprana, operaciones reales documentadas), no te quedes con el primer nombre que aparece: abrí la página " +
+  "de equipo y mapeá a todo el que invierta, incluidos principals, directores de inversión y socios de riesgo. De ahí elegí de una a " +
+  "tres personas, las de mejor calidad para este cliente, y hacé una ficha de cada una. La calidad se mide por lo que la persona tiene " +
+  "documentado a su nombre: operaciones concretas en la capa, tesis propia escrita o hablada, evidencia de español y accesibilidad; el " +
+  "cargo pesa en la puntuación pero no decide a quién investigar. Una institución que encaja no se descarta nunca porque la primera " +
+  "persona que miraste no fuera la correcta: es el error más caro y más silencioso, porque se pierde el fondo entero por haber elegido " +
+  "mal a quién mirar.";
+
 /** Example search queries, in both languages. */
 export const QUERIES = [
   "Venture capital deep tech España general partner",
@@ -365,5 +375,5 @@ export const NOTES =
 export const discovery: Term = {
   id: "discovery",
   title: () => "Descubrimiento de candidatos",
-  render: (ctx) => paragraphs(intro(ctx), numbered([FUNDS, queries(), sources(), NOTES])),
+  render: (ctx) => paragraphs(intro(ctx), numbered([FUNDS, INSTITUTIONS, queries(), sources(), NOTES])),
 };

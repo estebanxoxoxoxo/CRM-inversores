@@ -46,7 +46,8 @@ export const bands = (): string => {
   const highPotential = `${t.high_potential}-${t.undisputed - 1}`;
   return (
     `Bandas resultantes: indiscutible ≥ ${t.undisputed}, alto potencial ${highPotential}, reserva ${t.reserve}-${t.high_potential - 1}, descartado < ${t.reserve}. ` +
-    `Los perfiles indiscutibles tienen que quedar, con honestidad, en ${t.undisputed} o más; los de muchísimo potencial en ${highPotential}, con la reserva explicada.`
+    `Los perfiles indiscutibles tienen que quedar, con honestidad, en ${t.undisputed} o más. La banda sale de la puntuación, no al revés: ` +
+    "no ajustes puntuaciones para que un perfil caiga en una banda determinada ni busques perfiles para llenar una banda."
   );
 };
 

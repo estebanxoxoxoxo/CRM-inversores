@@ -1,21 +1,22 @@
 /**
- * Vercel function: POST /api/investors
+ * Vercel function: POST /api/gold
  *
- * Receives investor profiles produced by the research prompt, validates them against the canonical type, rejects
- * duplicates and writes the new ones to Firestore with the agent's audit stored as "reviewed" and no team verdict
- * (`rating` null). Requires `Authorization: Bearer <VITE_INGEST_TOKEN>`. Add `?dryRun=1` to validate without writing.
+ * Receives the evaluations produced by the prompt, validates each one against the gold type and the business rules,
+ * and writes one document per investor into the `gold` collection. Requires `Authorization: Bearer
+ * <VITE_INGEST_TOKEN>`. Add `?dryRun=1` to validate without writing.
  */
 import { isAuthorized, tokenConfigured } from "../server/auth.js";
 import { getDb, isFirebaseConfigured } from "../server/firestore.js";
-import { IngestError, ingestInvestors } from "../server/ingest.js";
-import { INGEST_MAX_PER_REQUEST, describeError } from "../src/types/investor.js";
+import { IngestError, ingestEvaluations } from "../src/gold/server/evaluations.js";
+import { COLLECTION, MAX_PER_REQUEST, describeError } from "../src/gold/types/gold.js";
 
 const json = (body: unknown, status = 200): Response => Response.json(body, { status });
 
 export function GET(): Response {
   return json({
-    usage: 'POST { "investors": [ ... ] } with header "Authorization: Bearer <token>"; add ?dryRun=1 to validate without writing.',
-    maxPerRequest: INGEST_MAX_PER_REQUEST,
+    usage: 'POST { "evaluations": [ ... ] } with header "Authorization: Bearer <token>"; add ?dryRun=1 to validate without writing.',
+    maxPerRequest: MAX_PER_REQUEST,
+    collection: COLLECTION,
   });
 }
 
@@ -32,7 +33,7 @@ export async function POST(request: Request): Promise<Response> {
   }
   const dryRun = new URL(request.url).searchParams.get("dryRun") === "1";
   try {
-    return json(await ingestInvestors(getDb(), body, dryRun));
+    return json(await ingestEvaluations(getDb(), body, dryRun));
   } catch (e) {
     if (e instanceof IngestError) return json({ error: e.message }, e.status);
     return json({ error: describeError(e) }, 500);

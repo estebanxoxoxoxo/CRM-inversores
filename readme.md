@@ -16,6 +16,7 @@ npm run dev                               # la app, suscripta a investors
 npm run integrity                         # valida cada documento contra el tipo y reporta inválidos y desfasados (--fix reescribe los desfasados)
 npm run backup                            # copia completa de investors al bucket de Storage, verificada (--list las enumera)
 npm run restore -- <nombre>.json          # vuelve a escribir en Firestore una copia del bucket (--prune borra lo que no esté)
+npm run gold:prompt                       # arma el prompt de evaluación gold del próximo lote y lo copia (ver src/gold/README.md)
 npm run typecheck                         # tipos de la app y de los scripts
 ```
 
@@ -77,6 +78,15 @@ en el prompt sale siempre de `VITE_APP_URL`, nunca del origen de la página, por
 puede llegar a `localhost`. En Vercel se toma sola de `VERCEL_PROJECT_PRODUCTION_URL`; en local hay que definirla en
 `.env`, y si falta el botón lo avisa al copiar.
 
+## Evaluación gold
+
+Sobre los perfiles ya cargados corre una segunda pasada: un agente evalúa cada inversor contra cuatro aspectos
+(etapa, deep tech, español y, para `us_hispanic`, founders hispanos) y guarda un documento por inversor en la colección
+`gold`, con veredicto `gold` o `rejected` y cuatro mails propuestos para los gold. `npm run gold:prompt` arma el prompt
+del próximo lote de 25 y `POST /api/gold` (`api/gold.ts`) recibe y valida las evaluaciones. Todo el módulo vive en
+`src/gold/`; su [README](src/gold/README.md) explica el documento, lo que valida el endpoint y la regla de Firestore
+que hay que añadir para `gold`.
+
 ## Recupero ante desastres
 
 El botón "Hacer backup" de la cabecera y `npm run backup` hacen lo mismo con el mismo código (`src/lib/backup.ts`):
@@ -105,8 +115,11 @@ reescribe los desfasados en su forma canónica.
 - `src/lib/filters.ts` — filtros, orden y URL. `src/components/` — filtros, lista, ficha y badges.
 - `src/lib/backup.ts` — copias en el bucket, compartido por la app y los scripts. `src/lib/json.ts` — claves ordenadas.
   `src/lib/api.ts` — llamadas de la app a sus propias funciones (`/api/*`) con el token.
-- `api/` — funciones de Vercel: `investors.ts` (ingesta) y `backup.ts`. `server/` — lo que comparten: `firestore.ts`
-  (inicialización con las variables de entorno), `auth.ts` (token), `ingest.ts` (validación y deduplicación).
+- `api/` — funciones de Vercel: `investors.ts` (ingesta), `backup.ts` y `gold.ts` (evaluaciones). `server/` — lo que
+  comparten: `firestore.ts` (inicialización con las variables de entorno), `auth.ts` (token), `ingest.ts` (validación y
+  deduplicación). Como el proyecto es ESM (`"type": "module"`), los imports relativos de esta cadena llevan extensión
+  `.js`: sin ella la función se cae al cargar en Vercel (`FUNCTION_INVOCATION_FAILED`).
+- `src/gold/` — la evaluación gold: tipo, ingesta, prompt y comando (`src/gold/README.md`).
 - `scripts/` — `integrity.ts`, `backup.ts`, `restore.ts`; `scripts/lib/firestore.ts` carga `.env` y reutiliza la
   inicialización de `server/firestore.ts`.
 

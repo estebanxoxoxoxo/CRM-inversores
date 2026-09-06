@@ -11,7 +11,8 @@
     "typecheck": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.scripts.json --noEmit",
     "integrity": "tsx scripts/integrity.ts",
     "backup": "tsx scripts/backup.ts",
-    "restore": "tsx scripts/restore.ts"
+    "restore": "tsx scripts/restore.ts",
+    "gold:prompt": "tsx src/gold/scripts/prompt.ts"
   },
   "dependencies": {
     "firebase": "^12.18.0",
@@ -24,6 +25,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",
+    "clipboardy": "^4.0.0",
     "dotenv": "^17.4.2",
     "oxlint": "^1.79.0",
     "tsx": "^4.23.13",

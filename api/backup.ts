@@ -7,10 +7,10 @@
  *
  * Runs on the server so the verification download is not subject to the bucket's browser CORS configuration.
  */
-import { isAuthorized, tokenConfigured } from "../server/auth";
-import { getDb, isFirebaseConfigured } from "../server/firestore";
-import { createBackup, latestBackup } from "../src/lib/backup";
-import { describeError } from "../src/types/investor";
+import { isAuthorized, tokenConfigured } from "../server/auth.js";
+import { getDb, isFirebaseConfigured } from "../server/firestore.js";
+import { createBackup, latestBackup } from "../src/lib/backup.js";
+import { describeError } from "../src/types/investor.js";
 
 const json = (body: unknown, status = 200): Response => Response.json(body, { status });
 

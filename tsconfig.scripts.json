@@ -23,6 +23,7 @@
     "scripts",
     "server",
     "api",
-    "src/types"
+    "src/types",
+    "src/gold"
   ]
 }

@@ -5,8 +5,8 @@
  */
 import { collection, getDocs, type Firestore } from "firebase/firestore";
 import { getBytes, getMetadata, getStorage, listAll, ref, uploadBytes, type FullMetadata } from "firebase/storage";
-import { COLLECTION } from "../types/investor";
-import { sortKeys } from "./json";
+import { COLLECTION } from "../types/investor.js";
+import { sortKeys } from "./json.js";
 
 const BACKUP_FOLDER = `backups/${COLLECTION}`;
 

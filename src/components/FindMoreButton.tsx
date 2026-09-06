@@ -25,14 +25,13 @@ export default function FindMoreButton() {
     const prompt = buildResearchPrompt(investors, { count: requested });
     const size = `${Math.round(prompt.text.length / 1024)} KB`;
     if (await copyText(prompt.text)) {
-      const local = /^https?:\/\/(localhost|127\.0\.0\.1)(:|\/|$)/.test(prompt.endpoint);
       setFeedback({
         text: !prompt.hasToken
           ? `Prompt copiado sin token (${size}): definí VITE_INGEST_TOKEN.`
-          : local
-            ? `Prompt copiado (${size}), pero el endpoint apunta a ${prompt.endpoint}: definí VITE_APP_URL con la URL del deploy para que un chat externo pueda enviar.`
-            : `Prompt copiado para ${requested} indiscutibles y ${requested} con potencial: ${size}, ${prompt.examples} ejemplos, ${prompt.excluded} excluidos.`,
-        error: !prompt.hasToken || local,
+          : !prompt.hasEndpoint
+            ? `Prompt copiado (${size}), pero sin endpoint: definí VITE_APP_URL con la URL del deploy para que el chat pueda enviar los perfiles.`
+            : `Prompt copiado para ${requested} perfiles: ${size}, ${prompt.examples} ejemplos, ${prompt.excluded} excluidos.`,
+        error: !prompt.hasToken || !prompt.hasEndpoint,
       });
     } else {
       setFeedback({ text: "El navegador no permitió copiar al portapapeles.", error: true });

@@ -14,7 +14,7 @@ import type { Investor } from "../types/investor";
 import { buildPrompt } from "./build/build";
 import { DEFAULT_COUNT, clampCount } from "./inputs/count";
 import { today } from "./inputs/date";
-import { ingestEndpoint, ingestToken, tokenOrPlaceholder } from "./inputs/environment";
+import { appUrl, ingestEndpoint, ingestToken, tokenOrPlaceholder } from "./inputs/environment";
 import { TYPE_SOURCE } from "./inputs/type-source";
 import { selectExamples } from "./terms/10-examples";
 
@@ -32,6 +32,8 @@ export interface ResearchPrompt {
   examples: number;
   endpoint: string;
   hasToken: boolean;
+  /** Whether VITE_APP_URL is configured; without it the endpoint in the prompt is unusable. */
+  hasEndpoint: boolean;
 }
 
 export function buildResearchPrompt(investors: Investor[], options: PromptOptions = { count: DEFAULT_COUNT }): ResearchPrompt {
@@ -39,5 +41,5 @@ export function buildResearchPrompt(investors: Investor[], options: PromptOption
   const token = ingestToken();
   const endpoint = ingestEndpoint();
   const text = buildPrompt({ count, investors, endpoint, token: tokenOrPlaceholder(token), date: today(), typeSource: TYPE_SOURCE });
-  return { text, count, excluded: investors.length, examples: selectExamples(investors).length, endpoint, hasToken: Boolean(token) };
+  return { text, count, excluded: investors.length, examples: selectExamples(investors).length, endpoint, hasToken: Boolean(token), hasEndpoint: Boolean(appUrl()) };
 }

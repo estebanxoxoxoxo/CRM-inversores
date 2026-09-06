@@ -9,9 +9,15 @@ export { ingestToken };
 /** Shown in place of the token when VITE_INGEST_TOKEN is not configured. */
 const MISSING_TOKEN = "<VITE_INGEST_TOKEN no configurado>";
 
+/** Shown in place of the deployment URL when VITE_APP_URL is not configured. */
+const MISSING_APP_URL = "<VITE_APP_URL no configurado>";
+
+/** Base URL of the deployment, or an empty string when it is not configured. */
+export const appUrl = (): string => ((import.meta.env.VITE_APP_URL as string | undefined) ?? "").replace(/\/+$/, "");
+
+/** Always the deployment, never the page's origin: the chat that receives the prompt cannot reach localhost. */
 export function ingestEndpoint(): string {
-  const base = (import.meta.env.VITE_APP_URL as string | undefined) || window.location.origin;
-  return `${base.replace(/\/+$/, "")}/api/investors`;
+  return `${appUrl() || MISSING_APP_URL}/api/investors`;
 }
 
 export const tokenOrPlaceholder = (token: string): string => token || MISSING_TOKEN;

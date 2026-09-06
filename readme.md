@@ -68,13 +68,14 @@ Como la rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `
 `POST /api/investors` (`api/investors.ts`, función de Vercel) recibe `{ "investors": [ ... ] }` con
 `Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, fuerza la
 auditoría a `pending`, recalcula lo derivado, rechaza duplicados por id, nombre, LinkedIn o email y escribe sólo los
-nuevos; nunca sobreescribe. `?dryRun=1` valida sin escribir. Variables: `VITE_INGEST_TOKEN` (obligatoria) y
-`VITE_APP_URL` (opcional; en Vercel se toma de `VERCEL_PROJECT_PRODUCTION_URL`).
+nuevos; nunca sobreescribe. `?dryRun=1` valida sin escribir. Variables: `VITE_INGEST_TOKEN` y `VITE_APP_URL`, las dos
+necesarias para que el prompt salga con un endpoint utilizable.
 
 En desarrollo, `npm run dev` también sirve cada `api/<nombre>.ts` en `/api/<nombre>` con el mismo handler (plugin
 `localApi` en `vite.config.ts`), así que se puede probar con `curl` contra `http://localhost:5173/api/investors`. El endpoint que va
-en el prompt es `VITE_APP_URL` si está definida y, si no, el origen de la página: un chat externo no puede llegar a
-`localhost`, así que en local conviene definir `VITE_APP_URL` con la URL del deploy.
+en el prompt sale siempre de `VITE_APP_URL`, nunca del origen de la página, porque el chat que recibe el prompt no
+puede llegar a `localhost`. En Vercel se toma sola de `VERCEL_PROJECT_PRODUCTION_URL`; en local hay que definirla en
+`.env`, y si falta el botón lo avisa al copiar.
 
 ## Recupero ante desastres
 

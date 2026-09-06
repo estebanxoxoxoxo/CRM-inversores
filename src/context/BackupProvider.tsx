@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 import { ApiError, apiRequest, authorizedInit, ingestToken } from "../lib/api";
-import type { BackupInfo } from "../lib/backup";
-import { BackupContext, type BackupState } from "./backup";
+import { BACKUP_COLLECTIONS, type BackupCollection, type BackupInfo } from "../lib/backup";
+import { BackupContext, INITIAL_COLLECTION_BACKUP, type BackupState, type CollectionBackup } from "./backup";
 
 function explain(e: unknown): string {
   if (e instanceof ApiError && e.status === 401) return "el token no coincide con VITE_INGEST_TOKEN del servidor.";
@@ -12,51 +12,51 @@ function explain(e: unknown): string {
   return message;
 }
 
-/** Queries the latest backup once through /api/backup, and refreshes it after every backup created from the app. */
+const endpoint = (collection: BackupCollection): string => `/api/backup?collection=${collection}`;
+
+/** Queries the latest backup of each collection once through /api/backup, and refreshes it after every backup created from the app. */
 export default function BackupProvider({ children }: { children: ReactNode }) {
-  const [status, setStatus] = useState<BackupState["status"]>("loading");
-  const [latest, setLatest] = useState<BackupInfo | null>(null);
-  const [running, setRunning] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+  const [collections, setCollections] = useState<Record<BackupCollection, CollectionBackup>>({ investors: INITIAL_COLLECTION_BACKUP, gold: INITIAL_COLLECTION_BACKUP });
+
+  const patch = useCallback((collection: BackupCollection, changes: Partial<CollectionBackup>) => {
+    setCollections((current) => ({ ...current, [collection]: { ...current[collection], ...changes } }));
+  }, []);
 
   useEffect(() => {
     let active = true;
-    apiRequest<{ latest: BackupInfo | null }>("/api/backup")
-      .then(({ latest: info }) => {
-        if (!active) return;
-        setLatest(info);
-        setStatus("ready");
-      })
-      .catch((e: unknown) => {
-        if (!active) return;
-        setError(`No se pudo consultar el último backup: ${explain(e)}`);
-        setStatus("error");
-      });
+    for (const collection of BACKUP_COLLECTIONS) {
+      apiRequest<{ latest: BackupInfo | null }>(endpoint(collection))
+        .then(({ latest }) => {
+          if (active) patch(collection, { latest, status: "ready" });
+        })
+        .catch((e: unknown) => {
+          if (active) patch(collection, { error: `No se pudo consultar el último backup: ${explain(e)}`, status: "error" });
+        });
+    }
     return () => {
       active = false;
     };
-  }, []);
+  }, [patch]);
 
-  const create = useCallback(async () => {
-    if (!ingestToken()) {
-      setError("No se puede hacer backup desde la app: definí VITE_INGEST_TOKEN.");
-      return false;
-    }
-    setRunning(true);
-    setError(null);
-    try {
-      const { backup } = await apiRequest<{ backup: BackupInfo }>("/api/backup", authorizedInit({ method: "POST" }));
-      setLatest(backup);
-      setStatus("ready");
-      return true;
-    } catch (e) {
-      setError(`No se pudo crear el backup: ${explain(e)}`);
-      return false;
-    } finally {
-      setRunning(false);
-    }
-  }, []);
+  const create = useCallback(
+    async (collection: BackupCollection) => {
+      if (!ingestToken()) {
+        patch(collection, { error: "No se puede hacer backup desde la app: definí VITE_INGEST_TOKEN." });
+        return false;
+      }
+      patch(collection, { running: true, error: null });
+      try {
+        const { backup } = await apiRequest<{ backup: BackupInfo }>(endpoint(collection), authorizedInit({ method: "POST" }));
+        patch(collection, { latest: backup, status: "ready", running: false });
+        return true;
+      } catch (e) {
+        patch(collection, { error: `No se pudo crear el backup: ${explain(e)}`, running: false });
+        return false;
+      }
+    },
+    [patch],
+  );
 
-  const value = useMemo<BackupState>(() => ({ status, latest, running, error, create }), [status, latest, running, error, create]);
+  const value = useMemo<BackupState>(() => ({ collections, create }), [collections, create]);
   return <BackupContext value={value}>{children}</BackupContext>;
 }

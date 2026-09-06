@@ -12,7 +12,7 @@
  * always stores as null: a profile can be fully audited by an agent and still have no human judgement on it.
  */
 import { collection, doc, getDocs, writeBatch, type Firestore } from "firebase/firestore";
-import { COLLECTION, INGEST_MAX_PER_REQUEST, deriveInvestor, describeError, type Investor } from "../src/types/investor.js";
+import { COLLECTION, INGEST_MAX_PER_REQUEST, deriveInvestor, describeError, type Investor } from "../types/investor.js";
 
 export class IngestError extends Error {
   readonly status: number;

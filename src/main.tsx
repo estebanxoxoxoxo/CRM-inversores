@@ -2,8 +2,8 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
 import BackupProvider from "./context/BackupProvider";
-import GoldProvider from "./context/GoldProvider";
-import InvestorsProvider from "./context/InvestorsProvider";
+import GoldProvider from "./gold/context/GoldProvider";
+import InvestorsProvider from "./bronze/context/InvestorsProvider";
 import { applyTheme, storedTheme } from "./lib/theme";
 import "./index.css";
 

@@ -1,6 +1,7 @@
 import { BAND_CLASS, BAND_LABELS, CONFIDENCE_LABELS, CONNECTION_LABELS, INVESTOR_TYPE_LABELS, RATING_LABELS, REGION_SHORT_LABELS } from "../lib/labels";
 import type { Investor } from "../types/investor";
-import { Badge, LevelBadge } from "./Badges";
+import { Badge } from "../../components/Badge";
+import { LevelBadge } from "./LevelBadge";
 
 interface Props {
   investors: Investor[];

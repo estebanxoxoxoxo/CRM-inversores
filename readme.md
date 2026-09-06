@@ -4,7 +4,7 @@ App para filtrar y consultar perfiles de inversores deep tech / dev tools hispan
 2 de septiembre de 2026, nivel 0-100).
 
 Convención: el código, los nombres de archivos y los campos de la base están en inglés; los textos que ve el usuario
-están en español (`src/lib/labels.ts` traduce cada código a su etiqueta).
+están en español (`src/bronze/lib/labels.ts` y `src/gold/lib/labels.ts` traducen cada código a su etiqueta).
 
 ## Una sola fuente de verdad: Firestore
 
@@ -14,9 +14,8 @@ suscribe a la colección entera y refleja cualquier cambio en vivo.
 ```bash
 npm run dev                               # la app, suscripta a investors
 npm run integrity                         # valida cada documento contra el tipo y reporta inválidos y desfasados (--fix reescribe los desfasados)
-npm run backup                            # copia completa de investors al bucket de Storage, verificada (--list las enumera)
-npm run restore -- <nombre>.json          # vuelve a escribir en Firestore una copia del bucket (--prune borra lo que no esté)
-npm run gold:prompt                       # arma el prompt de evaluación gold del próximo lote y lo copia (ver src/gold/README.md)
+npm run backup                            # copia completa de investors al bucket de Storage, verificada (--collection gold para las evaluaciones; --list las enumera)
+npm run restore -- <nombre>.json          # vuelve a escribir en Firestore una copia del bucket (--collection gold; --prune borra lo que no esté)
 npm run typecheck                         # tipos de la app y de los scripts
 ```
 
@@ -45,7 +44,7 @@ completo para pegar en un chat de IA: el pedido, la metodología de descubrimien
 fuente del tipo, el endpoint de ingesta con su token, todos los perfiles existentes como excluidos (nombre, LinkedIn,
 email) y los perfiles con nivel mayor a 80 como ejemplos.
 
-El prompt se construye en `src/prompt-builder/` como una suma de términos: cada archivo de `terms/` es un término, y el
+El prompt se construye en `src/bronze/prompt-builder/` como una suma de términos: cada archivo de `terms/` es un término, y el
 agregador `build/build.ts` los renderiza en orden y los junta literalmente, separados por una línea en blanco.
 
 - `terms/` — un archivo por término, con el orden como prefijo numérico: `01-opening` (título y párrafo inicial),
@@ -82,28 +81,32 @@ puede llegar a `localhost`. En Vercel se toma sola de `VERCEL_PROJECT_PRODUCTION
 
 Sobre los perfiles ya cargados corre una segunda pasada: un agente evalúa cada inversor contra cuatro aspectos
 (etapa, deep tech, español y, para `us_hispanic`, founders hispanos) y guarda un documento por inversor en la colección
-`gold`, con veredicto `gold` o `rejected` y cuatro mails propuestos para los gold. `npm run gold:prompt` arma el prompt
-del próximo lote de 25 y `POST /api/gold` (`api/gold.ts`) recibe y valida las evaluaciones. Todo el módulo vive en
+`gold`, con veredicto `gold` o `rejected` y cuatro mails propuestos para los gold. El botón "Evaluar más perfiles" de
+la sección Gold arma el prompt del próximo lote (25 por defecto, hasta 100) y lo copia, como "Buscar más perfiles" en
+Bronce; `POST /api/gold` (`api/gold.ts`) recibe y valida las evaluaciones. Todo el módulo vive en
 `src/gold/`; su [README](src/gold/README.md) explica el documento, lo que valida el endpoint y la regla de Firestore
 que hay que añadir para `gold`.
 
 En la app, el selector Bronce / Gold de la cabecera cambia entre la lista de inversores y la de evaluaciones. La sección
 Gold lista cada perfil evaluado con sus cuatro aspectos, la evidencia de cada uno y los mails propuestos listos para
 copiar; abre por defecto sobre el veredicto gold y filtra por veredicto, región y aspecto que no pasa. Una evaluación
-se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón con el veredicto que lleva a ella.
+se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón con el veredicto que lleva a ella. La cabecera
+cambia con la sección: en Bronce, backup de `investors` y "Buscar más perfiles"; en Gold, backup de `gold` y "Evaluar
+más perfiles".
 
 ## Recupero ante desastres
 
 El botón "Hacer backup" de la cabecera y `npm run backup` hacen lo mismo con el mismo código (`src/lib/backup.ts`):
-suben toda la colección como un único JSON a `backups/investors/<fecha>.json` en el bucket de Storage, lo vuelven a
-descargar y comprueban que sea byte a byte igual a lo leído. Desde la app corre en el servidor a través de
-`/api/backup` (`api/backup.ts`; `POST` con el token crea, `GET` devuelve el último), así la verificación no depende de la
-configuración CORS del bucket. La cabecera muestra la fecha del último backup: se consulta al cargar
-(`src/context/BackupProvider.tsx`) y se actualiza al crear uno. Antes de una tarea riesgosa: backup.
-`npm run backup -- --list` enumera las copias.
+suben toda la colección como un único JSON a `backups/<colección>/<fecha>.json` en el bucket de Storage, lo vuelven a
+descargar y comprueban que sea byte a byte igual a lo leído. Hay dos colecciones: `investors` (el botón de Bronce, el
+script por defecto) y `gold` (el botón de Gold, `--collection gold` en el script). Desde la app corre en el servidor a
+través de `/api/backup?collection=<investors|gold>` (`api/backup.ts`; `POST` con el token crea, `GET` devuelve el
+último), así la verificación no depende de la configuración CORS del bucket. La cabecera muestra la fecha del último
+backup de la colección de la sección: se consulta al cargar (`src/context/BackupProvider.tsx`) y se actualiza al crear
+uno. Antes de una tarea riesgosa: backup. `npm run backup -- --list` enumera las copias.
 
-Si la base se daña: `npm run restore -- <nombre>.json`; `--prune` elimina además los documentos que no estén en la
-copia. Las reglas de Storage deben permitir leer y escribir `backups/**` con el SDK web. No hay copias en el repo ni
+Si la base se daña: `npm run restore -- <nombre>.json` (con `--collection gold` para las evaluaciones, que se validan
+contra el esquema gold); `--prune` elimina además los documentos que no estén en la copia. Las reglas de Storage deben permitir leer y escribir `backups/**` con el SDK web. No hay copias en el repo ni
 en disco: la única fuente de verdad es Firestore y las copias viven en el bucket.
 
 Editar un perfil = editarlo en Firestore. La app recalcula lo derivado al leer, así que un documento editado a mano
@@ -113,20 +116,27 @@ reescribe los desfasados en su forma canónica.
 
 ## Estructura
 
-- `src/types/investor.ts` — **tipo canónico** `Investor` (esquema zod + tipo TypeScript), umbrales de banda,
-  `computeScore` y `deriveInvestor` (validación + derivación). Todo lo demás se apoya en este archivo.
-- `src/lib/labels.ts` — etiquetas en español para cada código (bandas, regiones, tipos, estados, topes, rúbrica).
-- `src/lib/investors.ts` — suscripción a Firestore. `src/context/` — el contexto que expone la colección.
-- `src/lib/filters.ts` — filtros, orden y URL. `src/components/` — filtros, lista, ficha y badges.
-- `src/lib/backup.ts` — copias en el bucket, compartido por la app y los scripts. `src/lib/json.ts` — claves ordenadas.
-  `src/lib/api.ts` — llamadas de la app a sus propias funciones (`/api/*`) con el token.
+Dos secciones con la misma forma, cada una en su carpeta, y fuera de ellas lo que comparten:
+
+- `src/bronze/` — los inversores (`src/bronze/README.md`). `types/investor.ts` es el **tipo canónico** `Investor`
+  (esquema zod + tipo TypeScript, umbrales de banda, `computeScore` y `deriveInvestor`); `server/ingest.ts` la ingesta
+  que usa `api/investors.ts`; `lib/investors.ts` la suscripción a Firestore y las escrituras (calificación, conexión);
+  `lib/filters.ts` filtros, orden y URL; `lib/labels.ts` las etiquetas en español de cada código; `context/` el
+  contexto que expone la colección; `components/` filtros, lista, ficha, diálogos, badge de nivel y "Buscar más
+  perfiles"; `prompt-builder/` el prompt de búsqueda.
+- `src/gold/` — las evaluaciones, con la misma estructura (`src/gold/README.md`): `types/gold.ts`,
+  `server/evaluations.ts` (usada por `api/gold.ts`), `lib/gold.ts`, `lib/filters.ts`, `lib/labels.ts`, `context/`,
+  `components/` (lista, ficha, filtros, badge de veredicto y "Evaluar más perfiles") y `prompt-builder/`.
+- Compartido: `src/lib/` (`firebase.ts`, `data.ts` errores de lectura, `text.ts`, `api.ts` llamadas a `/api/*` con el
+  token y URL del despliegue, `backup.ts` copias en el bucket de las dos colecciones, `json.ts`, `clipboard.ts`,
+  `theme.ts`), `src/context/` (sección y backup), `src/components/` (selector de sección, backup, tema, `Badge` y las
+  piezas de texto de las fichas) y `src/App.tsx`, que compone las dos secciones.
 - `api/` — funciones de Vercel: `investors.ts` (ingesta), `backup.ts` y `gold.ts` (evaluaciones). `server/` — lo que
-  comparten: `firestore.ts` (inicialización con las variables de entorno), `auth.ts` (token), `ingest.ts` (validación y
-  deduplicación). Como el proyecto es ESM (`"type": "module"`), los imports relativos de esta cadena llevan extensión
-  `.js`: sin ella la función se cae al cargar en Vercel (`FUNCTION_INVOCATION_FAILED`).
-- `src/gold/` — la evaluación gold: tipo, ingesta, prompt y comando (`src/gold/README.md`).
+  comparten: `firestore.ts` (inicialización con las variables de entorno) y `auth.ts` (token). Como el proyecto es ESM
+  (`"type": "module"`), los imports relativos de esta cadena llevan extensión `.js`: sin ella la función se cae al
+  cargar en Vercel (`FUNCTION_INVOCATION_FAILED`).
 - `scripts/` — `integrity.ts`, `backup.ts`, `restore.ts`; `scripts/lib/firestore.ts` carga `.env` y reutiliza la
-  inicialización de `server/firestore.ts`.
+  inicialización de `server/firestore.ts`; `scripts/lib/collection.ts` lee `--collection`.
 
 ## Auditoría dentro del perfil
 

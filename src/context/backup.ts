@@ -1,7 +1,8 @@
 import { createContext, useContext } from "react";
-import type { BackupInfo } from "../lib/backup";
+import type { BackupCollection, BackupInfo } from "../lib/backup";
 
-export interface BackupState {
+/** Backup state of one collection. */
+export interface CollectionBackup {
   /** Whether the initial query for the latest backup has finished. */
   status: "loading" | "ready" | "error";
   latest: BackupInfo | null;
@@ -9,14 +10,23 @@ export interface BackupState {
   running: boolean;
   /** Last error, from the initial query or from a backup attempt. */
   error: string | null;
-  /** Creates and verifies a backup; resolves to true when `latest` has been updated, false on error. */
-  create: () => Promise<boolean>;
 }
 
-const INITIAL_BACKUP_STATE: BackupState = { status: "loading", latest: null, running: false, error: null, create: async () => false };
+export const INITIAL_COLLECTION_BACKUP: CollectionBackup = { status: "loading", latest: null, running: false, error: null };
 
-export const BackupContext = createContext<BackupState>(INITIAL_BACKUP_STATE);
+export interface BackupState {
+  collections: Record<BackupCollection, CollectionBackup>;
+  /** Creates and verifies a backup of the collection; resolves to true when its `latest` has been updated, false on error. */
+  create: (collection: BackupCollection) => Promise<boolean>;
+}
 
-export function useBackup(): BackupState {
-  return useContext(BackupContext);
+export const BackupContext = createContext<BackupState>({
+  collections: { investors: INITIAL_COLLECTION_BACKUP, gold: INITIAL_COLLECTION_BACKUP },
+  create: async () => false,
+});
+
+/** The backup state of one collection, with `create` bound to it. */
+export function useBackup(collection: BackupCollection): CollectionBackup & { create: () => Promise<boolean> } {
+  const { collections, create } = useContext(BackupContext);
+  return { ...collections[collection], create: () => create(collection) };
 }

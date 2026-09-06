@@ -2,6 +2,9 @@
 
 export const ingestToken = (): string => (import.meta.env.VITE_INGEST_TOKEN as string | undefined) || "";
 
+/** Base URL of the deployment without trailing slashes, or an empty string when VITE_APP_URL is not configured. */
+export const appUrl = (): string => ((import.meta.env.VITE_APP_URL as string | undefined) ?? "").replace(/\/+$/, "");
+
 export class ApiError extends Error {
   readonly status: number;
   constructor(status: number, message: string) {

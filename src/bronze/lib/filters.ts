@@ -14,6 +14,7 @@ import {
   type Rating,
   type Region,
 } from "../types/investor";
+import { normalize } from "../../lib/text";
 import { REGION_LABELS, UNRATED } from "./labels";
 
 export type SortKey = "level" | "name" | "firm" | "region";
@@ -90,11 +91,6 @@ export function filtersToUrl(filters: Filters): void {
   if (filters.sort !== "level") params.set("sort", filters.sort);
   const query = params.toString();
   window.history.replaceState(null, "", `${query ? `?${query}` : window.location.pathname}${window.location.hash}`);
-}
-
-/** Lower case without diacritics, so "Piñol" and "pinol" match. Shared with the Gold section. */
-export function normalize(s: string): string {
-  return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 }
 
 export const ratingOf = (investor: Investor): RatingFilter => investor.rating ?? UNRATED;

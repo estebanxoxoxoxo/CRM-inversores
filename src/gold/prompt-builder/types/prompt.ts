@@ -1,11 +1,11 @@
+import type { Investor } from "../../../bronze/types/investor";
 import type { Evaluation } from "../../types/gold";
-import type { InvestorDigest } from "../../types/investor";
 import type { TermId } from "./term";
 
-/** The inputs of a prompt. Gathered by index.ts from the database (batch, examples, excluded) and the environment (the rest). */
+/** The inputs of a prompt. Gathered by index.ts from the app's data (batch, examples, excluded) and the environment (the rest). */
 export interface PromptInput {
   /** The investors to evaluate in this run: the head of the unevaluated remainder. */
-  batch: InvestorDigest[];
+  batch: Investor[];
   /** Recent gold documents shown as the quality bar. */
   examples: Evaluation[];
   /** Every evaluated investor, both verdicts, so none is evaluated twice. */
@@ -14,7 +14,7 @@ export interface PromptInput {
   endpoint: string;
   /** Bearer token for the endpoint, or the placeholder when it is not configured. */
   token: string;
-  /** Source code of src/types/gold.ts, embedded verbatim. */
+  /** Source code of src/gold/types/gold.ts, embedded verbatim. */
   typeSource: string;
   /** Generation date, YYYY-MM-DD. */
   date: string;

@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import { useSection } from "../context/section";
-import { copyText } from "../lib/clipboard";
-import { ASPECT_KEYS, type GoldEntry } from "../lib/gold-filters";
-import { ASPECT_LABELS, BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, REGION_LABELS, VERDICT_LABELS } from "../lib/labels";
-import type { Region } from "../types/investor";
-import { Badge, LevelBadge } from "./Badges";
-import { Linkified, Section } from "./DetailParts";
+import { useSection } from "../../context/section";
+import { copyText } from "../../lib/clipboard";
+import { ASPECT_KEYS, type GoldEntry } from "../lib/filters";
+import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
+import { ASPECT_LABELS, VERDICT_LABELS } from "../lib/labels";
+import type { Region } from "../../bronze/types/investor";
+import { LevelBadge } from "../../bronze/components/LevelBadge";
+import { Badge } from "../../components/Badge";
+import { Linkified, Section } from "../../components/DetailParts";
 
 interface Props {
   entry: GoldEntry | null;

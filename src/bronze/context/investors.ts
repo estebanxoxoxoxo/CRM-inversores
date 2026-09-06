@@ -1,5 +1,5 @@
 import { createContext, useContext } from "react";
-import type { DataError, InvalidDocument } from "../lib/investors";
+import type { DataError, InvalidDocument } from "../../lib/data";
 import type { Investor } from "../types/investor";
 
 export interface InvestorsState {

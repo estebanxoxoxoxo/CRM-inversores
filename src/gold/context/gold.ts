@@ -1,6 +1,6 @@
 import { createContext, useContext } from "react";
-import type { Evaluation } from "../gold/types/gold";
-import type { DataError, InvalidDocument } from "../lib/investors";
+import type { Evaluation } from "../types/gold";
+import type { DataError, InvalidDocument } from "../../lib/data";
 
 export interface GoldState {
   status: "loading" | "ready" | "error";

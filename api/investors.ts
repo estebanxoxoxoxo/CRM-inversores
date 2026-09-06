@@ -7,8 +7,8 @@
  */
 import { isAuthorized, tokenConfigured } from "../server/auth.js";
 import { getDb, isFirebaseConfigured } from "../server/firestore.js";
-import { IngestError, ingestInvestors } from "../server/ingest.js";
-import { INGEST_MAX_PER_REQUEST, describeError } from "../src/types/investor.js";
+import { IngestError, ingestInvestors } from "../src/bronze/server/ingest.js";
+import { INGEST_MAX_PER_REQUEST, describeError } from "../src/bronze/types/investor.js";
 
 const json = (body: unknown, status = 200): Response => Response.json(body, { status });
 

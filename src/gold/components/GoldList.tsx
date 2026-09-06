@@ -1,7 +1,9 @@
-import { ASPECT_KEYS, type GoldEntry } from "../lib/gold-filters";
-import { ASPECT_LABELS, ASPECT_SHORT_LABELS, REGION_SHORT_LABELS, VERDICT_LABELS } from "../lib/labels";
-import type { Region } from "../types/investor";
-import { Badge, LevelBadge } from "./Badges";
+import { ASPECT_KEYS, type GoldEntry } from "../lib/filters";
+import { LevelBadge } from "../../bronze/components/LevelBadge";
+import { REGION_SHORT_LABELS } from "../../bronze/lib/labels";
+import type { Region } from "../../bronze/types/investor";
+import { Badge } from "../../components/Badge";
+import { ASPECT_LABELS, ASPECT_SHORT_LABELS, VERDICT_LABELS } from "../lib/labels";
 
 interface Props {
   entries: GoldEntry[];

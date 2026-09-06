@@ -1,27 +1,5 @@
-/** Spanish UI labels for the English codes of the investor and gold types. Everything the user reads comes from here. */
-import type { Section } from "../context/section";
-import type { Verdict } from "../gold/types/gold";
-import type { AspectKey } from "./gold-filters";
+/** Spanish UI labels for the English codes of the investor type. Everything the user reads about an investor comes from here. */
 import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type ConnectionState, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
-
-/** The two sections of the app. */
-export const SECTION_LABELS: Record<Section, string> = { bronze: "Bronce", gold: "Gold" };
-
-export const VERDICT_LABELS: Record<Verdict, string> = { gold: "Gold", rejected: "Rechazado" };
-
-export const ASPECT_LABELS: Record<AspectKey, string> = {
-  stage: "Etapa: pre-seed o seed",
-  deepTech: "Deep tech, IA profunda o dev tools",
-  spanish: "Habla español",
-  hispanicFounders: "Founders hispanos",
-};
-
-export const ASPECT_SHORT_LABELS: Record<AspectKey, string> = {
-  stage: "Etapa",
-  deepTech: "Deep tech",
-  spanish: "Español",
-  hispanicFounders: "Founders",
-};
 
 export const RATING_LABELS: Record<Rating, string> = {
   approved: "Aprobado",

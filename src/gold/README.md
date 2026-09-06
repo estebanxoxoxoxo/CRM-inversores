@@ -2,44 +2,41 @@
 
 Evalúa los inversores que ya están en `investors` contra cuatro aspectos y guarda una evaluación por inversor en una
 colección aparte, `gold`. El trabajo pesado lo hace un agente de IA: este módulo sólo le arma el prompt y le abre la
-puerta para escribir.
+puerta para escribir. En la app, la sección Gold navega por las evaluaciones.
 
-Dos piezas, nada más:
+Tres piezas:
 
-1. **El endpoint** `POST /api/gold` (`api/gold.ts`, función de Vercel desplegada con el resto del CRM): recibe las
+1. **El botón "Evaluar más perfiles"** (cabecera de la sección Gold): arma el prompt del próximo lote y lo copia al
+   portapapeles, igual que "Buscar más perfiles" en Bronce.
+2. **El endpoint** `POST /api/gold` (`api/gold.ts`, función de Vercel desplegada con el resto del CRM): recibe las
    evaluaciones del agente, las valida y las escribe.
-2. **El comando** `npm run gold:prompt`: arma el prompt del próximo lote y lo deja en el portapapeles.
+3. **El backup** de `gold`: el botón "Hacer backup" de la sección Gold y `npm run backup -- --collection gold`.
 
 ## Estructura
 
 - `types/gold.ts` — el tipo del documento `gold` (esquema zod + `validateEvaluation`). Se incrusta tal cual en el
-  prompt, así que lo que lee el agente es exactamente lo que valida el endpoint.
-- `types/investor.ts` — lector **permisivo** de `investors`: el digest que muestra el prompt. No es el tipo canónico
-  del CRM (`src/types/investor.ts`) a propósito: aquí nunca se escribe un inversor y un campo que el CRM añada,
-  renombre o quite no debe romper el comando a mitad de lote.
+  prompt (`prompt-builder/inputs/type-source.ts`, vía `?raw` de Vite), así que lo que lee el agente es exactamente lo
+  que valida el endpoint.
 - `server/evaluations.ts` — la ingesta: comprueba cada evaluación contra la base y escribe en lote.
-- `lib/` — lectura de `gold` y de `investors`, y el portapapeles de Node (`clipboardy`).
-- `prompt-builder/` — el prompt, un término por archivo, con la misma organización que `src/prompt-builder/`.
-- `scripts/prompt.ts` — el comando.
+- `lib/gold.ts` — qué está evaluado (las exclusiones) y qué sirve de ejemplo.
+- `prompt-builder/` — el prompt, un término por archivo, con la misma organización que `src/bronze/prompt-builder/`. Sus
+  entradas: la cantidad (diálogo), la URL del despliegue y el token (los mismos del prompt de búsqueda, de
+  `import.meta.env`), el tipo y la fecha. Los inversores y las evaluaciones salen de las suscripciones vivas de la app.
 
-Comparte con el CRM `server/auth.ts`, `server/firestore.ts` y `scripts/lib/firestore.ts`, y las mismas ocho variables
-de `.env` (`VITE_APP_URL` es la URL del despliegue, que es la que va en el prompt como endpoint). Es código de Node:
-está excluido de `tsconfig.app.json` y se comprueba con `tsconfig.scripts.json`.
+Es código de navegador salvo `server/evaluations.ts`, que corre en la función de Vercel; comparte `server/auth.ts` y
+`server/firestore.ts` con el resto de la API.
 
-## `npm run gold:prompt`
+## El botón "Evaluar más perfiles"
 
-1. Carga el `.env` y se conecta a Firestore (si faltan las variables de Firebase, corta con un mensaje claro).
-2. Lee todos los `investors` (cada documento entero, tal como está en la base) y todos los documentos de `gold`.
-3. Calcula el **remanente**: los inversores que todavía no tienen documento en `gold`, ordenados por nivel
-   descendente y, a igual nivel, por nombre. El **lote** son los primeros 25 del remanente.
-4. Toma como **ejemplos** los 100 documentos más recientes con veredicto `gold`.
-5. Arma la lista de **excluidos**: todos los evaluados, con los dos veredictos, para que ninguno se repita.
-6. Construye el prompt con el lote, los ejemplos, los excluidos, la URL del endpoint, el token y el código de
-   `types/gold.ts` leído del disco.
-7. Lo copia al portapapeles y resume por consola: tamaño del lote, cuántos quedan, ejemplos, excluidos y peso en KB.
-   Si el portapapeles falla, escribe el prompt en un archivo temporal y dice dónde quedó.
+1. Calcula el **remanente**: los inversores que todavía no tienen documento en `gold`, en el orden de la app (nivel
+   descendente y, a igual nivel, por nombre). El **lote** son los primeros N del remanente; N lo pide el diálogo
+   (25 por defecto, 100 como máximo, que es lo que acepta una petición).
+2. Toma como **ejemplos** los 100 documentos más recientes con veredicto `gold`.
+3. Arma la lista de **excluidos**: todos los evaluados, con los dos veredictos, para que ninguno se repita.
+4. Construye el prompt con el lote, los ejemplos, los excluidos, la URL del endpoint, el token y el código de
+   `types/gold.ts`, lo copia y resume: perfiles del lote, tamaño, ejemplos, excluidos y cuántos quedan.
 
-Si el remanente está vacío, lo dice y no arma nada. Con `--out archivo.md` además escribe el prompt en ese archivo.
+Si no queda ningún inversor sin evaluar, el botón se desactiva y lo dice.
 
 ## Probar el endpoint en local
 
@@ -53,6 +50,8 @@ La colección `gold` hay que habilitarla además de la de `investors`:
 ```
 match /gold/{id} { allow read, write: if true; }
 ```
+
+Los backups van a `backups/gold/<fecha>.json` en el bucket de Storage, bajo la misma regla `backups/**`.
 
 ## El documento `gold`
 

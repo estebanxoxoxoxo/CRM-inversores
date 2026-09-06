@@ -1,21 +1,22 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import BackupButton from "./components/BackupButton";
-import FiltersPanel from "./components/Filters";
-import FindMoreButton from "./components/FindMoreButton";
-import GoldDetail from "./components/GoldDetail";
-import GoldFiltersPanel from "./components/GoldFilters";
-import GoldList from "./components/GoldList";
-import InvestorDetail from "./components/InvestorDetail";
-import InvestorList from "./components/InvestorList";
+import EvaluateMoreButton from "./gold/components/EvaluateMoreButton";
+import FiltersPanel from "./bronze/components/InvestorFilters";
+import FindMoreButton from "./bronze/components/FindMoreButton";
+import GoldDetail from "./gold/components/GoldDetail";
+import GoldFiltersPanel from "./gold/components/GoldFilters";
+import GoldList from "./gold/components/GoldList";
+import GoldVerdictBadge from "./gold/components/GoldVerdictBadge";
+import InvestorDetail from "./bronze/components/InvestorDetail";
+import InvestorList from "./bronze/components/InvestorList";
 import SectionSwitch from "./components/SectionSwitch";
 import ThemeSwitch from "./components/ThemeSwitch";
-import { useGold } from "./context/gold";
-import { useInvestors } from "./context/investors";
+import { useGold } from "./gold/context/gold";
+import { useInvestors } from "./bronze/context/investors";
 import { SectionContext, navigationFromHash, navigationToHash, type Navigation, type Section } from "./context/section";
-import { applyFilters, filtersFromUrl, filtersToUrl, type Filters } from "./lib/filters";
-import { DEFAULT_GOLD_FILTERS, applyGoldFilters, joinGold, type GoldFilters } from "./lib/gold-filters";
-import type { DataError } from "./lib/investors";
-import type { InvalidDocument } from "./lib/investors";
+import { applyFilters, filtersFromUrl, filtersToUrl, type Filters } from "./bronze/lib/filters";
+import { DEFAULT_GOLD_FILTERS, applyGoldFilters, joinGold, type GoldFilters } from "./gold/lib/filters";
+import type { DataError, InvalidDocument } from "./lib/data";
 
 function DataNotices({ error, invalid }: { error: DataError | null; invalid: InvalidDocument[] }) {
   return (
@@ -105,8 +106,17 @@ export default function App() {
             </p>
           )}
           <div className="header-actions">
-            <BackupButton />
-            <FindMoreButton />
+            {section === "bronze" ? (
+              <>
+                <BackupButton collection="investors" />
+                <FindMoreButton />
+              </>
+            ) : (
+              <>
+                <BackupButton collection="gold" />
+                <EvaluateMoreButton />
+              </>
+            )}
             <ThemeSwitch />
           </div>
         </header>
@@ -118,7 +128,12 @@ export default function App() {
             <main className="results">
               {status === "loading" ? <p className="empty">Cargando desde Firestore…</p> : <InvestorList investors={visible} selectedId={selectedId} onSelect={select} />}
             </main>
-            <InvestorDetail investor={selected} selectedId={status === "ready" ? selectedId : null} onClose={close} />
+            <InvestorDetail
+              investor={selected}
+              selectedId={status === "ready" ? selectedId : null}
+              onClose={close}
+              verdictBadge={selectedEntry ? <GoldVerdictBadge evaluation={selectedEntry.evaluation} /> : null}
+            />
           </div>
         ) : (
           <div className="layout">

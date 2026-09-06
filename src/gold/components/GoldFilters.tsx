@@ -9,8 +9,9 @@ import {
   type GoldEntry,
   type GoldFilters,
   type GoldListFilterKey,
-} from "../lib/gold-filters";
-import { ASPECT_LABELS, REGION_LABELS, VERDICT_LABELS } from "../lib/labels";
+} from "../lib/filters";
+import { REGION_LABELS } from "../../bronze/lib/labels";
+import { ASPECT_LABELS, VERDICT_LABELS } from "../lib/labels";
 
 interface Props {
   filters: GoldFilters;

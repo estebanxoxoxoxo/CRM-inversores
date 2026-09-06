@@ -1,7 +1,7 @@
 /** Filters and order of the Gold section, kept in memory: the URL only carries the section and the selected id. */
-import { VerdictSchema, type Evaluation, type Verdict } from "../gold/types/gold";
-import { RegionSchema, type Investor, type Region } from "../types/investor";
-import { normalize } from "./filters";
+import { VerdictSchema, type Evaluation, type Verdict } from "../types/gold";
+import { RegionSchema, type Investor, type Region } from "../../bronze/types/investor";
+import { normalize } from "../../lib/text";
 
 /** One row of the Gold section: the evaluation and, while the investor is still in the base, its profile. */
 export interface GoldEntry {

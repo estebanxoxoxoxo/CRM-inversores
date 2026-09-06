@@ -1,9 +1,9 @@
-import { useGold } from "../context/gold";
-import { useInvestors } from "../context/investors";
+import { useInvestors } from "../bronze/context/investors";
 import { useSection, type Section } from "../context/section";
-import { SECTION_LABELS } from "../lib/labels";
+import { useGold } from "../gold/context/gold";
 
 const ORDER: readonly Section[] = ["bronze", "gold"];
+const SECTION_LABELS: Record<Section, string> = { bronze: "Bronce", gold: "Gold" };
 
 /** Bronce / Gold pill in the header: the investors list and the evaluations made over it, with their counts. */
 export default function SectionSwitch() {

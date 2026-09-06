@@ -1,29 +1,40 @@
 /**
- * Restores Firestore from a backup in the Storage bucket (see `npm run backup`).
+ * Restores a collection from a backup in the Storage bucket (see `npm run backup`).
  *
- *   npm run restore -- <name>.json           writes every document of backups/investors/<name>.json
- *   npm run restore -- <name>.json --prune   also deletes documents of `investors` that are not in the backup
+ *   npm run restore -- <name>.json                       writes every document of backups/investors/<name>.json
+ *   npm run restore -- <name>.json --collection gold     the same for backups/gold/<name>.json
+ *   npm run restore -- <name>.json --prune               also deletes documents of the collection that are not in the backup
  *
- * Every document is validated first; nothing is written if any fails. Documents keep their stored `updatedAt`.
+ * Every document is validated first (investors against the canonical type, gold against the evaluation schema);
+ * nothing is written if any fails. Documents keep their stored timestamps.
  */
 import { collection, doc, getDocs, writeBatch, type Firestore } from "firebase/firestore";
-import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src/types/investor";
-import { downloadBackup, type BackupDocument } from "../src/lib/backup";
+import { EvaluationSchema, type Evaluation } from "../src/gold/types/gold";
+import { downloadBackup, type BackupCollection, type BackupDocument } from "../src/lib/backup";
+import { deriveInvestor, describeError, type Investor } from "../src/bronze/types/investor";
+import { collectionArgument, positionalArguments } from "./lib/collection";
 import { connect, explainError } from "./lib/firestore";
 
-const prune = process.argv.includes("--prune");
-const name = process.argv.slice(2).find((argument) => !argument.startsWith("--"));
-if (!name) {
-  console.error("Usage: npm run restore -- <name>.json [--prune]   (npm run backup -- --list shows the names)");
+const args = process.argv.slice(2);
+const prune = args.includes("--prune");
+const name = collectionArgument(args);
+const file = positionalArguments(args)[0];
+if (!file) {
+  console.error("Usage: npm run restore -- <name>.json [--collection gold] [--prune]   (npm run backup -- --list shows the names)");
   process.exit(1);
 }
 
-function validate(documents: BackupDocument[]): Investor[] {
-  const investors: Investor[] = [];
+interface Restorable {
+  id: string;
+  data: Investor | Evaluation;
+}
+
+function validate(documents: BackupDocument[]): Restorable[] {
+  const valid: Restorable[] = [];
   const errors: string[] = [];
   for (const { id, data } of documents) {
     try {
-      investors.push(deriveInvestor({ ...data, id }));
+      valid.push({ id, data: name === "gold" ? EvaluationSchema.parse({ ...data, investorId: id }) : deriveInvestor({ ...data, id }) });
     } catch (e) {
       errors.push(`${id}: ${describeError(e)}`);
     }
@@ -33,10 +44,10 @@ function validate(documents: BackupDocument[]): Investor[] {
     for (const error of errors) console.error(" -", error);
     process.exit(1);
   }
-  return investors;
+  return valid;
 }
 
-async function write(db: Firestore, investors: Investor[]): Promise<void> {
+async function write(db: Firestore, target: BackupCollection, documents: Restorable[]): Promise<void> {
   let batch = writeBatch(db);
   let batched = 0;
   const flush = async () => {
@@ -44,16 +55,16 @@ async function write(db: Firestore, investors: Investor[]): Promise<void> {
     batch = writeBatch(db);
     batched = 0;
   };
-  for (const investor of investors) {
-    batch.set(doc(db, COLLECTION, investor.id), investor);
+  for (const { id, data } of documents) {
+    batch.set(doc(db, target, id), data);
     if (++batched >= 400) await flush();
   }
   await flush();
-  console.log(`Restored ${investors.length} documents into ${COLLECTION}.`);
+  console.log(`Restored ${documents.length} documents into ${target}.`);
 
   if (prune) {
-    const ids = new Set(investors.map((investor) => investor.id));
-    const stale = (await getDocs(collection(db, COLLECTION))).docs.filter((document) => !ids.has(document.id));
+    const ids = new Set(documents.map((document) => document.id));
+    const stale = (await getDocs(collection(db, target))).docs.filter((document) => !ids.has(document.id));
     for (const document of stale) {
       batch.delete(document.ref);
       if (++batched >= 400) await flush();
@@ -65,9 +76,9 @@ async function write(db: Firestore, investors: Investor[]): Promise<void> {
 
 const db = connect();
 (async () => {
-  const archive = await downloadBackup(name);
-  console.log(`Backup ${name}: ${archive.count} documents created ${archive.createdAt}.`);
-  await write(db, validate(archive.documents));
+  const archive = await downloadBackup(name, file);
+  console.log(`Backup ${file} of ${name}: ${archive.count} documents created ${archive.createdAt}.`);
+  await write(db, name, validate(archive.documents));
   process.exit(0);
 })().catch((e: unknown) => {
   console.error("ERROR:", explainError(e));

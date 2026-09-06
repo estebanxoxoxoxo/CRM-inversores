@@ -22,8 +22,6 @@
   "include": [
     "scripts",
     "server",
-    "api",
-    "src/types",
-    "src/gold"
+    "api"
   ]
 }

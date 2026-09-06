@@ -10,7 +10,7 @@
  * fields the type does not define. Exit code is 1 while anything is invalid or stale.
  */
 import { collection, doc, getDocs, terminate, writeBatch, type Firestore } from "firebase/firestore";
-import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src/types/investor";
+import { COLLECTION, deriveInvestor, describeError, type Investor } from "../src/bronze/types/investor";
 import { connect, explainError } from "./lib/firestore";
 import { sortKeys } from "../src/lib/json";
 

@@ -25,13 +25,13 @@ export interface InvestorsSnapshot {
   invalid: InvalidDocument[];
 }
 
-function toDataError(e: unknown): DataError {
+export function toDataError(e: unknown, collectionName: string = COLLECTION): DataError {
   if (e instanceof DataError) return e;
   const message = describeError(e);
   if (/permission|PERMISSION_DENIED|insufficient/i.test(message)) {
     return new DataError(
-      "Firestore rechazó la lectura de la colección investors.",
-      "Las reglas de seguridad de Firestore no permiten leer desde el navegador. En Firebase Console > Firestore > Reglas, permití la lectura de investors/{id}.",
+      `Firestore rechazó la lectura de la colección ${collectionName}.`,
+      `Las reglas de seguridad de Firestore no permiten leer desde el navegador. En Firebase Console > Firestore > Reglas, permití la lectura de ${collectionName}/{id}.`,
     );
   }
   if (/offline|unavailable|network/i.test(message)) {

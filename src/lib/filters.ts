@@ -92,7 +92,8 @@ export function filtersToUrl(filters: Filters): void {
   window.history.replaceState(null, "", `${query ? `?${query}` : window.location.pathname}${window.location.hash}`);
 }
 
-function normalize(s: string): string {
+/** Lower case without diacritics, so "Piñol" and "pinol" match. Shared with the Gold section. */
+export function normalize(s: string): string {
   return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 }
 

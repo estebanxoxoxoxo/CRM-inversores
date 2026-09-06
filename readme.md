@@ -87,6 +87,11 @@ del próximo lote de 25 y `POST /api/gold` (`api/gold.ts`) recibe y valida las e
 `src/gold/`; su [README](src/gold/README.md) explica el documento, lo que valida el endpoint y la regla de Firestore
 que hay que añadir para `gold`.
 
+En la app, el selector Bronce / Gold de la cabecera cambia entre la lista de inversores y la de evaluaciones. La sección
+Gold lista cada perfil evaluado con sus cuatro aspectos, la evidencia de cada uno y los mails propuestos listos para
+copiar; abre por defecto sobre el veredicto gold y filtra por veredicto, región y aspecto que no pasa. Una evaluación
+se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón con el veredicto que lleva a ella.
+
 ## Recupero ante desastres
 
 El botón "Hacer backup" de la cabecera y `npm run backup` hacen lo mismo con el mismo código (`src/lib/backup.ts`):

@@ -1,4 +1,6 @@
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useState } from "react";
+import { useGold } from "../context/gold";
+import { useSection } from "../context/section";
 import {
   BAND_CLASS,
   BAND_LABELS,
@@ -15,67 +17,13 @@ import {
 import { SCORE_DIMENSIONS, SCORE_MAX, type Investor, type Score } from "../types/investor";
 import { Badge, LevelBadge } from "./Badges";
 import ConnectionDialog from "./ConnectionDialog";
+import { BulletList, Paragraphs, Section } from "./DetailParts";
 import RatingDialog from "./RatingDialog";
 
 interface Props {
   investor: Investor | null;
   selectedId: string | null;
   onClose: () => void;
-}
-
-const URL_RE = /(https?:\/\/[^\s)\]]+)/g;
-
-function Linkified({ text }: { text: string }) {
-  return (
-    <>
-      {text.split(URL_RE).map((part, i) =>
-        /^https?:\/\//.test(part) ? (
-          <a key={i} href={part.replace(/[).,;]+$/, "")} target="_blank" rel="noreferrer">
-            {part}
-          </a>
-        ) : (
-          <span key={i}>{part}</span>
-        ),
-      )}
-    </>
-  );
-}
-
-function Section({ title, children, open = true }: { title: string; children: ReactNode; open?: boolean }) {
-  return (
-    <details className="section" open={open}>
-      <summary>{title}</summary>
-      <div className="section-body">{children}</div>
-    </details>
-  );
-}
-
-function BulletList({ items }: { items: string[] }) {
-  if (!items.length) return <p className="muted">Sin datos.</p>;
-  return (
-    <ul className="simple-list">
-      {items.map((item, i) => (
-        <li key={i}>
-          <Linkified text={item} />
-        </li>
-      ))}
-    </ul>
-  );
-}
-
-function Paragraphs({ text }: { text: string }) {
-  return (
-    <>
-      {text
-        .split(/\n\s*\n|\n/)
-        .filter((p) => p.trim())
-        .map((p, i) => (
-          <p key={i}>
-            <Linkified text={p} />
-          </p>
-        ))}
-    </>
-  );
 }
 
 function ScoreBreakdown({ score }: { score: Score }) {
@@ -105,6 +53,8 @@ function ScoreBreakdown({ score }: { score: Score }) {
 
 export default function InvestorDetail({ investor, selectedId, onClose }: Props) {
   const [copied, setCopied] = useState(false);
+  const { evaluations } = useGold();
+  const { go } = useSection();
 
   useEffect(() => {
     // Escape closes the panel, unless a dialog (e.g. the rating dialog) is open: then it only closes the dialog.
@@ -129,6 +79,7 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
   };
 
   const { audit, contactSources } = investor;
+  const evaluation = evaluations.find((candidate) => candidate.investorId === investor.id) ?? null;
 
   return (
     <section className="detail">
@@ -141,6 +92,11 @@ export default function InvestorDetail({ investor, selectedId, onClose }: Props)
           </p>
           <p className="detail-badges">
             {investor.rating && <Badge className={`rating-${investor.rating}`}>{RATING_LABELS[investor.rating]}</Badge>}
+            {evaluation && (
+              <button type="button" className={`badge badge-button verdict-${evaluation.verdict}`} onClick={() => go("gold", investor.id)} title="Ver la evaluación en la sección Gold">
+                {evaluation.verdict === "gold" ? "Gold" : "Gold: rechazado"}
+              </button>
+            )}
             <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>
             <Badge className={`confidence-${investor.confidence}`}>Fuentes: {CONFIDENCE_LABELS[investor.confidence]}</Badge>
             <Badge className="neutral">{REGION_LABELS[investor.region]}</Badge>

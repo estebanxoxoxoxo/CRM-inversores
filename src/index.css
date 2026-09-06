@@ -51,6 +51,9 @@
   --error-bg: #fef2f2;
   --error-border: #fecaca;
   --error-text: #7f1d1d;
+  --gold: #a16207;
+  --gold-bg: #fef9c3;
+  --gold-border: #eab308;
   --radius: 8px;
   --radius-sm: 6px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -112,6 +115,9 @@
   --error-bg: #3f1d1d;
   --error-border: #7f1d1d;
   --error-text: #fecaca;
+  --gold: #fde047;
+  --gold-bg: #3b2f0a;
+  --gold-border: #a16207;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -167,6 +173,9 @@
     --error-bg: #3f1d1d;
     --error-border: #7f1d1d;
     --error-text: #fecaca;
+  --gold: #fde047;
+  --gold-bg: #3b2f0a;
+  --gold-border: #a16207;
   }
 }
 
@@ -886,6 +895,179 @@ textarea {
 }
 .connection-option:disabled {
   opacity: 0.6;
+}
+
+/* Section pill: Bronce / Gold, next to the title */
+.section-pill {
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--panel);
+}
+.section-pill button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 6px 3px 12px;
+  border: none;
+  border-radius: 999px;
+  background: none;
+  font-weight: 600;
+  color: var(--muted);
+}
+.section-pill button:hover {
+  color: var(--text);
+}
+.section-pill button.active {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.section-count {
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--neutral-bg);
+  color: var(--neutral);
+  font-size: 11.5px;
+  font-variant-numeric: tabular-nums;
+}
+.section-pill button.active .section-count {
+  background: var(--panel);
+}
+
+/* Gold: verdicts and aspects */
+.badge.verdict-gold {
+  background: var(--gold-bg);
+  color: var(--gold);
+}
+.badge.verdict-rejected {
+  background: var(--rating-rejected-bg);
+  color: var(--rating-rejected);
+}
+.badge-button {
+  border: none;
+  cursor: pointer;
+}
+.badge-button:hover {
+  text-decoration: underline;
+}
+.card.verdict-gold {
+  box-shadow: inset 3px 0 0 var(--gold-border);
+}
+.card-aspects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.aspect-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 0 7px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 18px;
+  white-space: nowrap;
+}
+.aspect-chip.aspect-pass {
+  background: var(--confidence-high-bg);
+  color: var(--confidence-high);
+}
+.aspect-chip.aspect-fail {
+  background: var(--confidence-low-bg);
+  color: var(--confidence-low);
+}
+.aspects {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aspect {
+  display: grid;
+  grid-template-columns: 22px 1fr;
+  gap: 8px;
+}
+.aspect-mark {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 13px;
+}
+.aspect-pass .aspect-mark {
+  background: var(--confidence-high-bg);
+  color: var(--confidence-high);
+}
+.aspect-fail .aspect-mark {
+  background: var(--confidence-low-bg);
+  color: var(--confidence-low);
+}
+.aspect-na .aspect-mark {
+  background: var(--neutral-bg);
+  color: var(--muted);
+}
+.aspect-body {
+  min-width: 0;
+}
+.aspect-body p {
+  margin: 4px 0;
+}
+.aspect-sources {
+  margin: 2px 0 0;
+  padding-left: 16px;
+  font-size: 12px;
+}
+.aspect-sources li {
+  margin: 2px 0;
+}
+.aspect-sources a {
+  word-break: break-all;
+}
+
+/* Gold: proposed emails */
+.emails {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 6px;
+}
+.email {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+}
+.email-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+.email-subject {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 650;
+}
+.email-actions {
+  display: flex;
+  gap: 6px;
+  flex: none;
+}
+.email-based {
+  margin: 4px 0 8px;
+}
+.email-body {
+  margin: 0;
+  font: inherit;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 1100px) {

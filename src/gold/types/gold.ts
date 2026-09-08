@@ -2,14 +2,15 @@
  * The evaluation of one investor: the document the agent pushes into the `gold` collection, one per investor,
  * with the investor's id as the document id.
  *
- * Four aspects decide the verdict: `stage`, `deepTech` and `spanish` apply to everyone; `hispanicFounders` applies
- * only to investors whose region is `us_hispanic` and is null for the rest. The verdict is not a free judgement:
- * it is the conjunction of the aspects that apply, and `validateEvaluation` refuses a document where the two
- * disagree, so no evaluation can call an investor gold without evidence in every aspect.
+ * Four aspects decide the verdict: `stage` and `deepTech` apply to everyone; `spanish` and `hispanicFounders` apply
+ * only to investors whose region is `us_hispanic` and are null for the rest, because the language only matters where
+ * the profile is not already in a Spanish-speaking market. The verdict is not a free judgement: it is the
+ * conjunction of the aspects that apply, and `validateEvaluation` refuses a document where the two disagree, so no
+ * evaluation can call an investor gold without evidence in every aspect that applies to it.
  *
  * `region`, `name` and `evaluatedAt` are owned by the server: it copies them from `investors/{investorId}` and from
- * the clock, ignoring whatever the agent sent. That is what makes the fourth aspect impossible to dodge by
- * declaring a different region.
+ * the clock, ignoring whatever the agent sent. That is what makes the two region-dependent aspects impossible to
+ * dodge by declaring a different region.
  *
  * This file is embedded verbatim in the prompt (see src/gold/prompt-builder/inputs/type-source.ts), so what the agent
  * reads is always what the endpoint validates.
@@ -18,7 +19,7 @@ import { z } from "zod";
 
 export const COLLECTION = "gold";
 export const INVESTORS_COLLECTION = "investors";
-/** Region code (as written by the CRM) that makes the fourth aspect, `hispanicFounders`, mandatory. */
+/** Region code (as written by the CRM) that makes `spanish` and `hispanicFounders` mandatory; elsewhere they are null. */
 export const US_REGION = "us_hispanic";
 /** Maximum number of evaluations accepted by one call to the endpoint. */
 export const MAX_PER_REQUEST = 100;
@@ -58,7 +59,8 @@ export const EvaluationSchema = z.object({
   aspects: z.object({
     stage: AspectSchema,
     deepTech: AspectSchema,
-    spanish: AspectSchema,
+    /** Only for region "us_hispanic"; null otherwise. */
+    spanish: AspectSchema.nullable(),
     /** Only for region "us_hispanic"; null otherwise. */
     hispanicFounders: AspectSchema.nullable(),
   }),
@@ -73,9 +75,15 @@ export type Aspect = z.infer<typeof AspectSchema>;
 export type Email = z.infer<typeof EmailSchema>;
 export type Evaluation = z.infer<typeof EvaluationSchema>;
 
+/** The aspects asked of every investor. */
+export const GLOBAL_ASPECTS = ["stage", "deepTech"] as const;
+
+/** The aspects asked of United States investors only. */
+export const REGION_ASPECTS = ["spanish", "hispanicFounders"] as const;
+
 /** True when every aspect that applies to this investor passes. The verdict must say exactly this and nothing else. */
 export const passesEveryAspect = (aspects: Evaluation["aspects"]): boolean =>
-  aspects.stage.passes && aspects.deepTech.passes && aspects.spanish.passes && (aspects.hispanicFounders === null || aspects.hispanicFounders.passes);
+  aspects.stage.passes && aspects.deepTech.passes && (aspects.spanish === null || aspects.spanish.passes) && (aspects.hispanicFounders === null || aspects.hispanicFounders.passes);
 
 /**
  * Validates one submitted evaluation and returns the document to store. The server's fields (`region`, `name`,
@@ -86,9 +94,12 @@ export function validateEvaluation(raw: unknown, investor: { region: string; nam
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) throw new Error("each evaluation must be an object");
   const evaluation = EvaluationSchema.parse({ ...(raw as Record<string, unknown>), region: investor.region, name: investor.name, evaluatedAt: now });
 
-  const { hispanicFounders } = evaluation.aspects;
-  if (investor.region === US_REGION && hispanicFounders === null) throw new Error(`hispanicFounders is required for investors in region "${US_REGION}"`);
-  if (investor.region !== US_REGION && hispanicFounders !== null) throw new Error(`hispanicFounders must be null for investors in region "${investor.region}"`);
+  // `spanish` and `hispanicFounders` are asked of United States investors only, and of every one of them.
+  for (const key of REGION_ASPECTS) {
+    const value = evaluation.aspects[key];
+    if (investor.region === US_REGION && value === null) throw new Error(`${key} is required for investors in region "${US_REGION}"`);
+    if (investor.region !== US_REGION && value !== null) throw new Error(`${key} must be null for investors in region "${investor.region}"`);
+  }
 
   for (const [aspect, value] of Object.entries(evaluation.aspects)) {
     if (value && value.passes && !value.sources.length) throw new Error(`aspect ${aspect} passes but carries no sources`);

@@ -79,8 +79,9 @@ puede llegar a `localhost`. En Vercel se toma sola de `VERCEL_PROJECT_PRODUCTION
 
 ## Evaluación gold
 
-Sobre los perfiles ya cargados corre una segunda pasada: un agente evalúa cada inversor contra cuatro aspectos
-(etapa, deep tech, español y, para `us_hispanic`, founders hispanos) y guarda un documento por inversor en la colección
+Sobre los perfiles ya cargados corre una segunda pasada: un agente evalúa cada inversor contra cuatro aspectos —etapa
+y deep tech para todos; español y founders hispanos sólo para `us_hispanic`, porque fuera de Estados Unidos el idioma
+no hace falta preguntarlo— y guarda un documento por inversor en la colección
 `gold`, con veredicto `gold` o `rejected` y cuatro mails propuestos para los gold. El botón "Evaluar más perfiles" de
 la sección Gold arma el prompt del próximo lote (25 por defecto, hasta 100) y lo copia, como "Buscar más perfiles" en
 Bronce; `POST /api/gold` (`api/gold.ts`) recibe y valida las evaluaciones. Todo el módulo vive en

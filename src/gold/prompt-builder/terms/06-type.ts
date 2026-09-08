@@ -13,7 +13,8 @@ export const NOTES_INTRO = "Notas para armar cada objeto:";
 export const NOTE_ID = "`investorId`: el `id` del perfil tal como viene en el lote, sin tocarlo. Es la clave del documento.";
 export const NOTE_SERVER =
   "No inventes `region`, `name` ni `evaluatedAt`: los pone el servidor leyendo el perfil guardado y el reloj. Si los mandás, se sobreescriben.";
-export const NOTE_HISPANIC = "`aspects.hispanicFounders` va en `null` salvo que el perfil tenga `region` igual a `us_hispanic`; en ese caso es obligatorio.";
+export const NOTE_HISPANIC =
+  "`aspects.spanish` y `aspects.hispanicFounders` van en `null` salvo que el perfil tenga `region` igual a `us_hispanic`; en ese caso los dos son obligatorios.";
 export const NOTE_SOURCES = "`sources` de cada aspecto son URL completas; cuando el aspecto pasa tiene que haber al menos una.";
 export const NOTE_VERDICT = "`verdict` no es una opinión: es `gold` si y sólo si pasan todos los aspectos que aplican. El servidor lo recalcula y rechaza el documento si no coincide.";
 

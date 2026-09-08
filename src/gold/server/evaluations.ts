@@ -4,7 +4,7 @@
  * One document per investor in `gold`, keyed by the investor's id. Every item is checked against the live database
  * before anything is written: the investor must exist in `investors` (the id is not something the agent may invent)
  * and must not have been evaluated yet, because an evaluation is never overwritten. `region` and `name` come from
- * that stored investor, so the fourth aspect cannot be dodged by sending a different region.
+ * that stored investor, so the two region-dependent aspects cannot be dodged by sending a different region.
  *
  * `invalid` is not `rejected` on purpose: `rejected` is a verdict about an investor, and a rejected evaluation is a
  * perfectly good document that gets written. `invalid` means the submission itself was refused.

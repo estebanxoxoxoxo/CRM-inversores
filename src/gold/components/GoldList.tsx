@@ -1,4 +1,4 @@
-import { ASPECT_KEYS, type GoldEntry } from "../lib/filters";
+import { aspectsFor, type GoldEntry } from "../lib/filters";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import { RATING_LABELS, REGION_SHORT_LABELS } from "../../bronze/lib/labels";
 import type { Region } from "../../bronze/types/investor";
@@ -39,7 +39,7 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
               </span>
             </div>
             <div className="card-aspects">
-              {ASPECT_KEYS.map((key) => {
+              {aspectsFor(evaluation.region).map((key) => {
                 const aspect = evaluation.aspects[key];
                 if (!aspect) return null;
                 return (

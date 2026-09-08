@@ -1,5 +1,5 @@
 /** Filters and order of the Gold section, kept in memory: the URL only carries the section and the selected id. */
-import { VerdictSchema, type Evaluation, type Verdict } from "../types/gold";
+import { GLOBAL_ASPECTS, REGION_ASPECTS, US_REGION, VerdictSchema, type Evaluation, type Verdict } from "../types/gold";
 import { RegionSchema, type Investor, type Region } from "../../bronze/types/investor";
 import { normalize } from "../../lib/text";
 
@@ -10,7 +10,14 @@ export interface GoldEntry {
 }
 
 export type AspectKey = keyof Evaluation["aspects"];
-export const ASPECT_KEYS: readonly AspectKey[] = ["stage", "deepTech", "spanish", "hispanicFounders"];
+export const ASPECT_KEYS: readonly AspectKey[] = [...GLOBAL_ASPECTS, ...REGION_ASPECTS];
+
+/**
+ * The aspects that apply to a region, and the only ones the section shows. Outside the United States they are the
+ * first two: an evaluation written before the rule changed may carry the other two, and they are not shown because
+ * they no longer count for anything.
+ */
+export const aspectsFor = (region: string): readonly AspectKey[] => (region === US_REGION ? ASPECT_KEYS : GLOBAL_ASPECTS);
 
 export const VERDICTS: readonly Verdict[] = VerdictSchema.options;
 export const GOLD_REGIONS: readonly Region[] = RegionSchema.options;
@@ -40,8 +47,9 @@ export function joinGold(evaluations: Evaluation[], investors: Investor[]): Gold
   return evaluations.map((evaluation) => ({ evaluation, investor: byId.get(evaluation.investorId) ?? null }));
 }
 
-/** Whether the evaluation fails this aspect. An aspect that does not apply (null) never fails. */
+/** Whether the evaluation fails this aspect. An aspect that does not apply to its region never fails. */
 export function fails(evaluation: Evaluation, aspect: AspectKey): boolean {
+  if (!aspectsFor(evaluation.region).includes(aspect)) return false;
   const value = evaluation.aspects[aspect];
   return value !== null && !value.passes;
 }
@@ -53,7 +61,7 @@ export function applyGoldFilters(entries: GoldEntry[], filters: GoldFilters): Go
     if (filters.regions.length && !filters.regions.includes(evaluation.region as Region)) return false;
     if (filters.failing.length && !filters.failing.some((aspect) => fails(evaluation, aspect))) return false;
     if (terms.length) {
-      const reasons = ASPECT_KEYS.map((aspect) => evaluation.aspects[aspect]?.reason ?? "");
+      const reasons = aspectsFor(evaluation.region).map((aspect) => evaluation.aspects[aspect]?.reason ?? "");
       const haystack = normalize([evaluation.name, investor?.firm ?? "", investor?.role ?? "", investor?.baseCity ?? "", ...reasons].join(" · "));
       if (!terms.every((term) => haystack.includes(term))) return false;
     }

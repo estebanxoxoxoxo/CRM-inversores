@@ -1,6 +1,7 @@
 # Evaluación gold
 
-Evalúa los inversores que ya están en `investors` contra cuatro aspectos y guarda una evaluación por inversor en una
+Evalúa los inversores que ya están en `investors` contra cuatro aspectos —etapa y deep tech para todos; español y
+founders hispanos sólo para los de Estados Unidos— y guarda una evaluación por inversor en una
 colección aparte, `gold`. El trabajo pesado lo hace un agente de IA: este módulo sólo le arma el prompt y le abre la
 puerta para escribir. En la app, la sección Gold navega por las evaluaciones.
 
@@ -66,7 +67,7 @@ Uno por inversor, con el `id` del inversor como id del documento:
   "aspects": {
     "stage": { "passes": true, "reason": "Lideró la pre-seed de X en 2024, según <URL>.", "sources": ["https://…"] },
     "deepTech": { "passes": true, "reason": "Invirtió en X e Y, ambas infraestructura de IA, según <URL>.", "sources": ["https://…"] },
-    "spanish": { "passes": true, "reason": "Entrevista en español en <URL>.", "sources": ["https://…"] },
+    "spanish": { "passes": true, "reason": "Entrevista en español en <URL>.", "sources": ["https://…"] },   // null fuera de EE. UU.
     "hispanicFounders": { "passes": true, "reason": "Invirtió en Z, con fundadores argentinos, según <URL>.", "sources": ["https://…"] }
   },
   "emails": [{ "subject": "…", "body": "…", "basedOn": "Artículo <URL>, frase citada" }],
@@ -84,10 +85,10 @@ petición; `?dryRun=1` valida sin escribir). Responde
 - el `investorId` no existe en `investors`, ya tiene documento en `gold`, o se repite dentro de la misma petición;
 - el documento no valida contra `EvaluationSchema` (`reason` de hasta 400 caracteres, `sources` con URL reales,
   asunto de hasta 100 y cuerpo de hasta 900 caracteres);
-- `hispanicFounders` es `null` en un perfil `us_hispanic`, o no lo es en cualquier otra región;
+- `spanish` o `hispanicFounders` son `null` en un perfil `us_hispanic`, o no lo son en cualquier otra región;
 - un aspecto pasa sin ninguna URL en `sources`;
 - el veredicto no coincide con los aspectos: `gold` si y sólo si pasan todos los que aplican;
 - el veredicto es `gold` y no vienen exactamente 4 mails, o es `rejected` y viene alguno.
 
 `region`, `name` y `evaluatedAt` los pone el servidor leyendo `investors/{investorId}` y el reloj: lo que mande el
-agente en esos campos se ignora, así que la región no se puede falsear para esquivar el cuarto aspecto.
+agente en esos campos se ignora, así que la región no se puede falsear para esquivar los dos aspectos que dependen de ella.

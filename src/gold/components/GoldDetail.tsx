@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSection } from "../../context/section";
 import { copyText } from "../../lib/clipboard";
-import { ASPECT_KEYS, type GoldEntry } from "../lib/filters";
+import { ASPECT_KEYS, aspectsFor, type GoldEntry } from "../lib/filters";
 import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, RATING_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
 import { ASPECT_LABELS, VERDICT_LABELS } from "../lib/labels";
 import type { Region } from "../../bronze/types/investor";
@@ -126,9 +126,9 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
         </div>
       )}
 
-      <Section title="Los cuatro aspectos">
+      <Section title={aspectsFor(evaluation.region).length === ASPECT_KEYS.length ? "Los cuatro aspectos" : "Los dos aspectos"}>
         <ul className="aspects">
-          {ASPECT_KEYS.map((key) => {
+          {aspectsFor(evaluation.region).map((key) => {
             const aspect = evaluation.aspects[key];
             const state = aspect === null ? "aspect-na" : aspect.passes ? "aspect-pass" : "aspect-fail";
             return (

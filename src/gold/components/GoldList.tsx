@@ -1,8 +1,9 @@
 import { ASPECT_KEYS, type GoldEntry } from "../lib/filters";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
-import { REGION_SHORT_LABELS } from "../../bronze/lib/labels";
+import { RATING_LABELS, REGION_SHORT_LABELS } from "../../bronze/lib/labels";
 import type { Region } from "../../bronze/types/investor";
 import { Badge } from "../../components/Badge";
+import { ConnectionChip } from "../../components/ConnectionChip";
 import { ASPECT_LABELS, ASPECT_SHORT_LABELS, VERDICT_LABELS } from "../lib/labels";
 
 interface Props {
@@ -21,7 +22,8 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
         <li key={evaluation.investorId}>
           <button
             type="button"
-            className={`card verdict-${evaluation.verdict} ${selectedId === evaluation.investorId ? "active" : ""}`}
+            className={`card verdict-${evaluation.verdict} ${selectedId === evaluation.investorId ? "active" : ""} ${investor?.rating ? `rating-${investor.rating}` : ""}`}
+            title={investor?.rating ? `Calificación: ${RATING_LABELS[investor.rating]}` : undefined}
             onClick={() => onSelect(evaluation.investorId)}
           >
             <div className="card-line1">
@@ -31,6 +33,7 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
                   {evaluation.name}
                 </span>
               </span>
+              {investor && <ConnectionChip connectionAsked={investor.connectionAsked} />}
               <span className="card-line1-side card-line1-badges">
                 <Badge className={`verdict-${evaluation.verdict}`}>{VERDICT_LABELS[evaluation.verdict]}</Badge>
               </span>

@@ -5,6 +5,7 @@ import { ASPECT_KEYS, type GoldEntry } from "../lib/filters";
 import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
 import { ASPECT_LABELS, VERDICT_LABELS } from "../lib/labels";
 import type { Region } from "../../bronze/types/investor";
+import ConnectionDialog from "../../bronze/components/ConnectionDialog";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import { Badge } from "../../components/Badge";
 import { Linkified, Section } from "../../components/DetailParts";
@@ -85,9 +86,12 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
         </div>
         <div className="detail-actions">
           {investor && (
-            <button type="button" className="secondary" onClick={() => go("bronze", investor.id)} title="Abrir la ficha completa del inversor">
-              Ficha en Bronce
-            </button>
+            <>
+              <ConnectionDialog investor={investor} />
+              <button type="button" className="secondary" onClick={() => go("bronze", investor.id)} title="Abrir la ficha completa del inversor">
+                Ficha en Bronce
+              </button>
+            </>
           )}
           <button type="button" className="close" onClick={onClose} aria-label="Cerrar">
             ×

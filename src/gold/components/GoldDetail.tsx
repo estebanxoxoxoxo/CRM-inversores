@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import { useSection } from "../../context/section";
 import { copyText } from "../../lib/clipboard";
 import { ASPECT_KEYS, type GoldEntry } from "../lib/filters";
-import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
+import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, RATING_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
 import { ASPECT_LABELS, VERDICT_LABELS } from "../lib/labels";
 import type { Region } from "../../bronze/types/investor";
 import ConnectionDialog from "../../bronze/components/ConnectionDialog";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
+import RatingDialog from "../../bronze/components/RatingDialog";
 import { Badge } from "../../components/Badge";
 import { Linkified, Section } from "../../components/DetailParts";
 
@@ -79,6 +80,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
             <p className="detail-subtitle muted">El perfil ya no está en la colección investors.</p>
           )}
           <p className="detail-badges">
+            {investor?.rating && <Badge className={`rating-${investor.rating}`}>{RATING_LABELS[investor.rating]}</Badge>}
             <Badge className={`verdict-${evaluation.verdict}`}>{VERDICT_LABELS[evaluation.verdict]}</Badge>
             {investor && <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>}
             <Badge className="neutral">{REGION_LABELS[evaluation.region as Region] ?? evaluation.region}</Badge>
@@ -88,6 +90,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
           {investor && (
             <>
               <ConnectionDialog investor={investor} />
+              <RatingDialog investor={investor} />
               <button type="button" className="secondary" onClick={() => go("bronze", investor.id)} title="Abrir la ficha completa del inversor">
                 Ficha en Bronce
               </button>

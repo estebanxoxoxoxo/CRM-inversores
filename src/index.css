@@ -47,6 +47,7 @@
   --connection-requested-fg: #ffffff;
   --connection-accepted-bg: #15803d;
   --connection-accepted-fg: #ffffff;
+  --rating-note-fg: #b45309;
   --error: #b91c1c;
   --error-bg: #fef2f2;
   --error-border: #fecaca;
@@ -111,6 +112,7 @@
   --connection-requested-fg: #0f1216;
   --connection-accepted-bg: #4ade80;
   --connection-accepted-fg: #0f1216;
+  --rating-note-fg: #fbbf24;
   --error: #f87171;
   --error-bg: #3f1d1d;
   --error-border: #7f1d1d;
@@ -169,6 +171,7 @@
     --connection-requested-fg: #0f1216;
     --connection-accepted-bg: #4ade80;
     --connection-accepted-fg: #0f1216;
+    --rating-note-fg: #fbbf24;
     --error: #f87171;
     --error-bg: #3f1d1d;
     --error-border: #7f1d1d;
@@ -700,6 +703,13 @@ textarea {
   gap: 8px;
   align-self: flex-start;
 }
+/* The note written with the rating: the first thing read in the detail, in both sections. */
+.rating-note {
+  margin: 12px 0 0;
+  font-weight: 700;
+  white-space: pre-wrap;
+  color: var(--rating-note-fg);
+}
 .contact {
   margin: 12px 0 2px;
   display: flex;
@@ -822,6 +832,15 @@ textarea {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   width: 140px;
+}
+.dialog textarea {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--panel);
+  color: inherit;
+  font: inherit;
+  resize: vertical;
 }
 .dialog-actions {
   display: flex;

@@ -14,7 +14,11 @@ export const IMPORTANCE =
 
 export const PAST_EXPERIENCE = "Nos pasó en el pasado que los inversores buscaban usuarios o que les dejáramos todo servido. Necesitamos inversores deep tech y/o dev tools.";
 
-export const REGIONS = "Quiero acceder a inversores en Argentina, España, México, mundo árabe de habla hispana y sobre todo en Estados Unidos de habla hispana.";
+export const REGIONS =
+  "Quiero acceder a inversores en Argentina, España, México, mundo árabe de habla hispana y sobre todo en Estados Unidos de habla hispana. " +
+  "Rastreá también las entidades cristianas conservadoras de Texas, Florida, Nuevo México, Nevada, Utah, Colorado, Luisiana, Alabama, " +
+  "Georgia, las dos Carolinas y Arkansas, buscando a los que ahí hablen español e inviertan en fundadores hispanohablantes: es capital que " +
+  "decide por convicción y a largo plazo, y esa gente existe en ese mundo.";
 
 export const PURITY =
   "Quiero que la pureza sea absoluta: que de verdad busques que cada perfil sea hiperatractivo como inversor para algo profundo, " +

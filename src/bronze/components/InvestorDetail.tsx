@@ -14,6 +14,7 @@ import {
 } from "../lib/labels";
 import { SCORE_DIMENSIONS, SCORE_MAX, type Investor, type Score } from "../types/investor";
 import { Badge } from "../../components/Badge";
+import { RatingNote } from "../../components/RatingNote";
 import { BulletList, Paragraphs, Section } from "../../components/DetailParts";
 import ConnectionDialog from "./ConnectionDialog";
 import { LevelBadge } from "./LevelBadge";
@@ -107,6 +108,8 @@ export default function InvestorDetail({ investor, selectedId, onClose, verdictB
           </button>
         </div>
       </header>
+
+      <RatingNote note={investor.ratingNote} />
 
       <div className="contact">
         {investor.linkedin ? (

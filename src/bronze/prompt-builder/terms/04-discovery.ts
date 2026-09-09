@@ -265,7 +265,7 @@ export const QUERIES = [
   "Angel investor infra IA arab",
 ];
 
-export const queries = (): string => `Buscá en español y en inglés, variando muchas consultas. Ejemplos: ${quotedList(QUERIES)}.`;
+export const queries = (): string => `Buscá en español y en inglés, variando muchas consultas. Ejemplos: ${quotedList([...QUERIES, ...FAITH_QUERIES])}.`;
 
 /** Where to look, by scope. Only sources that exist. Rendered as a sub-list under the numbered item. */
 export const SOURCE_GROUPS: { scope: string; items: string[] }[] = [
@@ -360,12 +360,116 @@ export const SOURCE_GROUPS: { scope: string; items: string[] }[] = [
     ],
   },
   {
+    scope: "Cinturón cristiano conservador de Estados Unidos",
+    items: [
+      "Faith Driven Investor y Faith Driven Entrepreneur (directorio, grupos locales y podcast)",
+      "C12 Group, Convene, Legatus, Napa Institute, Halftime Institute y Kingdom Advisors (directorios de miembros y ponentes)",
+      "National Christian Foundation y sus capítulos estatales",
+      "ProPublica Nonprofit Explorer y Candid/GuideStar para leer los formularios 990 de fundaciones, endowments y ministerios: ahí aparecen el patrimonio, los gestores y los consejos",
+      "formularios D de la SEC para los vehículos de esos family offices",
+      "los business journals estatales y sus Book of Lists: D CEO y Texas Monthly, Florida Trend, Atlanta Business Chronicle, Charlotte y Triangle Business Journal, Birmingham Business Journal, Arkansas Business, Utah Business, Nevada Business Magazine, Biz New Orleans, Colorado Springs Gazette, Albuquerque Business First",
+      "World, Christianity Today y Ministry Watch para la cobertura de negocios de ese mundo",
+      "las páginas de equipo y de consejo de las universidades cristianas y sus fondos de emprendimiento",
+    ],
+  },
+  {
     scope: "Podcasts y newsletters",
     items: ["20VC", "Invest Like the Best", "Itnig", "Kapital", "Cracks (Oso Trava)", "Dealflow.es", "Latitud", "Startupeable", "newsletters y blogs propios de los inversores"],
   },
 ];
 
 export const sources = (): string => `Fuentes de descubrimiento, por ámbito:\n${SOURCE_GROUPS.map((group) => `   - ${group.scope}: ${group.items.join(", ")}.`).join("\n")}`;
+
+/** The twelve states of the faith-driven segment, in the order the client named them. Both names: the prose is in Spanish, the searches are not. */
+export const FAITH_STATES: { es: string; en: string }[] = [
+  { es: "Texas", en: "Texas" },
+  { es: "Florida", en: "Florida" },
+  { es: "Nuevo México", en: "New Mexico" },
+  { es: "Nevada", en: "Nevada" },
+  { es: "Utah", en: "Utah" },
+  { es: "Colorado", en: "Colorado" },
+  { es: "Luisiana", en: "Louisiana" },
+  { es: "Alabama", en: "Alabama" },
+  { es: "Georgia", en: "Georgia" },
+  { es: "Carolina del Sur", en: "South Carolina" },
+  { es: "Carolina del Norte", en: "North Carolina" },
+  { es: "Arkansas", en: "Arkansas" },
+];
+
+export const faithIntro = (): string =>
+  `Veta dentro del ámbito de Estados Unidos hispanohablante, que hoy no estás recorriendo: las entidades cristianas conservadoras de ${FAITH_STATES.map((state) => state.es).join(", ")}. ` +
+  "Es dinero que decide por convicción y horizonte largo, no por tracción, así que encaja con un cliente sin usuarios todavía. Lo que buscás " +
+  "ahí es la intersección, no la entidad: personas de ese mundo que además hablen español e inviertan en fundadores hispanohablantes. " +
+  "Recorrelo por tipo de entidad, porque cada tipo se busca distinto:";
+
+/** Every kind of investor entity in that world, each with names to start from. Verify each one: they are leads, not evidence. */
+export const FAITH_TYPES = [
+  "Redes de empresarios y pastores hispanos evangélicos, que es donde la intersección es más densa: la National Hispanic Christian Leadership Conference, El Rey Jesús (Miami), las iglesias hispanas grandes de Houston, Dallas, San Antonio, Orlando, Atlanta y Charlotte, y sus grupos de negocios. Empezá por acá.",
+  "Mundo católico hispano de esos estados: la comunidad cubanoamericana de Miami, la mexicoamericana de San Antonio, El Paso y Houston, y la hispana de Nuevo México; los capítulos de Legatus de Miami, Dallas, Houston, Naples y Denver; las fundaciones diocesanas de Santa Fe, San Antonio, Galveston-Houston, Miami y Orlando.",
+  "Fondos de venture con tesis cristiana declarada: Sovereign's Capital, Praxis, y en general los fondos que se presentan como faith-driven o redemptive en su propia web.",
+  "Gestoras de inversión bíblicamente responsable (BRI): Timothy Plan (Maitland, Florida), Ave Maria Mutual Funds y Schwartz Investment Counsel (Naples, Florida), Inspire Investing, Eventide Asset Management, GuideStone Financial Resources (Dallas), Knights of Columbus Asset Advisors. Invierten en cotizadas, pero sus fundadores, consejeros y clientes son angels frecuentes.",
+  "Capital conservador de la llamada economía paralela, con tesis explícita anti-ESG o EIG: 1789 Capital (Palm Beach), New Founding (Texas), PublicSquare / PSQ Holdings (West Palm Beach), Strive Asset Management.",
+  "Family offices de familias que se declaran cristianas: en Texas, Wilks Brothers (Cisco), Hunt (Dallas), Bass (Fort Worth), CrownQuest y Tim Dunn (Midland), Interstate Batteries y Norm Miller (Dallas); en Arkansas, Walton y Runway Group (Bentonville), Tyson (Springdale), Stephens Inc. (Little Rock), Murphy (El Dorado); en Georgia, la familia Cathy y WinShape; en Alabama, Harbert Management, Drummond y McWane (Birmingham); en las Carolinas, Belk (Charlotte) y el entorno de la Billy Graham Evangelistic Association; en Luisiana, las familias del petróleo y la comunidad católica de Nueva Orleans; en Nuevo México, las familias del Pérmico de los condados de Lea y Eddy.",
+  "Endowments, fondos de emprendimiento y angel networks de universidades cristianas, empezando por las de ciudad hispanohablante: St. Mary's y University of the Incarnate Word (San Antonio), Baylor y su Baylor Angel Network, TCU, Abilene Christian y Dallas Baptist (Texas); Ave Maria University, Palm Beach Atlantic y Southeastern University (Florida); Samford (Alabama); Ouachita Baptist, Harding y John Brown University (Arkansas); Anderson University, Bob Jones y Furman (Carolina del Sur); Wake Forest, Davidson y Campbell (Carolina del Norte); Colorado Christian University; Louisiana Christian University y Loyola New Orleans; University of the Southwest (Hobbs, Nuevo México).",
+  "Fondos denominacionales: GuideStone (Convención Bautista del Sur), AGFinancial (Asambleas de Dios, con una red hispana enorme), Wespath (metodistas) y la fundación de la Iglesia Presbiteriana.",
+  "Fundaciones de donantes cristianos con brazo de inversión de impacto: National Christian Foundation y sus capítulos de Texas, Florida, Georgia, Colorado y las Carolinas; The Signatry; The Gathering; Generous Giving.",
+  "Redes de empresarios y CEOs cristianos, que es donde están los angels sin página web: C12 Group (sede en Fort Worth, capítulos en los doce estados), Convene, Napa Institute, Halftime Institute (Dallas), Kingdom Advisors (Atlanta), Faith Driven Investor y Faith Driven Entrepreneur (Atlanta) con sus grupos locales, su podcast y su directorio, y el Acton Institute. En todos ellos, filtrá por los miembros hispanos.",
+  "Fondos de dotación de ministerios y organizaciones paraeclesiales, con patrimonio propio y consejos llenos de empresarios: Focus on the Family, Compassion International, Navigators y Young Life (Colorado Springs); Samaritan's Purse y la Billy Graham Evangelistic Association (Carolina del Norte); In Touch (Atlanta). Mirá sus programas y consejos para América Latina, que es donde aparecen los hispanohablantes.",
+  "Aceleradoras e incubadoras de raíz cristiana y los programas de emprendimiento de esas universidades, donde aparecen los mentores que además firman cheques.",
+  "Angel groups y sindicatos regionales de esos estados que se declaran faith-driven o values-aligned en su propia presentación.",
+  "Bancos, aseguradoras y gestoras regionales de raíz cristiana con brazo de venture o de alternativos.",
+];
+
+export const FAITH_RULE =
+  "El ámbito es cristiano protestante y/o conservador, incluido el catolicismo conservador. Quedan fuera las entidades mormonas (Iglesia " +
+  "de Jesucristo de los Santos de los Últimos Días) y su ecosistema, que en Utah y Nevada es la mayor parte del capital tecnológico: en " +
+  "esos dos estados buscá las redes protestantes y evangélicas, no las de Silicon Slopes. La afiliación religiosa se registra sólo cuando " +
+  "la entidad la declara en su web o la persona la dijo en público: nunca la infieras por el apellido, el estado, la universidad, la " +
+  "iglesia a la que asiste alguien de la familia ni las donaciones. Si no hay declaración pública, no lo escribas.";
+
+export const FAITH_SPANISH =
+  "Esta veta no es una excepción a nada. Además de la entidad, la persona tiene que cumplir lo mismo que el resto del ámbito " +
+  "estadounidense: español verificable e inversión documentada en fundadores hispanohablantes, las dos cosas con evidencia pública. Si " +
+  "no habla español, o no hay rastro de que trabaje con fundadores hispanohablantes, no la mandes, por muy alineada que esté la entidad. " +
+  "El criterio de pureza tampoco se afloja: entra sólo si invierte en deep tech, infraestructura de IA o dev tools, y temprano. En el " +
+  "tipo llevan `region` en `us_hispanic`, y en `fitSignals` decí de qué entidad vienen.";
+
+/** The item as it is rendered: the intro, one line per kind of entity, then the two rules. */
+export const faithSegment = (): string =>
+  [faithIntro(), ...FAITH_TYPES.map((type) => `   - ${type}`), "", `   ${FAITH_RULE}`, "", `   ${FAITH_SPANISH}`].join("\n");
+
+/** The segment has no single directory, so the query is the directory: every pattern against every state. */
+export const FAITH_QUERY_PATTERNS_EN = [
+  "Hispanic Christian investor venture capital",
+  "Latino faith driven investor",
+  "Christian venture capital fund Hispanic founders",
+  "faith-based angel investor Latino founders technology",
+  "Christian family office technology investment",
+];
+
+export const FAITH_QUERY_PATTERNS_ES = ["inversor cristiano hispano capital riesgo deep tech", "empresarios cristianos hispanos inversión tecnología"];
+
+export const FAITH_QUERIES = [
+  ...FAITH_STATES.flatMap((state) => FAITH_QUERY_PATTERNS_EN.map((pattern) => `${pattern} ${state.en}`)),
+  ...FAITH_STATES.flatMap((state) => FAITH_QUERY_PATTERNS_ES.map((pattern) => `${pattern} ${state.es}`)),
+  "Faith Driven Investor podcast guest deep tech",
+  "C12 Group member angel investor technology",
+  "Legatus chapter member venture capital",
+  "National Christian Foundation impact investing venture",
+  "Sovereign's Capital portfolio artificial intelligence",
+  "Praxis venture portfolio software infrastructure",
+  "1789 Capital portfolio deep tech",
+  "New Founding portfolio companies",
+  "Baylor Angel Network deep tech investor",
+  "Christian university endowment venture capital allocation",
+  "Permian Basin family office technology investments",
+  "National Hispanic Christian Leadership Conference business leaders investors",
+  "Hispanic megachurch business network investors Houston Miami",
+  "Cuban American Catholic business leaders Miami investors technology",
+  "Legatus Hispanic members Miami San Antonio investor",
+  "red de empresarios cristianos hispanos inversión Texas Florida",
+  "pastor hispano empresario inversor tecnología Estados Unidos",
+];
 
 export const NOTES =
   "Para cada candidato anotá origen o evidencia de español, foco, etapa y ticket, formación técnica, por qué encaja y confianza. " +
@@ -375,5 +479,5 @@ export const NOTES =
 export const discovery: Term = {
   id: "discovery",
   title: () => "Descubrimiento de candidatos",
-  render: (ctx) => paragraphs(intro(ctx), numbered([FUNDS, INSTITUTIONS, queries(), sources(), NOTES])),
+  render: (ctx) => paragraphs(intro(ctx), numbered([FUNDS, INSTITUTIONS, faithSegment(), queries(), sources(), NOTES])),
 };

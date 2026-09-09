@@ -25,6 +25,7 @@ export const REGIONS = [
   "España:  partners, GPs, principals y angels radicados en España, o españoles en el exterior que invierten activamente.",
   "México:  partners, GPs, principals y angels radicados en México o que invierten activamente.",
   "Mundo árabe de habla hispana:  partners, GPs, principals y angels con fondos de países árabes de habla hispana o que invierten activamente.",
+  "Entidades cristianas conservadoras de Estados Unidos (veta dentro del ámbito hispanohablante, no un ámbito aparte): partners, GPs, principals y angels ligados a entidades cristianas conservadoras de Texas, Florida, Nuevo México, Nevada, Utah, Colorado, Luisiana, Alabama, Georgia, Carolina del Sur, Carolina del Norte y Arkansas que además hablen español e inviertan en fundadores hispanohablantes. Se les exige lo mismo que al resto del ámbito estadounidense: sin español verificable y sin evidencia de que trabajen con fundadores hispanohablantes, no entran. La afiliación religiosa sólo se registra si la entidad la declara o la persona lo dijo en público.",
   "Fuera de región (excepcional):  partners, GPs, principals y angels sólamente para encajes excepcionales, por ejemplo un inversor hispanohablante en Londres con la tesis exacta, y diciéndolo explícitamente.",
 ];
 

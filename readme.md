@@ -28,7 +28,9 @@ aplica antes del primer render (`src/lib/theme.ts`).
 ## Calificación manual
 
 Desde la ficha, "Calificar perfil" abre un diálogo con Aprobado, Dudoso, Desaprobado y Relleno, más "Descalificar" si
-ya tenía una. Se guarda en `rating` del documento (`approved`, `doubtful`, `rejected`, `filler` o `null`), es la única
+ya tenía una. El diálogo incluye una nota opcional que se guarda en `ratingNote` junto con la calificación: se muestra
+en negrita arriba de todo en la ficha, justo debajo de la cabecera, tanto en Bronce como en Gold. La nota pertenece a
+la calificación, así que descalificar también la borra, y el endpoint de ingesta la deja siempre en `null`. Se guarda en `rating` del documento (`approved`, `doubtful`, `rejected`, `filler` o `null`), es la única
 escritura que hace la app y se refleja en vivo: borde de 3px en la tarjeta del listado (verde, azul oscuro, rojo, gris
 oscuro), badge en la ficha y primer grupo de filtros. El endpoint de ingesta siempre deja `rating` en `null`; los
 perfiles calificados como desaprobado o relleno no se usan como ejemplos en el prompt.

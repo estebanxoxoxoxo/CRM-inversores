@@ -13,9 +13,11 @@ export interface InvestorsSnapshot {
 }
 
 /** Writes the team's rating (or clears it with null). The subscription reflects the change. */
-export async function setRating(id: string, rating: Rating | null): Promise<void> {
+export async function setRating(id: string, rating: Rating | null, note: string): Promise<void> {
   try {
-    await updateDoc(doc(getDb(), COLLECTION, id), { rating, updatedAt: new Date().toISOString() });
+    // The note belongs to the rating: withdrawing the rating withdraws it too.
+    const ratingNote = rating === null ? null : note.trim() || null;
+    await updateDoc(doc(getDb(), COLLECTION, id), { rating, ratingNote, updatedAt: new Date().toISOString() });
   } catch (e) {
     const error = toDataError(e, COLLECTION);
     throw new DataError(`No se pudo guardar la calificación de ${id}.`, error.help || error.message);

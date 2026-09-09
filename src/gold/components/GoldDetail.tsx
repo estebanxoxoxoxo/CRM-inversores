@@ -9,6 +9,7 @@ import ConnectionDialog from "../../bronze/components/ConnectionDialog";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import RatingDialog from "../../bronze/components/RatingDialog";
 import { Badge } from "../../components/Badge";
+import { RatingNote } from "../../components/RatingNote";
 import { Linkified, Section } from "../../components/DetailParts";
 
 interface Props {
@@ -101,6 +102,8 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
           </button>
         </div>
       </header>
+
+      <RatingNote note={investor?.ratingNote ?? null} />
 
       {investor && (
         <div className="contact">

@@ -18,6 +18,8 @@
  * - `confidence` rates the sources, not the fit.
  * - `rating` is the team's verdict on the profile and the only human gate: set from the app, it stays null however
  *   complete the audit is. Agent audit and human verdict are two different axes; do not read one as the other.
+ * - `ratingNote` is what the person wrote when rating, and it belongs to the rating: clearing the rating clears it.
+ *   The detail shows it above everything else, because it is the last thing a human decided about this profile.
  * - `connectionAsked` is the team's connection state with the investor, set from the app: `false` (no action yet),
  *   `"requested"` or `"accepted"`. The ingest endpoint always stores it as `false`.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
@@ -177,6 +179,8 @@ export const InvestorSchema = z.object({
   audit: AuditSchema,
   /** Manual team rating from the app (approved / doubtful / rejected / filler); null until someone rates it. */
   rating: RatingSchema.nullable().default(null),
+  /** The note written with the rating. Lives and dies with it; the ingest endpoint always stores it as null. */
+  ratingNote: z.string().nullable().default(null),
   /** Connection state set from the app: false (none), "requested" or "accepted". */
   connectionAsked: ConnectionAskedSchema.default(false),
   /** ISO timestamp of the last write. */

@@ -1,4 +1,4 @@
-import { aspectsFor, type GoldEntry } from "../lib/filters";
+import { aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import { RATING_LABELS, REGION_SHORT_LABELS } from "../../bronze/lib/labels";
 import type { Region } from "../../bronze/types/investor";
@@ -39,7 +39,7 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
               </span>
             </div>
             <div className="card-aspects">
-              {aspectsFor(evaluation.region).map((key) => {
+              {aspectsFor(regionOf({ evaluation, investor })).map((key) => {
                 const aspect = evaluation.aspects[key];
                 if (!aspect) return null;
                 return (
@@ -63,7 +63,7 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
               )}
             </div>
             <div className="card-line3">
-              <span>{regionLabel(evaluation.region)}</span>
+              <span>{regionLabel(regionOf({ evaluation, investor }))}</span>
               {investor?.email && (
                 <>
                   <span className="separator">·</span>

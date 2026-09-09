@@ -47,13 +47,15 @@ export const REGION_LABELS: Record<Region, string> = {
   us_hispanic: "EE.UU. (hispanohablante)",
   spain: "España",
   mexico: "México",
-  out_of_region: "Fuera de región (excepcional)",
+  spanish_speaking: "Otro país hispanohablante",
+  out_of_region: "Fuera de región (no hispanohablante)",
 };
 
 export const REGION_SHORT_LABELS: Record<Region, string> = {
   us_hispanic: "EE. UU.",
   spain: "España",
   mexico: "México",
+  spanish_speaking: "Hispanohablante",
   out_of_region: "Fuera de región",
 };
 

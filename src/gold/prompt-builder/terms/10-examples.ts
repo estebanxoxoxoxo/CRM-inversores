@@ -1,5 +1,5 @@
 /** Section "Ejemplos de documentos gold": recent gold documents as JSON, the standard the batch has to match. */
-import { REGION_ASPECTS, US_REGION, type Evaluation } from "../../types/gold";
+import { REGION_ASPECTS, asksLanguageAspects, type Evaluation } from "../../types/gold";
 import { codeBlock, paragraphs } from "../format/markdown";
 import type { PromptContext } from "../types/prompt";
 import type { Term } from "../types/term";
@@ -15,7 +15,7 @@ export const empty = (ctx: PromptContext): string =>
  * now refuses. The stored document is untouched: only what the prompt shows is brought up to date.
  */
 export function forCurrentRule(evaluation: Evaluation): Evaluation {
-  if (evaluation.region === US_REGION) return evaluation;
+  if (asksLanguageAspects(evaluation.region)) return evaluation;
   const aspects = { ...evaluation.aspects };
   for (const key of REGION_ASPECTS) aspects[key] = null;
   return { ...evaluation, aspects };

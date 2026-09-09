@@ -2,9 +2,10 @@
  * The evaluation of one investor: the document the agent pushes into the `gold` collection, one per investor,
  * with the investor's id as the document id.
  *
- * Four aspects decide the verdict: `stage` and `deepTech` apply to everyone; `spanish` and `hispanicFounders` apply
- * only to investors whose region is `us_hispanic` and are null for the rest, because the language only matters where
- * the profile is not already in a Spanish-speaking market. The verdict is not a free judgement: it is the
+ * Four aspects decide the verdict: `stage` and `deepTech` apply to everyone; `spanish` and `hispanicFounders` are
+ * asked wherever the country does not speak Spanish — the United States and anywhere else outside
+ * SPANISH_SPEAKING_REGIONS — and go in null in Spain, Mexico and any other Spanish-speaking country, where the
+ * language is a given. The verdict is not a free judgement: it is the
  * conjunction of the aspects that apply, and `validateEvaluation` refuses a document where the two disagree, so no
  * evaluation can call an investor gold without evidence in every aspect that applies to it.
  *
@@ -19,8 +20,14 @@ import { z } from "zod";
 
 export const COLLECTION = "gold";
 export const INVESTORS_COLLECTION = "investors";
-/** Region code (as written by the CRM) that makes `spanish` and `hispanicFounders` mandatory; elsewhere they are null. */
-export const US_REGION = "us_hispanic";
+/**
+ * Regions where the country's language is Spanish, so the two language aspects are not asked and go in null. In every
+ * other region — the United States and any country that does not speak Spanish — the four aspects are required.
+ */
+export const SPANISH_SPEAKING_REGIONS: readonly string[] = ["spain", "mexico", "spanish_speaking"];
+
+/** Whether this investor has to answer the two language aspects. */
+export const asksLanguageAspects = (region: string): boolean => !SPANISH_SPEAKING_REGIONS.includes(region);
 /** Maximum number of evaluations accepted by one call to the endpoint. */
 export const MAX_PER_REQUEST = 100;
 /** Investors asked for in one prompt, taken from the head of the unevaluated remainder. */
@@ -59,9 +66,9 @@ export const EvaluationSchema = z.object({
   aspects: z.object({
     stage: AspectSchema,
     deepTech: AspectSchema,
-    /** Only for region "us_hispanic"; null otherwise. */
+    /** Required outside a Spanish-speaking country (see SPANISH_SPEAKING_REGIONS); null inside one. */
     spanish: AspectSchema.nullable(),
-    /** Only for region "us_hispanic"; null otherwise. */
+    /** Required outside a Spanish-speaking country (see SPANISH_SPEAKING_REGIONS); null inside one. */
     hispanicFounders: AspectSchema.nullable(),
   }),
   /** Exactly 4 when the verdict is gold; empty when rejected. */
@@ -94,11 +101,12 @@ export function validateEvaluation(raw: unknown, investor: { region: string; nam
   if (!raw || typeof raw !== "object" || Array.isArray(raw)) throw new Error("each evaluation must be an object");
   const evaluation = EvaluationSchema.parse({ ...(raw as Record<string, unknown>), region: investor.region, name: investor.name, evaluatedAt: now });
 
-  // `spanish` and `hispanicFounders` are asked of United States investors only, and of every one of them.
+  // The language aspects are asked wherever the country does not speak Spanish, and there they are asked of everyone.
+  const asks = asksLanguageAspects(investor.region);
   for (const key of REGION_ASPECTS) {
     const value = evaluation.aspects[key];
-    if (investor.region === US_REGION && value === null) throw new Error(`${key} is required for investors in region "${US_REGION}"`);
-    if (investor.region !== US_REGION && value !== null) throw new Error(`${key} must be null for investors in region "${investor.region}"`);
+    if (asks && value === null) throw new Error(`${key} is required for investors in region "${investor.region}", which is not a Spanish-speaking country`);
+    if (!asks && value !== null) throw new Error(`${key} must be null for investors in region "${investor.region}", a Spanish-speaking country`);
   }
 
   for (const [aspect, value] of Object.entries(evaluation.aspects)) {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSection } from "../../context/section";
 import { copyText } from "../../lib/clipboard";
-import { ASPECT_KEYS, aspectsFor, type GoldEntry } from "../lib/filters";
+import { ASPECT_KEYS, aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
 import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, RATING_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
 import { ASPECT_LABELS, VERDICT_LABELS } from "../lib/labels";
 import type { Region } from "../../bronze/types/investor";
@@ -59,6 +59,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
   }
 
   const { evaluation, investor } = entry;
+  const region = regionOf(entry);
 
   const copy = async (key: string, text: string) => {
     if (await copyText(text)) {
@@ -84,7 +85,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
             {investor?.rating && <Badge className={`rating-${investor.rating}`}>{RATING_LABELS[investor.rating]}</Badge>}
             <Badge className={`verdict-${evaluation.verdict}`}>{VERDICT_LABELS[evaluation.verdict]}</Badge>
             {investor && <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>}
-            <Badge className="neutral">{REGION_LABELS[evaluation.region as Region] ?? evaluation.region}</Badge>
+            <Badge className="neutral">{REGION_LABELS[region as Region] ?? region}</Badge>
           </p>
         </div>
         <div className="detail-actions">
@@ -129,9 +130,9 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
         </div>
       )}
 
-      <Section title={aspectsFor(evaluation.region).length === ASPECT_KEYS.length ? "Los cuatro aspectos" : "Los dos aspectos"}>
+      <Section title={aspectsFor(region).length === ASPECT_KEYS.length ? "Los cuatro aspectos" : "Los dos aspectos"}>
         <ul className="aspects">
-          {aspectsFor(evaluation.region).map((key) => {
+          {aspectsFor(region).map((key) => {
             const aspect = evaluation.aspects[key];
             const state = aspect === null ? "aspect-na" : aspect.passes ? "aspect-pass" : "aspect-fail";
             return (

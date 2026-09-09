@@ -38,7 +38,12 @@ export const BAND_THRESHOLDS = { undisputed: 78, high_potential: 60, reserve: 45
 export const AuditStatusSchema = z.enum(["reviewed", "pending"]);
 export const PrioritySchema = z.enum(["A", "B", "C"]);
 export const ConfidenceSchema = z.enum(["high", "medium", "low"]);
-export const RegionSchema = z.enum(["us_hispanic", "spain", "mexico", "out_of_region"]);
+/**
+ * Where the investor is based. `spanish_speaking` is any other country whose language is Spanish (Argentina, Chile,
+ * Uruguay, Colombia…); `out_of_region` is a country that does not speak it. The line matters beyond the label: the
+ * gold evaluation asks the language aspects only where the language is not a given.
+ */
+export const RegionSchema = z.enum(["us_hispanic", "spain", "mexico", "spanish_speaking", "out_of_region"]);
 export const InvestorTypeSchema = z.enum(["institutional_vc", "business_angel", "operator_fund", "corporate_vc", "accelerator"]);
 export const EmailStatusSchema = z.enum(["public_verified", "public_sourced", "firm_general_mailbox", "inferred_pattern", "not_found"]);
 export const CapSchema = z.enum(["thesis_below_6", "thesis_below_10", "no_check_writer", "requires_traction"]);

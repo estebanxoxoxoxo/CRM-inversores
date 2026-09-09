@@ -1,7 +1,7 @@
 # Evaluación gold
 
 Evalúa los inversores que ya están en `investors` contra cuatro aspectos —etapa y deep tech para todos; español y
-founders hispanos sólo para los de Estados Unidos— y guarda una evaluación por inversor en una
+founders hispanos sólo para los que viven fuera de un país de habla hispana— y guarda una evaluación por inversor en una
 colección aparte, `gold`. El trabajo pesado lo hace un agente de IA: este módulo sólo le arma el prompt y le abre la
 puerta para escribir. En la app, la sección Gold navega por las evaluaciones.
 
@@ -85,10 +85,14 @@ petición; `?dryRun=1` valida sin escribir). Responde
 - el `investorId` no existe en `investors`, ya tiene documento en `gold`, o se repite dentro de la misma petición;
 - el documento no valida contra `EvaluationSchema` (`reason` de hasta 400 caracteres, `sources` con URL reales,
   asunto de hasta 100 y cuerpo de hasta 900 caracteres);
-- `spanish` o `hispanicFounders` son `null` en un perfil `us_hispanic`, o no lo son en cualquier otra región;
+- `spanish` o `hispanicFounders` son `null` en un perfil de `us_hispanic` u `out_of_region`, o no lo son en `spain`, `mexico` o `spanish_speaking`;
 - un aspecto pasa sin ninguna URL en `sources`;
 - el veredicto no coincide con los aspectos: `gold` si y sólo si pasan todos los que aplican;
 - el veredicto es `gold` y no vienen exactamente 4 mails, o es `rejected` y viene alguno.
 
 `region`, `name` y `evaluatedAt` los pone el servidor leyendo `investors/{investorId}` y el reloj: lo que mande el
 agente en esos campos se ignora, así que la región no se puede falsear para esquivar los dos aspectos que dependen de ella.
+
+La región manda desde `investors`: la evaluación guarda la que tenía al escribirse, así que reclasificar a un inversor
+la deja desfasada en su documento de `gold`. La app y el prompt leen siempre la del inversor, pero conviene
+sincronizar el documento cuando se reclasifica.

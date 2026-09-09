@@ -52,7 +52,11 @@ export function remainder(investors: Investor[], evaluations: Evaluation[]): Inv
 export function buildGoldPrompt(investors: Investor[], evaluations: Evaluation[], options: GoldPromptOptions = { count: DEFAULT_BATCH }): GoldPrompt {
   const pending = remainder(investors, evaluations);
   const batch = pending.slice(0, clampBatch(options.count));
-  const examples = latestGold(evaluations, EXAMPLES_COUNT);
+  // An evaluation keeps the region it was written against; the investor is the source of truth, and the examples
+  // have to be shown under the rule that applies today or they teach a shape the endpoint refuses.
+  const regionOf = new Map(investors.map((investor) => [investor.id, investor.region]));
+  const current = evaluations.map((evaluation) => ({ ...evaluation, region: regionOf.get(evaluation.investorId) ?? evaluation.region }));
+  const examples = latestGold(current, EXAMPLES_COUNT);
   const token = ingestToken();
   const endpoint = ingestEndpoint();
   const text = buildPrompt({ batch, examples, excluded: evaluations, endpoint, token: tokenOrPlaceholder(token), typeSource: TYPE_SOURCE, date: today() });

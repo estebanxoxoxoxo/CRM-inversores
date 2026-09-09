@@ -14,7 +14,7 @@ export const NOTE_ID = "`investorId`: el `id` del perfil tal como viene en el lo
 export const NOTE_SERVER =
   "No inventes `region`, `name` ni `evaluatedAt`: los pone el servidor leyendo el perfil guardado y el reloj. Si los mandás, se sobreescriben.";
 export const NOTE_HISPANIC =
-  "`aspects.spanish` y `aspects.hispanicFounders` van en `null` salvo que el perfil tenga `region` igual a `us_hispanic`; en ese caso los dos son obligatorios.";
+  "`aspects.spanish` y `aspects.hispanicFounders` van en `null` cuando `region` es `spain`, `mexico` o `spanish_speaking`, y son obligatorios los dos cuando es `us_hispanic` o `out_of_region`.";
 export const NOTE_SOURCES = "`sources` de cada aspecto son URL completas; cuando el aspecto pasa tiene que haber al menos una.";
 export const NOTE_VERDICT = "`verdict` no es una opinión: es `gold` si y sólo si pasan todos los aspectos que aplican. El servidor lo recalcula y rechaza el documento si no coincide.";
 

@@ -1,5 +1,5 @@
 /** Filters and order of the Gold section, kept in memory: the URL only carries the section and the selected id. */
-import { GLOBAL_ASPECTS, REGION_ASPECTS, US_REGION, VerdictSchema, type Evaluation, type Verdict } from "../types/gold";
+import { GLOBAL_ASPECTS, REGION_ASPECTS, VerdictSchema, asksLanguageAspects, type Evaluation, type Verdict } from "../types/gold";
 import { RegionSchema, type Investor, type Region } from "../../bronze/types/investor";
 import { normalize } from "../../lib/text";
 
@@ -13,11 +13,17 @@ export type AspectKey = keyof Evaluation["aspects"];
 export const ASPECT_KEYS: readonly AspectKey[] = [...GLOBAL_ASPECTS, ...REGION_ASPECTS];
 
 /**
- * The aspects that apply to a region, and the only ones the section shows. Outside the United States they are the
+ * The aspects that apply to a region, and the only ones the section shows. In a Spanish-speaking country they are the
  * first two: an evaluation written before the rule changed may carry the other two, and they are not shown because
  * they no longer count for anything.
  */
-export const aspectsFor = (region: string): readonly AspectKey[] => (region === US_REGION ? ASPECT_KEYS : GLOBAL_ASPECTS);
+export const aspectsFor = (region: string): readonly AspectKey[] => (asksLanguageAspects(region) ? ASPECT_KEYS : GLOBAL_ASPECTS);
+
+/**
+ * The region to read the evaluation by. The document keeps the region it was written against, so reclassifying an
+ * investor leaves it stale; the investor is the source of truth, and what the section shows follows it.
+ */
+export const regionOf = (entry: GoldEntry): string => entry.investor?.region ?? entry.evaluation.region;
 
 export const VERDICTS: readonly Verdict[] = VerdictSchema.options;
 export const GOLD_REGIONS: readonly Region[] = RegionSchema.options;

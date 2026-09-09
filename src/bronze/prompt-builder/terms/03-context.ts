@@ -17,16 +17,19 @@ export const PURITY =
   "fondo encaja de verdad, no es de una sola persona: identificá de una a tres personas de ese fondo, las de mejor calidad para " +
   "infraestructura de IA y dev tools, y hacé una ficha de cada una.";
 
-export const REGIONS_INTRO = "Regiones, en orden de prioridad:";
+export const REGIONS_INTRO =
+  "Regiones, en orden de prioridad. `region` se decide por el país donde vive la persona, no por su origen ni por dónde tiene oficinas " +
+  "el fondo: un español en Londres es `out_of_region`, y un argentino en Buenos Aires es `spanish_speaking`. De ese código depende " +
+  "después qué se le exige al perfil, así que ponerlo mal cuesta caro:";
 
 export const REGIONS = [
-  "Estados Unidos hispanohablante (prioridad máxima): partners, GPs, principals y angels en Estados Unidos de origen español, hispano o latinoamericano, o con fluidez en español verificable.",
-  "Argentina:  partners, GPs, principals y angels radicados en Argentina o argentinos en el exterior que invierten activamente.",
-  "España:  partners, GPs, principals y angels radicados en España, o españoles en el exterior que invierten activamente.",
-  "México:  partners, GPs, principals y angels radicados en México o que invierten activamente.",
-  "Mundo árabe de habla hispana:  partners, GPs, principals y angels con fondos de países árabes de habla hispana o que invierten activamente.",
+  "Estados Unidos hispanohablante (prioridad máxima; `region` = `us_hispanic`): partners, GPs, principals y angels en Estados Unidos de origen español, hispano o latinoamericano, o con fluidez en español verificable.",
+  "Argentina y el resto de América Latina (`region` = `spanish_speaking`): partners, GPs, principals y angels radicados en Argentina, Chile, Uruguay, Colombia, Perú o cualquier otro país de habla hispana. Un argentino radicado fuera de un país hispanohablante no va acá: va en `out_of_region`.",
+  "España (`region` = `spain`): partners, GPs, principals y angels radicados en España. Un español radicado fuera va en la región del país donde vive, no en `spain`.",
+  "México (`region` = `mexico`): partners, GPs, principals y angels radicados en México.",
+  "Mundo árabe (`region` = `out_of_region`, porque no es un país hispanohablante): partners, GPs, principals y angels hispanohablantes con fondos del Golfo.",
   "Entidades cristianas conservadoras de Estados Unidos (veta dentro del ámbito hispanohablante, no un ámbito aparte): partners, GPs, principals y angels ligados a entidades cristianas conservadoras de Texas, Florida, Nuevo México, Nevada, Utah, Colorado, Luisiana, Alabama, Georgia, Carolina del Sur, Carolina del Norte y Arkansas que además hablen español e inviertan en fundadores hispanohablantes. Se les exige lo mismo que al resto del ámbito estadounidense: sin español verificable y sin evidencia de que trabajen con fundadores hispanohablantes, no entran. La afiliación religiosa sólo se registra si la entidad la declara o la persona lo dijo en público.",
-  "Fuera de región (excepcional):  partners, GPs, principals y angels sólamente para encajes excepcionales, por ejemplo un inversor hispanohablante en Londres con la tesis exacta, y diciéndolo explícitamente.",
+  "Fuera de región (`region` = `out_of_region`, cualquier país que no habla español: Reino Unido, Alemania, Canadá, Emiratos): sólo para encajes excepcionales, por ejemplo un español en Londres con la tesis exacta, y diciéndolo explícitamente.",
 ];
 
 export const objective = (count: number): string =>

@@ -16,9 +16,8 @@ export const PAST_EXPERIENCE = "Nos pasó en el pasado que los inversores buscab
 
 export const REGIONS =
   "Quiero acceder a inversores en Argentina, España, México, mundo árabe de habla hispana y sobre todo en Estados Unidos de habla hispana. " +
-  "Rastreá también las entidades cristianas conservadoras de Texas, Florida, Nuevo México, Nevada, Utah, Colorado, Luisiana, Alabama, " +
-  "Georgia, las dos Carolinas y Arkansas, buscando a los que ahí hablen español e inviertan en fundadores hispanohablantes: es capital que " +
-  "decide por convicción y a largo plazo, y esa gente existe en ese mundo.";
+  "Rastreá también las entidades cristianas (protestantes de diversas ramas) conservadoras de Texas, Florida, Nuevo México, Nevada, Utah, Colorado, Luisiana, Alabama, " +
+  "Georgia, las dos Carolinas y Arkansas, buscando a los que ahí hablen español e inviertan en fundadores hispanohablantes: es capital que " 
 
 export const PURITY =
   "Quiero que la pureza sea absoluta: que de verdad busques que cada perfil sea hiperatractivo como inversor para algo profundo, " +

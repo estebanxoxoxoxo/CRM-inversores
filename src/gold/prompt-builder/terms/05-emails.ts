@@ -7,7 +7,8 @@ export const emailsBrief = (): string =>
   "artículo con la frase citada, una inversión nombrada, una charla o podcast, una tesis publicada. `basedOn` nombra esa evidencia. " +
   `Asunto de hasta ${SUBJECT_MAX} caracteres, cuerpo de hasta ${BODY_MAX}. Cada mail tiene que demostrar que leímos su trabajo: 'vi ` +
   "que en tal artículo dijiste tal frase, que resuena con lo que hacemos', 'vimos que invertiste en X e Y, por eso creemos que lo " +
-  "nuestro puede interesarte'. Sin frases huecas. Para los `rejected`, `emails` va vacío.";
+  "nuestro puede interesarte'. Sin frases huecas. Para los `rejected`, `emails` va vacío." + 
+  "El producto siempre dejalo como una ingonica con estas siglas [X]. Luego a ultimo momento voy a diseñar un texto para reemplazarlo";
 
 export const emails: Term = {
   id: "emails",

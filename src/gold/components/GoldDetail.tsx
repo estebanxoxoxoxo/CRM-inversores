@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useSection } from "../../context/section";
 import { copyText } from "../../lib/clipboard";
 import { ASPECT_KEYS, aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
-import { passesEveryAspect } from "../types/gold";
 import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, RATING_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
 import { ASPECT_LABELS } from "../lib/labels";
 import type { Region } from "../../bronze/types/investor";
@@ -192,9 +191,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
         </Section>
       ) : (
         <Section title="Hechos relacionados">
-          <p className="muted">
-            {passesEveryAspect(evaluation.aspects) ? "Todavía sin hechos: se evaluó antes de este cambio." : "Sin hechos: no pasa todos los aspectos que le aplican."}
-          </p>
+          <p className="muted">Sin hechos.</p>
         </Section>
       )}
       <p className="muted small detail-footer">Evaluado el {formatDate(evaluation.evaluatedAt)}.</p>

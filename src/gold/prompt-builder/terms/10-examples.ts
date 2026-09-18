@@ -1,4 +1,4 @@
-/** Section "Ejemplos de evaluaciones que pasan todo": recent passing evaluations as JSON, the standard the batch has to match. */
+/** Section "Ejemplos de evaluaciones": the most recent evaluations carrying their facts, as JSON, the standard the batch has to match. */
 import { REGION_ASPECTS, asksLanguageAspects, type Evaluation } from "../../types/gold";
 import { codeBlock, paragraphs } from "../format/markdown";
 import type { PromptContext } from "../types/prompt";
@@ -7,7 +7,7 @@ import type { Term } from "../types/term";
 export const INTRO = "Son el estándar esperado. Fijate en lo concreto de cada `reason`, en las URL de `sources` y en lo seco de cada hecho de `relatedFacts`.";
 
 export const empty = (ctx: PromptContext): string =>
-  `Todavía no hay ninguna evaluación que pase todos los aspectos: el tipo de la sección ${ctx.sectionNumber("type")} y las reglas de este documento son toda la referencia.`;
+  `Todavía no hay ninguna evaluación con hechos relacionados: el tipo de la sección ${ctx.sectionNumber("type")} y las reglas de este documento son toda la referencia.`;
 
 /**
  * The example as the rule stands today. An evaluation written before the region rule carries `spanish` and
@@ -25,6 +25,6 @@ export const exampleBlock = (evaluation: Evaluation): string => codeBlock("json"
 
 export const examples: Term = {
   id: "examples",
-  title: (ctx) => `Ejemplos de evaluaciones que pasan todo (las ${ctx.examples.length} más recientes)`,
+  title: (ctx) => `Ejemplos de evaluaciones (las ${ctx.examples.length} más recientes)`,
   render: (ctx) => (ctx.examples.length ? paragraphs(INTRO, ctx.examples.map(exampleBlock).join("\n\n")) : empty(ctx)),
 };

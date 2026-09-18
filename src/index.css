@@ -992,9 +992,6 @@ textarea {
 .badge-button:hover {
   text-decoration: underline;
 }
-.card.passes {
-  box-shadow: inset 3px 0 0 var(--gold-border);
-}
 .card-aspects {
   display: flex;
   flex-wrap: wrap;

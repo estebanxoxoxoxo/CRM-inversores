@@ -6,8 +6,8 @@
  * and must not have been evaluated yet, because an evaluation is never overwritten. `region` and `name` come from
  * that stored investor, so the two region-dependent aspects cannot be dodged by sending a different region.
  *
- * An evaluation that fails one of its aspects is not refused: it is a perfectly good document that gets written, with
- * its reasons and no related facts. `invalid` means the submission itself was refused.
+ * An aspect answered with a "no" refuses nothing: the document gets written all the same, with its reasons and with
+ * the related facts every evaluation carries. `invalid` means the submission itself was refused.
  */
 import { doc, getDoc, writeBatch, type DocumentSnapshot, type Firestore } from "firebase/firestore";
 import { COLLECTION, INVESTORS_COLLECTION, MAX_PER_REQUEST, describeError, validateEvaluation } from "../types/gold.js";

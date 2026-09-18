@@ -1,9 +1,10 @@
 /**
  * Vercel function: POST /api/gold
  *
- * Receives the evaluations produced by the prompt, validates each one against the gold type and the business rules,
- * and writes one document per investor into the `gold` collection. Requires `Authorization: Bearer
- * <VITE_INGEST_TOKEN>`. Add `?dryRun=1` to validate without writing.
+ * Receives the evaluations produced by the prompt, validates each one against the gold type and the business rules —
+ * the aspects that the region demands and the 3 to 10 related facts every evaluation carries — and writes one
+ * document per investor into the `gold` collection. Requires `Authorization: Bearer <VITE_INGEST_TOKEN>`. Add
+ * `?dryRun=1` to validate without writing.
  */
 import { isAuthorized, tokenConfigured } from "../server/auth.js";
 import { getDb, isFirebaseConfigured } from "../server/firestore.js";

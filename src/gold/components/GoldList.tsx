@@ -1,5 +1,4 @@
 import { aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
-import { passesEveryAspect } from "../types/gold";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import { RATING_LABELS, REGION_SHORT_LABELS } from "../../bronze/lib/labels";
 import type { Region } from "../../bronze/types/investor";
@@ -22,7 +21,7 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
         <li key={evaluation.investorId}>
           <button
             type="button"
-            className={`card ${passesEveryAspect(evaluation.aspects) ? "passes" : ""} ${selectedId === evaluation.investorId ? "active" : ""} ${investor?.rating ? `rating-${investor.rating}` : ""}`}
+            className={`card ${selectedId === evaluation.investorId ? "active" : ""} ${investor?.rating ? `rating-${investor.rating}` : ""}`}
             title={investor?.rating ? `Calificación: ${RATING_LABELS[investor.rating]}` : undefined}
             onClick={() => onSelect(evaluation.investorId)}
           >

@@ -16,7 +16,6 @@ import { useInvestors } from "./bronze/context/investors";
 import { SectionContext, navigationFromHash, navigationToHash, type Navigation, type Section } from "./context/section";
 import { applyFilters, filtersFromUrl, filtersToUrl, type Filters } from "./bronze/lib/filters";
 import { EMPTY_GOLD_FILTERS, applyGoldFilters, joinGold, type GoldFilters } from "./gold/lib/filters";
-import { passesEveryAspect } from "./gold/types/gold";
 import type { DataError, InvalidDocument } from "./lib/data";
 
 function DataNotices({ error, invalid }: { error: DataError | null; invalid: InvalidDocument[] }) {
@@ -70,7 +69,6 @@ export default function App() {
 
   const entries = useMemo(() => joinGold(goldState.evaluations, investors), [goldState.evaluations, investors]);
   const visibleGold = useMemo(() => applyGoldFilters(entries, goldFilters), [entries, goldFilters]);
-  const goldPassing = useMemo(() => goldState.evaluations.filter((evaluation) => passesEveryAspect(evaluation.aspects)).length, [goldState.evaluations]);
   const selectedEntry = useMemo(() => entries.find((entry) => entry.evaluation.investorId === selectedId) ?? null, [entries, selectedId]);
 
   const info =
@@ -86,7 +84,7 @@ export default function App() {
       )
     ) : goldState.status === "ready" ? (
       <>
-        <strong>{visibleGold.length}</strong> de {goldState.evaluations.length} evaluaciones · {goldPassing} pasan todo
+        <strong>{visibleGold.length}</strong> de {goldState.evaluations.length} evaluaciones
       </>
     ) : goldState.status === "error" ? (
       <span className="error">{goldState.error?.message}</span>

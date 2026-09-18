@@ -1,4 +1,4 @@
-/** Section "Los cuatro aspectos": the definition of each aspect and the rule that turns the ones that apply into the related facts. */
+/** Section "Los cuatro aspectos": the definition of each aspect and the rule that says which ones the region asks for. */
 import { bullets, paragraphs } from "../format/markdown";
 import type { Term } from "../types/term";
 
@@ -31,9 +31,9 @@ export const RULE =
   "cuando es `spain`, `mexico` o `spanish_speaking` (cualquier otro país hispanohablante: Argentina, Chile, Uruguay, Colombia…), y son " +
   "obligatorios cuando es `us_hispanic` o `out_of_region` (un país que no habla español: Reino Unido, Alemania, Canadá, Emiratos…). " +
   "Un español en Londres o un argentino en Berlín entran por `out_of_region` y tienen que cumplir los cuatro, igual que los de Estados " +
-  "Unidos. El servidor comprueba la región contra la guardada en la base, así que no hay forma de esquivarlo. No hay nada más que " +
-  "dictaminar: si pasan todos los aspectos que aplican, el documento lleva entre 3 y 10 hechos relacionados; si uno falla, se envía igual, " +
-  "con sus motivos y sin hechos. El servidor lo comprueba.";
+  "Unidos. El servidor comprueba la región contra la guardada en la base, así que no hay forma de esquivarlo. Ningún aspecto descarta a " +
+  "nadie: el filtro ya lo hizo Bronce, y lo que hacés acá es información de negocio sobre perfiles que ya entraron. Cada aspecto se " +
+  "responde con evidencia, se cumpla o no: un 'no' documentado también es información. El servidor ya no deriva nada de los aspectos.";
 
 export const aspects: Term = {
   id: "aspects",

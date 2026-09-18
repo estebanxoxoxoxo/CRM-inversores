@@ -1,11 +1,10 @@
-/** Section "Los hechos relacionados": the dry facts a passing profile carries, the raw material of the emails the client writes himself. */
+/** Section "Los hechos relacionados": the dry facts every profile carries, the raw material of the emails the client writes himself. */
 import { FACTS_MAX, FACTS_MIN, FACT_MAX } from "../../types/gold";
 import { paragraphs } from "../format/markdown";
 import type { Term } from "../types/term";
 
 export const investigate = (): string =>
-  "Para cada perfil que pasa todos los aspectos que le aplican, investigá a fondo a la persona, a su fondo y/o su actividad como ángel, y " +
-  `reportá entre ${FACTS_MIN} y ${FACTS_MAX} hechos relacionados.`;
+  `Para cada perfil, investigá a fondo a la persona, a su fondo y/o su actividad como ángel, y reportá entre ${FACTS_MIN} y ${FACTS_MAX} hechos relacionados.`;
 
 export const WHAT_IS_A_FACT =
   "Un hecho relacionado es cualquier cosa —una cita, una inversión, una declaración, una charla, un dato— que se pueda mencionar en un mail " +
@@ -24,10 +23,8 @@ export const EXAMPLE =
 
 export const SOURCES = "`sources` lleva la o las URL donde se puede constatar el hecho: al menos una.";
 
-export const NO_FACTS = "El perfil que falla algún aspecto que le aplica no lleva ningún hecho: `relatedFacts` va vacío.";
-
 export const relatedFacts: Term = {
   id: "relatedFacts",
   title: () => "Los hechos relacionados",
-  render: () => paragraphs(investigate(), WHAT_IS_A_FACT, dryRule(), `${EXAMPLE_LABEL}\n\n> ${EXAMPLE}`, SOURCES, NO_FACTS),
+  render: () => paragraphs(investigate(), WHAT_IS_A_FACT, dryRule(), `${EXAMPLE_LABEL}\n\n> ${EXAMPLE}`, SOURCES),
 };

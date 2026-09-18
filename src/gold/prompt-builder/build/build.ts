@@ -4,9 +4,9 @@
  *
  *   opening                        title and opening paragraph
  *   1. client                      who the emails the client writes speak for
- *   2. aspects                     the four aspects and the rule that turns them into the related facts
+ *   2. aspects                     the four aspects and the rule that says which ones the region asks for
  *   3. justifications              what a reason must contain
- *   4. relatedFacts                the dry facts a gold profile carries
+ *   4. relatedFacts                the dry facts every evaluation carries
  *   5. type                        the gold type, embedded verbatim
  *   6. endpoint                    where the evaluations are sent
  *   7. batch                       the investors to evaluate

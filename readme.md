@@ -89,15 +89,16 @@ Sobre los perfiles ya cargados corre una segunda pasada: un agente evalúa cada 
 y deep tech para todos; español y founders hispanos sólo cuando el inversor vive fuera de un país de habla hispana
 (`us_hispanic` y `out_of_region`), porque en `spain`, `mexico` y `spanish_speaking` el idioma se da por hecho— y guarda
 un documento por inversor en la colección `gold`. Estar en `gold` significa que el inversor fue reanalizado contra los
-cuatro criterios, y el resultado se lee en los aspectos y en los hechos relacionados: entre 3 y 10 hechos cuando pasa
-todos los aspectos que le aplican y ninguno cuando falla uno, regla que hace cumplir el endpoint. Un hecho relacionado
-es un dato seco sobre el inversor —una cita, una inversión, una declaración, una charla, con la URL donde constatarlo—
-que enlaza sus intereses con lo que construimos y que se puede dejar caer tal cual en un mail en frío: es materia prima
-para los mails que escribe el cliente, no un mail escrito. El botón "Evaluar más perfiles"
-de la sección Gold arma el prompt del próximo lote (25 por defecto, hasta 100) y lo copia, como "Buscar más perfiles" en
-Bronce; `POST /api/gold` (`api/gold.ts`) recibe y valida las evaluaciones. Todo el módulo vive en
-`src/gold/`; su [README](src/gold/README.md) explica el documento, lo que valida el endpoint y la regla de Firestore
-que hay que añadir para `gold`.
+cuatro criterios: Gold no filtra —el filtro es Bronce—, es una capa de información de negocio sobre los perfiles que ya
+entraron, así que ningún perfil pasa ni falla en conjunto y cada aspecto se responde con evidencia, se cumpla o no,
+porque un "no" documentado también es información. Toda evaluación lleva entre 3 y 10 hechos relacionados, siempre,
+regla que hace cumplir el endpoint. Un hecho relacionado es un dato seco sobre el inversor —una cita, una inversión,
+una declaración, una charla, con la URL donde constatarlo— que enlaza sus intereses con lo que construimos y que se
+puede dejar caer tal cual en un mail en frío: es materia prima para los mails que escribe el cliente, no un mail
+escrito. El botón "Evaluar más perfiles" de la sección Gold arma el prompt del próximo lote (25 por defecto, hasta 100)
+y lo copia, como "Buscar más perfiles" en Bronce; `POST /api/gold` (`api/gold.ts`) recibe y valida las evaluaciones.
+Todo el módulo vive en `src/gold/`; su [README](src/gold/README.md) explica el documento, lo que valida el endpoint y
+la regla de Firestore que hay que añadir para `gold`.
 
 En la app, el selector Bronce / Gold de la cabecera cambia entre la lista de inversores y la de evaluaciones. La sección
 Gold lista cada perfil evaluado con sus cuatro aspectos, la evidencia de cada uno y los hechos relacionados listos para

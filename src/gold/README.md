@@ -3,10 +3,11 @@
 Evalúa los inversores que ya están en `investors` contra cuatro aspectos —etapa y deep tech para todos; español y
 founders hispanos sólo para los que viven fuera de un país de habla hispana— y guarda una evaluación por inversor en una
 colección aparte, `gold`. Estar en `gold` significa sólo eso: que el inversor fue reanalizado contra los cuatro
-criterios. No hay nada más que dictaminar: el resultado se lee en los aspectos y en los hechos relacionados, porque la
-evaluación lleva entre 3 y 10 hechos si pasa todos los aspectos que le aplican y ninguno si falla uno, y el endpoint lo hace cumplir. El trabajo
-pesado lo hace un agente de IA: este módulo sólo le arma el prompt y le abre la puerta para escribir. En la app, la
-sección Gold navega por las evaluaciones.
+criterios. Gold no filtra —el filtro es Bronce—: es una capa de información de negocio sobre los perfiles que ya
+entraron, así que ningún perfil pasa ni falla en conjunto. Cada aspecto se responde con evidencia, se cumpla o no,
+porque un "no" documentado también es información, y toda evaluación lleva entre 3 y 10 hechos relacionados, siempre,
+regla que hace cumplir el endpoint. El trabajo pesado lo hace un agente de IA: este módulo sólo le arma el prompt y le
+abre la puerta para escribir. En la app, la sección Gold navega por las evaluaciones.
 
 Tres piezas:
 
@@ -35,9 +36,9 @@ Es código de navegador salvo `server/evaluations.ts`, que corre en la función 
 1. Calcula el **remanente**: los inversores que todavía no tienen documento en `gold`, en el orden de la app (nivel
    descendente y, a igual nivel, por nombre). El **lote** son los primeros N del remanente; N lo pide el diálogo
    (25 por defecto, 100 como máximo, que es lo que acepta una petición).
-2. Toma como **ejemplos** los 100 documentos más recientes que pasan todos los aspectos que les aplican y llevan hechos
-   relacionados: los evaluados antes de este cambio no enseñan la forma que se pide hoy.
-3. Arma la lista de **excluidos**: todos los evaluados, pasen o no, para que ninguno se repita.
+2. Toma como **ejemplos** los 100 documentos más recientes que llevan hechos relacionados: los evaluados antes de este
+   cambio no enseñan la forma que se pide hoy.
+3. Arma la lista de **excluidos**: todos los evaluados, para que ninguno se repita.
 4. Construye el prompt con el lote, los ejemplos, los excluidos, la URL del endpoint, el token y el código de
    `types/gold.ts`, lo copia y resume: perfiles del lote, tamaño, ejemplos, excluidos y cuántos quedan.
 
@@ -83,13 +84,12 @@ Uno por inversor, con el `id` del inversor como id del documento:
 }
 ```
 
-Los **hechos relacionados** son el resultado de la evaluación: tras investigar a fondo a la persona, a su fondo y/o su
-actividad como ángel, entre 3 y 10 datos —una cita, una inversión, una declaración, una charla— que enlazan los
-intereses del inversor con lo que construye el cliente, y que él va a mencionar en los mails que escribe él mismo. El
-hecho va seco, de hasta 300 caracteres, tal cual podría caer dentro del mail: con su fuente nombrada adentro cuando
-salga natural, pero sin envoltura, sin justificaciones y sin ninguna mención a la investigación. Cada hecho lleva en
-`sources` la o las URL donde se puede constatar, al menos una. El perfil que falla algún aspecto que le aplica no
-lleva ninguno.
+Los **hechos relacionados** son la información que deja la evaluación, y los lleva toda evaluación sin excepción: tras
+investigar a fondo a la persona, a su fondo y/o su actividad como ángel, entre 3 y 10 datos —una cita, una inversión,
+una declaración, una charla— que enlazan los intereses del inversor con lo que construye el cliente, y que él va a
+mencionar en los mails que escribe él mismo. El hecho va seco, de hasta 300 caracteres, tal cual podría caer dentro del
+mail: con su fuente nombrada adentro cuando salga natural, pero sin envoltura, sin justificaciones y sin ninguna
+mención a la investigación. Cada hecho lleva en `sources` la o las URL donde se puede constatar, al menos una.
 
 Las evaluaciones escritas antes de este cambio guardan en Firestore un campo `emails` con los cuatro mails propuestos
 que se pedían entonces. La base no se migró: el campo sigue ahí, el esquema ya no lo declara y la app lo ignora al
@@ -100,14 +100,15 @@ leer. Esos documentos se muestran sin hechos.
 `POST /api/gold` con `Authorization: Bearer <VITE_INGEST_TOKEN>` y cuerpo `{ "evaluations": [ … ] }` (hasta 100 por
 petición; `?dryRun=1` valida sin escribir). Responde
 `{ dryRun, created: [{ investorId }], invalid: [{ investorId, reason }] }`. Una evaluación entra en `invalid`
-—que no es lo mismo que no pasar los aspectos: la que falla uno se guarda igual, con sus motivos y sin hechos— cuando:
+—que no es lo mismo que no cumplir un aspecto: ese aspecto se guarda igual, con sus motivos, y la evaluación con sus
+hechos— cuando:
 
 - el `investorId` no existe en `investors`, ya tiene documento en `gold`, o se repite dentro de la misma petición;
 - el documento no valida contra `EvaluationSchema` (`reason` de hasta 400 caracteres, `sources` con URL reales,
   `fact` de hasta 300 caracteres con al menos una URL en sus `sources`, y como mucho 10 hechos);
 - `spanish` o `hispanicFounders` son `null` en un perfil de `us_hispanic` u `out_of_region`, o no lo son en `spain`, `mexico` o `spanish_speaking`;
 - un aspecto pasa sin ninguna URL en `sources`;
-- los hechos no coinciden con los aspectos: pasan todos los que aplican y no vienen al menos 3, o falla uno y viene alguno.
+- vienen menos de 3 hechos relacionados: toda evaluación lleva entre 3 y 10, sin que ningún aspecto lo condicione.
 
 `region`, `name` y `evaluatedAt` los pone el servidor leyendo `investors/{investorId}` y el reloj: lo que mande el
 agente en esos campos se ignora, así que la región no se puede falsear para esquivar los dos aspectos que dependen de ella.

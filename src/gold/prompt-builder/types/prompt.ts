@@ -8,7 +8,7 @@ export interface PromptInput {
   batch: Investor[];
   /** Recent gold documents shown as the quality bar. */
   examples: Evaluation[];
-  /** Every evaluated investor, passing or not, so none is evaluated twice. */
+  /** Every evaluated investor, so none is evaluated twice. */
   excluded: Evaluation[];
   /** Full URL of the ingest endpoint. */
   endpoint: string;

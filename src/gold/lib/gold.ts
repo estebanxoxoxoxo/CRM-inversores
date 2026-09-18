@@ -5,7 +5,7 @@
 import { collection, onSnapshot, type Unsubscribe } from "firebase/firestore";
 import { DataError, MISSING_FIREBASE, toDataError, type InvalidDocument } from "../../lib/data";
 import { getDb, isFirebaseConfigured } from "../../lib/firebase";
-import { COLLECTION, EvaluationSchema, describeError, passesEveryAspect, type Evaluation } from "../types/gold";
+import { COLLECTION, EvaluationSchema, describeError, type Evaluation } from "../types/gold";
 
 export interface GoldSnapshot {
   evaluations: Evaluation[];
@@ -43,12 +43,12 @@ export function subscribeToGold(onChange: (snapshot: GoldSnapshot) => void, onEr
 export const evaluatedIds = (docs: Evaluation[]): Set<string> => new Set(docs.map((evaluation) => evaluation.investorId));
 
 /**
- * The n most recent documents that pass every aspect that applies to them and carry their related facts: the quality
- * bar shown to the agent. The facts are demanded on purpose — the examples have to show the shape asked today, and a
- * document written before this change has none, so it would teach an empty array.
+ * The n most recent documents that carry their related facts: the quality bar shown to the agent. The facts are
+ * demanded on purpose — the examples have to show the shape asked today, and a document written before this change
+ * has none, so it would teach an empty array.
  */
-export const latestPassing = (docs: Evaluation[], n: number): Evaluation[] =>
+export const latestWithFacts = (docs: Evaluation[], n: number): Evaluation[] =>
   docs
-    .filter((evaluation) => passesEveryAspect(evaluation.aspects) && evaluation.relatedFacts.length > 0)
+    .filter((evaluation) => evaluation.relatedFacts.length > 0)
     .sort((a, b) => b.evaluatedAt.localeCompare(a.evaluatedAt))
     .slice(0, n);

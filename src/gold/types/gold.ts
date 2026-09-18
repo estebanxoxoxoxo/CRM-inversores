@@ -6,11 +6,11 @@
  * Four aspects carry the analysis: `stage` and `deepTech` apply to everyone; `spanish` and `hispanicFounders` are
  * asked wherever the country does not speak Spanish — the United States and anywhere else outside
  * SPANISH_SPEAKING_REGIONS — and go in null in Spain, Mexico and any other Spanish-speaking country, where the
- * language is a given. Nothing else is judged: the related facts are the outcome, between FACTS_MIN and FACTS_MAX of
- * them when every aspect that applies passes and none when one fails, and `validateEvaluation` refuses a document
- * where the two disagree, so no evaluation can carry facts without evidence in every aspect that applies to it. The
- * facts are raw material, not prose: dry data about the investor that the client drops into the cold emails he
- * writes himself.
+ * language is a given. No profile passes or fails as a whole: Bronce is the only filter, and the four aspects are
+ * business analysis over what it already let through, so an aspect answered with a documented "no" is information
+ * like any other. Every evaluation carries between FACTS_MIN and FACTS_MAX related facts, always, and
+ * `validateEvaluation` refuses a document with fewer. The facts are raw material, not prose: dry data about the
+ * investor that the client drops into the cold emails he writes himself.
  *
  * `region`, `name` and `evaluatedAt` are owned by the server: it copies them from `investors/{investorId}` and from
  * the clock, ignoring whatever the agent sent. That is what makes the two region-dependent aspects impossible to
@@ -71,8 +71,8 @@ export const EvaluationSchema = z.object({
     hispanicFounders: AspectSchema.nullable(),
   }),
   /**
-   * Between FACTS_MIN and FACTS_MAX when every aspect that applies passes; empty when one of them fails. Defaulted so
-   * the documents written before the facts existed still parse.
+   * Between FACTS_MIN and FACTS_MAX in every evaluation, always: they are what the layer is for, and no aspect gates
+   * them. Defaulted so the documents written before the facts existed still parse.
    */
   relatedFacts: z.array(RelatedFactSchema).max(FACTS_MAX).default([]),
   /** ISO timestamp, set by the server. */
@@ -88,10 +88,6 @@ export const GLOBAL_ASPECTS = ["stage", "deepTech"] as const;
 
 /** The aspects asked of United States investors only. */
 export const REGION_ASPECTS = ["spanish", "hispanicFounders"] as const;
-
-/** True when every aspect that applies to this investor passes. The related facts say exactly this: between 3 and 10 when it holds, none when it does not. */
-export const passesEveryAspect = (aspects: Evaluation["aspects"]): boolean =>
-  aspects.stage.passes && aspects.deepTech.passes && (aspects.spanish === null || aspects.spanish.passes) && (aspects.hispanicFounders === null || aspects.hispanicFounders.passes);
 
 /**
  * Validates one submitted evaluation and returns the document to store. The server's fields (`region`, `name`,
@@ -114,9 +110,8 @@ export function validateEvaluation(raw: unknown, investor: { region: string; nam
     if (value && value.passes && !value.sources.length) throw new Error(`aspect ${aspect} passes but carries no sources`);
   }
 
-  const passes = passesEveryAspect(evaluation.aspects);
-  if (passes && evaluation.relatedFacts.length < FACTS_MIN) throw new Error(`an evaluation that passes every applicable aspect needs at least ${FACTS_MIN} related facts`);
-  if (!passes && evaluation.relatedFacts.length) throw new Error("an evaluation that fails an aspect carries no related facts");
+  // Unconditional: the aspects analyse, they do not filter, so nothing they say can excuse an evaluation from its facts.
+  if (evaluation.relatedFacts.length < FACTS_MIN) throw new Error(`an evaluation needs at least ${FACTS_MIN} related facts`);
 
   return evaluation;
 }

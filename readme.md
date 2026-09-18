@@ -1,15 +1,16 @@
 # CRM inversores
 
-App para filtrar y consultar perfiles de inversores deep tech / dev tools hispanohablantes (84 perfiles auditados el
-2 de septiembre de 2026, nivel 0-100).
+App para filtrar y consultar perfiles de inversores deep tech / dev tools hispanohablantes (perfiles auditados con
+nivel 0-100).
 
 Convención: el código, los nombres de archivos y los campos de la base están en inglés; los textos que ve el usuario
 están en español (`src/bronze/lib/labels.ts` y `src/gold/lib/labels.ts` traducen cada código a su etiqueta).
 
 ## Una sola fuente de verdad: Firestore
 
-Una única colección, `investors`, con un documento por inversor: el perfil completo con su auditoría. La app se
-suscribe a la colección entera y refleja cualquier cambio en vivo.
+Firestore es la única fuente de verdad, con dos colecciones: `investors`, un documento por inversor con el perfil
+completo y su auditoría, y `gold`, un documento por evaluación. La app se suscribe a las colecciones enteras y refleja
+cualquier cambio en vivo.
 
 ```bash
 npm run dev                               # la app, suscripta a investors
@@ -72,10 +73,11 @@ Como la rúbrica y el límite por petición se leen del tipo (`SCORE_WEIGHTS`, `
 `INGEST_MAX_PER_REQUEST`), el prompt nunca se desfasa del servidor.
 
 `POST /api/investors` (`api/investors.ts`, función de Vercel) recibe `{ "investors": [ ... ] }` con
-`Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, fuerza la
-auditoría a `pending`, recalcula lo derivado, rechaza duplicados por id, nombre, LinkedIn o email y escribe sólo los
-nuevos; nunca sobreescribe. `?dryRun=1` valida sin escribir. Variables: `VITE_INGEST_TOKEN` y `VITE_APP_URL`, las dos
-necesarias para que el prompt salga con un endpoint utilizable.
+`Authorization: Bearer <VITE_INGEST_TOKEN>`, hasta 20 perfiles por petición. Valida cada uno contra el tipo, guarda la
+auditoría como `reviewed` y deja `rating` en `null`, a la espera de la calificación humana, recalcula lo derivado,
+rechaza duplicados por id, nombre, LinkedIn o email y escribe sólo los nuevos; nunca sobreescribe. `?dryRun=1` valida
+sin escribir. Variables: `VITE_INGEST_TOKEN` y `VITE_APP_URL`, las dos necesarias para que el prompt salga con un
+endpoint utilizable.
 
 En desarrollo, `npm run dev` también sirve cada `api/<nombre>.ts` en `/api/<nombre>` con el mismo handler (plugin
 `localApi` en `vite.config.ts`), así que se puede probar con `curl` contra `http://localhost:5173/api/investors`. El endpoint que va
@@ -101,10 +103,10 @@ Todo el módulo vive en `src/gold/`; su [README](src/gold/README.md) explica el 
 la regla de Firestore que hay que añadir para `gold`.
 
 En la app, el selector Bronce / Gold de la cabecera cambia entre la lista de inversores y la de evaluaciones. La sección
-Gold lista cada perfil evaluado con sus cuatro aspectos, la evidencia de cada uno y los hechos relacionados listos para
+Gold lista cada perfil evaluado con sus aspectos, la evidencia de cada uno y los hechos relacionados listos para
 copiar; filtra por calificación, región y aspecto que no pasa. Las evaluaciones anteriores a este cambio guardan en
-Firestore los mails propuestos que se pedían entonces, en un campo `emails` que el esquema ya no declara y la app no
-lee: se ven sin hechos. Una
+Firestore un campo `emails` que el esquema ya no declara y la app no lee —sigue en la base y en los backups—: se ven
+sin hechos. Una
 evaluación se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón que lleva a ella. La cabecera
 cambia con la sección: en Bronce, backup de `investors` y "Buscar más perfiles"; en Gold, backup de `gold` y "Evaluar
 más perfiles".

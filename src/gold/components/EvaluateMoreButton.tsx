@@ -58,8 +58,8 @@ export default function EvaluateMoreButton() {
         <form onSubmit={submit}>
           <h3 id="evaluate-more-title">Evaluar más perfiles</h3>
           <p className="muted small">
-            Se copia al portapapeles un prompt para pegar en un chat de IA, con los mejores perfiles sin evaluar como lote, los ya evaluados como exclusiones y los
-            gold más recientes como ejemplos. {pending === 1 ? "Queda 1 perfil sin evaluar." : `Quedan ${pending} perfiles sin evaluar.`}
+            Se copia al portapapeles un prompt para pegar en un chat de IA, con los mejores perfiles sin evaluar como lote, los ya evaluados como exclusiones y las
+            evaluaciones más recientes como ejemplos. {pending === 1 ? "Queda 1 perfil sin evaluar." : `Quedan ${pending} perfiles sin evaluar.`}
           </p>
           <label>
             Perfiles en el lote

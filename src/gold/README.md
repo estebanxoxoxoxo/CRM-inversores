@@ -71,7 +71,7 @@ Uno por inversor, con el `id` del inversor como id del documento:
   "aspects": {
     "stage": { "passes": true, "reason": "Lideró la pre-seed de X en 2024, según <URL>.", "sources": ["https://…"] },
     "deepTech": { "passes": true, "reason": "Invirtió en X e Y, ambas infraestructura de IA, según <URL>.", "sources": ["https://…"] },
-    "spanish": { "passes": true, "reason": "Entrevista en español en <URL>.", "sources": ["https://…"] },   // null fuera de EE. UU.
+    "spanish": { "passes": true, "reason": "Entrevista en español en <URL>.", "sources": ["https://…"] },   // null en países hispanohablantes
     "hispanicFounders": { "passes": true, "reason": "Invirtió en Z, con fundadores argentinos, según <URL>.", "sources": ["https://…"] }
   },
   "relatedFacts": [
@@ -91,9 +91,8 @@ mencionar en los mails que escribe él mismo. El hecho va seco, de hasta 300 car
 mail: con su fuente nombrada adentro cuando salga natural, pero sin envoltura, sin justificaciones y sin ninguna
 mención a la investigación. Cada hecho lleva en `sources` la o las URL donde se puede constatar, al menos una.
 
-Las evaluaciones escritas antes de este cambio guardan en Firestore un campo `emails` con los cuatro mails propuestos
-que se pedían entonces. La base no se migró: el campo sigue ahí, el esquema ya no lo declara y la app lo ignora al
-leer. Esos documentos se muestran sin hechos.
+Las evaluaciones escritas antes de este cambio guardan en Firestore un campo `emails` que ya se retiró del esquema y
+que la app ignora al leer —sigue en la base y en los backups—, y esos documentos se muestran sin hechos.
 
 ## Lo que valida el endpoint
 

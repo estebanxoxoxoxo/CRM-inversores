@@ -141,7 +141,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
                 </span>
                 <div className="aspect-body">
                   <strong>{ASPECT_LABELS[key]}</strong>{" "}
-                  <span className="muted small">{aspect === null ? "no aplica: sólo para EE. UU." : aspect.passes ? "pasa" : "no pasa"}</span>
+                  <span className="muted small">{aspect === null ? "no aplica: país hispanohablante" : aspect.passes ? "pasa" : "no pasa"}</span>
                   {aspect && (
                     <p>
                       <Linkified text={aspect.reason} />

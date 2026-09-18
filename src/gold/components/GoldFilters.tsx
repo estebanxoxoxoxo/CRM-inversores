@@ -59,7 +59,7 @@ export default function GoldFiltersPanel({ filters, onChange, entries }: Props) 
       </div>
       {group("Calificación", "ratings", GOLD_RATING_OPTIONS, (entry, value) => ratingOf(entry) === value, (v: GoldRatingFilter) => (v === "none" ? UNRATED_LABEL : RATING_LABELS[v]))}
       {group("Región", "regions", GOLD_REGIONS, (entry, value) => regionOf(entry) === value, (v) => REGION_LABELS[v])}
-      {group("Aspecto que no pasa", "failing", ASPECT_KEYS, (entry, value) => fails(entry.evaluation, value), (v) => ASPECT_LABELS[v])}
+      {group("Aspecto que no pasa", "failing", ASPECT_KEYS, (entry, value) => fails(entry, value), (v) => ASPECT_LABELS[v])}
       <fieldset className="group">
         <legend>Otros</legend>
         <label className="option option-select">

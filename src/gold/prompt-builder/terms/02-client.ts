@@ -11,7 +11,8 @@ export const CLIENT =
 
 export const WHY =
   "Por eso los aspectos son los que son: miden si esta persona invierte antes de la tracción y en esta clase de tecnología. En " +
-  "Estados Unidos en general, cristinanos convervadores en Estados unidos y cualquier perfil de habla no española se suman el idioma y el trabajo con founders hispanohablantes; en España o México u cualquier pais de habla hispana no hace falta preguntarlos.";
+  "Estados Unidos en general, cristianos conservadores en Estados Unidos y cualquier perfil de habla no española se suman el idioma y el " +
+  "trabajo con founders hispanohablantes; en España o México o cualquier país de habla hispana no hace falta preguntarlos.";
 
 export const emailsVoice = (ctx: PromptContext): string =>
   `Los hechos de la sección ${ctx.sectionNumber("relatedFacts")} son la materia prima de los mails que el cliente escribe él mismo en nombre ` +

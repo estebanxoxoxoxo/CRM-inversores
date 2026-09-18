@@ -1,4 +1,5 @@
 /** Section "El tipo exacto": the source of src/types/gold.ts verbatim (an input) plus the notes to fill one object. */
+import { FACTS_MAX, FACTS_MIN } from "../../types/gold";
 import { bullets, codeBlock, paragraphs } from "../format/markdown";
 import type { PromptContext } from "../types/prompt";
 import type { Term } from "../types/term";
@@ -16,15 +17,15 @@ export const NOTE_SERVER =
 export const NOTE_HISPANIC =
   "`aspects.spanish` y `aspects.hispanicFounders` van en `null` cuando `region` es `spain`, `mexico` o `spanish_speaking`, y son obligatorios los dos cuando es `us_hispanic` o `out_of_region`.";
 export const NOTE_SOURCES = "`sources` de cada aspecto son URL completas; cuando el aspecto pasa tiene que haber al menos una.";
-export const NOTE_FACTS =
-  "`relatedFacts`: entre 3 y 10 en todos los perfiles, siempre, sin que ningún aspecto lo condicione. El servidor rechaza el documento que no los traiga.";
+export const noteFacts = (): string =>
+  `\`relatedFacts\`: entre ${FACTS_MIN} y ${FACTS_MAX} en todos los perfiles, siempre, sin que ningún aspecto lo condicione. El servidor rechaza el documento que no los traiga.`;
 
-export const NOTES = [NOTE_ID, NOTE_SERVER, NOTE_HISPANIC, NOTE_SOURCES, NOTE_FACTS];
+export const notes = (): string[] => [NOTE_ID, NOTE_SERVER, NOTE_HISPANIC, NOTE_SOURCES, noteFacts()];
 
 export const typeBlock = (ctx: PromptContext): string => codeBlock("ts", ctx.typeSource);
 
 export const type: Term = {
   id: "type",
   title: () => "El tipo exacto",
-  render: (ctx) => paragraphs(INTRO, typeBlock(ctx), `${NOTES_INTRO}\n\n${bullets(NOTES)}`),
+  render: (ctx) => paragraphs(INTRO, typeBlock(ctx), `${NOTES_INTRO}\n\n${bullets(notes())}`),
 };

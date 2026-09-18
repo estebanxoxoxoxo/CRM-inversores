@@ -4,7 +4,7 @@ import type { DataError, InvalidDocument } from "../../lib/data";
 
 export interface GoldState {
   status: "loading" | "ready" | "error";
-  /** Every evaluation, passing or not, newest first. */
+  /** Every evaluation, newest first. */
   evaluations: Evaluation[];
   invalid: InvalidDocument[];
   error: DataError | null;

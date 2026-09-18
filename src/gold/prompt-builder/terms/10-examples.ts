@@ -11,8 +11,9 @@ export const empty = (ctx: PromptContext): string =>
 
 /**
  * The example as the rule stands today. An evaluation written before the region rule carries `spanish` and
- * `hispanicFounders` outside the United States, and showing it that way would teach the agent a shape the endpoint
- * now refuses. The stored document is untouched: only what the prompt shows is brought up to date.
+ * `hispanicFounders` inside a Spanish-speaking country, where they are no longer asked, and showing it that way would
+ * teach the agent a shape the endpoint now refuses: there they go in null. The stored document is untouched: only what
+ * the prompt shows is brought up to date.
  */
 export function forCurrentRule(evaluation: Evaluation): Evaluation {
   if (asksLanguageAspects(evaluation.region)) return evaluation;

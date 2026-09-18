@@ -1,7 +1,7 @@
 /**
  * The evaluation of one investor: the document the agent pushes into the `gold` collection, one per investor,
  * with the investor's id as the document id. Being in the collection means one thing only, that the investor was
- * re-analyzed under the four aspects.
+ * re-analyzed under the four aspects, two of which are asked only outside a Spanish-speaking country.
  *
  * Four aspects carry the analysis: `stage` and `deepTech` apply to everyone; `spanish` and `hispanicFounders` are
  * asked wherever the country does not speak Spanish — the United States and anywhere else outside
@@ -86,7 +86,7 @@ export type Evaluation = z.infer<typeof EvaluationSchema>;
 /** The aspects asked of every investor. */
 export const GLOBAL_ASPECTS = ["stage", "deepTech"] as const;
 
-/** The aspects asked of United States investors only. */
+/** The aspects asked wherever the country does not speak Spanish (see SPANISH_SPEAKING_REGIONS); null everywhere else. */
 export const REGION_ASPECTS = ["spanish", "hispanicFounders"] as const;
 
 /**

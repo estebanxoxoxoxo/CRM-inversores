@@ -33,7 +33,7 @@ export const RULE =
   "Un español en Londres o un argentino en Berlín entran por `out_of_region` y tienen que cumplir los cuatro, igual que los de Estados " +
   "Unidos. El servidor comprueba la región contra la guardada en la base, así que no hay forma de esquivarlo. Ningún aspecto descarta a " +
   "nadie: el filtro ya lo hizo Bronce, y lo que hacés acá es información de negocio sobre perfiles que ya entraron. Cada aspecto se " +
-  "responde con evidencia, se cumpla o no: un 'no' documentado también es información. El servidor ya no deriva nada de los aspectos.";
+  "responde con evidencia, se cumpla o no: un 'no' documentado también es información. El servidor no deriva nada de los aspectos.";
 
 export const aspects: Term = {
   id: "aspects",

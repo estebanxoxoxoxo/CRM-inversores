@@ -27,7 +27,7 @@ export const regionOf = (entry: GoldEntry): string => entry.investor?.region ?? 
 
 export const GOLD_REGIONS: readonly Region[] = RegionSchema.options;
 
-/** The team's verdict as the section filters by it: the ratings plus "none" for whoever nobody rated, or is no longer in the base. */
+/** The team's rating as the section filters by it: the ratings plus "none" for whoever nobody rated, or is no longer in the base. */
 export type GoldRatingFilter = Rating | "none";
 export const GOLD_RATING_OPTIONS: readonly GoldRatingFilter[] = [...RATINGS, "none"];
 export const ratingOf = (entry: GoldEntry): GoldRatingFilter => entry.investor?.rating ?? "none";
@@ -41,7 +41,7 @@ export interface GoldFilters {
   regions: Region[];
   /** Keep only the evaluations that fail at least one of these aspects. */
   failing: AspectKey[];
-  /** Keep only the evaluations of investors with one of these verdicts; "none" is the unrated. */
+  /** Keep only the evaluations of investors with one of these ratings; "none" is the unrated. */
   ratings: GoldRatingFilter[];
   sort: GoldSortKey;
 }
@@ -56,10 +56,10 @@ export function joinGold(evaluations: Evaluation[], investors: Investor[]): Gold
   return evaluations.map((evaluation) => ({ evaluation, investor: byId.get(evaluation.investorId) ?? null }));
 }
 
-/** Whether the evaluation fails this aspect. An aspect that does not apply to its region never fails. */
-export function fails(evaluation: Evaluation, aspect: AspectKey): boolean {
-  if (!aspectsFor(evaluation.region).includes(aspect)) return false;
-  const value = evaluation.aspects[aspect];
+/** Whether the entry fails this aspect, read by the investor's region. An aspect that does not apply to that region never fails. */
+export function fails(entry: GoldEntry, aspect: AspectKey): boolean {
+  if (!aspectsFor(regionOf(entry)).includes(aspect)) return false;
+  const value = entry.evaluation.aspects[aspect];
   return value !== null && !value.passes;
 }
 
@@ -69,9 +69,9 @@ export function applyGoldFilters(entries: GoldEntry[], filters: GoldFilters): Go
     const { evaluation, investor } = entry;
     if (filters.ratings.length && !filters.ratings.includes(ratingOf(entry))) return false;
     if (filters.regions.length && !filters.regions.includes(regionOf(entry) as Region)) return false;
-    if (filters.failing.length && !filters.failing.some((aspect) => fails(evaluation, aspect))) return false;
+    if (filters.failing.length && !filters.failing.some((aspect) => fails(entry, aspect))) return false;
     if (terms.length) {
-      const reasons = aspectsFor(evaluation.region).map((aspect) => evaluation.aspects[aspect]?.reason ?? "");
+      const reasons = aspectsFor(regionOf(entry)).map((aspect) => evaluation.aspects[aspect]?.reason ?? "");
       const haystack = normalize([evaluation.name, investor?.firm ?? "", investor?.role ?? "", investor?.baseCity ?? "", ...reasons].join(" · "));
       if (!terms.every((term) => haystack.includes(term))) return false;
     }

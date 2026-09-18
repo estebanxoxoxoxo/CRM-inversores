@@ -104,7 +104,7 @@ la regla de Firestore que hay que añadir para `gold`.
 
 En la app, el selector Bronce / Gold de la cabecera cambia entre la lista de inversores y la de evaluaciones. La sección
 Gold lista cada perfil evaluado con sus aspectos, la evidencia de cada uno y los hechos relacionados listos para
-copiar; filtra por calificación, región y aspecto que no pasa. Las evaluaciones anteriores a este cambio guardan en
+copiar; filtra por calificación y región. Las evaluaciones anteriores a este cambio guardan en
 Firestore un campo `emails` que el esquema ya no declara y la app no lee —sigue en la base y en los backups—: se ven
 sin hechos. Una
 evaluación se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón que lleva a ella. La cabecera

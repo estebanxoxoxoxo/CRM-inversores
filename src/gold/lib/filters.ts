@@ -39,28 +39,19 @@ export const isGoldSortKey = (value: string): value is GoldSortKey => GOLD_SORT_
 export interface GoldFilters {
   text: string;
   regions: Region[];
-  /** Keep only the evaluations that fail at least one of these aspects. */
-  failing: AspectKey[];
   /** Keep only the evaluations of investors with one of these ratings; "none" is the unrated. */
   ratings: GoldRatingFilter[];
   sort: GoldSortKey;
 }
 
-export type GoldListFilterKey = "regions" | "failing" | "ratings";
+export type GoldListFilterKey = "regions" | "ratings";
 
 /** The section opens on everything: no filter is a better default than one that hides evaluations. */
-export const EMPTY_GOLD_FILTERS: GoldFilters = { text: "", regions: [], failing: [], ratings: [], sort: "level" };
+export const EMPTY_GOLD_FILTERS: GoldFilters = { text: "", regions: [], ratings: [], sort: "level" };
 
 export function joinGold(evaluations: Evaluation[], investors: Investor[]): GoldEntry[] {
   const byId = new Map(investors.map((investor) => [investor.id, investor]));
   return evaluations.map((evaluation) => ({ evaluation, investor: byId.get(evaluation.investorId) ?? null }));
-}
-
-/** Whether the entry fails this aspect, read by the investor's region. An aspect that does not apply to that region never fails. */
-export function fails(entry: GoldEntry, aspect: AspectKey): boolean {
-  if (!aspectsFor(regionOf(entry)).includes(aspect)) return false;
-  const value = entry.evaluation.aspects[aspect];
-  return value !== null && !value.passes;
 }
 
 export function applyGoldFilters(entries: GoldEntry[], filters: GoldFilters): GoldEntry[] {
@@ -69,7 +60,6 @@ export function applyGoldFilters(entries: GoldEntry[], filters: GoldFilters): Go
     const { evaluation, investor } = entry;
     if (filters.ratings.length && !filters.ratings.includes(ratingOf(entry))) return false;
     if (filters.regions.length && !filters.regions.includes(regionOf(entry) as Region)) return false;
-    if (filters.failing.length && !filters.failing.some((aspect) => fails(entry, aspect))) return false;
     if (terms.length) {
       const reasons = aspectsFor(regionOf(entry)).map((aspect) => evaluation.aspects[aspect]?.reason ?? "");
       const haystack = normalize([evaluation.name, investor?.firm ?? "", investor?.role ?? "", investor?.baseCity ?? "", ...reasons].join(" · "));

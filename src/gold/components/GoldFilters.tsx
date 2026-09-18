@@ -1,9 +1,7 @@
 import {
-  ASPECT_KEYS,
   EMPTY_GOLD_FILTERS,
   GOLD_RATING_OPTIONS,
   GOLD_REGIONS,
-  fails,
   isGoldSortKey,
   ratingOf,
   regionOf,
@@ -13,7 +11,6 @@ import {
   type GoldRatingFilter,
 } from "../lib/filters";
 import { RATING_LABELS, REGION_LABELS, UNRATED_LABEL } from "../../bronze/lib/labels";
-import { ASPECT_LABELS } from "../lib/labels";
 
 interface Props {
   filters: GoldFilters;
@@ -59,7 +56,6 @@ export default function GoldFiltersPanel({ filters, onChange, entries }: Props) 
       </div>
       {group("Calificación", "ratings", GOLD_RATING_OPTIONS, (entry, value) => ratingOf(entry) === value, (v: GoldRatingFilter) => (v === "none" ? UNRATED_LABEL : RATING_LABELS[v]))}
       {group("Región", "regions", GOLD_REGIONS, (entry, value) => regionOf(entry) === value, (v) => REGION_LABELS[v])}
-      {group("Aspecto que no pasa", "failing", ASPECT_KEYS, (entry, value) => fails(entry, value), (v) => ASPECT_LABELS[v])}
       <fieldset className="group">
         <legend>Otros</legend>
         <label className="option option-select">

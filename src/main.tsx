@@ -4,6 +4,7 @@ import App from "./App";
 import BackupProvider from "./context/BackupProvider";
 import GoldProvider from "./gold/context/GoldProvider";
 import InvestorsProvider from "./bronze/context/InvestorsProvider";
+import ListsProvider from "./lists/context/ListsProvider";
 import { applyTheme, storedTheme } from "./lib/theme";
 import "./index.css";
 
@@ -14,9 +15,11 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <InvestorsProvider>
       <GoldProvider>
-        <BackupProvider>
-          <App />
-        </BackupProvider>
+        <ListsProvider>
+          <BackupProvider>
+            <App />
+          </BackupProvider>
+        </ListsProvider>
       </GoldProvider>
     </InvestorsProvider>
   </StrictMode>,

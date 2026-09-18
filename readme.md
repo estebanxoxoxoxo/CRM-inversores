@@ -111,6 +111,41 @@ evaluación se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un bot
 cambia con la sección: en Bronce, backup de `investors` y "Buscar más perfiles"; en Gold, backup de `gold` y "Evaluar
 más perfiles".
 
+## Listas
+
+Las listas son agrupaciones que arma el equipo a mano: un nombre ("Inversores ángel", "VC A", "VC B") y los perfiles
+que se le asignan. No derivan de nada ni las escribe ningún agente, y un perfil puede estar en todas las listas que
+haga falta. La pertenencia vive en la lista, nunca en el perfil: esta función no escribe jamás en `investors`.
+
+Tres puntos de contacto:
+
+- **Gestionar listas** — botón de la cabecera, visible en las tres secciones. Abre un diálogo para crear una lista por
+  nombre y para borrar las que ya están, cada una con cuántos perfiles suyos siguen en la base. Borrar una lista borra
+  su documento, y con él sus pertenencias; los perfiles no se tocan.
+- **Asignar a lista** — botón de la ficha, en Bronce y en Gold, al lado de Conexión y Calificar. Una casilla por lista,
+  marcada cuando el perfil está en ella; cada casilla se guarda al tocarla. Si todavía no hay listas, lo avisa.
+- **Pestaña Listas** — tercera sección del selector de la cabecera (`#s=lists`). A la izquierda las listas con su
+  cantidad de perfiles; al centro los perfiles de la elegida, ordenados por nivel como en Bronce. Elegir uno abre su
+  ficha en Bronce.
+
+Una colección nueva, `lists`, un documento por lista, con el slug del nombre como id (el mismo slug que la ingesta usa
+para los ids de inversor, así que dos nombres que slugueen igual son la misma lista y la creación rechaza el duplicado):
+
+```json
+{ "name": "Inversores ángel", "createdAt": "2026-09-18T10:00:00.000Z", "memberIds": ["nombre-apellido", "..."] }
+```
+
+`memberIds` se escribe siempre con `arrayUnion` / `arrayRemove`, así que dos ventanas no se pisan. Un id queda colgado
+cuando el perfil sale de `investors`: sigue en el documento y no molesta, porque todo lo que lo lee lo cruza contra los
+inversores vivos antes de mostrarlo o contarlo. El módulo entero vive en `src/lists/` (`types/list.ts`, `lib/lists.ts`,
+`context/`, `components/`), con la misma forma que las otras dos secciones.
+
+La colección `lists` hay que habilitarla además de las otras:
+
+```
+match /lists/{id} { allow read, write: if true; }
+```
+
 ## Recupero ante desastres
 
 El botón "Hacer backup" de la cabecera y `npm run backup` hacen lo mismo con el mismo código (`src/lib/backup.ts`):
@@ -144,6 +179,8 @@ Dos secciones con la misma forma, cada una en su carpeta, y fuera de ellas lo qu
 - `src/gold/` — las evaluaciones, con la misma estructura (`src/gold/README.md`): `types/gold.ts`,
   `server/evaluations.ts` (usada por `api/gold.ts`), `lib/gold.ts`, `lib/filters.ts`, `lib/labels.ts`, `context/`,
   `components/` (lista, ficha, filtros, badge de gold y "Evaluar más perfiles") y `prompt-builder/`.
+- `src/lists/` — las listas del equipo, con la misma forma: `types/list.ts` (esquema y slug del id), `lib/lists.ts`
+  (suscripción, alta, baja y pertenencia), `context/` y `components/` ("Gestionar listas" y "Asignar a lista").
 - Compartido: `src/lib/` (`firebase.ts`, `data.ts` errores de lectura, `text.ts`, `api.ts` llamadas a `/api/*` con el
   token y URL del despliegue, `backup.ts` copias en el bucket de las dos colecciones, `json.ts`, `clipboard.ts`,
   `theme.ts`), `src/context/` (sección y backup), `src/components/` (selector de sección, backup, tema, `Badge` y las

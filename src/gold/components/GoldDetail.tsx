@@ -11,6 +11,7 @@ import RatingDialog from "../../bronze/components/RatingDialog";
 import { Badge } from "../../components/Badge";
 import { RatingNote } from "../../components/RatingNote";
 import { Linkified, Section } from "../../components/DetailParts";
+import AssignListsDialog from "../../lists/components/AssignListsDialog";
 
 interface Props {
   entry: GoldEntry | null;
@@ -92,6 +93,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
             <>
               <ConnectionDialog investor={investor} />
               <RatingDialog investor={investor} />
+              <AssignListsDialog investor={investor} />
               <button type="button" className="secondary" onClick={() => go("bronze", investor.id)} title="Abrir la ficha completa del inversor">
                 Ficha en Bronce
               </button>

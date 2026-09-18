@@ -16,6 +16,7 @@ import { SCORE_DIMENSIONS, SCORE_MAX, type Investor, type Score } from "../types
 import { Badge } from "../../components/Badge";
 import { RatingNote } from "../../components/RatingNote";
 import { BulletList, Paragraphs, Section } from "../../components/DetailParts";
+import AssignListsDialog from "../../lists/components/AssignListsDialog";
 import ConnectionDialog from "./ConnectionDialog";
 import { LevelBadge } from "./LevelBadge";
 import RatingDialog from "./RatingDialog";
@@ -103,6 +104,7 @@ export default function InvestorDetail({ investor, selectedId, onClose, goldBadg
         <div className="detail-actions">
           <ConnectionDialog investor={investor} />
           <RatingDialog investor={investor} />
+          <AssignListsDialog investor={investor} />
           <button type="button" className="close" onClick={onClose} aria-label="Cerrar">
             ×
           </button>

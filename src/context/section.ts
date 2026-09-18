@@ -1,7 +1,7 @@
 import { createContext, useContext } from "react";
 
-/** The two sections of the app: Bronce is the investors list, Gold the evaluations made over it. */
-export type Section = "bronze" | "gold";
+/** The three sections of the app: Bronce is the investors list, Gold the evaluations made over it, Listas the groupings the team writes by hand. */
+export type Section = "bronze" | "gold" | "lists";
 
 export interface Navigation {
   section: Section;
@@ -9,10 +9,11 @@ export interface Navigation {
   selectedId: string | null;
 }
 
-/** Reads `#s=gold&id=…`. The section is omitted for Bronce, so the older `#id=…` links keep working. */
+/** Reads `#s=gold&id=…` (or `#s=lists`). The section is omitted for Bronce, so the older `#id=…` links keep working. */
 export function navigationFromHash(): Navigation {
   const params = new URLSearchParams(window.location.hash.slice(1));
-  return { section: params.get("s") === "gold" ? "gold" : "bronze", selectedId: params.get("id") };
+  const section = params.get("s");
+  return { section: section === "gold" || section === "lists" ? section : "bronze", selectedId: params.get("id") };
 }
 
 export function navigationToHash({ section, selectedId }: Navigation): void {

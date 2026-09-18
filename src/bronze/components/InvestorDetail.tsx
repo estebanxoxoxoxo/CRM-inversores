@@ -25,7 +25,7 @@ interface Props {
   selectedId: string | null;
   onClose: () => void;
   /** Rendered among the badges: the other section's link to this investor, when it has one. */
-  verdictBadge?: ReactNode;
+  goldBadge?: ReactNode;
 }
 
 function ScoreBreakdown({ score }: { score: Score }) {
@@ -53,7 +53,7 @@ function ScoreBreakdown({ score }: { score: Score }) {
   );
 }
 
-export default function InvestorDetail({ investor, selectedId, onClose, verdictBadge = null }: Props) {
+export default function InvestorDetail({ investor, selectedId, onClose, goldBadge = null }: Props) {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
@@ -91,7 +91,7 @@ export default function InvestorDetail({ investor, selectedId, onClose, verdictB
           </p>
           <p className="detail-badges">
             {investor.rating && <Badge className={`rating-${investor.rating}`}>{RATING_LABELS[investor.rating]}</Badge>}
-            {verdictBadge}
+            {goldBadge}
             <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>
             <Badge className={`confidence-${investor.confidence}`}>Fuentes: {CONFIDENCE_LABELS[investor.confidence]}</Badge>
             <Badge className="neutral">{REGION_LABELS[investor.region]}</Badge>

@@ -6,7 +6,7 @@ import FindMoreButton from "./bronze/components/FindMoreButton";
 import GoldDetail from "./gold/components/GoldDetail";
 import GoldFiltersPanel from "./gold/components/GoldFilters";
 import GoldList from "./gold/components/GoldList";
-import GoldVerdictBadge from "./gold/components/GoldVerdictBadge";
+import GoldBadge from "./gold/components/GoldBadge";
 import InvestorDetail from "./bronze/components/InvestorDetail";
 import InvestorList from "./bronze/components/InvestorList";
 import SectionSwitch from "./components/SectionSwitch";
@@ -69,7 +69,7 @@ export default function App() {
 
   const entries = useMemo(() => joinGold(goldState.evaluations, investors), [goldState.evaluations, investors]);
   const visibleGold = useMemo(() => applyGoldFilters(entries, goldFilters), [entries, goldFilters]);
-  const goldCount = useMemo(() => goldState.evaluations.filter((evaluation) => evaluation.verdict === "gold").length, [goldState.evaluations]);
+  const goldWithEmails = useMemo(() => goldState.evaluations.filter((evaluation) => evaluation.emails.length > 0).length, [goldState.evaluations]);
   const selectedEntry = useMemo(() => entries.find((entry) => entry.evaluation.investorId === selectedId) ?? null, [entries, selectedId]);
 
   const info =
@@ -85,7 +85,7 @@ export default function App() {
       )
     ) : goldState.status === "ready" ? (
       <>
-        <strong>{visibleGold.length}</strong> de {goldState.evaluations.length} evaluaciones · {goldCount} gold, {goldState.evaluations.length - goldCount} rechazadas
+        <strong>{visibleGold.length}</strong> de {goldState.evaluations.length} evaluaciones · {goldWithEmails} con mails
       </>
     ) : goldState.status === "error" ? (
       <span className="error">{goldState.error?.message}</span>
@@ -132,7 +132,7 @@ export default function App() {
               investor={selected}
               selectedId={status === "ready" ? selectedId : null}
               onClose={close}
-              verdictBadge={selectedEntry ? <GoldVerdictBadge evaluation={selectedEntry.evaluation} /> : null}
+              goldBadge={selectedEntry ? <GoldBadge evaluation={selectedEntry.evaluation} /> : null}
             />
           </div>
         ) : (

@@ -6,13 +6,14 @@ export const TITLE = "Evaluación de inversores gold";
 export const ROLE = "Sos un analista de investigación de inversores.";
 
 export const objective = (count: number): string =>
-  `Tu objetivo es evaluar los ${count} perfiles del lote contra cuatro aspectos y enviar un documento por perfil, con veredicto ` +
-  "`gold` o `rejected`. Todo lo que escribas tiene que ser escueto y verificable: la URL exacta y la frase textual que prueban cada " +
-  "aspecto. No se evalúa por impresión: se evalúa por evidencia.";
+  `Tu objetivo es evaluar los ${count} perfiles del lote contra cuatro aspectos y enviar un documento por perfil, pase o no pase: si pasa ` +
+  "todos los aspectos que le aplican, el documento lleva los cuatro mails; si falla uno, se envía igual, con sus motivos y sin mails. Todo lo " +
+  "que escribas tiene que ser escueto y verificable: la URL exacta y la frase textual que prueban cada aspecto. No se evalúa por impresión: " +
+  "se evalúa por evidencia.";
 
 export const CONTENTS =
   "Este documento contiene, en este orden: el contexto del cliente, los cuatro aspectos, cómo justificar cada uno, los cuatro mails " +
-  "de los perfiles gold, el tipo exacto del documento, el endpoint donde enviarlos, los perfiles a evaluar, los perfiles ya evaluados " +
+  "de los perfiles que pasan, el tipo exacto del documento, el endpoint donde enviarlos, los perfiles a evaluar, los perfiles ya evaluados " +
   "(no los repitas) y ejemplos de documentos gold recientes.";
 
 export const READ_EVERYTHING = "Leelo entero antes de empezar.";

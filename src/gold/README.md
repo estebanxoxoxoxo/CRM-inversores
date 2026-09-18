@@ -2,8 +2,11 @@
 
 Evalúa los inversores que ya están en `investors` contra cuatro aspectos —etapa y deep tech para todos; español y
 founders hispanos sólo para los que viven fuera de un país de habla hispana— y guarda una evaluación por inversor en una
-colección aparte, `gold`. El trabajo pesado lo hace un agente de IA: este módulo sólo le arma el prompt y le abre la
-puerta para escribir. En la app, la sección Gold navega por las evaluaciones.
+colección aparte, `gold`. Estar en `gold` significa sólo eso: que el inversor fue reanalizado contra los cuatro
+criterios. No hay nada más que dictaminar: el resultado se lee en los aspectos y en los mails, porque la evaluación
+lleva cuatro mails si pasa todos los aspectos que le aplican y ninguno si falla uno, y el endpoint lo hace cumplir. El trabajo
+pesado lo hace un agente de IA: este módulo sólo le arma el prompt y le abre la puerta para escribir. En la app, la
+sección Gold navega por las evaluaciones.
 
 Tres piezas:
 
@@ -32,8 +35,8 @@ Es código de navegador salvo `server/evaluations.ts`, que corre en la función 
 1. Calcula el **remanente**: los inversores que todavía no tienen documento en `gold`, en el orden de la app (nivel
    descendente y, a igual nivel, por nombre). El **lote** son los primeros N del remanente; N lo pide el diálogo
    (25 por defecto, 100 como máximo, que es lo que acepta una petición).
-2. Toma como **ejemplos** los 100 documentos más recientes con veredicto `gold`.
-3. Arma la lista de **excluidos**: todos los evaluados, con los dos veredictos, para que ninguno se repita.
+2. Toma como **ejemplos** los 100 documentos más recientes que pasan todos los aspectos que les aplican.
+3. Arma la lista de **excluidos**: todos los evaluados, pasen o no, para que ninguno se repita.
 4. Construye el prompt con el lote, los ejemplos, los excluidos, la URL del endpoint, el token y el código de
    `types/gold.ts`, lo copia y resume: perfiles del lote, tamaño, ejemplos, excluidos y cuántos quedan.
 
@@ -63,7 +66,6 @@ Uno por inversor, con el `id` del inversor como id del documento:
   "investorId": "mar-hershenson",
   "name": "Mar Hershenson",
   "region": "us_hispanic",
-  "verdict": "gold",
   "aspects": {
     "stage": { "passes": true, "reason": "Lideró la pre-seed de X en 2024, según <URL>.", "sources": ["https://…"] },
     "deepTech": { "passes": true, "reason": "Invirtió en X e Y, ambas infraestructura de IA, según <URL>.", "sources": ["https://…"] },
@@ -79,16 +81,15 @@ Uno por inversor, con el `id` del inversor como id del documento:
 
 `POST /api/gold` con `Authorization: Bearer <VITE_INGEST_TOKEN>` y cuerpo `{ "evaluations": [ … ] }` (hasta 100 por
 petición; `?dryRun=1` valida sin escribir). Responde
-`{ dryRun, created: [{ investorId, verdict }], invalid: [{ investorId, reason }] }`. Una evaluación entra en `invalid`
-—que no tiene nada que ver con el veredicto `rejected`, que sí se guarda— cuando:
+`{ dryRun, created: [{ investorId }], invalid: [{ investorId, reason }] }`. Una evaluación entra en `invalid`
+—que no es lo mismo que no pasar los aspectos: la que falla uno se guarda igual, con sus motivos y sin mails— cuando:
 
 - el `investorId` no existe en `investors`, ya tiene documento en `gold`, o se repite dentro de la misma petición;
 - el documento no valida contra `EvaluationSchema` (`reason` de hasta 400 caracteres, `sources` con URL reales,
   asunto de hasta 100 y cuerpo de hasta 900 caracteres);
 - `spanish` o `hispanicFounders` son `null` en un perfil de `us_hispanic` u `out_of_region`, o no lo son en `spain`, `mexico` o `spanish_speaking`;
 - un aspecto pasa sin ninguna URL en `sources`;
-- el veredicto no coincide con los aspectos: `gold` si y sólo si pasan todos los que aplican;
-- el veredicto es `gold` y no vienen exactamente 4 mails, o es `rejected` y viene alguno.
+- los mails no coinciden con los aspectos: pasan todos los que aplican y no vienen exactamente 4, o falla uno y viene alguno.
 
 `region`, `name` y `evaluatedAt` los pone el servidor leyendo `investors/{investorId}` y el reloj: lo que mande el
 agente en esos campos se ignora, así que la región no se puede falsear para esquivar los dos aspectos que dependen de ella.

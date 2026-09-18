@@ -5,7 +5,7 @@
 import { collection, onSnapshot, type Unsubscribe } from "firebase/firestore";
 import { DataError, MISSING_FIREBASE, toDataError, type InvalidDocument } from "../../lib/data";
 import { getDb, isFirebaseConfigured } from "../../lib/firebase";
-import { COLLECTION, EvaluationSchema, describeError, type Evaluation } from "../types/gold";
+import { COLLECTION, EvaluationSchema, describeError, passesEveryAspect, type Evaluation } from "../types/gold";
 
 export interface GoldSnapshot {
   evaluations: Evaluation[];
@@ -39,12 +39,12 @@ export function subscribeToGold(onChange: (snapshot: GoldSnapshot) => void, onEr
   );
 }
 
-/** Ids to subtract from the investors, whatever the verdict was: an evaluated investor never comes back. */
+/** Ids to subtract from the investors, whatever the aspects said: an evaluated investor never comes back. */
 export const evaluatedIds = (docs: Evaluation[]): Set<string> => new Set(docs.map((evaluation) => evaluation.investorId));
 
-/** The n most recent documents with verdict gold: the quality bar shown to the agent. */
-export const latestGold = (docs: Evaluation[], n: number): Evaluation[] =>
+/** The n most recent documents that pass every aspect that applies to them: the quality bar shown to the agent. */
+export const latestPassing = (docs: Evaluation[], n: number): Evaluation[] =>
   docs
-    .filter((evaluation) => evaluation.verdict === "gold")
+    .filter((evaluation) => passesEveryAspect(evaluation.aspects))
     .sort((a, b) => b.evaluatedAt.localeCompare(a.evaluatedAt))
     .slice(0, n);

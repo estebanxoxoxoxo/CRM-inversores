@@ -3,15 +3,15 @@ import {
   DEFAULT_GOLD_FILTERS,
   EMPTY_GOLD_FILTERS,
   GOLD_REGIONS,
-  VERDICTS,
   fails,
   isGoldSortKey,
+  regionOf,
   type GoldEntry,
   type GoldFilters,
   type GoldListFilterKey,
 } from "../lib/filters";
 import { REGION_LABELS } from "../../bronze/lib/labels";
-import { ASPECT_LABELS, VERDICT_LABELS } from "../lib/labels";
+import { ASPECT_LABELS } from "../lib/labels";
 
 interface Props {
   filters: GoldFilters;
@@ -51,15 +51,22 @@ export default function GoldFiltersPanel({ filters, onChange, entries }: Props) 
         />
         <div className="filters-actions">
           <button type="button" className="link-button" onClick={() => onChange(DEFAULT_GOLD_FILTERS)}>
-            Sólo gold
+            Con mails
           </button>
           <button type="button" className="link-button" onClick={() => onChange(EMPTY_GOLD_FILTERS)}>
             Ver todo
           </button>
         </div>
       </div>
-      {group("Veredicto", "verdicts", VERDICTS, (entry, value) => entry.evaluation.verdict === value, (v) => VERDICT_LABELS[v])}
-      {group("Región", "regions", GOLD_REGIONS, (entry, value) => entry.evaluation.region === value, (v) => REGION_LABELS[v])}
+      <fieldset className="group">
+        <legend>Mails</legend>
+        <label className="option">
+          <input type="checkbox" checked={filters.withEmails} onChange={() => onChange({ ...filters, withEmails: !filters.withEmails })} />
+          <span className="option-label">Con los cuatro mails</span>
+          <span className="option-count">{entries.filter((entry) => entry.evaluation.emails.length > 0).length}</span>
+        </label>
+      </fieldset>
+      {group("Región", "regions", GOLD_REGIONS, (entry, value) => regionOf(entry) === value, (v) => REGION_LABELS[v])}
       {group("Aspecto que no pasa", "failing", ASPECT_KEYS, (entry, value) => fails(entry.evaluation, value), (v) => ASPECT_LABELS[v])}
       <fieldset className="group">
         <legend>Otros</legend>

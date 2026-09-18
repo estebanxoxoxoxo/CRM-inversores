@@ -4,7 +4,7 @@
  *
  *   opening                        title and opening paragraph
  *   1. client                      who the emails speak for
- *   2. aspects                     the four aspects and the verdict rule
+ *   2. aspects                     the four aspects and the rule that turns them into the emails
  *   3. justifications              what a reason must contain
  *   4. emails                      the four cold emails of a gold profile
  *   5. type                        the gold type, embedded verbatim

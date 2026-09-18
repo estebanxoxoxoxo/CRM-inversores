@@ -1,5 +1,5 @@
 /** Filters and order of the Gold section, kept in memory: the URL only carries the section and the selected id. */
-import { GLOBAL_ASPECTS, REGION_ASPECTS, VerdictSchema, asksLanguageAspects, type Evaluation, type Verdict } from "../types/gold";
+import { GLOBAL_ASPECTS, REGION_ASPECTS, asksLanguageAspects, type Evaluation } from "../types/gold";
 import { RegionSchema, type Investor, type Region } from "../../bronze/types/investor";
 import { normalize } from "../../lib/text";
 
@@ -25,7 +25,6 @@ export const aspectsFor = (region: string): readonly AspectKey[] => (asksLanguag
  */
 export const regionOf = (entry: GoldEntry): string => entry.investor?.region ?? entry.evaluation.region;
 
-export const VERDICTS: readonly Verdict[] = VerdictSchema.options;
 export const GOLD_REGIONS: readonly Region[] = RegionSchema.options;
 
 export type GoldSortKey = "level" | "name" | "date";
@@ -34,19 +33,20 @@ export const isGoldSortKey = (value: string): value is GoldSortKey => GOLD_SORT_
 
 export interface GoldFilters {
   text: string;
-  verdicts: Verdict[];
   regions: Region[];
   /** Keep only the evaluations that fail at least one of these aspects. */
   failing: AspectKey[];
+  /** Keep only the evaluations that carry the four emails, the ones that pass every aspect that applies to them. */
+  withEmails: boolean;
   sort: GoldSortKey;
 }
 
-export type GoldListFilterKey = "verdicts" | "regions" | "failing";
+export type GoldListFilterKey = "regions" | "failing";
 
-export const EMPTY_GOLD_FILTERS: GoldFilters = { text: "", verdicts: [], regions: [], failing: [], sort: "level" };
+export const EMPTY_GOLD_FILTERS: GoldFilters = { text: "", regions: [], failing: [], withEmails: false, sort: "level" };
 
-/** The section opens on the gold verdict: the profiles worth writing to. */
-export const DEFAULT_GOLD_FILTERS: GoldFilters = { ...EMPTY_GOLD_FILTERS, verdicts: ["gold"] };
+/** The section opens on the evaluations that carry mails: the profiles worth writing to. */
+export const DEFAULT_GOLD_FILTERS: GoldFilters = { ...EMPTY_GOLD_FILTERS, withEmails: true };
 
 export function joinGold(evaluations: Evaluation[], investors: Investor[]): GoldEntry[] {
   const byId = new Map(investors.map((investor) => [investor.id, investor]));
@@ -62,9 +62,10 @@ export function fails(evaluation: Evaluation, aspect: AspectKey): boolean {
 
 export function applyGoldFilters(entries: GoldEntry[], filters: GoldFilters): GoldEntry[] {
   const terms = normalize(filters.text.trim()).split(/\s+/).filter(Boolean);
-  const matching = entries.filter(({ evaluation, investor }) => {
-    if (filters.verdicts.length && !filters.verdicts.includes(evaluation.verdict)) return false;
-    if (filters.regions.length && !filters.regions.includes(evaluation.region as Region)) return false;
+  const matching = entries.filter((entry) => {
+    const { evaluation, investor } = entry;
+    if (filters.withEmails && !evaluation.emails.length) return false;
+    if (filters.regions.length && !filters.regions.includes(regionOf(entry) as Region)) return false;
     if (filters.failing.length && !filters.failing.some((aspect) => fails(evaluation, aspect))) return false;
     if (terms.length) {
       const reasons = aspectsFor(evaluation.region).map((aspect) => evaluation.aspects[aspect]?.reason ?? "");

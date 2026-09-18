@@ -12,7 +12,7 @@
  * This entry point gathers the inputs and runs the build.
  */
 import type { Investor } from "../../bronze/types/investor";
-import { evaluatedIds, latestGold } from "../lib/gold";
+import { evaluatedIds, latestPassing } from "../lib/gold";
 import { EXAMPLES_COUNT, type Evaluation } from "../types/gold";
 import { buildPrompt } from "./build/build";
 import { DEFAULT_BATCH, clampBatch } from "./inputs/count";
@@ -35,7 +35,7 @@ export interface GoldPrompt {
   remaining: number;
   /** Gold documents shown as examples. */
   examples: number;
-  /** Investors already evaluated, both verdicts. */
+  /** Investors already evaluated, passing or not. */
   excluded: number;
   endpoint: string;
   hasToken: boolean;
@@ -56,7 +56,7 @@ export function buildGoldPrompt(investors: Investor[], evaluations: Evaluation[]
   // have to be shown under the rule that applies today or they teach a shape the endpoint refuses.
   const regionOf = new Map(investors.map((investor) => [investor.id, investor.region]));
   const current = evaluations.map((evaluation) => ({ ...evaluation, region: regionOf.get(evaluation.investorId) ?? evaluation.region }));
-  const examples = latestGold(current, EXAMPLES_COUNT);
+  const examples = latestPassing(current, EXAMPLES_COUNT);
   const token = ingestToken();
   const endpoint = ingestEndpoint();
   const text = buildPrompt({ batch, examples, excluded: evaluations, endpoint, token: tokenOrPlaceholder(token), typeSource: TYPE_SOURCE, date: today() });

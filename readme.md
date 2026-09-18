@@ -84,17 +84,18 @@ puede llegar a `localhost`. En Vercel se toma sola de `VERCEL_PROJECT_PRODUCTION
 Sobre los perfiles ya cargados corre una segunda pasada: un agente evalúa cada inversor contra cuatro aspectos —etapa
 y deep tech para todos; español y founders hispanos sólo cuando el inversor vive fuera de un país de habla hispana
 (`us_hispanic` y `out_of_region`), porque en `spain`, `mexico` y `spanish_speaking` el idioma se da por hecho— y guarda
-un documento por inversor en la colección
-`gold`, con veredicto `gold` o `rejected` y cuatro mails propuestos para los gold. El botón "Evaluar más perfiles" de
-la sección Gold arma el prompt del próximo lote (25 por defecto, hasta 100) y lo copia, como "Buscar más perfiles" en
+un documento por inversor en la colección `gold`. Estar en `gold` significa que el inversor fue reanalizado contra los
+cuatro criterios, y el resultado se lee en los aspectos y en los mails: cuatro mails propuestos cuando pasa todos los
+aspectos que le aplican y ninguno cuando falla uno, regla que hace cumplir el endpoint. El botón "Evaluar más perfiles"
+de la sección Gold arma el prompt del próximo lote (25 por defecto, hasta 100) y lo copia, como "Buscar más perfiles" en
 Bronce; `POST /api/gold` (`api/gold.ts`) recibe y valida las evaluaciones. Todo el módulo vive en
 `src/gold/`; su [README](src/gold/README.md) explica el documento, lo que valida el endpoint y la regla de Firestore
 que hay que añadir para `gold`.
 
 En la app, el selector Bronce / Gold de la cabecera cambia entre la lista de inversores y la de evaluaciones. La sección
 Gold lista cada perfil evaluado con sus cuatro aspectos, la evidencia de cada uno y los mails propuestos listos para
-copiar; abre por defecto sobre el veredicto gold y filtra por veredicto, región y aspecto que no pasa. Una evaluación
-se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón con el veredicto que lleva a ella. La cabecera
+copiar; abre por defecto sobre las evaluaciones con mails y filtra por mails, región y aspecto que no pasa. Una
+evaluación se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón que lleva a ella. La cabecera
 cambia con la sección: en Bronce, backup de `investors` y "Buscar más perfiles"; en Gold, backup de `gold` y "Evaluar
 más perfiles".
 
@@ -130,7 +131,7 @@ Dos secciones con la misma forma, cada una en su carpeta, y fuera de ellas lo qu
   perfiles"; `prompt-builder/` el prompt de búsqueda.
 - `src/gold/` — las evaluaciones, con la misma estructura (`src/gold/README.md`): `types/gold.ts`,
   `server/evaluations.ts` (usada por `api/gold.ts`), `lib/gold.ts`, `lib/filters.ts`, `lib/labels.ts`, `context/`,
-  `components/` (lista, ficha, filtros, badge de veredicto y "Evaluar más perfiles") y `prompt-builder/`.
+  `components/` (lista, ficha, filtros, badge de gold y "Evaluar más perfiles") y `prompt-builder/`.
 - Compartido: `src/lib/` (`firebase.ts`, `data.ts` errores de lectura, `text.ts`, `api.ts` llamadas a `/api/*` con el
   token y URL del despliegue, `backup.ts` copias en el bucket de las dos colecciones, `json.ts`, `clipboard.ts`,
   `theme.ts`), `src/context/` (sección y backup), `src/components/` (selector de sección, backup, tema, `Badge` y las

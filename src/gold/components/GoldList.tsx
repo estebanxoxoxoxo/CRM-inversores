@@ -2,9 +2,8 @@ import { aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import { RATING_LABELS, REGION_SHORT_LABELS } from "../../bronze/lib/labels";
 import type { Region } from "../../bronze/types/investor";
-import { Badge } from "../../components/Badge";
 import { ConnectionChip } from "../../components/ConnectionChip";
-import { ASPECT_LABELS, ASPECT_SHORT_LABELS, VERDICT_LABELS } from "../lib/labels";
+import { ASPECT_LABELS, ASPECT_SHORT_LABELS } from "../lib/labels";
 
 interface Props {
   entries: GoldEntry[];
@@ -22,7 +21,7 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
         <li key={evaluation.investorId}>
           <button
             type="button"
-            className={`card verdict-${evaluation.verdict} ${selectedId === evaluation.investorId ? "active" : ""} ${investor?.rating ? `rating-${investor.rating}` : ""}`}
+            className={`card ${evaluation.emails.length > 0 ? "with-emails" : ""} ${selectedId === evaluation.investorId ? "active" : ""} ${investor?.rating ? `rating-${investor.rating}` : ""}`}
             title={investor?.rating ? `Calificación: ${RATING_LABELS[investor.rating]}` : undefined}
             onClick={() => onSelect(evaluation.investorId)}
           >
@@ -34,9 +33,6 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
                 </span>
               </span>
               {investor && <ConnectionChip connectionAsked={investor.connectionAsked} />}
-              <span className="card-line1-side card-line1-badges">
-                <Badge className={`verdict-${evaluation.verdict}`}>{VERDICT_LABELS[evaluation.verdict]}</Badge>
-              </span>
             </div>
             <div className="card-aspects">
               {aspectsFor(regionOf({ evaluation, investor })).map((key) => {
@@ -70,7 +66,7 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
                   <span className="muted">{investor.emailStatus === "firm_general_mailbox" ? "buzón general" : "email"}</span>
                 </>
               )}
-              {evaluation.verdict === "gold" && (
+              {evaluation.emails.length > 0 && (
                 <>
                   <span className="separator">·</span>
                   <span className="muted">{evaluation.emails.length} mails</span>

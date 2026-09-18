@@ -10,7 +10,7 @@ export default function SectionSwitch() {
   const { section, go } = useSection();
   const { investors } = useInvestors();
   const { evaluations } = useGold();
-  const counts: Record<Section, number> = { bronze: investors.length, gold: evaluations.filter((evaluation) => evaluation.verdict === "gold").length };
+  const counts: Record<Section, number> = { bronze: investors.length, gold: evaluations.length };
 
   return (
     <div className="section-pill" role="group" aria-label="Sección">

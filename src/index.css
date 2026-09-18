@@ -955,14 +955,10 @@ textarea {
   background: var(--panel);
 }
 
-/* Gold: verdicts and aspects */
-.badge.verdict-gold {
+/* Gold: evaluations, their mails and their aspects */
+.badge.gold {
   background: var(--gold-bg);
   color: var(--gold);
-}
-.badge.verdict-rejected {
-  background: var(--rating-rejected-bg);
-  color: var(--rating-rejected);
 }
 .badge-button {
   border: none;
@@ -971,7 +967,7 @@ textarea {
 .badge-button:hover {
   text-decoration: underline;
 }
-.card.verdict-gold {
+.card.with-emails {
   box-shadow: inset 3px 0 0 var(--gold-border);
 }
 .card-aspects {

@@ -1,4 +1,4 @@
-/** Section "Los cuatro aspectos": the definition of each aspect and the rule that turns the ones that apply into a verdict. */
+/** Section "Los cuatro aspectos": the definition of each aspect and the rule that turns the ones that apply into the emails. */
 import { bullets, paragraphs } from "../format/markdown";
 import type { Term } from "../types/term";
 
@@ -31,8 +31,9 @@ export const RULE =
   "cuando es `spain`, `mexico` o `spanish_speaking` (cualquier otro país hispanohablante: Argentina, Chile, Uruguay, Colombia…), y son " +
   "obligatorios cuando es `us_hispanic` o `out_of_region` (un país que no habla español: Reino Unido, Alemania, Canadá, Emiratos…). " +
   "Un español en Londres o un argentino en Berlín entran por `out_of_region` y tienen que cumplir los cuatro, igual que los de Estados " +
-  "Unidos. El servidor comprueba la región contra la guardada en la base, así que no hay forma de esquivarlo. El veredicto es `gold` " +
-  "únicamente si pasan todos los aspectos que aplican; si uno falla, es `rejected`, y el documento se envía igual.";
+  "Unidos. El servidor comprueba la región contra la guardada en la base, así que no hay forma de esquivarlo. No hay nada más que " +
+  "dictaminar: si pasan todos los aspectos que aplican, el documento lleva exactamente cuatro mails; si uno falla, se envía igual, con sus " +
+  "motivos y sin mails. El servidor lo comprueba.";
 
 export const aspects: Term = {
   id: "aspects",

@@ -3,7 +3,7 @@ import { useSection } from "../../context/section";
 import { copyText } from "../../lib/clipboard";
 import { ASPECT_KEYS, aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
 import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, RATING_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
-import { ASPECT_LABELS, VERDICT_LABELS } from "../lib/labels";
+import { ASPECT_LABELS } from "../lib/labels";
 import type { Region } from "../../bronze/types/investor";
 import ConnectionDialog from "../../bronze/components/ConnectionDialog";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
@@ -83,7 +83,6 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
           )}
           <p className="detail-badges">
             {investor?.rating && <Badge className={`rating-${investor.rating}`}>{RATING_LABELS[investor.rating]}</Badge>}
-            <Badge className={`verdict-${evaluation.verdict}`}>{VERDICT_LABELS[evaluation.verdict]}</Badge>
             {investor && <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>}
             <Badge className="neutral">{REGION_LABELS[region as Region] ?? region}</Badge>
           </p>
@@ -166,7 +165,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
         </ul>
       </Section>
 
-      {evaluation.verdict === "gold" ? (
+      {evaluation.emails.length > 0 ? (
         <Section title={`Mails propuestos (${evaluation.emails.length})`}>
           <div className="emails">
             {evaluation.emails.map((email, i) => (
@@ -190,7 +189,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
         </Section>
       ) : (
         <Section title="Mails propuestos">
-          <p className="muted">Sin mails: el veredicto es rechazado.</p>
+          <p className="muted">Sin mails: no pasa todos los aspectos que le aplican.</p>
         </Section>
       )}
       <p className="muted small detail-footer">Evaluado el {formatDate(evaluation.evaluatedAt)}.</p>

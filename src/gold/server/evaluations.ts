@@ -6,11 +6,11 @@
  * and must not have been evaluated yet, because an evaluation is never overwritten. `region` and `name` come from
  * that stored investor, so the two region-dependent aspects cannot be dodged by sending a different region.
  *
- * `invalid` is not `rejected` on purpose: `rejected` is a verdict about an investor, and a rejected evaluation is a
- * perfectly good document that gets written. `invalid` means the submission itself was refused.
+ * An evaluation that fails one of its aspects is not refused: it is a perfectly good document that gets written, with
+ * its reasons and no emails. `invalid` means the submission itself was refused.
  */
 import { doc, getDoc, writeBatch, type DocumentSnapshot, type Firestore } from "firebase/firestore";
-import { COLLECTION, INVESTORS_COLLECTION, MAX_PER_REQUEST, describeError, validateEvaluation, type Verdict } from "../types/gold.js";
+import { COLLECTION, INVESTORS_COLLECTION, MAX_PER_REQUEST, describeError, validateEvaluation } from "../types/gold.js";
 
 export class IngestError extends Error {
   readonly status: number;
@@ -22,7 +22,7 @@ export class IngestError extends Error {
 
 export interface IngestResult {
   dryRun: boolean;
-  created: { investorId: string; verdict: Verdict }[];
+  created: { investorId: string }[];
   invalid: { investorId: string; reason: string }[];
 }
 
@@ -68,7 +68,7 @@ export async function ingestEvaluations(db: Firestore, body: unknown, dryRun: bo
       const evaluation = validateEvaluation(item, { region: String(stored.region ?? ""), name: String(stored.name ?? "") }, now);
       seen.add(investorId);
       batch.set(doc(db, COLLECTION, investorId), evaluation);
-      result.created.push({ investorId, verdict: evaluation.verdict });
+      result.created.push({ investorId });
     } catch (e) {
       result.invalid.push({ investorId, reason: describeError(e) });
     }

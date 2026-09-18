@@ -1,8 +1,5 @@
 /** Spanish UI labels for the English codes of the gold type. Everything the user reads about an evaluation comes from here. */
-import type { Verdict } from "../types/gold";
 import type { AspectKey } from "./filters";
-
-export const VERDICT_LABELS: Record<Verdict, string> = { gold: "Gold", rejected: "Rechazado" };
 
 export const ASPECT_LABELS: Record<AspectKey, string> = {
   stage: "Etapa: pre-seed o seed",

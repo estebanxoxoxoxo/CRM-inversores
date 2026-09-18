@@ -12,9 +12,9 @@ export const batching = (): string =>
   "sin escribir; hacelo siempre primero y corregí lo que salga como inválido.";
 
 export const RESPONSE =
-  'Respuesta: `{ "dryRun": boolean, "created": [ { "investorId", "verdict" } ], "invalid": [ { "investorId", "reason" } ] }`. `invalid` ' +
-  "no es un veredicto: son las evaluaciones que el servidor no aceptó (el perfil no existe, ya estaba evaluado, el documento no valida " +
-  "contra el tipo o el veredicto no coincide con los aspectos). El motivo dice qué falla; corregilo y reenviá esa evaluación.";
+  'Respuesta: `{ "dryRun": boolean, "created": [ { "investorId" } ], "invalid": [ { "investorId", "reason" } ] }`. En `invalid` ' +
+  "están las evaluaciones que el servidor no aceptó (el perfil no existe, ya estaba evaluado, el documento no valida contra el tipo o los " +
+  "mails no coinciden con los aspectos). El motivo dice qué falla; corregilo y reenviá esa evaluación.";
 
 export const typeReference = (ctx: PromptContext): string =>
   `Cada evaluación va con el tipo de la sección ${ctx.sectionNumber("type")}, y los perfiles a evaluar son los de la sección ${ctx.sectionNumber("batch")}.`;
@@ -27,7 +27,7 @@ export const curl = (ctx: PromptContext): string =>
     `curl -X POST "${ctx.endpoint}?dryRun=1" \\\n  -H "Authorization: Bearer ${ctx.token}" \\\n  -H "Content-Type: application/json" \\\n  --data @evaluaciones.json`,
   );
 
-export const COMPLETENESS = "Cada perfil del lote tiene que volver con su documento, sea gold o rejected; el que falte reaparece en el próximo lote.";
+export const COMPLETENESS = "Cada perfil del lote tiene que volver con su documento, pase o no pase; el que falte reaparece en el próximo lote.";
 
 export const FALLBACK = "Si no podés hacer peticiones HTTP, entregá el cuerpo JSON en un bloque de código.";
 

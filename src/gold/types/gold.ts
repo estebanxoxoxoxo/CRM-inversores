@@ -1,13 +1,14 @@
 /**
  * The evaluation of one investor: the document the agent pushes into the `gold` collection, one per investor,
- * with the investor's id as the document id.
+ * with the investor's id as the document id. Being in the collection means one thing only, that the investor was
+ * re-analyzed under the four aspects.
  *
- * Four aspects decide the verdict: `stage` and `deepTech` apply to everyone; `spanish` and `hispanicFounders` are
+ * Four aspects carry the analysis: `stage` and `deepTech` apply to everyone; `spanish` and `hispanicFounders` are
  * asked wherever the country does not speak Spanish — the United States and anywhere else outside
  * SPANISH_SPEAKING_REGIONS — and go in null in Spain, Mexico and any other Spanish-speaking country, where the
- * language is a given. The verdict is not a free judgement: it is the
- * conjunction of the aspects that apply, and `validateEvaluation` refuses a document where the two disagree, so no
- * evaluation can call an investor gold without evidence in every aspect that applies to it.
+ * language is a given. Nothing else is judged: the emails are the outcome, exactly EMAILS_REQUIRED of them when every
+ * aspect that applies passes and none when one fails, and `validateEvaluation` refuses a document where the two
+ * disagree, so no evaluation can carry emails without evidence in every aspect that applies to it.
  *
  * `region`, `name` and `evaluatedAt` are owned by the server: it copies them from `investors/{investorId}` and from
  * the clock, ignoring whatever the agent sent. That is what makes the two region-dependent aspects impossible to
@@ -40,8 +41,6 @@ export const BODY_MAX = 900;
 export const BASED_ON_MAX = 200;
 export const EMAILS_REQUIRED = 4;
 
-export const VerdictSchema = z.enum(["gold", "rejected"]);
-
 export const AspectSchema = z.object({
   passes: z.boolean(),
   /** One terse paragraph: the exact URL and the literal phrase or datum that proves it. */
@@ -62,7 +61,6 @@ export const EvaluationSchema = z.object({
   name: z.string().min(1),
   /** Copied from investors by the server; the agent's value is ignored. */
   region: z.string(),
-  verdict: VerdictSchema,
   aspects: z.object({
     stage: AspectSchema,
     deepTech: AspectSchema,
@@ -71,13 +69,12 @@ export const EvaluationSchema = z.object({
     /** Required outside a Spanish-speaking country (see SPANISH_SPEAKING_REGIONS); null inside one. */
     hispanicFounders: AspectSchema.nullable(),
   }),
-  /** Exactly 4 when the verdict is gold; empty when rejected. */
+  /** Exactly 4 when every aspect that applies passes; empty when one of them fails. */
   emails: z.array(EmailSchema),
   /** ISO timestamp, set by the server. */
   evaluatedAt: z.string(),
 });
 
-export type Verdict = z.infer<typeof VerdictSchema>;
 export type Aspect = z.infer<typeof AspectSchema>;
 export type Email = z.infer<typeof EmailSchema>;
 export type Evaluation = z.infer<typeof EvaluationSchema>;
@@ -88,7 +85,7 @@ export const GLOBAL_ASPECTS = ["stage", "deepTech"] as const;
 /** The aspects asked of United States investors only. */
 export const REGION_ASPECTS = ["spanish", "hispanicFounders"] as const;
 
-/** True when every aspect that applies to this investor passes. The verdict must say exactly this and nothing else. */
+/** True when every aspect that applies to this investor passes. The emails say exactly this: four when it holds, none when it does not. */
 export const passesEveryAspect = (aspects: Evaluation["aspects"]): boolean =>
   aspects.stage.passes && aspects.deepTech.passes && (aspects.spanish === null || aspects.spanish.passes) && (aspects.hispanicFounders === null || aspects.hispanicFounders.passes);
 
@@ -113,9 +110,9 @@ export function validateEvaluation(raw: unknown, investor: { region: string; nam
     if (value && value.passes && !value.sources.length) throw new Error(`aspect ${aspect} passes but carries no sources`);
   }
 
-  if (passesEveryAspect(evaluation.aspects) !== (evaluation.verdict === "gold")) throw new Error("verdict does not match the aspects");
-  if (evaluation.verdict === "gold" && evaluation.emails.length !== EMAILS_REQUIRED) throw new Error(`a gold evaluation needs exactly ${EMAILS_REQUIRED} emails`);
-  if (evaluation.verdict === "rejected" && evaluation.emails.length) throw new Error("a rejected evaluation carries no emails");
+  const passes = passesEveryAspect(evaluation.aspects);
+  if (passes && evaluation.emails.length !== EMAILS_REQUIRED) throw new Error(`an evaluation that passes every applicable aspect needs exactly ${EMAILS_REQUIRED} emails`);
+  if (!passes && evaluation.emails.length) throw new Error("an evaluation that fails an aspect carries no emails");
 
   return evaluation;
 }

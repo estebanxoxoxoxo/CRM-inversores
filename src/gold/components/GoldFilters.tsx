@@ -1,16 +1,18 @@
 import {
   ASPECT_KEYS,
-  DEFAULT_GOLD_FILTERS,
   EMPTY_GOLD_FILTERS,
+  GOLD_RATING_OPTIONS,
   GOLD_REGIONS,
   fails,
   isGoldSortKey,
+  ratingOf,
   regionOf,
   type GoldEntry,
   type GoldFilters,
   type GoldListFilterKey,
+  type GoldRatingFilter,
 } from "../lib/filters";
-import { REGION_LABELS } from "../../bronze/lib/labels";
+import { RATING_LABELS, REGION_LABELS, UNRATED_LABEL } from "../../bronze/lib/labels";
 import { ASPECT_LABELS } from "../lib/labels";
 
 interface Props {
@@ -50,22 +52,12 @@ export default function GoldFiltersPanel({ filters, onChange, entries }: Props) 
           onChange={(e) => onChange({ ...filters, text: e.target.value })}
         />
         <div className="filters-actions">
-          <button type="button" className="link-button" onClick={() => onChange(DEFAULT_GOLD_FILTERS)}>
-            Con mails
-          </button>
           <button type="button" className="link-button" onClick={() => onChange(EMPTY_GOLD_FILTERS)}>
             Ver todo
           </button>
         </div>
       </div>
-      <fieldset className="group">
-        <legend>Mails</legend>
-        <label className="option">
-          <input type="checkbox" checked={filters.withEmails} onChange={() => onChange({ ...filters, withEmails: !filters.withEmails })} />
-          <span className="option-label">Con los cuatro mails</span>
-          <span className="option-count">{entries.filter((entry) => entry.evaluation.emails.length > 0).length}</span>
-        </label>
-      </fieldset>
+      {group("Calificación", "ratings", GOLD_RATING_OPTIONS, (entry, value) => ratingOf(entry) === value, (v: GoldRatingFilter) => (v === "none" ? UNRATED_LABEL : RATING_LABELS[v]))}
       {group("Región", "regions", GOLD_REGIONS, (entry, value) => regionOf(entry) === value, (v) => REGION_LABELS[v])}
       {group("Aspecto que no pasa", "failing", ASPECT_KEYS, (entry, value) => fails(entry.evaluation, value), (v) => ASPECT_LABELS[v])}
       <fieldset className="group">

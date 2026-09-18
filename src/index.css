@@ -807,6 +807,10 @@ textarea {
   color: var(--text);
   background: var(--panel);
 }
+/* The rating dialog carries the nine fields of the note, so it is a bit wider than the rest. */
+.dialog.rating-dialog {
+  width: min(520px, 92vw);
+}
 .dialog::backdrop {
   background: var(--backdrop);
 }
@@ -847,6 +851,27 @@ textarea {
   justify-content: flex-end;
   align-items: center;
   gap: 14px;
+}
+/* The structured note in the rating dialog: one row per field, its label and its box side by side and aligned. The
+   rows are labels with `display: contents`, so label and box land in the two columns of the same grid. */
+.rating-note-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 8px 10px;
+  margin: 12px 0 8px;
+  font-weight: 600;
+}
+.rating-note-row {
+  display: contents;
+}
+.rating-note-grid input,
+.rating-note-grid textarea {
+  width: 100%;
+  font-weight: 400;
+  background: var(--panel);
+  color: inherit;
+  font-family: inherit;
 }
 .rating-options {
   display: grid;
@@ -955,7 +980,7 @@ textarea {
   background: var(--panel);
 }
 
-/* Gold: evaluations, their mails and their aspects */
+/* Gold: evaluations, their aspects and their related facts */
 .badge.gold {
   background: var(--gold-bg);
   color: var(--gold);
@@ -967,7 +992,7 @@ textarea {
 .badge-button:hover {
   text-decoration: underline;
 }
-.card.with-emails {
+.card.passes {
   box-shadow: inset 3px 0 0 var(--gold-border);
 }
 .card-aspects {
@@ -1046,42 +1071,29 @@ textarea {
   word-break: break-all;
 }
 
-/* Gold: proposed emails */
-.emails {
+/* Gold: related facts, the raw material of the emails the client writes */
+.facts {
+  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-top: 6px;
+  margin: 6px 0 0;
+  padding: 0;
 }
-.email {
+.fact {
   padding: 10px 12px;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   background: var(--bg);
 }
-.email-header {
+.fact-head {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 10px;
 }
-.email-subject {
+.fact-text {
   margin: 0;
-  font-size: 14px;
-  font-weight: 650;
-}
-.email-actions {
-  display: flex;
-  gap: 6px;
-  flex: none;
-}
-.email-based {
-  margin: 4px 0 8px;
-}
-.email-body {
-  margin: 0;
-  font: inherit;
-  white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
 

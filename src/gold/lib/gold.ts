@@ -42,9 +42,13 @@ export function subscribeToGold(onChange: (snapshot: GoldSnapshot) => void, onEr
 /** Ids to subtract from the investors, whatever the aspects said: an evaluated investor never comes back. */
 export const evaluatedIds = (docs: Evaluation[]): Set<string> => new Set(docs.map((evaluation) => evaluation.investorId));
 
-/** The n most recent documents that pass every aspect that applies to them: the quality bar shown to the agent. */
+/**
+ * The n most recent documents that pass every aspect that applies to them and carry their related facts: the quality
+ * bar shown to the agent. The facts are demanded on purpose — the examples have to show the shape asked today, and a
+ * document written before this change has none, so it would teach an empty array.
+ */
 export const latestPassing = (docs: Evaluation[], n: number): Evaluation[] =>
   docs
-    .filter((evaluation) => passesEveryAspect(evaluation.aspects))
+    .filter((evaluation) => passesEveryAspect(evaluation.aspects) && evaluation.relatedFacts.length > 0)
     .sort((a, b) => b.evaluatedAt.localeCompare(a.evaluatedAt))
     .slice(0, n);

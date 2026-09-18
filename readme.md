@@ -28,9 +28,14 @@ aplica antes del primer render (`src/lib/theme.ts`).
 ## Calificación manual
 
 Desde la ficha, "Calificar perfil" abre un diálogo con Aprobado, Dudoso, Desaprobado y Relleno, más "Descalificar" si
-ya tenía una. El diálogo incluye una nota opcional que se guarda en `ratingNote` junto con la calificación: se muestra
-en negrita arriba de todo en la ficha, justo debajo de la cabecera, tanto en Bronce como en Gold. La nota pertenece a
-la calificación, así que descalificar también la borra, y el endpoint de ingesta la deja siempre en `null`. Se guarda en `rating` del documento (`approved`, `doubtful`, `rejected`, `filler` o `null`), es la única
+ya tenía una. El diálogo incluye una nota estructurada de nueve campos opcionales, cada uno una propiedad del
+documento: Puesto (`ratingNoteRole`), VC (`ratingNoteVc`), Tamaño del fondo (`ratingNoteFundSize`), Ticket
+(`ratingNoteTicket`), Linkedin (`ratingNoteLinkedin`), Mail (`ratingNoteEmail`), Página del VC (`ratingNoteVcWebsite`),
+Ubicación (`ratingNoteLocation`) y Notas (`ratingNoteNotes`). Se guardan junto con la calificación y se muestran en
+negrita arriba de todo en la ficha, justo debajo de la cabecera, tanto en Bronce como en Gold, una línea por campo con
+contenido. La nota pertenece a la calificación, así que descalificar también la borra, y el endpoint de ingesta deja
+los nueve campos siempre en `null`. La nota libre vieja, `ratingNote`, ya no se escribe pero se sigue mostrando al
+final del bloque hasta que se migre. Se guarda en `rating` del documento (`approved`, `doubtful`, `rejected`, `filler` o `null`), es la única
 escritura que hace la app y se refleja en vivo: borde de 3px en la tarjeta del listado (verde, azul oscuro, rojo, gris
 oscuro), badge en la ficha y primer grupo de filtros. El endpoint de ingesta siempre deja `rating` en `null`; los
 perfiles calificados como desaprobado o relleno no se usan como ejemplos en el prompt.
@@ -85,16 +90,21 @@ Sobre los perfiles ya cargados corre una segunda pasada: un agente evalúa cada 
 y deep tech para todos; español y founders hispanos sólo cuando el inversor vive fuera de un país de habla hispana
 (`us_hispanic` y `out_of_region`), porque en `spain`, `mexico` y `spanish_speaking` el idioma se da por hecho— y guarda
 un documento por inversor en la colección `gold`. Estar en `gold` significa que el inversor fue reanalizado contra los
-cuatro criterios, y el resultado se lee en los aspectos y en los mails: cuatro mails propuestos cuando pasa todos los
-aspectos que le aplican y ninguno cuando falla uno, regla que hace cumplir el endpoint. El botón "Evaluar más perfiles"
+cuatro criterios, y el resultado se lee en los aspectos y en los hechos relacionados: entre 3 y 10 hechos cuando pasa
+todos los aspectos que le aplican y ninguno cuando falla uno, regla que hace cumplir el endpoint. Un hecho relacionado
+es un dato seco sobre el inversor —una cita, una inversión, una declaración, una charla, con la URL donde constatarlo—
+que enlaza sus intereses con lo que construimos y que se puede dejar caer tal cual en un mail en frío: es materia prima
+para los mails que escribe el cliente, no un mail escrito. El botón "Evaluar más perfiles"
 de la sección Gold arma el prompt del próximo lote (25 por defecto, hasta 100) y lo copia, como "Buscar más perfiles" en
 Bronce; `POST /api/gold` (`api/gold.ts`) recibe y valida las evaluaciones. Todo el módulo vive en
 `src/gold/`; su [README](src/gold/README.md) explica el documento, lo que valida el endpoint y la regla de Firestore
 que hay que añadir para `gold`.
 
 En la app, el selector Bronce / Gold de la cabecera cambia entre la lista de inversores y la de evaluaciones. La sección
-Gold lista cada perfil evaluado con sus cuatro aspectos, la evidencia de cada uno y los mails propuestos listos para
-copiar; abre por defecto sobre las evaluaciones con mails y filtra por mails, región y aspecto que no pasa. Una
+Gold lista cada perfil evaluado con sus cuatro aspectos, la evidencia de cada uno y los hechos relacionados listos para
+copiar; filtra por calificación, región y aspecto que no pasa. Las evaluaciones anteriores a este cambio guardan en
+Firestore los mails propuestos que se pedían entonces, en un campo `emails` que el esquema ya no declara y la app no
+lee: se ven sin hechos. Una
 evaluación se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón que lleva a ella. La cabecera
 cambia con la sección: en Bronce, backup de `investors` y "Buscar más perfiles"; en Gold, backup de `gold` y "Evaluar
 más perfiles".

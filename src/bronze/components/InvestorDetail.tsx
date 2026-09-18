@@ -109,7 +109,7 @@ export default function InvestorDetail({ investor, selectedId, onClose, goldBadg
         </div>
       </header>
 
-      <RatingNote note={investor.ratingNote} />
+      <RatingNote investor={investor} />
 
       <div className="contact">
         {investor.linkedin ? (

@@ -1,11 +1,24 @@
 /** Spanish UI labels for the English codes of the investor type. Everything the user reads about an investor comes from here. */
-import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type ConnectionState, type EmailStatus, type InvestorType, type Rating, type Region } from "../types/investor";
+import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type ConnectionState, type EmailStatus, type InvestorType, type Rating, type RatingNoteField, type Region } from "../types/investor";
 
 export const RATING_LABELS: Record<Rating, string> = {
   approved: "Aprobado",
   doubtful: "Dudoso",
   rejected: "Desaprobado",
   filler: "Relleno",
+};
+
+/** One label per field of the structured rating note, in the dialog and in the block at the top of the detail. */
+export const RATING_NOTE_LABELS: Record<RatingNoteField, string> = {
+  ratingNoteRole: "Puesto",
+  ratingNoteVc: "VC",
+  ratingNoteFundSize: "Tamaño del fondo",
+  ratingNoteTicket: "Ticket",
+  ratingNoteLinkedin: "Linkedin",
+  ratingNoteEmail: "Mail",
+  ratingNoteVcWebsite: "Página del VC",
+  ratingNoteLocation: "Ubicación",
+  ratingNoteNotes: "Notas",
 };
 
 export const CONNECTION_LABELS: Record<ConnectionState, string> = {

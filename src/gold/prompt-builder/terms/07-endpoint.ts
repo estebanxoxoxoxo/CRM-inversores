@@ -14,7 +14,7 @@ export const batching = (): string =>
 export const RESPONSE =
   'Respuesta: `{ "dryRun": boolean, "created": [ { "investorId" } ], "invalid": [ { "investorId", "reason" } ] }`. En `invalid` ' +
   "están las evaluaciones que el servidor no aceptó (el perfil no existe, ya estaba evaluado, el documento no valida contra el tipo o los " +
-  "mails no coinciden con los aspectos). El motivo dice qué falla; corregilo y reenviá esa evaluación.";
+  "hechos no coinciden con los aspectos). El motivo dice qué falla; corregilo y reenviá esa evaluación.";
 
 export const typeReference = (ctx: PromptContext): string =>
   `Cada evaluación va con el tipo de la sección ${ctx.sectionNumber("type")}, y los perfiles a evaluar son los de la sección ${ctx.sectionNumber("batch")}.`;

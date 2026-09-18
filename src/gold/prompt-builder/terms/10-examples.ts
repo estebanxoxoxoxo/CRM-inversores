@@ -4,7 +4,7 @@ import { codeBlock, paragraphs } from "../format/markdown";
 import type { PromptContext } from "../types/prompt";
 import type { Term } from "../types/term";
 
-export const INTRO = "Son el estándar esperado. Fijate en lo concreto de cada `reason`, en las URL de `sources` y en la evidencia sobre la que se apoya cada mail.";
+export const INTRO = "Son el estándar esperado. Fijate en lo concreto de cada `reason`, en las URL de `sources` y en lo seco de cada hecho de `relatedFacts`.";
 
 export const empty = (ctx: PromptContext): string =>
   `Todavía no hay ninguna evaluación que pase todos los aspectos: el tipo de la sección ${ctx.sectionNumber("type")} y las reglas de este documento son toda la referencia.`;

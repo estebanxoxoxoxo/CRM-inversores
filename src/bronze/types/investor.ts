@@ -17,9 +17,11 @@
  *   A/B/C derives from the level.
  * - `confidence` rates the sources, not the fit.
  * - `rating` is the team's verdict on the profile and the only human gate: set from the app, it stays null however
- *   complete the audit is. Agent audit and human verdict are two different axes; do not read one as the other.
- * - `ratingNote` is what the person wrote when rating, and it belongs to the rating: clearing the rating clears it.
- *   The detail shows it above everything else, because it is the last thing a human decided about this profile.
+ *   complete the audit is. Agent audit and human verdict are two different axes; do not read one as the other. The
+ *   nine `ratingNote*` fields (`RATING_NOTE_FIELDS`) are the structured note written with it: they belong to the
+ *   rating, so clearing the rating clears them.
+ * - `ratingNote` is the legacy free-text note, kept readable until it is migrated into those fields. The detail shows
+ *   the whole note above everything else, because it is the last thing a human decided about this profile.
  * - `connectionAsked` is the team's connection state with the investor, set from the app: `false` (no action yet),
  *   `"requested"` or `"accepted"`. The ingest endpoint always stores it as `false`.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
@@ -53,6 +55,20 @@ export const CapSchema = z.enum(["thesis_below_6", "thesis_below_10", "no_check_
 export const RATINGS = ["approved", "doubtful", "rejected", "filler"] as const;
 export const RatingSchema = z.enum(RATINGS);
 export type Rating = z.infer<typeof RatingSchema>;
+
+/** The fields of the structured rating note, in the order the dialog asks for them and the detail prints them. */
+export const RATING_NOTE_FIELDS = [
+  "ratingNoteRole",
+  "ratingNoteVc",
+  "ratingNoteFundSize",
+  "ratingNoteTicket",
+  "ratingNoteLinkedin",
+  "ratingNoteEmail",
+  "ratingNoteVcWebsite",
+  "ratingNoteLocation",
+  "ratingNoteNotes",
+] as const;
+export type RatingNoteField = (typeof RATING_NOTE_FIELDS)[number];
 
 /** Connection state with the investor, set from the app. `false` means no connection action yet. */
 export const CONNECTION_STATES = ["requested", "accepted"] as const;
@@ -184,8 +200,22 @@ export const InvestorSchema = z.object({
   audit: AuditSchema,
   /** Manual team rating from the app (approved / doubtful / rejected / filler); null until someone rates it. */
   rating: RatingSchema.nullable().default(null),
-  /** The note written with the rating. Lives and dies with it; the ingest endpoint always stores it as null. */
+  /** The note written with the rating. Lives and dies with it; the ingest endpoint always stores it as null. Legacy
+   * free-text note, kept readable until it is migrated into the structured fields below. */
   ratingNote: z.string().nullable().default(null),
+  /**
+   * The structured breakdown of the rating note (`RATING_NOTE_FIELDS`), one flat field per line of the block, written
+   * by a person from the app. They live and die with `rating`; the ingest endpoint always stores them as null.
+   */
+  ratingNoteRole: z.string().nullable().default(null),
+  ratingNoteVc: z.string().nullable().default(null),
+  ratingNoteFundSize: z.string().nullable().default(null),
+  ratingNoteTicket: z.string().nullable().default(null),
+  ratingNoteLinkedin: z.string().nullable().default(null),
+  ratingNoteEmail: z.string().nullable().default(null),
+  ratingNoteVcWebsite: z.string().nullable().default(null),
+  ratingNoteLocation: z.string().nullable().default(null),
+  ratingNoteNotes: z.string().nullable().default(null),
   /** Connection state set from the app: false (none), "requested" or "accepted". */
   connectionAsked: ConnectionAskedSchema.default(false),
   /** ISO timestamp of the last write. */

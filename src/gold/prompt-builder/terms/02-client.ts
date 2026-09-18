@@ -1,4 +1,4 @@
-/** Section "Contexto del cliente": why we look for these investors and on whose behalf the emails speak. */
+/** Section "Contexto del cliente": why we look for these investors and on whose behalf the client's own emails will speak. */
 import { paragraphs } from "../format/markdown";
 import type { PromptContext } from "../types/prompt";
 import type { Term } from "../types/term";
@@ -14,8 +14,8 @@ export const WHY =
   "Estados Unidos en general, cristinanos convervadores en Estados unidos y cualquier perfil de habla no española se suman el idioma y el trabajo con founders hispanohablantes; en España o México u cualquier pais de habla hispana no hace falta preguntarlos.";
 
 export const emailsVoice = (ctx: PromptContext): string =>
-  `Los mails de la sección ${ctx.sectionNumber("emails")} se escriben en nombre de esta startup: cada uno tiene que conectar una evidencia ` +
-  "concreta del inversor con lo que construimos. Tenelo presente al leer su trabajo, porque de ahí sale el material de los mails.";
+  `Los hechos de la sección ${ctx.sectionNumber("relatedFacts")} son la materia prima de los mails que el cliente escribe él mismo en nombre ` +
+  "de esta startup. Juntalos pensando en eso: qué enlaza a este inversor con lo que construimos.";
 
 export const client: Term = {
   id: "client",

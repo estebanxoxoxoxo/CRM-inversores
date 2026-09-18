@@ -3,10 +3,10 @@
  * same context and joins them literally, separated by a blank line. Numbered terms get their heading here.
  *
  *   opening                        title and opening paragraph
- *   1. client                      who the emails speak for
- *   2. aspects                     the four aspects and the rule that turns them into the emails
+ *   1. client                      who the emails the client writes speak for
+ *   2. aspects                     the four aspects and the rule that turns them into the related facts
  *   3. justifications              what a reason must contain
- *   4. emails                      the four cold emails of a gold profile
+ *   4. relatedFacts                the dry facts a gold profile carries
  *   5. type                        the gold type, embedded verbatim
  *   6. endpoint                    where the evaluations are sent
  *   7. batch                       the investors to evaluate
@@ -21,18 +21,18 @@ import { numberTerms, sectionNumberOf } from "./numbering";
 import { aspects } from "../terms/03-aspects";
 import { batch } from "../terms/08-batch";
 import { client } from "../terms/02-client";
-import { emails } from "../terms/05-emails";
 import { endpoint } from "../terms/07-endpoint";
 import { examples } from "../terms/10-examples";
 import { excluded } from "../terms/09-excluded";
 import { footer } from "../terms/11-footer";
 import { justifications } from "../terms/04-justifications";
 import { opening } from "../terms/01-opening";
+import { relatedFacts } from "../terms/05-related-facts";
 import { type } from "../terms/06-type";
 import type { PromptContext, PromptInput } from "../types/prompt";
 import type { Term, TermId } from "../types/term";
 
-export const TERMS: readonly Term[] = [opening, client, aspects, justifications, emails, type, endpoint, batch, excluded, examples, footer];
+export const TERMS: readonly Term[] = [opening, client, aspects, justifications, relatedFacts, type, endpoint, batch, excluded, examples, footer];
 
 function renderTerm(term: Term, ctx: PromptContext, numbers: Map<TermId, number>): string {
   const body = term.render(ctx);

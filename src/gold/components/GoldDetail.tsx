@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useSection } from "../../context/section";
 import { copyText } from "../../lib/clipboard";
 import { ASPECT_KEYS, aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
+import { passesEveryAspect } from "../types/gold";
 import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, RATING_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
 import { ASPECT_LABELS } from "../lib/labels";
 import type { Region } from "../../bronze/types/investor";
@@ -103,7 +104,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
         </div>
       </header>
 
-      <RatingNote note={investor?.ratingNote ?? null} />
+      <RatingNote investor={investor} />
 
       {investor && (
         <div className="contact">
@@ -165,31 +166,35 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
         </ul>
       </Section>
 
-      {evaluation.emails.length > 0 ? (
-        <Section title={`Mails propuestos (${evaluation.emails.length})`}>
-          <div className="emails">
-            {evaluation.emails.map((email, i) => (
-              <article key={i} className="email">
-                <header className="email-header">
-                  <h4 className="email-subject">{email.subject}</h4>
-                  <span className="email-actions">
-                    <button type="button" className="mini" onClick={() => copy(`subject-${i}`, email.subject)}>
-                      {copied === `subject-${i}` ? "copiado" : "copiar asunto"}
-                    </button>
-                    <button type="button" className="mini" onClick={() => copy(`body-${i}`, email.body)}>
-                      {copied === `body-${i}` ? "copiado" : "copiar cuerpo"}
-                    </button>
-                  </span>
-                </header>
-                <p className="muted small email-based">Basado en: {email.basedOn}</p>
-                <pre className="email-body">{email.body}</pre>
-              </article>
+      {evaluation.relatedFacts.length > 0 ? (
+        <Section title={`Hechos relacionados (${evaluation.relatedFacts.length})`}>
+          <ul className="facts">
+            {evaluation.relatedFacts.map((related, i) => (
+              <li key={i} className="fact">
+                <div className="fact-head">
+                  <p className="fact-text">{related.fact}</p>
+                  <button type="button" className="mini" onClick={() => copy(`fact-${i}`, related.fact)}>
+                    {copied === `fact-${i}` ? "copiado" : "copiar"}
+                  </button>
+                </div>
+                <ul className="aspect-sources">
+                  {related.sources.map((source) => (
+                    <li key={source}>
+                      <a href={source} target="_blank" rel="noreferrer">
+                        {source}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </li>
             ))}
-          </div>
+          </ul>
         </Section>
       ) : (
-        <Section title="Mails propuestos">
-          <p className="muted">Sin mails: no pasa todos los aspectos que le aplican.</p>
+        <Section title="Hechos relacionados">
+          <p className="muted">
+            {passesEveryAspect(evaluation.aspects) ? "Todavía sin hechos: se evaluó antes de este cambio." : "Sin hechos: no pasa todos los aspectos que le aplican."}
+          </p>
         </Section>
       )}
       <p className="muted small detail-footer">Evaluado el {formatDate(evaluation.evaluatedAt)}.</p>

@@ -1,4 +1,5 @@
 import { aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
+import { passesEveryAspect } from "../types/gold";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import { RATING_LABELS, REGION_SHORT_LABELS } from "../../bronze/lib/labels";
 import type { Region } from "../../bronze/types/investor";
@@ -21,7 +22,7 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
         <li key={evaluation.investorId}>
           <button
             type="button"
-            className={`card ${evaluation.emails.length > 0 ? "with-emails" : ""} ${selectedId === evaluation.investorId ? "active" : ""} ${investor?.rating ? `rating-${investor.rating}` : ""}`}
+            className={`card ${passesEveryAspect(evaluation.aspects) ? "passes" : ""} ${selectedId === evaluation.investorId ? "active" : ""} ${investor?.rating ? `rating-${investor.rating}` : ""}`}
             title={investor?.rating ? `Calificación: ${RATING_LABELS[investor.rating]}` : undefined}
             onClick={() => onSelect(evaluation.investorId)}
           >
@@ -66,10 +67,10 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
                   <span className="muted">{investor.emailStatus === "firm_general_mailbox" ? "buzón general" : "email"}</span>
                 </>
               )}
-              {evaluation.emails.length > 0 && (
+              {evaluation.relatedFacts.length > 0 && (
                 <>
                   <span className="separator">·</span>
-                  <span className="muted">{evaluation.emails.length} mails</span>
+                  <span className="muted">{evaluation.relatedFacts.length} hechos</span>
                 </>
               )}
             </div>

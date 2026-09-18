@@ -12,7 +12,7 @@
  * always stores as null: a profile can be fully audited by an agent and still have no human judgement on it.
  */
 import { collection, doc, getDocs, writeBatch, type Firestore } from "firebase/firestore";
-import { COLLECTION, INGEST_MAX_PER_REQUEST, deriveInvestor, describeError, type Investor } from "../types/investor.js";
+import { COLLECTION, INGEST_MAX_PER_REQUEST, RATING_NOTE_FIELDS, deriveInvestor, describeError, type Investor } from "../types/investor.js";
 
 export class IngestError extends Error {
   readonly status: number;
@@ -65,6 +65,8 @@ function prepareSubmission(raw: unknown, now: string): Investor {
   void _ratingNote;
   void _connectionAsked;
   void _updatedAt;
+  // The structured rating note is the team's too: whatever was submitted is dropped and stored as null.
+  for (const field of RATING_NOTE_FIELDS) delete rest[field];
   const { raw: _raw, caps: _caps, total: _total, ...scoreInput } = score;
   void _raw;
   void _caps;
@@ -85,6 +87,7 @@ function prepareSubmission(raw: unknown, now: string): Investor {
     },
     rating: null,
     ratingNote: null,
+    ...Object.fromEntries(RATING_NOTE_FIELDS.map((field) => [field, null])),
     connectionAsked: false,
     updatedAt: now,
   });

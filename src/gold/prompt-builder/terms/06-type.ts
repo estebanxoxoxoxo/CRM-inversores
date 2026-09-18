@@ -16,10 +16,10 @@ export const NOTE_SERVER =
 export const NOTE_HISPANIC =
   "`aspects.spanish` y `aspects.hispanicFounders` van en `null` cuando `region` es `spain`, `mexico` o `spanish_speaking`, y son obligatorios los dos cuando es `us_hispanic` o `out_of_region`.";
 export const NOTE_SOURCES = "`sources` de cada aspecto son URL completas; cuando el aspecto pasa tiene que haber al menos una.";
-export const NOTE_EMAILS =
-  "`emails` no es una opinión: son exactamente 4 cuando pasan todos los aspectos que aplican, y va vacío cuando falla uno. El servidor lo recalcula y rechaza el documento si no coincide.";
+export const NOTE_FACTS =
+  "`relatedFacts` no es una opinión: son entre 3 y 10 cuando pasan todos los aspectos que aplican, y va vacío cuando falla uno. El servidor lo recalcula y rechaza el documento si no coincide.";
 
-export const NOTES = [NOTE_ID, NOTE_SERVER, NOTE_HISPANIC, NOTE_SOURCES, NOTE_EMAILS];
+export const NOTES = [NOTE_ID, NOTE_SERVER, NOTE_HISPANIC, NOTE_SOURCES, NOTE_FACTS];
 
 export const typeBlock = (ctx: PromptContext): string => codeBlock("ts", ctx.typeSource);
 

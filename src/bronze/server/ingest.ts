@@ -57,12 +57,11 @@ function prepareSubmission(raw: unknown, now: string): Investor {
   const audit = (submitted.audit && typeof submitted.audit === "object" ? submitted.audit : {}) as Doc;
   const score = (audit.score && typeof audit.score === "object" ? audit.score : {}) as Doc;
   const contactSources = (submitted.contactSources && typeof submitted.contactSources === "object" ? submitted.contactSources : {}) as Doc;
-  const { level: _level, band: _band, priority: _priority, rating: _rating, ratingNote: _ratingNote, connectionAsked: _connectionAsked, updatedAt: _updatedAt, ...rest } = submitted;
+  const { level: _level, band: _band, priority: _priority, rating: _rating, connectionAsked: _connectionAsked, updatedAt: _updatedAt, ...rest } = submitted;
   void _level;
   void _band;
   void _priority;
   void _rating;
-  void _ratingNote;
   void _connectionAsked;
   void _updatedAt;
   // The structured rating note is the team's too: whatever was submitted is dropped and stored as null.
@@ -86,7 +85,6 @@ function prepareSubmission(raw: unknown, now: string): Investor {
       score: { thesis: 0, stage: 0, decision: 0, spanish: 0, access: 0, ...scoreInput },
     },
     rating: null,
-    ratingNote: null,
     ...Object.fromEntries(RATING_NOTE_FIELDS.map((field) => [field, null])),
     connectionAsked: false,
     updatedAt: now,

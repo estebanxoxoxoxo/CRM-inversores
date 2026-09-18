@@ -15,7 +15,7 @@ export interface InvestorsSnapshot {
 /** Writes the team's rating with its structured note (or clears both with null). The subscription reflects the change. */
 export async function setRating(id: string, rating: Rating | null, fields: Record<RatingNoteField, string>): Promise<void> {
   try {
-    // The note belongs to the rating: withdrawing the rating withdraws it too. The legacy `ratingNote` is left alone.
+    // The note belongs to the rating: withdrawing the rating withdraws it too.
     const note = Object.fromEntries(RATING_NOTE_FIELDS.map((field) => [field, rating === null ? null : fields[field].trim() || null]));
     await updateDoc(doc(getDb(), COLLECTION, id), { rating, updatedAt: new Date().toISOString(), ...note });
   } catch (e) {

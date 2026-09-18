@@ -34,8 +34,7 @@ documento: Puesto (`ratingNoteRole`), VC (`ratingNoteVc`), Tamaño del fondo (`r
 Ubicación (`ratingNoteLocation`) y Notas (`ratingNoteNotes`). Se guardan junto con la calificación y se muestran en
 negrita arriba de todo en la ficha, justo debajo de la cabecera, tanto en Bronce como en Gold, una línea por campo con
 contenido. La nota pertenece a la calificación, así que descalificar también la borra, y el endpoint de ingesta deja
-los nueve campos siempre en `null`. La nota libre vieja, `ratingNote`, ya no se escribe pero se sigue mostrando al
-final del bloque hasta que se migre. Se guarda en `rating` del documento (`approved`, `doubtful`, `rejected`, `filler` o `null`), es la única
+los nueve campos siempre en `null`. Se guarda en `rating` del documento (`approved`, `doubtful`, `rejected`, `filler` o `null`), es la única
 escritura que hace la app y se refleja en vivo: borde de 3px en la tarjeta del listado (verde, azul oscuro, rojo, gris
 oscuro), badge en la ficha y primer grupo de filtros. El endpoint de ingesta siempre deja `rating` en `null`; los
 perfiles calificados como desaprobado o relleno no se usan como ejemplos en el prompt.

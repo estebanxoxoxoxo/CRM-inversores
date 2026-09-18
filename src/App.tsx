@@ -136,11 +136,11 @@ export default function App() {
     ) : listsState.status === "ready" ? (
       selectedList ? (
         <>
-          <strong>{listProfiles.length}</strong> perfiles en {selectedList.name}
+          <strong>{listProfiles.length}</strong> {listProfiles.length === 1 ? "perfil" : "perfiles"} en {selectedList.name}
         </>
       ) : (
         <>
-          <strong>{lists.length}</strong> listas
+          <strong>{lists.length}</strong> {lists.length === 1 ? "lista" : "listas"}
         </>
       )
     ) : listsState.status === "error" ? (

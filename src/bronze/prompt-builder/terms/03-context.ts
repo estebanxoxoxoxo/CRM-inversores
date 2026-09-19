@@ -29,7 +29,7 @@ export const REGIONS = [
   "México (`region` = `mexico`): partners, GPs, principals y angels radicados en México.",
   "Mundo árabe (`region` = `out_of_region`, porque no es un país hispanohablante): partners, GPs, principals y angels hispanohablantes con fondos del Golfo.",
   "Entidades cristianas protestantes conservadoras de Estados Unidos (veta dentro del ámbito hispanohablante, no un ámbito aparte): partners, GPs, principals y angels ligados a entidades cristianas conservadoras de Texas, Florida, Nuevo México, Nevada, Utah, Colorado, Luisiana, Alabama, Georgia, Carolina del Sur, Carolina del Norte y Arkansas que además hablen español e inviertan en fundadores hispanohablantes. Se les exige lo mismo que al resto del ámbito estadounidense: sin español verificable y sin evidencia de que trabajen con fundadores hispanohablantes, no entran. La afiliación religiosa sólo se registra si la entidad la declara o la persona lo dijo en público.",
-  "Fuera de región (`region` = `out_of_region`): cualquier país que no habla español (Reino Unido, Alemania, Canadá, Emiratos…). Estados Unidos no va acá: los perfiles estadounidenses son `us_hispanic`, incluidos los de las entidades cristianas conservadoras. Sólo para encajes excepcionales, por ejemplo un español en Londres con la tesis exacta, y diciéndolo explícitamente.",
+  "Fuera de región (`region` = `out_of_region`): cualquier país que no habla español (Reino Unido, Alemania, Canadá, Emiratos…). Estados Unidos no va acá: los perfiles estadounidenses son `us_hispanic`,  incluidos los de las entidades cristianas conservadoras. Sólo para encajes excepcionales, por ejemplo un español en Londres con la tesis exacta, y diciéndolo explícitamente.",
 ];
 
 export const objective = (count: number): string =>

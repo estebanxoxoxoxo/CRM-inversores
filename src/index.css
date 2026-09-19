@@ -1094,10 +1094,6 @@ textarea {
   overflow-wrap: anywhere;
 }
 
-/* Listas: the section has no detail panel, and its left panel picks a list instead of filtering. */
-.layout-lists {
-  grid-template-columns: 250px 1fr;
-}
 .option-pick {
   width: 100%;
   background: none;

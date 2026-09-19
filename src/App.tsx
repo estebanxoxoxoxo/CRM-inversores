@@ -203,8 +203,8 @@ export default function App() {
             <GoldDetail entry={selectedEntry} selectedId={goldState.status === "ready" ? selectedId : null} onClose={close} />
           </div>
         ) : (
-          // Listas has no detail panel: choosing a profile opens its Bronce ficha, where everything about it lives.
-          <div className="layout layout-lists">
+          // Listas mirrors the other sections: the same full Bronce detail opens beside the members.
+          <div className="layout">
             <ListsPanel lists={lists} counts={listCounts} selectedId={selectedListId} onSelect={setSelectedListId} />
             <main className="results">
               {listsState.status === "loading" ? (
@@ -216,9 +216,15 @@ export default function App() {
               ) : !listProfiles.length ? (
                 <p className="empty">Esta lista todavía no tiene perfiles asignados.</p>
               ) : (
-                <InvestorList investors={listProfiles} selectedId={null} onSelect={(id) => go("bronze", id)} />
+                <InvestorList investors={listProfiles} selectedId={selectedId} onSelect={select} />
               )}
             </main>
+            <InvestorDetail
+              investor={selectedList ? (listProfiles.find((investor) => investor.id === selectedId) ?? null) : null}
+              selectedId={listsState.status === "ready" && selectedList ? selectedId : null}
+              onClose={close}
+              goldBadge={selectedEntry ? <GoldBadge evaluation={selectedEntry.evaluation} /> : null}
+            />
           </div>
         )}
       </div>

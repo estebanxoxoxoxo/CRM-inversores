@@ -11,9 +11,10 @@ export const NOTES_INTRO = "Notas para armar cada objeto:";
 export const NOTE_ID = "`id`: slug del nombre en minúsculas, sin acentos, con guiones (por ejemplo `mar-hershenson`).";
 export const NOTE_DERIVED = "No envíes `level`, `band`, `priority`, `score.raw`, `score.caps`, `score.total` ni `updatedAt`: los calcula el servidor. Si los enviás, se ignoran.";
 export const NOTE_RATING =
-  "No envíes `rating` ni ningún campo `ratingNote*` (`ratingNoteRole`, `ratingNoteVc`, `ratingNoteFundSize`, `ratingNoteTicket`, " +
-  "`ratingNoteLinkedin`, `ratingNoteEmail`, `ratingNoteVcWebsite`, `ratingNoteLocation`, `ratingNoteNotes`): son el veredicto del equipo y la nota " +
-  "estructurada que lo acompaña, los pone una persona desde la aplicación y el servidor los deja en `null`. Que tu auditoría esté completa no lo " +
+  "No envíes `rating`, ningún campo `ratingNote*` (`ratingNoteRole`, `ratingNoteVc`, `ratingNoteFundSize`, `ratingNoteTicket`, " +
+  "`ratingNoteLinkedin`, `ratingNoteEmail`, `ratingNoteVcWebsite`, `ratingNoteLocation`, `ratingNoteNotes`) ni ninguna de las tres dimensiones de " +
+  "calificación (`ratingLanguageAccess`, `ratingProductFit`, `ratingGeoCapacity`): son el veredicto del equipo, la nota estructurada que lo acompaña y las " +
+  "dimensiones humanas que lo complementan, los pone una persona desde la aplicación y el servidor los deja en `null`. Que tu auditoría esté completa no lo " +
   "cambia: son dos ejes distintos.";
 export const NOTE_CONNECTION =
   "No envíes `connectionAsked`: es el estado de conexión del equipo con el inversor, lo pone una persona desde la aplicación y el servidor lo deja en `false`.";

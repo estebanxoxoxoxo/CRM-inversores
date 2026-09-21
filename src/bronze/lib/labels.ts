@@ -1,5 +1,5 @@
 /** Spanish UI labels for the English codes of the investor type. Everything the user reads about an investor comes from here. */
-import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type ConnectionState, type EmailStatus, type InvestorType, type Rating, type RatingNoteField, type Region } from "../types/investor";
+import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type ConnectionState, type EmailStatus, type InvestorType, type Rating, type RatingDimension, type RatingLevel, type RatingNoteField, type Region } from "../types/investor";
 
 export const RATING_LABELS: Record<Rating, string> = {
   approved: "Aprobado",
@@ -21,13 +21,48 @@ export const RATING_NOTE_LABELS: Record<RatingNoteField, string> = {
   ratingNoteNotes: "Notas",
 };
 
+/** One label per qualification dimension: the dimension names, only shown in the rating dialog. */
+export const RATING_DIMENSION_LABELS: Record<RatingDimension, string> = {
+  ratingLanguageAccess: "Acceso por idioma",
+  ratingProductFit: "Fit producto/tesis",
+  ratingGeoCapacity: "Capacidad de inversión por geografía",
+};
+
+/** The options each dimension offers in its select, in order top to bottom. Geography omits "Bajo"; a null document value shows as `none` ("Nulo/a"). */
+/** Generic one-word level labels, used only as a fallback for a stored value a dimension no longer offers (e.g. geo "low"). */
+export const RATING_LEVEL_LABELS: Record<RatingLevel, string> = { none: "Nulo/a", low: "Bajo", medium: "Medio", high: "Alto", max: "Máximo" };
+
+export const RATING_DIMENSION_OPTIONS: Record<RatingDimension, { value: RatingLevel; label: string }[]> = {
+  ratingLanguageAccess: [
+    { value: "none", label: "Nulo/a" },
+    { value: "low", label: "Bajo - De 1 a 3 integrantes del equipo hablan español" },
+    { value: "medium", label: "Medio - 50% del equipo habla español" },
+    { value: "high", label: "Alto - Más del 75% del equipo habla español" },
+    { value: "max", label: "Máximo - Equipo completo habla español" },
+  ],
+  ratingProductFit: [
+    { value: "none", label: "Nulo/a" },
+    { value: "low", label: "Bajo - Agnóstico" },
+    { value: "medium", label: "Medio - IA aplicada a SaaS" },
+    { value: "high", label: "Alto - Algunas deep y otras IA aplicada a SaaS" },
+    { value: "max", label: "Máximo - Inversiones muy deep y relacionadas" },
+  ],
+  ratingGeoCapacity: [
+    { value: "none", label: "Nulo/a" },
+    { value: "low", label: "Bajo - Muy improbable" },
+    { value: "medium", label: "Medio - Puede invertir en USA, pero no está claro cuánto" },
+    { value: "high", label: "Alto - De fuera de América, pero con muchas inversiones en USA" },
+    { value: "max", label: "Máximo - Inversor del continente americano" },
+  ],
+};
+
 export const CONNECTION_LABELS: Record<ConnectionState, string> = {
   requested: "Conexión pedida",
   accepted: "Conexión aceptada",
 };
 export const CONNECTION_NONE_LABEL = "Ninguno";
 
-/** Value used by the filters for investors without a rating. */
+/** Value used by the filters for investors without a rating. The label also names the empty level of every dimension. */
 export const UNRATED = "unrated";
 export const UNRATED_LABEL = "Sin calificar";
 

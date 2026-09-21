@@ -19,7 +19,8 @@
  * - `rating` is the team's verdict on the profile and the only human gate: set from the app, it stays null however
  *   complete the audit is. Agent audit and human verdict are two different axes; do not read one as the other. The
  *   nine `ratingNote*` fields (`RATING_NOTE_FIELDS`) are the structured note written with it: they belong to the
- *   rating, so clearing the rating clears them.
+ *   rating, so clearing the rating clears them. The three qualification dimensions (`RATING_DIMENSIONS`) are set from
+ *   the same dialog but do not belong to the rating: clearing the rating leaves them as they were.
  * - `connectionAsked` is the team's connection state with the investor, set from the app: `false` (no action yet),
  *   `"requested"` or `"accepted"`. The ingest endpoint always stores it as `false`.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
@@ -67,6 +68,15 @@ export const RATING_NOTE_FIELDS = [
   "ratingNoteNotes",
 ] as const;
 export type RatingNoteField = (typeof RATING_NOTE_FIELDS)[number];
+
+/** Level of a qualification dimension, from lowest to highest. A `null` document value shows as `none` in the UI. */
+export const RATING_LEVELS = ["none", "low", "medium", "high", "max"] as const;
+export const RatingLevelSchema = z.enum(RATING_LEVELS);
+export type RatingLevel = z.infer<typeof RatingLevelSchema>;
+
+/** The qualification dimensions, in the order the dialog asks for them. */
+export const RATING_DIMENSIONS = ["ratingLanguageAccess", "ratingProductFit", "ratingGeoCapacity"] as const;
+export type RatingDimension = (typeof RATING_DIMENSIONS)[number];
 
 /** Connection state with the investor, set from the app. `false` means no connection action yet. */
 export const CONNECTION_STATES = ["requested", "accepted"] as const;
@@ -211,6 +221,14 @@ export const InvestorSchema = z.object({
   ratingNoteVcWebsite: z.string().nullable().default(null),
   ratingNoteLocation: z.string().nullable().default(null),
   ratingNoteNotes: z.string().nullable().default(null),
+  /**
+   * The human qualification dimensions (`RATING_DIMENSIONS`), one level each, set from the app. They are independent
+   * of the legacy `rating`: clearing the rating does not clear them, they survive it. The ingest endpoint always
+   * stores them as null.
+   */
+  ratingLanguageAccess: RatingLevelSchema.nullable().default(null),
+  ratingProductFit: RatingLevelSchema.nullable().default(null),
+  ratingGeoCapacity: RatingLevelSchema.nullable().default(null),
   /** Connection state set from the app: false (none), "requested" or "accepted". */
   connectionAsked: ConnectionAskedSchema.default(false),
   /** ISO timestamp of the last write. */

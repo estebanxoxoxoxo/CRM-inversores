@@ -704,6 +704,10 @@ textarea {
   align-self: flex-start;
 }
 /* The note written with the rating: the first thing read in the detail, in both sections. */
+.post-meeting-caveat {
+  margin: 8px 0 0;
+  font-style: italic;
+}
 .rating-note {
   margin: 12px 0 0;
   font-weight: 700;
@@ -868,6 +872,29 @@ textarea {
 .rating-note-grid input,
 .rating-note-grid textarea {
   width: 100%;
+  font-weight: 400;
+  background: var(--panel);
+  color: inherit;
+  font-family: inherit;
+}
+/* The rating dimensions stack vertically: each label on its own line above a full-width select. */
+.rating-level-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 12px 0 8px;
+  font-weight: 600;
+}
+.rating-level-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.rating-level-list select {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
   font-weight: 400;
   background: var(--panel);
   color: inherit;

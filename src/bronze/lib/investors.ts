@@ -3,7 +3,7 @@
  * Derived values are recomputed on read. Documents that fail validation are reported, not silently dropped.
  */
 import { collection, doc, onSnapshot, updateDoc, type Unsubscribe } from "firebase/firestore";
-import { COLLECTION, RATING_NOTE_FIELDS, deriveInvestor, describeError, type ConnectionAsked, type Investor, type Rating, type RatingNoteField } from "../types/investor";
+import { COLLECTION, RATING_NOTE_FIELDS, deriveInvestor, describeError, type ConnectionAsked, type Investor, type Rating, type RatingDimension, type RatingLevel, type RatingNoteField } from "../types/investor";
 import { DataError, MISSING_FIREBASE, toDataError, type InvalidDocument } from "../../lib/data";
 import { getDb, isFirebaseConfigured } from "../../lib/firebase";
 
@@ -12,12 +12,15 @@ export interface InvestorsSnapshot {
   invalid: InvalidDocument[];
 }
 
-/** Writes the team's rating with its structured note (or clears both with null). The subscription reflects the change. */
-export async function setRating(id: string, rating: Rating | null, fields: Record<RatingNoteField, string>): Promise<void> {
+/**
+ * Writes the team's rating with its structured note (or clears both with null) and the three qualification dimensions,
+ * which are written as given whatever the rating is. The subscription reflects the change.
+ */
+export async function setRating(id: string, rating: Rating | null, fields: Record<RatingNoteField, string>, dimensions: Record<RatingDimension, RatingLevel | null>): Promise<void> {
   try {
-    // The note belongs to the rating: withdrawing the rating withdraws it too.
+    // The note belongs to the rating: withdrawing the rating withdraws it too. The dimensions do not: they survive it.
     const note = Object.fromEntries(RATING_NOTE_FIELDS.map((field) => [field, rating === null ? null : fields[field].trim() || null]));
-    await updateDoc(doc(getDb(), COLLECTION, id), { rating, updatedAt: new Date().toISOString(), ...note });
+    await updateDoc(doc(getDb(), COLLECTION, id), { rating, updatedAt: new Date().toISOString(), ...note, ...dimensions });
   } catch (e) {
     const error = toDataError(e, COLLECTION);
     throw new DataError(`No se pudo guardar la calificación de ${id}.`, error.help || error.message);

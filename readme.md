@@ -40,6 +40,14 @@ escritura que hace la app y se refleja en vivo: borde de 3px en la tarjeta del l
 oscuro), badge en la ficha y primer grupo de filtros. El endpoint de ingesta siempre deja `rating` en `null`; los
 perfiles calificados como desaprobado o relleno no se usan como ejemplos en el prompt.
 
+El mismo diálogo tiene además tres dimensiones de calificación humana, cada una con un nivel —Nulo/a (`none`), Bajo
+(`low`), Medio (`medium`), Alto (`high`) o Máximo (`max`)— y descripciones propias por dimensión: Acceso por idioma
+(`ratingLanguageAccess`), Fit producto/tesis (`ratingProductFit`) y Capacidad de inversión por geografía
+(`ratingGeoCapacity`), esta última sin Bajo. Ya no hay opción "Sin calificar": un valor `null` en la base se muestra
+como Nulo/a y al guardar siempre se escribe un nivel concreto. Se guardan en la misma escritura que la calificación y
+conviven con ella, que es a la que van a reemplazar; a diferencia de la nota, no le pertenecen: Descalificar no las
+borra. Sólo se ven y se editan en el diálogo, en ningún otro lado. El endpoint de ingesta siempre las deja en `null`.
+
 Al lado izquierdo de "Calificar perfil", el botón "Conexión" abre un diálogo con Conexión pedida, Conexión aceptada y
 Ninguno. Se guarda en `connectionAsked` del documento (`false`, `"requested"` o `"accepted"`) y se ve centrado arriba
 de la tarjeta en el listado. El endpoint de ingesta siempre deja `connectionAsked` en `false`.

@@ -9,6 +9,7 @@ import ConnectionDialog from "../../bronze/components/ConnectionDialog";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import RatingDialog from "../../bronze/components/RatingDialog";
 import { Badge } from "../../components/Badge";
+import { PostMeetingCaveat } from "../../components/PostMeetingCaveat";
 import { RatingNote } from "../../components/RatingNote";
 import { Linkified, Section } from "../../components/DetailParts";
 import AssignListsDialog from "../../lists/components/AssignListsDialog";
@@ -106,6 +107,7 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
       </header>
 
       <RatingNote investor={investor} />
+      <PostMeetingCaveat />
 
       {investor && (
         <div className="contact">

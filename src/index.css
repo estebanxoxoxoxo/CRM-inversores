@@ -814,6 +814,9 @@ textarea {
 /* The rating dialog carries the nine fields of the note, so it is a bit wider than the rest. */
 .dialog.rating-dialog {
   width: min(520px, 92vw);
+  /* Not screen-centred: the popup's centre sits on the first (left) third, so the profile stays readable on the right. */
+  margin-left: max(12px, calc(33.333vw - min(260px, 46vw)));
+  margin-right: auto;
 }
 .dialog::backdrop {
   background: var(--backdrop);

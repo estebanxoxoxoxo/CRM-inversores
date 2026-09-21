@@ -18,8 +18,11 @@ import { useLists } from "./lists/context/lists";
 import { SectionContext, navigationFromHash, navigationToHash, type Navigation, type Section } from "./context/section";
 import { applyFilters, filtersFromUrl, filtersToUrl, type Filters } from "./bronze/lib/filters";
 import { EMPTY_GOLD_FILTERS, applyGoldFilters, joinGold, type GoldFilters } from "./gold/lib/filters";
-import { listMembers } from "./lists/lib/lists";
-import type { List } from "./lists/types/list";
+import ListRatingDialog from "./lists/components/ListRatingDialog";
+import { childLists, listMembers, ratingByInvestor } from "./lists/lib/lists";
+import { LIST_PARENTS, LIST_PARENT_LABELS, type List } from "./lists/types/list";
+import { RATING_DIMENSION_LABELS, RATING_DIMENSION_OPTIONS, RATING_LABELS, RATING_LEVEL_LABELS } from "./bronze/lib/labels";
+import { RATING_DIMENSIONS } from "./bronze/types/investor";
 import type { DataError, InvalidDocument } from "./lib/data";
 
 function DataNotices({ error, invalid }: { error: DataError | null; invalid: InvalidDocument[] }) {
@@ -55,24 +58,64 @@ interface ListsPanelProps {
   onSelect: (id: string) => void;
 }
 
-/** Left panel of the Listas section: one row per list, with how many of its profiles are still in the base. */
+/**
+ * Left panel of the Listas section: the two fixed parents as headings, each with its child lists (name, how many of
+ * its profiles are still in the base, and a dot in the list's rating colour). A muted line when a parent has no lists.
+ */
 function ListsPanel({ lists, counts, selectedId, onSelect }: ListsPanelProps) {
   return (
     <aside className="filters">
-      <fieldset className="group">
-        <legend>Listas</legend>
-        {lists.length ? (
-          lists.map((list) => (
-            <button key={list.id} type="button" className={`option option-pick ${list.id === selectedId ? "current" : ""}`} onClick={() => onSelect(list.id)}>
-              <span className="option-label">{list.name}</span>
-              <span className="option-count">{counts.get(list.id) ?? 0}</span>
-            </button>
-          ))
-        ) : (
-          <p className="muted small">Todavía no hay listas: crealas desde 'Gestionar listas' en la cabecera.</p>
-        )}
-      </fieldset>
+      {LIST_PARENTS.map((parent) => {
+        const children = childLists(lists, parent);
+        return (
+          <fieldset key={parent} className="group">
+            <legend>{LIST_PARENT_LABELS[parent]}</legend>
+            {children.length ? (
+              children.map((list) => (
+                <button
+                  key={list.id}
+                  type="button"
+                  className={`option option-pick ${list.id === selectedId ? "current" : ""}`}
+                  title={list.rating ? `Calificación: ${RATING_LABELS[list.rating]}` : "Sin calificar"}
+                  onClick={() => onSelect(list.id)}
+                >
+                  <span className={`list-dot ${list.rating ? `rating-${list.rating}` : "rating-none"}`} aria-hidden="true" />
+                  <span className="option-label">{list.name}</span>
+                  <span className="option-count">{counts.get(list.id) ?? 0}</span>
+                </button>
+              ))
+            ) : (
+              <p className="muted small">Todavía no hay listas en esta categoría.</p>
+            )}
+          </fieldset>
+        );
+      })}
     </aside>
+  );
+}
+
+/** One line summarising a list's qualification: its rating badge (or "Sin calificar") and the label of each set dimension. */
+function ListRatingSummary({ list }: { list: List }) {
+  const dimensions = RATING_DIMENSIONS.map((dimension) => {
+    const value = list[dimension];
+    if (!value || value === "none") return null;
+    const option = RATING_DIMENSION_OPTIONS[dimension].find((o) => o.value === value);
+    return { name: RATING_DIMENSION_LABELS[dimension], value: option ? option.label : RATING_LEVEL_LABELS[value] };
+  }).filter((entry): entry is { name: string; value: string } => entry !== null);
+  return (
+    <div className="list-rating-summary">
+      {list.rating ? <div className={`list-rating-value rating-${list.rating}`}>{RATING_LABELS[list.rating]}</div> : <div className="list-rating-value list-rating-unset">Sin calificar</div>}
+      {dimensions.length > 0 && (
+        <dl className="list-rating-dims">
+          {dimensions.map((entry) => (
+            <div key={entry.name} className="list-rating-dim">
+              <dt>{entry.name}</dt>
+              <dd>{entry.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+    </div>
   );
 }
 
@@ -83,6 +126,7 @@ export default function App() {
   const [navigation, setNavigation] = useState<Navigation>(() => navigationFromHash());
   // Which list is open: the section's own selection, next to the profile the hash carries and independent of it.
   const [selectedListId, setSelectedListId] = useState<string | null>(null);
+  const [listsView, setListsView] = useState<"gold" | "bronze">("gold");
   const [filters, setFilters] = useState<Filters>(() => filtersFromUrl());
   const [goldFilters, setGoldFilters] = useState<GoldFilters>(EMPTY_GOLD_FILTERS);
 
@@ -99,6 +143,9 @@ export default function App() {
   const { status, investors, invalid, error } = investorsState;
   const { section, selectedId } = navigation;
 
+  // Each newly opened profile in the Listas tab starts on the Gold view (the default).
+  useEffect(() => setListsView("gold"), [selectedId]);
+
   const visible = useMemo(() => applyFilters(investors, filters), [investors, filters]);
   const pending = useMemo(() => investors.filter((investor) => investor.audit.status === "pending").length, [investors]);
   const selected = useMemo(() => investors.find((investor) => investor.id === selectedId) ?? null, [investors, selectedId]);
@@ -108,6 +155,8 @@ export default function App() {
   const selectedEntry = useMemo(() => entries.find((entry) => entry.evaluation.investorId === selectedId) ?? null, [entries, selectedId]);
 
   const { lists } = listsState;
+  // The rating each profile inherits from its list, for the card borders in every section.
+  const listRating = useMemo(() => ratingByInvestor(listsState.lists), [listsState.lists]);
   const listCounts = useMemo(() => new Map(lists.map((list) => [list.id, listMembers(list, investors).length])), [lists, investors]);
   const selectedList = useMemo(() => lists.find((list) => list.id === selectedListId) ?? null, [lists, selectedListId]);
   const listProfiles = useMemo(() => (selectedList ? listMembers(selectedList, investors) : []), [selectedList, investors]);
@@ -185,7 +234,11 @@ export default function App() {
           <div className="layout">
             <FiltersPanel filters={filters} onChange={setFilters} investors={investors} />
             <main className="results">
-              {status === "loading" ? <p className="empty">Cargando desde Firestore…</p> : <InvestorList investors={visible} selectedId={selectedId} onSelect={select} />}
+              {status === "loading" ? (
+                <p className="empty">Cargando desde Firestore…</p>
+              ) : (
+                <InvestorList investors={visible} selectedId={selectedId} onSelect={select} ratingByInvestor={listRating} />
+              )}
             </main>
             <InvestorDetail
               investor={selected}
@@ -198,7 +251,11 @@ export default function App() {
           <div className="layout">
             <GoldFiltersPanel filters={goldFilters} onChange={setGoldFilters} entries={entries} />
             <main className="results">
-              {goldState.status === "loading" ? <p className="empty">Cargando evaluaciones…</p> : <GoldList entries={visibleGold} selectedId={selectedId} onSelect={select} />}
+              {goldState.status === "loading" ? (
+                <p className="empty">Cargando evaluaciones…</p>
+              ) : (
+                <GoldList entries={visibleGold} selectedId={selectedId} onSelect={select} ratingByInvestor={listRating} />
+              )}
             </main>
             <GoldDetail entry={selectedEntry} selectedId={goldState.status === "ready" ? selectedId : null} onClose={close} />
           </div>
@@ -213,18 +270,41 @@ export default function App() {
                 <p className="empty">Todavía no hay listas: creá la primera desde 'Gestionar listas' en la cabecera.</p>
               ) : !selectedList ? (
                 <p className="empty">Elegí una lista.</p>
-              ) : !listProfiles.length ? (
-                <p className="empty">Esta lista todavía no tiene perfiles asignados.</p>
               ) : (
-                <InvestorList investors={listProfiles} selectedId={selectedId} onSelect={select} />
+                <>
+                  <div className="list-rating-bar">
+                    <ListRatingDialog list={selectedList} />
+                    <ListRatingSummary list={selectedList} />
+                  </div>
+                  {listProfiles.length ? (
+                    <InvestorList investors={listProfiles} selectedId={selectedId} onSelect={select} ratingByInvestor={listRating} />
+                  ) : (
+                    <p className="empty">Esta lista todavía no tiene perfiles asignados.</p>
+                  )}
+                </>
               )}
             </main>
-            <InvestorDetail
-              investor={selectedList ? (listProfiles.find((investor) => investor.id === selectedId) ?? null) : null}
-              selectedId={listsState.status === "ready" && selectedList ? selectedId : null}
-              onClose={close}
-              goldBadge={selectedEntry ? <GoldBadge evaluation={selectedEntry.evaluation} /> : null}
-            />
+            {(() => {
+              const listInvestor = selectedList ? (listProfiles.find((investor) => investor.id === selectedId) ?? null) : null;
+              const listSelectedId = listsState.status === "ready" && selectedList ? selectedId : null;
+              // The Listas detail defaults to Gold and toggles to Bronce in place, occupying the same panel.
+              const toggle = (label: string, to: "gold" | "bronze") => (
+                <button type="button" className="secondary" onClick={() => setListsView(to)}>
+                  {label}
+                </button>
+              );
+              return listsView === "gold" ? (
+                <GoldDetail entry={selectedEntry} selectedId={listSelectedId} onClose={close} viewToggle={listSelectedId ? toggle("Ver en Bronce", "bronze") : null} />
+              ) : (
+                <InvestorDetail
+                  investor={listInvestor}
+                  selectedId={listSelectedId}
+                  onClose={close}
+                  goldBadge={selectedEntry ? <GoldBadge evaluation={selectedEntry.evaluation} /> : null}
+                  viewToggle={listSelectedId ? toggle("Ver en Gold", "gold") : null}
+                />
+              );
+            })()}
           </div>
         )}
       </div>

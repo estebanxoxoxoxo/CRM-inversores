@@ -453,7 +453,8 @@ textarea {
   width: 100%;
   accent-color: var(--accent);
 }
-.option input[type="checkbox"] {
+.option input[type="checkbox"],
+.option input[type="radio"] {
   accent-color: var(--accent);
 }
 
@@ -1164,6 +1165,102 @@ textarea {
 .list-row-name {
   flex: 1;
   overflow-wrap: anywhere;
+}
+/* Parent category select in the create form, beside the name input. */
+.list-create select {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--panel);
+  color: inherit;
+  font: inherit;
+}
+/* Each parent's block of lists in the "Gestionar listas" dialog. */
+.list-group {
+  margin-top: 8px;
+}
+/* A dot in the Listas panel, in the list's rating colour; hollow when the list has no rating. */
+.list-dot {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: transparent;
+}
+.list-dot.rating-approved {
+  border-color: var(--rating-approved);
+  background: var(--rating-approved);
+}
+.list-dot.rating-doubtful {
+  border-color: var(--rating-doubtful);
+  background: var(--rating-doubtful);
+}
+.list-dot.rating-rejected {
+  border-color: var(--rating-rejected);
+  background: var(--rating-rejected);
+}
+.list-dot.rating-filler {
+  border-color: var(--rating-filler);
+  background: var(--rating-filler);
+}
+/* The qualification bar above the members of the selected list: the Calificar button and a one-line summary. */
+.list-rating-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.list-rating-bar > button {
+  width: 100%;
+}
+/* The list rating as a full-width block below the button, same width, coloured by the rating. */
+.list-rating-value {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 10px;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  font-weight: 600;
+}
+.list-rating-value.list-rating-unset {
+  background: var(--panel-hover);
+  color: var(--muted);
+}
+.list-rating-value.rating-approved { background: var(--rating-approved-bg); color: var(--rating-approved); }
+.list-rating-value.rating-doubtful { background: var(--rating-doubtful-bg); color: var(--rating-doubtful); }
+.list-rating-value.rating-rejected { background: var(--rating-rejected-bg); color: var(--rating-rejected); }
+.list-rating-value.rating-filler { background: var(--rating-filler-bg); color: var(--rating-filler); }
+.list-rating-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+}
+.list-rating-dims {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  width: 100%;
+}
+.list-rating-dim {
+  display: grid;
+  grid-template-columns: minmax(0, auto) 1fr;
+  gap: 4px 10px;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--panel-hover);
+}
+.list-rating-dim dt {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.list-rating-dim dd {
+  margin: 0;
+  color: var(--muted);
 }
 
 @media (max-width: 1100px) {

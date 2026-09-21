@@ -1,5 +1,5 @@
 import { BAND_CLASS, BAND_LABELS, CONFIDENCE_LABELS, INVESTOR_TYPE_LABELS, RATING_LABELS, REGION_SHORT_LABELS } from "../lib/labels";
-import type { Investor } from "../types/investor";
+import type { Investor, Rating } from "../types/investor";
 import { Badge } from "../../components/Badge";
 import { ConnectionChip } from "../../components/ConnectionChip";
 import { LevelBadge } from "./LevelBadge";
@@ -8,20 +8,24 @@ interface Props {
   investors: Investor[];
   selectedId: string | null;
   onSelect: (id: string) => void;
+  /** The rating each profile inherits from the list it belongs to. Absent means the profile is in no rated list: no border. */
+  ratingByInvestor: Map<string, Rating>;
 }
 
-export default function InvestorList({ investors, selectedId, onSelect }: Props) {
+export default function InvestorList({ investors, selectedId, onSelect, ratingByInvestor }: Props) {
   if (!investors.length) return <p className="empty">Ningún perfil coincide con los filtros.</p>;
   return (
     <ul className="list">
-      {investors.map((investor) => (
-        <li key={investor.id}>
-          <button
-            type="button"
-            className={`card ${selectedId === investor.id ? "active" : ""} ${investor.rating ? `rating-${investor.rating}` : ""}`}
-            title={investor.rating ? `Calificación: ${RATING_LABELS[investor.rating]}` : undefined}
-            onClick={() => onSelect(investor.id)}
-          >
+      {investors.map((investor) => {
+        const rating = ratingByInvestor.get(investor.id);
+        return (
+          <li key={investor.id}>
+            <button
+              type="button"
+              className={`card ${selectedId === investor.id ? "active" : ""} ${rating ? `rating-${rating}` : ""}`}
+              title={rating ? `Calificación: ${RATING_LABELS[rating]}` : undefined}
+              onClick={() => onSelect(investor.id)}
+            >
             <div className="card-line1">
               <span className="card-line1-side">
                 <LevelBadge level={investor.level} band={investor.band} />
@@ -61,9 +65,10 @@ export default function InvestorList({ investors, selectedId, onSelect }: Props)
                 </>
               )}
             </div>
-          </button>
-        </li>
-      ))}
+            </button>
+          </li>
+        );
+      })}
     </ul>
   );
 }

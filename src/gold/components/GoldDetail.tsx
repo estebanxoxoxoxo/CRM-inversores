@@ -1,13 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { useSection } from "../../context/section";
 import { copyText } from "../../lib/clipboard";
 import { ASPECT_KEYS, aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
-import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, RATING_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
+import { BAND_CLASS, BAND_LABELS, EMAIL_STATUS_LABELS, REGION_LABELS } from "../../bronze/lib/labels";
 import { ASPECT_LABELS } from "../lib/labels";
 import type { Region } from "../../bronze/types/investor";
 import ConnectionDialog from "../../bronze/components/ConnectionDialog";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
-import RatingDialog from "../../bronze/components/RatingDialog";
+import NotesDialog from "../../bronze/components/NotesDialog";
 import { Badge } from "../../components/Badge";
 import { PostMeetingCaveat } from "../../components/PostMeetingCaveat";
 import { RatingNote } from "../../components/RatingNote";
@@ -18,6 +18,8 @@ interface Props {
   entry: GoldEntry | null;
   selectedId: string | null;
   onClose: () => void;
+  /** Optional toggle to switch this panel to the Bronce view in place (used in the Listas tab). */
+  viewToggle?: ReactNode;
 }
 
 const formatDate = (iso: string): string => {
@@ -25,7 +27,7 @@ const formatDate = (iso: string): string => {
   return Number.isNaN(date.getTime()) ? iso : date.toLocaleString("es-AR", { dateStyle: "long", timeStyle: "short" });
 };
 
-export default function GoldDetail({ entry, selectedId, onClose }: Props) {
+export default function GoldDetail({ entry, selectedId, onClose, viewToggle = null }: Props) {
   const { go } = useSection();
   const [copied, setCopied] = useState<string | null>(null);
 
@@ -48,9 +50,12 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
             <p className="detail-subtitle">El perfil "{selectedId}" todavía no tiene documento en gold: entra en el próximo lote.</p>
           </div>
           <div className="detail-actions">
-            <button type="button" className="secondary" onClick={() => go("bronze", selectedId)}>
-              Ver en Bronce
-            </button>
+            {viewToggle}
+            {!viewToggle && (
+              <button type="button" className="secondary" onClick={() => go("bronze", selectedId)}>
+                Ver en Bronce
+              </button>
+            )}
             <button type="button" className="close" onClick={onClose} aria-label="Cerrar">
               ×
             </button>
@@ -84,20 +89,22 @@ export default function GoldDetail({ entry, selectedId, onClose }: Props) {
             <p className="detail-subtitle muted">El perfil ya no está en la colección investors.</p>
           )}
           <p className="detail-badges">
-            {investor?.rating && <Badge className={`rating-${investor.rating}`}>{RATING_LABELS[investor.rating]}</Badge>}
             {investor && <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>}
             <Badge className="neutral">{REGION_LABELS[region as Region] ?? region}</Badge>
           </p>
         </div>
         <div className="detail-actions">
+          {viewToggle}
           {investor && (
             <>
               <ConnectionDialog investor={investor} />
-              <RatingDialog investor={investor} />
+              <NotesDialog investor={investor} />
               <AssignListsDialog investor={investor} />
-              <button type="button" className="secondary" onClick={() => go("bronze", investor.id)} title="Abrir la ficha completa del inversor">
-                Ficha en Bronce
-              </button>
+              {!viewToggle && (
+                <button type="button" className="secondary" onClick={() => go("bronze", investor.id)} title="Abrir la ficha completa del inversor">
+                  Ficha en Bronce
+                </button>
+              )}
             </>
           )}
           <button type="button" className="close" onClick={onClose} aria-label="Cerrar">

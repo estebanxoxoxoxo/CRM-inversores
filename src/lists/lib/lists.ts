@@ -1,13 +1,13 @@
 /**
  * Data access: the app subscribes to the whole `lists` collection and receives every change live. Documents that fail
- * the list schema are reported, not silently dropped. The writes are the three the UI makes: create, delete and
- * membership; `investors` is never touched.
+ * the list schema are reported, not silently dropped. The writes are the four the UI makes: create, delete, membership
+ * (assign to a single list) and the list's qualification; `investors` is never touched.
  */
-import { arrayRemove, arrayUnion, collection, deleteDoc, doc, getDoc, onSnapshot, setDoc, updateDoc, type Unsubscribe } from "firebase/firestore";
+import { arrayRemove, arrayUnion, collection, deleteDoc, doc, getDoc, onSnapshot, setDoc, updateDoc, writeBatch, type Unsubscribe } from "firebase/firestore";
 import { DataError, MISSING_FIREBASE, toDataError, type InvalidDocument } from "../../lib/data";
 import { getDb, isFirebaseConfigured } from "../../lib/firebase";
-import { COLLECTION, ListSchema, NAME_MAX, describeError, slugify, type List } from "../types/list";
-import type { Investor } from "../../bronze/types/investor";
+import { COLLECTION, ListSchema, NAME_MAX, describeError, slugify, type List, type ListParent } from "../types/list";
+import type { Investor, Rating, RatingDimension, RatingLevel } from "../../bronze/types/investor";
 
 export interface ListsSnapshot {
   lists: List[];
@@ -41,10 +41,11 @@ export function subscribeToLists(onChange: (snapshot: ListsSnapshot) => void, on
 }
 
 /**
- * Creates an empty list under the slug of its name and returns the id. Refuses an empty name, one that slugs to
- * nothing and one already taken: the slug is the id, so two lists cannot share it without one overwriting the other.
+ * Creates an empty list under the slug of its name, in the given parent category, and returns the id. Refuses an empty
+ * name, one that slugs to nothing and one already taken: the slug is the id, so two lists cannot share it without one
+ * overwriting the other. The qualification starts null.
  */
-export async function createList(name: string): Promise<string> {
+export async function createList(name: string, parent: ListParent): Promise<string> {
   const trimmed = name.trim();
   if (!trimmed) throw new DataError("La lista necesita un nombre.", "");
   if (trimmed.length > NAME_MAX) throw new DataError(`El nombre no puede pasar de ${NAME_MAX} caracteres.`, "");
@@ -53,7 +54,7 @@ export async function createList(name: string): Promise<string> {
   try {
     const ref = doc(getDb(), COLLECTION, id);
     if ((await getDoc(ref)).exists()) throw new DataError(`Ya existe una lista que se llama "${trimmed}".`, "");
-    await setDoc(ref, { name: trimmed, createdAt: new Date().toISOString(), memberIds: [] });
+    await setDoc(ref, { name: trimmed, createdAt: new Date().toISOString(), parent, memberIds: [], rating: null, ratingLanguageAccess: null, ratingProductFit: null, ratingGeoCapacity: null });
   } catch (e) {
     if (e instanceof DataError) throw e;
     const error = toDataError(e, COLLECTION);
@@ -72,14 +73,60 @@ export async function deleteList(id: string): Promise<void> {
   }
 }
 
-/** Puts one investor in the list or takes it out. Field-level array writes, so two windows never overwrite each other. */
-export async function setMembership(listId: string, investorId: string, member: boolean): Promise<void> {
+/**
+ * Moves one investor into a single list, or out of every list. Single membership: the investor is removed from
+ * whatever list currently holds it (found in `lists`) and, when `listId` is non-null, added to that one. The remove
+ * and the add commit together in one batch, so no window ever sees the profile in two lists at once. Field-level array
+ * writes, so two windows never overwrite each other.
+ */
+export async function assignToList(lists: List[], investorId: string, listId: string | null): Promise<void> {
+  const current = listOfInvestor(lists, investorId);
+  if ((current?.id ?? null) === listId) return; // already where it should be (also covers none → none)
   try {
-    await updateDoc(doc(getDb(), COLLECTION, listId), { memberIds: member ? arrayUnion(investorId) : arrayRemove(investorId) });
+    const batch = writeBatch(getDb());
+    if (current) batch.update(doc(getDb(), COLLECTION, current.id), { memberIds: arrayRemove(investorId) });
+    if (listId) batch.update(doc(getDb(), COLLECTION, listId), { memberIds: arrayUnion(investorId) });
+    await batch.commit();
   } catch (e) {
     const error = toDataError(e, COLLECTION);
-    throw new DataError(member ? `No se pudo agregar el perfil a la lista ${listId}.` : `No se pudo sacar el perfil de la lista ${listId}.`, error.help || error.message);
+    throw new DataError("No se pudo cambiar la lista del perfil.", error.help || error.message);
   }
+}
+
+/**
+ * Writes the list's qualification: its rating (or null to withdraw it) and the three dimensions, which are written as
+ * given whatever the rating is. The list has no note fields, and the rating does not gate the dimensions.
+ */
+export async function setListRating(listId: string, rating: Rating | null, dimensions: Record<RatingDimension, RatingLevel | null>): Promise<void> {
+  try {
+    await updateDoc(doc(getDb(), COLLECTION, listId), { rating, ...dimensions });
+  } catch (e) {
+    const error = toDataError(e, COLLECTION);
+    throw new DataError(`No se pudo guardar la calificación de la lista ${listId}.`, error.help || error.message);
+  }
+}
+
+/** A parent's child lists, sorted by name. */
+export function childLists(lists: List[], parent: ListParent): List[] {
+  return lists.filter((list) => list.parent === parent).sort((a, b) => a.name.localeCompare(b.name));
+}
+
+/** The single list an investor belongs to, or null. Single membership means there is at most one. */
+export function listOfInvestor(lists: List[], investorId: string): List | null {
+  return lists.find((list) => list.memberIds.includes(investorId)) ?? null;
+}
+
+/**
+ * The rating each investor inherits from its list: every list with a non-null rating maps its members to that rating.
+ * Single membership means an investor appears under at most one list, so there is never a conflict.
+ */
+export function ratingByInvestor(lists: List[]): Map<string, Rating> {
+  const map = new Map<string, Rating>();
+  for (const list of lists) {
+    if (!list.rating) continue;
+    for (const id of list.memberIds) map.set(id, list.rating);
+  }
+  return map;
 }
 
 /**

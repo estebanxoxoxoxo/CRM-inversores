@@ -26,31 +26,25 @@ Todos los colores salen de los tokens de `src/index.css`; el bloque oscuro sólo
 sigue al sistema (`prefers-color-scheme`); la pill sol / luna de la cabecera guarda la elección en `localStorage` y la
 aplica antes del primer render (`src/lib/theme.ts`).
 
-## Calificación manual
+## Notas y conexión del perfil
 
-Desde la ficha, "Calificar perfil" abre un diálogo con Aprobado, Dudoso, Desaprobado y Relleno, más "Descalificar" si
-ya tenía una. El diálogo incluye una nota estructurada de nueve campos opcionales, cada uno una propiedad del
-documento: Puesto (`ratingNoteRole`), VC (`ratingNoteVc`), Tamaño del fondo (`ratingNoteFundSize`), Ticket
-(`ratingNoteTicket`), Linkedin (`ratingNoteLinkedin`), Mail (`ratingNoteEmail`), Página del VC (`ratingNoteVcWebsite`),
-Ubicación (`ratingNoteLocation`) y Notas (`ratingNoteNotes`). Se guardan junto con la calificación y se muestran en
-negrita arriba de todo en la ficha, justo debajo de la cabecera, tanto en Bronce como en Gold, una línea por campo con
-contenido. La nota pertenece a la calificación, así que descalificar también la borra, y el endpoint de ingesta deja
-los nueve campos siempre en `null`. Se guarda en `rating` del documento (`approved`, `doubtful`, `rejected`, `filler` o `null`), es la única
-escritura que hace la app y se refleja en vivo: borde de 3px en la tarjeta del listado (verde, azul oscuro, rojo, gris
-oscuro), badge en la ficha y primer grupo de filtros. El endpoint de ingesta siempre deja `rating` en `null`; los
-perfiles calificados como desaprobado o relleno no se usan como ejemplos en el prompt.
+La calificación del equipo ya no vive en el perfil sino en la lista (ver [Listas](#listas)). La ficha conserva dos
+acciones sobre el perfil, en Bronce y en Gold:
 
-El mismo diálogo tiene además tres dimensiones de calificación humana, cada una con un nivel —Nulo/a (`none`), Bajo
-(`low`), Medio (`medium`), Alto (`high`) o Máximo (`max`)— y descripciones propias por dimensión: Acceso por idioma
-(`ratingLanguageAccess`), Fit producto/tesis (`ratingProductFit`) y Capacidad de inversión por geografía
-(`ratingGeoCapacity`), esta última sin Bajo. Ya no hay opción "Sin calificar": un valor `null` en la base se muestra
-como Nulo/a y al guardar siempre se escribe un nivel concreto. Se guardan en la misma escritura que la calificación y
-conviven con ella, que es a la que van a reemplazar; a diferencia de la nota, no le pertenecen: Descalificar no las
-borra. Sólo se ven y se editan en el diálogo, en ningún otro lado. El endpoint de ingesta siempre las deja en `null`.
+- **Notas** abre un diálogo con nueve campos opcionales, cada uno una propiedad del documento: Puesto (`ratingNoteRole`),
+  VC (`ratingNoteVc`), Tamaño del fondo (`ratingNoteFundSize`), Ticket (`ratingNoteTicket`), Linkedin
+  (`ratingNoteLinkedin`), Mail (`ratingNoteEmail`), Página del VC (`ratingNoteVcWebsite`), Ubicación
+  (`ratingNoteLocation`) y Notas (`ratingNoteNotes`). "Guardar" escribe sólo esos nueve campos (más `updatedAt`), nunca
+  la calificación. Se muestran en negrita arriba de todo en la ficha, una línea por campo con contenido. El endpoint de
+  ingesta los deja siempre en `null`.
+- **Conexión** abre un diálogo con Conexión pedida, Conexión aceptada y Ninguno. Se guarda en `connectionAsked` del
+  documento (`false`, `"requested"` o `"accepted"`) y se ve centrado arriba de la tarjeta en el listado. El endpoint de
+  ingesta siempre deja `connectionAsked` en `false`.
 
-Al lado izquierdo de "Calificar perfil", el botón "Conexión" abre un diálogo con Conexión pedida, Conexión aceptada y
-Ninguno. Se guarda en `connectionAsked` del documento (`false`, `"requested"` o `"accepted"`) y se ve centrado arriba
-de la tarjeta en el listado. El endpoint de ingesta siempre deja `connectionAsked` en `false`.
+Los campos `rating` y las tres dimensiones (`ratingLanguageAccess`, `ratingProductFit`, `ratingGeoCapacity`) siguen en
+el tipo y en los datos de `investors` —la ingesta y los perfiles viejos los conservan—, pero la app ya no los edita ni
+los muestra desde el perfil: la calificación es de la lista. El prompt sigue leyendo `rating` para no proponer como
+ejemplos a los perfiles marcados desaprobado o relleno.
 
 ## Buscar más perfiles
 
@@ -121,32 +115,53 @@ más perfiles".
 
 ## Listas
 
-Las listas son agrupaciones que arma el equipo a mano: un nombre ("Inversores ángel", "VC A", "VC B") y los perfiles
-que se le asignan. No derivan de nada ni las escribe ningún agente, y un perfil puede estar en todas las listas que
-haga falta. La pertenencia vive en la lista, nunca en el perfil: esta función no escribe jamás en `investors`.
+Las listas son la unidad de calificación del equipo: cada lista es una **institución** —un VC o, para los ángeles,
+prácticamente una persona (una lista por perfil)— y lleva la calificación. Cuelgan de dos **categorías padre fijas**,
+que no son documentos ni se crean, renombran o borran: `vcs` ("VCs") y `angels` ("Inversores ángeles"). Cada lista
+pertenece a una de las dos (`parent`; los documentos viejos sin `parent` caen en `vcs`).
 
-Tres puntos de contacto:
+Un perfil pertenece a **una sola lista** (pertenencia única): asignarlo a otra lo saca de la anterior en el mismo lote
+(`writeBatch` con `arrayRemove` + `arrayUnion`). La pertenencia vive en la lista, nunca en el perfil: esta función no
+escribe jamás en `investors`.
 
-- **Gestionar listas** — botón de la cabecera, visible en las tres secciones. Abre un diálogo para crear una lista por
-  nombre y para borrar las que ya están, cada una con cuántos perfiles suyos siguen en la base. Borrar una lista borra
-  su documento, y con él sus pertenencias; los perfiles no se tocan.
-- **Asignar a lista** — botón de la ficha, en Bronce y en Gold, al lado de Conexión y Calificar. Una casilla por lista,
-  marcada cuando el perfil está en ella; cada casilla se guarda al tocarla. Si todavía no hay listas, lo avisa.
-- **Pestaña Listas** — tercera sección del selector de la cabecera (`#s=lists`). A la izquierda las listas con su
-  cantidad de perfiles; al centro los perfiles de la elegida, ordenados por nivel como en Bronce. Elegir uno abre su
-  ficha en Bronce.
+La calificación —`rating` (Aprobado, Dudoso, Desaprobado, Relleno o `null`) más las tres dimensiones
+`ratingLanguageAccess`, `ratingProductFit` y `ratingGeoCapacity`— se pone **sobre la lista**, desde la pestaña Listas,
+con "Calificar". Descalificar borra el `rating` pero deja las dimensiones. Los perfiles de una lista heredan su `rating`
+para el borde de 3px de su tarjeta (verde, azul oscuro, rojo, gris oscuro), en Bronce, en Gold y en Listas; un perfil
+sin lista, o en una lista sin calificar, no lleva borde.
 
-Una colección nueva, `lists`, un documento por lista, con el slug del nombre como id (el mismo slug que la ingesta usa
-para los ids de inversor, así que dos nombres que slugueen igual son la misma lista y la creación rechaza el duplicado):
+Puntos de contacto:
+
+- **Gestionar listas** — botón de la cabecera, en las tres secciones. Crea una lista por nombre y categoría (un
+  `<select>` de las dos categorías, `vcs` por defecto) y borra las que ya están, agrupadas bajo las dos categorías con
+  su cantidad de perfiles. Borrar una lista borra su documento y sus pertenencias; los perfiles no se tocan.
+- **Asignar a lista** — botón de la ficha, en Bronce y en Gold. Una única opción (radios) agrupada por categoría, más
+  "Ninguna" arriba; la lista actual viene marcada y se guarda al tocarla.
+- **Pestaña Listas** — tercera sección del selector (`#s=lists`). A la izquierda las dos categorías, cada una con sus
+  listas (nombre, cantidad de perfiles y un punto del color de la calificación); al centro, "Calificar" y una línea con
+  la calificación y las dimensiones de la lista elegida, y sus perfiles ordenados por nivel como en Bronce. Elegir un
+  perfil abre su ficha.
+
+Una colección, `lists`, un documento por lista, con el slug del nombre como id (el mismo slug que la ingesta usa para
+los ids de inversor, así que dos nombres que slugueen igual son la misma lista y la creación rechaza el duplicado):
 
 ```json
-{ "name": "Inversores ángel", "createdAt": "2026-09-18T10:00:00.000Z", "memberIds": ["nombre-apellido", "..."] }
+{
+  "name": "VC A",
+  "createdAt": "2026-09-18T10:00:00.000Z",
+  "parent": "vcs",
+  "memberIds": ["nombre-apellido", "..."],
+  "rating": "approved",
+  "ratingLanguageAccess": "high",
+  "ratingProductFit": "medium",
+  "ratingGeoCapacity": null
+}
 ```
 
-`memberIds` se escribe siempre con `arrayUnion` / `arrayRemove`, así que dos ventanas no se pisan. Un id queda colgado
-cuando el perfil sale de `investors`: sigue en el documento y no molesta, porque todo lo que lo lee lo cruza contra los
-inversores vivos antes de mostrarlo o contarlo. El módulo entero vive en `src/lists/` (`types/list.ts`, `lib/lists.ts`,
-`context/`, `components/`), con la misma forma que las otras dos secciones.
+`memberIds` se escribe con `arrayUnion` / `arrayRemove`, así que dos ventanas no se pisan. Un id queda colgado cuando el
+perfil sale de `investors`: sigue en el documento y no molesta, porque todo lo que lo lee lo cruza contra los inversores
+vivos antes de mostrarlo o contarlo. El módulo entero vive en `src/lists/` (`types/list.ts`, `lib/lists.ts`, `context/`,
+`components/`), con la misma forma que las otras dos secciones.
 
 La colección `lists` hay que habilitarla además de las otras:
 

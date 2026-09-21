@@ -1,7 +1,7 @@
 import { aspectsFor, regionOf, type GoldEntry } from "../lib/filters";
 import { LevelBadge } from "../../bronze/components/LevelBadge";
 import { RATING_LABELS, REGION_SHORT_LABELS } from "../../bronze/lib/labels";
-import type { Region } from "../../bronze/types/investor";
+import type { Rating, Region } from "../../bronze/types/investor";
 import { ConnectionChip } from "../../components/ConnectionChip";
 import { ASPECT_LABELS, ASPECT_SHORT_LABELS } from "../lib/labels";
 
@@ -9,22 +9,26 @@ interface Props {
   entries: GoldEntry[];
   selectedId: string | null;
   onSelect: (id: string) => void;
+  /** The rating each profile inherits from the list it belongs to. Absent means the profile is in no rated list: no border. */
+  ratingByInvestor: Map<string, Rating>;
 }
 
 const regionLabel = (region: string): string => REGION_SHORT_LABELS[region as Region] ?? region;
 
-export default function GoldList({ entries, selectedId, onSelect }: Props) {
+export default function GoldList({ entries, selectedId, onSelect, ratingByInvestor }: Props) {
   if (!entries.length) return <p className="empty">Ninguna evaluación coincide con los filtros.</p>;
   return (
     <ul className="list">
-      {entries.map(({ evaluation, investor }) => (
-        <li key={evaluation.investorId}>
-          <button
-            type="button"
-            className={`card ${selectedId === evaluation.investorId ? "active" : ""} ${investor?.rating ? `rating-${investor.rating}` : ""}`}
-            title={investor?.rating ? `Calificación: ${RATING_LABELS[investor.rating]}` : undefined}
-            onClick={() => onSelect(evaluation.investorId)}
-          >
+      {entries.map(({ evaluation, investor }) => {
+        const rating = ratingByInvestor.get(evaluation.investorId);
+        return (
+          <li key={evaluation.investorId}>
+            <button
+              type="button"
+              className={`card ${selectedId === evaluation.investorId ? "active" : ""} ${rating ? `rating-${rating}` : ""}`}
+              title={rating ? `Calificación: ${RATING_LABELS[rating]}` : undefined}
+              onClick={() => onSelect(evaluation.investorId)}
+            >
             <div className="card-line1">
               <span className="card-line1-side">
                 {investor && <LevelBadge level={investor.level} band={investor.band} />}
@@ -73,9 +77,10 @@ export default function GoldList({ entries, selectedId, onSelect }: Props) {
                 </>
               )}
             </div>
-          </button>
-        </li>
-      ))}
+            </button>
+          </li>
+        );
+      })}
     </ul>
   );
 }

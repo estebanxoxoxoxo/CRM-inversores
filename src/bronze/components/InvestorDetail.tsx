@@ -6,7 +6,6 @@ import {
   CONFIDENCE_LABELS,
   EMAIL_STATUS_LABELS,
   INVESTOR_TYPE_LABELS,
-  RATING_LABELS,
   REGION_LABELS,
   SCORE_DIMENSION_LABELS,
   formatScore,
@@ -20,7 +19,7 @@ import { BulletList, Paragraphs, Section } from "../../components/DetailParts";
 import AssignListsDialog from "../../lists/components/AssignListsDialog";
 import ConnectionDialog from "./ConnectionDialog";
 import { LevelBadge } from "./LevelBadge";
-import RatingDialog from "./RatingDialog";
+import NotesDialog from "./NotesDialog";
 
 interface Props {
   investor: Investor | null;
@@ -28,6 +27,8 @@ interface Props {
   onClose: () => void;
   /** Rendered among the badges: the other section's link to this investor, when it has one. */
   goldBadge?: ReactNode;
+  /** Optional toggle to switch this panel to the Gold view in place (used in the Listas tab). */
+  viewToggle?: ReactNode;
 }
 
 function ScoreBreakdown({ score }: { score: Score }) {
@@ -55,7 +56,7 @@ function ScoreBreakdown({ score }: { score: Score }) {
   );
 }
 
-export default function InvestorDetail({ investor, selectedId, onClose, goldBadge = null }: Props) {
+export default function InvestorDetail({ investor, selectedId, onClose, goldBadge = null, viewToggle = null }: Props) {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
@@ -92,7 +93,6 @@ export default function InvestorDetail({ investor, selectedId, onClose, goldBadg
             {investor.role} · <strong>{investor.firm}</strong> · {investor.baseCity}
           </p>
           <p className="detail-badges">
-            {investor.rating && <Badge className={`rating-${investor.rating}`}>{RATING_LABELS[investor.rating]}</Badge>}
             {goldBadge}
             <Badge className={BAND_CLASS[investor.band]}>{BAND_LABELS[investor.band]}</Badge>
             <Badge className={`confidence-${investor.confidence}`}>Fuentes: {CONFIDENCE_LABELS[investor.confidence]}</Badge>
@@ -103,8 +103,9 @@ export default function InvestorDetail({ investor, selectedId, onClose, goldBadg
           </p>
         </div>
         <div className="detail-actions">
+          {viewToggle}
           <ConnectionDialog investor={investor} />
-          <RatingDialog investor={investor} />
+          <NotesDialog investor={investor} />
           <AssignListsDialog investor={investor} />
           <button type="button" className="close" onClick={onClose} aria-label="Cerrar">
             ×

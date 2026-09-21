@@ -5,7 +5,7 @@ import type { BackupCollection } from "../lib/backup";
 const formatDate = (iso: string): string => new Date(iso).toLocaleString("es-AR", { dateStyle: "medium", timeStyle: "short", hour12: false });
 
 /** What one document of each collection is called in the summary. */
-const UNITS: Record<BackupCollection, string> = { investors: "perfiles", gold: "evaluaciones" };
+const UNITS: Record<BackupCollection, string> = { investors: "perfiles", gold: "evaluaciones", lists: "listas" };
 
 /** "Hacer backup" of one collection, with the date of its latest backup in the bucket. */
 export default function BackupButton({ collection }: { collection: BackupCollection }) {

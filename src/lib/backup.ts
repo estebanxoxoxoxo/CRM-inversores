@@ -1,17 +1,18 @@
 /**
  * Backups of a Firestore collection in the Firebase Storage bucket: one JSON archive per backup under
- * `backups/<collection>/<timestamp>.json`, holding every stored document. Two collections can be backed up,
- * `investors` and `gold`. Shared by the app (backup button), the API (`api/backup.ts`) and the scripts
+ * `backups/<collection>/<timestamp>.json`, holding every stored document. Three collections can be backed up,
+ * `investors`, `gold` and `lists`. Shared by the app (backup button), the API (`api/backup.ts`) and the scripts
  * (`npm run backup`, `npm run restore`). Uses the default Firebase app, which must be initialised first.
  */
 import { collection, getDocs, type Firestore } from "firebase/firestore";
 import { getBytes, getMetadata, getStorage, listAll, ref, uploadBytes, type FullMetadata } from "firebase/storage";
 import { COLLECTION as GOLD_COLLECTION } from "../gold/types/gold.js";
+import { COLLECTION as LISTS_COLLECTION } from "../lists/types/list.js";
 import { COLLECTION as INVESTORS_COLLECTION } from "../bronze/types/investor.js";
 import { sortKeys } from "./json.js";
 
 /** Collections that can be backed up. The first is the default of the API and the scripts. */
-export const BACKUP_COLLECTIONS = [INVESTORS_COLLECTION, GOLD_COLLECTION] as const;
+export const BACKUP_COLLECTIONS = [INVESTORS_COLLECTION, GOLD_COLLECTION, LISTS_COLLECTION] as const;
 export type BackupCollection = (typeof BACKUP_COLLECTIONS)[number];
 export const isBackupCollection = (value: string): value is BackupCollection => (BACKUP_COLLECTIONS as readonly string[]).includes(value);
 

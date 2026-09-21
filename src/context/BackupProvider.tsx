@@ -16,7 +16,7 @@ const endpoint = (collection: BackupCollection): string => `/api/backup?collecti
 
 /** Queries the latest backup of each collection once through /api/backup, and refreshes it after every backup created from the app. */
 export default function BackupProvider({ children }: { children: ReactNode }) {
-  const [collections, setCollections] = useState<Record<BackupCollection, CollectionBackup>>({ investors: INITIAL_COLLECTION_BACKUP, gold: INITIAL_COLLECTION_BACKUP });
+  const [collections, setCollections] = useState<Record<BackupCollection, CollectionBackup>>({ investors: INITIAL_COLLECTION_BACKUP, gold: INITIAL_COLLECTION_BACKUP, lists: INITIAL_COLLECTION_BACKUP });
 
   const patch = useCallback((collection: BackupCollection, changes: Partial<CollectionBackup>) => {
     setCollections((current) => ({ ...current, [collection]: { ...current[collection], ...changes } }));

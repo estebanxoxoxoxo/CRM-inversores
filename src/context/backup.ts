@@ -21,7 +21,7 @@ export interface BackupState {
 }
 
 export const BackupContext = createContext<BackupState>({
-  collections: { investors: INITIAL_COLLECTION_BACKUP, gold: INITIAL_COLLECTION_BACKUP },
+  collections: { investors: INITIAL_COLLECTION_BACKUP, gold: INITIAL_COLLECTION_BACKUP, lists: INITIAL_COLLECTION_BACKUP },
   create: async () => false,
 });
 

@@ -223,6 +223,7 @@ export default function App() {
                 <EvaluateMoreButton />
               </>
             )}
+            {section === "lists" && <BackupButton collection="lists" />}
             <ManageListsButton />
             <ThemeSwitch />
           </div>

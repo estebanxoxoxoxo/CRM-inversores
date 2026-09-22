@@ -8,8 +8,9 @@ const noteFieldsOf = (investor: Investor): Record<RatingNoteField, string> =>
   Object.fromEntries(RATING_NOTE_FIELDS.map((field) => [field, investor[field] ?? ""])) as Record<RatingNoteField, string>;
 
 /**
- * "Notas" button with a dialog for the nine structured note fields of a profile. One "Guardar" writes only the notes:
- * the qualification (rating and dimensions) now lives on the list, so this dialog never touches it.
+ * "Notas" button with a dialog for the person-level structured note fields of a profile. One "Guardar" writes only the
+ * notes: the qualification (rating and dimensions) and the institution's business information now live on the list, so
+ * this dialog never touches them.
  */
 export default function NotesDialog({ investor }: { investor: Investor }) {
   const dialogRef = useRef<HTMLDialogElement>(null);
@@ -42,16 +43,12 @@ export default function NotesDialog({ investor }: { investor: Investor }) {
       </button>
       <dialog ref={dialogRef} className="dialog rating-dialog" aria-labelledby="notes-title">
         <h3 id="notes-title">Notas de {investor.name}</h3>
-        <p className="muted small">La nota se ve arriba de todo en la ficha, en Bronce y en Gold, una línea por campo con contenido. La calificación va en la lista, no acá.</p>
+        <p className="muted small">La nota se ve arriba de todo en la ficha, en Bronce y en Gold, una línea por campo con contenido. La calificación y los datos del fondo (tamaño, ticket, página, notas) van en la lista, no acá.</p>
         <div className="rating-note-grid">
           {RATING_NOTE_FIELDS.map((field) => (
             <label key={field} className="rating-note-row">
               <span>{RATING_NOTE_LABELS[field]}</span>
-              {field === "ratingNoteNotes" ? (
-                <textarea rows={3} value={fields[field]} disabled={saving} onChange={(e) => setFields((current) => ({ ...current, [field]: e.target.value }))} />
-              ) : (
-                <input type="text" value={fields[field]} disabled={saving} onChange={(e) => setFields((current) => ({ ...current, [field]: e.target.value }))} />
-              )}
+              <input type="text" value={fields[field]} disabled={saving} onChange={(e) => setFields((current) => ({ ...current, [field]: e.target.value }))} />
             </label>
           ))}
         </div>

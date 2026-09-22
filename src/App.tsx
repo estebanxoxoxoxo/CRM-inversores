@@ -19,6 +19,7 @@ import { SectionContext, navigationFromHash, navigationToHash, type Navigation, 
 import { applyFilters, filtersFromUrl, filtersToUrl, type Filters } from "./bronze/lib/filters";
 import { EMPTY_GOLD_FILTERS, applyGoldFilters, joinGold, type GoldFilters } from "./gold/lib/filters";
 import ListRatingDialog from "./lists/components/ListRatingDialog";
+import ListInfo from "./lists/components/ListInfo";
 import { childLists, listMembers, ratingByInvestor } from "./lists/lib/lists";
 import { LIST_PARENTS, LIST_PARENT_LABELS, type List } from "./lists/types/list";
 import { RATING_DIMENSION_LABELS, RATING_DIMENSION_OPTIONS, RATING_LABELS, RATING_LEVEL_LABELS } from "./bronze/lib/labels";
@@ -277,6 +278,7 @@ export default function App() {
                     <ListRatingDialog list={selectedList} />
                     <ListRatingSummary list={selectedList} />
                   </div>
+                  <ListInfo list={selectedList} />
                   {listProfiles.length ? (
                     <InvestorList investors={listProfiles} selectedId={selectedId} onSelect={select} ratingByInvestor={listRating} />
                   ) : (

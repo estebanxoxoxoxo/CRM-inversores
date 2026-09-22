@@ -6,7 +6,7 @@
 import { arrayRemove, arrayUnion, collection, deleteDoc, doc, getDoc, onSnapshot, setDoc, updateDoc, writeBatch, type Unsubscribe } from "firebase/firestore";
 import { DataError, MISSING_FIREBASE, toDataError, type InvalidDocument } from "../../lib/data";
 import { getDb, isFirebaseConfigured } from "../../lib/firebase";
-import { COLLECTION, ListSchema, NAME_MAX, describeError, slugify, type List, type ListParent } from "../types/list";
+import { COLLECTION, LIST_INFO_FIELDS, ListSchema, NAME_MAX, describeError, slugify, type List, type ListInfoField, type ListParent } from "../types/list";
 import type { Investor, Rating, RatingDimension, RatingLevel } from "../../bronze/types/investor";
 
 export interface ListsSnapshot {
@@ -54,7 +54,7 @@ export async function createList(name: string, parent: ListParent): Promise<stri
   try {
     const ref = doc(getDb(), COLLECTION, id);
     if ((await getDoc(ref)).exists()) throw new DataError(`Ya existe una lista que se llama "${trimmed}".`, "");
-    await setDoc(ref, { name: trimmed, createdAt: new Date().toISOString(), parent, memberIds: [], rating: null, ratingLanguageAccess: null, ratingProductFit: null, ratingGeoCapacity: null });
+    await setDoc(ref, { name: trimmed, createdAt: new Date().toISOString(), parent, memberIds: [], rating: null, ratingLanguageAccess: null, ratingProductFit: null, ratingGeoCapacity: null, fundSize: null, ticket: null, website: null, notes: null });
   } catch (e) {
     if (e instanceof DataError) throw e;
     const error = toDataError(e, COLLECTION);
@@ -103,6 +103,20 @@ export async function setListRating(listId: string, rating: Rating | null, dimen
   } catch (e) {
     const error = toDataError(e, COLLECTION);
     throw new DataError(`No se pudo guardar la calificación de la lista ${listId}.`, error.help || error.message);
+  }
+}
+
+/**
+ * Writes the list's business information (`LIST_INFO_FIELDS`), each trimmed to null when empty. It touches nothing
+ * else: this is the institution's fund size, ticket, page and notes, independent of the qualification.
+ */
+export async function setListInfo(listId: string, fields: Record<ListInfoField, string>): Promise<void> {
+  try {
+    const info = Object.fromEntries(LIST_INFO_FIELDS.map((field) => [field, fields[field].trim() || null]));
+    await updateDoc(doc(getDb(), COLLECTION, listId), info);
+  } catch (e) {
+    const error = toDataError(e, COLLECTION);
+    throw new DataError(`No se pudo guardar la información de la lista ${listId}.`, error.help || error.message);
   }
 }
 

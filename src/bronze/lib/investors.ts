@@ -13,8 +13,9 @@ export interface InvestorsSnapshot {
 }
 
 /**
- * Writes only the nine structured note fields of a profile, each trimmed to null when empty, plus `updatedAt`. It does
- * not touch the rating or the qualification dimensions: the qualification lives on the list now, not the profile.
+ * Writes only the person-level structured note fields of a profile (`RATING_NOTE_FIELDS`), each trimmed to null when
+ * empty, plus `updatedAt`. It does not touch the rating, the qualification dimensions or the institution's business
+ * information: those live on the list now, not the profile.
  */
 export async function setNotes(id: string, fields: Record<RatingNoteField, string>): Promise<void> {
   try {

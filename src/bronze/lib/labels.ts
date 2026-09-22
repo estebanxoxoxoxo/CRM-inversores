@@ -8,17 +8,13 @@ export const RATING_LABELS: Record<Rating, string> = {
   filler: "Relleno",
 };
 
-/** One label per field of the structured rating note, in the dialog and in the block at the top of the detail. */
+/** One label per person-level field of the structured note, in the dialog and in the block at the top of the detail. */
 export const RATING_NOTE_LABELS: Record<RatingNoteField, string> = {
   ratingNoteRole: "Puesto",
   ratingNoteVc: "VC",
-  ratingNoteFundSize: "Tamaño del fondo",
-  ratingNoteTicket: "Ticket",
   ratingNoteLinkedin: "Linkedin",
   ratingNoteEmail: "Mail",
-  ratingNoteVcWebsite: "Página del VC",
   ratingNoteLocation: "Ubicación",
-  ratingNoteNotes: "Notas",
 };
 
 /** One label per qualification dimension: the dimension names, only shown in the rating dialog. */

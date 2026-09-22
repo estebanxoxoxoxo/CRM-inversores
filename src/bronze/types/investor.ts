@@ -18,9 +18,10 @@
  * - `confidence` rates the sources, not the fit.
  * - `rating` is the team's verdict on the profile and the only human gate: set from the app, it stays null however
  *   complete the audit is. Agent audit and human verdict are two different axes; do not read one as the other. The
- *   nine `ratingNote*` fields (`RATING_NOTE_FIELDS`) are the structured note written with it: they belong to the
- *   rating, so clearing the rating clears them. The three qualification dimensions (`RATING_DIMENSIONS`) are set from
- *   the same dialog but do not belong to the rating: clearing the rating leaves them as they were.
+ *   person-level `ratingNote*` fields (`RATING_NOTE_FIELDS`) are the structured note written from the app. Four
+ *   institution-level fields that once sat here (fund size, ticket, VC page, notes) moved to the list and stay only
+ *   as legacy columns. The three qualification dimensions (`RATING_DIMENSIONS`) are set from the same dialog but do
+ *   not belong to the rating: clearing the rating leaves them as they were.
  * - `connectionAsked` is the team's connection state with the investor, set from the app: `false` (no action yet),
  *   `"requested"` or `"accepted"`. The ingest endpoint always stores it as `false`.
  * - Enum values are stable English codes. Spanish labels for the UI live in `src/lib/labels.ts`.
@@ -55,17 +56,18 @@ export const RATINGS = ["approved", "doubtful", "rejected", "filler"] as const;
 export const RatingSchema = z.enum(RATINGS);
 export type Rating = z.infer<typeof RatingSchema>;
 
-/** The fields of the structured rating note, in the order the dialog asks for them and the detail prints them. */
+/**
+ * The person-level fields of the structured note, in the order the dialog asks for them and the detail prints them.
+ * The institution-level fields (fund size, ticket, VC page, notes) used to live here too; they moved to the list
+ * (`LIST_INFO_FIELDS` in `src/lists/types/list.ts`), so they are no longer part of this array and no longer show or
+ * are edited on the profile. Their columns stay in the schema below as tolerated legacy so the stored values survive.
+ */
 export const RATING_NOTE_FIELDS = [
   "ratingNoteRole",
   "ratingNoteVc",
-  "ratingNoteFundSize",
-  "ratingNoteTicket",
   "ratingNoteLinkedin",
   "ratingNoteEmail",
-  "ratingNoteVcWebsite",
   "ratingNoteLocation",
-  "ratingNoteNotes",
 ] as const;
 export type RatingNoteField = (typeof RATING_NOTE_FIELDS)[number];
 
@@ -209,8 +211,11 @@ export const InvestorSchema = z.object({
   /** Manual team rating from the app (approved / doubtful / rejected / filler); null until someone rates it. */
   rating: RatingSchema.nullable().default(null),
   /**
-   * The structured breakdown of the rating note (`RATING_NOTE_FIELDS`), one flat field per line of the block, written
-   * by a person from the app. They live and die with `rating`; the ingest endpoint always stores them as null.
+   * The structured breakdown of the note, written by a person from the app; the ingest endpoint always stores them as
+   * null. The person-level lines (`RATING_NOTE_FIELDS`) are what the dialog edits and the detail prints. The four
+   * institution-level columns (`ratingNoteFundSize`, `ratingNoteTicket`, `ratingNoteVcWebsite`, `ratingNoteNotes`)
+   * moved to the list (`LIST_INFO_FIELDS`): they are no longer edited or shown here and stay only as tolerated legacy
+   * so the stored values are not lost. Do not add them back to `RATING_NOTE_FIELDS`.
    */
   ratingNoteRole: z.string().nullable().default(null),
   ratingNoteVc: z.string().nullable().default(null),

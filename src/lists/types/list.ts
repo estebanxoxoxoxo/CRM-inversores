@@ -26,6 +26,21 @@ export type ListParent = (typeof LIST_PARENTS)[number];
 /** Spanish UI labels for the parent codes. */
 export const LIST_PARENT_LABELS: Record<ListParent, string> = { vcs: "VCs", angels: "Inversores ángeles" };
 
+/**
+ * The institution's business information, moved here from the profile because it describes the institution, not the
+ * person: fund size, typical ticket, page and free notes. Free text, in the order the block shows them. Shown under
+ * the qualification, before the members.
+ */
+export const LIST_INFO_FIELDS = ["fundSize", "ticket", "website", "notes"] as const;
+export type ListInfoField = (typeof LIST_INFO_FIELDS)[number];
+/** Spanish UI labels for the info fields. */
+export const LIST_INFO_LABELS: Record<ListInfoField, string> = {
+  fundSize: "Tamaño del fondo",
+  ticket: "Ticket",
+  website: "Página del VC",
+  notes: "Notas",
+};
+
 export const ListSchema = z.object({
   name: z.string().min(1).max(NAME_MAX),
   /** ISO timestamp, set when the list is created. */
@@ -43,6 +58,14 @@ export const ListSchema = z.object({
   ratingLanguageAccess: RatingLevelSchema.nullable().default(null),
   ratingProductFit: RatingLevelSchema.nullable().default(null),
   ratingGeoCapacity: RatingLevelSchema.nullable().default(null),
+  /**
+   * The institution's business information (`LIST_INFO_FIELDS`), one flat field each, set from the Listas tab. Free
+   * text, null until filled. They describe the institution, so they live on the list, not on the member profiles.
+   */
+  fundSize: z.string().nullable().default(null),
+  ticket: z.string().nullable().default(null),
+  website: z.string().nullable().default(null),
+  notes: z.string().nullable().default(null),
 });
 
 /** One list as the app reads it: the stored document plus the id of the document it was read from. */

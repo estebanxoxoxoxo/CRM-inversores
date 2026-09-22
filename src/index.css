@@ -1263,6 +1263,52 @@ textarea {
   color: var(--muted);
 }
 
+/* The institution's business information, between the qualification and the members. */
+.list-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 12px 0;
+}
+.list-info-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+.list-info-head h4 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+.list-info-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  width: 100%;
+}
+.list-info-field {
+  display: grid;
+  grid-template-columns: minmax(0, auto) 1fr;
+  gap: 4px 10px;
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--panel-hover);
+}
+.list-info-field dt {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.list-info-field dd {
+  margin: 0;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.list-info-field.list-info-notes {
+  grid-template-columns: 1fr;
+  gap: 2px;
+}
+
 @media (max-width: 1100px) {
   .layout {
     grid-template-columns: 230px 1fr;

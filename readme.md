@@ -31,12 +31,13 @@ aplica antes del primer render (`src/lib/theme.ts`).
 La calificación del equipo ya no vive en el perfil sino en la lista (ver [Listas](#listas)). La ficha conserva dos
 acciones sobre el perfil, en Bronce y en Gold:
 
-- **Notas** abre un diálogo con nueve campos opcionales, cada uno una propiedad del documento: Puesto (`ratingNoteRole`),
-  VC (`ratingNoteVc`), Tamaño del fondo (`ratingNoteFundSize`), Ticket (`ratingNoteTicket`), Linkedin
-  (`ratingNoteLinkedin`), Mail (`ratingNoteEmail`), Página del VC (`ratingNoteVcWebsite`), Ubicación
-  (`ratingNoteLocation`) y Notas (`ratingNoteNotes`). "Guardar" escribe sólo esos nueve campos (más `updatedAt`), nunca
-  la calificación. Se muestran en negrita arriba de todo en la ficha, una línea por campo con contenido. El endpoint de
-  ingesta los deja siempre en `null`.
+- **Notas** abre un diálogo con cinco campos opcionales de la persona, cada uno una propiedad del documento: Puesto
+  (`ratingNoteRole`), VC (`ratingNoteVc`), Linkedin (`ratingNoteLinkedin`), Mail (`ratingNoteEmail`) y Ubicación
+  (`ratingNoteLocation`). "Guardar" escribe sólo esos cinco campos (más `updatedAt`), nunca la calificación. Se muestran
+  en negrita arriba de todo en la ficha, una línea por campo con contenido. El endpoint de ingesta los deja siempre en
+  `null`. Los datos de la institución (tamaño del fondo, ticket, página y notas) ya no están acá: viven en la lista (ver
+  [Listas](#listas)). Sus columnas `ratingNoteFundSize`, `ratingNoteTicket`, `ratingNoteVcWebsite` y `ratingNoteNotes`
+  siguen en el esquema como legado tolerado para no perder lo ya cargado, pero no se editan ni se muestran en la ficha.
 - **Conexión** abre un diálogo con Conexión pedida, Conexión aceptada y Ninguno. Se guarda en `connectionAsked` del
   documento (`false`, `"requested"` o `"accepted"`) y se ve centrado arriba de la tarjeta en el listado. El endpoint de
   ingesta siempre deja `connectionAsked` en `false`.
@@ -138,9 +139,10 @@ Puntos de contacto:
 - **Asignar a lista** — botón de la ficha, en Bronce y en Gold. Una única opción (radios) agrupada por categoría, más
   "Ninguna" arriba; la lista actual viene marcada y se guarda al tocarla.
 - **Pestaña Listas** — tercera sección del selector (`#s=lists`). A la izquierda las dos categorías, cada una con sus
-  listas (nombre, cantidad de perfiles y un punto del color de la calificación); al centro, "Calificar" y una línea con
-  la calificación y las dimensiones de la lista elegida, y sus perfiles ordenados por nivel como en Bronce. Elegir un
-  perfil abre su ficha.
+  listas (nombre, cantidad de perfiles y un punto del color de la calificación); al centro, "Calificar" con la
+  calificación y las dimensiones de la lista elegida, debajo el bloque "Datos del fondo" (tamaño del fondo, ticket,
+  página y notas, con su botón "Editar"), y debajo sus perfiles ordenados por nivel como en Bronce. Elegir un perfil
+  abre su ficha.
 
 Una colección, `lists`, un documento por lista, con el slug del nombre como id (el mismo slug que la ingesta usa para
 los ids de inversor, así que dos nombres que slugueen igual son la misma lista y la creación rechaza el duplicado):
@@ -154,9 +156,17 @@ los ids de inversor, así que dos nombres que slugueen igual son la misma lista 
   "rating": "approved",
   "ratingLanguageAccess": "high",
   "ratingProductFit": "medium",
-  "ratingGeoCapacity": null
+  "ratingGeoCapacity": null,
+  "fundSize": "100M",
+  "ticket": "1M-3M",
+  "website": "https://vc-a.com/",
+  "notes": "Muy deep. Invierte en Europa y EE. UU."
 }
 ```
+
+La calificación (`rating` y las tres dimensiones) y la información de la institución (`fundSize`, `ticket`, `website`,
+`notes`, texto libre) viven en la lista, no en los perfiles: describen a la institución, y cada perfil hereda la
+calificación de su lista para el borde de su tarjeta. `setListInfo` escribe sólo esos cuatro campos de información.
 
 `memberIds` se escribe con `arrayUnion` / `arrayRemove`, así que dos ventanas no se pisan. Un id queda colgado cuando el
 perfil sale de `investors`: sigue en el documento y no molesta, porque todo lo que lo lee lo cruza contra los inversores

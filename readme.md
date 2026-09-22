@@ -125,10 +125,11 @@ Un perfil pertenece a **una sola lista** (pertenencia única): asignarlo a otra 
 (`writeBatch` con `arrayRemove` + `arrayUnion`). La pertenencia vive en la lista, nunca en el perfil: esta función no
 escribe jamás en `investors`.
 
-La calificación —`rating` (Aprobado, Dudoso, Desaprobado, Relleno o `null`) más las tres dimensiones
-`ratingLanguageAccess`, `ratingProductFit` y `ratingGeoCapacity`— se pone **sobre la lista**, desde la pestaña Listas,
-con "Calificar". Descalificar borra el `rating` pero deja las dimensiones. Los perfiles de una lista heredan su `rating`
-para el borde de 3px de su tarjeta (verde, azul oscuro, rojo, gris oscuro), en Bronce, en Gold y en Listas; un perfil
+La calificación —`rating` (Excelente, Bueno, Dudoso, Relleno, Desaprobado o `null`; códigos `excellent`, `approved`,
+`doubtful`, `filler`, `rejected`) más las tres dimensiones `ratingLanguageAccess`, `ratingProductFit` y
+`ratingGeoCapacity`— se pone **sobre la lista**, desde la pestaña Listas, con "Calificar". Descalificar borra el `rating`
+pero deja las dimensiones. Los perfiles de una lista heredan su `rating` para el borde de 3px de su tarjeta (dorado,
+verde, azul oscuro, gris oscuro, rojo), en Bronce, en Gold y en Listas; un perfil
 sin lista, o en una lista sin calificar, no lleva borde.
 
 Puntos de contacto:

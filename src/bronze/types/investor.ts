@@ -50,9 +50,14 @@ export const InvestorTypeSchema = z.enum(["institutional_vc", "business_angel", 
 export const EmailStatusSchema = z.enum(["public_verified", "public_sourced", "firm_general_mailbox", "inferred_pattern", "not_found"]);
 export const CapSchema = z.enum(["thesis_below_6", "thesis_below_10", "no_check_writer", "requires_traction"]);
 
-/** The team's verdict, set by a person from the app. `null` means no human has judged the profile yet, whatever
- * its audit says. This is the human gate; `audit.status` is not. */
-export const RATINGS = ["approved", "doubtful", "rejected", "filler"] as const;
+/**
+ * The team's verdict, set by a person from the app. `null` means no human has judged the profile yet, whatever its
+ * audit says. This is the human gate; `audit.status` is not. Five levels, best to worst: "excellent" (Excelente, gold),
+ * "approved" (Bueno, green), "doubtful" (Dudoso, blue), "filler" (Relleno, grey), "rejected" (Desaprobado, red). The
+ * order here drives the order of the buttons and filters. The stored codes are stable: "excellent" was added later, so
+ * older documents only ever carry the other four.
+ */
+export const RATINGS = ["excellent", "approved", "doubtful", "filler", "rejected"] as const;
 export const RatingSchema = z.enum(RATINGS);
 export type Rating = z.infer<typeof RatingSchema>;
 

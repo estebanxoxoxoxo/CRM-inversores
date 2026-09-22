@@ -35,6 +35,8 @@
   --confidence-low-bg: #fef2f2;
   --neutral: #374151;
   --neutral-bg: #f3f4f6;
+  --rating-excellent: #a16207;
+  --rating-excellent-bg: #fef3c7;
   --rating-approved: #16a34a;
   --rating-approved-bg: #dcfce7;
   --rating-doubtful: #1e3a8a;
@@ -100,6 +102,8 @@
   --confidence-low-bg: #3f1d1d;
   --neutral: #d1d5db;
   --neutral-bg: #262c35;
+  --rating-excellent: #fbbf24;
+  --rating-excellent-bg: #33280a;
   --rating-approved: #22c55e;
   --rating-approved-bg: #12351f;
   --rating-doubtful: #60a5fa;
@@ -159,6 +163,8 @@
     --confidence-low-bg: #3f1d1d;
     --neutral: #d1d5db;
     --neutral-bg: #262c35;
+    --rating-excellent: #fbbf24;
+    --rating-excellent-bg: #33280a;
     --rating-approved: #22c55e;
     --rating-approved-bg: #12351f;
     --rating-doubtful: #60a5fa;
@@ -489,12 +495,16 @@ textarea {
   background: var(--accent-soft);
 }
 /* Team rating: 3px border, padding reduced by 2px so the card keeps its size */
+.card.rating-excellent,
 .card.rating-approved,
 .card.rating-doubtful,
 .card.rating-rejected,
 .card.rating-filler {
   border-width: 3px;
   padding: 7px 9px;
+}
+.card.rating-excellent {
+  border-color: var(--rating-excellent);
 }
 .card.rating-approved {
   border-color: var(--rating-approved);
@@ -606,6 +616,10 @@ textarea {
   background: var(--neutral-bg);
   color: var(--neutral);
   font-weight: 500;
+}
+.badge.rating-excellent {
+  background: var(--rating-excellent-bg);
+  color: var(--rating-excellent);
 }
 .badge.rating-approved {
   background: var(--rating-approved-bg);
@@ -918,6 +932,9 @@ textarea {
   color: var(--text);
   font-weight: 600;
 }
+.rating-option.rating-excellent {
+  border-color: var(--rating-excellent);
+}
 .rating-option.rating-approved {
   border-color: var(--rating-approved);
 }
@@ -1188,6 +1205,10 @@ textarea {
   border: 1px solid var(--border);
   background: transparent;
 }
+.list-dot.rating-excellent {
+  border-color: var(--rating-excellent);
+  background: var(--rating-excellent);
+}
 .list-dot.rating-approved {
   border-color: var(--rating-approved);
   background: var(--rating-approved);
@@ -1228,6 +1249,7 @@ textarea {
   background: var(--panel-hover);
   color: var(--muted);
 }
+.list-rating-value.rating-excellent { background: var(--rating-excellent-bg); color: var(--rating-excellent); }
 .list-rating-value.rating-approved { background: var(--rating-approved-bg); color: var(--rating-approved); }
 .list-rating-value.rating-doubtful { background: var(--rating-doubtful-bg); color: var(--rating-doubtful); }
 .list-rating-value.rating-rejected { background: var(--rating-rejected-bg); color: var(--rating-rejected); }

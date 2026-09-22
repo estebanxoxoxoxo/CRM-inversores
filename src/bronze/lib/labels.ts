@@ -2,10 +2,11 @@
 import { BAND_THRESHOLDS, CAP_RULES, SCORE_TOTAL_MAX, SCORE_WEIGHTS, type ScoreDimension, type Band, type Cap, type Confidence, type ConnectionState, type EmailStatus, type InvestorType, type Rating, type RatingDimension, type RatingLevel, type RatingNoteField, type Region } from "../types/investor";
 
 export const RATING_LABELS: Record<Rating, string> = {
-  approved: "Aprobado",
+  excellent: "Excelente",
+  approved: "Bueno",
   doubtful: "Dudoso",
-  rejected: "Desaprobado",
   filler: "Relleno",
+  rejected: "Desaprobado",
 };
 
 /** One label per person-level field of the structured note, in the dialog and in the block at the top of the detail. */

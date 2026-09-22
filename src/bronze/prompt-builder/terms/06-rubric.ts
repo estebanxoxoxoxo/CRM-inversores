@@ -9,8 +9,8 @@ import type { Term } from "../types/term";
 export const INTRO =
   "Cada perfil lleva una puntuación en `audit.score` y un motivo en `audit.reason` que explique el nivel en términos absolutos: " +
   "encaje y reservas. La auditoría es tuya, no del equipo: la escribís vos al terminar la investigación. " +
-  'Si está completa (motivo redactado y las cinco dimensiones puntuadas), `audit.status` va en `"reviewed"`; ' +
-  '`"pending"` es sólo para un perfil que dejás a medias, y hace que el nivel no muestre banda ni prioridad. ' +
+  'Va completa o no va: `audit.status` se envía siempre en `"reviewed"` (motivo redactado y las cinco dimensiones puntuadas), ' +
+  "porque el endpoint sólo acepta auditorías completas; un perfil a medias no se envía. " +
   "El veredicto del equipo es otra cosa y vive en `rating`, que vos nunca enviás y queda en `null` hasta que una persona lo emita.";
 
 export const scale = (): string =>

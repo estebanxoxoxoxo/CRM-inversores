@@ -20,7 +20,7 @@ export const NOTE_CONNECTION =
   "No envíes `connectionAsked`: es el estado de conexión del equipo con el inversor, lo pone una persona desde la aplicación y el servidor lo deja en `false`.";
 export const NOTE_AUDIT =
   '`audit`: `{ "status": "reviewed", "date": "AAAA-MM-DD", "reason": "...", "score": { "thesis": n, "stage": n, "decision": n, "spanish": n, "access": n } }`. ' +
-  'El estado es `"reviewed"` cuando tu auditoría está completa, que es lo normal; `"pending"` sólo si la dejás a medias, y entonces el perfil queda sin banda ni prioridad.';
+  'El estado va siempre en `"reviewed"`: el endpoint sólo acepta auditorías completas (motivo redactado y las cinco puntuaciones), así que un perfil a medias no se envía.';
 export const NOTE_TEXT = "Las listas son arrays de strings. `background` y `deepResearch` son texto con párrafos separados por líneas en blanco.";
 export const NOTE_URLS = "`linkedin` y `personalWebsite`: URL completa o cadena vacía. `email`: dirección o cadena vacía, coherente con `emailStatus`.";
 

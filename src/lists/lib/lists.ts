@@ -7,7 +7,12 @@ import { arrayRemove, arrayUnion, collection, deleteDoc, doc, getDoc, onSnapshot
 import { DataError, MISSING_FIREBASE, toDataError, type InvalidDocument } from "../../lib/data";
 import { getDb, isFirebaseConfigured } from "../../lib/firebase";
 import { COLLECTION, LIST_INFO_FIELDS, ListSchema, NAME_MAX, describeError, slugify, type List, type ListInfoField, type ListParent } from "../types/list";
-import type { Investor, Rating, RatingDimension, RatingLevel } from "../../bronze/types/investor";
+import { RATINGS, type Investor, type Rating, type RatingDimension, type RatingLevel } from "../../bronze/types/investor";
+
+/** Panel order of the ratings: best (excellent) to worst (rejected), by their position in `RATINGS`. */
+const RATING_ORDER: Record<Rating, number> = Object.fromEntries(RATINGS.map((rating, index) => [rating, index])) as Record<Rating, number>;
+/** A list's rank for the panel: its rating's position, or last of all when it has no rating. */
+const ratingRank = (list: List): number => (list.rating ? RATING_ORDER[list.rating] : RATINGS.length);
 
 export interface ListsSnapshot {
   lists: List[];
@@ -120,9 +125,9 @@ export async function setListInfo(listId: string, fields: Record<ListInfoField, 
   }
 }
 
-/** A parent's child lists, sorted by name. */
+/** A parent's child lists, best-rated first (Excelente → Desaprobado), unrated last, ties broken by name. */
 export function childLists(lists: List[], parent: ListParent): List[] {
-  return lists.filter((list) => list.parent === parent).sort((a, b) => a.name.localeCompare(b.name));
+  return lists.filter((list) => list.parent === parent).sort((a, b) => ratingRank(a) - ratingRank(b) || a.name.localeCompare(b.name));
 }
 
 /** The single list an investor belongs to, or null. Single membership means there is at most one. */

@@ -8,9 +8,9 @@ export const IMPORTANCE =
   "para nuestro proyecto es absoluto. Tenemos un stack IA-nativo que funciona un 90% mejor que los stacks actuales operados con IA " +
   "(le faltan unos meses para lanzar una demo para inversores) y un harness de desarrollo con nube de agentes, con una propuesta " +
   "muy superadora, del que en un mes vamos a tener una versión para mostrar a inversores. " +
-  "No tenes que hacer absolutamente nada en el repo. Tenes que dedicar muchisisimo tiempo y " +
- "esfuerzo para lograr esta tarea empujando al endpoint la cantidad de perfiles pedido, que se ajusten totalmente a lo buscado y " +  
- "siempre respetando el tipo requerido"
+  "No tenes que hacer absolutamente nada en el repo ni tocar la base de datos: solo examiná y empujá perfiles al endpoint. " +
+  "Tenes que dedicar muchisisimo tiempo y esfuerzo a esta tarea: buscá la cantidad de perfiles pedida sólo si cada perfil " +
+  "se ajusta totalmente a lo buscado, siempre respetando el tipo requerido.";
 
 export const PAST_EXPERIENCE = "Nos pasó en el pasado que los inversores buscaban usuarios o que les dejáramos todo servido. Necesitamos inversores deep tech y/o dev tools.";
 

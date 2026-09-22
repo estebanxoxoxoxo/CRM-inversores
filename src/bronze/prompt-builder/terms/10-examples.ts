@@ -20,10 +20,13 @@ export const isExample = (investor: Investor): boolean =>
 
 export const selectExamples = (investors: Investor[]): Investor[] => investors.filter(isExample);
 
-/** The profile as JSON, without the write timestamp. */
+/**
+ * The profile as JSON, without the write timestamp and without the team's fields (`rating`, every `ratingNote*`
+ * column, the qualification dimensions, `connectionAsked`): the agent never sends them and their stored values are
+ * internal, so the examples must not show them either. Every team rating field starts with "rating".
+ */
 export const exampleBlock = (investor: Investor): string => {
-  const { updatedAt: _updatedAt, ...profile } = investor;
-  void _updatedAt;
+  const profile = Object.fromEntries(Object.entries(investor).filter(([key]) => key !== "updatedAt" && key !== "connectionAsked" && !key.startsWith("rating")));
   return codeBlock("json", JSON.stringify(profile, null, 2));
 };
 

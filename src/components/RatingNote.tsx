@@ -8,10 +8,12 @@ import { RATING_NOTE_FIELDS, type Investor } from "../bronze/types/investor";
 
 export const RATING_NOTE_LABEL = "Motivo de la calificación:";
 
-export function RatingNote({ investor }: { investor: Investor | null }) {
+/** `hideVc` drops the "VC" line: for a profile in a VC list it only repeats the list's name and title. */
+export function RatingNote({ investor, hideVc = false }: { investor: Investor | null; hideVc?: boolean }) {
   if (!investor) return null;
   const lines: string[] = [];
   for (const field of RATING_NOTE_FIELDS) {
+    if (hideVc && field === "ratingNoteVc") continue;
     const value = investor[field]?.trim();
     if (value) lines.push(`${RATING_NOTE_LABELS[field]}: ${value}`);
   }

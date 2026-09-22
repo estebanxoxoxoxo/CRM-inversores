@@ -12,7 +12,9 @@ const noteFieldsOf = (investor: Investor): Record<RatingNoteField, string> =>
  * notes: the qualification (rating and dimensions) and the institution's business information now live on the list, so
  * this dialog never touches them.
  */
-export default function NotesDialog({ investor }: { investor: Investor }) {
+/** `hideVc` hides the "VC" field from the form (profiles in a VC list, where it repeats the list's name). The field
+ * stays in the state, so "Guardar" rewrites the stored value untouched: hiding never erases it. */
+export default function NotesDialog({ investor, hideVc = false }: { investor: Investor; hideVc?: boolean }) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -45,7 +47,7 @@ export default function NotesDialog({ investor }: { investor: Investor }) {
         <h3 id="notes-title">Notas de {investor.name}</h3>
         <p className="muted small">La nota se ve arriba de todo en la ficha, en Bronce y en Gold, una línea por campo con contenido. La calificación y los datos del fondo (tamaño, ticket, página, notas) van en la lista, no acá.</p>
         <div className="rating-note-grid">
-          {RATING_NOTE_FIELDS.map((field) => (
+          {RATING_NOTE_FIELDS.filter((field) => !(hideVc && field === "ratingNoteVc")).map((field) => (
             <label key={field} className="rating-note-row">
               <span>{RATING_NOTE_LABELS[field]}</span>
               <input type="text" value={fields[field]} disabled={saving} onChange={(e) => setFields((current) => ({ ...current, [field]: e.target.value }))} />

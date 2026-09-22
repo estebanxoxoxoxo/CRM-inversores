@@ -1226,6 +1226,55 @@ textarea {
   background: var(--rating-filler);
 }
 /* The qualification bar above the members of the selected list: the Calificar button and a one-line summary. */
+/* The Listas detail panel: a tab bar (VC | Perfil) above the pane it selects. */
+.lists-pane {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: var(--panel);
+  border-left: 1px solid var(--border);
+}
+.lists-pane > .detail {
+  flex: 1;
+  border-left: none;
+}
+.pane-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  padding: 10px 12px 0;
+}
+.pane-tab {
+  padding: 7px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  font-weight: 600;
+}
+.pane-tab:hover {
+  background: var(--panel-hover);
+}
+.pane-tab.current {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--text);
+}
+/* Below the two-column breakpoint the profile ficha overlays fullscreen; the VC pane stays in flow. */
+@media (max-width: 1100px) {
+  .vc-panel {
+    position: static;
+  }
+}
+
+/* The list's name, big and centred, above the qualification. */
+.list-title {
+  margin: 2px 0 6px;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
 .list-rating-bar {
   display: flex;
   flex-direction: column;

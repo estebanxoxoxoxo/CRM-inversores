@@ -15,6 +15,7 @@
 import { z } from "zod";
 import { normalize } from "../../lib/text";
 import { RatingLevelSchema, RatingSchema } from "../../bronze/types/investor";
+import { RelatedFactSchema } from "../../gold/types/gold";
 
 export const COLLECTION = "lists";
 /** Characters of the name: enough for a descriptive label, short enough to fit the rows that show it. */
@@ -66,6 +67,12 @@ export const ListSchema = z.object({
   ticket: z.string().nullable().default(null),
   website: z.string().nullable().default(null),
   notes: z.string().nullable().default(null),
+  /**
+   * The institution's related facts, merged from its members' gold evaluations with semantic duplicates removed
+   * (sources of the duplicates united). They describe the institution, so they live here; the per-profile facts stay
+   * in `gold` as the source and are no longer shown on the profile. Written by migration, read by the VC pane.
+   */
+  facts: z.array(RelatedFactSchema).default([]),
 });
 
 /** One list as the app reads it: the stored document plus the id of the document it was read from. */

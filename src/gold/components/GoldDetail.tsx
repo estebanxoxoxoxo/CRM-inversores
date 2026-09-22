@@ -20,6 +20,8 @@ interface Props {
   onClose: () => void;
   /** Optional toggle to switch this panel to the Bronce view in place (used in the Listas tab). */
   viewToggle?: ReactNode;
+  /** Hides the "VC" note line and field: for a profile in a VC list it only repeats the list's name. */
+  hideVc?: boolean;
 }
 
 const formatDate = (iso: string): string => {
@@ -27,7 +29,7 @@ const formatDate = (iso: string): string => {
   return Number.isNaN(date.getTime()) ? iso : date.toLocaleString("es-AR", { dateStyle: "long", timeStyle: "short" });
 };
 
-export default function GoldDetail({ entry, selectedId, onClose, viewToggle = null }: Props) {
+export default function GoldDetail({ entry, selectedId, onClose, viewToggle = null, hideVc = false }: Props) {
   const { go } = useSection();
   const [copied, setCopied] = useState<string | null>(null);
 
@@ -98,8 +100,9 @@ export default function GoldDetail({ entry, selectedId, onClose, viewToggle = nu
           {investor && (
             <>
               <ConnectionDialog investor={investor} />
-              <NotesDialog investor={investor} />
-              <AssignListsDialog investor={investor} />
+              <NotesDialog investor={investor} hideVc={hideVc} />
+              {/* In the Listas tab (viewToggle present) the assign button only repeats the list you are in. */}
+              {!viewToggle && <AssignListsDialog investor={investor} />}
               {!viewToggle && (
                 <button type="button" className="secondary" onClick={() => go("bronze", investor.id)} title="Abrir la ficha completa del inversor">
                   Ficha en Bronce
@@ -113,7 +116,7 @@ export default function GoldDetail({ entry, selectedId, onClose, viewToggle = nu
         </div>
       </header>
 
-      <RatingNote investor={investor} />
+      <RatingNote investor={investor} hideVc={hideVc} />
       <PostMeetingCaveat />
 
       {investor && (
@@ -176,35 +179,7 @@ export default function GoldDetail({ entry, selectedId, onClose, viewToggle = nu
         </ul>
       </Section>
 
-      {evaluation.relatedFacts.length > 0 ? (
-        <Section title={`Hechos relacionados (${evaluation.relatedFacts.length})`}>
-          <ul className="facts">
-            {evaluation.relatedFacts.map((related, i) => (
-              <li key={i} className="fact">
-                <div className="fact-head">
-                  <p className="fact-text">{related.fact}</p>
-                  <button type="button" className="mini" onClick={() => copy(`fact-${i}`, related.fact)}>
-                    {copied === `fact-${i}` ? "copiado" : "copiar"}
-                  </button>
-                </div>
-                <ul className="aspect-sources">
-                  {related.sources.map((source) => (
-                    <li key={source}>
-                      <a href={source} target="_blank" rel="noreferrer">
-                        {source}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </li>
-            ))}
-          </ul>
-        </Section>
-      ) : (
-        <Section title="Hechos relacionados">
-          <p className="muted">Sin hechos.</p>
-        </Section>
-      )}
+      {/* The related facts moved to the list's VC pane, merged across members; the per-profile facts stay in `gold` as data. */}
       <p className="muted small detail-footer">Evaluado el {formatDate(evaluation.evaluatedAt)}.</p>
     </section>
   );

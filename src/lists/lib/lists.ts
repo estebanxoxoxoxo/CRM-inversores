@@ -59,7 +59,7 @@ export async function createList(name: string, parent: ListParent): Promise<stri
   try {
     const ref = doc(getDb(), COLLECTION, id);
     if ((await getDoc(ref)).exists()) throw new DataError(`Ya existe una lista que se llama "${trimmed}".`, "");
-    await setDoc(ref, { name: trimmed, createdAt: new Date().toISOString(), parent, memberIds: [], rating: null, ratingLanguageAccess: null, ratingProductFit: null, ratingGeoCapacity: null, fundSize: null, ticket: null, website: null, notes: null });
+    await setDoc(ref, { name: trimmed, createdAt: new Date().toISOString(), parent, memberIds: [], rating: null, ratingLanguageAccess: null, ratingProductFit: null, ratingGeoCapacity: null, fundSize: null, ticket: null, website: null, notes: null, facts: [] });
   } catch (e) {
     if (e instanceof DataError) throw e;
     const error = toDataError(e, COLLECTION);

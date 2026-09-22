@@ -29,6 +29,8 @@ interface Props {
   goldBadge?: ReactNode;
   /** Optional toggle to switch this panel to the Gold view in place (used in the Listas tab). */
   viewToggle?: ReactNode;
+  /** Hides the "VC" note line and field: for a profile in a VC list it only repeats the list's name. */
+  hideVc?: boolean;
 }
 
 function ScoreBreakdown({ score }: { score: Score }) {
@@ -56,7 +58,7 @@ function ScoreBreakdown({ score }: { score: Score }) {
   );
 }
 
-export default function InvestorDetail({ investor, selectedId, onClose, goldBadge = null, viewToggle = null }: Props) {
+export default function InvestorDetail({ investor, selectedId, onClose, goldBadge = null, viewToggle = null, hideVc = false }: Props) {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
@@ -105,15 +107,16 @@ export default function InvestorDetail({ investor, selectedId, onClose, goldBadg
         <div className="detail-actions">
           {viewToggle}
           <ConnectionDialog investor={investor} />
-          <NotesDialog investor={investor} />
-          <AssignListsDialog investor={investor} />
+          <NotesDialog investor={investor} hideVc={hideVc} />
+          {/* In the Listas tab (viewToggle present) the assign button only repeats the list you are in. */}
+          {!viewToggle && <AssignListsDialog investor={investor} />}
           <button type="button" className="close" onClick={onClose} aria-label="Cerrar">
             ×
           </button>
         </div>
       </header>
 
-      <RatingNote investor={investor} />
+      <RatingNote investor={investor} hideVc={hideVc} />
       <PostMeetingCaveat />
 
       <div className="contact">

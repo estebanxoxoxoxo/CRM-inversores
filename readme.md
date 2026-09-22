@@ -106,10 +106,11 @@ Todo el módulo vive en `src/gold/`; su [README](src/gold/README.md) explica el 
 la regla de Firestore que hay que añadir para `gold`.
 
 En la app, el selector Bronce / Gold de la cabecera cambia entre la lista de inversores y la de evaluaciones. La sección
-Gold lista cada perfil evaluado con sus aspectos, la evidencia de cada uno y los hechos relacionados listos para
-copiar; filtra por calificación y región. Las evaluaciones anteriores a este cambio guardan en
-Firestore un campo `emails` que el esquema ya no declara y la app no lee —sigue en la base y en los backups—: se ven
-sin hechos. Una
+Gold lista cada perfil evaluado con sus aspectos y la evidencia de cada uno; filtra por calificación y región. Los
+hechos relacionados ya no se muestran en la ficha del perfil: pasaron al ámbito de la lista (ver [Listas](#listas)),
+donde se ven mergeados por institución en la pestaña VC; en `gold` quedan guardados como fuente. Las evaluaciones
+anteriores guardan en Firestore un campo `emails` que el esquema ya no declara y la app no lee —sigue en la base y en
+los backups. Una
 evaluación se enlaza con `#s=gold&id=<id>`, y la ficha de Bronce muestra un botón que lleva a ella. La cabecera
 cambia con la sección: en Bronce, backup de `investors` y "Buscar más perfiles"; en Gold, backup de `gold` y "Evaluar
 más perfiles".
@@ -137,13 +138,17 @@ Puntos de contacto:
 - **Gestionar listas** — botón de la cabecera, en las tres secciones. Crea una lista por nombre y categoría (un
   `<select>` de las dos categorías, `vcs` por defecto) y borra las que ya están, agrupadas bajo las dos categorías con
   su cantidad de perfiles. Borrar una lista borra su documento y sus pertenencias; los perfiles no se tocan.
-- **Asignar a lista** — botón de la ficha, en Bronce y en Gold. Una única opción (radios) agrupada por categoría, más
-  "Ninguna" arriba; la lista actual viene marcada y se guarda al tocarla.
+- **Asignar a lista** — botón de la ficha, en Bronce y en Gold (en la pestaña Listas no se muestra: sólo repetiría la
+  lista en la que ya estás). Una única opción (radios) agrupada por categoría, más "Ninguna" arriba; la lista actual
+  viene marcada y se guarda al tocarla.
 - **Pestaña Listas** — tercera sección del selector (`#s=lists`). A la izquierda las dos categorías, cada una con sus
-  listas (nombre, cantidad de perfiles y un punto del color de la calificación); al centro, "Calificar" con la
-  calificación y las dimensiones de la lista elegida, debajo el bloque "Datos del fondo" (tamaño del fondo, ticket,
-  página y notas, con su botón "Editar"), y debajo sus perfiles ordenados por nivel como en Bronce. Elegir un perfil
-  abre su ficha.
+  listas (nombre, cantidad de perfiles y un punto del color de la calificación), ordenadas por calificación de mejor a
+  peor. Al centro: el nombre de la lista grande y centrado, "Calificar" con la calificación y las dimensiones, y sus
+  perfiles ordenados por nivel como en Bronce. A la derecha, dos pestañas: **VC** (los "Datos del fondo" —tamaño,
+  ticket, página y notas, con "Editar"— y los hechos relevantes mergeados de la lista) y **Perfil** (la ficha del
+  perfil elegido, que alterna Gold/Bronce en el mismo espacio con "Ver en Bronce"/"Ver en Gold"). Elegir una lista abre
+  la pestaña VC; elegir un perfil salta a Perfil. En la ficha de un perfil que está en una lista de VCs no se muestra
+  la línea "VC" de la nota (repetiría el nombre de la lista).
 
 Una colección, `lists`, un documento por lista, con el slug del nombre como id (el mismo slug que la ingesta usa para
 los ids de inversor, así que dos nombres que slugueen igual son la misma lista y la creación rechaza el duplicado):
@@ -161,13 +166,16 @@ los ids de inversor, así que dos nombres que slugueen igual son la misma lista 
   "fundSize": "100M",
   "ticket": "1M-3M",
   "website": "https://vc-a.com/",
-  "notes": "Muy deep. Invierte en Europa y EE. UU."
+  "notes": "Muy deep. Invierte en Europa y EE. UU.",
+  "facts": [{ "fact": "…", "sources": ["https://…"] }]
 }
 ```
 
-La calificación (`rating` y las tres dimensiones) y la información de la institución (`fundSize`, `ticket`, `website`,
-`notes`, texto libre) viven en la lista, no en los perfiles: describen a la institución, y cada perfil hereda la
-calificación de su lista para el borde de su tarjeta. `setListInfo` escribe sólo esos cuatro campos de información.
+La calificación (`rating` y las tres dimensiones), la información de la institución (`fundSize`, `ticket`, `website`,
+`notes`, texto libre) y los hechos relevantes (`facts`, mergeados de las evaluaciones gold de sus miembros quitando
+duplicados semánticos y uniendo sus fuentes) viven en la lista, no en los perfiles: describen a la institución, y cada
+perfil hereda la calificación de su lista para el borde de su tarjeta. `setListInfo` escribe sólo los cuatro campos de
+información; `facts` lo escriben migraciones, no la UI.
 
 `memberIds` se escribe con `arrayUnion` / `arrayRemove`, así que dos ventanas no se pisan. Un id queda colgado cuando el
 perfil sale de `investors`: sigue en el documento y no molesta, porque todo lo que lo lee lo cruza contra los inversores

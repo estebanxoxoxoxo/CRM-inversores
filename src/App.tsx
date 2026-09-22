@@ -19,8 +19,8 @@ import { SectionContext, navigationFromHash, navigationToHash, type Navigation, 
 import { applyFilters, filtersFromUrl, filtersToUrl, type Filters } from "./bronze/lib/filters";
 import { EMPTY_GOLD_FILTERS, applyGoldFilters, joinGold, type GoldFilters } from "./gold/lib/filters";
 import ListRatingDialog from "./lists/components/ListRatingDialog";
-import ListInfo from "./lists/components/ListInfo";
-import { childLists, listMembers, ratingByInvestor } from "./lists/lib/lists";
+import ListVcPanel from "./lists/components/ListVcPanel";
+import { childLists, listMembers, listOfInvestor, ratingByInvestor } from "./lists/lib/lists";
 import { LIST_PARENTS, LIST_PARENT_LABELS, type List } from "./lists/types/list";
 import { RATING_DIMENSION_LABELS, RATING_DIMENSION_OPTIONS, RATING_LABELS, RATING_LEVEL_LABELS } from "./bronze/lib/labels";
 import { RATING_DIMENSIONS } from "./bronze/types/investor";
@@ -128,6 +128,8 @@ export default function App() {
   // Which list is open: the section's own selection, next to the profile the hash carries and independent of it.
   const [selectedListId, setSelectedListId] = useState<string | null>(null);
   const [listsView, setListsView] = useState<"gold" | "bronze">("gold");
+  // Which pane of the Listas detail panel is showing: the institution ("vc") or the selected profile ("profile").
+  const [listsPane, setListsPane] = useState<"vc" | "profile">("vc");
   const [filters, setFilters] = useState<Filters>(() => filtersFromUrl());
   const [goldFilters, setGoldFilters] = useState<GoldFilters>(EMPTY_GOLD_FILTERS);
 
@@ -146,6 +148,11 @@ export default function App() {
 
   // Each newly opened profile in the Listas tab starts on the Gold view (the default).
   useEffect(() => setListsView("gold"), [selectedId]);
+  // Picking a list opens its VC pane; picking a profile jumps to the Perfil pane.
+  useEffect(() => setListsPane("vc"), [selectedListId]);
+  useEffect(() => {
+    if (selectedId) setListsPane("profile");
+  }, [selectedId]);
 
   const visible = useMemo(() => applyFilters(investors, filters), [investors, filters]);
   const pending = useMemo(() => investors.filter((investor) => investor.audit.status === "pending").length, [investors]);
@@ -161,6 +168,8 @@ export default function App() {
   const listCounts = useMemo(() => new Map(lists.map((list) => [list.id, listMembers(list, investors).length])), [lists, investors]);
   const selectedList = useMemo(() => lists.find((list) => list.id === selectedListId) ?? null, [lists, selectedListId]);
   const listProfiles = useMemo(() => (selectedList ? listMembers(selectedList, investors) : []), [selectedList, investors]);
+  // The "VC" note line is hidden for profiles in a VC list: there it only repeats the list's name and title.
+  const hideVc = useMemo(() => (selectedId ? listOfInvestor(lists, selectedId)?.parent === "vcs" : false), [lists, selectedId]);
 
   const info =
     section === "bronze" ? (
@@ -247,6 +256,7 @@ export default function App() {
               selectedId={status === "ready" ? selectedId : null}
               onClose={close}
               goldBadge={selectedEntry ? <GoldBadge evaluation={selectedEntry.evaluation} /> : null}
+              hideVc={hideVc}
             />
           </div>
         ) : section === "gold" ? (
@@ -259,7 +269,7 @@ export default function App() {
                 <GoldList entries={visibleGold} selectedId={selectedId} onSelect={select} ratingByInvestor={listRating} />
               )}
             </main>
-            <GoldDetail entry={selectedEntry} selectedId={goldState.status === "ready" ? selectedId : null} onClose={close} />
+            <GoldDetail entry={selectedEntry} selectedId={goldState.status === "ready" ? selectedId : null} onClose={close} hideVc={hideVc} />
           </div>
         ) : (
           // Listas mirrors the other sections: the same full Bronce detail opens beside the members.
@@ -274,11 +284,11 @@ export default function App() {
                 <p className="empty">Elegí una lista.</p>
               ) : (
                 <>
+                  <h2 className="list-title">{selectedList.name}</h2>
                   <div className="list-rating-bar">
                     <ListRatingDialog list={selectedList} />
                     <ListRatingSummary list={selectedList} />
                   </div>
-                  <ListInfo list={selectedList} />
                   {listProfiles.length ? (
                     <InvestorList investors={listProfiles} selectedId={selectedId} onSelect={select} ratingByInvestor={listRating} />
                   ) : (
@@ -288,24 +298,46 @@ export default function App() {
               )}
             </main>
             {(() => {
-              const listInvestor = selectedList ? (listProfiles.find((investor) => investor.id === selectedId) ?? null) : null;
-              const listSelectedId = listsState.status === "ready" && selectedList ? selectedId : null;
-              // The Listas detail defaults to Gold and toggles to Bronce in place, occupying the same panel.
+              if (!selectedList) return <section className="detail detail-empty">Elegí una lista para ver su información.</section>;
+              const listInvestor = listProfiles.find((investor) => investor.id === selectedId) ?? null;
+              const listSelectedId = listsState.status === "ready" ? selectedId : null;
+              // The Perfil pane defaults to Gold and toggles to Bronce in place, occupying the same panel.
               const toggle = (label: string, to: "gold" | "bronze") => (
                 <button type="button" className="secondary" onClick={() => setListsView(to)}>
                   {label}
                 </button>
               );
-              return listsView === "gold" ? (
-                <GoldDetail entry={selectedEntry} selectedId={listSelectedId} onClose={close} viewToggle={listSelectedId ? toggle("Ver en Bronce", "bronze") : null} />
-              ) : (
-                <InvestorDetail
-                  investor={listInvestor}
-                  selectedId={listSelectedId}
-                  onClose={close}
-                  goldBadge={selectedEntry ? <GoldBadge evaluation={selectedEntry.evaluation} /> : null}
-                  viewToggle={listSelectedId ? toggle("Ver en Gold", "gold") : null}
-                />
+              const profilePane =
+                listsView === "gold" ? (
+                  <GoldDetail entry={selectedEntry} selectedId={listSelectedId} onClose={close} viewToggle={listSelectedId ? toggle("Ver en Bronce", "bronze") : null} hideVc={hideVc} />
+                ) : (
+                  <InvestorDetail
+                    investor={listInvestor}
+                    selectedId={listSelectedId}
+                    onClose={close}
+                    goldBadge={selectedEntry ? <GoldBadge evaluation={selectedEntry.evaluation} /> : null}
+                    viewToggle={listSelectedId ? toggle("Ver en Gold", "gold") : null}
+                    hideVc={hideVc}
+                  />
+                );
+              return (
+                <div className="lists-pane">
+                  <div className="pane-tabs" role="tablist">
+                    <button type="button" role="tab" aria-selected={listsPane === "vc"} className={`pane-tab ${listsPane === "vc" ? "current" : ""}`} onClick={() => setListsPane("vc")}>
+                      VC
+                    </button>
+                    <button
+                      type="button"
+                      role="tab"
+                      aria-selected={listsPane === "profile"}
+                      className={`pane-tab ${listsPane === "profile" ? "current" : ""}`}
+                      onClick={() => setListsPane("profile")}
+                    >
+                      Perfil
+                    </button>
+                  </div>
+                  {listsPane === "vc" ? <ListVcPanel list={selectedList} /> : profilePane}
+                </div>
               );
             })()}
           </div>

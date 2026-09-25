@@ -2,6 +2,7 @@ import { useState } from "react";
 import { copyText } from "../../lib/clipboard";
 import { LIST_PARENT_LABELS, type List } from "../types/list";
 import { Section } from "../../components/DetailParts";
+import ListDimensions from "./ListDimensions";
 import ListInfo from "./ListInfo";
 
 /**
@@ -28,6 +29,7 @@ export default function ListVcPanel({ list }: { list: List }) {
         </div>
       </header>
 
+      <ListDimensions list={list} />
       <ListInfo list={list} />
 
       {list.facts.length ? (

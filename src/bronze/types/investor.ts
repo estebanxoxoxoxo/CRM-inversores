@@ -63,9 +63,10 @@ export type Rating = z.infer<typeof RatingSchema>;
 
 /**
  * The person-level fields of the structured note, in the order the dialog asks for them and the detail prints them.
- * The institution-level fields (fund size, ticket, VC page, notes) used to live here too; they moved to the list
- * (`LIST_INFO_FIELDS` in `src/lists/types/list.ts`), so they are no longer part of this array and no longer show or
- * are edited on the profile. Their columns stay in the schema below as tolerated legacy so the stored values survive.
+ * The institution-level fields (fund size, ticket, VC page) moved to the list (`LIST_INFO_FIELDS` in
+ * `src/lists/types/list.ts`) and are no longer part of this array; their columns stay in the schema below as
+ * tolerated legacy. `ratingNoteNotes` is the person's own free note: the list's `notes` was seeded by copying it,
+ * but they are independent properties and never sync.
  */
 export const RATING_NOTE_FIELDS = [
   "ratingNoteRole",
@@ -73,8 +74,16 @@ export const RATING_NOTE_FIELDS = [
   "ratingNoteLinkedin",
   "ratingNoteEmail",
   "ratingNoteLocation",
+  "ratingNoteNotes",
 ] as const;
 export type RatingNoteField = (typeof RATING_NOTE_FIELDS)[number];
+
+/**
+ * Note fields hidden (never erased) for a profile that belongs to a VC list: they describe the institution — its name
+ * and its location, which the list itself carries — not the person. Profiles in angel lists and profiles without a
+ * list keep showing them.
+ */
+export const VC_LIST_HIDDEN_NOTE_FIELDS: readonly RatingNoteField[] = ["ratingNoteVc", "ratingNoteLocation"];
 
 /** Level of a qualification dimension, from lowest to highest. A `null` document value shows as `none` in the UI. */
 export const RATING_LEVELS = ["none", "low", "medium", "high", "max"] as const;
@@ -217,10 +226,10 @@ export const InvestorSchema = z.object({
   rating: RatingSchema.nullable().default(null),
   /**
    * The structured breakdown of the note, written by a person from the app; the ingest endpoint always stores them as
-   * null. The person-level lines (`RATING_NOTE_FIELDS`) are what the dialog edits and the detail prints. The four
-   * institution-level columns (`ratingNoteFundSize`, `ratingNoteTicket`, `ratingNoteVcWebsite`, `ratingNoteNotes`)
-   * moved to the list (`LIST_INFO_FIELDS`): they are no longer edited or shown here and stay only as tolerated legacy
-   * so the stored values are not lost. Do not add them back to `RATING_NOTE_FIELDS`.
+   * null. The person-level lines (`RATING_NOTE_FIELDS`) are what the dialog edits and the detail prints. The three
+   * institution-level columns (`ratingNoteFundSize`, `ratingNoteTicket`, `ratingNoteVcWebsite`) moved to the list
+   * (`LIST_INFO_FIELDS`): they are no longer edited or shown here and stay only as tolerated legacy so the stored
+   * values are not lost. Do not add them back to `RATING_NOTE_FIELDS`.
    */
   ratingNoteRole: z.string().nullable().default(null),
   ratingNoteVc: z.string().nullable().default(null),

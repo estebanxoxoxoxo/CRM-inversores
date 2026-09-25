@@ -28,19 +28,47 @@ export type ListParent = (typeof LIST_PARENTS)[number];
 export const LIST_PARENT_LABELS: Record<ListParent, string> = { vcs: "VCs", angels: "Inversores ángeles" };
 
 /**
- * The institution's business information, moved here from the profile because it describes the institution, not the
- * person: fund size, typical ticket, page and free notes. Free text, in the order the block shows them. Shown under
- * the qualification, before the members.
+ * The institution's business information: fund size, typical ticket, page, location, how deep it invests, its Spanish
+ * and its capacity to invest, and free notes. These are the text fields; "deep" is not among them because it also
+ * carries sources (`ListDeepSchema`).
  */
-export const LIST_INFO_FIELDS = ["fundSize", "ticket", "website", "notes"] as const;
+export const LIST_INFO_FIELDS = ["fundSize", "ticket", "website", "location", "spanish", "capacity", "notes"] as const;
 export type ListInfoField = (typeof LIST_INFO_FIELDS)[number];
-/** Spanish UI labels for the info fields. */
-export const LIST_INFO_LABELS: Record<ListInfoField, string> = {
+/** The order the block shows and the dialog asks for every piece of information, "deep" included. */
+export const LIST_INFO_ORDER = ["fundSize", "ticket", "website", "location", "deep", "spanish", "capacity", "notes"] as const;
+export type ListInfoKey = (typeof LIST_INFO_ORDER)[number];
+/** Spanish UI labels for the info block. */
+export const LIST_INFO_LABELS: Record<ListInfoKey, string> = {
   fundSize: "Tamaño del fondo",
   ticket: "Ticket",
   website: "Página del VC",
+  location: "Ubicación",
+  deep: "Deep",
+  spanish: "Español",
+  capacity: "Capacidad de invertir",
   notes: "Notas",
 };
+
+/** A source is accepted only as an absolute http(s) URL, so every link it renders opens something. */
+export const isSourceUrl = (value: string): boolean => {
+  try {
+    const url = new URL(value);
+    return url.protocol === "http:" || url.protocol === "https:";
+  } catch {
+    return false;
+  }
+};
+
+/**
+ * How deep the institution invests: free text plus the sources that back it (one or more URLs). Tolerant on read: a
+ * missing or malformed value falls back to empty instead of hiding the whole list.
+ */
+export const ListDeepSchema = z.object({
+  text: z.string().nullable().default(null),
+  sources: z.array(z.string()).default([]),
+});
+export type ListDeep = z.infer<typeof ListDeepSchema>;
+export const EMPTY_DEEP: ListDeep = { text: null, sources: [] };
 
 export const ListSchema = z.object({
   name: z.string().min(1).max(NAME_MAX),
@@ -66,6 +94,10 @@ export const ListSchema = z.object({
   fundSize: z.string().nullable().default(null),
   ticket: z.string().nullable().default(null),
   website: z.string().nullable().default(null),
+  location: z.string().nullable().default(null),
+  spanish: z.string().nullable().default(null),
+  capacity: z.string().nullable().default(null),
+  deep: ListDeepSchema.default(EMPTY_DEEP).catch(EMPTY_DEEP),
   notes: z.string().nullable().default(null),
   /**
    * The institution's related facts, merged from its members' gold evaluations with semantic duplicates removed

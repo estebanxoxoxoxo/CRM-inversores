@@ -22,8 +22,7 @@ import ListRatingDialog from "./lists/components/ListRatingDialog";
 import ListVcPanel from "./lists/components/ListVcPanel";
 import { childLists, listMembers, listOfInvestor, ratingByInvestor } from "./lists/lib/lists";
 import { LIST_PARENTS, LIST_PARENT_LABELS, type List } from "./lists/types/list";
-import { RATING_DIMENSION_LABELS, RATING_DIMENSION_OPTIONS, RATING_LABELS, RATING_LEVEL_LABELS } from "./bronze/lib/labels";
-import { RATING_DIMENSIONS } from "./bronze/types/investor";
+import { RATING_LABELS } from "./bronze/lib/labels";
 import type { DataError, InvalidDocument } from "./lib/data";
 
 function DataNotices({ error, invalid }: { error: DataError | null; invalid: InvalidDocument[] }) {
@@ -95,27 +94,11 @@ function ListsPanel({ lists, counts, selectedId, onSelect }: ListsPanelProps) {
   );
 }
 
-/** One line summarising a list's qualification: its rating badge (or "Sin calificar") and the label of each set dimension. */
+/** The list's rating as a block (or "Sin calificar"). The dimensions moved to the VC pane (`ListDimensions`). */
 function ListRatingSummary({ list }: { list: List }) {
-  const dimensions = RATING_DIMENSIONS.map((dimension) => {
-    const value = list[dimension];
-    if (!value || value === "none") return null;
-    const option = RATING_DIMENSION_OPTIONS[dimension].find((o) => o.value === value);
-    return { name: RATING_DIMENSION_LABELS[dimension], value: option ? option.label : RATING_LEVEL_LABELS[value] };
-  }).filter((entry): entry is { name: string; value: string } => entry !== null);
   return (
     <div className="list-rating-summary">
       {list.rating ? <div className={`list-rating-value rating-${list.rating}`}>{RATING_LABELS[list.rating]}</div> : <div className="list-rating-value list-rating-unset">Sin calificar</div>}
-      {dimensions.length > 0 && (
-        <dl className="list-rating-dims">
-          {dimensions.map((entry) => (
-            <div key={entry.name} className="list-rating-dim">
-              <dt>{entry.name}</dt>
-              <dd>{entry.value}</dd>
-            </div>
-          ))}
-        </dl>
-      )}
     </div>
   );
 }

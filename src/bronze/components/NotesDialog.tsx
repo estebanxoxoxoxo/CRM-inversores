@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { setNotes } from "../lib/investors";
 import { RATING_NOTE_LABELS } from "../lib/labels";
-import { RATING_NOTE_FIELDS, type Investor, type RatingNoteField } from "../types/investor";
+import { RATING_NOTE_FIELDS, VC_LIST_HIDDEN_NOTE_FIELDS, type Investor, type RatingNoteField } from "../types/investor";
 
 /** The document's structured note as form state: every field is a string, empty where the document has nothing. */
 const noteFieldsOf = (investor: Investor): Record<RatingNoteField, string> =>
@@ -12,8 +12,9 @@ const noteFieldsOf = (investor: Investor): Record<RatingNoteField, string> =>
  * notes: the qualification (rating and dimensions) and the institution's business information now live on the list, so
  * this dialog never touches them.
  */
-/** `hideVc` hides the "VC" field from the form (profiles in a VC list, where it repeats the list's name). The field
- * stays in the state, so "Guardar" rewrites the stored value untouched: hiding never erases it. */
+/** `hideVc` hides the institution's fields (`VC_LIST_HIDDEN_NOTE_FIELDS`: VC and Ubicación) from the form, for
+ * profiles in a VC list where they belong to the list. The fields stay in the state, so "Guardar" rewrites the stored
+ * values untouched: hiding never erases them. */
 export default function NotesDialog({ investor, hideVc = false }: { investor: Investor; hideVc?: boolean }) {
   const dialogRef = useRef<HTMLDialogElement>(null);
   const [saving, setSaving] = useState(false);
@@ -45,12 +46,19 @@ export default function NotesDialog({ investor, hideVc = false }: { investor: In
       </button>
       <dialog ref={dialogRef} className="dialog rating-dialog" aria-labelledby="notes-title">
         <h3 id="notes-title">Notas de {investor.name}</h3>
-        <p className="muted small">La nota se ve arriba de todo en la ficha, en Bronce y en Gold, una línea por campo con contenido. La calificación y los datos del fondo (tamaño, ticket, página, notas) van en la lista, no acá.</p>
+        <p className="muted small">
+          La nota se ve arriba de todo en la ficha, en Bronce y en Gold, una línea por campo con contenido. "Notas" es de la persona; la calificación y los datos del fondo (tamaño,
+          ticket, página, ubicación y notas del VC) van en la lista, no acá.
+        </p>
         <div className="rating-note-grid">
-          {RATING_NOTE_FIELDS.filter((field) => !(hideVc && field === "ratingNoteVc")).map((field) => (
+          {RATING_NOTE_FIELDS.filter((field) => !(hideVc && VC_LIST_HIDDEN_NOTE_FIELDS.includes(field))).map((field) => (
             <label key={field} className="rating-note-row">
               <span>{RATING_NOTE_LABELS[field]}</span>
-              <input type="text" value={fields[field]} disabled={saving} onChange={(e) => setFields((current) => ({ ...current, [field]: e.target.value }))} />
+              {field === "ratingNoteNotes" ? (
+                <textarea rows={3} value={fields[field]} disabled={saving} onChange={(e) => setFields((current) => ({ ...current, [field]: e.target.value }))} />
+              ) : (
+                <input type="text" value={fields[field]} disabled={saving} onChange={(e) => setFields((current) => ({ ...current, [field]: e.target.value }))} />
+              )}
             </label>
           ))}
         </div>

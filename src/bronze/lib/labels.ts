@@ -16,6 +16,7 @@ export const RATING_NOTE_LABELS: Record<RatingNoteField, string> = {
   ratingNoteLinkedin: "Linkedin",
   ratingNoteEmail: "Mail",
   ratingNoteLocation: "Ubicación",
+  ratingNoteNotes: "Notas",
 };
 
 /** One label per qualification dimension: the dimension names, only shown in the rating dialog. */

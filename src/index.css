@@ -1260,13 +1260,6 @@ textarea {
   border-color: var(--accent);
   color: var(--text);
 }
-/* Below the two-column breakpoint the profile ficha overlays fullscreen; the VC pane stays in flow. */
-@media (max-width: 1100px) {
-  .vc-panel {
-    position: static;
-  }
-}
-
 /* The list's name, big and centred, above the qualification. */
 .list-title {
   margin: 2px 0 6px;
@@ -1334,6 +1327,10 @@ textarea {
   color: var(--muted);
 }
 
+/* In the VC pane, the dimension rows sit between the header and the fund's information. */
+.vc-panel .list-rating-dims {
+  margin: 10px 0 2px;
+}
 /* The institution's business information, between the qualification and the members. */
 .list-info {
   display: flex;
@@ -1379,6 +1376,57 @@ textarea {
   grid-template-columns: 1fr;
   gap: 2px;
 }
+/* Link icon to a field's sources: opens the one source, or a popup when there are several. */
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 6px;
+  padding: 0 2px;
+  border: none;
+  background: none;
+  color: var(--accent);
+  cursor: pointer;
+  vertical-align: middle;
+}
+.source-link:hover {
+  opacity: 0.75;
+}
+.source-count {
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.sources-list {
+  margin: 8px 0 12px;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow-wrap: anywhere;
+}
+/* Deep in the edit dialog: its text, then one row per source. */
+.deep-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.source-row {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.source-row input {
+  flex: 1;
+  min-width: 0;
+}
+.deep-editor input[aria-invalid="true"] {
+  border-color: var(--rating-rejected);
+}
+.add-source {
+  align-self: flex-start;
+  font-size: 0.85rem;
+}
 
 @media (max-width: 1100px) {
   .layout {
@@ -1392,5 +1440,21 @@ textarea {
   }
   .detail-empty {
     display: none;
+  }
+  /* Listas below the breakpoint: the tabbed pane takes its own full-width row under the lists and the members. The
+     VC pane stays in that row (it has no close button, so it must never overlay); the profile ficha still opens
+     fullscreen with its ×, as in Bronce. Placed after the .detail rule, and more specific, so it wins. */
+  .layout:has(> .lists-pane) {
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .lists-pane {
+    grid-column: 1 / -1;
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+  .lists-pane > .vc-panel {
+    position: static;
+    inset: auto;
+    z-index: auto;
   }
 }

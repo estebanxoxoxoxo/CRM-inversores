@@ -6,7 +6,7 @@
 import { arrayRemove, arrayUnion, collection, deleteDoc, doc, getDoc, onSnapshot, setDoc, updateDoc, writeBatch, type Unsubscribe } from "firebase/firestore";
 import { DataError, MISSING_FIREBASE, toDataError, type InvalidDocument } from "../../lib/data";
 import { getDb, isFirebaseConfigured } from "../../lib/firebase";
-import { COLLECTION, LIST_INFO_FIELDS, ListSchema, NAME_MAX, describeError, slugify, type List, type ListInfoField, type ListParent } from "../types/list";
+import { COLLECTION, LIST_INFO_FIELDS, ListSchema, NAME_MAX, describeError, isSourceUrl, slugify, type List, type ListInfoField, type ListParent } from "../types/list";
 import { RATINGS, type Investor, type Rating, type RatingDimension, type RatingLevel } from "../../bronze/types/investor";
 
 /** Panel order of the ratings: best (excellent) to worst (rejected), by their position in `RATINGS`. */
@@ -59,7 +59,7 @@ export async function createList(name: string, parent: ListParent): Promise<stri
   try {
     const ref = doc(getDb(), COLLECTION, id);
     if ((await getDoc(ref)).exists()) throw new DataError(`Ya existe una lista que se llama "${trimmed}".`, "");
-    await setDoc(ref, { name: trimmed, createdAt: new Date().toISOString(), parent, memberIds: [], rating: null, ratingLanguageAccess: null, ratingProductFit: null, ratingGeoCapacity: null, fundSize: null, ticket: null, website: null, notes: null, facts: [] });
+    await setDoc(ref, { name: trimmed, createdAt: new Date().toISOString(), parent, memberIds: [], rating: null, ratingLanguageAccess: null, ratingProductFit: null, ratingGeoCapacity: null, fundSize: null, ticket: null, website: null, location: null, spanish: null, capacity: null, deep: { text: null, sources: [] }, notes: null, facts: [] });
   } catch (e) {
     if (e instanceof DataError) throw e;
     const error = toDataError(e, COLLECTION);
@@ -112,13 +112,17 @@ export async function setListRating(listId: string, rating: Rating | null, dimen
 }
 
 /**
- * Writes the list's business information (`LIST_INFO_FIELDS`), each trimmed to null when empty. It touches nothing
- * else: this is the institution's fund size, ticket, page and notes, independent of the qualification.
+ * Writes the list's business information: the text fields (`LIST_INFO_FIELDS`), each trimmed to null when empty, and
+ * "deep" with its sources, trimmed, deduplicated and required to be http(s) URLs. It touches nothing else: this is the
+ * institution's information, independent of the qualification.
  */
-export async function setListInfo(listId: string, fields: Record<ListInfoField, string>): Promise<void> {
+export async function setListInfo(listId: string, fields: Record<ListInfoField, string>, deep: { text: string; sources: string[] }): Promise<void> {
+  const sources = [...new Set(deep.sources.map((source) => source.trim()).filter(Boolean))];
+  const invalid = sources.find((source) => !isSourceUrl(source));
+  if (invalid) throw new DataError(`La fuente "${invalid}" no es una URL válida: tiene que empezar con http:// o https://.`, "");
   try {
     const info = Object.fromEntries(LIST_INFO_FIELDS.map((field) => [field, fields[field].trim() || null]));
-    await updateDoc(doc(getDb(), COLLECTION, listId), info);
+    await updateDoc(doc(getDb(), COLLECTION, listId), { ...info, deep: { text: deep.text.trim() || null, sources } });
   } catch (e) {
     const error = toDataError(e, COLLECTION);
     throw new DataError(`No se pudo guardar la información de la lista ${listId}.`, error.help || error.message);

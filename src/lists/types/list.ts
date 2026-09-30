@@ -28,14 +28,14 @@ export type ListParent = (typeof LIST_PARENTS)[number];
 export const LIST_PARENT_LABELS: Record<ListParent, string> = { vcs: "VCs", angels: "Inversores ángeles" };
 
 /**
- * The institution's business information: fund size, typical ticket, page, location, how deep it invests, its Spanish
- * and its capacity to invest, and free notes. These are the text fields; "deep" is not among them because it also
- * carries sources (`ListDeepSchema`).
+ * The institution's business information, as free-text fields: fund size, typical ticket, page, location, how deep it
+ * invests, its Spanish, its capacity to invest and free notes. The investments are not among them: they are a list
+ * (`InvestmentSchema`).
  */
-export const LIST_INFO_FIELDS = ["fundSize", "ticket", "website", "location", "spanish", "capacity", "notes"] as const;
+export const LIST_INFO_FIELDS = ["fundSize", "ticket", "website", "location", "deep", "spanish", "capacity", "notes"] as const;
 export type ListInfoField = (typeof LIST_INFO_FIELDS)[number];
-/** The order the block shows and the dialog asks for every piece of information, "deep" included. */
-export const LIST_INFO_ORDER = ["fundSize", "ticket", "website", "location", "deep", "spanish", "capacity", "notes"] as const;
+/** The order the block shows and the dialog asks for every piece of information, the investments included. */
+export const LIST_INFO_ORDER = ["fundSize", "ticket", "website", "location", "deep", "investments", "spanish", "capacity", "notes"] as const;
 export type ListInfoKey = (typeof LIST_INFO_ORDER)[number];
 /** Spanish UI labels for the info block. */
 export const LIST_INFO_LABELS: Record<ListInfoKey, string> = {
@@ -44,13 +44,14 @@ export const LIST_INFO_LABELS: Record<ListInfoKey, string> = {
   website: "Página del VC",
   location: "Ubicación",
   deep: "Deep",
+  investments: "Inversiones",
   spanish: "Español",
   capacity: "Capacidad de invertir",
   notes: "Notas",
 };
 
-/** A source is accepted only as an absolute http(s) URL, so every link it renders opens something. */
-export const isSourceUrl = (value: string): boolean => {
+/** A URL is accepted only as an absolute http(s) address, so every link it renders opens something. */
+export const isHttpUrl = (value: string): boolean => {
   try {
     const url = new URL(value);
     return url.protocol === "http:" || url.protocol === "https:";
@@ -59,16 +60,21 @@ export const isSourceUrl = (value: string): boolean => {
   }
 };
 
-/**
- * How deep the institution invests: free text plus the sources that back it (one or more URLs). Tolerant on read: a
- * missing or malformed value falls back to empty instead of hiding the whole list.
- */
-export const ListDeepSchema = z.object({
-  text: z.string().nullable().default(null),
-  sources: z.array(z.string()).default([]),
+/** One of the institution's investments: a description and, optionally, one URL where it can be checked. */
+export const InvestmentSchema = z.object({
+  description: z.string().default(""),
+  url: z.string().nullable().default(null),
 });
-export type ListDeep = z.infer<typeof ListDeepSchema>;
-export const EMPTY_DEEP: ListDeep = { text: null, sources: [] };
+export type Investment = z.infer<typeof InvestmentSchema>;
+
+/**
+ * "deep" is free text. It briefly held `{ text, sources }` (sources were dropped for the investments list, none was
+ * ever stored): such a document is read as its text, and becomes a plain string the next time the list is saved.
+ */
+const DeepSchema = z.preprocess(
+  (value) => (value && typeof value === "object" && !Array.isArray(value) ? ((value as { text?: unknown }).text ?? null) : value),
+  z.string().nullable(),
+);
 
 export const ListSchema = z.object({
   name: z.string().min(1).max(NAME_MAX),
@@ -95,10 +101,12 @@ export const ListSchema = z.object({
   ticket: z.string().nullable().default(null),
   website: z.string().nullable().default(null),
   location: z.string().nullable().default(null),
+  deep: DeepSchema.default(null),
   spanish: z.string().nullable().default(null),
   capacity: z.string().nullable().default(null),
-  deep: ListDeepSchema.default(EMPTY_DEEP).catch(EMPTY_DEEP),
   notes: z.string().nullable().default(null),
+  /** The institution's investments, each a description and an optional URL, added from the "Editar" dialog. */
+  investments: z.array(InvestmentSchema).default([]),
   /**
    * The institution's related facts, merged from its members' gold evaluations with semantic duplicates removed
    * (sources of the duplicates united). They describe the institution, so they live here; the per-profile facts stay

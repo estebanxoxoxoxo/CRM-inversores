@@ -1372,58 +1372,70 @@ textarea {
   color: var(--muted);
   overflow-wrap: anywhere;
 }
-.list-info-field.list-info-notes {
+.list-info-field.list-info-block {
   grid-template-columns: 1fr;
   gap: 2px;
 }
-/* Link icon to a field's sources: opens the one source, or a popup when there are several. */
-.source-link {
+/* Paragraph fields keep the line breaks typed in the dialog. */
+.list-info-field.list-info-block dd {
+  white-space: pre-line;
+}
+/* Link icon to a URL (an investment's): opens it in a new tab. */
+.url-link {
   display: inline-flex;
   align-items: center;
-  gap: 2px;
   margin-left: 6px;
   padding: 0 2px;
-  border: none;
-  background: none;
   color: var(--accent);
-  cursor: pointer;
   vertical-align: middle;
 }
-.source-link:hover {
+.url-link:hover {
   opacity: 0.75;
 }
-.source-count {
-  font-size: 0.72rem;
-  font-weight: 700;
-}
-.sources-list {
-  margin: 8px 0 12px;
+/* The investments in the read view: one line per investment, description then its link icon. */
+.investments-list {
+  margin: 0;
   padding-left: 18px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
   overflow-wrap: anywhere;
 }
-/* Deep in the edit dialog: its text, then one row per source. */
-.deep-editor {
+/* A field that takes the full width of the dialog grid (Deep, Español, Capacidad, Notas). */
+.rating-note-grid .wide-field {
+  grid-column: 1 / -1;
+}
+/* Investments in the edit dialog: a full-width block — the title, one card per investment (description, then URL and
+   remove), and the add button. Same outer margin and title spacing as a field label. */
+.investments-editor {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  margin: 12px 0 16px;
+}
+.investment-item {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  min-width: 0;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
 }
-.source-row {
+.investment-url-row {
   display: flex;
   gap: 6px;
   align-items: center;
 }
-.source-row input {
+.investment-url-row input {
   flex: 1;
   min-width: 0;
 }
-.deep-editor input[aria-invalid="true"] {
+.investments-editor input[aria-invalid="true"] {
   border-color: var(--rating-rejected);
 }
-.add-source {
+.add-investment {
   align-self: flex-start;
   font-size: 0.85rem;
 }

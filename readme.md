@@ -148,7 +148,8 @@ Puntos de contacto:
   peor. Al centro: el nombre de la lista grande y centrado, "Calificar" con la calificación (las dimensiones se editan
   ahí pero se muestran en la pestaña VC), y sus perfiles ordenados por nivel como en Bronce. A la derecha, dos
   pestañas: **VC** (las tres dimensiones de calificación, los "Datos del fondo" —tamaño, ticket, página, ubicación,
-  Deep, Español, capacidad de invertir y notas, con "Editar"— y los hechos relevantes mergeados de la lista) y
+  Deep, inversiones, Español, capacidad de invertir y notas, con "Editar"— y los hechos relevantes mergeados de la
+  lista) y
   **Perfil** (la
   ficha del perfil elegido, que alterna Gold/Bronce en el mismo espacio con "Ver en Bronce"/"Ver en Gold"). Elegir una
   lista abre la pestaña VC; elegir un perfil salta a Perfil. En la ficha de un perfil que está en una lista de VCs no
@@ -172,7 +173,8 @@ los ids de inversor, así que dos nombres que slugueen igual son la misma lista 
   "ticket": "1M-3M",
   "website": "https://vc-a.com/",
   "location": "Madrid",
-  "deep": { "text": "Muy deep: infraestructura de IA", "sources": ["https://vc-a.com/portfolio"] },
+  "deep": "Muy deep: infraestructura de IA",
+  "investments": [{ "description": "Seed de Empresa X, agentes para infraestructura", "url": "https://vc-a.com/portfolio" }],
   "spanish": "Todo el equipo habla español",
   "capacity": "Invierte en EE. UU. con cheques de hasta 3M",
   "notes": "Muy deep. Invierte en Europa y EE. UU.",
@@ -181,12 +183,14 @@ los ids de inversor, así que dos nombres que slugueen igual son la misma lista 
 ```
 
 La calificación (`rating` y las tres dimensiones), la información de la institución (`fundSize`, `ticket`, `website`,
-`location`, `spanish`, `capacity`, `notes`, texto libre, y `deep`, que es un texto más sus fuentes) y los hechos
-relevantes (`facts`, mergeados de las evaluaciones gold de sus miembros quitando duplicados semánticos y uniendo sus
-fuentes) viven en la lista, no en los perfiles: describen a la institución, y cada perfil hereda la calificación de su
-lista para el borde de su tarjeta. `setListInfo` escribe sólo los campos de información: las fuentes de `deep` se
-recortan, se deduplican y tienen que ser URLs http(s); en la lectura, un ícono de link al lado de Deep abre la fuente
-cuando es una sola y un popup con todas cuando son varias. `facts` lo escriben migraciones, no la UI.
+`location`, `deep`, `spanish`, `capacity`, `notes`, texto libre, más `investments`, una lista de inversiones con
+descripción y URL opcional) y los hechos relevantes (`facts`, mergeados de las evaluaciones gold de sus miembros
+quitando duplicados semánticos y uniendo sus fuentes) viven en la lista, no en los perfiles: describen a la institución,
+y cada perfil hereda la calificación de su lista para el borde de su tarjeta. `setListInfo` escribe sólo los campos de
+información: una inversión vacía se descarta, una con URL necesita descripción y la URL tiene que ser http(s); en la
+lectura, cada inversión con URL lleva un ícono de link que la abre en una pestaña nueva. `deep` tuvo por un tiempo la
+forma `{ text, sources }`: esos documentos se leen como su texto y pasan a texto simple al guardarse. `facts` lo
+escriben migraciones, no la UI.
 
 `memberIds` se escribe con `arrayUnion` / `arrayRemove`, así que dos ventanas no se pisan. Un id queda colgado cuando el
 perfil sale de `investors`: sigue en el documento y no molesta, porque todo lo que lo lee lo cruza contra los inversores

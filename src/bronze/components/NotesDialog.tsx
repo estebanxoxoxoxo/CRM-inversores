@@ -52,7 +52,7 @@ export default function NotesDialog({ investor, hideVc = false }: { investor: In
         </p>
         <div className="rating-note-grid">
           {RATING_NOTE_FIELDS.filter((field) => !(hideVc && VC_LIST_HIDDEN_NOTE_FIELDS.includes(field))).map((field) => (
-            <label key={field} className="rating-note-row">
+            <label key={field} className={`rating-note-row${field === "ratingNoteNotes" ? " wide-field" : ""}`}>
               <span>{RATING_NOTE_LABELS[field]}</span>
               {field === "ratingNoteNotes" ? (
                 <textarea rows={3} value={fields[field]} disabled={saving} onChange={(e) => setFields((current) => ({ ...current, [field]: e.target.value }))} />

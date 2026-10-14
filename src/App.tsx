@@ -137,17 +137,19 @@ export default function App() {
     if (selectedId) setListsPane("profile");
   }, [selectedId]);
 
-  const visible = useMemo(() => applyFilters(investors, filters), [investors, filters]);
+  // The profiles that belong to some list, for the Bronce "Sólo sin lista" filter.
+  const listedIds = useMemo(() => new Set(listsState.lists.flatMap((list) => list.memberIds)), [listsState.lists]);
+  // The rating each profile inherits from its list, for the card borders and the "Calificación" filters.
+  const listRating = useMemo(() => ratingByInvestor(listsState.lists), [listsState.lists]);
+  const visible = useMemo(() => applyFilters(investors, filters, listedIds, listRating), [investors, filters, listedIds, listRating]);
   const pending = useMemo(() => investors.filter((investor) => investor.audit.status === "pending").length, [investors]);
   const selected = useMemo(() => investors.find((investor) => investor.id === selectedId) ?? null, [investors, selectedId]);
 
   const entries = useMemo(() => joinGold(goldState.evaluations, investors), [goldState.evaluations, investors]);
-  const visibleGold = useMemo(() => applyGoldFilters(entries, goldFilters), [entries, goldFilters]);
+  const visibleGold = useMemo(() => applyGoldFilters(entries, goldFilters, listRating), [entries, goldFilters, listRating]);
   const selectedEntry = useMemo(() => entries.find((entry) => entry.evaluation.investorId === selectedId) ?? null, [entries, selectedId]);
 
   const { lists } = listsState;
-  // The rating each profile inherits from its list, for the card borders in every section.
-  const listRating = useMemo(() => ratingByInvestor(listsState.lists), [listsState.lists]);
   const listCounts = useMemo(() => new Map(lists.map((list) => [list.id, listMembers(list, investors).length])), [lists, investors]);
   const selectedList = useMemo(() => lists.find((list) => list.id === selectedListId) ?? null, [lists, selectedListId]);
   const listProfiles = useMemo(() => (selectedList ? listMembers(selectedList, investors) : []), [selectedList, investors]);
@@ -226,7 +228,7 @@ export default function App() {
         {section === "lists" && <DataNotices error={listsState.error} invalid={listsState.invalid} />}
         {section === "bronze" ? (
           <div className="layout">
-            <FiltersPanel filters={filters} onChange={setFilters} investors={investors} />
+            <FiltersPanel filters={filters} onChange={setFilters} investors={investors} listedIds={listedIds} listRatings={listRating} />
             <main className="results">
               {status === "loading" ? (
                 <p className="empty">Cargando desde Firestore…</p>
@@ -244,7 +246,7 @@ export default function App() {
           </div>
         ) : section === "gold" ? (
           <div className="layout">
-            <GoldFiltersPanel filters={goldFilters} onChange={setGoldFilters} entries={entries} />
+            <GoldFiltersPanel filters={goldFilters} onChange={setGoldFilters} entries={entries} listRatings={listRating} />
             <main className="results">
               {goldState.status === "loading" ? (
                 <p className="empty">Cargando evaluaciones…</p>

@@ -30,7 +30,9 @@ export const GOLD_REGIONS: readonly Region[] = RegionSchema.options;
 /** The team's rating as the section filters by it: the ratings plus "none" for whoever nobody rated, or is no longer in the base. */
 export type GoldRatingFilter = Rating | "none";
 export const GOLD_RATING_OPTIONS: readonly GoldRatingFilter[] = [...RATINGS, "none"];
-export const ratingOf = (entry: GoldEntry): GoldRatingFilter => entry.investor?.rating ?? "none";
+/** The rating the investor inherits from its list (`ratingByInvestor`), the same one its card border shows. */
+export const ratingOf = (entry: GoldEntry, listRatings: ReadonlyMap<string, Rating>): GoldRatingFilter =>
+  (entry.investor ? listRatings.get(entry.investor.id) : undefined) ?? "none";
 
 export type GoldSortKey = "level" | "name" | "date";
 const GOLD_SORT_KEYS: readonly GoldSortKey[] = ["level", "name", "date"];
@@ -54,11 +56,12 @@ export function joinGold(evaluations: Evaluation[], investors: Investor[]): Gold
   return evaluations.map((evaluation) => ({ evaluation, investor: byId.get(evaluation.investorId) ?? null }));
 }
 
-export function applyGoldFilters(entries: GoldEntry[], filters: GoldFilters): GoldEntry[] {
+/** `listRatings`: the rating each investor inherits from its list; it lives on the lists, so the caller passes it in. */
+export function applyGoldFilters(entries: GoldEntry[], filters: GoldFilters, listRatings: ReadonlyMap<string, Rating>): GoldEntry[] {
   const terms = normalize(filters.text.trim()).split(/\s+/).filter(Boolean);
   const matching = entries.filter((entry) => {
     const { evaluation, investor } = entry;
-    if (filters.ratings.length && !filters.ratings.includes(ratingOf(entry))) return false;
+    if (filters.ratings.length && !filters.ratings.includes(ratingOf(entry, listRatings))) return false;
     if (filters.regions.length && !filters.regions.includes(regionOf(entry) as Region)) return false;
     if (terms.length) {
       const reasons = aspectsFor(regionOf(entry)).map((aspect) => evaluation.aspects[aspect]?.reason ?? "");

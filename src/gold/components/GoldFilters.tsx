@@ -11,14 +11,17 @@ import {
   type GoldRatingFilter,
 } from "../lib/filters";
 import { RATING_LABELS, REGION_LABELS, UNRATED_LABEL } from "../../bronze/lib/labels";
+import type { Rating } from "../../bronze/types/investor";
 
 interface Props {
   filters: GoldFilters;
   onChange: (filters: GoldFilters) => void;
   entries: GoldEntry[];
+  /** The rating each investor inherits from its list, for "Calificación". */
+  listRatings: ReadonlyMap<string, Rating>;
 }
 
-export default function GoldFiltersPanel({ filters, onChange, entries }: Props) {
+export default function GoldFiltersPanel({ filters, onChange, entries, listRatings }: Props) {
   const toggle = (key: GoldListFilterKey, value: string) => {
     const current = filters[key] as string[];
     const next = current.includes(value) ? current.filter((v) => v !== value) : [...current, value];
@@ -54,7 +57,7 @@ export default function GoldFiltersPanel({ filters, onChange, entries }: Props) 
           </button>
         </div>
       </div>
-      {group("Calificación", "ratings", GOLD_RATING_OPTIONS, (entry, value) => ratingOf(entry) === value, (v: GoldRatingFilter) => (v === "none" ? UNRATED_LABEL : RATING_LABELS[v]))}
+      {group("Calificación", "ratings", GOLD_RATING_OPTIONS, (entry, value) => ratingOf(entry, listRatings) === value, (v: GoldRatingFilter) => (v === "none" ? UNRATED_LABEL : RATING_LABELS[v]))}
       {group("Región", "regions", GOLD_REGIONS, (entry, value) => regionOf(entry) === value, (v) => REGION_LABELS[v])}
       <fieldset className="group">
         <legend>Otros</legend>

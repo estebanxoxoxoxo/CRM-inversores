@@ -33,6 +33,7 @@ export interface Filters {
   types: InvestorType[];
   emailStatuses: EmailStatus[];
   withLinkedin: boolean;
+  withoutList: boolean;
   sort: SortKey;
 }
 
@@ -48,6 +49,7 @@ export const EMPTY_FILTERS: Filters = {
   types: [],
   emailStatuses: [],
   withLinkedin: false,
+  withoutList: false,
   sort: "level",
 };
 
@@ -67,7 +69,7 @@ const LIST_FILTERS: { key: ListFilterKey; param: string; options: readonly strin
 export function filtersFromUrl(): Filters {
   const params = new URLSearchParams(window.location.search);
   if (![...params.keys()].length) return DEFAULT_FILTERS;
-  const filters: Filters = { ...EMPTY_FILTERS, text: params.get("q") ?? "", withLinkedin: params.get("li") === "1" };
+  const filters: Filters = { ...EMPTY_FILTERS, text: params.get("q") ?? "", withLinkedin: params.get("li") === "1", withoutList: params.get("nolist") === "1" };
   const sort = params.get("sort");
   if (SORT_KEYS.includes(sort as SortKey)) filters.sort = sort as SortKey;
   const min = Number(params.get("min"));
@@ -88,17 +90,23 @@ export function filtersToUrl(filters: Filters): void {
   }
   if (filters.minLevel > 0) params.set("min", String(filters.minLevel));
   if (filters.withLinkedin) params.set("li", "1");
+  if (filters.withoutList) params.set("nolist", "1");
   if (filters.sort !== "level") params.set("sort", filters.sort);
   const query = params.toString();
   window.history.replaceState(null, "", `${query ? `?${query}` : window.location.pathname}${window.location.hash}`);
 }
 
-export const ratingOf = (investor: Investor): RatingFilter => investor.rating ?? UNRATED;
+/** The rating the profile inherits from its list, the same one its card border shows; the profile's own `rating` is legacy. */
+export const ratingOf = (investor: Investor, listRatings: ReadonlyMap<string, Rating>): RatingFilter => listRatings.get(investor.id) ?? UNRATED;
 
-export function applyFilters(investors: Investor[], filters: Filters): Investor[] {
+/**
+ * `listedIds`: the profiles that belong to some list; `listRatings`: the rating each one inherits from its list
+ * (`ratingByInvestor`). Both live on the lists, so the caller passes them in.
+ */
+export function applyFilters(investors: Investor[], filters: Filters, listedIds: ReadonlySet<string>, listRatings: ReadonlyMap<string, Rating>): Investor[] {
   const terms = normalize(filters.text.trim()).split(/\s+/).filter(Boolean);
   const matching = investors.filter((investor) => {
-    if (filters.ratings.length && !filters.ratings.includes(ratingOf(investor))) return false;
+    if (filters.ratings.length && !filters.ratings.includes(ratingOf(investor, listRatings))) return false;
     if (filters.bands.length && !filters.bands.includes(investor.band)) return false;
     if (investor.level < filters.minLevel) return false;
     if (filters.regions.length && !filters.regions.includes(investor.region)) return false;
@@ -106,6 +114,7 @@ export function applyFilters(investors: Investor[], filters: Filters): Investor[
     if (filters.types.length && !filters.types.includes(investor.investorType)) return false;
     if (filters.emailStatuses.length && !filters.emailStatuses.includes(investor.emailStatus)) return false;
     if (filters.withLinkedin && !investor.linkedin) return false;
+    if (filters.withoutList && listedIds.has(investor.id)) return false;
     if (terms.length) {
       const haystack = normalize([investor.name, investor.firm, investor.role, investor.baseCity, investor.stageAndTicket[0] ?? "", investor.audit.reason].join(" · "));
       if (!terms.every((term) => haystack.includes(term))) return false;

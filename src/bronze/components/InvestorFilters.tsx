@@ -1,17 +1,21 @@
 import { DEFAULT_FILTERS, EMPTY_FILTERS, RATING_FILTER_OPTIONS, ratingOf, type Filters, type ListFilterKey, type RatingFilter, type SortKey } from "../lib/filters";
 import { BAND_LABELS, BAND_RANGES, CONFIDENCE_LABELS, EMAIL_STATUS_LABELS, INVESTOR_TYPE_LABELS, RATING_LABELS, REGION_LABELS, UNRATED, UNRATED_LABEL } from "../lib/labels";
-import { BANDS, ConfidenceSchema, EmailStatusSchema, InvestorTypeSchema, RegionSchema, SCORE_TOTAL_MAX, type Investor } from "../types/investor";
+import { BANDS, ConfidenceSchema, EmailStatusSchema, InvestorTypeSchema, RegionSchema, SCORE_TOTAL_MAX, type Investor, type Rating } from "../types/investor";
 
 interface Props {
   filters: Filters;
   onChange: (filters: Filters) => void;
   investors: Investor[];
+  /** Ids of the profiles that belong to some list, for "Sólo sin lista". */
+  listedIds: ReadonlySet<string>;
+  /** The rating each profile inherits from its list, for "Calificación". */
+  listRatings: ReadonlyMap<string, Rating>;
 }
 
 /** "Sin auditar" no es una banda por la que se filtre: los pendientes se avisan en la cabecera. */
 const FILTERABLE_BANDS = BANDS.filter((band) => band !== "unaudited");
 
-export default function FiltersPanel({ filters, onChange, investors }: Props) {
+export default function FiltersPanel({ filters, onChange, investors, listedIds, listRatings }: Props) {
   const toggle = (key: ListFilterKey, value: string) => {
     const current = filters[key] as string[];
     const next = current.includes(value) ? current.filter((v) => v !== value) : [...current, value];
@@ -50,7 +54,7 @@ export default function FiltersPanel({ filters, onChange, investors }: Props) {
           </button>
         </div>
       </div>
-      {group("Calificación", "ratings", RATING_FILTER_OPTIONS, ratingOf, (v: RatingFilter) => (v === UNRATED ? UNRATED_LABEL : RATING_LABELS[v]))}
+      {group("Calificación", "ratings", RATING_FILTER_OPTIONS, (i) => ratingOf(i, listRatings), (v: RatingFilter) => (v === UNRATED ? UNRATED_LABEL : RATING_LABELS[v]))}
       {group("Banda", "bands", FILTERABLE_BANDS, (i) => i.band, (v) => `${BAND_LABELS[v]} (${BAND_RANGES[v]})`)}
       <fieldset className="group">
         <legend>Nivel mínimo: {filters.minLevel}</legend>
@@ -75,6 +79,11 @@ export default function FiltersPanel({ filters, onChange, investors }: Props) {
           <input type="checkbox" checked={filters.withLinkedin} onChange={(e) => onChange({ ...filters, withLinkedin: e.target.checked })} />
           <span className="option-label">Sólo con LinkedIn</span>
           <span className="option-count">{investors.filter((investor) => investor.linkedin).length}</span>
+        </label>
+        <label className="option">
+          <input type="checkbox" checked={filters.withoutList} onChange={(e) => onChange({ ...filters, withoutList: e.target.checked })} />
+          <span className="option-label">Sólo sin lista</span>
+          <span className="option-count">{investors.filter((investor) => !listedIds.has(investor.id)).length}</span>
         </label>
         <label className="option option-select">
           <span className="option-label">Orden</span>
